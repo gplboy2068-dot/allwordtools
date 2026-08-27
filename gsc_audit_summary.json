@@ -1,0 +1,7053 @@
+{
+  "totalRows": 1000,
+  "uniqueQueries": 1000,
+  "totalClicks": 5,
+  "totalImpressions": 3607,
+  "avgCtr": "0.14%",
+  "weightedAvgPos": "62.92",
+  "unweightedAvgPos": "56.26",
+  "groups": {
+    "top3": {
+      "name": "Top 3 (Pos 1-3)",
+      "count": 3,
+      "imp": 7,
+      "clk": 0,
+      "ctr": "0.00%",
+      "pos": "2.60"
+    },
+    "top10": {
+      "name": "Top 10 (Pos 3-10)",
+      "count": 58,
+      "imp": 154,
+      "clk": 3,
+      "ctr": "1.95%",
+      "pos": "7.42"
+    },
+    "striking": {
+      "name": "Striking Distance (Pos 10-20)",
+      "count": 88,
+      "imp": 145,
+      "clk": 0,
+      "ctr": "0.00%",
+      "pos": "18.22"
+    },
+    "page2": {
+      "name": "Page 2 (Pos 20-30)",
+      "count": 73,
+      "imp": 176,
+      "clk": 0,
+      "ctr": "0.00%",
+      "pos": "25.51"
+    },
+    "page3Plus": {
+      "name": "Page 3+ (Pos 30+)",
+      "count": 778,
+      "imp": 3125,
+      "clk": 2,
+      "ctr": "0.06%",
+      "pos": "67.29"
+    }
+  },
+  "allRecords": [
+    {
+      "query": "pronounce words audio",
+      "clicks": 1,
+      "impressions": 15,
+      "ctr": "6.67%",
+      "position": 59.47
+    },
+    {
+      "query": "word explainer",
+      "clicks": 1,
+      "impressions": 11,
+      "ctr": "9.09%",
+      "position": 8.64
+    },
+    {
+      "query": "jawaban codycross",
+      "clicks": 1,
+      "impressions": 9,
+      "ctr": "11.11%",
+      "position": 4.44
+    },
+    {
+      "query": "assonance finder",
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": "50%",
+      "position": 48
+    },
+    {
+      "query": "assonance generator",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": "100%",
+      "position": 4
+    },
+    {
+      "query": "проверка орфографии онлайн",
+      "clicks": 0,
+      "impressions": 77,
+      "ctr": "0%",
+      "position": 47.73
+    },
+    {
+      "query": "проверить на ошибки",
+      "clicks": 0,
+      "impressions": 75,
+      "ctr": "0%",
+      "position": 84.01
+    },
+    {
+      "query": "орфография онлайн",
+      "clicks": 0,
+      "impressions": 67,
+      "ctr": "0%",
+      "position": 55.33
+    },
+    {
+      "query": "проверка на ошибки",
+      "clicks": 0,
+      "impressions": 64,
+      "ctr": "0%",
+      "position": 71.94
+    },
+    {
+      "query": "wordsolver",
+      "clicks": 0,
+      "impressions": 50,
+      "ctr": "0%",
+      "position": 69.76
+    },
+    {
+      "query": "word solver",
+      "clicks": 0,
+      "impressions": 46,
+      "ctr": "0%",
+      "position": 64.2
+    },
+    {
+      "query": "проверить текст на ошибки",
+      "clicks": 0,
+      "impressions": 36,
+      "ctr": "0%",
+      "position": 83.06
+    },
+    {
+      "query": "проверка текста на ошибки",
+      "clicks": 0,
+      "impressions": 29,
+      "ctr": "0%",
+      "position": 86.14
+    },
+    {
+      "query": "исправление ошибок в тексте",
+      "clicks": 0,
+      "impressions": 28,
+      "ctr": "0%",
+      "position": 73.21
+    },
+    {
+      "query": "clan name generator",
+      "clicks": 0,
+      "impressions": 26,
+      "ctr": "0%",
+      "position": 61.58
+    },
+    {
+      "query": "проверка орфографии и пунктуации",
+      "clicks": 0,
+      "impressions": 26,
+      "ctr": "0%",
+      "position": 82.42
+    },
+    {
+      "query": "word generator from letters",
+      "clicks": 0,
+      "impressions": 26,
+      "ctr": "0%",
+      "position": 90
+    },
+    {
+      "query": "проверка орфографии",
+      "clicks": 0,
+      "impressions": 25,
+      "ctr": "0%",
+      "position": 84.16
+    },
+    {
+      "query": "знаки препинания онлайн",
+      "clicks": 0,
+      "impressions": 24,
+      "ctr": "0%",
+      "position": 40.08
+    },
+    {
+      "query": "проверять текст на ошибки",
+      "clicks": 0,
+      "impressions": 24,
+      "ctr": "0%",
+      "position": 69.33
+    },
+    {
+      "query": "syllable counter",
+      "clicks": 0,
+      "impressions": 23,
+      "ctr": "0%",
+      "position": 65.43
+    },
+    {
+      "query": "word pronunciation",
+      "clicks": 0,
+      "impressions": 23,
+      "ctr": "0%",
+      "position": 66.43
+    },
+    {
+      "query": "wordscapes solver",
+      "clicks": 0,
+      "impressions": 22,
+      "ctr": "0%",
+      "position": 31.36
+    },
+    {
+      "query": "проверить правописание",
+      "clicks": 0,
+      "impressions": 22,
+      "ctr": "0%",
+      "position": 89.09
+    },
+    {
+      "query": "проверка текста",
+      "clicks": 0,
+      "impressions": 21,
+      "ctr": "0%",
+      "position": 89.24
+    },
+    {
+      "query": "contador de silabas",
+      "clicks": 0,
+      "impressions": 19,
+      "ctr": "0%",
+      "position": 29.32
+    },
+    {
+      "query": "word maker from letters",
+      "clicks": 0,
+      "impressions": 19,
+      "ctr": "0%",
+      "position": 91.42
+    },
+    {
+      "query": "words in words solver",
+      "clicks": 0,
+      "impressions": 18,
+      "ctr": "0%",
+      "position": 81.5
+    },
+    {
+      "query": "word builder",
+      "clicks": 0,
+      "impressions": 18,
+      "ctr": "0%",
+      "position": 83.78
+    },
+    {
+      "query": "multiple choice vocabulary quiz",
+      "clicks": 0,
+      "impressions": 17,
+      "ctr": "0%",
+      "position": 49.88
+    },
+    {
+      "query": "word help",
+      "clicks": 0,
+      "impressions": 17,
+      "ctr": "0%",
+      "position": 88.41
+    },
+    {
+      "query": "word quiz",
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": "0%",
+      "position": 31.75
+    },
+    {
+      "query": "synonym finder",
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": "0%",
+      "position": 35.25
+    },
+    {
+      "query": "gramatica corrector",
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": "0%",
+      "position": 55
+    },
+    {
+      "query": "solve a word",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": "0%",
+      "position": 84.6
+    },
+    {
+      "query": "проверка грамматика онлайн",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": "0%",
+      "position": 85
+    },
+    {
+      "query": "word generator from words",
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": "0%",
+      "position": 65.21
+    },
+    {
+      "query": "word solvers",
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": "0%",
+      "position": 70.14
+    },
+    {
+      "query": "word puzzle solver",
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": "0%",
+      "position": 70.71
+    },
+    {
+      "query": "anagramador",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": "0%",
+      "position": 4.46
+    },
+    {
+      "query": "проверка текста на запятые",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": "0%",
+      "position": 46.92
+    },
+    {
+      "query": "проверить текст на запятые",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": "0%",
+      "position": 48.23
+    },
+    {
+      "query": "проверка текста на пунктуацию",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": "0%",
+      "position": 63.08
+    },
+    {
+      "query": "rijmwoorden generator",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": "0%",
+      "position": 86.54
+    },
+    {
+      "query": "проверить орфографию и пунктуацию онлайн",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": "0%",
+      "position": 89.38
+    },
+    {
+      "query": "проверка грамматики онлайн",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": "0%",
+      "position": 89.62
+    },
+    {
+      "query": "проверка орфографии онлайн бесплатно",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": "0%",
+      "position": 91.08
+    },
+    {
+      "query": "allword",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": "0%",
+      "position": 5.33
+    },
+    {
+      "query": "words containing",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": "0%",
+      "position": 44.67
+    },
+    {
+      "query": "проверка текста на знаки препинания",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": "0%",
+      "position": 63.17
+    },
+    {
+      "query": "random word generator",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": "0%",
+      "position": 67.5
+    },
+    {
+      "query": "проверка текста на орфографию",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": "0%",
+      "position": 71.33
+    },
+    {
+      "query": "word wheel solver",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": "0%",
+      "position": 73.83
+    },
+    {
+      "query": "проверка орфография и пунктуация",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": "0%",
+      "position": 83.67
+    },
+    {
+      "query": "rearranger",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": "0%",
+      "position": 12.36
+    },
+    {
+      "query": "crossword solver",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": "0%",
+      "position": 71.82
+    },
+    {
+      "query": "word generator with letters",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": "0%",
+      "position": 82.91
+    },
+    {
+      "query": "проверка текста на пунктуацию онлайн",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": "0%",
+      "position": 82.91
+    },
+    {
+      "query": "проверить орфографии и пунктуации онлайн",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": "0%",
+      "position": 85.18
+    },
+    {
+      "query": "проверка правописания онлайн бесплатно",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": "0%",
+      "position": 88.91
+    },
+    {
+      "query": "word maker with letters",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": "0%",
+      "position": 90
+    },
+    {
+      "query": "codycross",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": "0%",
+      "position": 8.9
+    },
+    {
+      "query": "fill in the blanks missing letters",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": "0%",
+      "position": 12.4
+    },
+    {
+      "query": "word builder from letters",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": "0%",
+      "position": 71.9
+    },
+    {
+      "query": "проверить текст на пунктуацию",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": "0%",
+      "position": 80.4
+    },
+    {
+      "query": "allscrabblewords",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": "0%",
+      "position": 80.5
+    },
+    {
+      "query": "find out antonyms",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": "0%",
+      "position": 53.44
+    },
+    {
+      "query": "проверка орфографии и пунктуации онлайн",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": "0%",
+      "position": 86.78
+    },
+    {
+      "query": "antonym finder",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0%",
+      "position": 29.25
+    },
+    {
+      "query": "boggle solver",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0%",
+      "position": 66.12
+    },
+    {
+      "query": "pronounce a word",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0%",
+      "position": 73.88
+    },
+    {
+      "query": "wordsolver net",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0%",
+      "position": 76.38
+    },
+    {
+      "query": "word game helper",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0%",
+      "position": 76.88
+    },
+    {
+      "query": "word grabber letter sorting",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0%",
+      "position": 79.25
+    },
+    {
+      "query": "word maker from words",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0%",
+      "position": 86.12
+    },
+    {
+      "query": "word search solver",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0%",
+      "position": 91
+    },
+    {
+      "query": "проверка пунктуации",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0%",
+      "position": 91.25
+    },
+    {
+      "query": "word maker out of letters",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0%",
+      "position": 91.75
+    },
+    {
+      "query": "проверка пунктуации online",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": "0%",
+      "position": 92.88
+    },
+    {
+      "query": "\"\"vocabulary builder\"\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0%",
+      "position": 5.43
+    },
+    {
+      "query": "fill in letters",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0%",
+      "position": 6.71
+    },
+    {
+      "query": "запятые онлайн",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0%",
+      "position": 20.29
+    },
+    {
+      "query": "правописание онлайн",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0%",
+      "position": 27.57
+    },
+    {
+      "query": "solve word puzzle",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0%",
+      "position": 28.43
+    },
+    {
+      "query": "word rearranger",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0%",
+      "position": 42.57
+    },
+    {
+      "query": "generador de palabras",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0%",
+      "position": 49.14
+    },
+    {
+      "query": "letter solver",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0%",
+      "position": 59.57
+    },
+    {
+      "query": "clan names generator",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0%",
+      "position": 62.57
+    },
+    {
+      "query": "synonyms finder",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0%",
+      "position": 71.86
+    },
+    {
+      "query": "4 letter word generator",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0%",
+      "position": 86.14
+    },
+    {
+      "query": "complete the word",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0%",
+      "position": 86.71
+    },
+    {
+      "query": "words in a word solver",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0%",
+      "position": 90.71
+    },
+    {
+      "query": "word generator using letters",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0%",
+      "position": 91
+    },
+    {
+      "query": "word helper",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": "0%",
+      "position": 94.57
+    },
+    {
+      "query": "проверка запятых",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 19.67
+    },
+    {
+      "query": "проверка на запятые",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "расставить запятые онлайн",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 20.5
+    },
+    {
+      "query": "letter rearranger",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 28.33
+    },
+    {
+      "query": "fill in missing letters",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 28.67
+    },
+    {
+      "query": "пунктуация онлайн",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 28.67
+    },
+    {
+      "query": "проверить пунктуацию онлайн",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 29.17
+    },
+    {
+      "query": "word solver from letters",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 38.5
+    },
+    {
+      "query": "words that end with",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 40.83
+    },
+    {
+      "query": "fill in the blank words solver",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 44.33
+    },
+    {
+      "query": "wordscape solver",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 45.83
+    },
+    {
+      "query": "words containing words",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 50.5
+    },
+    {
+      "query": "anagram solver 2 words",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 52.17
+    },
+    {
+      "query": "word finder missing letters",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 57.17
+    },
+    {
+      "query": "gramática corrector",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 60.83
+    },
+    {
+      "query": "word finder with missing letters",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 64.83
+    },
+    {
+      "query": "synonym generator",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 66.17
+    },
+    {
+      "query": "pronounce words",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 66.33
+    },
+    {
+      "query": "letter word generator",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 67.33
+    },
+    {
+      "query": "word generator",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 67.67
+    },
+    {
+      "query": "word grabber",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 69
+    },
+    {
+      "query": "проверка орфографии онлайн запятые",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 71
+    },
+    {
+      "query": "word game solver",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 75.17
+    },
+    {
+      "query": "rechtschreibprüfung von texten",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 77.67
+    },
+    {
+      "query": "words containing letters generator",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 78.17
+    },
+    {
+      "query": "s o l v e words",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 79.83
+    },
+    {
+      "query": "schreibfehler korrigieren",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 81.5
+    },
+    {
+      "query": "word maker online",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 81.67
+    },
+    {
+      "query": "corrigir texto vírgulas e pontos online grátis",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 83.67
+    },
+    {
+      "query": "solve this word",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 85.67
+    },
+    {
+      "query": "alphabet to word generator",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 86
+    },
+    {
+      "query": "solve the word",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 89
+    },
+    {
+      "query": "орфография ошибки",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 90.83
+    },
+    {
+      "query": "create a word with these letters",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 94.33
+    },
+    {
+      "query": "word formation finder",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 95
+    },
+    {
+      "query": "word builder with letters",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": "0%",
+      "position": 95.17
+    },
+    {
+      "query": "\"\"how many consonants appear in this question, counting only letters other than a, e, i, o, and u, and ignoring case and punctuation?\"\"",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 2.8
+    },
+    {
+      "query": "anagramador scrabble",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 5
+    },
+    {
+      "query": "textprüfer rätsel",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 8.2
+    },
+    {
+      "query": "word generator repeat letters",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 29.4
+    },
+    {
+      "query": "word find wildcards",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 38
+    },
+    {
+      "query": "antonyms finder",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 40.8
+    },
+    {
+      "query": "find antonyms",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 41.4
+    },
+    {
+      "query": "corrector de gramatica",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 47.2
+    },
+    {
+      "query": "word challenge solver",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 48.2
+    },
+    {
+      "query": "wordscapes unscrambler",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 48.8
+    },
+    {
+      "query": "missing letters in words",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 53
+    },
+    {
+      "query": "random paragraph",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 55.8
+    },
+    {
+      "query": "word pronunciation audio",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 58.4
+    },
+    {
+      "query": "4 letter clan tag generator",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 61.8
+    },
+    {
+      "query": "count syllables",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 66.4
+    },
+    {
+      "query": "rechtschreib prüfer",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 69
+    },
+    {
+      "query": "words that include",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 71.8
+    },
+    {
+      "query": "wordsolver uk",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 71.8
+    },
+    {
+      "query": "anagram solver repeat letters",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 74.2
+    },
+    {
+      "query": "words on stream solver",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 74.4
+    },
+    {
+      "query": "complete this word",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 77
+    },
+    {
+      "query": "anagram solver multiple words",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 78.6
+    },
+    {
+      "query": "online korrektur",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 79.6
+    },
+    {
+      "query": "text prüfen auf rechtschreibung",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 80.8
+    },
+    {
+      "query": "guess the word solver",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 81.2
+    },
+    {
+      "query": "comma checker",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 83.2
+    },
+    {
+      "query": "allwords",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 83.8
+    },
+    {
+      "query": "punctuation checker",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 84.6
+    },
+    {
+      "query": "проверить текст",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 86.4
+    },
+    {
+      "query": "word-grabber words",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 87.2
+    },
+    {
+      "query": "how to sound out words",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 87.8
+    },
+    {
+      "query": "words with letters generator",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 87.8
+    },
+    {
+      "query": "words help",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 91.4
+    },
+    {
+      "query": "letter to word generator",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 93
+    },
+    {
+      "query": "words in words",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 93
+    },
+    {
+      "query": "letters to words",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": "0%",
+      "position": 98
+    },
+    {
+      "query": "жизнь по шаблону 6 букв",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 10.75
+    },
+    {
+      "query": "phrase dictionary",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 11
+    },
+    {
+      "query": "word solver finder",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 18.75
+    },
+    {
+      "query": "word quizzes",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 21.5
+    },
+    {
+      "query": "similar word generator",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 22.25
+    },
+    {
+      "query": "word solve",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 25.25
+    },
+    {
+      "query": "word.solver",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 26.75
+    },
+    {
+      "query": "исправить ошибки в тексте",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 30.75
+    },
+    {
+      "query": "проверить знаки препинания онлайн",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 31
+    },
+    {
+      "query": "расставление знаков препинания онлайн",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 31
+    },
+    {
+      "query": "проверить запятые",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 33
+    },
+    {
+      "query": "word solver puzzle",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 37.75
+    },
+    {
+      "query": "word synonym finder",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 39.75
+    },
+    {
+      "query": "words ending with",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 40.25
+    },
+    {
+      "query": "arrange the words correctly",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 40.5
+    },
+    {
+      "query": "wildcard word search",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 42.25
+    },
+    {
+      "query": "unscramble word cookies answers",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 43.5
+    },
+    {
+      "query": "dictionary wildcard search",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 43.75
+    },
+    {
+      "query": "buscador de palabras",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 46
+    },
+    {
+      "query": "corretor de texto",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 47.5
+    },
+    {
+      "query": "missing letters in a word solver",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 49
+    },
+    {
+      "query": "words with missing letters",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 49.75
+    },
+    {
+      "query": "word in word solver",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 50.75
+    },
+    {
+      "query": "words puzzle solver",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 52.75
+    },
+    {
+      "query": "wordscapes unscramble",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 53.5
+    },
+    {
+      "query": "antonym generator",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 56.25
+    },
+    {
+      "query": "containing words",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 56.5
+    },
+    {
+      "query": "word solver tool",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 57.25
+    },
+    {
+      "query": "corrector de comas",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 59
+    },
+    {
+      "query": "anagram finder multiple words",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 60
+    },
+    {
+      "query": "how to pronounce word",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 64
+    },
+    {
+      "query": "random generator of words",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 64
+    },
+    {
+      "query": "anagram solver missing letters",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 64.5
+    },
+    {
+      "query": "how to pronounce any word",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 68
+    },
+    {
+      "query": "anagrams solver",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 69.25
+    },
+    {
+      "query": "robot name generator",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 70.5
+    },
+    {
+      "query": "word maker by letters",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 70.5
+    },
+    {
+      "query": "solve words",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 72.25
+    },
+    {
+      "query": "word unscrambler anagram solver",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 72.5
+    },
+    {
+      "query": "corrector de oraciones",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 73
+    },
+    {
+      "query": "wordle solver",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 73.5
+    },
+    {
+      "query": "anagram solver words",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 73.75
+    },
+    {
+      "query": "word generator from letters no limit",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 73.75
+    },
+    {
+      "query": "corrector de texto",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 75.25
+    },
+    {
+      "query": "corretor de gramatica",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 75.75
+    },
+    {
+      "query": "wordsolver crossword",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 75.75
+    },
+    {
+      "query": "word grabber letter sorter",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 78
+    },
+    {
+      "query": "word maker enter letters",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 78.5
+    },
+    {
+      "query": "word find solver",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 80.25
+    },
+    {
+      "query": "corretor de texto e pontuação",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 81.5
+    },
+    {
+      "query": "word creator out of letters",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 82.5
+    },
+    {
+      "query": "how many words can you make out of this word",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 84
+    },
+    {
+      "query": "word from letter generator",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 84.25
+    },
+    {
+      "query": "wordon helper english",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 84.5
+    },
+    {
+      "query": "word grabber words",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 85.25
+    },
+    {
+      "query": "passive to active voice generator",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 85.5
+    },
+    {
+      "query": "letter word creator",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 87
+    },
+    {
+      "query": "letters to make words generator",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 87.75
+    },
+    {
+      "query": "solve word",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 88.5
+    },
+    {
+      "query": "word helper game",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 88.75
+    },
+    {
+      "query": "wordbuilder solver",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 89.5
+    },
+    {
+      "query": "word matcher",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 89.75
+    },
+    {
+      "query": "spell a word",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 90
+    },
+    {
+      "query": "words using",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 91.5
+    },
+    {
+      "query": "word letter generator",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 91.75
+    },
+    {
+      "query": "word combinations generator",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 92
+    },
+    {
+      "query": "проверка орфография",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 92.25
+    },
+    {
+      "query": "how many words from these letters",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 92.5
+    },
+    {
+      "query": "letter solver and words maker",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 97.5
+    },
+    {
+      "query": "how many words can you make with these letters",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": "0%",
+      "position": 99.25
+    },
+    {
+      "query": "wildcard word finder",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 5
+    },
+    {
+      "query": "results from inputs codycross",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 5.33
+    },
+    {
+      "query": "تكوين كلمات من حروف مبعثرة بالانجليزي",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 6
+    },
+    {
+      "query": "استفسارات بحث عن اجابات كلمات متقاطعة",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 6.67
+    },
+    {
+      "query": "sirve para saber cuanto cuando y hasta donde crucigrama 6 letras",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 9
+    },
+    {
+      "query": "решатель вордли на английском",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 11.33
+    },
+    {
+      "query": "similar word finder",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 16
+    },
+    {
+      "query": "make a word",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 18.67
+    },
+    {
+      "query": "puzzle words solver",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 19
+    },
+    {
+      "query": "letter puzzle solver",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "letter solver and word maker",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "расставить знаки препинания онлайн в тексте автоматически в русском языке",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 20.33
+    },
+    {
+      "query": "wordscapes solitaire helper",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 24.67
+    },
+    {
+      "query": "проверка пунктуации онлайн",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 25
+    },
+    {
+      "query": "similar words generator",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 32.67
+    },
+    {
+      "query": "расставление запятых онлайн",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 32.67
+    },
+    {
+      "query": "исправитель ошибок в тексте",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 35.33
+    },
+    {
+      "query": "puzzle word solver",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 38
+    },
+    {
+      "query": "генератор запятых",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 38
+    },
+    {
+      "query": "corrector de signos de puntuación",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 39.67
+    },
+    {
+      "query": "text twist unscrambler",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 40
+    },
+    {
+      "query": "word unscrambler wordscapes",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 40.33
+    },
+    {
+      "query": "word solver solver",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 40.67
+    },
+    {
+      "query": "words that start with word",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 40.67
+    },
+    {
+      "query": "words solver",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 42
+    },
+    {
+      "query": "проверка текста на ошибки онлайн",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 42.33
+    },
+    {
+      "query": "words that contain",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 44.33
+    },
+    {
+      "query": "fill in the blank words",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 45.33
+    },
+    {
+      "query": "word guesser from letters",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 45.33
+    },
+    {
+      "query": "corrector de puntos y comas",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 45.67
+    },
+    {
+      "query": "letters to words solver",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 46
+    },
+    {
+      "query": "words starting with word",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 46
+    },
+    {
+      "query": "word solutions",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 46.33
+    },
+    {
+      "query": "word containing",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 47
+    },
+    {
+      "query": "random paragraph generator",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 48
+    },
+    {
+      "query": "missing letter word finder",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 48.33
+    },
+    {
+      "query": "word pronunciation online",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 49.67
+    },
+    {
+      "query": "wordscape unscrambler",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 51.33
+    },
+    {
+      "query": "проверить запятые онлайн",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 51.33
+    },
+    {
+      "query": "anagram solver two words",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 52
+    },
+    {
+      "query": "randomizador de palabras",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 52
+    },
+    {
+      "query": "letters missing from words",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 52.33
+    },
+    {
+      "query": "wordesolver",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 53.33
+    },
+    {
+      "query": "проверка на запятые онлайн",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 53.33
+    },
+    {
+      "query": "find words with missing letters",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 53.67
+    },
+    {
+      "query": "find the missing letters in a word",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 54.67
+    },
+    {
+      "query": "корректор текста",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 55
+    },
+    {
+      "query": "passive voice corrector",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 55.67
+    },
+    {
+      "query": "reading misspelled words test",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 55.67
+    },
+    {
+      "query": "opposite dictionary",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 56
+    },
+    {
+      "query": "missing letters solver",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 57
+    },
+    {
+      "query": "محرر لغوي",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 58.33
+    },
+    {
+      "query": "find a word with missing letters",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 58.67
+    },
+    {
+      "query": "fill in the blanks solver",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 60
+    },
+    {
+      "query": "wordfinder missing letters",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 60
+    },
+    {
+      "query": "anagram two words",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 60.33
+    },
+    {
+      "query": "pronounce any word",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 60.33
+    },
+    {
+      "query": "مدقق لغوي",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 60.67
+    },
+    {
+      "query": "random word generator from letters",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 61.33
+    },
+    {
+      "query": "проверка слов онлайн",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 61.67
+    },
+    {
+      "query": "cool robot names",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 62.33
+    },
+    {
+      "query": "fill in the blank solver",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 62.67
+    },
+    {
+      "query": "words including",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 62.67
+    },
+    {
+      "query": "random generator words",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 63.33
+    },
+    {
+      "query": "pronunciation of words online",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 64
+    },
+    {
+      "query": "top misspelled words quiz",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 64.33
+    },
+    {
+      "query": "words generator",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 65
+    },
+    {
+      "query": "find a word solver",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 65.33
+    },
+    {
+      "query": "scrabble helper win every game",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 65.33
+    },
+    {
+      "query": "4 letter wordle help",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 65.67
+    },
+    {
+      "query": "random generator word",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 66
+    },
+    {
+      "query": "проверить орфографию",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 66.33
+    },
+    {
+      "query": "anagram solver with missing letters",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 66.67
+    },
+    {
+      "query": "buscador de palabras con letras dadas",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 67
+    },
+    {
+      "query": "rechtschreib check",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 67
+    },
+    {
+      "query": "synonyms searcher",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 68.33
+    },
+    {
+      "query": "syllable count",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 68.67
+    },
+    {
+      "query": "anagram solver with blanks",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 69
+    },
+    {
+      "query": "corrector de textos puntos y comas gratis",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 69.33
+    },
+    {
+      "query": "corretor gramatical",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 69.67
+    },
+    {
+      "query": "wordhelp",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 69.67
+    },
+    {
+      "query": "pronounce of word",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 70
+    },
+    {
+      "query": "word finder with letters",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 70
+    },
+    {
+      "query": "word pronouciation",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 70.67
+    },
+    {
+      "query": "online word solver",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 71.67
+    },
+    {
+      "query": "passive voice fixer",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 71.67
+    },
+    {
+      "query": "anagram solver 5 letters",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 72.33
+    },
+    {
+      "query": "word finder anagram",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 72.33
+    },
+    {
+      "query": "wordsolver anagram",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 72.33
+    },
+    {
+      "query": "word wheel cheat",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 72.67
+    },
+    {
+      "query": "anagram word finder",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 73.33
+    },
+    {
+      "query": "pronounce word",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 74
+    },
+    {
+      "query": "ladder unscramble",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 74.67
+    },
+    {
+      "query": "pronunciation any word",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 74.67
+    },
+    {
+      "query": "word tips anagram solver",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 75.33
+    },
+    {
+      "query": "anagram solver 20 letters",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 75.67
+    },
+    {
+      "query": "how to pronounce any word in english",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 76.67
+    },
+    {
+      "query": "code cracker solver missing letters free",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 77
+    },
+    {
+      "query": "ipa transcription online",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 77.33
+    },
+    {
+      "query": "word polygon solver",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 77.67
+    },
+    {
+      "query": "anagram solver cheat",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 78
+    },
+    {
+      "query": "anagram words list",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 78
+    },
+    {
+      "query": "online korrektur rechtschreibung",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 78
+    },
+    {
+      "query": "codeword solver online",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 78.67
+    },
+    {
+      "query": "crossword help",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 78.67
+    },
+    {
+      "query": "texte online prüfen",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 79
+    },
+    {
+      "query": "typo adder",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 79
+    },
+    {
+      "query": "allscrabbleword",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 79.33
+    },
+    {
+      "query": "sentence generator from words",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 79.33
+    },
+    {
+      "query": "проверка запятых онлайн",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 79.67
+    },
+    {
+      "query": "synonym searcher",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 81
+    },
+    {
+      "query": "grammatik check",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 81.33
+    },
+    {
+      "query": "letters to words generator",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 82
+    },
+    {
+      "query": "wordsover",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 82
+    },
+    {
+      "query": "проверить пунктуацию",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 82.33
+    },
+    {
+      "query": "word game puzzle solver",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 83
+    },
+    {
+      "query": "word ladder solver",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 83
+    },
+    {
+      "query": "longest word generator",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 83.33
+    },
+    {
+      "query": "word builder solver",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 83.67
+    },
+    {
+      "query": "word creator using letters",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 83.67
+    },
+    {
+      "query": "how many words out of these letters",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 84.33
+    },
+    {
+      "query": "make words with these letters generator",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 85.33
+    },
+    {
+      "query": "word filler solver",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 85.67
+    },
+    {
+      "query": "words generator from letters",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 86
+    },
+    {
+      "query": "find all words",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 87.67
+    },
+    {
+      "query": "word decoder generator",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 88
+    },
+    {
+      "query": "link word solver",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 88.33
+    },
+    {
+      "query": "wordmatch solver",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 88.33
+    },
+    {
+      "query": "проверка слов",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 88.33
+    },
+    {
+      "query": "проверка правописания",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 88.67
+    },
+    {
+      "query": "word generator given letters",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 89.33
+    },
+    {
+      "query": "alliteration helper",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 90
+    },
+    {
+      "query": "word finder with letters and blanks",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 90.33
+    },
+    {
+      "query": "word maker using letters",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 90.33
+    },
+    {
+      "query": "правописание слов",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 90.33
+    },
+    {
+      "query": "how many words can you make from this word",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 91
+    },
+    {
+      "query": "wordwheel solver",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 91
+    },
+    {
+      "query": "code word finder",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 91.33
+    },
+    {
+      "query": "word search finder solver",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 91.33
+    },
+    {
+      "query": "3 letter word generator",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 92
+    },
+    {
+      "query": "create words from letters game",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 92
+    },
+    {
+      "query": "universal anagram solver",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 93.33
+    },
+    {
+      "query": "word solution",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 95.33
+    },
+    {
+      "query": "punctuation check",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 95.67
+    },
+    {
+      "query": "проверка текста онлайн",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 96.67
+    },
+    {
+      "query": "find words containing these letters",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": "0%",
+      "position": 97.33
+    },
+    {
+      "query": "termo solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 4
+    },
+    {
+      "query": "حروف مبعثرة لتكوين كلمات",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 6.5
+    },
+    {
+      "query": "how many times does the letter j appear in the word arrow",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 7
+    },
+    {
+      "query": "multiple choice vocabulary quiz free",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 7
+    },
+    {
+      "query": "word finder wildcards",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 7
+    },
+    {
+      "query": "\"\"any word\"\" meaning",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 7.5
+    },
+    {
+      "query": "crucigrama solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 8
+    },
+    {
+      "query": "word search with wildcards",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 8
+    },
+    {
+      "query": "collocation finder",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 8.5
+    },
+    {
+      "query": "is there a dictionary that shows common phrases with a word?",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 8.5
+    },
+    {
+      "query": "silben zähler",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 8.5
+    },
+    {
+      "query": "arrange with others seven little words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 9
+    },
+    {
+      "query": "word finder wildcard",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 9
+    },
+    {
+      "query": "антонимы онлайн",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 9.5
+    },
+    {
+      "query": "scrimshaw 7 little words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 10
+    },
+    {
+      "query": "اختار حرف عربي عشوائي",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 10
+    },
+    {
+      "query": "opposite word finder",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 14
+    },
+    {
+      "query": "missing letters in a word",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 16.5
+    },
+    {
+      "query": "مولد الكلمات العشوائية عربي",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 17
+    },
+    {
+      "query": "исправить грамматические ошибки",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 18.5
+    },
+    {
+      "query": "исправление грамматических ошибок онлайн",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 18.5
+    },
+    {
+      "query": "онлайн исправление текста",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 18.5
+    },
+    {
+      "query": "проверить знаки препинания",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 19.5
+    },
+    {
+      "query": "related words generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 20.5
+    },
+    {
+      "query": "исправление ошибок",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 20.5
+    },
+    {
+      "query": "make a phrase with these letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 21
+    },
+    {
+      "query": "opposite finder",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 21
+    },
+    {
+      "query": "similar words finder",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 21
+    },
+    {
+      "query": "solving word puzzles",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 21
+    },
+    {
+      "query": "opposite words finder",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 21.5
+    },
+    {
+      "query": "words that end",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 22
+    },
+    {
+      "query": "grammatik checker",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 22.5
+    },
+    {
+      "query": "проверка ошибок в тексте онлайн бесплатно",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 22.5
+    },
+    {
+      "query": "words tools",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 26
+    },
+    {
+      "query": "comptador de síl·labes",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 27.5
+    },
+    {
+      "query": "opposite word search",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 30
+    },
+    {
+      "query": "words or phrases",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 32
+    },
+    {
+      "query": "расставить знаки препинания онлайн",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 32.5
+    },
+    {
+      "query": "text twist grecni",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 34.5
+    },
+    {
+      "query": "proper name wheel of fortune 2 words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 37
+    },
+    {
+      "query": "encontrar sinônimo",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 37.5
+    },
+    {
+      "query": "laddergram solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 37.5
+    },
+    {
+      "query": "words with ends",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 37.5
+    },
+    {
+      "query": "words quizzes",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 38
+    },
+    {
+      "query": "word starts with",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 38.5
+    },
+    {
+      "query": "words that end with with",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 39.5
+    },
+    {
+      "query": "pronunciation of a word on audio",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 40
+    },
+    {
+      "query": "names for androids",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 41.5
+    },
+    {
+      "query": "resolver anagramas",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 41.5
+    },
+    {
+      "query": "less than 7 little words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 42
+    },
+    {
+      "query": "wordscapes anagram solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 42
+    },
+    {
+      "query": "ipa converter",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 43.5
+    },
+    {
+      "query": "word finder with letters missing",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 43.5
+    },
+    {
+      "query": "find opposite word",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 44.5
+    },
+    {
+      "query": "anagram solver word finder",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 45.5
+    },
+    {
+      "query": "поставить запятые онлайн",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 45.5
+    },
+    {
+      "query": "anagrama resolver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 46
+    },
+    {
+      "query": "fill in the missing letters in words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 46
+    },
+    {
+      "query": "search opposite word",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 46
+    },
+    {
+      "query": "antonyms search",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 46.5
+    },
+    {
+      "query": "missing letters in word",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 46.5
+    },
+    {
+      "query": "word find missing letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 46.5
+    },
+    {
+      "query": "запятые онлайн проверка",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 47
+    },
+    {
+      "query": "buscador de palabras anagramas",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 48
+    },
+    {
+      "query": "words containing word",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 48
+    },
+    {
+      "query": "исправитель ошибок",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 48
+    },
+    {
+      "query": "buscador de palabras con letras",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 48.5
+    },
+    {
+      "query": "где ставить запятые онлайн",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 48.5
+    },
+    {
+      "query": "проверить слова на ошибки",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 48.5
+    },
+    {
+      "query": "words containing these letters in order",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 49
+    },
+    {
+      "query": "antonym search",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 49.5
+    },
+    {
+      "query": "synonym antonym finder",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 49.5
+    },
+    {
+      "query": "проверка слов на ошибки",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 49.5
+    },
+    {
+      "query": "поставить знаки препинания онлайн",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 50.5
+    },
+    {
+      "query": "find words containing",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 51
+    },
+    {
+      "query": "missing letters for words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 51
+    },
+    {
+      "query": "word solver letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 51
+    },
+    {
+      "query": "missing letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 51.5
+    },
+    {
+      "query": "missing letters word",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 51.5
+    },
+    {
+      "query": "ortografia corrector",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 51.5
+    },
+    {
+      "query": "сайт для проверки ошибок",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 51.5
+    },
+    {
+      "query": "corrector de signos de comas",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 52
+    },
+    {
+      "query": "word solver with blanks",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 52
+    },
+    {
+      "query": "words that start with words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 52
+    },
+    {
+      "query": "containing word",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 52.5
+    },
+    {
+      "query": "find synonyms for words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 52.5
+    },
+    {
+      "query": "letters to a word",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 52.5
+    },
+    {
+      "query": "unscramble wordscapes",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 52.5
+    },
+    {
+      "query": "link words solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 53.5
+    },
+    {
+      "query": "word search wildcards",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 53.5
+    },
+    {
+      "query": "word pronunciation tool",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 54
+    },
+    {
+      "query": "words that contain words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 54
+    },
+    {
+      "query": "find words containing certain letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 54.5
+    },
+    {
+      "query": "anagram finder free",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 55.5
+    },
+    {
+      "query": "robot dog name generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 55.5
+    },
+    {
+      "query": "fill in the blanks words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 56
+    },
+    {
+      "query": "syllable checker",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 56
+    },
+    {
+      "query": "how many words are in these letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 56.5
+    },
+    {
+      "query": "corrector de redacción",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 57
+    },
+    {
+      "query": "words with letters missing",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 57
+    },
+    {
+      "query": "wordscapes cheat and answers by word finder",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 57
+    },
+    {
+      "query": "missing letter search",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 57.5
+    },
+    {
+      "query": "use every letter anagram solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 57.5
+    },
+    {
+      "query": "cvc word generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 58
+    },
+    {
+      "query": "futuristic names for robots",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 58
+    },
+    {
+      "query": "syllable finder",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 58.5
+    },
+    {
+      "query": "word finder fill in blanks",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 58.5
+    },
+    {
+      "query": "fill in blank letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 59
+    },
+    {
+      "query": "правка текста",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 59
+    },
+    {
+      "query": "give me a random word",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 59.5
+    },
+    {
+      "query": "rearrange letter",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 59.5
+    },
+    {
+      "query": "antonym search engine",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 60
+    },
+    {
+      "query": "word finder win every game",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 60
+    },
+    {
+      "query": "anagrams words list",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 60.5
+    },
+    {
+      "query": "grammar check español",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 60.5
+    },
+    {
+      "query": "how to pronounce these words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 60.5
+    },
+    {
+      "query": "corretor língua portuguesa",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 61
+    },
+    {
+      "query": "pronunciate is it a word",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 61.5
+    },
+    {
+      "query": "syllables check",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 61.5
+    },
+    {
+      "query": "anagrams two words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 62
+    },
+    {
+      "query": "syllables counter",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 62
+    },
+    {
+      "query": "составить слово из заданных букв онлайн",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 62
+    },
+    {
+      "query": "word solver uk",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 62.5
+    },
+    {
+      "query": "corretor portugues",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 63
+    },
+    {
+      "query": "guild name generator with keywords",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 63
+    },
+    {
+      "query": "how many words from",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 63
+    },
+    {
+      "query": "how to say a word",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 63
+    },
+    {
+      "query": "word pronounce",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 63
+    },
+    {
+      "query": "random generator letter",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 63.5
+    },
+    {
+      "query": "missing letters anagram solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 64
+    },
+    {
+      "query": "pick a word generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 64
+    },
+    {
+      "query": "random word generator with letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 64
+    },
+    {
+      "query": "word randomizer",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 64
+    },
+    {
+      "query": "phonetic spelling converter",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 65.5
+    },
+    {
+      "query": "wordhelp anagram",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 65.5
+    },
+    {
+      "query": "daily word wheel cheat",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 66.5
+    },
+    {
+      "query": "droid name generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 66.5
+    },
+    {
+      "query": "missing letters word finder",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 66.5
+    },
+    {
+      "query": "phonetic converter",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 66.5
+    },
+    {
+      "query": "synonyms checker",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 66.5
+    },
+    {
+      "query": "randomizer word generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 67.5
+    },
+    {
+      "query": "ladder word solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 68.5
+    },
+    {
+      "query": "wildcard dictionary",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 68.5
+    },
+    {
+      "query": "anagram finder with blanks",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 69
+    },
+    {
+      "query": "randomizer word",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 69.5
+    },
+    {
+      "query": "comma grammar check",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 70
+    },
+    {
+      "query": "where do i find tools in word",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 70
+    },
+    {
+      "query": "anagram solver 2 words with letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 70.5
+    },
+    {
+      "query": "anagramfinder",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 70.5
+    },
+    {
+      "query": "corrector gramatical",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 70.5
+    },
+    {
+      "query": "rechtschreibung überprüfen",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 70.5
+    },
+    {
+      "query": "sentence generator from word",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 70.5
+    },
+    {
+      "query": "where did the word word come from",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 70.5
+    },
+    {
+      "query": "word finder anagrams",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 71
+    },
+    {
+      "query": "word finder with repeated letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 71
+    },
+    {
+      "query": "word random generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 71
+    },
+    {
+      "query": "convert in passive voice",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 71.5
+    },
+    {
+      "query": "random word combination generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 71.5
+    },
+    {
+      "query": "syllables generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 71.5
+    },
+    {
+      "query": "best random word generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 72
+    },
+    {
+      "query": "best synonym finder",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 72
+    },
+    {
+      "query": "solve crossword",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 72
+    },
+    {
+      "query": "antonyms for words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 72.5
+    },
+    {
+      "query": "crossword clue solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 72.5
+    },
+    {
+      "query": "word generators",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 72.5
+    },
+    {
+      "query": "anagram of letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 73
+    },
+    {
+      "query": "anagram solver multiple word",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 73.5
+    },
+    {
+      "query": "corrector español",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 73.5
+    },
+    {
+      "query": "seven letter word puzzle",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 73.5
+    },
+    {
+      "query": "word anagram solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 73.5
+    },
+    {
+      "query": "creative word generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 74
+    },
+    {
+      "query": "linkword solver online free",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 74
+    },
+    {
+      "query": "anagram help",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 75
+    },
+    {
+      "query": "find words containing letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 75
+    },
+    {
+      "query": "missing letters in words solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 75
+    },
+    {
+      "query": "unscramble anagram",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 75
+    },
+    {
+      "query": "words that include letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 75
+    },
+    {
+      "query": "how many word can you make with these letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 75.5
+    },
+    {
+      "query": "korrektur online",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 75.5
+    },
+    {
+      "query": "word help anagrams",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 75.5
+    },
+    {
+      "query": "word finder with repeat letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 76
+    },
+    {
+      "query": "word solver anagram",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 76
+    },
+    {
+      "query": "corrector ortografico",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 76.5
+    },
+    {
+      "query": "letter solver word maker",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 76.5
+    },
+    {
+      "query": "sentences maker for vocabulary words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 76.5
+    },
+    {
+      "query": "corretor de texto e virgula",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 77
+    },
+    {
+      "query": "find synonyms online",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 77
+    },
+    {
+      "query": "how many words can you make out of these letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 77
+    },
+    {
+      "query": "text korrektur online",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 77
+    },
+    {
+      "query": "active to passive converter",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 77.5
+    },
+    {
+      "query": "anagram solver multi word",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 77.5
+    },
+    {
+      "query": "anagrams with these letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 77.5
+    },
+    {
+      "query": "corrector de ortografía",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 77.5
+    },
+    {
+      "query": "corrector de textos",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 78.5
+    },
+    {
+      "query": "corretor ortográfico profissional",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 78.5
+    },
+    {
+      "query": "правильно написать текст",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 78.5
+    },
+    {
+      "query": "8 letter word generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 79
+    },
+    {
+      "query": "anagram multi word",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 79
+    },
+    {
+      "query": "anagram solver with repeat letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 79
+    },
+    {
+      "query": "find this word with missing letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 79
+    },
+    {
+      "query": "anagram word scrambler",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 79.5
+    },
+    {
+      "query": "corregir texto",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 79.5
+    },
+    {
+      "query": "crossword crossword solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 79.5
+    },
+    {
+      "query": "rechtschreibung prüfen",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 79.5
+    },
+    {
+      "query": "как проверить предложение на запятые",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 79.5
+    },
+    {
+      "query": "find as many words as you can with these letters online",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 80
+    },
+    {
+      "query": "wheel words solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 80
+    },
+    {
+      "query": "what word links these 3 words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 80.5
+    },
+    {
+      "query": "how many words can you make from the word",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 81
+    },
+    {
+      "query": "random team name generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 81
+    },
+    {
+      "query": "tradutor de correção de texto",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 81
+    },
+    {
+      "query": "word in a sentence generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 81.5
+    },
+    {
+      "query": "word wheel answers",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 81.5
+    },
+    {
+      "query": "wordtips anagram solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 81.5
+    },
+    {
+      "query": "how many words in these letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 82
+    },
+    {
+      "query": "word anagram",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 82.5
+    },
+    {
+      "query": "word scramble tools",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 82.5
+    },
+    {
+      "query": "corretor de texto grátis",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 83
+    },
+    {
+      "query": "how many words you can make with these letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 83
+    },
+    {
+      "query": "long word solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 83
+    },
+    {
+      "query": "make a word from these letters generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 83
+    },
+    {
+      "query": "word finder with blanks",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 83
+    },
+    {
+      "query": "word wheel solutions",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 83
+    },
+    {
+      "query": "make a word with these letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 83.5
+    },
+    {
+      "query": "word finder repeat letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 83.5
+    },
+    {
+      "query": "ortografia online",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 84
+    },
+    {
+      "query": "проверить текст на расстановку знаков препинания онлайн",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 84
+    },
+    {
+      "query": "fill in the blank word solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 84.5
+    },
+    {
+      "query": "passive voice converter",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 84.5
+    },
+    {
+      "query": "anagram scramble",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 85
+    },
+    {
+      "query": "corretor ortografico portugues",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 85
+    },
+    {
+      "query": "solve word games",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 85
+    },
+    {
+      "query": "wordplay solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 85
+    },
+    {
+      "query": "worldsolver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 85
+    },
+    {
+      "query": "проверка текста на ошибки онлайн бесплатно",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 85
+    },
+    {
+      "query": "corretor de textos",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 86
+    },
+    {
+      "query": "how to find a term",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 86
+    },
+    {
+      "query": "punctuation fixer",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 86
+    },
+    {
+      "query": "wordle solving tool",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 86
+    },
+    {
+      "query": "world solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 86
+    },
+    {
+      "query": "проверка пунктуации онлайн бесплатно",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 86
+    },
+    {
+      "query": "4 letter words generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 86.5
+    },
+    {
+      "query": "corretor de ortografia",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 86.5
+    },
+    {
+      "query": "figure out this word",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 86.5
+    },
+    {
+      "query": "word decoder",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 86.5
+    },
+    {
+      "query": "dictionary search with wildcards",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 87
+    },
+    {
+      "query": "10 letter wordle solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 87.5
+    },
+    {
+      "query": "word link solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 87.5
+    },
+    {
+      "query": "words in words generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 87.5
+    },
+    {
+      "query": "corretor online de texto",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 88
+    },
+    {
+      "query": "how many words can you make with these letters game",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 88
+    },
+    {
+      "query": "solving words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 88
+    },
+    {
+      "query": "word wheel puzzle solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 88
+    },
+    {
+      "query": "программа для исправление ошибок в тексте",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 88
+    },
+    {
+      "query": "word grid solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 88.5
+    },
+    {
+      "query": "correcao de palavras",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 89
+    },
+    {
+      "query": "letters in words generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 89
+    },
+    {
+      "query": "word finder with repeating letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 89
+    },
+    {
+      "query": "word lookup by letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 89
+    },
+    {
+      "query": "words from words generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 89
+    },
+    {
+      "query": "words with origin",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 89
+    },
+    {
+      "query": "7 letter word guesser",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 89.5
+    },
+    {
+      "query": "automatic word search solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 89.5
+    },
+    {
+      "query": "corrija gramaticalmente",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 89.5
+    },
+    {
+      "query": "online korrektur von texten",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 89.5
+    },
+    {
+      "query": "word generator by letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 89.5
+    },
+    {
+      "query": "find a word help",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 90
+    },
+    {
+      "query": "find words in words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 90
+    },
+    {
+      "query": "letter words generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 90
+    },
+    {
+      "query": "solve the word search",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 90
+    },
+    {
+      "query": "vocabulary test generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 90
+    },
+    {
+      "query": "word finder helper",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 90
+    },
+    {
+      "query": "word generator with letter",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 90
+    },
+    {
+      "query": "wordfind solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 90
+    },
+    {
+      "query": "wordplay help",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 90
+    },
+    {
+      "query": "words solve",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 90
+    },
+    {
+      "query": "anagram multiple words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 90.5
+    },
+    {
+      "query": "anagram of words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 90.5
+    },
+    {
+      "query": "figure out word",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 90.5
+    },
+    {
+      "query": "four letter word generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 90.5
+    },
+    {
+      "query": "solverscrabble",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 90.5
+    },
+    {
+      "query": "word resolver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 90.5
+    },
+    {
+      "query": "words within words generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 90.5
+    },
+    {
+      "query": "онлайн орфография",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 90.5
+    },
+    {
+      "query": "find the word puzzle solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 91
+    },
+    {
+      "query": "finish the word words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 91
+    },
+    {
+      "query": "knotwords solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 91
+    },
+    {
+      "query": "wordplay crossword solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 91
+    },
+    {
+      "query": "find words with given letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 91.5
+    },
+    {
+      "query": "grammar check commas",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 91.5
+    },
+    {
+      "query": "how many words can be made from these letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 91.5
+    },
+    {
+      "query": "правильность написания текста",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 91.5
+    },
+    {
+      "query": "anagram solver exclude letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 92
+    },
+    {
+      "query": "find words within words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 92
+    },
+    {
+      "query": "solve puzzle words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 92
+    },
+    {
+      "query": "word find help",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 92
+    },
+    {
+      "query": "word links solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 92
+    },
+    {
+      "query": "word with letters generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 92
+    },
+    {
+      "query": "worldesolver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 92
+    },
+    {
+      "query": "letters to make a word generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 92.5
+    },
+    {
+      "query": "make words from letters game",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 92.5
+    },
+    {
+      "query": "word eliminator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 92.5
+    },
+    {
+      "query": "word search helpers",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 92.5
+    },
+    {
+      "query": "make smaller word",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 93
+    },
+    {
+      "query": "word possibilities generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 93
+    },
+    {
+      "query": "words maker with letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 93
+    },
+    {
+      "query": "buchstaben sortieren",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 93.5
+    },
+    {
+      "query": "word creator with letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 93.5
+    },
+    {
+      "query": "words that make",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 93.5
+    },
+    {
+      "query": "make this word",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 94
+    },
+    {
+      "query": "what words can i play with these letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 94
+    },
+    {
+      "query": "word filler",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 94
+    },
+    {
+      "query": "how to write how to pronounce words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 94.5
+    },
+    {
+      "query": "making words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 94.5
+    },
+    {
+      "query": "word finder 16 letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 94.5
+    },
+    {
+      "query": "word puzzle answers",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 94.5
+    },
+    {
+      "query": "5 letter word calculator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 95
+    },
+    {
+      "query": "how many words can i make out of these letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 95
+    },
+    {
+      "query": "longest word finder",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 95
+    },
+    {
+      "query": "5 letter words helper",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 95.5
+    },
+    {
+      "query": "how many words can i make with these letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 95.5
+    },
+    {
+      "query": "make words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 95.5
+    },
+    {
+      "query": "rearranged word",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 95.5
+    },
+    {
+      "query": "word makers",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 95.5
+    },
+    {
+      "query": "word puzzle answer",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 95.5
+    },
+    {
+      "query": "7 letter word solver",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 96
+    },
+    {
+      "query": "solver word",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 96
+    },
+    {
+      "query": "word finder fill in the blanks",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 96
+    },
+    {
+      "query": "word solver.",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 96
+    },
+    {
+      "query": "текст на ошибки",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 96
+    },
+    {
+      "query": "generate words with these letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 97
+    },
+    {
+      "query": "scrabble helper",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 97
+    },
+    {
+      "query": "create a word from the following letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 97.5
+    },
+    {
+      "query": "create words from other words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 97.5
+    },
+    {
+      "query": "free unscramble word maker",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 97.5
+    },
+    {
+      "query": "generate a word with these letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 97.5
+    },
+    {
+      "query": "make words using",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 97.5
+    },
+    {
+      "query": "unscramble letters game maker",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 97.5
+    },
+    {
+      "query": "words puzzle answers",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 97.5
+    },
+    {
+      "query": "make a word these letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 98
+    },
+    {
+      "query": "create words from letters generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 98.5
+    },
+    {
+      "query": "words from words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 98.5
+    },
+    {
+      "query": "words generator with letters",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 98.5
+    },
+    {
+      "query": "help with words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 99
+    },
+    {
+      "query": "jumble word generator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 99
+    },
+    {
+      "query": "word link cheat",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 99
+    },
+    {
+      "query": "word solving",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 99
+    },
+    {
+      "query": "give letters make words",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 99.5
+    },
+    {
+      "query": "what word links these 3 words with answers",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": "0%",
+      "position": 126
+    },
+    {
+      "query": "ла خطا",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 2
+    },
+    {
+      "query": "words with friends cheat",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 3
+    },
+    {
+      "query": "antonym searcher",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 4
+    },
+    {
+      "query": "corrigida palavras cruzadas",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 6
+    },
+    {
+      "query": "do company work seven little words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 6
+    },
+    {
+      "query": "random kata generator",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 6
+    },
+    {
+      "query": "refuse specialist 7 little words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 7
+    },
+    {
+      "query": "suggested what to do codycross",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 7
+    },
+    {
+      "query": "word with too many z's to play scrabble codycross",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 7
+    },
+    {
+      "query": "wordle solver на русском",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 7
+    },
+    {
+      "query": "wordle помощь",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 7
+    },
+    {
+      "query": "اختر لي حرف عشوائي",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 7
+    },
+    {
+      "query": "لعبة تكوين كلمات من حروف مبعثرة",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 7
+    },
+    {
+      "query": "consonant total",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 8
+    },
+    {
+      "query": "contador de sílabas",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 8
+    },
+    {
+      "query": "kunci jawaban codycross",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 8
+    },
+    {
+      "query": "repeated letters",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 8
+    },
+    {
+      "query": "wortlücken füllen",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 8
+    },
+    {
+      "query": "помощник wordle",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 8
+    },
+    {
+      "query": "تكوين كلمة من حروف مبعثرة",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 8
+    },
+    {
+      "query": "เอาใหม่หมดเลย",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 8
+    },
+    {
+      "query": "beegs",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 9
+    },
+    {
+      "query": "buscador de sinonimos",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 9
+    },
+    {
+      "query": "buscar sinonimos",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 9
+    },
+    {
+      "query": "complete words with missing letters",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 9
+    },
+    {
+      "query": "find the similar words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 9
+    },
+    {
+      "query": "one word in the following sentence is misspelt. type the correct spelling of the word: nina! stop complaining imediately!",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 9
+    },
+    {
+      "query": "random passage generator",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 10
+    },
+    {
+      "query": "wordscapes jumble answers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 10
+    },
+    {
+      "query": "synonyms word finder",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 11
+    },
+    {
+      "query": "اختار حرف عشوائي",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 11
+    },
+    {
+      "query": "opposite words find",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 15
+    },
+    {
+      "query": "short story generator with specific words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 15
+    },
+    {
+      "query": "make a random paragraph",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 16
+    },
+    {
+      "query": "words starting with",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 16
+    },
+    {
+      "query": "pesquisar sinônimos",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 17
+    },
+    {
+      "query": "quiz word",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 17
+    },
+    {
+      "query": "text twist unscrambler 7 letters",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 17
+    },
+    {
+      "query": "corretor ortografico gramatical",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 18
+    },
+    {
+      "query": "how many words can you create with these letters",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 18
+    },
+    {
+      "query": "missing letter in word",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 18
+    },
+    {
+      "query": "word finder solver with letters free",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 18
+    },
+    {
+      "query": "word finder with given letters",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 18
+    },
+    {
+      "query": "исправить текст на ошибки и знаки препинания",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 18
+    },
+    {
+      "query": "онлайн запятые в тексте",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 18
+    },
+    {
+      "query": "онлайн расстановка запятых",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 18
+    },
+    {
+      "query": "поправка текста онлайн",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 18
+    },
+    {
+      "query": "проверить текст на запятые онлайн",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 18
+    },
+    {
+      "query": "проверка на пунктуацию онлайн",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 18
+    },
+    {
+      "query": "проверка ошибок в тексте",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 18
+    },
+    {
+      "query": "расставить точки запятые",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 18
+    },
+    {
+      "query": "corrector de redaccion",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 19
+    },
+    {
+      "query": "how many words with these letters",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 19
+    },
+    {
+      "query": "word given letters",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 19
+    },
+    {
+      "query": "word work out",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 19
+    },
+    {
+      "query": "исправить текст онлайн",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 19
+    },
+    {
+      "query": "онлайн проверка на пунктуацию",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 19
+    },
+    {
+      "query": "поставить запятые в тексте онлайн бесплатно",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 19
+    },
+    {
+      "query": "правка текста онлайн",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 19
+    },
+    {
+      "query": "проверка арфографии",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 19
+    },
+    {
+      "query": "проверка на знаки препинания",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 19
+    },
+    {
+      "query": "проверка орфографии и исправление",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 19
+    },
+    {
+      "query": "проверка ошибок в словах",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 19
+    },
+    {
+      "query": "проверка ошибок в тексте онлайн",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 19
+    },
+    {
+      "query": "расставить в тексте знаки препинания онлайн",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 19
+    },
+    {
+      "query": "расставить знаки препинания онлайн в тексте",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 19
+    },
+    {
+      "query": "расстановка запятых онлайн",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 19
+    },
+    {
+      "query": "редактор орфографии",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 19
+    },
+    {
+      "query": "редактор текста на ошибки",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 19
+    },
+    {
+      "query": "anagram.solver",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "find opposites",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "find the word solver",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "ipa creator",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "opposite word dictionary",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "opposite words dictionary",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "words given letters",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "wörter mit fehlenden buchstaben",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "знаки препинания проверка",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "исправитель текста",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "исправить грамматику",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "исправить орфографические ошибки в тексте онлайн",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "исправление грамматических ошибок в тексте онлайн",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "корректор пунктуации онлайн",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "онлайн корректор",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "ошибки в тексте онлайн",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "ошибки исправление",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "поставить знаки препинания в тексте онлайн бесплатно",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "постановка запятых онлайн",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "править текст онлайн",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "проверить орфограмму",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "проверить пунктуацию онлайн со знаками препинания",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "проверить текст на орфографические ошибки",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "расставить правильно знаки препинания онлайн",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "расстановка знаков препинания онлайн",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "редактор ошибок онлайн",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "сайт для исправления ошибок в тексте",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "сайт для расставления знаков препинания",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 20
+    },
+    {
+      "query": "исправить орфографию и пунктуацию онлайн",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 21
+    },
+    {
+      "query": "исправление орфографии",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 21
+    },
+    {
+      "query": "орфограммы онлайн",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 21
+    },
+    {
+      "query": "buscar sinônimos",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 22
+    },
+    {
+      "query": "vocabulary quiz",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 22
+    },
+    {
+      "query": "word that end",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 22
+    },
+    {
+      "query": "бот для расставления запятых",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 22
+    },
+    {
+      "query": "7 little words answer",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 23
+    },
+    {
+      "query": "coming through 7 little words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 23
+    },
+    {
+      "query": "random letters into words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 23
+    },
+    {
+      "query": "seven little words solutions",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 24
+    },
+    {
+      "query": "synonyme finder",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 24
+    },
+    {
+      "query": "2 word crossword solver",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 25
+    },
+    {
+      "query": "7 little words solutions",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 25
+    },
+    {
+      "query": "7 words answers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 25
+    },
+    {
+      "query": "anagramador mejor palabra",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 25
+    },
+    {
+      "query": "corrector signos de puntuacion",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 25
+    },
+    {
+      "query": "word tangle solver",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 25
+    },
+    {
+      "query": "lückentextsuche",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 26
+    },
+    {
+      "query": "pronounce words out loud",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 26
+    },
+    {
+      "query": "words that ending with",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 26
+    },
+    {
+      "query": "character 7 little words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 27
+    },
+    {
+      "query": "word definitions quiz",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 27
+    },
+    {
+      "query": "words that begin with",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 27
+    },
+    {
+      "query": "words that end with quiz",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 27
+    },
+    {
+      "query": "find opposite words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 28
+    },
+    {
+      "query": "find words starting with",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 28
+    },
+    {
+      "query": "open up 7 little words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 28
+    },
+    {
+      "query": "the synonym finder",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 28
+    },
+    {
+      "query": "7 little words help",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 29
+    },
+    {
+      "query": "cheats 7 little words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 29
+    },
+    {
+      "query": "cody crossword answers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 29
+    },
+    {
+      "query": "corrector ia",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 29
+    },
+    {
+      "query": "finishing words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 29
+    },
+    {
+      "query": "weberkämme kreuzworträtsel",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 29
+    },
+    {
+      "query": "7 lttle words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 30
+    },
+    {
+      "query": "daily word dictionary",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 30
+    },
+    {
+      "query": "related word generator",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 30
+    },
+    {
+      "query": "teste de vocabulário",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 30
+    },
+    {
+      "query": "words ending with letters",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 30
+    },
+    {
+      "query": "вордле помощник",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 30
+    },
+    {
+      "query": "подбор антонимов онлайн",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 30
+    },
+    {
+      "query": "buscar sinônimo",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 31
+    },
+    {
+      "query": "poner puntos y comas a un texto",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 31
+    },
+    {
+      "query": "words quiz",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 31
+    },
+    {
+      "query": "проверить орфографию в тексте",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 31
+    },
+    {
+      "query": "7 little words answers for today",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 32
+    },
+    {
+      "query": "anagram solver with wildcard",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 32
+    },
+    {
+      "query": "diccionario para resolver crucigramas",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 32
+    },
+    {
+      "query": "filling in missing letters",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 32
+    },
+    {
+      "query": "solution codycross",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 32
+    },
+    {
+      "query": "text twist solver",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 32
+    },
+    {
+      "query": "wordle solver español",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 32
+    },
+    {
+      "query": "komma überprüfung",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 33
+    },
+    {
+      "query": "wheel of fortune landmark 3 words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 33
+    },
+    {
+      "query": "word cookies",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 33
+    },
+    {
+      "query": "how to say this word",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 34
+    },
+    {
+      "query": "scrabble helfer",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 34
+    },
+    {
+      "query": "text twist / word unscrambler",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 34
+    },
+    {
+      "query": "consonant counter",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 35
+    },
+    {
+      "query": "ferramenta sinônimos",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 35
+    },
+    {
+      "query": "how to find missing letters",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 35
+    },
+    {
+      "query": "wheel of fortune proper name 2 words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 35
+    },
+    {
+      "query": "where do the words come from",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 35
+    },
+    {
+      "query": "find the missing letters",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 36
+    },
+    {
+      "query": "opposite words search",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 36
+    },
+    {
+      "query": "seven little words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 36
+    },
+    {
+      "query": "words starting with every",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 36
+    },
+    {
+      "query": "anagramas resolver",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 37
+    },
+    {
+      "query": "anagramm löser",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 37
+    },
+    {
+      "query": "corrector de puntuacion",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 37
+    },
+    {
+      "query": "correção de palavras",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 37
+    },
+    {
+      "query": "word twister answers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 37
+    },
+    {
+      "query": "wordscapes level 3000",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 37
+    },
+    {
+      "query": "7 little words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 38
+    },
+    {
+      "query": "beginners 7 little words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 38
+    },
+    {
+      "query": "crossword compiler codycross",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 38
+    },
+    {
+      "query": "find the missing letters of a word",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 38
+    },
+    {
+      "query": "7 little",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 39
+    },
+    {
+      "query": "corrector de signos de puntuacion",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 39
+    },
+    {
+      "query": "finding a word with missing letters",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 39
+    },
+    {
+      "query": "synonym tool",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 39
+    },
+    {
+      "query": "text twist unscramble words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 39
+    },
+    {
+      "query": "word ending with",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 39
+    },
+    {
+      "query": "word search wordle",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 39
+    },
+    {
+      "query": "auto corector",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 40
+    },
+    {
+      "query": "complete opposite words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 40
+    },
+    {
+      "query": "quizzes words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 40
+    },
+    {
+      "query": "rechtschreibquiz",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 40
+    },
+    {
+      "query": "wheel of fortune thing 2 words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 40
+    },
+    {
+      "query": "words starting",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 40
+    },
+    {
+      "query": "english word that ends with",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 41
+    },
+    {
+      "query": "where a word comes from",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 41
+    },
+    {
+      "query": "closest word to dfskfdsöfwö",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 42
+    },
+    {
+      "query": "crucigrama de 10 palabras",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 42
+    },
+    {
+      "query": "missing letters help",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 42
+    },
+    {
+      "query": "wordle solver en español",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 42
+    },
+    {
+      "query": "words that end in with",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 42
+    },
+    {
+      "query": "audio pronunciation of words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 43
+    },
+    {
+      "query": "tangle word game solver",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 43
+    },
+    {
+      "query": "word finder starts with",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 43
+    },
+    {
+      "query": "word solver app",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 43
+    },
+    {
+      "query": "words starting com",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 43
+    },
+    {
+      "query": "how many word can you make out of",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 44
+    },
+    {
+      "query": "missing letter word solver",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 44
+    },
+    {
+      "query": "palabras crucigrama",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 44
+    },
+    {
+      "query": "word definition quiz",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 44
+    },
+    {
+      "query": "word missing letters",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 44
+    },
+    {
+      "query": "wordsolver app",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 44
+    },
+    {
+      "query": "antonyms 5 and 11 letters deefhiimnprrsstt",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 45
+    },
+    {
+      "query": "antonyms search words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 45
+    },
+    {
+      "query": "corregir ortografía",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 45
+    },
+    {
+      "query": "figure out word with missing letters",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 45
+    },
+    {
+      "query": "incorrect word to correct word",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 45
+    },
+    {
+      "query": "text twist word",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 45
+    },
+    {
+      "query": "word finder with missing letters free",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 45
+    },
+    {
+      "query": "word phrases",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 45
+    },
+    {
+      "query": "corrección de ortografía",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 46
+    },
+    {
+      "query": "fill in missing letters in a word",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 46
+    },
+    {
+      "query": "five random letters",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 46
+    },
+    {
+      "query": "prefix test",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 46
+    },
+    {
+      "query": "pronunciation a word",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 46
+    },
+    {
+      "query": "quiz vocabulary",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 46
+    },
+    {
+      "query": "takes a look at synonym",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 46
+    },
+    {
+      "query": "clan names",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 47
+    },
+    {
+      "query": "find missing letters",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 47
+    },
+    {
+      "query": "helper scrabble",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 47
+    },
+    {
+      "query": "letter arranger",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 47
+    },
+    {
+      "query": "make words with these letters can repeat",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 47
+    },
+    {
+      "query": "passive sentence checker",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 47
+    },
+    {
+      "query": "random 3 words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 47
+    },
+    {
+      "query": "word grabber wordscapes",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 47
+    },
+    {
+      "query": "word unscrambler with repeating letters",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 47
+    },
+    {
+      "query": "words with any",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 47
+    },
+    {
+      "query": "cool robot names generator",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 48
+    },
+    {
+      "query": "robot oc names",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 48
+    },
+    {
+      "query": "twist word solver",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 48
+    },
+    {
+      "query": "two word anagram solver",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 48
+    },
+    {
+      "query": "word twister help",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 48
+    },
+    {
+      "query": "words crossword",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 48
+    },
+    {
+      "query": "all words containing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 49
+    },
+    {
+      "query": "corrección de textos",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 49
+    },
+    {
+      "query": "corrector de signos de puntuación gratis",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 49
+    },
+    {
+      "query": "descifrador de palabras",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 49
+    },
+    {
+      "query": "fill in missing letters to make words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 49
+    },
+    {
+      "query": "fill in the blank letters",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 49
+    },
+    {
+      "query": "find missing letters in words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 49
+    },
+    {
+      "query": "find related words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 49
+    },
+    {
+      "query": "finding synonyms for words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 49
+    },
+    {
+      "query": "generador de palabras aleatorias",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 49
+    },
+    {
+      "query": "guess words with letters",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 49
+    },
+    {
+      "query": "word finder from letters missing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 49
+    },
+    {
+      "query": "word search with letters missing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 49
+    },
+    {
+      "query": "words with word in them",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 49
+    },
+    {
+      "query": "wordscapes game solver",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 49
+    },
+    {
+      "query": "пунктуація перевірка",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 49
+    },
+    {
+      "query": "anagram solver portuguese",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 50
+    },
+    {
+      "query": "correcciones ortograficas",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 50
+    },
+    {
+      "query": "correção ortografica portugues",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 50
+    },
+    {
+      "query": "related word finder",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 50
+    },
+    {
+      "query": "verificador de gramatica",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 50
+    },
+    {
+      "query": "word ends",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 50
+    },
+    {
+      "query": "words ending",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 50
+    },
+    {
+      "query": "words that include the letters",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 50
+    },
+    {
+      "query": "correcciones de textos",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 51
+    },
+    {
+      "query": "crucigrama palabras",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 51
+    },
+    {
+      "query": "fancy word of the day",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 51
+    },
+    {
+      "query": "find a word missing letters",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 51
+    },
+    {
+      "query": "find words beginning with",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 51
+    },
+    {
+      "query": "group of four 7 little words",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 51
+    },
+    {
+      "query": "letters counter",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 51
+    },
+    {
+      "query": "opposite words generator",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": "0%",
+      "position": 51
+    }
+  ]
+}

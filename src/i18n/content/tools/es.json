@@ -1,6 +1,6 @@
 {
   "word-unscrambler": {
-    "metaTitle": "Descodificador de Palabras: Revela todas las palabras posibles",
+    "metaTitle": "Descodificador de Palabras y Letras | AllWordTools",
     "metaDescription": "Desordena letras, halla palabras ocultas y maximiza tu puntaje en juegos como Scrabble y Apalabrados. ¡Encuentra la palabra perfecta al instante!",
     "searchIntent": "Los usuarios buscan una herramienta que les ayude a encontrar palabras a partir de letras desordenadas, especialmente para juegos de palabras.",
     "keywords": [
@@ -105,7 +105,7 @@
     ]
   },
   "anagram-solver": {
-    "metaTitle": "Anagramador de Palabras Online — Resolver Anagramas y Letras | AllWordTools.com",
+    "metaTitle": "Anagramador de Palabras Online | AllWordTools",
     "metaDescription": "El mejor anagramador en español online gratis. Resuelve anagramas, desordena letras y encuentra palabras para Scrabble, Apalabrados y crucigramas.",
     "searchIntent": "Los usuarios buscan una herramienta que les ayude a encontrar palabras y soluciones a juegos de letras a partir de un conjunto desordenado de letras.",
     "keywords": [
@@ -315,7 +315,7 @@
     ]
   },
   "scrabble-helper": {
-    "metaTitle": "Scrabble Ayuda: Mayor Puntuación y Palabras Válidas al Instante",
+    "metaTitle": "Scrabble Ayuda: Mayor Puntuación al Instante | AllWordTools",
     "metaDescription": "Encuentra las mejores palabras para Scrabble con nuestro ayudador. Ingresa tus letras y obtén jugadas de alta puntuación y válidas, ¡gratis y al instante!",
     "searchIntent": "Los usuarios buscan herramientas que les ayuden a ganar en Scrabble o mejorarlo, encontrando palabras válidas y de alta puntuación con las letras que tienen.",
     "keywords": [
@@ -525,7 +525,7 @@
     ]
   },
   "crossword-solver": {
-    "metaTitle": "Diccionario para Resolver Crucigramas Online — Buscador de Palabras | AllWordTools.com",
+    "metaTitle": "Resolver Crucigramas Online — Buscador | AllWordTools",
     "metaDescription": "Resuelve crucigramas online gratis con nuestro buscador de palabras y letras faltantes. Encuentra respuestas y soluciones para crucigramas al instante.",
     "searchIntent": "Los usuarios buscan una herramienta que les ayude a completar crucigramas cuando se atascan con letras conocidas y espacios en blanco.",
     "keywords": [
@@ -630,7 +630,7 @@
     ]
   },
   "word-finder": {
-    "metaTitle": "Buscador de Palabras | Encuentra palabras por letras y patrón",
+    "metaTitle": "Buscador de Palabras por Letras y Filtros | AllWordTools",
     "metaDescription": "El Buscador de Palabras te ayuda a encontrar palabras para Scrabble, CodyCross, crucigramas y más. Busca por patrón, letras y longitud. ¡Es gratis y rápido!",
     "searchIntent": "Los usuarios buscan una herramienta que les ayude a encontrar palabras específicas a partir de letras o patrones para juegos o como ayuda de vocabulario.",
     "keywords": [
@@ -2205,7 +2205,7 @@
     ]
   },
   "word-meaning": {
-    "metaTitle": "Significado de Palabras: Definiciones Claras y Ejemplos - AllWordTools",
+    "metaTitle": "Significado de Palabras: Definiciones | AllWordTools",
     "metaDescription": "Encuentra el significado de cualquier palabra en inglés al instante. Definiciones claras, ejemplos de uso y organizadas por categoría gramatical. ¡Rápido y gratis!",
     "searchIntent": "Los usuarios buscan una forma rápida y sencilla de entender el significado de palabras en inglés, sin tener que navegar por un diccionario completo.",
     "keywords": [
@@ -2625,7 +2625,7 @@
     ]
   },
   "wordscapes-solver": {
-    "metaTitle": "Solucionador Wordscapes | Encuentra todas las palabras al instante",
+    "metaTitle": "Solucionador Wordscapes | Respuestas y Trucos",
     "metaDescription": "Desbloquea cada nivel de Wordscapes con nuestro solucionador gratis. Escribe las letras y obtén todas las palabras y bonificaciones al momento. ¡Sin descargas!",
     "searchIntent": "Los jugadores de Wordscapes buscan una herramienta eficiente y gratuita para superar los niveles difíciles y encontrar palabras bonus.",
     "keywords": [
@@ -3045,7 +3045,7 @@
     ]
   },
   "wheel-of-fortune-solver": {
-    "metaTitle": "Resolver La Ruleta de la Suerte - ¡Encuentra Palabras Faltantes!",
+    "metaTitle": "Resolver La Ruleta de la Suerte | AllWordTools",
     "metaDescription": "Desvela palabras en \"La Ruleta de la Suerte\" o \"La Rueda de la Fortuna\" con nuestra herramienta gratuita. Introduce letras conocidas y resuelve al instante. ¡Rápido, fácil y sin descargas!",
     "searchIntent": "Los usuarios buscan ayuda para resolver las palabras incompletas en juegos tipo 'La Ruleta de la Suerte' o 'La Rueda de la Fortuna'.",
     "keywords": [
@@ -3255,7 +3255,7 @@
     ]
   },
   "wildcard-solver": {
-    "metaTitle": "Buscador de Palabras con Comodines: Asteroide y el signo ? ¡Gratis!",
+    "metaTitle": "Buscador de Palabras con Comodines (? y *) | Gratis",
     "metaDescription": "Encuentra palabras con comodines (?) o asteriscos (*). Ideal para Scrabble, crucigramas y juegos de letras. ¡Rápido, gratis y sin registro!",
     "searchIntent": "Los usuarios buscan una herramienta que les ayude a encontrar palabras usando patrones con letras conocidas y comodines, facilitando la resolución de juegos de palabras o la búsqueda creativa de vocabulario.",
     "keywords": [
@@ -4200,7 +4200,7 @@
     ]
   },
   "codycross-answers": {
-    "metaTitle": "Respuestas de CodyCross — Soluciones, Respuestas y Claves del Juego | AllWordTools.com",
+    "metaTitle": "Respuestas de CodyCross — Soluciones y Claves | Gratis",
     "metaDescription": "Encuentra todas las respuestas y soluciones de CodyCross para cada mundo, grupo y fase. Busca en nuestra base de datos para resolver cualquier nivel al instante. Rápido y gratis.",
     "heading": "Respuestas de CodyCross y Base de Datos de Pistas",
     "subheading": "Obtén soluciones al instante para CodyCross. Busca en nuestra base de datos de pistas y letras cruzadas para superar cualquier nivel y avanzar por los mundos.",

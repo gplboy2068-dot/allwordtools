@@ -38,7 +38,7 @@ export type ToolContent = {
 export const toolContent: Record<string, ToolContent> = {
   "word-finder": {
     slug: "word-finder",
-    metaTitle: "Word Finder — Find Words by Letters, Length & Patterns | AllWordTools.com",
+    metaTitle: "Word Finder — Find Words by Letters & Length | AllWordTools",
     metaDescription:
       "Free Word Finder that searches for words by starting letters, ending letters, contained sequences and length. Constrain to your tiles for Scrabble & Words With Friends.",
     eyebrow: "Word Solvers",
@@ -162,7 +162,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "wordle-solver": {
     slug: "wordle-solver",
-    metaTitle: "Wordle Solver — Get the Best Next Guess Fast | AllWordTools.com",
+    metaTitle: "Wordle Solver — Best Next Guess & Hints | AllWordTools",
     metaDescription:
       "Free Wordle Solver. Enter your green, yellow and grey clues to instantly narrow the answer and get the smartest next guess, ranked by letter frequency.",
     eyebrow: "Word Solvers",
@@ -286,7 +286,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "crossword-solver": {
     slug: "crossword-solver",
-    metaTitle: "Crossword Solver & Clue Finder — Dictionary Wildcard Search | AllWordTools.com",
+    metaTitle: "Crossword Solver — Find Clues & Answers | AllWordTools",
     metaDescription:
       "Free Crossword Solver with missing letter wildcards (?, *). Solve cryptic crosswords, quick crossword clues, and word puzzles instantly.",
     eyebrow: "Word Solvers",
@@ -409,7 +409,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "anagram-solver": {
     slug: "anagram-solver",
-    metaTitle: "Anagram Solver — Solve 2 Words, Multiple Words & Anagrams | AllWordTools.com",
+    metaTitle: "Anagram Solver — Solve Anagrams Online | AllWordTools",
     metaDescription:
       "Free Anagram Solver that unscrambles single words, 2 words, multi-word anagrams, and letters with blanks and wildcards instantly.",
     eyebrow: "Word Solvers",
@@ -534,7 +534,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "word-unscrambler": {
     slug: "word-unscrambler",
-    metaTitle: "Word Unscrambler — Unscramble Letters Into Words | AllWordTools.com",
+    metaTitle: "Word Unscrambler — Unscramble Letters | AllWordTools",
     metaDescription:
       "Free Word Unscrambler that turns jumbled letters into every valid word, ranked by score and length. Supports wildcards, Scrabble & Words With Friends. Instant results.",
     eyebrow: "Word Solvers",
@@ -659,7 +659,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "words-starting-with": {
     slug: "words-starting-with",
-    metaTitle: "Words Starting With — Find Every Word by Prefix | AllWordTools.com",
+    metaTitle: "Words Starting With — Find Words by Prefix | AllWordTools",
     metaDescription:
       "Free Words Starting With finder. Enter any letters and instantly list every English word that begins with them, grouped by length and ranked by score.",
     eyebrow: "Letter Tools",
@@ -768,7 +768,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "words-ending-with": {
     slug: "words-ending-with",
-    metaTitle: "Words Ending With — Word Ending Finder & Suffix Rhymes | AllWordTools.com",
+    metaTitle: "Words Ending With — Suffix & Rhyme Finder | AllWordTools",
     metaDescription:
       "Find all words ending with specific letters, suffixes, or sounds. Filter by length and letter tiles for Scrabble, Words With Friends, and rhymes.",
     eyebrow: "Letter Tools",
@@ -877,7 +877,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "words-containing": {
     slug: "words-containing",
-    metaTitle: "Words Containing — Find Words With Any Letter Sequence | AllWordTools.com",
+    metaTitle: "Words Containing — Find Words by Letters | AllWordTools",
     metaDescription:
       "Free Words Containing finder. Enter a letter sequence and list every English word that contains it anywhere — perfect for tricky tiles, crosswords and puzzles.",
     eyebrow: "Letter Tools",
@@ -986,7 +986,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "letter-counter": {
     slug: "letter-counter",
-    metaTitle: "Letter Counter — Count Letters, Words & Characters | AllWordTools.com",
+    metaTitle: "Letter Counter — Character & Word Count | AllWordTools",
     metaDescription:
       "Free Letter Counter. Instantly count letters, characters, words, sentences, paragraphs and spaces in any text, plus a full letter-frequency breakdown.",
     eyebrow: "Letter Tools",
@@ -1095,7 +1095,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "letter-pattern-finder": {
     slug: "letter-pattern-finder",
-    metaTitle: "Letter Pattern Finder — Match Words With Blanks & Wildcards | AllWordTools.com",
+    metaTitle: "Letter Pattern Finder — Match Wildcards | AllWordTools",
     metaDescription:
       "Free Letter Pattern Finder. Match words to advanced patterns using ? for a single blank and * for any run of letters — perfect for crosswords and puzzles.",
     eyebrow: "Letter Tools",
@@ -1201,7 +1201,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "synonym-finder": {
     slug: "synonym-finder",
-    metaTitle: "Synonym Finder — Find Better Words Instantly | AllWordTools.com",
+    metaTitle: "Synonym Finder — Find Better Words Fast | AllWordTools",
     metaDescription:
       "Free Synonym Finder. Enter any word to get a rich list of synonyms and related words to make your writing clearer, stronger and more varied.",
     eyebrow: "Writing Tools",
@@ -1311,7 +1311,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "antonym-finder": {
     slug: "antonym-finder",
-    metaTitle: "Antonym Finder — Find Opposite Words Instantly | AllWordTools.com",
+    metaTitle: "Antonym Finder — Find Opposite Words | AllWordTools",
     metaDescription:
       "Free Antonym Finder. Enter any word to instantly see its opposites and contrasting words — perfect for writing, studying and word puzzles.",
     eyebrow: "Writing Tools",
@@ -1420,7 +1420,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "rhyming-words": {
     slug: "rhyming-words",
-    metaTitle: "Rhyming Words — Perfect & Near Rhymes Finder | AllWordTools.com",
+    metaTitle: "Rhyming Words — Perfect Rhymes Finder | AllWordTools",
     metaDescription:
       "Free rhyming words finder. Enter a word to get perfect and near rhymes grouped by syllable count — ideal for songs, poems, raps and greeting cards.",
     eyebrow: "Writing Tools",
@@ -1531,7 +1531,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "syllable-counter": {
     slug: "syllable-counter",
-    metaTitle: "Syllable Counter — Count Syllables & Syllable Breakdown Online | AllWordTools.com",
+    metaTitle: "Syllable Counter — Count Syllables Online | AllWordTools",
     metaDescription:
       "Free online Syllable Counter that accurately counts syllables, breaks words into syllables, and calculates readability scores instantly.",
     eyebrow: "Writing Tools",
@@ -1641,7 +1641,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "random-word-generator": {
     slug: "random-word-generator",
-    metaTitle: "Random Word Generator — Spark Ideas Instantly | AllWordTools.com",
+    metaTitle: "Random Word Generator — Generate Words | AllWordTools",
     metaDescription:
       "Free Random Word Generator. Generate random English words with length and starting-letter filters — perfect for brainstorming, games, prompts and practice.",
     eyebrow: "Writing Tools",
@@ -1751,7 +1751,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "scrabble-helper": {
     slug: "scrabble-helper",
-    metaTitle: "Scrabble Helper — Best High-Scoring Word Finder | AllWordTools.com",
+    metaTitle: "Scrabble Helper — Word Finder & Cheat | AllWordTools",
     metaDescription:
       "Free Scrabble Helper that finds every playable word from your rack, ranked by official Scrabble points. Supports blank tiles, prefixes, suffixes and length filters.",
     eyebrow: "Game Helpers",
@@ -1875,7 +1875,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "words-with-friends-helper": {
     slug: "words-with-friends-helper",
-    metaTitle: "Words With Friends Cheat — Best Moves & Tiles | AllWordTools.com",
+    metaTitle: "Words With Friends Cheat — Word Finder | AllWordTools",
     metaDescription:
       "Free Words With Friends helper that finds the highest-scoring moves from your tiles, ranked with WWF letter values. Supports blanks, prefixes, suffixes and length filters.",
     eyebrow: "Game Helpers",
@@ -1994,7 +1994,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "boggle-solver": {
     slug: "boggle-solver",
-    metaTitle: "Boggle Solver — Find Every Word on the Board | AllWordTools.com",
+    metaTitle: "Boggle Solver — Find Words on the Board | AllWordTools",
     metaDescription:
       "Free Boggle Solver that finds every word hidden in your 3×3, 4×4 or 5×5 grid, traced through adjacent letters and ranked by length. Supports the Qu tile.",
     eyebrow: "Game Helpers",
@@ -2113,7 +2113,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "hangman-solver": {
     slug: "hangman-solver",
-    metaTitle: "Hangman Solver — Best Letter Guesses to Win | AllWordTools.com",
+    metaTitle: "Hangman Solver — Best Letter Guesses | AllWordTools",
     metaDescription:
       "Free Hangman Solver that lists every possible word from your revealed letters and wrong guesses, and suggests the best next letter to guess by frequency.",
     eyebrow: "Game Helpers",
@@ -2232,7 +2232,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "text-twist-solver": {
     slug: "text-twist-solver",
-    metaTitle: "Text Twist Solver — Unscramble Rounds & Find the Bonus Word | AllWordTools.com",
+    metaTitle: "Text Twist Solver — Unscramble Words | AllWordTools",
     metaDescription:
       "Free Text Twist Solver that unscrambles your letters into every valid word, grouped by length, and highlights the bonus word that uses all your tiles.",
     eyebrow: "Game Helpers",
@@ -2461,7 +2461,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "wildcard-solver": {
     slug: "wildcard-solver",
-    metaTitle: "Wildcard Solver — Find Words with ? and * Wildcards | AllWordTools.com",
+    metaTitle: "Wildcard Solver — Match ? & * Words | AllWordTools",
     metaDescription:
       "Free Wildcard Solver that finds every word matching ? (one letter) and * (any run of letters) wildcards. Powerful pattern search for Scrabble, crosswords and puzzles.",
     eyebrow: "Advanced Solvers",
@@ -2567,7 +2567,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "missing-letters-finder": {
     slug: "missing-letters-finder",
-    metaTitle: "Missing Letters Finder — Fill in Missing Letters & Words Solver | AllWordTools.com",
+    metaTitle: "Missing Letters Finder — Word Solver | AllWordTools",
     metaDescription:
       "Free Missing Letters Finder to solve words with missing letters, blanks, and wildcards. Instantly find words with missing letters for puzzles & crosswords.",
     eyebrow: "Advanced Solvers",
@@ -2668,7 +2668,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "letter-rearranger": {
     slug: "letter-rearranger",
-    metaTitle: "Letter Rearranger — Word Unscrambler & Make Words from Letters | AllWordTools.com",
+    metaTitle: "Letter Rearranger — Make Words from Letters | AllWordTools",
     metaDescription:
       "Rearrange letters into all possible words instantly. Powerful letter solver, anagram unscrambler, and word maker with length and wildcard filters.",
     eyebrow: "Advanced Solvers",
@@ -2777,7 +2777,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "reverse-dictionary": {
     slug: "reverse-dictionary",
-    metaTitle: "Reverse Dictionary — Find the Word from Its Meaning | AllWordTools.com",
+    metaTitle: "Dictionary — Word Definitions & Examples | AllWordTools",
     metaDescription:
       "Free Reverse Dictionary that finds the word from its definition or description. Type what a word means and get the words that match, ranked by relevance. Instant and free.",
     eyebrow: "Advanced Solvers",
@@ -2883,7 +2883,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "letter-frequency-analyzer": {
     slug: "letter-frequency-analyzer",
-    metaTitle: "Letter Frequency Analyzer — Count Letter Frequency in Text | AllWordTools.com",
+    metaTitle: "Letter Frequency Analyzer — Letter Counts | AllWordTools",
     metaDescription:
       "Free Letter Frequency Analyzer that shows how often each letter appears in your text, with live counts, percentages and a visual chart. Perfect for ciphers and analysis.",
     eyebrow: "Text Analysis",
@@ -2992,7 +2992,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "vowel-counter": {
     slug: "vowel-counter",
-    metaTitle: "Vowel Counter — Count Vowels in Any Text Instantly | AllWordTools.com",
+    metaTitle: "Vowel Counter — Count Vowels Online | AllWordTools",
     metaDescription:
       "Free Vowel Counter that counts the vowels (a, e, i, o, u) in any text, with a per-vowel breakdown, totals and percentages. Instant, accurate and free to use.",
     eyebrow: "Text Analysis",
@@ -3106,7 +3106,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "consonant-counter": {
     slug: "consonant-counter",
-    metaTitle: "Consonant Counter — Count Consonants in Any Text | AllWordTools.com",
+    metaTitle: "Consonant Counter — Count Consonants | AllWordTools",
     metaDescription:
       "Free Consonant Counter that counts the consonants in any text, with a full per-letter breakdown, totals and percentages. Instant, accurate and free to use.",
     eyebrow: "Text Analysis",
@@ -3220,7 +3220,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "repeated-letter-finder": {
     slug: "repeated-letter-finder",
-    metaTitle: "Repeated Letter Finder — Words with Repeated & Double Letters | AllWordTools.com",
+    metaTitle: "Repeated Letter Finder — Double Letters | AllWordTools",
     metaDescription:
       "Free Repeated Letter Finder to find words with repeated letters, double letters, and letter counts. Instantly analyze and solve repeated letter words.",
     eyebrow: "Text Analysis",
@@ -3325,7 +3325,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "alphabetical-sorter": {
     slug: "alphabetical-sorter",
-    metaTitle: "Alphabetical Sorter — Sort Words & Lists Alphabetically | AllWordTools.com",
+    metaTitle: "Alphabetical Sorter — Sort Word Lists | AllWordTools",
     metaDescription:
       "Free Alphabetical Sorter that puts words, names or lists in A–Z or Z–A order instantly. Split by lines, spaces or commas, remove duplicates and ignore case. Free.",
     eyebrow: "Text Analysis",
@@ -3439,7 +3439,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   dictionary: {
     slug: "dictionary",
-    metaTitle: "Dictionary — Definitions, Pronunciation & Examples | AllWordTools.com",
+    metaTitle: "Dictionary — Word Definitions & Examples | AllWordTools",
     metaDescription:
       "Free online dictionary. Look up any English word to get clear definitions, audio pronunciation, IPA spelling, example sentences, synonyms and antonyms. Fast and free.",
     eyebrow: "Dictionary Tools",
@@ -3544,7 +3544,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "word-meaning": {
     slug: "word-meaning",
-    metaTitle: "Word Meaning — What Does a Word Mean? | AllWordTools.com",
+    metaTitle: "Word Meaning — Meanings & Definitions | AllWordTools",
     metaDescription:
       "Free tool to find the meaning of any English word in plain language, with example sentences and parts of speech. Instant, accurate word meanings from AllWordTools.com.",
     eyebrow: "Dictionary Tools",
@@ -3650,7 +3650,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "ipa-converter": {
     slug: "ipa-converter",
-    metaTitle: "IPA Converter — Word to Phonetic Transcription | AllWordTools.com",
+    metaTitle: "IPA Converter — Word to Phonetics | AllWordTools",
     metaDescription:
       "Free IPA Converter. Turn any English word into its International Phonetic Alphabet transcription to see exactly how it sounds. Instant, accurate and free.",
     eyebrow: "Dictionary Tools",
@@ -3743,7 +3743,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "word-origin": {
     slug: "word-origin",
-    metaTitle: "Word Origin (Etymology) — Where Words Come From | AllWordTools.com",
+    metaTitle: "Word Origin — Etymology & History | AllWordTools",
     metaDescription:
       "Free etymology tool. Trace the origin of any English word — the languages and roots it grew from and how its meaning evolved over time. Free and instant.",
     eyebrow: "Dictionary Tools",
@@ -3847,7 +3847,7 @@ export const toolContent: Record<string, ToolContent> = {
 
   "passive-voice-checker": {
     slug: "passive-voice-checker",
-    metaTitle: "Passive Voice Checker — Detect & Fix Passive Sentences Instantly | AllWordTools.com",
+    metaTitle: "Passive Voice Checker — Detect & Fix | AllWordTools",
     metaDescription:
       "Free Passive Voice Checker that scans text, highlights passive constructions, and provides clear active voice suggestions to improve writing clarity and flow.",
     eyebrow: "Grammar & Style",
@@ -3998,7 +3998,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "active-voice-converter": {
     slug: "active-voice-converter",
-    metaTitle: "Active Voice Converter — Rewrite Passive Sentences to Active Voice | AllWordTools.com",
+    metaTitle: "Active Voice Converter — Rewrite to Active | AllWordTools",
     metaDescription:
       "Free Active Voice Converter. Transform passive sentences into punchy, direct, and engaging active voice with instant AI-powered suggestions.",
     eyebrow: "Grammar & Style",
@@ -4149,7 +4149,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "grammar-checker": {
     slug: "grammar-checker",
-    metaTitle: "AI Grammar Checker — Fix Grammar, Tense & Syntax Mistakes Free | AllWordTools.com",
+    metaTitle: "AI Grammar Checker — Fix Grammar Free | AllWordTools",
     metaDescription:
       "Free AI Grammar Checker powered by Gemini. Correct grammatical slips, subject-verb disagreements, dangling modifiers, and wordy phrasing in real time.",
     eyebrow: "Grammar & Style",
@@ -4303,7 +4303,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "spell-checker": {
     slug: "spell-checker",
-    metaTitle: "Spell Checker — Instant Online Spelling & Typo Correction | AllWordTools.com",
+    metaTitle: "Spell Checker — Fix Spelling & Typos | AllWordTools",
     metaDescription:
       "Free online Spell Checker that catches typos, misspelled words, and tricky homophones instantly across US, UK, Canadian, and Australian English.",
     eyebrow: "Grammar & Style",
@@ -4455,7 +4455,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "punctuation-checker": {
     slug: "punctuation-checker",
-    metaTitle: "Punctuation Checker — Fix Commas, Apostrophes, Semicolons & Run-ons | AllWordTools.com",
+    metaTitle: "Punctuation Checker — Fix Punctuation | AllWordTools",
     metaDescription:
       "Free online Punctuation Checker. Detect and correct misplaced commas, apostrophe errors, missing semicolons, quotation marks, and run-on sentences.",
     eyebrow: "Grammar & Style",
@@ -4610,7 +4610,7 @@ export const toolContent: Record<string, ToolContent> = {
 ,
   "ai-word-explainer": {
     slug: "ai-word-explainer",
-    metaTitle: "AI Word Explainer — Instant Meaning, Synonyms, Origin & Examples | AllWordTools.com",
+    metaTitle: "AI Word Explainer — Meanings & Usage | AllWordTools",
     metaDescription:
       "Free AI Word Explainer that breaks down any word with clear definitions, pronunciation, synonyms, antonyms, real-world examples, and etymology.",
     eyebrow: "AI Tools",
@@ -4762,7 +4762,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "ai-sentence-generator": {
     slug: "ai-sentence-generator",
-    metaTitle: "AI Sentence Generator — Natural, Contextual & Creative Sentences | AllWordTools.com",
+    metaTitle: "AI Sentence Generator — Example Lines | AllWordTools",
     metaDescription:
       "Free AI Sentence Generator powered by Gemini. Create grammatically perfect, natural-sounding sentences for any word, topic, tone, or grammar rule in seconds.",
     eyebrow: "AI Tools",
@@ -4915,7 +4915,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "ai-example-generator": {
     slug: "ai-example-generator",
-    metaTitle: "AI Example Generator — Real-World Scenarios, Analogies & Proofs | AllWordTools.com",
+    metaTitle: "AI Example Generator — Concept Examples | AllWordTools",
     metaDescription:
       "Free AI Example Generator powered by Gemini. Generate clear real-world examples, practical analogies, case studies, and illustrations for any concept, rule, or word.",
     eyebrow: "AI Tools",
@@ -5068,7 +5068,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "ai-story-generator": {
     slug: "ai-story-generator",
-    metaTitle: "AI Story Generator — Creative Short Stories & Plot Prompts | AllWordTools.com",
+    metaTitle: "AI Story Generator — Short Stories | AllWordTools",
     metaDescription:
       "Free AI Story Generator powered by Gemini. Create captivating short stories, narrative outlines, and creative fiction across any genre, theme, or character prompt.",
     eyebrow: "AI Tools",
@@ -5223,7 +5223,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "ai-poem-generator": {
     slug: "ai-poem-generator",
-    metaTitle: "AI Poem Generator — Rhyming Poetry, Sonnets, Haikus & Free Verse | AllWordTools.com",
+    metaTitle: "AI Poem Generator — Rhymes & Poetry | AllWordTools",
     metaDescription:
       "Free AI Poem Generator powered by Gemini. Create beautiful rhyming poems, Shakespearean sonnets, haikus, limericks, and free verse on any theme, emotion, or name.",
     eyebrow: "AI Tools",
@@ -5377,7 +5377,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "ai-vocabulary-builder": {
     slug: "ai-vocabulary-builder",
-    metaTitle: "AI Vocabulary Builder — Curated Word Lists, CEFR & Exam Prep | AllWordTools.com",
+    metaTitle: "AI Vocabulary Builder — Learn Words | AllWordTools",
     metaDescription:
       "Free AI Vocabulary Builder powered by Gemini. Generate custom themed word lists with definitions, phonetics, collocations, and examples for GRE, SAT, IELTS, & CEFR.",
     eyebrow: "AI Tools",
@@ -5532,7 +5532,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "ai-quiz-generator": {
     slug: "ai-quiz-generator",
-    metaTitle: "AI Quiz Generator — Multiple Choice, True/False & Fill-in-the-Blank | AllWordTools.com",
+    metaTitle: "AI Quiz Generator — Custom Word Quizzes | AllWordTools",
     metaDescription:
       "Free AI Quiz Generator powered by Gemini. Create custom multiple-choice quizzes, reading comprehension tests, and vocabulary assessments with answer keys in seconds.",
     eyebrow: "AI Tools",
@@ -5684,7 +5684,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "ai-flashcards": {
     slug: "ai-flashcards",
-    metaTitle: "AI Flashcards — Spaced Repetition Study Decks & Memory Cards | AllWordTools.com",
+    metaTitle: "AI Flashcards — Spaced Repetition Decks | AllWordTools",
     metaDescription:
       "Free AI Flashcards generator powered by Gemini. Create two-sided study flashcards for vocabulary, exams, languages, and science with active recall mnemonics.",
     eyebrow: "AI Tools",
@@ -5839,7 +5839,7 @@ export const toolContent: Record<string, ToolContent> = {
 
   "codycross-solver": {
     slug: "codycross-solver",
-    metaTitle: "CodyCross Solver & Cheat — Find CodyCross Answers & Clues Online | AllWordTools.com",
+    metaTitle: "CodyCross Solver — Clues & Answers | AllWordTools",
     metaDescription:
       "Free CodyCross Solver and answer helper. Search our complete CodyCross database by group, world, clue or letters to solve any puzzle instantly.",
     eyebrow: "Puzzle Solvers",
@@ -5987,7 +5987,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "assonance-finder": {
     slug: "assonance-finder",
-    metaTitle: "Assonance Finder & Generator — Find Vowel Rhymes & Poetry Assonance | AllWordTools.com",
+    metaTitle: "Assonance Finder — Vowel Rhymes & Poems | AllWordTools",
     metaDescription:
       "Free Assonance Finder that identifies repeated vowel sounds and vowel rhyme patterns in words, poetry, lyrics, and phrases.",
     eyebrow: "Literary & Rhyme Tools",
@@ -6138,7 +6138,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "phrases-dictionary": {
     slug: "phrases-dictionary",
-    metaTitle: "Phrases & Idioms Dictionary — Meanings, Origins & Examples | AllWordTools.com",
+    metaTitle: "Phrases Dictionary — Meanings & Idioms | AllWordTools",
     metaDescription:
       "Search thousands of English idioms, common expressions, and figurative phrases. Discover clear definitions, historical origins, and sample dialogues.",
     eyebrow: "Dictionary & Meanings",
@@ -6289,7 +6289,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "wordscapes-solver": {
     slug: "wordscapes-solver",
-    metaTitle: "Wordscapes Solver & Cheat — Unscramble All Wordscapes Answers | AllWordTools.com",
+    metaTitle: "Wordscapes Solver — Unscramble Answers | AllWordTools",
     metaDescription:
       "Free Wordscapes solver and anagram unscrambler. Enter your letter circle tiles to find every word, bonus word, and level solution instantly.",
     eyebrow: "Puzzle Solvers",
@@ -6437,7 +6437,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "pronunciation": {
     slug: "pronunciation",
-    metaTitle: "Word Pronunciation — Audio & Phonetic Pronunciation Guide | AllWordTools.com",
+    metaTitle: "Pronunciation — Audio & Phonetic Guide | AllWordTools",
     metaDescription:
       "Hear natural audio pronunciations in American and British English. View clear IPA transcriptions and syllable stress guides for any English word.",
     eyebrow: "Dictionary & Meanings",
@@ -6588,7 +6588,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "clan-name-generator": {
     slug: "clan-name-generator",
-    metaTitle: "Clan Name Generator — Cool Clan Names & 4-Letter Tags | AllWordTools.com",
+    metaTitle: "Clan Name Generator — Cool Clan Names | AllWordTools",
     metaDescription:
       "Generate cool, unique, and badass clan names for gaming, esports, and guilds. Includes 4-letter clan tags, aesthetic styles, and instant copy.",
     eyebrow: "Name Generators",
@@ -6743,7 +6743,7 @@ export const toolContent: Record<string, ToolContent> = {
 
   "vocabulary-quiz": {
     slug: "vocabulary-quiz",
-    metaTitle: "Interactive Vocabulary Quiz — Multiple Choice Word Meaning Tests | AllWordTools.com",
+    metaTitle: "Vocabulary Quiz — Test Word Knowledge | AllWordTools",
     metaDescription:
       "Test your word power with free multiple-choice vocabulary quizzes. Practice beginner, intermediate, advanced, and GRE/SAT word definitions with explanations.",
     eyebrow: "Word Quizzes",

@@ -37,7 +37,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "how-to-win-at-wordle-every-day",
     title: "How to Win at Wordle Every Day: 7 Proven Strategies & Best Starting Words",
-    metaTitle: "How to Win at Wordle Every Day: 7 Proven Tips & Best Starting Words | AllWordTools",
+    metaTitle: "How to Win at Wordle: 7 Proven Tips | AllWordTools",
     metaDescription: "Master Wordle with mathematical opening words, vowel elimination tactics, and letter frequency strategies. Keep your win streak alive every single day.",
     category: "Word Games",
     publishedDate: "August 2026",
@@ -102,7 +102,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "score-more-in-scrabble-and-words-with-friends",
     title: "How to Score 400+ Points in Scrabble & Words With Friends: Master Strategy Guide",
-    metaTitle: "Scrabble & Words With Friends Strategy: How to Score Big Points | AllWordTools",
+    metaTitle: "Scrabble Strategy: Score 400+ Points | AllWordTools",
     metaDescription: "Learn essential Scrabble 2-letter words, rack balancing secrets, bonus square multipliers, and parallel play techniques to dominate every game.",
     category: "Word Games",
     publishedDate: "August 2026",
@@ -157,7 +157,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "active-vs-passive-voice-explained",
     title: "Active vs. Passive Voice Explained: The Complete Guide with 50+ Examples",
-    metaTitle: "Active vs Passive Voice Explained: Rules, Examples & Converter | AllWordTools",
+    metaTitle: "Active vs Passive Voice Guide & Rules | AllWordTools",
     metaDescription: "Understand the difference between active and passive voice. Learn when to use active voice for punchy writing, when passive is acceptable, and how to convert sentences.",
     category: "Writing",
     publishedDate: "August 2026",
@@ -210,7 +210,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "build-your-english-vocabulary-smart-way",
     title: "How to 10x Your English Vocabulary the Smart Way: Science-Backed Methods",
-    metaTitle: "How to Build a Powerful English Vocabulary: Science-Backed Strategies | AllWordTools",
+    metaTitle: "How to 10x English Vocabulary Fast | AllWordTools",
     metaDescription: "Discover cognitive techniques to expand your English vocabulary rapidly using Greek/Latin roots, spaced repetition, contextual collocations, and active recall.",
     category: "Learning",
     publishedDate: "August 2026",
@@ -258,7 +258,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "how-word-unscramblers-and-anagram-solvers-work",
     title: "How Word Unscramblers & Anagram Solvers Work: The Mathematics of Letter Combinations",
-    metaTitle: "How Word Unscramblers & Anagram Solvers Work: Algorithms & Math | AllWordTools",
+    metaTitle: "How Word Unscramblers & Solvers Work | AllWordTools",
     metaDescription: "Understand the computer science and dictionary indexing algorithms behind modern word unscramblers, anagram finders, and prefix tree (Trie) solvers.",
     category: "Solvers",
     publishedDate: "August 2026",
@@ -306,7 +306,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "creative-writing-with-ai-tools",
     title: "Creative Writing with AI: How to Craft Stories, Poems & Character Names",
-    metaTitle: "Creative Writing with AI: Prompts, Poetry & Storytelling Guide | AllWordTools",
+    metaTitle: "Creative Writing with AI: Story Guide | AllWordTools",
     metaDescription: "Learn how to collaborate with AI tools to brainstorm plot hooks, generate fantasy names, overcome writer's block, and refine poetic meter.",
     category: "AI & Creativity",
     publishedDate: "August 2026",

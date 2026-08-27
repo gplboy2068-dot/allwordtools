@@ -26,7 +26,7 @@ export type CategoryContent = {
 export const categoryContent: Record<string, CategoryContent> = {
   "word-solvers": {
     slug: "word-solvers",
-    metaTitle: "Word Solvers — Unscramble, Anagram & Puzzle Tools | AllWordTools.com",
+    metaTitle: "Word Solvers — Unscramble & Puzzle Tools | AllWordTools",
     metaDescription:
       "Free word solvers to unscramble letters, crack anagrams, beat Wordle, solve crosswords and find words fast. Instant, accurate results from AllWordTools.com.",
     eyebrow: "Category",
@@ -99,7 +99,7 @@ export const categoryContent: Record<string, CategoryContent> = {
   },
   "letter-tools": {
     slug: "letter-tools",
-    metaTitle: "Letter Tools — Words by Prefix, Suffix, Pattern & Counter | AllWordTools.com",
+    metaTitle: "Letter Tools — Prefix, Suffix & Patterns | AllWordTools",
     metaDescription:
       "Free letter tools to find words starting with, ending with or containing any letters, match advanced patterns and count letters, words and characters instantly.",
     eyebrow: "Category",
@@ -172,7 +172,7 @@ export const categoryContent: Record<string, CategoryContent> = {
   },
   "writing-tools": {
     slug: "writing-tools",
-    metaTitle: "Writing Tools — Synonyms, Antonyms, Rhymes & Syllables | AllWordTools.com",
+    metaTitle: "Writing Tools — Synonyms, Rhymes & Words | AllWordTools",
     metaDescription:
       "Free writing tools: find synonyms and antonyms, discover perfect and near rhymes, count syllables and generate random words to sharpen every sentence.",
     eyebrow: "Category",
@@ -245,7 +245,7 @@ export const categoryContent: Record<string, CategoryContent> = {
   },
   "game-helpers": {
     slug: "game-helpers",
-    metaTitle: "Game Helpers — Scrabble, Words With Friends, Boggle & More | AllWordTools.com",
+    metaTitle: "Game Helpers — Scrabble & Word Solvers | AllWordTools",
     metaDescription:
       "Free game helpers for Scrabble, Words With Friends, Boggle, Hangman and Text Twist. Find high-scoring plays, solve boards and beat every round with accurate, game-specific tools.",
     eyebrow: "Category",
@@ -313,7 +313,7 @@ export const categoryContent: Record<string, CategoryContent> = {
   },
   "advanced-solvers": {
     slug: "advanced-solvers",
-    metaTitle: "Advanced Solvers — Pattern, Wildcard & Reverse Dictionary Tools | AllWordTools.com",
+    metaTitle: "Advanced Solvers — Pattern & Wildcards | AllWordTools",
     metaDescription:
       "Free advanced word solvers: solve patterns, expand ? and * wildcards, fill missing letters, rearrange letters into words and search by meaning. Instant, accurate results.",
     eyebrow: "Category",
@@ -460,7 +460,7 @@ export const categoryContent: Record<string, CategoryContent> = {
   },
   "dictionary-tools": {
     slug: "dictionary-tools",
-    metaTitle: "Dictionary Tools — Definitions, Pronunciation & Etymology | AllWordTools.com",
+    metaTitle: "Dictionary Tools — Definitions & Origin | AllWordTools",
     metaDescription:
       "Free dictionary tools to look up definitions, meanings, audio pronunciation, IPA transcription and word origins for any English word. Instant and free.",
     eyebrow: "Category",
@@ -534,7 +534,7 @@ export const categoryContent: Record<string, CategoryContent> = {
 
   "grammar-tools": {
     slug: "grammar-tools",
-    metaTitle: "Grammar & Style Tools — Grammar, Spelling & Punctuation | AllWordTools.com",
+    metaTitle: "Grammar Tools — Spelling & Punctuation | AllWordTools",
     metaDescription:
       "Free grammar and style tools: AI grammar checker, passive voice checker, active voice converter, spell checker and punctuation checker. Polish any text instantly.",
     eyebrow: "Category",
@@ -587,7 +587,7 @@ export const categoryContent: Record<string, CategoryContent> = {
   },
   "puzzle-solvers": {
     slug: "puzzle-solvers",
-    metaTitle: "Puzzle Game Solvers — Word Cookies, Wordscapes & More | AllWordTools.com",
+    metaTitle: "Puzzle Game Solvers — Word Puzzles | AllWordTools",
     metaDescription:
       "Free puzzle game solvers for Word Cookies, Wordscapes, CodyCross, 7 Little Words and Wheel of Fortune. Enter your letters and clear any level in seconds.",
     eyebrow: "Category",
@@ -647,7 +647,7 @@ export const categoryContent: Record<string, CategoryContent> = {
   },
   "random-generators": {
     slug: "random-generators",
-    metaTitle: "Random Generators — Letters, Sentences, Paragraphs & More | AllWordTools.com",
+    metaTitle: "Random Generators — Words, Lines & Text | AllWordTools",
     metaDescription:
       "Free random generators for letters, sentences, paragraphs, topics and verbs. Spark writing prompts, warm-ups, games and practice instantly. No sign-up.",
     eyebrow: "Category",
@@ -708,7 +708,7 @@ export const categoryContent: Record<string, CategoryContent> = {
   },
   "name-generators": {
     slug: "name-generators",
-    metaTitle: "Name Generators — Dog, Cat, Team, Guild, Clan & Character Names | AllWordTools.com",
+    metaTitle: "Name Generators — Character, Pet & Team | AllWordTools",
     metaDescription:
       "Free name generators for dogs, cats, teams, guilds, clans and characters. Get endless creative name ideas instantly, one click at a time. No sign-up.",
     eyebrow: "Category",
@@ -768,7 +768,7 @@ export const categoryContent: Record<string, CategoryContent> = {
   },
   "word-quizzes": {
     slug: "word-quizzes",
-    metaTitle: "Word Quizzes & Learning — Vocabulary, Synonym, Spelling & More | AllWordTools.com",
+    metaTitle: "Word Quizzes — Vocabulary & Spelling | AllWordTools",
     metaDescription:
       "Free English word quizzes: vocabulary, synonyms, antonyms, spelling, prefixes and suffixes. Plus a daily word and word of the day. No sign-up, learn as you play.",
     eyebrow: "Category",
@@ -829,7 +829,7 @@ export const categoryContent: Record<string, CategoryContent> = {
   },
   "ai-tools": {
     slug: "ai-tools",
-    metaTitle: "AI Tools — Word, Story, Quiz & Flashcard AI Generators | AllWordTools.com",
+    metaTitle: "AI Word Tools — Story, Quiz & Text AI | AllWordTools",
     metaDescription:
       "Free AI tools powered by Gemini. Explain words, generate sentences and examples, write stories and poems, build vocabulary, and create quizzes and flashcards instantly.",
     eyebrow: "Category",

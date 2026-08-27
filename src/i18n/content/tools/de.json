@@ -1,6 +1,6 @@
 {
   "word-unscrambler": {
-    "metaTitle": "Buchstaben Entwirren – Wörter aus Buchstaben finden | AlleWortTools.com",
+    "metaTitle": "Buchstaben Entwirren – Wörter finden | AllWordTools",
     "metaDescription": "Kostenloser Buchstabenentwirrer: Aus Buchstaben alle gültigen Wörter bilden, sortiert nach Punkten und Länge. Mit Jokern für Scrabble und Words With Friends. Sofortige Ergebnisse.",
     "searchIntent": "Buchstaben entwirren Wörter finden",
     "keywords": [
@@ -115,7 +115,7 @@
     ]
   },
   "scrabble-helper": {
-    "metaTitle": "Scrabble Hilfe — Finde die besten Wörter mit offiziellem Scrabble-Wörterbuch",
+    "metaTitle": "Scrabble Hilfe — Wortfinder mit Wörterbuch | AllWordTools",
     "metaDescription": "Kostenlose Scrabble Hilfe: Finde alle spielbaren Wörter aus deinen Buchstaben, bewertet mit offiziellen Scrabble-Punkten. Inklusive Joker und Filter.",
     "searchIntent": "Suche nach einem kostenlosen Scrabble-Wortfinder, der die höchsten Punktzahlen anzeigt.",
     "keywords": [
@@ -339,7 +339,7 @@
     ]
   },
   "wordle-solver": {
-    "metaTitle": "Wordle Löser – Schnell das nächste Wort finden | AllWordTools.com",
+    "metaTitle": "Wordle Löser – Nächstes Wort finden | AllWordTools",
     "metaDescription": "Kostenloser Wordle Löser: Gib grüne, gelbe und graue Buchstaben ein und erhalte sofort die besten nächsten Wörter – platziert nach Buchstabenhäufigkeit.",
     "searchIntent": "Hilfe beim Lösen von Wordle-Rätseln durch Eingabe von Hinweisen",
     "keywords": [
@@ -562,7 +562,7 @@
     ]
   },
   "crossword-solver": {
-    "metaTitle": "Kreuzworträtsel-Löser – Buchstabenmuster eingeben und Wort finden",
+    "metaTitle": "Kreuzworträtsel-Löser – Wörter finden | AllWordTools",
     "metaDescription": "Kostenloser Kreuzworträtsel-Löser: Geben Sie bekannte Buchstaben und ? für Lücken ein und finden Sie sofort jedes passende Wort für Ihr Gitter.",
     "searchIntent": "Kreuzworträtsel-Lösung mit bekannten Buchstaben finden",
     "keywords": [
@@ -790,7 +790,7 @@
     ]
   },
   "rhyming-words": {
-    "metaTitle": "Reimwörter finden – Perfekte & unreine Reime | AllWordTools.com",
+    "metaTitle": "Reimwörter finden – Perfekte Reime | AllWordTools",
     "metaDescription": "Kostenloser Reimfinder: Geben Sie ein Wort ein und erhalten Sie perfekte und unreine Reime, gruppiert nach Silbenanzahl – ideal für Lieder, Gedichte und Reime.",
     "searchIntent": "Deutsche Reimwörter finden für Gedichte, Lieder und Texte",
     "keywords": [
@@ -894,7 +894,7 @@
     ]
   },
   "synonym-finder": {
-    "metaTitle": "Synonym Finder – Bessere Wortalternativen finden | AllWordTools.com",
+    "metaTitle": "Synonym Finder – Bessere Wortalternativen | AllWordTools",
     "metaDescription": "Kostenloser Synonym-Finder. Gib ein Wort ein und erhalte sofort eine Liste mit passenden Alternativen – für klarere, abwechslungsreichere Texte.",
     "searchIntent": "Suche nach einem kostenlosen Synonymwörterbuch oder Wortersatz-Tool online",
     "keywords": [
@@ -998,7 +998,7 @@
     ]
   },
   "antonym-finder": {
-    "metaTitle": "Antonym Finder – Gegenteile sofort finden | AllWordTools.com",
+    "metaTitle": "Gegenteil Finder — Antonyme finden | AllWordTools",
     "metaDescription": "Kostenloser Antonym-Finder: Geben Sie ein Wort ein und erhalten Sie sofort das passende Gegenteil – ideal für besseres Schreiben, Wortschatzübungen & Rätsel.",
     "searchIntent": "User möchte schnell und einfach das Gegenteil eines bestimmten Wortes finden.",
     "keywords": [
@@ -1102,7 +1102,7 @@
     ]
   },
   "words-starting-with": {
-    "metaTitle": "Wörter mit Anfangsbuchstaben finden – alle Wörter nach Präfix | AllWordTools.com",
+    "metaTitle": "Wörter mit Anfangsbuchstaben finden | AllWordTools",
     "metaDescription": "Kostenloser Wörter-nach-Anfangsbuchstaben-Finder. Gib einen Präfix ein und finde sofort alle deutschen Wörter, die damit beginnen, gruppiert nach Länge.",
     "searchIntent": "Wörter nach Anfangsbuchstaben suchen",
     "keywords": [
@@ -1205,7 +1205,7 @@
     ]
   },
   "words-ending-with": {
-    "metaTitle": "Wörter mit Endung — finde Wörter nach Endung | AllWordTools.com",
+    "metaTitle": "Wörter mit Endung finden — Reimsuche | AllWordTools",
     "metaDescription": "Kostenloser Wörter-nach-Endung-Finder. Gib Buchstaben ein und erhalte alle deutschen Wörter mit dieser Endung – perfekt für Reime, Kreuzworträtsel und Wortspiele.",
     "searchIntent": "Wörter nach bestimmten Buchstaben am Ende suchen",
     "keywords": [
@@ -1308,7 +1308,7 @@
     ]
   },
   "words-containing": {
-    "metaTitle": "Wörter mit Buchstabenfolge finden — Wortsuche online | AllWordTools",
+    "metaTitle": "Wörter mit Buchstaben finden | AllWordTools",
     "metaDescription": "Kostenloser Wortfinder: Gib eine Buchstabenfolge ein und finde alle deutschen Wörter, die diese enthalten. Perfekt für Kreuzworträtsel, Scrabble & Wortspiele.",
     "searchIntent": "Finde deutsche Wörter, die eine bestimmte Buchstabenfolge enthalten",
     "keywords": [
@@ -1412,7 +1412,7 @@
     ]
   },
   "letter-counter": {
-    "metaTitle": "Buchstaben zählen – Zeichen, Wörter & Leerzeichen zählen | AllWordTools.com",
+    "metaTitle": "Buchstaben & Wörter zählen online | AllWordTools",
     "metaDescription": "Kostenloser Buchstaben-Zähler. Zählen Sie Buchstaben, Zeichen, Wörter, Sätze und Leerzeichen in jedem Text – inklusive Häufigkeitsverteilung.",
     "searchIntent": "Buchstaben zählen online",
     "keywords": [
@@ -1515,7 +1515,7 @@
     ]
   },
   "syllable-counter": {
-    "metaTitle": "Silbenzähler — Silben für Gedichte und Texte zählen | AllWordTools.com",
+    "metaTitle": "Silbenzähler — Silben online zählen | AllWordTools",
     "metaDescription": "Kostenloser Silbenzähler. Zählen Sie Silben in Wörtern, Zeilen oder Versen mit Aufschlüsselung pro Wort – ideal für Haiku, Poesie und Lesbarkeit.",
     "searchIntent": "Kostenlos online Silben zählen für Haiku, Gedichte und Texte",
     "keywords": [
@@ -1619,7 +1619,7 @@
     ]
   },
   "random-word-generator": {
-    "metaTitle": "Zufallswort Generator – Kreative Ideen sofort | AllWordTools.com",
+    "metaTitle": "Zufallswort Generator – Ideen sofort | AllWordTools",
     "metaDescription": "Kostenloser Zufallswort Generator. Erzeugen Sie zufällige deutsche Wörter mit Filtern nach Länge und Anfangsbuchstabe – perfekt für Brainstorming, Spiele und Schreibübungen.",
     "searchIntent": "Kostenloses Tool zur Generierung zufälliger Wörter mit Filtermöglichkeiten für kreative Zwecke",
     "keywords": [
@@ -1832,7 +1832,7 @@
     ]
   },
   "hangman-solver": {
-    "metaTitle": "Galgenmännchen Löser – Beste Buchstaben zum Gewinnen | AllWordTools.com",
+    "metaTitle": "Galgenmännchen Löser – Buchstaben raten | AllWordTools",
     "metaDescription": "Kostenloser Galgenmännchen Löser: Alle möglichen Wörter aus bekannten Buchstaben und Fehlversuchen anzeigen und den klügsten nächsten Buchstaben vorschlagen.",
     "searchIntent": "Hilfe beim Lösen von Galgenmännchen-Rätseln durch intelligente Buchstabenauswahl",
     "keywords": [
@@ -2052,7 +2052,7 @@
     ]
   },
   "vowel-counter": {
-    "metaTitle": "Vokalzähler – Vokale in Text zählen mit Aufschlüsselung | AllWordTools.com",
+    "metaTitle": "Vokalzähler – Vokale im Text zählen | AllWordTools",
     "metaDescription": "Kostenloser Vokalzähler: Zählt Vokale (a, e, i, o, u) in Texten mit detaillierter Aufschlüsselung, Gesamtzahlen und Prozentanteil. Sofort, genau und kostenlos.",
     "searchIntent": "Kostenloses Tool zum Zählen von Vokalen in deutschen Texten",
     "keywords": [
@@ -2456,7 +2456,7 @@
     ]
   },
   "grammar-checker": {
-    "metaTitle": "KI-Grammatikprüfung kostenlos – Online Rechtschreib- & Grammatikfehler korrigieren | AllWordTools.com",
+    "metaTitle": "KI-Grammatikprüfung — Grammatik korrigieren | AllWordTools",
     "metaDescription": "Kostenloser KI-Grammatikcheck: Fehler in Rechtschreibung, Zeitform und Satzbau erkennen und korrigieren lassen. Jetzt Text einfügen und verbessern!",
     "searchIntent": "Kostenlose Online-Grammatikprüfung mit KI finden, um Texte auf Fehler zu überprüfen",
     "keywords": [
@@ -2550,7 +2550,7 @@
     ]
   },
   "punctuation-checker": {
-    "metaTitle": "Zeichensetzungsprüfung — Kommas & Satzzeichen korrigieren | AllWordTools.com",
+    "metaTitle": "Zeichensetzungsprüfung — Kommas korrigieren | AllWordTools",
     "metaDescription": "Kostenlose Zeichensetzungsprüfung: Korrigiert Kommas, Apostrophe, Punkte und Anführungszeichen, ohne den Wortlaut zu ändern. Jetzt Texte prüfen.",
     "searchIntent": "Kostenlose Online-Zeichensetzungsprüfung für korrekte Kommasetzung und Satzzeichen",
     "keywords": [
@@ -2643,7 +2643,7 @@
     ]
   },
   "wordscapes-solver": {
-    "metaTitle": "Wordscapes Lösungen – Alle Antworten & Bonuspunkte | AllWordTools.com",
+    "metaTitle": "Wordscapes Lösungen – Alle Antworten | AllWordTools",
     "metaDescription": "Kostenloser Wordscapes-Solver: Gib die Buchstaben ein und erhalte sofort alle Antworten und Bonuswörter nach Länge sortiert – für jedes Level.",
     "searchIntent": "Transaktional: Spieler möchten ein konkretes Wordscapes-Level lösen und suchen nach einem Werkzeug, das alle Wörter aus den Buchstaben findet.",
     "keywords": [
@@ -2746,7 +2746,7 @@
     ]
   },
   "word-cookies-solver": {
-    "metaTitle": "Word Cookies Lösungshelfer – Alle Wörter & Bonuswörter | AllWordTools.com",
+    "metaTitle": "Word Cookies Lösungen & Bonuswörter | AllWordTools",
     "metaDescription": "Kostenloser Word Cookies Lösungshelfer. Gib deine Keksbuchstaben ein und erhalte sofort alle gültigen Wörter und Bonuswörter, gruppiert nach Länge.",
     "searchIntent": "Lösung für Word Cookies Level finden",
     "keywords": [
@@ -2848,7 +2848,7 @@
     ]
   },
   "codycross-solver": {
-    "metaTitle": "CodyCross Löser – Lösungen aus bekannten Buchstaben | AllWordTools.com",
+    "metaTitle": "CodyCross Löser – Lösungen & Clues | AllWordTools",
     "metaDescription": "Kostenloser CodyCross Löser. Geben Sie die Länge und bekannte Buchstaben ein – sofort passende Wörter. Schnell, kostenlos, ohne Anmeldung.",
     "searchIntent": "CodyCross Lösung finden mit bekannten Buchstaben und Länge",
     "keywords": [
@@ -2951,7 +2951,7 @@
     ]
   },
   "seven-little-words-solver": {
-    "metaTitle": "7 Little Words Löser – Antworten nach Länge & Buchstaben | AllWordTools.com",
+    "metaTitle": "7 Little Words Löser – Schnelle Antworten | AllWordTools",
     "metaDescription": "Kostenloser 7 Little Words Löser. Gib die Wortlänge und bekannte Buchstaben ein und finde sofort das passende Wort. Schnell, kostenlos, ohne Anmeldung.",
     "searchIntent": "Lösungshilfe für 7 Little Words Rätsel suchen",
     "keywords": [
@@ -3158,7 +3158,7 @@
     ]
   },
   "letter-pattern-finder": {
-    "metaTitle": "Buchstabenmuster-Finder — Wörter mit Platzhaltern finden | AllWordTools.com",
+    "metaTitle": "Buchstabenmuster-Finder mit Wildcards | AllWordTools",
     "metaDescription": "Kostenloser Buchstabenmuster-Finder: Finde Wörter mit ? für einen Buchstaben und * für beliebig viele – perfekt für Kreuzworträtsel und Wortspiele.",
     "searchIntent": "Benutzer suchen nach einem Tool, um Wörter anhand eines Buchstabenmusters mit Platzhaltern zu finden, z.B. für Kreuzworträtsel.",
     "keywords": [
@@ -3369,7 +3369,7 @@
     ]
   },
   "pattern-solver": {
-    "metaTitle": "Muster Löser — Wortmuster aus bekannten Buchstaben & Lücken lösen",
+    "metaTitle": "Muster Löser — Wortmuster lösen | AllWordTools",
     "metaDescription": "Kostenloser Muster Löser, der jedes Wort findet, das einem festen Längenmuster aus bekannten Buchstaben und Lücken entspricht. Ideal für Kreuzworträtsel, Spiele und Rätsel.",
     "searchIntent": "Lösung für Wortmuster mit bekannten Buchstaben und Platzhaltern",
     "keywords": [
@@ -3576,7 +3576,7 @@
     ]
   },
   "letter-rearranger": {
-    "metaTitle": "Buchstaben-Umordner – Jedes Wort aus deinen Buchstaben finden | AllWordTools.com",
+    "metaTitle": "Buchstaben-Umordner – Wörter bilden | AllWordTools",
     "metaDescription": "Kostenloser Buchstaben-Umordner: Aus deinen Buchstaben werden alle gültigen Wörter – lang und kurz. Ideal für Scrabble, Anagrams und Wortspiele.",
     "searchIntent": "Hilfe beim Finden aller möglichen Wörter aus einem Buchstabensalat",
     "keywords": [
@@ -3679,7 +3679,7 @@
     ]
   },
   "reverse-dictionary": {
-    "metaTitle": "Umgekehrtes Wörterbuch – Wort aus Beschreibung finden | AllWordTools",
+    "metaTitle": "Umgekehrtes Wörterbuch – Wort finden | AllWordTools",
     "metaDescription": "Kostenloses umgekehrtes Wörterbuch: Beschreiben Sie die Bedeutung und erhalten Sie passende Wörter, nach Relevanz sortiert. Sofort und ohne Anmeldung.",
     "searchIntent": "Nutzer möchten ein Wort finden, dessen Bedeutung sie kennen, aber der Begriff selbst nicht einfällt – „Zungenbrecher“-Moment.",
     "keywords": [
@@ -3782,7 +3782,7 @@
     ]
   },
   "alphabetical-sorter": {
-    "metaTitle": "Alphabetischer Sortierer – Wörter & Listen sortieren | AllWordTools.com",
+    "metaTitle": "Alphabetischer Sortierer für Listen | AllWordTools",
     "metaDescription": "Kostenloser alphabetischer Sortierer: Sortiere Wörter, Namen oder Listen sofort in A–Z oder Z–A. Zeilenumbrüche, Leerzeichen oder Kommas, Duplikate entfernen, Groß-/Kleinschreibung ignorieren.",
     "searchIntent": "Wörter alphabetisch sortieren online",
     "keywords": [
@@ -3886,7 +3886,7 @@
     ]
   },
   "random-letter-generator": {
-    "metaTitle": "Zufallsbuchstaben Generator – Buchstaben A–Z zufällig ziehen | AllWordTools.com",
+    "metaTitle": "Zufallsbuchstaben Generator A–Z | AllWordTools",
     "metaDescription": "Kostenloser Zufallsbuchstaben Generator. Ziehen Sie einen oder mehrere zufällige Buchstaben – alle Buchstaben, nur Vokale oder Konsonanten, groß/klein, mit/ohne Wiederholung.",
     "searchIntent": "Zufallsbuchstaben generieren für Spiele, Übungen oder kreative Zwecke",
     "keywords": [
@@ -4065,7 +4065,7 @@
     ]
   },
   "spelling-quiz": {
-    "metaTitle": "Rechtschreib-Quiz – Finde die richtige Schreibweise | AllWordTools.com",
+    "metaTitle": "Rechtschreib-Quiz – Rechtschreibung testen | AllWordTools",
     "metaDescription": "Kostenloses Rechtschreib-Quiz mit den häufigsten Fehlwörtern im Deutschen. Wähle die korrekte Schreibweise aus vier Optionen. Keine Anmeldung nötig, endlos wiederholbar.",
     "searchIntent": "Üben der korrekten Schreibweise häufiger deutscher Fehlwörter",
     "keywords": [
@@ -4145,7 +4145,7 @@
     ]
   },
   "codycross-answers": {
-    "metaTitle": "CodyCross Antworten — Lösungen, Rätselhilfe & Tipps | AllWordTools.com",
+    "metaTitle": "CodyCross Antworten & Rätselhilfe | AllWordTools",
     "metaDescription": "Finde alle CodyCross Antworten und Lösungen für jede Welt, Gruppe und Phase. Durchsuche unsere Datenbank nach CodyCross Hinweisen, um jedes Level sofort zu lösen. Schnell und kostenlos.",
     "heading": "CodyCross Antworten & Rätsel-Datenbank",
     "subheading": "Erhalte sofortige Lösungen für CodyCross-Rätsel. Durchsuche unsere Datenbank nach Hinweisen und kreuzenden Buchstaben, um jedes Level zu lösen und in den Welten voranzukommen.",
