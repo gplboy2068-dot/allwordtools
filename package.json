@@ -8,6 +8,11 @@
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
+    "d1:local": "wrangler d1 execute allwordtools-db --local --file=./d1/schema.sql",
+    "d1:seed": "wrangler d1 execute allwordtools-db --local --file=./d1/seed.sql",
+    "d1:remote-init": "wrangler d1 execute allwordtools-db --remote --file=./d1/schema.sql",
+    "d1:remote-seed": "wrangler d1 execute allwordtools-db --remote --file=./d1/seed.sql",
+    "deploy": "wrangler pages deploy .output/public",
     "indexnow": "node scripts/submit-indexnow.cjs",
     "lint": "eslint .",
     "format": "prettier --write ."
@@ -82,6 +87,7 @@
     "prettier": "^3.7.3",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.56.1",
-    "vite": "^8.0.16"
+    "vite": "^8.0.16",
+    "wrangler": "^4.126.0"
   }
 }

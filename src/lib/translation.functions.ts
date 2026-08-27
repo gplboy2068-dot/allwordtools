@@ -6,6 +6,7 @@ import { allTools, categories } from "@/data/tools";
 import { toolContent } from "@/data/tool-content";
 import { getLocale } from "@/i18n/locales";
 import type { LocalizedToolContent } from "@/i18n/content";
+import { saveToolToDb } from "@/lib/db";
 
 const MODEL = "deepseek-chat";
 const GATEWAY = "https://api.deepseek.com/chat/completions";
@@ -238,6 +239,9 @@ ${data.customPrompt ? `Additional Instructions: ${data.customPrompt}` : ""}`;
     existing[data.slug] = parsed;
     writeLocaleJson(data.targetLocale, existing);
 
+    // Persist to Cloudflare D1 if connected
+    await saveToolToDb(data.slug, data.targetLocale, parsed);
+
     return { success: true, data: parsed };
   });
 
@@ -257,6 +261,10 @@ export const saveToolTranslation = createServerFn({ method: "POST" })
     const existing = readLocaleJson(data.targetLocale);
     existing[data.slug] = data.content as LocalizedToolContent;
     writeLocaleJson(data.targetLocale, existing);
+
+    // Persist to Cloudflare D1 if connected
+    await saveToolToDb(data.slug, data.targetLocale, data.content);
+
     return { success: true };
   });
 

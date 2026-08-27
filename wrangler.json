@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "allwordtools",
+  "compatibility_date": "2024-09-23",
+  "compatibility_flags": ["nodejs_compat"],
+  "pages_build_output_dir": ".output/public",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "allwordtools-db",
+      "database_id": "local-allwordtools-db",
+      "migrations_dir": "d1/migrations"
+    }
+  ],
+  "kv_namespaces": [
+    {
+      "binding": "KV",
+      "id": "local-allwordtools-kv"
+    }
+  ]
+}

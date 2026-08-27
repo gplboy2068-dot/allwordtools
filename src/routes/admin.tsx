@@ -206,6 +206,9 @@ export function AdminTranslationStudio() {
               <Badge variant="outline" className="text-honey border-honey/40">
                 Admin Studio
               </Badge>
+              <Badge variant="secondary" className="bg-orange-500/10 text-orange-500 border-orange-500/20">
+                ☁️ Cloudflare D1 Database Ready
+              </Badge>
             </div>
             <h1 className="mt-2 font-display text-3xl font-bold tracking-tight sm:text-4xl">
               AI Multi-Language Translation Studio
