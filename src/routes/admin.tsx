@@ -21,6 +21,9 @@ import {
   HelpCircle,
   ListOrdered,
   BookOpen,
+  Database,
+  Server,
+  Activity,
 } from "lucide-react";
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
@@ -40,6 +43,7 @@ import {
   saveToolTranslation,
   type LocaleCoverage,
 } from "@/lib/translation.functions";
+import { checkDbStatus, type DbStatusResponse } from "@/lib/db.functions";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/admin")({
@@ -90,6 +94,9 @@ export function AdminTranslationStudio() {
   const selectedToolObj = allTools.find((t) => t.slug === selectedToolSlug) || allTools[0];
   const sourceToolContent = toolContent[selectedToolSlug];
 
+  const [dbStatus, setDbStatus] = useState<DbStatusResponse | null>(null);
+  const [checkingDb, setCheckingDb] = useState(false);
+
   // Load stats when locale changes
   const loadStats = async (loc: string) => {
     setLoadingStats(true);
@@ -103,8 +110,24 @@ export function AdminTranslationStudio() {
     }
   };
 
+  const loadDbStatus = async () => {
+    setCheckingDb(true);
+    try {
+      const res = await checkDbStatus();
+      setDbStatus(res);
+      if (res.connected) {
+        toast.success("Connected to Cloudflare D1 Database!");
+      }
+    } catch (err: any) {
+      toast.error("DB Status check failed: " + (err.message || String(err)));
+    } finally {
+      setCheckingDb(false);
+    }
+  };
+
   useEffect(() => {
     loadStats(selectedLocale);
+    loadDbStatus();
   }, [selectedLocale]);
 
   // Handle single tool translation with AI
@@ -234,8 +257,57 @@ export function AdminTranslationStudio() {
           </div>
         </div>
 
+        {/* Cloudflare D1 Database Diagnostics Card */}
+        <div className="mt-6 rounded-3xl border border-border/70 bg-card p-5 shadow-soft">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+            <div className="flex items-center gap-3">
+              <span className={`flex h-10 w-10 items-center justify-center rounded-2xl ${
+                dbStatus?.connected ? "bg-emerald-500/10 text-emerald-500" : "bg-amber-500/10 text-amber-500"
+              }`}>
+                <Database className="h-5 w-5" />
+              </span>
+              <div>
+                <div className="flex items-center gap-2">
+                  <span className="font-display font-semibold text-sm">Database Status:</span>
+                  <Badge variant="outline" className={
+                    dbStatus?.connected
+                      ? "bg-emerald-500/10 text-emerald-500 border-emerald-500/30"
+                      : "bg-amber-500/10 text-amber-500 border-amber-500/30"
+                  }>
+                    {dbStatus?.connected ? "🟢 Cloudflare D1 Active" : "⚪ File-Based Fallback"}
+                  </Badge>
+                </div>
+                <p className="text-xs text-muted-foreground mt-0.5">
+                  {dbStatus?.message || "Checking database connectivity..."}
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-4">
+              <div className="text-right hidden md:block">
+                <div className="text-xs font-semibold text-foreground">
+                  {dbStatus?.toolsCount ?? 92} Tools · {dbStatus?.translationsCount ?? 644} Translations
+                </div>
+                <div className="text-[11px] text-muted-foreground">
+                  Latency: {dbStatus?.latencyMs ?? 0}ms
+                </div>
+              </div>
+              <Button
+                variant="outline"
+                size="sm"
+                className="rounded-full text-xs font-semibold"
+                onClick={loadDbStatus}
+                disabled={checkingDb}
+              >
+                <Activity className={`mr-1.5 h-3.5 w-3.5 ${checkingDb ? "animate-spin" : ""}`} />
+                {checkingDb ? "Testing..." : "Test Connection"}
+              </Button>
+            </div>
+          </div>
+        </div>
+
         {/* Global Progress Bar for Selected Language */}
-        <div className="mt-8 rounded-3xl border border-border/70 bg-card p-6 shadow-soft">
+        <div className="mt-6 rounded-3xl border border-border/70 bg-card p-6 shadow-soft">
           <div className="flex flex-wrap items-center justify-between gap-4">
             <div>
               <span className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
