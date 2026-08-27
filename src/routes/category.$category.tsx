@@ -14,12 +14,13 @@ import {
 } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
 import { categories, type Tool } from "@/data/tools";
-import { categoryContent } from "@/data/category-content";
 import { getCategoryReferences } from "@/lib/external-links";
 import { buildLocaleHead, inLanguage, BASE_URL } from "@/i18n/seo";
 import { localePath } from "@/i18n/paths";
 import { DEFAULT_LOCALE } from "@/i18n/locales";
 import { useI18n } from "@/i18n/I18nProvider";
+import { getLocalizedCategory } from "@/i18n/categories";
+import { getLocalizedCategoryFullContent } from "@/i18n/category-content";
 
 const SITE = "AllWordTools.com";
 
@@ -27,20 +28,23 @@ function getCategory(slug: string) {
   return categories.find((c) => c.slug === slug);
 }
 
-export function categoryHead(slug: string, locale: string) {
+export function categoryHead(slug: string, locale: string = DEFAULT_LOCALE) {
   const category = getCategory(slug);
-  const content = categoryContent[slug];
   if (!category) {
     return {
       meta: [{ title: `Category not found — ${SITE}` }, { name: "robots", content: "noindex" }],
     };
   }
-  const title = content?.metaTitle ?? `${category.title} — ${SITE}`;
-  const description = content?.metaDescription ?? category.description;
+  const locCat = getLocalizedCategory(category, locale);
+  const content = getLocalizedCategoryFullContent(slug, locale);
+
+  const title = content?.metaTitle || `${locCat.title} — ${SITE}`;
+  const description = content?.metaDescription || locCat.description;
   const path = `/category/${slug}`;
   const url = `${BASE_URL}${localePath(locale, path)}`;
   const home = `${BASE_URL}${localePath(locale, "/")}`;
   const { meta, links } = buildLocaleHead({ path, locale, title, description });
+
   return {
     meta,
     links,
@@ -56,7 +60,7 @@ export function categoryHead(slug: string, locale: string) {
             {
               "@type": "ListItem",
               position: 2,
-              name: category.title,
+              name: locCat.title,
               item: url,
             },
           ],
@@ -67,7 +71,7 @@ export function categoryHead(slug: string, locale: string) {
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "CollectionPage",
-          name: category.title,
+          name: locCat.title,
           description,
           url,
           inLanguage: inLanguage(locale),
@@ -88,7 +92,7 @@ export function categoryHead(slug: string, locale: string) {
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "ItemList",
-          name: category.title,
+          name: locCat.title,
           itemListElement: category.tools.map((t, i) => ({
             "@type": "ListItem",
             position: i + 1,
@@ -97,7 +101,7 @@ export function categoryHead(slug: string, locale: string) {
           })),
         }),
       },
-      ...(content
+      ...(content && content.faqs.length > 0
         ? [
             {
               type: "application/ld+json",
@@ -119,8 +123,6 @@ export function categoryHead(slug: string, locale: string) {
 
 export const Route = createFileRoute("/category/$category")({
   loader: ({ params }) => {
-    // Return only serializable data — the category's `icon` is a React
-    // component (function) and cannot cross the SSR dehydration boundary.
     if (!getCategory(params.category)) throw notFound();
     return { slug: params.category };
   },
@@ -291,21 +293,21 @@ const UI_LOCALIZATION: Record<
     home: "الرئيسية",
   },
   hi: {
-    toolsCount: "इस श्रेणी में {count} निःशुल्क टूल",
-    toolsTitleSuffix: "टूल",
-    pickToolSub: "आरंभ करने के लिए एक टूल चुनें - प्रत्येक टूल तेज़, मुफ़्त है और किसी भी डिवाइस पर काम करता है।",
+    toolsCount: "इस श्रेणी में {count} मुफ़्त टूल्स",
+    toolsTitleSuffix: "टूल्स",
+    pickToolSub: "शुरू करने के लिए कोई भी टूल चुनें — प्रत्येक टूल तेज़, मुफ़्त है और किसी भी डिवाइस पर काम करता है।",
     aboutCategory: "{title} के बारे में",
-    tips: "प्रो सुझाव",
+    tips: "प्रो टिप्स",
     faqEyebrow: "प्रश्न और उत्तर",
-    faqsTitleSuffix: "अक्सर पूछे जाने वाले प्रश्न",
-    exploreMore: "अन्य श्रेणियां खोजें",
-    toolsCountSuffix: "{count} टूल",
-    browse: "खोजें",
+    faqsTitleSuffix: "अक्सर पूछे जाने वाले प्रश्न (FAQ)",
+    exploreMore: "अन्य श्रेणियां एक्सप्लोर करें",
+    toolsCountSuffix: "{count} टूल्स",
+    browse: "ब्राउज़ करें",
     notFound: "श्रेणी नहीं मिली",
-    notFoundDesc: "हमें वह श्रेणी नहीं मिली. इसके बजाय हमारे सभी शब्द टूल खोजें।",
+    notFoundDesc: "हमें वह श्रेणी नहीं मिली। इसके बजाय हमारे सभी शब्द टूल्स देखें।",
     backHome: "होमपेज पर वापस",
-    errorTitle: "यह पेज लोड नहीं हुआ",
-    errorDesc: "कुछ गलत हो गया. कृपया पुन: प्रयास करें।",
+    errorTitle: "यह पेज लोड नहीं हो सका",
+    errorDesc: "कुछ गलत हो गया। कृपया दोबारा प्रयास करें।",
     tryAgain: "पुनः प्रयास करें",
     home: "होम",
   },
@@ -315,7 +317,8 @@ export function CategoryPageView({ slug }: { slug: string }) {
   const { locale } = useI18n();
   const isDefault = locale === DEFAULT_LOCALE;
   const category = getCategory(slug)!;
-  const content = categoryContent[slug];
+  const locCat = getLocalizedCategory(category, locale);
+  const content = getLocalizedCategoryFullContent(slug, locale);
   const Icon = category.icon;
   const related = categories.filter((c) => c.slug !== category.slug);
   const references = getCategoryReferences(slug);
@@ -343,7 +346,7 @@ export function CategoryPageView({ slug }: { slug: string }) {
                   </Link>
                 </li>
                 <ChevronRight className="h-3.5 w-3.5" />
-                <li className="font-medium text-foreground">{category.title}</li>
+                <li className="font-medium text-foreground">{locCat.title}</li>
               </ol>
             </nav>
 
@@ -354,10 +357,10 @@ export function CategoryPageView({ slug }: { slug: string }) {
                   {t("toolsCount").replace("{count}", category.tools.length.toString())}
                 </span>
                 <h1 className="mt-5 font-display text-4xl font-semibold leading-[1.05] tracking-tight text-balance sm:text-5xl">
-                  {content?.heading ?? category.title}
+                  {content.heading}
                 </h1>
                 <p className="mt-4 text-lg leading-relaxed text-muted-foreground text-balance">
-                  {content?.subheading ?? category.description}
+                  {content.subheading}
                 </p>
               </div>
               <span className="flex h-20 w-20 shrink-0 items-center justify-center rounded-3xl gradient-ink text-primary-foreground shadow-lift">
@@ -370,7 +373,7 @@ export function CategoryPageView({ slug }: { slug: string }) {
         {/* Tools grid */}
         <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8" aria-labelledby="tools">
           <h2 id="tools" className="font-display text-2xl font-semibold tracking-tight sm:text-3xl">
-            {category.title} {t("toolsTitleSuffix")}
+            {locCat.title} {t("toolsTitleSuffix")}
           </h2>
           <p className="mt-2 text-muted-foreground">
             {t("pickToolSub")}
@@ -393,7 +396,7 @@ export function CategoryPageView({ slug }: { slug: string }) {
                 id="about"
                 className="mt-2 font-display text-3xl font-semibold tracking-tight sm:text-4xl"
               >
-                {t("aboutCategory").replace("{title}", category.title)}
+                {t("aboutCategory").replace("{title}", locCat.title)}
               </h2>
               <div className="mt-6 space-y-4">
                 {content.intro.map((p, i) => (
@@ -421,30 +424,32 @@ export function CategoryPageView({ slug }: { slug: string }) {
               </div>
 
               {/* Tips */}
-              <div className="mt-12 rounded-3xl border border-border/70 bg-card p-7 shadow-soft">
-                <h3 className="flex items-center gap-2 font-display text-xl font-semibold">
-                  <Lightbulb className="h-5 w-5 text-honey" /> {t("tips")}
-                </h3>
-                <ul className="mt-4 space-y-3">
-                  {content.tips.map((tip, i) => (
-                    <li
-                      key={i}
-                      className="flex gap-3 text-sm leading-relaxed text-muted-foreground"
-                    >
-                      <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full gradient-honey text-xs font-bold text-honey-foreground">
-                        {i + 1}
-                      </span>
-                      {tip}
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              {content.tips && content.tips.length > 0 && (
+                <div className="mt-12 rounded-3xl border border-border/70 bg-card p-7 shadow-soft">
+                  <h3 className="flex items-center gap-2 font-display text-xl font-semibold">
+                    <Lightbulb className="h-5 w-5 text-honey" /> {t("tips")}
+                  </h3>
+                  <ul className="mt-4 space-y-3">
+                    {content.tips.map((tip, i) => (
+                      <li
+                        key={i}
+                        className="flex gap-3 text-sm leading-relaxed text-muted-foreground"
+                      >
+                        <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full gradient-honey text-xs font-bold text-honey-foreground">
+                          {i + 1}
+                        </span>
+                        {tip}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </div>
           </section>
         )}
 
         {/* FAQ */}
-        {content && (
+        {content && content.faqs && content.faqs.length > 0 && (
           <section className="mx-auto max-w-3xl px-4 py-14 sm:px-6 lg:px-8" aria-labelledby="faq">
             <span className="text-sm font-semibold uppercase tracking-wider text-honey">
               {t("faqEyebrow")}
@@ -453,7 +458,7 @@ export function CategoryPageView({ slug }: { slug: string }) {
               id="faq"
               className="mt-2 font-display text-3xl font-semibold tracking-tight sm:text-4xl"
             >
-              {category.title} {t("faqsTitleSuffix")}
+              {locCat.title} {t("faqsTitleSuffix")}
             </h2>
             <Accordion type="single" collapsible className="mt-6 w-full">
               {content.faqs.map((faq, i) => (
@@ -482,6 +487,7 @@ export function CategoryPageView({ slug }: { slug: string }) {
             <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
               {related.map((cat) => {
                 const CatIcon = cat.icon;
+                const locRelCat = getLocalizedCategory(cat, locale);
                 return (
                   <Link
                     key={cat.slug}
@@ -493,7 +499,7 @@ export function CategoryPageView({ slug }: { slug: string }) {
                       <CatIcon className="h-6 w-6" />
                     </span>
                     <div>
-                      <h3 className="font-display text-lg font-semibold">{cat.title}</h3>
+                      <h3 className="font-display text-lg font-semibold">{locRelCat.title}</h3>
                       <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
                         {t("toolsCountSuffix").replace("{count}", cat.tools.length.toString())}
                       </p>
@@ -509,7 +515,7 @@ export function CategoryPageView({ slug }: { slug: string }) {
           </div>
         </section>
 
-        {/* Trusted external references — educational sources for this category */}
+        {/* Trusted external references */}
         <TrustedReferences references={references} className="py-4" />
 
         {/* Contextual keyword clusters */}
