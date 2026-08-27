@@ -59,5 +59,36 @@
     "all": "Semua bahasa",
     "empty": "Tidak ada bahasa ditemukan",
     "current": "Saat ini"
+  },
+  "categories": {
+    "eyebrow": "Jelajahi berdasarkan kategori",
+    "title": "Jelajahi setiap kategori",
+    "description": "Ratusan alat tertata rapi. Pilih kategori untuk melihat semua alat di dalamnya.",
+    "toolsCount": "{count} alat",
+    "viewAll": "Lihat semua {count} {category} →"
+  },
+  "popular": {
+    "eyebrow": "Paling disukai",
+    "title": "Alat populer saat ini",
+    "description": "Alat yang paling banyak digunakan pecinta kata — tren, terbaru, dan berbasis AI.",
+    "trending": "Alat Sedang Tren",
+    "new": "Alat Terbaru",
+    "ai": "Alat AI",
+    "browseAll": "Jelajahi semua alat",
+    "visitHub": "Kunjungi pusat belajar",
+    "openTool": "Buka alat"
+  },
+  "benefits": {
+    "eyebrow": "Mengapa AllWordTools",
+    "title": "Dibuat untuk pemain dan pecinta kata",
+    "description": "Semua yang Anda butuhkan untuk memenangkan game dan menulis dengan percaya diri di satu tempat."
+  },
+  "common": {
+    "new": "Baru",
+    "trending": "Tren",
+    "openTool": "Buka alat",
+    "search": "Cari",
+    "clear": "Hapus",
+    "admin": "Studio Admin"
   }
 }

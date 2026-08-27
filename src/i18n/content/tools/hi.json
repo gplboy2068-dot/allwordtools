@@ -102,7 +102,8 @@
         "question": "क्या अनस्क्रैम्बलर का उपयोग करना धोखा माना जाता है?",
         "answer": "यह आपके और आपके विरोधियों के बीच के खेल के नियमों पर निर्भर करता है। कई खिलाड़ी इसे सीखने और अपनी शब्दावली को बेहतर बनाने के उपकरण के रूप में देखते हैं, जबकि कुछ इसे अनुचित मानते हैं। मैत्रीपूर्ण खेल में, पूछना सबसे अच्छा है!"
       }
-    ]
+    ],
+    "name": "Word Unscrambler"
   },
   "anagram-solver": {
     "metaTitle": "एनाग्राम सॉल्वर: अक्षरों से शब्द खोजें - AllWordTools",
@@ -207,7 +208,8 @@
         "question": "यह 'वर्ड अनस्क्रैम्बलर' से कैसे अलग है?",
         "answer": "एनाग्राम सॉल्वर आपके सभी अक्षरों का उपयोग करके नए शब्द बनाता है, जबकि वर्ड अनस्क्रैम्बलर आपके अक्षरों के किसी भी उपसमुच्चय से भी शब्द बना सकता है।"
       }
-    ]
+    ],
+    "name": "Anagram Solver"
   },
   "wordle-solver": {
     "metaTitle": "Wordle Solver: सबसे अच्छा वर्डले सॉल्वर | वर्डले समाधान पाएँ",
@@ -312,7 +314,8 @@
         "question": "क्या यह Wordle-जैसे अन्य खेलों के लिए भी काम करता है?",
         "answer": "हाँ, यह सॉल्वर उन सभी पांच-अक्षर वाले शब्द-आधारित खेलों के लिए काम कर सकता है जो हरे, पीले और ग्रे क्लू पैटर्न का उपयोग करते हैं, जैसे कि Dordle या Quordle।"
       }
-    ]
+    ],
+    "name": "Wordle Solver"
   },
   "scrabble-helper": {
     "metaTitle": "स्क्रैबल सॉल्वर: ज्यादा स्कोर वाले शब्द हिंदी में खोजें",
@@ -417,7 +420,8 @@
         "question": "क्या यह टूल अंग्रेजी के साथ-साथ हिंदी शब्दों का भी समर्थन करता है?",
         "answer": "हाँ, हमारा टूल अंग्रेजी और हिंदी दोनों अक्षरों और शब्दों के साथ काम करता है, ताकि आप किसी भी भाषा के शब्द गेम में इसका उपयोग कर सकें।"
       }
-    ]
+    ],
+    "name": "Scrabble Helper"
   },
   "words-with-friends-helper": {
     "metaTitle": "वर्ड्स विद फ्रेंड्स: बेस्ट मूव्स और टाइल्स | AllWordTools",
@@ -522,7 +526,8 @@
         "question": "क्या यह टूल हिंदी में भी काम करेगा?",
         "answer": "यह टूल अंग्रेजी शब्दों के लिए बनाया गया है क्योंकि 'वर्ड्स विद फ्रेंड्स' गेम अंग्रेजी में है। हालांकि, इसकी भाषा हिंदी में है ताकि हिंदी भाषी उपयोगकर्ताओं को इसे इस्तेमाल करने में आसानी हो। यह गेम में अंग्रेजी के सही शब्द ढूंढने में मदद करता है।"
       }
-    ]
+    ],
+    "name": "Words With Friends"
   },
   "crossword-solver": {
     "metaTitle": "क्रॉसवर्ड सॉल्वर: खाली वर्ग भरें | AllWordTools.com",
@@ -627,7 +632,8 @@
         "question": "मेरे पैटर्न के लिए कोई परिणाम क्यों नहीं मिल रहा है?",
         "answer": "इसके कुछ कारण हो सकते हैं: आपने गलत पैटर्न डाला होगा, शब्द हमारी शब्दकोश में नहीं है, या पैटर्न में एक से अधिक अज्ञात अक्षर हैं जहाँ कोई शब्द संभव नहीं है। अपने पैटर्न की जांच करें और दोबारा कोशिश करें।"
       }
-    ]
+    ],
+    "name": "Crossword Solver"
   },
   "word-finder": {
     "metaTitle": "वर्ड फाइंडर: अक्षर और पैटर्न से शब्द खोजें - AllWordTools",
@@ -732,7 +738,8 @@
         "question": "क्या परिणाम शब्द गेम्स में मान्य होते हैं?",
         "answer": "हमारे वर्ड फाइंडर द्वारा दिए गए अधिकांश शब्द मानक अंग्रेजी शब्दकोश पर आधारित होते हैं और लोकप्रिय शब्द गेम्स जैसे स्क्रैबल और वर्डल में मान्य होते हैं। हालांकि, विशिष्ट गेम के नियमों की पुष्टि करना हमेशा अच्छा रहता है।"
       }
-    ]
+    ],
+    "name": "Word Finder"
   },
   "rhyming-words": {
     "metaTitle": "शब्दों तक की तुकांत ढूंढें | हिंदी कविता, गाने के लिए",
@@ -837,7 +844,8 @@
         "question": "क्या यह टूल हिंदी के अलावा अन्य भाषाओं के लिए भी काम करता है?",
         "answer": "नहीं, यह टूल मुख्य रूप से हिंदी शब्दों के लिए डिजाइन किया गया है। अन्य भाषाओं के लिए परिणाम सटीक नहीं हो सकते हैं।"
       }
-    ]
+    ],
+    "name": "Rhyming Words"
   },
   "synonym-finder": {
     "metaTitle": "पर्यायवाची शब्द खोजें | ऑनलाइन हिंदी समानार्थक शब्दकोश",
@@ -942,7 +950,8 @@
         "question": "क्या मैं इस टूल का उपयोग मोबाइल पर कर सकता हूँ?",
         "answer": "बिल्कुल! हमारा पर्यायवाची शब्द खोजक मोबाइल सहित किसी भी डिवाइस पर आपके वेब ब्राउज़र में पूरी तरह से काम करता है। यह रेस्पॉन्सिव है और उपयोग में आसान है।"
       }
-    ]
+    ],
+    "name": "Synonym Finder"
   },
   "antonym-finder": {
     "metaTitle": "विलोम शब्द खोजें | विपरीत अर्थ वाले शब्द - AllWordTools",
@@ -1047,7 +1056,8 @@
         "question": "क्या यह सिर्फ हिंदी शब्दों के लिए है?",
         "answer": "हमारा यह विशेष उपकरण हिंदी-केंद्रित है, लेकिन हमारे पास अन्य भाषाओं के लिए भी ऐसे ही उपकरण उपलब्ध हैं।"
       }
-    ]
+    ],
+    "name": "Antonym Finder"
   },
   "words-starting-with": {
     "metaTitle": "शब्द जो इन अक्षरों से शुरू होते हैं - हिंदी वर्ड फाइंडर",
@@ -1152,7 +1162,8 @@
         "question": "क्या यह टूल हिंदी शब्दों के लिए भी काम करता है?",
         "answer": "यह टूल मुख्य रूप से अंग्रेजी शब्दों के लिए डिज़ाइन किया गया है। हिंदी शब्दों के लिए, आपको एक विशेष हिंदी शब्दकोश आधारित टूल का उपयोग करना होगा।"
       }
-    ]
+    ],
+    "name": "Words Starting With"
   },
   "words-ending-with": {
     "metaTitle": "शब्द जो खत्म होते हैं: सही शब्द खोजें | AllWordTools",
@@ -1257,7 +1268,8 @@
         "question": "क्या मैं मोबाइल पर भी इस टूल का इस्तेमाल कर सकता हूँ?",
         "answer": "हाँ, हमारी वेबसाइट पूरी तरह से मोबाइल-फ्रेंडली है। आप अपने स्मार्टफोन या टैबलेट पर भी आसानी से इस टूल का उपयोग कर सकते हैं।"
       }
-    ]
+    ],
+    "name": "Words Ending With"
   },
   "words-containing": {
     "metaTitle": "शब्दों में अक्षर खोजें | ऑनलाइन हिंदी वर्ड फाइंडर",
@@ -1360,7 +1372,8 @@
         "question": "क्या यह हिंदी शब्द भी ढूंढ सकता है?",
         "answer": "यह टूल मुख्य रूप से अंग्रेजी शब्दों के लिए डिज़ाइन किया गया है, लेकिन कुछ हिंदी अक्षर-समूह डालकर आप कुछ हिंदी शब्द भी ढूंढ सकते हैं जो उन अक्षरों को शामिल करते हैं, जैसे उदाहरणों में दिखाया गया है।"
       }
-    ]
+    ],
+    "name": "Words Containing"
   },
   "letter-counter": {
     "metaTitle": "हिंदी शब्द काउंटर - अक्षर व वर्ण गिनें | AllWordTools",
@@ -1465,7 +1478,8 @@
         "question": "क्या यह टूल दूसरे गेम्स में भी काम आएगा, जैसे शब्द पहेली?",
         "answer": "हाँ, यह वर्ड गेम्स (शब्द पहेली) के खिलाड़ियों के लिए बहुत उपयोगी है। अक्षर आवृत्ति देखकर आप यह अनुमान लगा सकते हैं कि कौन से अक्षर ज़्यादा बार दिखाई देंगे, जिससे आपको रणनीति बनाने में मदद मिल सकती है।"
       }
-    ]
+    ],
+    "name": "Letter Counter"
   },
   "syllable-counter": {
     "metaTitle": "हिंदी के शब्दों में शब्दांश (Syllable) गिनने का टूल | ऑनलाइन",
@@ -1570,7 +1584,8 @@
         "question": "क्या यह टूल सिर्फ़ हिंदी के लिए है?",
         "answer": "यह टूल हिंदी के साथ-साथ अन्य भाषाओं के शब्दों के लिए भी शब्दांश गिनने का प्रयास करता है। हालाँकि, इसकी सटीकता भाषा पर निर्भर करती है कि वह कितनी अच्छी तरह स्वरों और व्यंजनों के पैटर्न पहचान पाता है।"
       }
-    ]
+    ],
+    "name": "Syllable Counter"
   },
   "random-word-generator": {
     "metaTitle": "शब्द जनरेटर: हिंदी में रैंडम शब्द, संज्ञा, प्रेरणा पायें!",
@@ -1675,7 +1690,8 @@
         "question": "क्या मैं हिंदी शब्द जनरेट कर सकता हूँ?",
         "answer": "यह टूल मुख्य रूप से अंग्रेजी शब्दों के लिए डिज़ाइन किया गया है। लेकिन हिंदी में विचारों को जन्म देने या हिंदी वर्ड गेम्स में उपयोग के लिए प्रेरणा के तौर पर इसका इस्तेमाल किया जा सकता है।"
       }
-    ]
+    ],
+    "name": "Random Word Generator"
   },
   "boggle-solver": {
     "metaTitle": "बोगल सॉल्वर हिंदी: शब्द ढूंढें, सीखें और गेम जीतें!",
@@ -1780,7 +1796,8 @@
         "question": "क्या यह हिंदी शब्दों के लिए भी काम करता है?",
         "answer": "हाँ, हमारा सॉल्वर हिंदी शब्दों के लिए भी बहुत अच्छा काम करता है! आप हिंदी अक्षर (जैसे- म, क, ल) दर्ज कर सकते हैं और यह संभावित हिंदी शब्द ढूंढेगा। यह अंग्रेजी और हिंदी दोनों में आपकी मदद करेगा।"
       }
-    ]
+    ],
+    "name": "Boggle Solver"
   },
   "hangman-solver": {
     "metaTitle": "हैंगमैन सॉल्वर हिंदी: शब्द ढूंढें, हर बार जीतें!",
@@ -1885,7 +1902,8 @@
         "question": "क्या यह हिंदी शब्दों के लिए भी काम करता है?",
         "answer": "हाँ, यह टूल अंग्रेजी और हिंदी दोनों शब्दों के लिए काम करता है। आप किसी भी भाषा के पैटर्न और अक्षरों को दर्ज कर सकते हैं।"
       }
-    ]
+    ],
+    "name": "Hangman Solver"
   },
   "text-twist-solver": {
     "metaTitle": "टेक्स्ट ट्विस्ट सॉल्वर: बोनस शब्द पाएं, हर मोड़ जीतें!",
@@ -1990,7 +2008,8 @@
         "question": "क्या मुझे अकाउंट बनाना होगा?",
         "answer": "नहीं, आपको इस टूल का उपयोग करने के लिए कोई अकाउंट बनाने, साइन-अप करने या कोई जानकारी देने की आवश्यकता नहीं है। बस वेबसाइट पर जाएं और तुरंत इसका इस्तेमाल करें।"
       }
-    ]
+    ],
+    "name": "Text Twist Solver"
   },
   "vowel-counter": {
     "metaTitle": "स्वर गणक: हिंदी टेक्स्ट में स्वर (Vowels) गिनें तुरंत",
@@ -2095,7 +2114,8 @@
         "question": "यह टूल हिंदी के संयुक्त स्वरों (जैसे एं, औं) को कैसे गिनता है?",
         "answer": "यह टूल मूल स्वर ध्वनि को पहचानता है। उदाहरण के लिए, 'एं' में 'ए' स्वर को गिना जाएगा। इसका मुख्य ध्यान मूल स्वर ध्वनियों पर रहता है, न कि केवल लिखित रूप में।"
       }
-    ]
+    ],
+    "name": "Vowel Counter"
   },
   "consonant-counter": {
     "metaTitle": "व्यंजन गिनने वाला टूल | अक्षर और शब्द गिनें",
@@ -2200,7 +2220,8 @@
         "question": "क्या मैं इस टूल का उपयोग विभिन्न भाषाओं के लिए कर सकता हूँ?",
         "answer": "यह टूल मुख्य रूप से अंग्रेजी और हिंदी जैसी उन भाषाओं के लिए डिज़ाइन किया गया है जहाँ स्पष्ट स्वर और व्यंजन होते हैं. यह किसी भी टेक्स्ट में अक्षरों के आधार पर गणना करेगा, लेकिन हिंदी और अंग्रेजी अक्षरों के लिए सबसे सटीक परिणाम देगा."
       }
-    ]
+    ],
+    "name": "Consonant Counter"
   },
   "word-meaning": {
     "metaTitle": "शब्द का अर्थ जानें: आसान अंग्रेजी अर्थ | AllWordTools",
@@ -2305,7 +2326,8 @@
         "question": "मैं इस टूल का उपयोग करके अपनी अंग्रेजी कैसे सुधार सकता हूँ?",
         "answer": "आप नए शब्दों का अर्थ तुरंत सीख सकते हैं, उनके उपयोग को उदाहरणों से समझ सकते हैं, और अपनी शब्दावली को प्रभावी ढंग से बढ़ा सकते हैं, जिससे आपकी पढ़ने और लिखने की क्षमता में सुधार होगा।"
       }
-    ]
+    ],
+    "name": "Word Meaning"
   },
   "spell-checker": {
     "metaTitle": "स्पेलिंग चेकर: वर्तनी तुरंत सुधारें | AllWordTools",
@@ -2410,7 +2432,8 @@
         "question": "यह टूल मेरे लिए क्यों उपयोगी है, जब मेरे पास वर्ड प्रोसेसर में इनबिल्ट स्पेल चेकर है?",
         "answer": "हमारा ऑनलाइन टूल वर्ड प्रोसेसर के अलावा एक त्वरित और सटीक विकल्प प्रदान करता है, खास तौर पर जब आप वेब पर काम कर रहे हों या किसी डॉक्यूमेंट संपादक तक पहुंच नहीं रखते हों। यह विशेष रूप से स्पेलिंग पर केंद्रित है, जिससे बेवजह के परिवर्तनों से बचा जा सके।"
       }
-    ]
+    ],
+    "name": "Spell Checker"
   },
   "grammar-checker": {
     "metaTitle": "ग्रामर चेकर ऑनलाइन | AI से व्याकरण सुधारें",
@@ -2515,7 +2538,8 @@
         "question": "यह मेरे डेटा का क्या करता है?",
         "answer": "हम आपके द्वारा दर्ज किए गए किसी भी टेक्स्ट को स्टोर नहीं करते हैं। आपकी गोपनीयता हमारी सर्वोच्च प्राथमिकता है, और आपका डेटा सुरक्षित रहता है।"
       }
-    ]
+    ],
+    "name": "Grammar Checker (AI)"
   },
   "punctuation-checker": {
     "metaTitle": "विराम चिह्न चेंकर: सही हिंदी पंक्चुएशन के लिए टूल",
@@ -2620,7 +2644,8 @@
         "question": "क्या इस टूल का उपयोग करने के लिए मुझे अकाउंट बनाना पड़ेगा?",
         "answer": "नहीं, हमारे विराम चिह्न चेंकर का उपयोग करने के लिए आपको किसी अकाउंट की आवश्यकता नहीं है। बस अपनी सामग्री पेस्ट करें और परिणामों के लिए जांच करें।"
       }
-    ]
+    ],
+    "name": "Punctuation Checker"
   },
   "wordscapes-solver": {
     "metaTitle": "Wordscapes Solver: Wordscapes के उत्तर और बोनस शब्द ढूंढें",
@@ -2725,7 +2750,8 @@
         "question": "क्या मैं इस टूल का उपयोग मोबाइल पर कर सकता हूँ?",
         "answer": "हाँ! यह टूल किसी भी डिवाइस पर आपके वेब ब्राउज़र में पूरी तरह से काम करता है, चाहे वह डेस्कटॉप कंप्यूटर हो, लैपटॉप, टैबलेट या स्मार्टफोन।"
       }
-    ]
+    ],
+    "name": "Wordscapes Solver"
   },
   "word-cookies-solver": {
     "metaTitle": "वर्ड कुकीज सॉल्वर - हिन्दी में हर जवाब पाएं!",
@@ -2830,7 +2856,8 @@
         "question": "क्या यह सभी वर्ड कुकीज संस्करणों के लिए काम करता है?",
         "answer": "हाँ, यह सभी वर्ड कुकीज गेम्स और इसके समान किसी भी शब्द खेल के लिए काम करता है जहाँ आपको अक्षरों से शब्द बनाने होते हैं।"
       }
-    ]
+    ],
+    "name": "Word Cookies Solver"
   },
   "codycross-solver": {
     "metaTitle": "CodyCross सॉल्वर हिंदी: जवाब, उत्तर, हल | AllWordTools",
@@ -2935,7 +2962,8 @@
         "question": "क्या मैं यह सॉल्वर किसी भी डिवाइस पर इस्तेमाल कर सकता हूँ?",
         "answer": "हाँ, यह CodyCross सॉल्वर किसी भी डिवाइस पर काम करता है – चाहे वह आपका फोन, टैबलेट या कंप्यूटर हो, क्योंकि यह आपके ब्राउज़र में ही चलता है."
       }
-    ]
+    ],
+    "name": "CodyCross Solver"
   },
   "seven-little-words-solver": {
     "metaTitle": "7 Little Words Solver: शब्द खोजें, गेम जीतें",
@@ -3040,7 +3068,8 @@
         "question": "क्या यह केवल 7 Little Words के लिए है?",
         "answer": "जबकि यह विशेष रूप से 7 Little Words के लिए डिज़ाइन किया गया है, आप इसे किसी भी अन्य शब्द पहेली के लिए भी उपयोग कर सकते हैं जहाँ आपको शब्द की लंबाई और ज्ञात अक्षरों के आधार पर शब्द खोजने की आवश्यकता होती है।"
       }
-    ]
+    ],
+    "name": "7 Little Words Solver"
   },
   "wheel-of-fortune-solver": {
     "metaTitle": "व्हील ऑफ़ फ़ॉर्च्यून सॉल्वर | लटके शब्द खोजें | AllWordTools",
@@ -3145,7 +3174,8 @@
         "question": "क्या यह टूल हिंदी और अंग्रेजी दोनों के लिए काम करता है?",
         "answer": "हाँ, यह टूल हिंदी और अंग्रेजी दोनों भाषाओं के शब्दों को सफलतापूर्वक हल कर सकता है। बस अपनी गेम के अनुसार शब्द और अक्षर डालें।"
       }
-    ]
+    ],
+    "name": "Wheel of Fortune Solver"
   },
   "letter-pattern-finder": {
     "metaTitle": "लेटर पैटर्न फाइंडर: शब्दों से पैटर्न खोजें | AllWordTools",
@@ -3250,7 +3280,8 @@
         "question": "क्या यह केवल अंग्रेजी शब्दों के लिए है?",
         "answer": "यह टूल मुख्य रूप से अंग्रेजी डिक्शनरी पर आधारित है, जो वर्ड गेम और क्रॉसवर्ड (जो अक्सर अंग्रेजी में होते हैं) के लिए उपयोगी है। हालांकि, यदि आप इसमें हिंदी अक्षरों के पैटर्न दर्ज करते हैं, तो परिणाम इसके डिक्शनरी में मौजूद हिंदी (यदि कोई हो) या अन्य भाषाओं के शब्दों पर निर्भर करेगा।"
       }
-    ]
+    ],
+    "name": "Letter Pattern Finder"
   },
   "wildcard-solver": {
     "metaTitle": "वाइल्डकार्ड सॉल्वर: ? और * से किसी भी शब्द को खोजें",
@@ -3355,7 +3386,8 @@
         "question": "क्या यह टूल हिंदी के अलावा अन्य भाषाओं के लिए भी काम करता है?",
         "answer": "यह टूल अंग्रेजी शब्दों के लिए बनाया गया है, लेकिन आप भारतीय लिपियों में टाइप करके कुछ हिंदी शब्द भी खोज सकते हैं, बशर्ते वे हमारी डेटाबेस में उपलब्ध हों।"
       }
-    ]
+    ],
+    "name": "Wildcard Solver"
   },
   "pattern-solver": {
     "metaTitle": "पैटर्न सॉल्वर: खाली जगह वाले शब्दों का हल, हिंदी में!",
@@ -3460,7 +3492,8 @@
         "question": "क्या यह टूल हिंदी के अलावा अन्य भाषाओं के लिए काम करता है?",
         "answer": "यह टूल किसी विशेष भाषा तक सीमित नहीं है, लेकिन हमारा शब्दकोश अंग्रेजी पर केंद्रित है. हालांकि, यदि आप हिंदी के अक्षरों का उपयोग करते हैं, तो सिद्धांत में यह काम करेगा, बशर्ते वह शब्द हमारे डेटाबेस में मौजूद हो."
       }
-    ]
+    ],
+    "name": "Pattern Solver"
   },
   "missing-letters-finder": {
     "metaTitle": "शब्द पहेली सॉल्वर | अधूरे शब्द पूरे करें आसानी से",
@@ -3565,7 +3598,8 @@
         "question": "क्या यह हिंदी शब्दों के लिए काम करता है?",
         "answer": "हाँ, यह हिंदी शब्दों के लिए भी काम करता है, बशर्ते वे हमारे शब्दकोश में मौजूद हों।"
       }
-    ]
+    ],
+    "name": "Missing Letters Finder"
   },
   "letter-rearranger": {
     "metaTitle": "अक्षरों को मिलाएं और नए शब्द बनाएं - लेटर रीअरेंजर",
@@ -3670,7 +3704,8 @@
         "question": "क्या यह हिंदी अक्षरों के साथ काम करता है?",
         "answer": "यह टूल मुख्य रूप से अंग्रेजी अक्षरों के लिए डिज़ाइन किया गया है, लेकिन आप अक्षरों को डालकर परिणाम देख सकते हैं। हालांकि, हिंदी शब्दों की पूरी सटीकता के लिए, हम विशेष हिंदी शब्दकोश वाले टूल की सलाह देते हैं।"
       }
-    ]
+    ],
+    "name": "Letter Rearranger"
   },
   "reverse-dictionary": {
     "metaTitle": "रिवर्स डिक्शनरी: अर्थ से शब्द खोजें – AllWordTools",
@@ -3775,7 +3810,8 @@
         "question": "यह अन्य डिक्शनरी से कैसे अलग है?",
         "answer": "अन्य डिक्शनरी में आप शब्द से अर्थ जानते हैं, जबकि हमारी रिवर्स डिक्शनरी में आप अर्थ या विवरण से संबंधित शब्द खोजते हैं। यह उल्टी दिशा में काम करती है।"
       }
-    ]
+    ],
+    "name": "Reverse Dictionary"
   },
   "alphabetical-sorter": {
     "metaTitle": "शब्दों को वर्णमाला क्रम में लगाएं | AllWordTools",
@@ -3880,7 +3916,8 @@
         "question": "क्या मैं इसे मोबाइल पर उपयोग कर सकता हूँ?",
         "answer": "बिल्कुल! हमारा टूल किसी भी डिवाइस पर, जिसमें मोबाइल फोन, टैबलेट और कंप्यूटर शामिल हैं, पूरी तरह से आपके ब्राउज़र में काम करता है। कोई डाउनलोड आवश्यक नहीं है।"
       }
-    ]
+    ],
+    "name": "Alphabetical Sorter"
   },
   "random-letter-generator": {
     "metaTitle": "रैंडम अक्षर जनरेटर: तुरंत अक्षर पाएं (स्वर, व्यंजन)",
@@ -3985,7 +4022,8 @@
         "question": "क्या यह टूल मुफ्त है?",
         "answer": "बिल्कुल! ऑलवर्डटूल्स का रैंडम अक्षर जनरेटर पूरी तरह से मुफ्त है। इसके लिए कोई डाउनलोड या साइन-अप की आवश्यकता नहीं है, और आप इसे जितनी बार चाहें, उतने उपयोग कर सकते हैं।"
       }
-    ]
+    ],
+    "name": "Random Letter Generator"
   },
   "vocabulary-quiz": {
     "metaTitle": "शब्द ज्ञान बढ़ाएं: हिंदी शब्दावली क्विज़ | Vocabulary Quiz",
@@ -4090,7 +4128,8 @@
         "question": "मैं अपना स्कोर कैसे सुधार सकता हूँ?",
         "answer": "नियमित रूप से अभ्यास करें, गलतियों से सीखें और सीखे गए नए शब्दों का प्रयोग अपने दैनिक जीवन में करें।"
       }
-    ]
+    ],
+    "name": "Vocabulary Quiz"
   },
   "spelling-quiz": {
     "metaTitle": "स्पेलिंग क्विज: सही अंग्रेजी स्पेलिंग सीखें",
@@ -4195,7 +4234,8 @@
         "question": "अगर मुझे किसी शब्द का मतलब नहीं पता तो क्या करूं?",
         "answer": "आप शब्द के अर्थ के लिए दिए गए संकेत का उपयोग कर सकते हैं. अगर फिर भी आपको संदेह हो, तो आप ऑनलाइन डिक्शनरी की मदद ले सकते हैं."
       }
-    ]
+    ],
+    "name": "Spelling Quiz"
   },
   "codycross-answers": {
     "metaTitle": "CodyCross उत्तर — सभी स्तरों के हल और संकेत | AllWordTools",
@@ -4281,6 +4321,3220 @@
         "question": "क्या मैं बिना इंटरनेट के CodyCross खेल सकता हूँ?",
         "answer": "हाँ, खेल ऑफ़लाइन काम करता है, लेकिन दैनिक चुनौतियाँ और हमारे जैसे ऑनलाइन डेटाबेस उपलब्ध नहीं होंगे। इंटरनेट के बिना खेलने के लिए अपने गेम टोकन बचाएं।"
       }
+    ],
+    "name": "CodyCross Answers"
+  },
+  "similar-words": {
+    "name": "Similar Words",
+    "metaTitle": "Similar Words | AllWordTools",
+    "metaDescription": "Find words with a similar meaning to any word you enter.",
+    "eyebrow": "AllWordTools",
+    "heading": "Similar Words",
+    "subheading": "Find words with a similar meaning to any word you enter.",
+    "intro": [
+      "Similar Words — Find words with a similar meaning to any word you enter.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Similar Words",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Similar Words",
+        "paragraphs": [
+          "Find words with a similar meaning to any word you enter.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Find words with a similar meaning to any word you enter."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Similar Words",
+      "similar-words"
+    ]
+  },
+  "opposite-words": {
+    "name": "Opposite Words",
+    "metaTitle": "Opposite Words | AllWordTools",
+    "metaDescription": "Discover the opposite (antonym) of any word in one click.",
+    "eyebrow": "AllWordTools",
+    "heading": "Opposite Words",
+    "subheading": "Discover the opposite (antonym) of any word in one click.",
+    "intro": [
+      "Opposite Words — Discover the opposite (antonym) of any word in one click.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Opposite Words",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Opposite Words",
+        "paragraphs": [
+          "Discover the opposite (antonym) of any word in one click.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Discover the opposite (antonym) of any word in one click."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Opposite Words",
+      "opposite-words"
+    ]
+  },
+  "collocation-finder": {
+    "name": "Collocation Finder",
+    "metaTitle": "Collocation Finder | AllWordTools",
+    "metaDescription": "See which words naturally pair before and after your word.",
+    "eyebrow": "AllWordTools",
+    "heading": "Collocation Finder",
+    "subheading": "See which words naturally pair before and after your word.",
+    "intro": [
+      "Collocation Finder — See which words naturally pair before and after your word.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Collocation Finder",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Collocation Finder",
+        "paragraphs": [
+          "See which words naturally pair before and after your word.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "See which words naturally pair before and after your word."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Collocation Finder",
+      "collocation-finder"
+    ]
+  },
+  "alliteration-generator": {
+    "name": "Alliteration Generator",
+    "metaTitle": "Alliteration Generator | AllWordTools",
+    "metaDescription": "Create alliterative phrases where every word starts with the same sound.",
+    "eyebrow": "AllWordTools",
+    "heading": "Alliteration Generator",
+    "subheading": "Create alliterative phrases where every word starts with the same sound.",
+    "intro": [
+      "Alliteration Generator — Create alliterative phrases where every word starts with the same sound.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Alliteration Generator",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Alliteration Generator",
+        "paragraphs": [
+          "Create alliterative phrases where every word starts with the same sound.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Create alliterative phrases where every word starts with the same sound."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Alliteration Generator",
+      "alliteration-generator"
+    ]
+  },
+  "assonance-finder": {
+    "name": "Assonance Finder",
+    "metaTitle": "Assonance Finder | AllWordTools",
+    "metaDescription": "Find words that share the same vowel sounds for poems and lyrics.",
+    "eyebrow": "AllWordTools",
+    "heading": "Assonance Finder",
+    "subheading": "Find words that share the same vowel sounds for poems and lyrics.",
+    "intro": [
+      "Assonance Finder — Find words that share the same vowel sounds for poems and lyrics.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Assonance Finder",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Assonance Finder",
+        "paragraphs": [
+          "Find words that share the same vowel sounds for poems and lyrics.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Find words that share the same vowel sounds for poems and lyrics."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Assonance Finder",
+      "assonance-finder"
+    ]
+  },
+  "word-ladder-solver": {
+    "name": "Word Ladder Solver",
+    "metaTitle": "Word Ladder Solver | AllWordTools",
+    "metaDescription": "Find the shortest chain of words, changing one letter at a time.",
+    "eyebrow": "AllWordTools",
+    "heading": "Word Ladder Solver",
+    "subheading": "Find the shortest chain of words, changing one letter at a time.",
+    "intro": [
+      "Word Ladder Solver — Find the shortest chain of words, changing one letter at a time.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Word Ladder Solver",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Word Ladder Solver",
+        "paragraphs": [
+          "Find the shortest chain of words, changing one letter at a time.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Find the shortest chain of words, changing one letter at a time."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Word Ladder Solver",
+      "word-ladder-solver"
+    ]
+  },
+  "letter-frequency-analyzer": {
+    "name": "Letter Frequency Analyzer",
+    "metaTitle": "Letter Frequency Analyzer | AllWordTools",
+    "metaDescription": "See how often each letter appears, with counts and percentages.",
+    "eyebrow": "AllWordTools",
+    "heading": "Letter Frequency Analyzer",
+    "subheading": "See how often each letter appears, with counts and percentages.",
+    "intro": [
+      "Letter Frequency Analyzer — See how often each letter appears, with counts and percentages.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Letter Frequency Analyzer",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Letter Frequency Analyzer",
+        "paragraphs": [
+          "See how often each letter appears, with counts and percentages.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "See how often each letter appears, with counts and percentages."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Letter Frequency Analyzer",
+      "letter-frequency-analyzer"
+    ]
+  },
+  "repeated-letter-finder": {
+    "name": "Repeated Letter Finder",
+    "metaTitle": "Repeated Letter Finder | AllWordTools",
+    "metaDescription": "Reveal which letters repeat inside a word or phrase.",
+    "eyebrow": "AllWordTools",
+    "heading": "Repeated Letter Finder",
+    "subheading": "Reveal which letters repeat inside a word or phrase.",
+    "intro": [
+      "Repeated Letter Finder — Reveal which letters repeat inside a word or phrase.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Repeated Letter Finder",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Repeated Letter Finder",
+        "paragraphs": [
+          "Reveal which letters repeat inside a word or phrase.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Reveal which letters repeat inside a word or phrase."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Repeated Letter Finder",
+      "repeated-letter-finder"
+    ]
+  },
+  "dictionary": {
+    "name": "Dictionary",
+    "metaTitle": "Dictionary | AllWordTools",
+    "metaDescription": "Full definitions, examples, synonyms and pronunciation for any word.",
+    "eyebrow": "AllWordTools",
+    "heading": "Dictionary",
+    "subheading": "Full definitions, examples, synonyms and pronunciation for any word.",
+    "intro": [
+      "Dictionary — Full definitions, examples, synonyms and pronunciation for any word.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Dictionary",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Dictionary",
+        "paragraphs": [
+          "Full definitions, examples, synonyms and pronunciation for any word.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Full definitions, examples, synonyms and pronunciation for any word."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Dictionary",
+      "dictionary"
+    ]
+  },
+  "pronunciation": {
+    "name": "Pronunciation",
+    "metaTitle": "Pronunciation | AllWordTools",
+    "metaDescription": "Hear how a word is said and see its phonetic spelling.",
+    "eyebrow": "AllWordTools",
+    "heading": "Pronunciation",
+    "subheading": "Hear how a word is said and see its phonetic spelling.",
+    "intro": [
+      "Pronunciation — Hear how a word is said and see its phonetic spelling.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Pronunciation",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Pronunciation",
+        "paragraphs": [
+          "Hear how a word is said and see its phonetic spelling.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Hear how a word is said and see its phonetic spelling."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Pronunciation",
+      "pronunciation"
+    ]
+  },
+  "ipa-converter": {
+    "name": "IPA Converter",
+    "metaTitle": "IPA Converter | AllWordTools",
+    "metaDescription": "Convert any English word into its IPA phonetic transcription.",
+    "eyebrow": "AllWordTools",
+    "heading": "IPA Converter",
+    "subheading": "Convert any English word into its IPA phonetic transcription.",
+    "intro": [
+      "IPA Converter — Convert any English word into its IPA phonetic transcription.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें IPA Converter",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "IPA Converter",
+        "paragraphs": [
+          "Convert any English word into its IPA phonetic transcription.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Convert any English word into its IPA phonetic transcription."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "IPA Converter",
+      "ipa-converter"
+    ]
+  },
+  "word-origin": {
+    "name": "Word Origin (Etymology)",
+    "metaTitle": "Word Origin (Etymology) | AllWordTools",
+    "metaDescription": "Trace where a word came from and how its meaning evolved.",
+    "eyebrow": "AllWordTools",
+    "heading": "Word Origin (Etymology)",
+    "subheading": "Trace where a word came from and how its meaning evolved.",
+    "intro": [
+      "Word Origin (Etymology) — Trace where a word came from and how its meaning evolved.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Word Origin (Etymology)",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Word Origin (Etymology)",
+        "paragraphs": [
+          "Trace where a word came from and how its meaning evolved.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Trace where a word came from and how its meaning evolved."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Word Origin (Etymology)",
+      "word-origin"
+    ]
+  },
+  "example-sentences": {
+    "name": "Example Sentences",
+    "metaTitle": "Example Sentences | AllWordTools",
+    "metaDescription": "See real example sentences that show how a word is used.",
+    "eyebrow": "AllWordTools",
+    "heading": "Example Sentences",
+    "subheading": "See real example sentences that show how a word is used.",
+    "intro": [
+      "Example Sentences — See real example sentences that show how a word is used.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Example Sentences",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Example Sentences",
+        "paragraphs": [
+          "See real example sentences that show how a word is used.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "See real example sentences that show how a word is used."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Example Sentences",
+      "example-sentences"
+    ]
+  },
+  "phrases-dictionary": {
+    "name": "Phrases Dictionary",
+    "metaTitle": "Phrases Dictionary | AllWordTools",
+    "metaDescription": "Find common phrases and expressions built around any word.",
+    "eyebrow": "AllWordTools",
+    "heading": "Phrases Dictionary",
+    "subheading": "Find common phrases and expressions built around any word.",
+    "intro": [
+      "Phrases Dictionary — Find common phrases and expressions built around any word.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Phrases Dictionary",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Phrases Dictionary",
+        "paragraphs": [
+          "Find common phrases and expressions built around any word.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Find common phrases and expressions built around any word."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Phrases Dictionary",
+      "phrases-dictionary"
+    ]
+  },
+  "passive-voice-checker": {
+    "name": "Passive Voice Checker",
+    "metaTitle": "Passive Voice Checker | AllWordTools",
+    "metaDescription": "Spot every passive sentence and see a stronger active rewrite.",
+    "eyebrow": "AllWordTools",
+    "heading": "Passive Voice Checker",
+    "subheading": "Spot every passive sentence and see a stronger active rewrite.",
+    "intro": [
+      "Passive Voice Checker — Spot every passive sentence and see a stronger active rewrite.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Passive Voice Checker",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Passive Voice Checker",
+        "paragraphs": [
+          "Spot every passive sentence and see a stronger active rewrite.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Spot every passive sentence and see a stronger active rewrite."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Passive Voice Checker",
+      "passive-voice-checker"
+    ]
+  },
+  "active-voice-converter": {
+    "name": "Active Voice Converter",
+    "metaTitle": "Active Voice Converter | AllWordTools",
+    "metaDescription": "Rewrite passive sentences into clear, direct active voice.",
+    "eyebrow": "AllWordTools",
+    "heading": "Active Voice Converter",
+    "subheading": "Rewrite passive sentences into clear, direct active voice.",
+    "intro": [
+      "Active Voice Converter — Rewrite passive sentences into clear, direct active voice.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Active Voice Converter",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Active Voice Converter",
+        "paragraphs": [
+          "Rewrite passive sentences into clear, direct active voice.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Rewrite passive sentences into clear, direct active voice."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Active Voice Converter",
+      "active-voice-converter"
+    ]
+  },
+  "strands-solver": {
+    "name": "Strands Solver",
+    "metaTitle": "Strands Solver | AllWordTools",
+    "metaDescription": "Find every word hidden in the NYT Strands letter grid.",
+    "eyebrow": "AllWordTools",
+    "heading": "Strands Solver",
+    "subheading": "Find every word hidden in the NYT Strands letter grid.",
+    "intro": [
+      "Strands Solver — Find every word hidden in the NYT Strands letter grid.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Strands Solver",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Strands Solver",
+        "paragraphs": [
+          "Find every word hidden in the NYT Strands letter grid.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Find every word hidden in the NYT Strands letter grid."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Strands Solver",
+      "strands-solver"
+    ]
+  },
+  "random-sentence-generator": {
+    "name": "Random Sentence Generator",
+    "metaTitle": "Random Sentence Generator | AllWordTools",
+    "metaDescription": "Create random sentences to spark writing prompts and warm-ups.",
+    "eyebrow": "AllWordTools",
+    "heading": "Random Sentence Generator",
+    "subheading": "Create random sentences to spark writing prompts and warm-ups.",
+    "intro": [
+      "Random Sentence Generator — Create random sentences to spark writing prompts and warm-ups.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Random Sentence Generator",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Random Sentence Generator",
+        "paragraphs": [
+          "Create random sentences to spark writing prompts and warm-ups.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Create random sentences to spark writing prompts and warm-ups."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Random Sentence Generator",
+      "random-sentence-generator"
+    ]
+  },
+  "random-paragraph-generator": {
+    "name": "Random Paragraph Generator",
+    "metaTitle": "Random Paragraph Generator | AllWordTools",
+    "metaDescription": "Generate random paragraphs for placeholder text and practice.",
+    "eyebrow": "AllWordTools",
+    "heading": "Random Paragraph Generator",
+    "subheading": "Generate random paragraphs for placeholder text and practice.",
+    "intro": [
+      "Random Paragraph Generator — Generate random paragraphs for placeholder text and practice.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Random Paragraph Generator",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Random Paragraph Generator",
+        "paragraphs": [
+          "Generate random paragraphs for placeholder text and practice.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate random paragraphs for placeholder text and practice."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Random Paragraph Generator",
+      "random-paragraph-generator"
+    ]
+  },
+  "random-topic-generator": {
+    "name": "Random Topic Generator",
+    "metaTitle": "Random Topic Generator | AllWordTools",
+    "metaDescription": "Get random topics and prompts for essays, debates and stories.",
+    "eyebrow": "AllWordTools",
+    "heading": "Random Topic Generator",
+    "subheading": "Get random topics and prompts for essays, debates and stories.",
+    "intro": [
+      "Random Topic Generator — Get random topics and prompts for essays, debates and stories.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Random Topic Generator",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Random Topic Generator",
+        "paragraphs": [
+          "Get random topics and prompts for essays, debates and stories.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Get random topics and prompts for essays, debates and stories."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Random Topic Generator",
+      "random-topic-generator"
+    ]
+  },
+  "random-verb-generator": {
+    "name": "Random Verb Generator",
+    "metaTitle": "Random Verb Generator | AllWordTools",
+    "metaDescription": "Generate random verbs in any tense for writing and grammar practice.",
+    "eyebrow": "AllWordTools",
+    "heading": "Random Verb Generator",
+    "subheading": "Generate random verbs in any tense for writing and grammar practice.",
+    "intro": [
+      "Random Verb Generator — Generate random verbs in any tense for writing and grammar practice.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Random Verb Generator",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Random Verb Generator",
+        "paragraphs": [
+          "Generate random verbs in any tense for writing and grammar practice.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate random verbs in any tense for writing and grammar practice."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Random Verb Generator",
+      "random-verb-generator"
+    ]
+  },
+  "tongue-twister-generator": {
+    "name": "Tongue Twister Generator",
+    "metaTitle": "Tongue Twister Generator | AllWordTools",
+    "metaDescription": "Generate original tongue twisters for speech practice and fun.",
+    "eyebrow": "AllWordTools",
+    "heading": "Tongue Twister Generator",
+    "subheading": "Generate original tongue twisters for speech practice and fun.",
+    "intro": [
+      "Tongue Twister Generator — Generate original tongue twisters for speech practice and fun.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Tongue Twister Generator",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Tongue Twister Generator",
+        "paragraphs": [
+          "Generate original tongue twisters for speech practice and fun.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate original tongue twisters for speech practice and fun."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Tongue Twister Generator",
+      "tongue-twister-generator"
+    ]
+  },
+  "cvc-word-generator": {
+    "name": "CVC Word Generator",
+    "metaTitle": "CVC Word Generator | AllWordTools",
+    "metaDescription": "Generate consonant-vowel-consonant words for early phonics practice.",
+    "eyebrow": "AllWordTools",
+    "heading": "CVC Word Generator",
+    "subheading": "Generate consonant-vowel-consonant words for early phonics practice.",
+    "intro": [
+      "CVC Word Generator — Generate consonant-vowel-consonant words for early phonics practice.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें CVC Word Generator",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "CVC Word Generator",
+        "paragraphs": [
+          "Generate consonant-vowel-consonant words for early phonics practice.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate consonant-vowel-consonant words for early phonics practice."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "CVC Word Generator",
+      "cvc-word-generator"
+    ]
+  },
+  "sight-word-generator": {
+    "name": "Sight Word Generator",
+    "metaTitle": "Sight Word Generator | AllWordTools",
+    "metaDescription": "Generate high-frequency Dolch sight words by grade level.",
+    "eyebrow": "AllWordTools",
+    "heading": "Sight Word Generator",
+    "subheading": "Generate high-frequency Dolch sight words by grade level.",
+    "intro": [
+      "Sight Word Generator — Generate high-frequency Dolch sight words by grade level.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Sight Word Generator",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Sight Word Generator",
+        "paragraphs": [
+          "Generate high-frequency Dolch sight words by grade level.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate high-frequency Dolch sight words by grade level."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Sight Word Generator",
+      "sight-word-generator"
+    ]
+  },
+  "riddle-generator": {
+    "name": "Riddle Generator",
+    "metaTitle": "Riddle Generator | AllWordTools",
+    "metaDescription": "Generate fun brain-teasing riddles with hidden answers.",
+    "eyebrow": "AllWordTools",
+    "heading": "Riddle Generator",
+    "subheading": "Generate fun brain-teasing riddles with hidden answers.",
+    "intro": [
+      "Riddle Generator — Generate fun brain-teasing riddles with hidden answers.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Riddle Generator",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Riddle Generator",
+        "paragraphs": [
+          "Generate fun brain-teasing riddles with hidden answers.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate fun brain-teasing riddles with hidden answers."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Riddle Generator",
+      "riddle-generator"
+    ]
+  },
+  "dog-name-generator": {
+    "name": "Dog Names",
+    "metaTitle": "Dog Names | AllWordTools",
+    "metaDescription": "Generate cute, classic and quirky names for your new dog.",
+    "eyebrow": "AllWordTools",
+    "heading": "Dog Names",
+    "subheading": "Generate cute, classic and quirky names for your new dog.",
+    "intro": [
+      "Dog Names — Generate cute, classic and quirky names for your new dog.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Dog Names",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Dog Names",
+        "paragraphs": [
+          "Generate cute, classic and quirky names for your new dog.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate cute, classic and quirky names for your new dog."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Dog Names",
+      "dog-name-generator"
+    ]
+  },
+  "cat-name-generator": {
+    "name": "Cat Names",
+    "metaTitle": "Cat Names | AllWordTools",
+    "metaDescription": "Find the purr-fect name for your cat, from elegant to playful.",
+    "eyebrow": "AllWordTools",
+    "heading": "Cat Names",
+    "subheading": "Find the purr-fect name for your cat, from elegant to playful.",
+    "intro": [
+      "Cat Names — Find the purr-fect name for your cat, from elegant to playful.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Cat Names",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Cat Names",
+        "paragraphs": [
+          "Find the purr-fect name for your cat, from elegant to playful.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Find the purr-fect name for your cat, from elegant to playful."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Cat Names",
+      "cat-name-generator"
+    ]
+  },
+  "team-name-generator": {
+    "name": "Team Names",
+    "metaTitle": "Team Names | AllWordTools",
+    "metaDescription": "Bold, catchy names for sports teams, quiz nights and groups.",
+    "eyebrow": "AllWordTools",
+    "heading": "Team Names",
+    "subheading": "Bold, catchy names for sports teams, quiz nights and groups.",
+    "intro": [
+      "Team Names — Bold, catchy names for sports teams, quiz nights and groups.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Team Names",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Team Names",
+        "paragraphs": [
+          "Bold, catchy names for sports teams, quiz nights and groups.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Bold, catchy names for sports teams, quiz nights and groups."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Team Names",
+      "team-name-generator"
+    ]
+  },
+  "guild-name-generator": {
+    "name": "Guild Names",
+    "metaTitle": "Guild Names | AllWordTools",
+    "metaDescription": "Epic guild names for MMOs, RPGs and gaming communities.",
+    "eyebrow": "AllWordTools",
+    "heading": "Guild Names",
+    "subheading": "Epic guild names for MMOs, RPGs and gaming communities.",
+    "intro": [
+      "Guild Names — Epic guild names for MMOs, RPGs and gaming communities.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Guild Names",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Guild Names",
+        "paragraphs": [
+          "Epic guild names for MMOs, RPGs and gaming communities.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Epic guild names for MMOs, RPGs and gaming communities."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Guild Names",
+      "guild-name-generator"
+    ]
+  },
+  "clan-name-generator": {
+    "name": "Clan Names",
+    "metaTitle": "Clan Names | AllWordTools",
+    "metaDescription": "Fierce, memorable clan names for shooters and fantasy worlds.",
+    "eyebrow": "AllWordTools",
+    "heading": "Clan Names",
+    "subheading": "Fierce, memorable clan names for shooters and fantasy worlds.",
+    "intro": [
+      "Clan Names — Fierce, memorable clan names for shooters and fantasy worlds.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Clan Names",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Clan Names",
+        "paragraphs": [
+          "Fierce, memorable clan names for shooters and fantasy worlds.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Fierce, memorable clan names for shooters and fantasy worlds."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Clan Names",
+      "clan-name-generator"
+    ]
+  },
+  "character-name-generator": {
+    "name": "Character Names",
+    "metaTitle": "Character Names | AllWordTools",
+    "metaDescription": "Fantasy character names for novels, D&D and creative writing.",
+    "eyebrow": "AllWordTools",
+    "heading": "Character Names",
+    "subheading": "Fantasy character names for novels, D&D and creative writing.",
+    "intro": [
+      "Character Names — Fantasy character names for novels, D&D and creative writing.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Character Names",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Character Names",
+        "paragraphs": [
+          "Fantasy character names for novels, D&D and creative writing.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Fantasy character names for novels, D&D and creative writing."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Character Names",
+      "character-name-generator"
+    ]
+  },
+  "demon-name-generator": {
+    "name": "Demon Names",
+    "metaTitle": "Demon Names | AllWordTools",
+    "metaDescription": "Dark, menacing demon names for fantasy stories and games.",
+    "eyebrow": "AllWordTools",
+    "heading": "Demon Names",
+    "subheading": "Dark, menacing demon names for fantasy stories and games.",
+    "intro": [
+      "Demon Names — Dark, menacing demon names for fantasy stories and games.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Demon Names",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Demon Names",
+        "paragraphs": [
+          "Dark, menacing demon names for fantasy stories and games.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Dark, menacing demon names for fantasy stories and games."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Demon Names",
+      "demon-name-generator"
+    ]
+  },
+  "alien-name-generator": {
+    "name": "Alien Names",
+    "metaTitle": "Alien Names | AllWordTools",
+    "metaDescription": "Exotic, otherworldly alien names for sci-fi stories and games.",
+    "eyebrow": "AllWordTools",
+    "heading": "Alien Names",
+    "subheading": "Exotic, otherworldly alien names for sci-fi stories and games.",
+    "intro": [
+      "Alien Names — Exotic, otherworldly alien names for sci-fi stories and games.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Alien Names",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Alien Names",
+        "paragraphs": [
+          "Exotic, otherworldly alien names for sci-fi stories and games.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Exotic, otherworldly alien names for sci-fi stories and games."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Alien Names",
+      "alien-name-generator"
+    ]
+  },
+  "witch-name-generator": {
+    "name": "Witch Names",
+    "metaTitle": "Witch Names | AllWordTools",
+    "metaDescription": "Mystical witch names with surnames and epithets for stories and games.",
+    "eyebrow": "AllWordTools",
+    "heading": "Witch Names",
+    "subheading": "Mystical witch names with surnames and epithets for stories and games.",
+    "intro": [
+      "Witch Names — Mystical witch names with surnames and epithets for stories and games.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Witch Names",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Witch Names",
+        "paragraphs": [
+          "Mystical witch names with surnames and epithets for stories and games.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Mystical witch names with surnames and epithets for stories and games."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Witch Names",
+      "witch-name-generator"
+    ]
+  },
+  "knight-name-generator": {
+    "name": "Knight Names",
+    "metaTitle": "Knight Names | AllWordTools",
+    "metaDescription": "Noble medieval knight names with heroic titles for fantasy and D&D.",
+    "eyebrow": "AllWordTools",
+    "heading": "Knight Names",
+    "subheading": "Noble medieval knight names with heroic titles for fantasy and D&D.",
+    "intro": [
+      "Knight Names — Noble medieval knight names with heroic titles for fantasy and D&D.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Knight Names",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Knight Names",
+        "paragraphs": [
+          "Noble medieval knight names with heroic titles for fantasy and D&D.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Noble medieval knight names with heroic titles for fantasy and D&D."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Knight Names",
+      "knight-name-generator"
+    ]
+  },
+  "vampire-name-generator": {
+    "name": "Vampire Names",
+    "metaTitle": "Vampire Names | AllWordTools",
+    "metaDescription": "Elegant, gothic vampire names for stories, characters and games.",
+    "eyebrow": "AllWordTools",
+    "heading": "Vampire Names",
+    "subheading": "Elegant, gothic vampire names for stories, characters and games.",
+    "intro": [
+      "Vampire Names — Elegant, gothic vampire names for stories, characters and games.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Vampire Names",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Vampire Names",
+        "paragraphs": [
+          "Elegant, gothic vampire names for stories, characters and games.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Elegant, gothic vampire names for stories, characters and games."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Vampire Names",
+      "vampire-name-generator"
+    ]
+  },
+  "robot-name-generator": {
+    "name": "Robot Names",
+    "metaTitle": "Robot Names | AllWordTools",
+    "metaDescription": "Cool robot and android names with model designations for sci-fi.",
+    "eyebrow": "AllWordTools",
+    "heading": "Robot Names",
+    "subheading": "Cool robot and android names with model designations for sci-fi.",
+    "intro": [
+      "Robot Names — Cool robot and android names with model designations for sci-fi.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Robot Names",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Robot Names",
+        "paragraphs": [
+          "Cool robot and android names with model designations for sci-fi.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Cool robot and android names with model designations for sci-fi."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Robot Names",
+      "robot-name-generator"
+    ]
+  },
+  "daily-word": {
+    "name": "Daily Word",
+    "metaTitle": "Daily Word | AllWordTools",
+    "metaDescription": "A fresh word to learn every single day, with meaning and example.",
+    "eyebrow": "AllWordTools",
+    "heading": "Daily Word",
+    "subheading": "A fresh word to learn every single day, with meaning and example.",
+    "intro": [
+      "Daily Word — A fresh word to learn every single day, with meaning and example.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Daily Word",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Daily Word",
+        "paragraphs": [
+          "A fresh word to learn every single day, with meaning and example.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "A fresh word to learn every single day, with meaning and example."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Daily Word",
+      "daily-word"
+    ]
+  },
+  "word-of-the-day": {
+    "name": "Word of the Day",
+    "metaTitle": "Word of the Day | AllWordTools",
+    "metaDescription": "Discover a beautiful new word each day with IPA and usage.",
+    "eyebrow": "AllWordTools",
+    "heading": "Word of the Day",
+    "subheading": "Discover a beautiful new word each day with IPA and usage.",
+    "intro": [
+      "Word of the Day — Discover a beautiful new word each day with IPA and usage.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Word of the Day",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Word of the Day",
+        "paragraphs": [
+          "Discover a beautiful new word each day with IPA and usage.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Discover a beautiful new word each day with IPA and usage."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Word of the Day",
+      "word-of-the-day"
+    ]
+  },
+  "synonym-quiz": {
+    "name": "Synonym Quiz",
+    "metaTitle": "Synonym Quiz | AllWordTools",
+    "metaDescription": "Match each word to its correct synonym against the clock.",
+    "eyebrow": "AllWordTools",
+    "heading": "Synonym Quiz",
+    "subheading": "Match each word to its correct synonym against the clock.",
+    "intro": [
+      "Synonym Quiz — Match each word to its correct synonym against the clock.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Synonym Quiz",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Synonym Quiz",
+        "paragraphs": [
+          "Match each word to its correct synonym against the clock.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Match each word to its correct synonym against the clock."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Synonym Quiz",
+      "synonym-quiz"
+    ]
+  },
+  "antonym-quiz": {
+    "name": "Antonym Quiz",
+    "metaTitle": "Antonym Quiz | AllWordTools",
+    "metaDescription": "Pick the correct opposite for each word and test your range.",
+    "eyebrow": "AllWordTools",
+    "heading": "Antonym Quiz",
+    "subheading": "Pick the correct opposite for each word and test your range.",
+    "intro": [
+      "Antonym Quiz — Pick the correct opposite for each word and test your range.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Antonym Quiz",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Antonym Quiz",
+        "paragraphs": [
+          "Pick the correct opposite for each word and test your range.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Pick the correct opposite for each word and test your range."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Antonym Quiz",
+      "antonym-quiz"
+    ]
+  },
+  "prefix-quiz": {
+    "name": "Prefix Quiz",
+    "metaTitle": "Prefix Quiz | AllWordTools",
+    "metaDescription": "Learn what common prefixes mean with quick-fire questions.",
+    "eyebrow": "AllWordTools",
+    "heading": "Prefix Quiz",
+    "subheading": "Learn what common prefixes mean with quick-fire questions.",
+    "intro": [
+      "Prefix Quiz — Learn what common prefixes mean with quick-fire questions.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Prefix Quiz",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Prefix Quiz",
+        "paragraphs": [
+          "Learn what common prefixes mean with quick-fire questions.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Learn what common prefixes mean with quick-fire questions."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Prefix Quiz",
+      "prefix-quiz"
+    ]
+  },
+  "suffix-quiz": {
+    "name": "Suffix Quiz",
+    "metaTitle": "Suffix Quiz | AllWordTools",
+    "metaDescription": "Master common suffixes and how they change word meaning.",
+    "eyebrow": "AllWordTools",
+    "heading": "Suffix Quiz",
+    "subheading": "Master common suffixes and how they change word meaning.",
+    "intro": [
+      "Suffix Quiz — Master common suffixes and how they change word meaning.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें Suffix Quiz",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Suffix Quiz",
+        "paragraphs": [
+          "Master common suffixes and how they change word meaning.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Master common suffixes and how they change word meaning."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Suffix Quiz",
+      "suffix-quiz"
+    ]
+  },
+  "ai-word-explainer": {
+    "name": "AI Word Explainer",
+    "metaTitle": "AI Word Explainer | AllWordTools",
+    "metaDescription": "Get a clear AI explanation of any word — meaning, usage and examples.",
+    "eyebrow": "AllWordTools",
+    "heading": "AI Word Explainer",
+    "subheading": "Get a clear AI explanation of any word — meaning, usage and examples.",
+    "intro": [
+      "AI Word Explainer — Get a clear AI explanation of any word — meaning, usage and examples.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें AI Word Explainer",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "AI Word Explainer",
+        "paragraphs": [
+          "Get a clear AI explanation of any word — meaning, usage and examples.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Get a clear AI explanation of any word — meaning, usage and examples."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "AI Word Explainer",
+      "ai-word-explainer"
+    ]
+  },
+  "ai-sentence-generator": {
+    "name": "AI Sentence Generator",
+    "metaTitle": "AI Sentence Generator | AllWordTools",
+    "metaDescription": "Generate natural example sentences for any word or topic with AI.",
+    "eyebrow": "AllWordTools",
+    "heading": "AI Sentence Generator",
+    "subheading": "Generate natural example sentences for any word or topic with AI.",
+    "intro": [
+      "AI Sentence Generator — Generate natural example sentences for any word or topic with AI.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें AI Sentence Generator",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "AI Sentence Generator",
+        "paragraphs": [
+          "Generate natural example sentences for any word or topic with AI.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate natural example sentences for any word or topic with AI."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "AI Sentence Generator",
+      "ai-sentence-generator"
+    ]
+  },
+  "ai-example-generator": {
+    "name": "AI Example Generator",
+    "metaTitle": "AI Example Generator | AllWordTools",
+    "metaDescription": "Produce clear examples for any concept, word or grammar point.",
+    "eyebrow": "AllWordTools",
+    "heading": "AI Example Generator",
+    "subheading": "Produce clear examples for any concept, word or grammar point.",
+    "intro": [
+      "AI Example Generator — Produce clear examples for any concept, word or grammar point.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें AI Example Generator",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "AI Example Generator",
+        "paragraphs": [
+          "Produce clear examples for any concept, word or grammar point.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Produce clear examples for any concept, word or grammar point."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "AI Example Generator",
+      "ai-example-generator"
+    ]
+  },
+  "ai-story-generator": {
+    "name": "AI Story Generator",
+    "metaTitle": "AI Story Generator | AllWordTools",
+    "metaDescription": "Turn a prompt into an engaging short story written by AI.",
+    "eyebrow": "AllWordTools",
+    "heading": "AI Story Generator",
+    "subheading": "Turn a prompt into an engaging short story written by AI.",
+    "intro": [
+      "AI Story Generator — Turn a prompt into an engaging short story written by AI.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें AI Story Generator",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "AI Story Generator",
+        "paragraphs": [
+          "Turn a prompt into an engaging short story written by AI.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Turn a prompt into an engaging short story written by AI."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "AI Story Generator",
+      "ai-story-generator"
+    ]
+  },
+  "ai-poem-generator": {
+    "name": "AI Poem Generator",
+    "metaTitle": "AI Poem Generator | AllWordTools",
+    "metaDescription": "Create original poems on any theme with the help of AI.",
+    "eyebrow": "AllWordTools",
+    "heading": "AI Poem Generator",
+    "subheading": "Create original poems on any theme with the help of AI.",
+    "intro": [
+      "AI Poem Generator — Create original poems on any theme with the help of AI.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें AI Poem Generator",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "AI Poem Generator",
+        "paragraphs": [
+          "Create original poems on any theme with the help of AI.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Create original poems on any theme with the help of AI."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "AI Poem Generator",
+      "ai-poem-generator"
+    ]
+  },
+  "ai-vocabulary-builder": {
+    "name": "AI Vocabulary Builder",
+    "metaTitle": "AI Vocabulary Builder | AllWordTools",
+    "metaDescription": "Build themed word lists with definitions and examples using AI.",
+    "eyebrow": "AllWordTools",
+    "heading": "AI Vocabulary Builder",
+    "subheading": "Build themed word lists with definitions and examples using AI.",
+    "intro": [
+      "AI Vocabulary Builder — Build themed word lists with definitions and examples using AI.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें AI Vocabulary Builder",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "AI Vocabulary Builder",
+        "paragraphs": [
+          "Build themed word lists with definitions and examples using AI.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Build themed word lists with definitions and examples using AI."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "AI Vocabulary Builder",
+      "ai-vocabulary-builder"
+    ]
+  },
+  "ai-quiz-generator": {
+    "name": "AI Quiz Generator",
+    "metaTitle": "AI Quiz Generator | AllWordTools",
+    "metaDescription": "Generate a custom multiple-choice quiz on any topic instantly.",
+    "eyebrow": "AllWordTools",
+    "heading": "AI Quiz Generator",
+    "subheading": "Generate a custom multiple-choice quiz on any topic instantly.",
+    "intro": [
+      "AI Quiz Generator — Generate a custom multiple-choice quiz on any topic instantly.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें AI Quiz Generator",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "AI Quiz Generator",
+        "paragraphs": [
+          "Generate a custom multiple-choice quiz on any topic instantly.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate a custom multiple-choice quiz on any topic instantly."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "AI Quiz Generator",
+      "ai-quiz-generator"
+    ]
+  },
+  "ai-flashcards": {
+    "name": "AI Flashcards",
+    "metaTitle": "AI Flashcards | AllWordTools",
+    "metaDescription": "Create study flashcards for any subject and revise at your pace.",
+    "eyebrow": "AllWordTools",
+    "heading": "AI Flashcards",
+    "subheading": "Create study flashcards for any subject and revise at your pace.",
+    "intro": [
+      "AI Flashcards — Create study flashcards for any subject and revise at your pace.",
+      "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+    ],
+    "howToTitle": "का उपयोग कैसे करें AI Flashcards",
+    "howToSteps": [
+      {
+        "title": "इनपुट दर्ज करें",
+        "detail": "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।"
+      },
+      {
+        "title": "खोज या कनवर्ट पर क्लिक करें",
+        "detail": "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।"
+      },
+      {
+        "title": "परिणाम देखें और कॉपी करें",
+        "detail": "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "AI Flashcards",
+        "paragraphs": [
+          "Create study flashcards for any subject and revise at your pace.",
+          "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Create study flashcards for any subject and revise at your pace."
+      }
+    ],
+    "tips": [
+      "दिए गए बॉक्स में अपने अक्षर, शब्द या टेक्स्ट दर्ज करें।",
+      "तुरंत परिणाम प्राप्त करने के लिए बटन दबाएं।",
+      "सटीक परिणाम देखें और एक क्लिक में कॉपी करें।"
+    ],
+    "faqs": [
+      {
+        "question": "क्या यह टूल पूरी तरह मुफ़्त है?",
+        "answer": "हाँ, AllWordTools का यह टूल 100% मुफ़्त है और बिना किसी सीमा या साइन-अप के काम करता है।"
+      },
+      {
+        "question": "क्या यह मोबाइल पर काम करता है?",
+        "answer": "बिल्कुल, यह टूल मोबाइल, टैबलेट और कंप्यूटर सभी पर तेज़ी से काम करता है।"
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "AI Flashcards",
+      "ai-flashcards"
     ]
   }
 }

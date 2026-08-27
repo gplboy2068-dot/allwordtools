@@ -59,5 +59,36 @@
     "all": "All languages",
     "empty": "No languages found",
     "current": "Current"
+  },
+  "categories": {
+    "eyebrow": "Browse by category",
+    "title": "Explore every category",
+    "description": "Hundreds of tools, neatly organised. Pick a category to see everything inside.",
+    "toolsCount": "{count} tools",
+    "viewAll": "View all {count} {category} →"
+  },
+  "popular": {
+    "eyebrow": "Most loved",
+    "title": "Popular tools right now",
+    "description": "The tools word lovers reach for most — plus what's trending, new and AI-powered.",
+    "trending": "Trending tools",
+    "new": "New tools",
+    "ai": "AI tools",
+    "browseAll": "Browse all tools",
+    "visitHub": "Visit the learning hub",
+    "openTool": "Open tool"
+  },
+  "benefits": {
+    "eyebrow": "Why AllWordTools",
+    "title": "Built for players and word lovers",
+    "description": "Everything you need to win more games and write with confidence, in one place."
+  },
+  "common": {
+    "new": "New",
+    "trending": "Trending",
+    "openTool": "Open tool",
+    "search": "Search",
+    "clear": "Clear",
+    "admin": "Admin Studio"
   }
 }

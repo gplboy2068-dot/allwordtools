@@ -75,9 +75,12 @@ function LoginPage() {
           Accounts are coming soon. All tools are 100% free to use without signing in.
         </p>
 
-        <div className="mt-6 border-t border-border/60 pt-5 text-center text-sm">
+        <div className="mt-6 border-t border-border/60 pt-5 text-center text-sm flex justify-between items-center">
           <Link to="/" className="font-medium text-honey hover:underline">
             ← Back to home
+          </Link>
+          <Link to="/admin" className="font-medium text-primary hover:underline">
+            AI Translation Studio →
           </Link>
         </div>
       </div>

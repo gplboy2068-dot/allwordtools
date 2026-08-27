@@ -102,7 +102,8 @@
         "question": "Apakah menggunakan alat ini dianggap curang?",
         "answer": "Tergantung pada kesepakatan Anda dengan lawan main. Jika Anda bermain secara kasual atau untuk belajar, alat ini sangat membantu. Namun, dalam kompetisi serius, penggunaan alat bantu mungkin dianggap tidak etis. Gunakan dengan bijak!"
       }
-    ]
+    ],
+    "name": "Word Unscrambler"
   },
   "anagram-solver": {
     "metaTitle": "Pecahkan Anagram (Anagram Solver) - AllWordTools.com",
@@ -207,7 +208,8 @@
         "question": "Berapa banyak huruf yang bisa saya masukkan?",
         "answer": "Anda dapat memasukkan hingga 15 huruf dalam satu waktu. Ini cukup untuk sebagian besar permainan kata dan teka-teki yang ada."
       }
-    ]
+    ],
+    "name": "Anagram Solver"
   },
   "wordle-solver": {
     "metaTitle": "Penyelesai Wordle Terbaik | Hancurkan Puzzle Cepat!",
@@ -312,7 +314,8 @@
         "question": "Apakah ini bisa dipakai untuk game mirip Wordle lainnya (misal Kata Kunci / Tebak Kata bahasa Indonesia)?",
         "answer": "Saat ini solver kami dioptimalkan untuk Wordle dengan basis data kata bahasa Inggris. Namun, konsepnya bisa diterapkan untuk game tebak kata 5 huruf lainnya. Jika game tersebut juga berbahasa Inggris, kemungkinan besar bisa. Kami sedang berencana untuk mendukung game tebak kata bahasa Indonesia di masa mendatang!"
       }
-    ]
+    ],
+    "name": "Wordle Solver"
   },
   "scrabble-helper": {
     "metaTitle": "Scrabble Solver Indonesia: Pecahkan Kata Scrabble Terbaikmu!",
@@ -417,7 +420,8 @@
         "question": "Apakah berfungsi di semua perangkat?",
         "answer": "Ya, Scrabble Solver kami dirancang responsif dan bekerja dengan baik di semua perangkat, termasuk desktop, tablet, dan ponsel pintar."
       }
-    ]
+    ],
+    "name": "Scrabble Helper"
   },
   "words-with-friends-helper": {
     "metaTitle": "Words With Friends Solusi: Kata Terbaik & Bonus Tertinggi",
@@ -522,7 +526,8 @@
         "question": "Apakah alat ini tersedia dalam Bahasa Indonesia?",
         "answer": "Alat pencari kata utama kami dioptimalkan untuk bahasa Inggris karena basis data Words With Friends adalah bahasa Inggris. Namun, deskripsi dan panduan penggunaan di situs ini sepenuhnya dalam Bahasa Indonesia."
       }
-    ]
+    ],
+    "name": "Words With Friends"
   },
   "crossword-solver": {
     "metaTitle": "Pecahkan Teka-teki Silang Mudah & Cepat | Pencari Kata TTS",
@@ -627,7 +632,8 @@
         "question": "Apakah alat ini bisa membantu saya memecahkan teka-teki silang di ponsel?",
         "answer": "Tentu saja! Alat ini bekerja dengan baik di semua perangkat, termasuk ponsel dan tablet. Anda bisa mengaksesnya langsung dari browser di perangkat seluler Anda."
       }
-    ]
+    ],
+    "name": "Crossword Solver"
   },
   "word-finder": {
     "metaTitle": "Pencari Kata: Temukan Kata untuk Game & Kosakata",
@@ -732,7 +738,8 @@
         "question": "Apakah kata-kata yang dihasilkan valid untuk permainan kata?",
         "answer": "Ya, semua kata yang dihasilkan oleh alat ini berasal dari kamus standar dan umumnya valid untuk sebagian besar permainan kata populer yang menggunakan bahasa Indonesia seperti Scrabble atau teka-teki silang."
       }
-    ]
+    ],
+    "name": "Word Finder"
   },
   "rhyming-words": {
     "metaTitle": "Pencari Rima: Temukan Rima Sempurna untuk Lagu & Puisi",
@@ -839,7 +846,8 @@
         "question": "Apakah alat ini bisa mencari rima untuk kata bahasa daerah?",
         "answer": "Saat ini, database utama kami berfokus pada kosakata Bahasa Indonesia standar. Untuk bahasa daerah, hasilnya mungkin tidak sekomprehensif atau seakurat untuk Bahasa Indonesia. Namun, Anda tetap bisa mencoba, siapa tahu ada beberapa hasil yang relevan."
       }
-    ]
+    ],
+    "name": "Rhyming Words"
   },
   "synonym-finder": {
     "metaTitle": "Pencari Sinonim: Cari Padanan Kata Lebih Kaya Sekali Klik",
@@ -944,7 +952,8 @@
         "question": "Apakah alat ini aman digunakan untuk tulisan penting seperti skripsi atau artikel ilmiah?",
         "answer": "Ya, alat ini aman digunakan sebagai referensi untuk menemukan variasi kata. Namun, pastikan Anda selalu membaca ulang dan memastikan sinonim yang dipilih sesuai dengan konteks dan gaya penulisan ilmiah Anda agar makna tidak bergeser."
       }
-    ]
+    ],
+    "name": "Synonym Finder"
   },
   "antonym-finder": {
     "metaTitle": "Cari Antonim? Temukan Lawan Kata Cepat dan Akurat!",
@@ -1049,7 +1058,8 @@
         "question": "Apakah hasil antonim sudah diurutkan?",
         "answer": "Hasil antonim biasanya ditampilkan berdasarkan relevansi dan frekuensi penggunaan. Kamu bisa memilih yang paling cocok dengan konteks yang kamu inginkan."
       }
-    ]
+    ],
+    "name": "Antonym Finder"
   },
   "words-starting-with": {
     "metaTitle": "Pencari Kata Berawalan Cepat & Akurat | AllWordTools.com",
@@ -1154,7 +1164,8 @@
         "question": "Mengapa hasilnya tidak muncul semua atau terlihat sedikit?",
         "answer": "Pastikan kamu sudah menekan tombol 'Cari Kata' setelah memasukkan awalan dan mengatur panjang kata. Jika hasilnya masih sedikit, kemungkinan awalan yang kamu masukkan memang jarang ditemukan, atau kamu mungkin mengatur panjang kata yang terlalu spesifik. Coba ubah opsi panjang kata ke 'Semua'."
       }
-    ]
+    ],
+    "name": "Words Starting With"
   },
   "words-ending-with": {
     "metaTitle": "Kata Berakhiran: Pencari Kata Cepat | Alat Kata Indonesia",
@@ -1259,7 +1270,8 @@
         "question": "Apakah data pencarian saya bersifat pribadi?",
         "answer": "Betul. Semua pencarian Anda diproses langsung di browser Anda. Kami tidak mengumpulkan atau menyimpan riwayat pencarian pribadi Anda, sehingga privasi Anda terjamin."
       }
-    ]
+    ],
+    "name": "Words Ending With"
   },
   "words-containing": {
     "metaTitle": "Pencari Kata Mengandung Huruf | AllWordTools",
@@ -1364,7 +1376,8 @@
         "question": "Apakah ada batasan jumlah pencarian?",
         "answer": "Tidak ada batasan. Anda bisa menggunakan alat ini sebanyak yang Anda inginkan, kapan saja, dan di mana saja. Nikmati pencarian kata tanpa hambatan!"
       }
-    ]
+    ],
+    "name": "Words Containing"
   },
   "letter-counter": {
     "metaTitle": "Penghitung Kata & Karakter Otomatis - Cepat & Akurat",
@@ -1469,7 +1482,8 @@
         "question": "Bagaimana cara kerja penghitungan paragraf?",
         "answer": "Penghitung ini mendeteksi paragraf berdasarkan baris kosong atau jeda baris ganda (seperti saat Anda menekan Enter dua kali setelah sebuah paragraf) dalam teks yang Anda masukkan."
       }
-    ]
+    ],
+    "name": "Letter Counter"
   },
   "syllable-counter": {
     "metaTitle": "Penghitung Suku Kata Online Cepat & Akurat | Gratis",
@@ -1574,7 +1588,8 @@
         "question": "Mengapa penting menghitung suku kata?",
         "answer": "Menghitung suku kata membantu dalam penulisan puisi dengan metrum tertentu (seperti haiku), penulisan lirik lagu agar sesuai melodi, atau untuk mengecek tingkat keterbacaan teks, terutama di lingkungan pendidikan atau penulisan konten."
       }
-    ]
+    ],
+    "name": "Syllable Counter"
   },
   "random-word-generator": {
     "metaTitle": "Generator Kata Acak: Ide & Inspirasi Cepat | AllWordTools",
@@ -1679,7 +1694,8 @@
         "question": "Bolehkah saya menggunakan kata-kata ini untuk nama bisnis atau brand?",
         "answer": "Tentu, Anda bebas menggunakan kata-kata yang dihasilkan untuk keperluan pribadi maupun komersial, seperti nama bisnis, brand, produk, atau domain, namun disarankan untuk tetap melakukan pengecekan ketersediaan nama tersebut."
       }
-    ]
+    ],
+    "name": "Random Word Generator"
   },
   "boggle-solver": {
     "metaTitle": "Pencari Kata Boggle: Tebak Semua Kata Tersembunyi!",
@@ -1784,7 +1800,8 @@
         "question": "Bisakah saya menggunakan alat ini di ponsel atau tablet?",
         "answer": "Tentu! Pencari Kata Boggle ini dirancang agar responsif dan berfungsi dengan baik di berbagai perangkat, termasuk komputer desktop, laptop, tablet, dan ponsel pintar. Anda dapat menggunakannya di mana saja."
       }
-    ]
+    ],
+    "name": "Boggle Solver"
   },
   "hangman-solver": {
     "metaTitle": "Hangman Solver - Tebak Huruf Terbaik untuk Menang Hangman",
@@ -1889,7 +1906,8 @@
         "question": "Bisakah saya menggunakannya untuk belajar bahasa Indonesia?",
         "answer": "Tentu! Dengan melihat daftar kata yang muncul dan frekuensi huruf, Anda bisa belajar lebih banyak tentang struktur kata dan kosakata dalam bahasa Indonesia secara efektif."
       }
-    ]
+    ],
+    "name": "Hangman Solver"
   },
   "text-twist-solver": {
     "metaTitle": "Text Twist Solver: Pecahkan Semua Kata & Bonus di Text Twist",
@@ -1994,7 +2012,8 @@
         "question": "Apakah saya perlu menginstal aplikasi untuk menggunakannya?",
         "answer": "Tidak perlu instalasi apa pun! Text Twist Solver bekerja langsung di browser web Anda, baik di komputer, tablet, atau ponsel pintar Anda."
       }
-    ]
+    ],
+    "name": "Text Twist Solver"
   },
   "vowel-counter": {
     "metaTitle": "Penghitung Huruf Vokal Otomatis (A, I, U, E, O)",
@@ -2099,7 +2118,8 @@
         "question": "Apakah alat Penghitung Huruf Vokal ini gratis?",
         "answer": "Ya, alat ini sepenuhnya gratis untuk digunakan oleh siapa saja, kapan saja, dan tanpa batasan. Anda tidak perlu mendaftar atau membayar apa pun."
       }
-    ]
+    ],
+    "name": "Vowel Counter"
   },
   "consonant-counter": {
     "metaTitle": "Penghitung Konsonan - Hitung Huruf Konsonan Otomatis",
@@ -2204,7 +2224,8 @@
         "question": "Bisakah saya menggunakannya untuk teks non-bahasa Indonesia?",
         "answer": "Tentu saja! Meskipun kami memberikan rekomendasi penggunaan dalam bahasa Indonesia, alat ini berfungsi untuk teks dalam bahasa apa pun yang menggunakan alfabet Latin. Konsonan akan diidentifikasi berdasarkan definisi standar."
       }
-    ]
+    ],
+    "name": "Consonant Counter"
   },
   "word-meaning": {
     "metaTitle": "Cari Arti Kata: Penjelasan Makna Kata Bahasa Inggris Cepat",
@@ -2309,7 +2330,8 @@
         "question": "Apakah ada fitur terjemahan bahasa Indonesia?",
         "answer": "Alat ini dirancang untuk menjelaskan makna kata dalam bahasa Inggris itu sendiri, bukan menerjemahkannya ke bahasa Indonesia. Tujuannya adalah untuk membantu pemahaman langsung makna Inggris, bukan mencari padanan terjemahan."
       }
-    ]
+    ],
+    "name": "Word Meaning"
   },
   "spell-checker": {
     "metaTitle": "Cek Ejaan Online (Gratis) - Koreksi Kata Otomatis",
@@ -2418,7 +2440,8 @@
         "question": "Apakah ada versi aplikasi yang bisa diunduh?",
         "answer": "Saat ini, alat kami beroperasi penuh di browser web, jadi tidak perlu mengunduh aplikasi apa pun. Cukup akses dari peramban favorit Anda."
       }
-    ]
+    ],
+    "name": "Spell Checker"
   },
   "grammar-checker": {
     "metaTitle": "Cek Tata Bahasa Online AI Gratis | AllWordTools.com",
@@ -2523,7 +2546,8 @@
         "question": "Apakah ini hanya untuk Bahasa Inggris, atau bisa Bahasa Indonesia juga?",
         "answer": "Pemeriksa Tata Bahasa AI kami saat ini dirancang dan dioptimalkan khusus untuk menganalisis dan mengoreksi tulisan dalam Bahasa Inggris. Untuk Bahasa Indonesia, mungkin hasilnya tidak seakurat yang diinginkan."
       }
-    ]
+    ],
+    "name": "Grammar Checker (AI)"
   },
   "punctuation-checker": {
     "metaTitle": "Cek Tanda Baca Otomatis & Benar - Gratis AllWordTools.com",
@@ -2640,7 +2664,8 @@
         "question": "Apakah ada batasan panjang teks yang bisa saya periksa?",
         "answer": "Tidak ada batasan panjang teks yang ketat. Anda bisa memasukkan paragraf panjang atau dokumen singkat sesuai kebutuhan, dan alat ini akan memprosesnya dengan cepat."
       }
-    ]
+    ],
+    "name": "Punctuation Checker"
   },
   "wordscapes-solver": {
     "metaTitle": "Wordscapes Solver: Jawaban & Kunci Cepat | AllWordTools",
@@ -2745,7 +2770,8 @@
         "question": "Apakah ada batasan penggunaan solver ini?",
         "answer": "Tidak ada batasan. Anda bisa menggunakan Wordscapes Solver ini sesering yang Anda butuhkan, kapan pun Anda stuck atau ingin mencari tahu lebih banyak kemungkinan kata."
       }
-    ]
+    ],
+    "name": "Wordscapes Solver"
   },
   "word-cookies-solver": {
     "metaTitle": "Word Cookies Solver: Pecahkan Level & Klaim Koin Bonus!",
@@ -2850,7 +2876,8 @@
         "question": "Apakah tools ini hanya untuk bahasa Inggris atau bahasa Indonesia juga?",
         "answer": "Alat kami sangat fleksibel dan dapat digunakan untuk menemukan kata-kata dalam berbagai bahasa, termasuk bahasa Indonesia. Cukup masukkan huruf-huruf Anda, dan solver akan membantu Anda menemukan kombinasi kata bahasa Indonesia yang valid."
       }
-    ]
+    ],
+    "name": "Word Cookies Solver"
   },
   "codycross-solver": {
     "metaTitle": "Kunci Jawaban CodyCross & Solver Online | AllWordTools",
@@ -2955,7 +2982,8 @@
         "question": "Apakah saya perlu mengunduh aplikasi atau daftar akun?",
         "answer": "Tidak sama sekali! CodyCross Solver ini berjalan sepenuhnya di browser Anda, baik di HP, tablet, maupun komputer. Tidak ada unduhan yang diperlukan dan tidak ada proses pendaftaran akun. Langsung pakai!"
       }
-    ]
+    ],
+    "name": "CodyCross Solver"
   },
   "seven-little-words-solver": {
     "metaTitle": "7 Little Words Solver - Pencari Kata Terlengkap & Cepat",
@@ -3060,7 +3088,8 @@
         "question": "Apakah solver ini hanya untuk 7 Little Words versi Bahasa Inggris?",
         "answer": "Meskipun inti permainannya berbahasa Inggris, solver kami dapat diadaptasi untuk mencari kata dengan pola tertentu. Anda dapat menggunakannya sebagai referensi umum untuk pencarian kata, namun bank kata utama disesuaikan untuk kebutuhan pencarian kata umum berbahasa Indonesia atau kamus yang relevan."
       }
-    ]
+    ],
+    "name": "7 Little Words Solver"
   },
   "wheel-of-fortune-solver": {
     "metaTitle": "Penyelesai Kata Roda Keberuntungan (Wheel of Fortune Solver)",
@@ -3165,7 +3194,8 @@
         "question": "Apakah ini legal digunakan saat bermain Roda Keberuntungan di TV secara langsung?",
         "answer": "Alat ini ditujukan untuk tujuan edukasi, hiburan, dan bantuan belajar. Penggunaan dalam kompetisi atau acara televisi bergantung pada aturan masing-masing penyelenggara. Kami mendorong penggunaan bertanggung jawab."
       }
-    ]
+    ],
+    "name": "Wheel of Fortune Solver"
   },
   "letter-pattern-finder": {
     "metaTitle": "Pencari Kata Berpola: Solusi Tebak Kata | AllWordTools",
@@ -3270,7 +3300,8 @@
         "question": "Apakah kamus yang digunakan alat ini adalah kamus Bahasa Indonesia?",
         "answer": "Betul. Alat ini menggunakan kamus Bahasa Indonesia yang ekstensif dan selalu diperbarui untuk memastikan hasil yang paling akurat dan relevan bagi pengguna di Indonesia."
       }
-    ]
+    ],
+    "name": "Letter Pattern Finder"
   },
   "wildcard-solver": {
     "metaTitle": "Pencari Kata dengan Wildcard - Temukan Kata Cepat & Akurat",
@@ -3375,7 +3406,8 @@
         "question": "Apa itu Wildcard Solver sebetulnya?",
         "answer": "Wildcard Solver adalah alat bantu online yang memungkinkan Anda mencari kata menggunakan pola huruf tertentu, di mana sebagian huruf diganti dengan simbol khusus (wildcard) seperti '?' untuk satu huruf dan '*' untuk beberapa huruf tak terbatas."
       }
-    ]
+    ],
+    "name": "Wildcard Solver"
   },
   "pattern-solver": {
     "metaTitle": "Pencari Kata Pola: Selesaikan Teka-teki & Game Kata Cepat",
@@ -3480,7 +3512,8 @@
         "question": "Apakah ini mendukung bahasa lain selain bahasa Indonesia?",
         "answer": "Pencari Kata Pola kami saat ini berfokus pada kamus bahasa Indonesia untuk memberikan hasil yang paling relevan bagi pengguna berbahasa Indonesia. Untuk bahasa lain, silakan periksa alat lain yang tersedia di situs kami."
       }
-    ]
+    ],
+    "name": "Pattern Solver"
   },
   "missing-letters-finder": {
     "metaTitle": "Pencari Kata Hilang: Isi Huruf Kosong Otomatis",
@@ -3585,7 +3618,8 @@
         "question": "Apakah saya bisa menggunakan ini untuk permainan seperti Teka-Teki Silang (TTS)?",
         "answer": "Betul sekali! Ini adalah alat yang sangat praktis untuk membantu Anda memecahkan TTS atau permainan kata lainnya. Jika Anda hanya tahu sebagian dari jawaban, cukup masukkan huruf-huruf yang ada ke dalam kolom pencarian."
       }
-    ]
+    ],
+    "name": "Missing Letters Finder"
   },
   "letter-rearranger": {
     "metaTitle": "Penyusun Kata: Temukan Semua Kata dari Huruf Acakmu!",
@@ -3690,7 +3724,8 @@
         "question": "Apakah alat ini mendukung bahasa Indonesia?",
         "answer": "Ya, alat ini dirancang untuk mendukung pencarian kata dalam Bahasa Indonesia, menggunakan kamus kata-kata Indonesia agar hasilnya relevan untuk pengguna di Indonesia."
       }
-    ]
+    ],
+    "name": "Letter Rearranger"
   },
   "reverse-dictionary": {
     "metaTitle": "Cari Kata dari Arti: Kamus Balik Bahasa Indonesia (Reverse)",
@@ -3795,7 +3830,8 @@
         "question": "Apakah Kamus Balik AllWordTools memerlukan akun atau instalasi?",
         "answer": "Tidak, Kamus Balik ini bisa diakses langsung melalui peramban web Anda di perangkat apapun. Tidak perlu mendaftar akun, log in, atau menginstal perangkat lunak apa pun."
       }
-    ]
+    ],
+    "name": "Reverse Dictionary"
   },
   "alphabetical-sorter": {
     "metaTitle": "Pengurut Abjad Online Otomatis: Urut Cepat A-Z & Z-A",
@@ -3900,7 +3936,8 @@
         "question": "Bisakah saya mengurutkan daftar dari Z ke A?",
         "answer": "Ya, Anda dapat memilih 'Urutan Menurun (Z-A)' pada opsi pengurutan untuk mendapatkan hasil yang terurut dari Z ke A."
       }
-    ]
+    ],
+    "name": "Alphabetical Sorter"
   },
   "random-letter-generator": {
     "metaTitle": "Generator Huruf Random: Acak Huruf untuk Game & Belajar",
@@ -4005,7 +4042,8 @@
         "question": "Bisakah saya menggunakannya di ponsel atau tablet?",
         "answer": "Ya, alat ini dirancang agar responsif dan berfungsi dengan baik di berbagai perangkat, termasuk komputer desktop, laptop, tablet, dan ponsel pintar."
       }
-    ]
+    ],
+    "name": "Random Letter Generator"
   },
   "vocabulary-quiz": {
     "metaTitle": "Tes Kosakata Bahasa Inggris Online Gratis – Perkaya Vocabmu!",
@@ -4110,7 +4148,8 @@
         "question": "Bagaimana cara kerja sistem penilaiannya?",
         "answer": "Sistem penilaian memberimu umpan balik instan setelah setiap jawaban. Di akhir putaran, kamu akan melihat skor totalmu. Kamu bisa mencoba lagi untuk memecahkan rekor skormu sebelumnya!"
       }
-    ]
+    ],
+    "name": "Vocabulary Quiz"
   },
   "spelling-quiz": {
     "metaTitle": "Tes Ejaan Bahasa Inggris: Asah Akurasi Kata Sulit!",
@@ -4215,7 +4254,8 @@
         "question": "Bisa untuk perangkat mobile (HP)?",
         "answer": "Ya, tools ini didesain responsif sehingga nyaman diakses dan digunakan dari berbagai perangkat, termasuk smartphone dan tablet Anda."
       }
-    ]
+    ],
+    "name": "Spelling Quiz"
   },
   "codycross-answers": {
     "metaTitle": "Jawaban CodyCross — Kunci Jawaban Lengkap | AllWordTools",
@@ -4301,6 +4341,3220 @@
         "question": "Dapatkah saya bermain CodyCross tanpa internet?",
         "answer": "Ya, game ini bisa dimainkan offline, tetapi tantangan harian dan database eksternal seperti milik kami tidak akan tersedia. Simpan token petunjuk game Anda to saat-saat offline."
       }
+    ],
+    "name": "CodyCross Answers"
+  },
+  "similar-words": {
+    "name": "Similar Words",
+    "metaTitle": "Similar Words | AllWordTools",
+    "metaDescription": "Find words with a similar meaning to any word you enter.",
+    "eyebrow": "AllWordTools",
+    "heading": "Similar Words",
+    "subheading": "Find words with a similar meaning to any word you enter.",
+    "intro": [
+      "Similar Words — Find words with a similar meaning to any word you enter.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Similar Words",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Similar Words",
+        "paragraphs": [
+          "Find words with a similar meaning to any word you enter.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Find words with a similar meaning to any word you enter."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Similar Words",
+      "similar-words"
+    ]
+  },
+  "opposite-words": {
+    "name": "Opposite Words",
+    "metaTitle": "Opposite Words | AllWordTools",
+    "metaDescription": "Discover the opposite (antonym) of any word in one click.",
+    "eyebrow": "AllWordTools",
+    "heading": "Opposite Words",
+    "subheading": "Discover the opposite (antonym) of any word in one click.",
+    "intro": [
+      "Opposite Words — Discover the opposite (antonym) of any word in one click.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Opposite Words",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Opposite Words",
+        "paragraphs": [
+          "Discover the opposite (antonym) of any word in one click.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Discover the opposite (antonym) of any word in one click."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Opposite Words",
+      "opposite-words"
+    ]
+  },
+  "collocation-finder": {
+    "name": "Collocation Finder",
+    "metaTitle": "Collocation Finder | AllWordTools",
+    "metaDescription": "See which words naturally pair before and after your word.",
+    "eyebrow": "AllWordTools",
+    "heading": "Collocation Finder",
+    "subheading": "See which words naturally pair before and after your word.",
+    "intro": [
+      "Collocation Finder — See which words naturally pair before and after your word.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Collocation Finder",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Collocation Finder",
+        "paragraphs": [
+          "See which words naturally pair before and after your word.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "See which words naturally pair before and after your word."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Collocation Finder",
+      "collocation-finder"
+    ]
+  },
+  "alliteration-generator": {
+    "name": "Alliteration Generator",
+    "metaTitle": "Alliteration Generator | AllWordTools",
+    "metaDescription": "Create alliterative phrases where every word starts with the same sound.",
+    "eyebrow": "AllWordTools",
+    "heading": "Alliteration Generator",
+    "subheading": "Create alliterative phrases where every word starts with the same sound.",
+    "intro": [
+      "Alliteration Generator — Create alliterative phrases where every word starts with the same sound.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Alliteration Generator",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Alliteration Generator",
+        "paragraphs": [
+          "Create alliterative phrases where every word starts with the same sound.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Create alliterative phrases where every word starts with the same sound."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Alliteration Generator",
+      "alliteration-generator"
+    ]
+  },
+  "assonance-finder": {
+    "name": "Assonance Finder",
+    "metaTitle": "Assonance Finder | AllWordTools",
+    "metaDescription": "Find words that share the same vowel sounds for poems and lyrics.",
+    "eyebrow": "AllWordTools",
+    "heading": "Assonance Finder",
+    "subheading": "Find words that share the same vowel sounds for poems and lyrics.",
+    "intro": [
+      "Assonance Finder — Find words that share the same vowel sounds for poems and lyrics.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Assonance Finder",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Assonance Finder",
+        "paragraphs": [
+          "Find words that share the same vowel sounds for poems and lyrics.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Find words that share the same vowel sounds for poems and lyrics."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Assonance Finder",
+      "assonance-finder"
+    ]
+  },
+  "word-ladder-solver": {
+    "name": "Word Ladder Solver",
+    "metaTitle": "Word Ladder Solver | AllWordTools",
+    "metaDescription": "Find the shortest chain of words, changing one letter at a time.",
+    "eyebrow": "AllWordTools",
+    "heading": "Word Ladder Solver",
+    "subheading": "Find the shortest chain of words, changing one letter at a time.",
+    "intro": [
+      "Word Ladder Solver — Find the shortest chain of words, changing one letter at a time.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Word Ladder Solver",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Word Ladder Solver",
+        "paragraphs": [
+          "Find the shortest chain of words, changing one letter at a time.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Find the shortest chain of words, changing one letter at a time."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Word Ladder Solver",
+      "word-ladder-solver"
+    ]
+  },
+  "letter-frequency-analyzer": {
+    "name": "Letter Frequency Analyzer",
+    "metaTitle": "Letter Frequency Analyzer | AllWordTools",
+    "metaDescription": "See how often each letter appears, with counts and percentages.",
+    "eyebrow": "AllWordTools",
+    "heading": "Letter Frequency Analyzer",
+    "subheading": "See how often each letter appears, with counts and percentages.",
+    "intro": [
+      "Letter Frequency Analyzer — See how often each letter appears, with counts and percentages.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Letter Frequency Analyzer",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Letter Frequency Analyzer",
+        "paragraphs": [
+          "See how often each letter appears, with counts and percentages.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "See how often each letter appears, with counts and percentages."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Letter Frequency Analyzer",
+      "letter-frequency-analyzer"
+    ]
+  },
+  "repeated-letter-finder": {
+    "name": "Repeated Letter Finder",
+    "metaTitle": "Repeated Letter Finder | AllWordTools",
+    "metaDescription": "Reveal which letters repeat inside a word or phrase.",
+    "eyebrow": "AllWordTools",
+    "heading": "Repeated Letter Finder",
+    "subheading": "Reveal which letters repeat inside a word or phrase.",
+    "intro": [
+      "Repeated Letter Finder — Reveal which letters repeat inside a word or phrase.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Repeated Letter Finder",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Repeated Letter Finder",
+        "paragraphs": [
+          "Reveal which letters repeat inside a word or phrase.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Reveal which letters repeat inside a word or phrase."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Repeated Letter Finder",
+      "repeated-letter-finder"
+    ]
+  },
+  "dictionary": {
+    "name": "Dictionary",
+    "metaTitle": "Dictionary | AllWordTools",
+    "metaDescription": "Full definitions, examples, synonyms and pronunciation for any word.",
+    "eyebrow": "AllWordTools",
+    "heading": "Dictionary",
+    "subheading": "Full definitions, examples, synonyms and pronunciation for any word.",
+    "intro": [
+      "Dictionary — Full definitions, examples, synonyms and pronunciation for any word.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Dictionary",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Dictionary",
+        "paragraphs": [
+          "Full definitions, examples, synonyms and pronunciation for any word.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Full definitions, examples, synonyms and pronunciation for any word."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Dictionary",
+      "dictionary"
+    ]
+  },
+  "pronunciation": {
+    "name": "Pronunciation",
+    "metaTitle": "Pronunciation | AllWordTools",
+    "metaDescription": "Hear how a word is said and see its phonetic spelling.",
+    "eyebrow": "AllWordTools",
+    "heading": "Pronunciation",
+    "subheading": "Hear how a word is said and see its phonetic spelling.",
+    "intro": [
+      "Pronunciation — Hear how a word is said and see its phonetic spelling.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Pronunciation",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Pronunciation",
+        "paragraphs": [
+          "Hear how a word is said and see its phonetic spelling.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Hear how a word is said and see its phonetic spelling."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Pronunciation",
+      "pronunciation"
+    ]
+  },
+  "ipa-converter": {
+    "name": "IPA Converter",
+    "metaTitle": "IPA Converter | AllWordTools",
+    "metaDescription": "Convert any English word into its IPA phonetic transcription.",
+    "eyebrow": "AllWordTools",
+    "heading": "IPA Converter",
+    "subheading": "Convert any English word into its IPA phonetic transcription.",
+    "intro": [
+      "IPA Converter — Convert any English word into its IPA phonetic transcription.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan IPA Converter",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "IPA Converter",
+        "paragraphs": [
+          "Convert any English word into its IPA phonetic transcription.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Convert any English word into its IPA phonetic transcription."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "IPA Converter",
+      "ipa-converter"
+    ]
+  },
+  "word-origin": {
+    "name": "Word Origin (Etymology)",
+    "metaTitle": "Word Origin (Etymology) | AllWordTools",
+    "metaDescription": "Trace where a word came from and how its meaning evolved.",
+    "eyebrow": "AllWordTools",
+    "heading": "Word Origin (Etymology)",
+    "subheading": "Trace where a word came from and how its meaning evolved.",
+    "intro": [
+      "Word Origin (Etymology) — Trace where a word came from and how its meaning evolved.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Word Origin (Etymology)",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Word Origin (Etymology)",
+        "paragraphs": [
+          "Trace where a word came from and how its meaning evolved.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Trace where a word came from and how its meaning evolved."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Word Origin (Etymology)",
+      "word-origin"
+    ]
+  },
+  "example-sentences": {
+    "name": "Example Sentences",
+    "metaTitle": "Example Sentences | AllWordTools",
+    "metaDescription": "See real example sentences that show how a word is used.",
+    "eyebrow": "AllWordTools",
+    "heading": "Example Sentences",
+    "subheading": "See real example sentences that show how a word is used.",
+    "intro": [
+      "Example Sentences — See real example sentences that show how a word is used.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Example Sentences",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Example Sentences",
+        "paragraphs": [
+          "See real example sentences that show how a word is used.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "See real example sentences that show how a word is used."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Example Sentences",
+      "example-sentences"
+    ]
+  },
+  "phrases-dictionary": {
+    "name": "Phrases Dictionary",
+    "metaTitle": "Phrases Dictionary | AllWordTools",
+    "metaDescription": "Find common phrases and expressions built around any word.",
+    "eyebrow": "AllWordTools",
+    "heading": "Phrases Dictionary",
+    "subheading": "Find common phrases and expressions built around any word.",
+    "intro": [
+      "Phrases Dictionary — Find common phrases and expressions built around any word.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Phrases Dictionary",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Phrases Dictionary",
+        "paragraphs": [
+          "Find common phrases and expressions built around any word.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Find common phrases and expressions built around any word."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Phrases Dictionary",
+      "phrases-dictionary"
+    ]
+  },
+  "passive-voice-checker": {
+    "name": "Passive Voice Checker",
+    "metaTitle": "Passive Voice Checker | AllWordTools",
+    "metaDescription": "Spot every passive sentence and see a stronger active rewrite.",
+    "eyebrow": "AllWordTools",
+    "heading": "Passive Voice Checker",
+    "subheading": "Spot every passive sentence and see a stronger active rewrite.",
+    "intro": [
+      "Passive Voice Checker — Spot every passive sentence and see a stronger active rewrite.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Passive Voice Checker",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Passive Voice Checker",
+        "paragraphs": [
+          "Spot every passive sentence and see a stronger active rewrite.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Spot every passive sentence and see a stronger active rewrite."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Passive Voice Checker",
+      "passive-voice-checker"
+    ]
+  },
+  "active-voice-converter": {
+    "name": "Active Voice Converter",
+    "metaTitle": "Active Voice Converter | AllWordTools",
+    "metaDescription": "Rewrite passive sentences into clear, direct active voice.",
+    "eyebrow": "AllWordTools",
+    "heading": "Active Voice Converter",
+    "subheading": "Rewrite passive sentences into clear, direct active voice.",
+    "intro": [
+      "Active Voice Converter — Rewrite passive sentences into clear, direct active voice.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Active Voice Converter",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Active Voice Converter",
+        "paragraphs": [
+          "Rewrite passive sentences into clear, direct active voice.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Rewrite passive sentences into clear, direct active voice."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Active Voice Converter",
+      "active-voice-converter"
+    ]
+  },
+  "strands-solver": {
+    "name": "Strands Solver",
+    "metaTitle": "Strands Solver | AllWordTools",
+    "metaDescription": "Find every word hidden in the NYT Strands letter grid.",
+    "eyebrow": "AllWordTools",
+    "heading": "Strands Solver",
+    "subheading": "Find every word hidden in the NYT Strands letter grid.",
+    "intro": [
+      "Strands Solver — Find every word hidden in the NYT Strands letter grid.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Strands Solver",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Strands Solver",
+        "paragraphs": [
+          "Find every word hidden in the NYT Strands letter grid.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Find every word hidden in the NYT Strands letter grid."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Strands Solver",
+      "strands-solver"
+    ]
+  },
+  "random-sentence-generator": {
+    "name": "Random Sentence Generator",
+    "metaTitle": "Random Sentence Generator | AllWordTools",
+    "metaDescription": "Create random sentences to spark writing prompts and warm-ups.",
+    "eyebrow": "AllWordTools",
+    "heading": "Random Sentence Generator",
+    "subheading": "Create random sentences to spark writing prompts and warm-ups.",
+    "intro": [
+      "Random Sentence Generator — Create random sentences to spark writing prompts and warm-ups.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Random Sentence Generator",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Random Sentence Generator",
+        "paragraphs": [
+          "Create random sentences to spark writing prompts and warm-ups.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Create random sentences to spark writing prompts and warm-ups."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Random Sentence Generator",
+      "random-sentence-generator"
+    ]
+  },
+  "random-paragraph-generator": {
+    "name": "Random Paragraph Generator",
+    "metaTitle": "Random Paragraph Generator | AllWordTools",
+    "metaDescription": "Generate random paragraphs for placeholder text and practice.",
+    "eyebrow": "AllWordTools",
+    "heading": "Random Paragraph Generator",
+    "subheading": "Generate random paragraphs for placeholder text and practice.",
+    "intro": [
+      "Random Paragraph Generator — Generate random paragraphs for placeholder text and practice.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Random Paragraph Generator",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Random Paragraph Generator",
+        "paragraphs": [
+          "Generate random paragraphs for placeholder text and practice.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate random paragraphs for placeholder text and practice."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Random Paragraph Generator",
+      "random-paragraph-generator"
+    ]
+  },
+  "random-topic-generator": {
+    "name": "Random Topic Generator",
+    "metaTitle": "Random Topic Generator | AllWordTools",
+    "metaDescription": "Get random topics and prompts for essays, debates and stories.",
+    "eyebrow": "AllWordTools",
+    "heading": "Random Topic Generator",
+    "subheading": "Get random topics and prompts for essays, debates and stories.",
+    "intro": [
+      "Random Topic Generator — Get random topics and prompts for essays, debates and stories.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Random Topic Generator",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Random Topic Generator",
+        "paragraphs": [
+          "Get random topics and prompts for essays, debates and stories.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Get random topics and prompts for essays, debates and stories."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Random Topic Generator",
+      "random-topic-generator"
+    ]
+  },
+  "random-verb-generator": {
+    "name": "Random Verb Generator",
+    "metaTitle": "Random Verb Generator | AllWordTools",
+    "metaDescription": "Generate random verbs in any tense for writing and grammar practice.",
+    "eyebrow": "AllWordTools",
+    "heading": "Random Verb Generator",
+    "subheading": "Generate random verbs in any tense for writing and grammar practice.",
+    "intro": [
+      "Random Verb Generator — Generate random verbs in any tense for writing and grammar practice.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Random Verb Generator",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Random Verb Generator",
+        "paragraphs": [
+          "Generate random verbs in any tense for writing and grammar practice.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate random verbs in any tense for writing and grammar practice."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Random Verb Generator",
+      "random-verb-generator"
+    ]
+  },
+  "tongue-twister-generator": {
+    "name": "Tongue Twister Generator",
+    "metaTitle": "Tongue Twister Generator | AllWordTools",
+    "metaDescription": "Generate original tongue twisters for speech practice and fun.",
+    "eyebrow": "AllWordTools",
+    "heading": "Tongue Twister Generator",
+    "subheading": "Generate original tongue twisters for speech practice and fun.",
+    "intro": [
+      "Tongue Twister Generator — Generate original tongue twisters for speech practice and fun.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Tongue Twister Generator",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Tongue Twister Generator",
+        "paragraphs": [
+          "Generate original tongue twisters for speech practice and fun.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate original tongue twisters for speech practice and fun."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Tongue Twister Generator",
+      "tongue-twister-generator"
+    ]
+  },
+  "cvc-word-generator": {
+    "name": "CVC Word Generator",
+    "metaTitle": "CVC Word Generator | AllWordTools",
+    "metaDescription": "Generate consonant-vowel-consonant words for early phonics practice.",
+    "eyebrow": "AllWordTools",
+    "heading": "CVC Word Generator",
+    "subheading": "Generate consonant-vowel-consonant words for early phonics practice.",
+    "intro": [
+      "CVC Word Generator — Generate consonant-vowel-consonant words for early phonics practice.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan CVC Word Generator",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "CVC Word Generator",
+        "paragraphs": [
+          "Generate consonant-vowel-consonant words for early phonics practice.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate consonant-vowel-consonant words for early phonics practice."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "CVC Word Generator",
+      "cvc-word-generator"
+    ]
+  },
+  "sight-word-generator": {
+    "name": "Sight Word Generator",
+    "metaTitle": "Sight Word Generator | AllWordTools",
+    "metaDescription": "Generate high-frequency Dolch sight words by grade level.",
+    "eyebrow": "AllWordTools",
+    "heading": "Sight Word Generator",
+    "subheading": "Generate high-frequency Dolch sight words by grade level.",
+    "intro": [
+      "Sight Word Generator — Generate high-frequency Dolch sight words by grade level.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Sight Word Generator",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Sight Word Generator",
+        "paragraphs": [
+          "Generate high-frequency Dolch sight words by grade level.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate high-frequency Dolch sight words by grade level."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Sight Word Generator",
+      "sight-word-generator"
+    ]
+  },
+  "riddle-generator": {
+    "name": "Riddle Generator",
+    "metaTitle": "Riddle Generator | AllWordTools",
+    "metaDescription": "Generate fun brain-teasing riddles with hidden answers.",
+    "eyebrow": "AllWordTools",
+    "heading": "Riddle Generator",
+    "subheading": "Generate fun brain-teasing riddles with hidden answers.",
+    "intro": [
+      "Riddle Generator — Generate fun brain-teasing riddles with hidden answers.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Riddle Generator",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Riddle Generator",
+        "paragraphs": [
+          "Generate fun brain-teasing riddles with hidden answers.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate fun brain-teasing riddles with hidden answers."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Riddle Generator",
+      "riddle-generator"
+    ]
+  },
+  "dog-name-generator": {
+    "name": "Dog Names",
+    "metaTitle": "Dog Names | AllWordTools",
+    "metaDescription": "Generate cute, classic and quirky names for your new dog.",
+    "eyebrow": "AllWordTools",
+    "heading": "Dog Names",
+    "subheading": "Generate cute, classic and quirky names for your new dog.",
+    "intro": [
+      "Dog Names — Generate cute, classic and quirky names for your new dog.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Dog Names",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Dog Names",
+        "paragraphs": [
+          "Generate cute, classic and quirky names for your new dog.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate cute, classic and quirky names for your new dog."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Dog Names",
+      "dog-name-generator"
+    ]
+  },
+  "cat-name-generator": {
+    "name": "Cat Names",
+    "metaTitle": "Cat Names | AllWordTools",
+    "metaDescription": "Find the purr-fect name for your cat, from elegant to playful.",
+    "eyebrow": "AllWordTools",
+    "heading": "Cat Names",
+    "subheading": "Find the purr-fect name for your cat, from elegant to playful.",
+    "intro": [
+      "Cat Names — Find the purr-fect name for your cat, from elegant to playful.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Cat Names",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Cat Names",
+        "paragraphs": [
+          "Find the purr-fect name for your cat, from elegant to playful.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Find the purr-fect name for your cat, from elegant to playful."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Cat Names",
+      "cat-name-generator"
+    ]
+  },
+  "team-name-generator": {
+    "name": "Team Names",
+    "metaTitle": "Team Names | AllWordTools",
+    "metaDescription": "Bold, catchy names for sports teams, quiz nights and groups.",
+    "eyebrow": "AllWordTools",
+    "heading": "Team Names",
+    "subheading": "Bold, catchy names for sports teams, quiz nights and groups.",
+    "intro": [
+      "Team Names — Bold, catchy names for sports teams, quiz nights and groups.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Team Names",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Team Names",
+        "paragraphs": [
+          "Bold, catchy names for sports teams, quiz nights and groups.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Bold, catchy names for sports teams, quiz nights and groups."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Team Names",
+      "team-name-generator"
+    ]
+  },
+  "guild-name-generator": {
+    "name": "Guild Names",
+    "metaTitle": "Guild Names | AllWordTools",
+    "metaDescription": "Epic guild names for MMOs, RPGs and gaming communities.",
+    "eyebrow": "AllWordTools",
+    "heading": "Guild Names",
+    "subheading": "Epic guild names for MMOs, RPGs and gaming communities.",
+    "intro": [
+      "Guild Names — Epic guild names for MMOs, RPGs and gaming communities.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Guild Names",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Guild Names",
+        "paragraphs": [
+          "Epic guild names for MMOs, RPGs and gaming communities.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Epic guild names for MMOs, RPGs and gaming communities."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Guild Names",
+      "guild-name-generator"
+    ]
+  },
+  "clan-name-generator": {
+    "name": "Clan Names",
+    "metaTitle": "Clan Names | AllWordTools",
+    "metaDescription": "Fierce, memorable clan names for shooters and fantasy worlds.",
+    "eyebrow": "AllWordTools",
+    "heading": "Clan Names",
+    "subheading": "Fierce, memorable clan names for shooters and fantasy worlds.",
+    "intro": [
+      "Clan Names — Fierce, memorable clan names for shooters and fantasy worlds.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Clan Names",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Clan Names",
+        "paragraphs": [
+          "Fierce, memorable clan names for shooters and fantasy worlds.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Fierce, memorable clan names for shooters and fantasy worlds."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Clan Names",
+      "clan-name-generator"
+    ]
+  },
+  "character-name-generator": {
+    "name": "Character Names",
+    "metaTitle": "Character Names | AllWordTools",
+    "metaDescription": "Fantasy character names for novels, D&D and creative writing.",
+    "eyebrow": "AllWordTools",
+    "heading": "Character Names",
+    "subheading": "Fantasy character names for novels, D&D and creative writing.",
+    "intro": [
+      "Character Names — Fantasy character names for novels, D&D and creative writing.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Character Names",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Character Names",
+        "paragraphs": [
+          "Fantasy character names for novels, D&D and creative writing.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Fantasy character names for novels, D&D and creative writing."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Character Names",
+      "character-name-generator"
+    ]
+  },
+  "demon-name-generator": {
+    "name": "Demon Names",
+    "metaTitle": "Demon Names | AllWordTools",
+    "metaDescription": "Dark, menacing demon names for fantasy stories and games.",
+    "eyebrow": "AllWordTools",
+    "heading": "Demon Names",
+    "subheading": "Dark, menacing demon names for fantasy stories and games.",
+    "intro": [
+      "Demon Names — Dark, menacing demon names for fantasy stories and games.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Demon Names",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Demon Names",
+        "paragraphs": [
+          "Dark, menacing demon names for fantasy stories and games.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Dark, menacing demon names for fantasy stories and games."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Demon Names",
+      "demon-name-generator"
+    ]
+  },
+  "alien-name-generator": {
+    "name": "Alien Names",
+    "metaTitle": "Alien Names | AllWordTools",
+    "metaDescription": "Exotic, otherworldly alien names for sci-fi stories and games.",
+    "eyebrow": "AllWordTools",
+    "heading": "Alien Names",
+    "subheading": "Exotic, otherworldly alien names for sci-fi stories and games.",
+    "intro": [
+      "Alien Names — Exotic, otherworldly alien names for sci-fi stories and games.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Alien Names",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Alien Names",
+        "paragraphs": [
+          "Exotic, otherworldly alien names for sci-fi stories and games.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Exotic, otherworldly alien names for sci-fi stories and games."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Alien Names",
+      "alien-name-generator"
+    ]
+  },
+  "witch-name-generator": {
+    "name": "Witch Names",
+    "metaTitle": "Witch Names | AllWordTools",
+    "metaDescription": "Mystical witch names with surnames and epithets for stories and games.",
+    "eyebrow": "AllWordTools",
+    "heading": "Witch Names",
+    "subheading": "Mystical witch names with surnames and epithets for stories and games.",
+    "intro": [
+      "Witch Names — Mystical witch names with surnames and epithets for stories and games.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Witch Names",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Witch Names",
+        "paragraphs": [
+          "Mystical witch names with surnames and epithets for stories and games.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Mystical witch names with surnames and epithets for stories and games."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Witch Names",
+      "witch-name-generator"
+    ]
+  },
+  "knight-name-generator": {
+    "name": "Knight Names",
+    "metaTitle": "Knight Names | AllWordTools",
+    "metaDescription": "Noble medieval knight names with heroic titles for fantasy and D&D.",
+    "eyebrow": "AllWordTools",
+    "heading": "Knight Names",
+    "subheading": "Noble medieval knight names with heroic titles for fantasy and D&D.",
+    "intro": [
+      "Knight Names — Noble medieval knight names with heroic titles for fantasy and D&D.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Knight Names",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Knight Names",
+        "paragraphs": [
+          "Noble medieval knight names with heroic titles for fantasy and D&D.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Noble medieval knight names with heroic titles for fantasy and D&D."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Knight Names",
+      "knight-name-generator"
+    ]
+  },
+  "vampire-name-generator": {
+    "name": "Vampire Names",
+    "metaTitle": "Vampire Names | AllWordTools",
+    "metaDescription": "Elegant, gothic vampire names for stories, characters and games.",
+    "eyebrow": "AllWordTools",
+    "heading": "Vampire Names",
+    "subheading": "Elegant, gothic vampire names for stories, characters and games.",
+    "intro": [
+      "Vampire Names — Elegant, gothic vampire names for stories, characters and games.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Vampire Names",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Vampire Names",
+        "paragraphs": [
+          "Elegant, gothic vampire names for stories, characters and games.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Elegant, gothic vampire names for stories, characters and games."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Vampire Names",
+      "vampire-name-generator"
+    ]
+  },
+  "robot-name-generator": {
+    "name": "Robot Names",
+    "metaTitle": "Robot Names | AllWordTools",
+    "metaDescription": "Cool robot and android names with model designations for sci-fi.",
+    "eyebrow": "AllWordTools",
+    "heading": "Robot Names",
+    "subheading": "Cool robot and android names with model designations for sci-fi.",
+    "intro": [
+      "Robot Names — Cool robot and android names with model designations for sci-fi.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Robot Names",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Robot Names",
+        "paragraphs": [
+          "Cool robot and android names with model designations for sci-fi.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Cool robot and android names with model designations for sci-fi."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Robot Names",
+      "robot-name-generator"
+    ]
+  },
+  "daily-word": {
+    "name": "Daily Word",
+    "metaTitle": "Daily Word | AllWordTools",
+    "metaDescription": "A fresh word to learn every single day, with meaning and example.",
+    "eyebrow": "AllWordTools",
+    "heading": "Daily Word",
+    "subheading": "A fresh word to learn every single day, with meaning and example.",
+    "intro": [
+      "Daily Word — A fresh word to learn every single day, with meaning and example.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Daily Word",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Daily Word",
+        "paragraphs": [
+          "A fresh word to learn every single day, with meaning and example.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "A fresh word to learn every single day, with meaning and example."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Daily Word",
+      "daily-word"
+    ]
+  },
+  "word-of-the-day": {
+    "name": "Word of the Day",
+    "metaTitle": "Word of the Day | AllWordTools",
+    "metaDescription": "Discover a beautiful new word each day with IPA and usage.",
+    "eyebrow": "AllWordTools",
+    "heading": "Word of the Day",
+    "subheading": "Discover a beautiful new word each day with IPA and usage.",
+    "intro": [
+      "Word of the Day — Discover a beautiful new word each day with IPA and usage.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Word of the Day",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Word of the Day",
+        "paragraphs": [
+          "Discover a beautiful new word each day with IPA and usage.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Discover a beautiful new word each day with IPA and usage."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Word of the Day",
+      "word-of-the-day"
+    ]
+  },
+  "synonym-quiz": {
+    "name": "Synonym Quiz",
+    "metaTitle": "Synonym Quiz | AllWordTools",
+    "metaDescription": "Match each word to its correct synonym against the clock.",
+    "eyebrow": "AllWordTools",
+    "heading": "Synonym Quiz",
+    "subheading": "Match each word to its correct synonym against the clock.",
+    "intro": [
+      "Synonym Quiz — Match each word to its correct synonym against the clock.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Synonym Quiz",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Synonym Quiz",
+        "paragraphs": [
+          "Match each word to its correct synonym against the clock.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Match each word to its correct synonym against the clock."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Synonym Quiz",
+      "synonym-quiz"
+    ]
+  },
+  "antonym-quiz": {
+    "name": "Antonym Quiz",
+    "metaTitle": "Antonym Quiz | AllWordTools",
+    "metaDescription": "Pick the correct opposite for each word and test your range.",
+    "eyebrow": "AllWordTools",
+    "heading": "Antonym Quiz",
+    "subheading": "Pick the correct opposite for each word and test your range.",
+    "intro": [
+      "Antonym Quiz — Pick the correct opposite for each word and test your range.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Antonym Quiz",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Antonym Quiz",
+        "paragraphs": [
+          "Pick the correct opposite for each word and test your range.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Pick the correct opposite for each word and test your range."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Antonym Quiz",
+      "antonym-quiz"
+    ]
+  },
+  "prefix-quiz": {
+    "name": "Prefix Quiz",
+    "metaTitle": "Prefix Quiz | AllWordTools",
+    "metaDescription": "Learn what common prefixes mean with quick-fire questions.",
+    "eyebrow": "AllWordTools",
+    "heading": "Prefix Quiz",
+    "subheading": "Learn what common prefixes mean with quick-fire questions.",
+    "intro": [
+      "Prefix Quiz — Learn what common prefixes mean with quick-fire questions.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Prefix Quiz",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Prefix Quiz",
+        "paragraphs": [
+          "Learn what common prefixes mean with quick-fire questions.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Learn what common prefixes mean with quick-fire questions."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Prefix Quiz",
+      "prefix-quiz"
+    ]
+  },
+  "suffix-quiz": {
+    "name": "Suffix Quiz",
+    "metaTitle": "Suffix Quiz | AllWordTools",
+    "metaDescription": "Master common suffixes and how they change word meaning.",
+    "eyebrow": "AllWordTools",
+    "heading": "Suffix Quiz",
+    "subheading": "Master common suffixes and how they change word meaning.",
+    "intro": [
+      "Suffix Quiz — Master common suffixes and how they change word meaning.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan Suffix Quiz",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Suffix Quiz",
+        "paragraphs": [
+          "Master common suffixes and how they change word meaning.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Master common suffixes and how they change word meaning."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Suffix Quiz",
+      "suffix-quiz"
+    ]
+  },
+  "ai-word-explainer": {
+    "name": "AI Word Explainer",
+    "metaTitle": "AI Word Explainer | AllWordTools",
+    "metaDescription": "Get a clear AI explanation of any word — meaning, usage and examples.",
+    "eyebrow": "AllWordTools",
+    "heading": "AI Word Explainer",
+    "subheading": "Get a clear AI explanation of any word — meaning, usage and examples.",
+    "intro": [
+      "AI Word Explainer — Get a clear AI explanation of any word — meaning, usage and examples.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan AI Word Explainer",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "AI Word Explainer",
+        "paragraphs": [
+          "Get a clear AI explanation of any word — meaning, usage and examples.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Get a clear AI explanation of any word — meaning, usage and examples."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "AI Word Explainer",
+      "ai-word-explainer"
+    ]
+  },
+  "ai-sentence-generator": {
+    "name": "AI Sentence Generator",
+    "metaTitle": "AI Sentence Generator | AllWordTools",
+    "metaDescription": "Generate natural example sentences for any word or topic with AI.",
+    "eyebrow": "AllWordTools",
+    "heading": "AI Sentence Generator",
+    "subheading": "Generate natural example sentences for any word or topic with AI.",
+    "intro": [
+      "AI Sentence Generator — Generate natural example sentences for any word or topic with AI.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan AI Sentence Generator",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "AI Sentence Generator",
+        "paragraphs": [
+          "Generate natural example sentences for any word or topic with AI.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate natural example sentences for any word or topic with AI."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "AI Sentence Generator",
+      "ai-sentence-generator"
+    ]
+  },
+  "ai-example-generator": {
+    "name": "AI Example Generator",
+    "metaTitle": "AI Example Generator | AllWordTools",
+    "metaDescription": "Produce clear examples for any concept, word or grammar point.",
+    "eyebrow": "AllWordTools",
+    "heading": "AI Example Generator",
+    "subheading": "Produce clear examples for any concept, word or grammar point.",
+    "intro": [
+      "AI Example Generator — Produce clear examples for any concept, word or grammar point.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan AI Example Generator",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "AI Example Generator",
+        "paragraphs": [
+          "Produce clear examples for any concept, word or grammar point.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Produce clear examples for any concept, word or grammar point."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "AI Example Generator",
+      "ai-example-generator"
+    ]
+  },
+  "ai-story-generator": {
+    "name": "AI Story Generator",
+    "metaTitle": "AI Story Generator | AllWordTools",
+    "metaDescription": "Turn a prompt into an engaging short story written by AI.",
+    "eyebrow": "AllWordTools",
+    "heading": "AI Story Generator",
+    "subheading": "Turn a prompt into an engaging short story written by AI.",
+    "intro": [
+      "AI Story Generator — Turn a prompt into an engaging short story written by AI.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan AI Story Generator",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "AI Story Generator",
+        "paragraphs": [
+          "Turn a prompt into an engaging short story written by AI.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Turn a prompt into an engaging short story written by AI."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "AI Story Generator",
+      "ai-story-generator"
+    ]
+  },
+  "ai-poem-generator": {
+    "name": "AI Poem Generator",
+    "metaTitle": "AI Poem Generator | AllWordTools",
+    "metaDescription": "Create original poems on any theme with the help of AI.",
+    "eyebrow": "AllWordTools",
+    "heading": "AI Poem Generator",
+    "subheading": "Create original poems on any theme with the help of AI.",
+    "intro": [
+      "AI Poem Generator — Create original poems on any theme with the help of AI.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan AI Poem Generator",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "AI Poem Generator",
+        "paragraphs": [
+          "Create original poems on any theme with the help of AI.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Create original poems on any theme with the help of AI."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "AI Poem Generator",
+      "ai-poem-generator"
+    ]
+  },
+  "ai-vocabulary-builder": {
+    "name": "AI Vocabulary Builder",
+    "metaTitle": "AI Vocabulary Builder | AllWordTools",
+    "metaDescription": "Build themed word lists with definitions and examples using AI.",
+    "eyebrow": "AllWordTools",
+    "heading": "AI Vocabulary Builder",
+    "subheading": "Build themed word lists with definitions and examples using AI.",
+    "intro": [
+      "AI Vocabulary Builder — Build themed word lists with definitions and examples using AI.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan AI Vocabulary Builder",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "AI Vocabulary Builder",
+        "paragraphs": [
+          "Build themed word lists with definitions and examples using AI.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Build themed word lists with definitions and examples using AI."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "AI Vocabulary Builder",
+      "ai-vocabulary-builder"
+    ]
+  },
+  "ai-quiz-generator": {
+    "name": "AI Quiz Generator",
+    "metaTitle": "AI Quiz Generator | AllWordTools",
+    "metaDescription": "Generate a custom multiple-choice quiz on any topic instantly.",
+    "eyebrow": "AllWordTools",
+    "heading": "AI Quiz Generator",
+    "subheading": "Generate a custom multiple-choice quiz on any topic instantly.",
+    "intro": [
+      "AI Quiz Generator — Generate a custom multiple-choice quiz on any topic instantly.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan AI Quiz Generator",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "AI Quiz Generator",
+        "paragraphs": [
+          "Generate a custom multiple-choice quiz on any topic instantly.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate a custom multiple-choice quiz on any topic instantly."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "AI Quiz Generator",
+      "ai-quiz-generator"
+    ]
+  },
+  "ai-flashcards": {
+    "name": "AI Flashcards",
+    "metaTitle": "AI Flashcards | AllWordTools",
+    "metaDescription": "Create study flashcards for any subject and revise at your pace.",
+    "eyebrow": "AllWordTools",
+    "heading": "AI Flashcards",
+    "subheading": "Create study flashcards for any subject and revise at your pace.",
+    "intro": [
+      "AI Flashcards — Create study flashcards for any subject and revise at your pace.",
+      "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+    ],
+    "howToTitle": "Cara menggunakan AI Flashcards",
+    "howToSteps": [
+      {
+        "title": "Masukkan input kata atau huruf",
+        "detail": "Ketik huruf atau kata pada kolom input yang tersedia."
+      },
+      {
+        "title": "Klik cari atau buat",
+        "detail": "Dapatkan hasil instan dan akurat dalam sekejap."
+      },
+      {
+        "title": "Salin hasil",
+        "detail": "Lihat hasil pencarian dan salin dengan satu klik."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "AI Flashcards",
+        "paragraphs": [
+          "Create study flashcards for any subject and revise at your pace.",
+          "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Create study flashcards for any subject and revise at your pace."
+      }
+    ],
+    "tips": [
+      "Ketik huruf atau kata pada kolom input yang tersedia.",
+      "Dapatkan hasil instan dan akurat dalam sekejap.",
+      "Lihat hasil pencarian dan salin dengan satu klik."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah alat ini gratis?",
+        "answer": "Ya, alat ini 100% gratis tanpa batasan dan tanpa registrasi."
+      },
+      {
+        "question": "Apakah bisa digunakan di HP?",
+        "answer": "Tentu, sangat responsif dan cepat di HP, tablet, dan komputer."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "AI Flashcards",
+      "ai-flashcards"
     ]
   }
 }

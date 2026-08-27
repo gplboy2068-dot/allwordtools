@@ -59,5 +59,36 @@
     "all": "Alle Sprachen",
     "empty": "Keine Sprachen gefunden",
     "current": "Aktuell"
+  },
+  "categories": {
+    "eyebrow": "Nach Kategorie durchsuchen",
+    "title": "Erkunde jede Kategorie",
+    "description": "Hunderte Werkzeuge, übersichtlich geordnet. Wähle eine Kategorie, um alle Tools zu sehen.",
+    "toolsCount": "{count} Werkzeuge",
+    "viewAll": "Alle {count} {category} anzeigen →"
+  },
+  "popular": {
+    "eyebrow": "Sehr beliebt",
+    "title": "Beliebte Werkzeuge im Überblick",
+    "description": "Die beliebtesten Wortwerkzeuge — inklusive Trends, Neuheiten und KI-Tools.",
+    "trending": "Trend-Werkzeuge",
+    "new": "Neue Werkzeuge",
+    "ai": "KI-Werkzeuge",
+    "browseAll": "Alle Werkzeuge durchsuchen",
+    "visitHub": "Lernzentrum besuchen",
+    "openTool": "Tool öffnen"
+  },
+  "benefits": {
+    "eyebrow": "Warum AllWordTools",
+    "title": "Entwickelt für Wortspielfreunde und Autoren",
+    "description": "Alles, was du brauchst, um Spiele zu gewinnen und besser zu schreiben, an einem Ort."
+  },
+  "common": {
+    "new": "Neu",
+    "trending": "Beliebt",
+    "openTool": "Tool öffnen",
+    "search": "Suchen",
+    "clear": "Löschen",
+    "admin": "Admin Studio"
   }
 }

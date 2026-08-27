@@ -102,7 +102,8 @@
         "question": "¿Usar un descodificador se considera hacer trampa?",
         "answer": "El tema de la 'trampa' es subjetivo y depende de las reglas que establezcas con tus compañeros de juego. Sin embargo, muchos lo usan como herramienta de aprendizaje y para mejorar sus habilidades, no solo para ganar."
       }
-    ]
+    ],
+    "name": "Word Unscrambler"
   },
   "anagram-solver": {
     "metaTitle": "Anagramador de Palabras Online | AllWordTools",
@@ -207,7 +208,8 @@
         "question": "¿Funciona con palabras en español de España y Latinoamérica?",
         "answer": "Sí, nuestro diccionario está optimizado para el español, incluyendo términos y vocabulario relevante tanto para usuarios de España como de América Latina, asegurando resultados precisos y útiles para todos."
       }
-    ]
+    ],
+    "name": "Anagram Solver"
   },
   "wordle-solver": {
     "metaTitle": "Solver Wordle | Ayuda Wordle en Español - AllWordTools.com",
@@ -312,7 +314,8 @@
         "question": "¿El Solver me da la respuesta exacta de Wordle?",
         "answer": "No directamente. El Solver te proporciona una lista de palabras posibles que cumplen con las pistas que le has dado. Si has dado suficientes pistas, la lista se reducirá a pocas o incluso una única palabra, guiándote a la respuesta final. El objetivo es ayudarte a deducir, no solo a copiar."
       }
-    ]
+    ],
+    "name": "Wordle Solver"
   },
   "scrabble-helper": {
     "metaTitle": "Scrabble Ayuda: Mayor Puntuación al Instante | AllWordTools",
@@ -417,7 +420,8 @@
         "question": "¿Funciona en cualquier dispositivo?",
         "answer": "Sí, nuestro ayudador de Scrabble está optimizado para funcionar en cualquier navegador web, ya sea en un ordenador de escritorio, una tablet o un teléfono móvil."
       }
-    ]
+    ],
+    "name": "Scrabble Helper"
   },
   "words-with-friends-helper": {
     "metaTitle": "Trucos Words With Friends: Ayuda y Mejores Jugadas",
@@ -522,7 +526,8 @@
         "question": "¿Funciona en mi celular o tablet?",
         "answer": "Sí, nuestra herramienta está optimizada para funcionar en cualquier dispositivo: computadoras de escritorio, laptops, tablets y teléfonos móviles. Solo necesitas un navegador web."
       }
-    ]
+    ],
+    "name": "Words With Friends"
   },
   "crossword-solver": {
     "metaTitle": "Resolver Crucigramas Online — Buscador | AllWordTools",
@@ -627,7 +632,8 @@
         "question": "¿Por qué no hay resultados para mi patrón?",
         "answer": "Asegúrate de haber ingresado correctamente las letras conocidas y los símbolos para los espacios en blanco. Verifica que el número de caracteres en tu patrón coincida con la longitud de la palabra buscada. Es posible que tu patrón no forme una palabra existente en nuestro diccionario."
       }
-    ]
+    ],
+    "name": "Crossword Solver"
   },
   "word-finder": {
     "metaTitle": "Buscador de Palabras por Letras y Filtros | AllWordTools",
@@ -732,7 +738,8 @@
         "question": "¿Son válidos los resultados para juegos de palabras como Scrabble o Apalabrados?",
         "answer": "Sí, los resultados se basan en un diccionario de español estándar, válido para la mayoría de los juegos de palabras populares tanto en España como en Latinoamérica. Siempre aconsejamos verificar las reglas específicas si tu juego usa un diccionario muy particular."
       }
-    ]
+    ],
+    "name": "Word Finder"
   },
   "rhyming-words": {
     "metaTitle": "Buscador de Rimas para Canciones y Poemas | AllWordTools",
@@ -837,7 +844,8 @@
         "question": "¿Funciona para rimas en español de España y Latinoamérica?",
         "answer": "Sí, la herramienta está diseñada para reconocer y ofrecer rimas válidas en español, cubriendo la riqueza fonética y léxica tanto de España como de los países de América Latina."
       }
-    ]
+    ],
+    "name": "Rhyming Words"
   },
   "synonym-finder": {
     "metaTitle": "Buscador de Sinónimos - Encuentra Palabras Similares Rápido",
@@ -942,7 +950,8 @@
         "question": "¿La herramienta tiene en cuenta las variaciones regionales del español (ej. de España vs. América Latina)?",
         "answer": "Nuestro sistema se esfuerza por ofrecer un conjunto amplio de sinónimos que son relevantes en el estándar del español. Si bien algunas palabras tienen connotaciones regionales, intentamos incluir las más reconocidas globalmente, pero te recomendamos siempre considerar tu audiencia específica al elegir."
       }
-    ]
+    ],
+    "name": "Synonym Finder"
   },
   "antonym-finder": {
     "metaTitle": "Busca sinónimos y antónimos en español: ¡gratis y rápido!",
@@ -1047,7 +1056,8 @@
         "question": "¿Puedo usar este buscador para mis tareas escolares o trabajos universitarios?",
         "answer": "¡Absolutamente! Es una excelente herramienta de apoyo para estudiantes de todos los niveles que buscan mejorar su vocabulario, enriquecer sus escritos y comprender mejor las relaciones de significado en el idioma español."
       }
-    ]
+    ],
+    "name": "Antonym Finder"
   },
   "words-starting-with": {
     "metaTitle": "Palabras que empiezan con | Buscador para Scrabble y más",
@@ -1152,7 +1162,8 @@
         "question": "¿Por qué aparecen menos palabras de las que espero?",
         "answer": "Asegúrate de haber ingresado correctamente las letras iniciales. Si seleccionaste una 'longitud' específica, prueba a cambiarla a 'Cualquiera' para ver todas las opciones disponibles sin restricciones de tamaño."
       }
-    ]
+    ],
+    "name": "Words Starting With"
   },
   "words-ending-with": {
     "metaTitle": "Palabras que Terminan con: Buscador por Sufijo Español",
@@ -1257,7 +1268,8 @@
         "question": "¿Funciona para cualquier número de letras finales?",
         "answer": "Sí, puedes introducir desde una sola letra hasta secuencias más largas, como \"ción\", \"ismo\", \"mente\" o \"aría\", y obtendrás resultados relevantes."
       }
-    ]
+    ],
+    "name": "Words Ending With"
   },
   "words-containing": {
     "metaTitle": "Buscador de Palabras que Contengan Letras | AllWordTools",
@@ -1362,7 +1374,8 @@
         "question": "¿Admite letras con tildes, diéresis o exclusivas del español como la Ñ?",
         "answer": "Sí, la herramienta está optimizada para el español. Puedes buscar secuencias que incluyan 'á', 'é', 'í', 'ó', 'ú', 'ü' y la 'ñ' sin problema. Sin embargo, para resultados más amplios, a veces es útil probar también sin el acento o diéresis inicialmente."
       }
-    ]
+    ],
+    "name": "Words Containing"
   },
   "letter-counter": {
     "metaTitle": "Contador de Letras y Palabras Online Gratis - AllWordTools",
@@ -1467,7 +1480,8 @@
         "question": "¿Es compatible con idiomas con caracteres especiales como el español (ñ, tildes)?",
         "answer": "Sí, nuestro contador está totalmente preparado para el español y otros idiomas. Cuenta correctamente la 'ñ' y las vocales con tilde (á, é, í, ó, ú) como letras individuales, y otros signos como parte de los caracteres, ofreciendo un análisis preciso para textos en español."
       }
-    ]
+    ],
+    "name": "Letter Counter"
   },
   "syllable-counter": {
     "metaTitle": "Contador de Sílabas - Online y Gratis | AllWordTools.com",
@@ -1572,7 +1586,8 @@
         "question": "¿Considera el contador las reglas de la sinalefa o diptongos/triptongos en español?",
         "answer": "La herramienta está diseñada para identificar diptongos y triptongos según las reglas generales del español, contándolos como una sola sílaba fonética. Sin embargo, la sinalefa (unión de la vocal final de una palabra con la inicial de la siguiente en métrica) es una figura poética que un algoritmo no puede aplicar automáticamente sin contexto. El conteo es silábico fonético convencional."
       }
-    ]
+    ],
+    "name": "Syllable Counter"
   },
   "random-word-generator": {
     "metaTitle": "Generador de Palabras Aleatorias - Crea, Inspírate y Juega",
@@ -1677,7 +1692,8 @@
         "question": "¿Es posible usar este generador en el móvil?",
         "answer": "Absolutamente. La herramienta es compatible con todos los dispositivos y funciona perfectamente en tu navegador, sin necesidad de descargas."
       }
-    ]
+    ],
+    "name": "Random Word Generator"
   },
   "boggle-solver": {
     "metaTitle": "Buscador de palabras Boggle | Resuelve cualquier tablero 🔎",
@@ -1782,7 +1798,8 @@
         "question": "¿Funciona esto también para otras versiones de Boggle?",
         "answer": "Sí, si las reglas de adyacencia de las letras y la prohibición de uso doble de una casilla son las mismas, nuestro solucionador funcionará perfectamente para esas versiones, incluyendo juegos como 'Alfabeto Salvaje' o 'Apilabras'."
       }
-    ]
+    ],
+    "name": "Boggle Solver"
   },
   "hangman-solver": {
     "metaTitle": "Ahorcado Solver: Gana Siempre | Adivina la Palabra Fácil",
@@ -1887,7 +1904,8 @@
         "question": "¿Funciona para el Ahorcado en diferentes variantes de español?",
         "answer": "Sí, nuestro diccionario abarca una gran cantidad de vocabulario común en español, incluyendo términos que son ampliamente reconocidos tanto en España como en América Latina, lo que lo hace muy útil para un público amplio de habla hispana."
       }
-    ]
+    ],
+    "name": "Hangman Solver"
   },
   "text-twist-solver": {
     "metaTitle": "Text Twist Solver: Soluciones y Palabras Bonus",
@@ -1992,7 +2010,8 @@
         "question": "¿Mi idioma es el español, el solucionador funciona en español?",
         "answer": "¡Por supuesto! Nuestro solucionador está diseñado para el castellano, incluyendo sus particularidades y vocabulario. Obtendrás palabras válidas en español, no traducciones del inglés."
       }
-    ]
+    ],
+    "name": "Text Twist Solver"
   },
   "vowel-counter": {
     "metaTitle": "Contador de Vocales - Calcula vocales en español al instante",
@@ -2097,7 +2116,8 @@
         "question": "¿Es completamente gratis este Contador de Vocales?",
         "answer": "¡Absolutamente! Nuestro Contador de Vocales es una herramienta 100% gratuita, online y no requiere registros ni descargas. Úsala tantas veces como necesites."
       }
-    ]
+    ],
+    "name": "Vowel Counter"
   },
   "consonant-counter": {
     "metaTitle": "Contador de Consonantes online GRATIS para español",
@@ -2202,7 +2222,8 @@
         "question": "¿Sirve esta herramienta para cualquier idioma?",
         "answer": "Aunque está optimizada para el español, el contador funcionará para cualquier texto que uses alfabetos latinos, contando las letras según las reglas generales. Sin embargo, algunas particularidades fonéticas o de las letras en otros idiomas podrían requerir una interpretación específica de los resultados."
       }
-    ]
+    ],
+    "name": "Consonant Counter"
   },
   "word-meaning": {
     "metaTitle": "Significado de Palabras: Definiciones | AllWordTools",
@@ -2307,7 +2328,8 @@
         "question": "¿Las definiciones son para idioma español o inglés?",
         "answer": "Esta herramienta está diseñada para darte el significado en español de palabras en inglés. Es ideal para estudiantes y personas que necesitan entender vocabulario inglés."
       }
-    ]
+    ],
+    "name": "Word Meaning"
   },
   "spell-checker": {
     "metaTitle": "Corrector Ortográfico Instantáneo - AllWordTools",
@@ -2412,7 +2434,8 @@
         "question": "¿Qué tipos de errores ortográficos detecta principalmente?",
         "answer": "Detecta una amplia gama de errores, incluyendo faltas de acentuación (tildes), letras omitidas o duplicadas, confusiones entre letras (como 'b'/'v' o 's'/'c'/'z'), y palabras que, aunque existen, están mal usadas en el contexto de tu texto (si el diccionario lo permite)."
       }
-    ]
+    ],
+    "name": "Spell Checker"
   },
   "grammar-checker": {
     "metaTitle": "Corrector Gramatical IA Gratuito para Español - AllWordTools",
@@ -2517,7 +2540,8 @@
         "question": "¿Funciona para diferentes variantes del español (España, LatAm)?",
         "answer": "Sí, nuestra IA es capaz de comprender y procesar texto en diversas variantes del español, ofreciendo correcciones pertinentes al contexto hispanohablante general."
       }
-    ]
+    ],
+    "name": "Grammar Checker (AI)"
   },
   "punctuation-checker": {
     "metaTitle": "Corrector de Puntuación Online GRATIS - AllWordTools.com",
@@ -2622,7 +2646,8 @@
         "question": "¿Ofrece explicaciones sobre las correcciones realizadas?",
         "answer": "Sí, además de presentarte el texto corregido, la herramienta te mostrará un resumen de los cambios efectuados y, en muchos casos, una breve explicación para que entiendas la regla detrás de cada ajuste, ayudándote a mejorar tu gramática a largo plazo."
       }
-    ]
+    ],
+    "name": "Punctuation Checker"
   },
   "wordscapes-solver": {
     "metaTitle": "Solucionador Wordscapes | Respuestas y Trucos",
@@ -2727,7 +2752,8 @@
         "question": "¿Necesito descargar algo o instalar alguna app?",
         "answer": "¡Para nada! Nuestro Solucionador de Wordscapes funciona directamente en tu navegador web. No necesitas descargar ninguna aplicación ni instalar software adicional. Solo abre la página, introduce tus letras y listo."
       }
-    ]
+    ],
+    "name": "Wordscapes Solver"
   },
   "word-cookies-solver": {
     "metaTitle": "Solver Word Cookies: Soluciones español | ALLWORDTOOLS",
@@ -2832,7 +2858,8 @@
         "question": "¿Funciona con todas las versiones de Word Cookies y en cualquier dispositivo?",
         "answer": "Sí, nuestro solver es una herramienta web compatible con cualquier navegador y dispositivo (móvil, tablet, ordenador). Funciona con las letras del juego Word Cookies en español, independientemente de la versión de la app que tengas, ya sean de España o de cualquier parte de Latinoamérica."
       }
-    ]
+    ],
+    "name": "Word Cookies Solver"
   },
   "codycross-solver": {
     "metaTitle": "CodyCross Respuestas y Solucionador - AllWordTools.com",
@@ -2937,7 +2964,8 @@
         "question": "¿Sirve para otros juegos de palabras en español?",
         "answer": "¡Claro! Aunque está optimizado para CodyCross, funciona perfectamente como ayuda para cualquier crucigrama, sopa de letras o juego de palabras en español donde necesites encontrar palabras por patrón."
       }
-    ]
+    ],
+    "name": "CodyCross Solver"
   },
   "seven-little-words-solver": {
     "metaTitle": "7 Little Words Solver en Español: ¡Respuestas Rápidas!",
@@ -3042,7 +3070,8 @@
         "question": "¿Funciona para otros juegos de palabras similares a 7 Little Words?",
         "answer": "Aunque está optimizado para la mecánica específica de 7 Little Words, nuestra herramienta puede ser útil para cualquier juego donde necesites encontrar palabras por un patrón de longitud y letras conocidas. ¡Pruébalo!"
       }
-    ]
+    ],
+    "name": "7 Little Words Solver"
   },
   "wheel-of-fortune-solver": {
     "metaTitle": "Resolver La Ruleta de la Suerte | AllWordTools",
@@ -3147,7 +3176,8 @@
         "question": "¿Funciona con el vocabulario utilizado en España y Latinoamérica?",
         "answer": "Sí, nuestra base de datos incluye léxico general del español, cubriendo vocabulario que es común tanto en España como en la mayoría de países de Latinoamérica."
       }
-    ]
+    ],
+    "name": "Wheel of Fortune Solver"
   },
   "letter-pattern-finder": {
     "metaTitle": "Buscador de Patrones de Palabras | AllWordTools",
@@ -3252,7 +3282,8 @@
         "question": "¿Funciona con palabras en español, incluyendo la 'ñ' y acentos?",
         "answer": "Sí, nuestra herramienta está diseñada para el diccionario español y maneja correctamente caracteres como la 'ñ', vocales acentuadas (á, é, í, ó, ú) y la diéresis (ü). Puedes usar estos caracteres directamente en tus patrones."
       }
-    ]
+    ],
+    "name": "Letter Pattern Finder"
   },
   "wildcard-solver": {
     "metaTitle": "Buscador de Palabras con Comodines (? y *) | Gratis",
@@ -3357,7 +3388,8 @@
         "question": "Funciona igual en móviles que en ordenador?",
         "answer": "Sí, nuestro buscador está optimizado para funcionar perfectamente en cualquier dispositivo, ya sea móvil, tablet u ordenador, directamente desde tu navegador."
       }
-    ]
+    ],
+    "name": "Wildcard Solver"
   },
   "pattern-solver": {
     "metaTitle": "Solucionador de Patrones de Palabras | Ayuda Crucigramas",
@@ -3462,7 +3494,8 @@
         "question": "¿Funciona en cualquier tipo de dispositivo?",
         "answer": "Sí, está diseñado para funcionar perfectamente en cualquier dispositivo, ya sea tu computadora, laptop, tablet o teléfono móvil. Solo necesitas un navegador web y conexión a internet."
       }
-    ]
+    ],
+    "name": "Pattern Solver"
   },
   "missing-letters-finder": {
     "metaTitle": "Completar Palabras (Faltan Letras) | Herramienta Gratuita",
@@ -3567,7 +3600,8 @@
         "question": "¿La herramienta para completar palabras es totalmente gratuita?",
         "answer": "Sí, nuestra herramienta es completamente gratuita, sin necesidad de registro ni de descargar nada. Puedes usarla directamente desde tu navegador en cualquier momento que la necesites."
       }
-    ]
+    ],
+    "name": "Missing Letters Finder"
   },
   "letter-rearranger": {
     "metaTitle": "Desordenador de Letras | Busca Palabras con tus Letras",
@@ -3672,7 +3706,8 @@
         "question": "¿Funciona con palabras en español de España y Latinoamérica?",
         "answer": "Absolutamente. Nuestra base de datos incluye un amplio vocabulario del español estándar, válido tanto en España como en las diversas variantes dialectales de América Latina, asegurando que encuentres las palabras correctas para tu región."
       }
-    ]
+    ],
+    "name": "Letter Rearranger"
   },
   "reverse-dictionary": {
     "metaTitle": "Diccionario Inverso: Encuentra la palabra por su significado",
@@ -3777,7 +3812,8 @@
         "question": "¿Puedo usarlo en mi teléfono o tablet?",
         "answer": "Sí, el Diccionario Inverso está diseñado para ser compatible con cualquier dispositivo. Puedes acceder a él desde tu computadora, tablet o teléfono móvil directamente en tu navegador, sin necesidad de descargar ninguna aplicación."
       }
-    ]
+    ],
+    "name": "Reverse Dictionary"
   },
   "alphabetical-sorter": {
     "metaTitle": "Ordenar Alfabéticamente GRATIS - Organiza tus listas",
@@ -3882,7 +3918,8 @@
         "question": "¿Funciona en cualquier tipo de dispositivo?",
         "answer": "Sí. Nuestro Ordenador Alfabético está diseñado para ser compatible con cualquier dispositivo y navegador. Puedes usarlo en tu computadora, tablet o teléfono sin problemas."
       }
-    ]
+    ],
+    "name": "Alphabetical Sorter"
   },
   "random-letter-generator": {
     "metaTitle": "Generador de Letras Aleatorias: ¡Para Juegos y Prácticas!",
@@ -3987,7 +4024,8 @@
         "question": "¿Para qué juegos puedo usar este generador en Latinoamérica o España?",
         "answer": "Es ideal para juegos como el 'Basta' (también conocido como 'Tutti Frutti' o 'Stop'), 'Apalabrados', 'Scrabble', 'El Ahorcado', o cualquier actividad educativa donde necesites letras al azar para practicar vocabulario, fonética o simplemente como inspiración creativa."
       }
-    ]
+    ],
+    "name": "Random Letter Generator"
   },
   "vocabulary-quiz": {
     "metaTitle": "Test de Vocabulario: Aprende palabras nuevas fácil",
@@ -4092,7 +4130,8 @@
         "question": "¿Puedo sugerir palabras para el test?",
         "answer": "¡Nos encantaría! Siempre estamos buscando mejorar. Aunque aún no contamos con una función directa para sugerencias, puedes contactarnos a través de nuestra sección de 'Contacto' y compartir tus ideas. ¡Gracias por tu colaboración!"
       }
-    ]
+    ],
+    "name": "Vocabulary Quiz"
   },
   "spelling-quiz": {
     "metaTitle": "Test de Ortografía en Inglés: Mejora con Palabras Comunes",
@@ -4197,7 +4236,8 @@
         "question": "¿Necesito instalar algo para usar el test?",
         "answer": "No, nuestro test de ortografía en inglés es una herramienta web. Puedes acceder a él directamente desde tu navegador, ya sea en un computador, tablet o teléfono móvil, sin necesidad de descargas ni instalaciones."
       }
-    ]
+    ],
+    "name": "Spelling Quiz"
   },
   "codycross-answers": {
     "metaTitle": "Respuestas de CodyCross — Soluciones y Claves | Gratis",
@@ -4303,6 +4343,3220 @@
         "question": "¿Cómo puedo reportar un error o una pista faltante?",
         "answer": "Puedes escribirnos a través de nuestra [página de contacto](contact) si encuentras algún error o quieres sugerir una actualización en la base de datos."
       }
+    ],
+    "name": "CodyCross Answers"
+  },
+  "similar-words": {
+    "name": "Similar Words",
+    "metaTitle": "Similar Words | AllWordTools",
+    "metaDescription": "Find words with a similar meaning to any word you enter.",
+    "eyebrow": "AllWordTools",
+    "heading": "Similar Words",
+    "subheading": "Find words with a similar meaning to any word you enter.",
+    "intro": [
+      "Similar Words — Find words with a similar meaning to any word you enter.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Similar Words",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Similar Words",
+        "paragraphs": [
+          "Find words with a similar meaning to any word you enter.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Find words with a similar meaning to any word you enter."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Similar Words",
+      "similar-words"
+    ]
+  },
+  "opposite-words": {
+    "name": "Opposite Words",
+    "metaTitle": "Opposite Words | AllWordTools",
+    "metaDescription": "Discover the opposite (antonym) of any word in one click.",
+    "eyebrow": "AllWordTools",
+    "heading": "Opposite Words",
+    "subheading": "Discover the opposite (antonym) of any word in one click.",
+    "intro": [
+      "Opposite Words — Discover the opposite (antonym) of any word in one click.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Opposite Words",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Opposite Words",
+        "paragraphs": [
+          "Discover the opposite (antonym) of any word in one click.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Discover the opposite (antonym) of any word in one click."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Opposite Words",
+      "opposite-words"
+    ]
+  },
+  "collocation-finder": {
+    "name": "Collocation Finder",
+    "metaTitle": "Collocation Finder | AllWordTools",
+    "metaDescription": "See which words naturally pair before and after your word.",
+    "eyebrow": "AllWordTools",
+    "heading": "Collocation Finder",
+    "subheading": "See which words naturally pair before and after your word.",
+    "intro": [
+      "Collocation Finder — See which words naturally pair before and after your word.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Collocation Finder",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Collocation Finder",
+        "paragraphs": [
+          "See which words naturally pair before and after your word.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "See which words naturally pair before and after your word."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Collocation Finder",
+      "collocation-finder"
+    ]
+  },
+  "alliteration-generator": {
+    "name": "Alliteration Generator",
+    "metaTitle": "Alliteration Generator | AllWordTools",
+    "metaDescription": "Create alliterative phrases where every word starts with the same sound.",
+    "eyebrow": "AllWordTools",
+    "heading": "Alliteration Generator",
+    "subheading": "Create alliterative phrases where every word starts with the same sound.",
+    "intro": [
+      "Alliteration Generator — Create alliterative phrases where every word starts with the same sound.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Alliteration Generator",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Alliteration Generator",
+        "paragraphs": [
+          "Create alliterative phrases where every word starts with the same sound.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Create alliterative phrases where every word starts with the same sound."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Alliteration Generator",
+      "alliteration-generator"
+    ]
+  },
+  "assonance-finder": {
+    "name": "Assonance Finder",
+    "metaTitle": "Assonance Finder | AllWordTools",
+    "metaDescription": "Find words that share the same vowel sounds for poems and lyrics.",
+    "eyebrow": "AllWordTools",
+    "heading": "Assonance Finder",
+    "subheading": "Find words that share the same vowel sounds for poems and lyrics.",
+    "intro": [
+      "Assonance Finder — Find words that share the same vowel sounds for poems and lyrics.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Assonance Finder",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Assonance Finder",
+        "paragraphs": [
+          "Find words that share the same vowel sounds for poems and lyrics.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Find words that share the same vowel sounds for poems and lyrics."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Assonance Finder",
+      "assonance-finder"
+    ]
+  },
+  "word-ladder-solver": {
+    "name": "Word Ladder Solver",
+    "metaTitle": "Word Ladder Solver | AllWordTools",
+    "metaDescription": "Find the shortest chain of words, changing one letter at a time.",
+    "eyebrow": "AllWordTools",
+    "heading": "Word Ladder Solver",
+    "subheading": "Find the shortest chain of words, changing one letter at a time.",
+    "intro": [
+      "Word Ladder Solver — Find the shortest chain of words, changing one letter at a time.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Word Ladder Solver",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Word Ladder Solver",
+        "paragraphs": [
+          "Find the shortest chain of words, changing one letter at a time.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Find the shortest chain of words, changing one letter at a time."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Word Ladder Solver",
+      "word-ladder-solver"
+    ]
+  },
+  "letter-frequency-analyzer": {
+    "name": "Letter Frequency Analyzer",
+    "metaTitle": "Letter Frequency Analyzer | AllWordTools",
+    "metaDescription": "See how often each letter appears, with counts and percentages.",
+    "eyebrow": "AllWordTools",
+    "heading": "Letter Frequency Analyzer",
+    "subheading": "See how often each letter appears, with counts and percentages.",
+    "intro": [
+      "Letter Frequency Analyzer — See how often each letter appears, with counts and percentages.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Letter Frequency Analyzer",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Letter Frequency Analyzer",
+        "paragraphs": [
+          "See how often each letter appears, with counts and percentages.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "See how often each letter appears, with counts and percentages."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Letter Frequency Analyzer",
+      "letter-frequency-analyzer"
+    ]
+  },
+  "repeated-letter-finder": {
+    "name": "Repeated Letter Finder",
+    "metaTitle": "Repeated Letter Finder | AllWordTools",
+    "metaDescription": "Reveal which letters repeat inside a word or phrase.",
+    "eyebrow": "AllWordTools",
+    "heading": "Repeated Letter Finder",
+    "subheading": "Reveal which letters repeat inside a word or phrase.",
+    "intro": [
+      "Repeated Letter Finder — Reveal which letters repeat inside a word or phrase.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Repeated Letter Finder",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Repeated Letter Finder",
+        "paragraphs": [
+          "Reveal which letters repeat inside a word or phrase.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Reveal which letters repeat inside a word or phrase."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Repeated Letter Finder",
+      "repeated-letter-finder"
+    ]
+  },
+  "dictionary": {
+    "name": "Dictionary",
+    "metaTitle": "Dictionary | AllWordTools",
+    "metaDescription": "Full definitions, examples, synonyms and pronunciation for any word.",
+    "eyebrow": "AllWordTools",
+    "heading": "Dictionary",
+    "subheading": "Full definitions, examples, synonyms and pronunciation for any word.",
+    "intro": [
+      "Dictionary — Full definitions, examples, synonyms and pronunciation for any word.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Dictionary",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Dictionary",
+        "paragraphs": [
+          "Full definitions, examples, synonyms and pronunciation for any word.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Full definitions, examples, synonyms and pronunciation for any word."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Dictionary",
+      "dictionary"
+    ]
+  },
+  "pronunciation": {
+    "name": "Pronunciation",
+    "metaTitle": "Pronunciation | AllWordTools",
+    "metaDescription": "Hear how a word is said and see its phonetic spelling.",
+    "eyebrow": "AllWordTools",
+    "heading": "Pronunciation",
+    "subheading": "Hear how a word is said and see its phonetic spelling.",
+    "intro": [
+      "Pronunciation — Hear how a word is said and see its phonetic spelling.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Pronunciation",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Pronunciation",
+        "paragraphs": [
+          "Hear how a word is said and see its phonetic spelling.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Hear how a word is said and see its phonetic spelling."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Pronunciation",
+      "pronunciation"
+    ]
+  },
+  "ipa-converter": {
+    "name": "IPA Converter",
+    "metaTitle": "IPA Converter | AllWordTools",
+    "metaDescription": "Convert any English word into its IPA phonetic transcription.",
+    "eyebrow": "AllWordTools",
+    "heading": "IPA Converter",
+    "subheading": "Convert any English word into its IPA phonetic transcription.",
+    "intro": [
+      "IPA Converter — Convert any English word into its IPA phonetic transcription.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar IPA Converter",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "IPA Converter",
+        "paragraphs": [
+          "Convert any English word into its IPA phonetic transcription.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Convert any English word into its IPA phonetic transcription."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "IPA Converter",
+      "ipa-converter"
+    ]
+  },
+  "word-origin": {
+    "name": "Word Origin (Etymology)",
+    "metaTitle": "Word Origin (Etymology) | AllWordTools",
+    "metaDescription": "Trace where a word came from and how its meaning evolved.",
+    "eyebrow": "AllWordTools",
+    "heading": "Word Origin (Etymology)",
+    "subheading": "Trace where a word came from and how its meaning evolved.",
+    "intro": [
+      "Word Origin (Etymology) — Trace where a word came from and how its meaning evolved.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Word Origin (Etymology)",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Word Origin (Etymology)",
+        "paragraphs": [
+          "Trace where a word came from and how its meaning evolved.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Trace where a word came from and how its meaning evolved."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Word Origin (Etymology)",
+      "word-origin"
+    ]
+  },
+  "example-sentences": {
+    "name": "Example Sentences",
+    "metaTitle": "Example Sentences | AllWordTools",
+    "metaDescription": "See real example sentences that show how a word is used.",
+    "eyebrow": "AllWordTools",
+    "heading": "Example Sentences",
+    "subheading": "See real example sentences that show how a word is used.",
+    "intro": [
+      "Example Sentences — See real example sentences that show how a word is used.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Example Sentences",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Example Sentences",
+        "paragraphs": [
+          "See real example sentences that show how a word is used.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "See real example sentences that show how a word is used."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Example Sentences",
+      "example-sentences"
+    ]
+  },
+  "phrases-dictionary": {
+    "name": "Phrases Dictionary",
+    "metaTitle": "Phrases Dictionary | AllWordTools",
+    "metaDescription": "Find common phrases and expressions built around any word.",
+    "eyebrow": "AllWordTools",
+    "heading": "Phrases Dictionary",
+    "subheading": "Find common phrases and expressions built around any word.",
+    "intro": [
+      "Phrases Dictionary — Find common phrases and expressions built around any word.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Phrases Dictionary",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Phrases Dictionary",
+        "paragraphs": [
+          "Find common phrases and expressions built around any word.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Find common phrases and expressions built around any word."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Phrases Dictionary",
+      "phrases-dictionary"
+    ]
+  },
+  "passive-voice-checker": {
+    "name": "Passive Voice Checker",
+    "metaTitle": "Passive Voice Checker | AllWordTools",
+    "metaDescription": "Spot every passive sentence and see a stronger active rewrite.",
+    "eyebrow": "AllWordTools",
+    "heading": "Passive Voice Checker",
+    "subheading": "Spot every passive sentence and see a stronger active rewrite.",
+    "intro": [
+      "Passive Voice Checker — Spot every passive sentence and see a stronger active rewrite.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Passive Voice Checker",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Passive Voice Checker",
+        "paragraphs": [
+          "Spot every passive sentence and see a stronger active rewrite.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Spot every passive sentence and see a stronger active rewrite."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Passive Voice Checker",
+      "passive-voice-checker"
+    ]
+  },
+  "active-voice-converter": {
+    "name": "Active Voice Converter",
+    "metaTitle": "Active Voice Converter | AllWordTools",
+    "metaDescription": "Rewrite passive sentences into clear, direct active voice.",
+    "eyebrow": "AllWordTools",
+    "heading": "Active Voice Converter",
+    "subheading": "Rewrite passive sentences into clear, direct active voice.",
+    "intro": [
+      "Active Voice Converter — Rewrite passive sentences into clear, direct active voice.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Active Voice Converter",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Active Voice Converter",
+        "paragraphs": [
+          "Rewrite passive sentences into clear, direct active voice.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Rewrite passive sentences into clear, direct active voice."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Active Voice Converter",
+      "active-voice-converter"
+    ]
+  },
+  "strands-solver": {
+    "name": "Strands Solver",
+    "metaTitle": "Strands Solver | AllWordTools",
+    "metaDescription": "Find every word hidden in the NYT Strands letter grid.",
+    "eyebrow": "AllWordTools",
+    "heading": "Strands Solver",
+    "subheading": "Find every word hidden in the NYT Strands letter grid.",
+    "intro": [
+      "Strands Solver — Find every word hidden in the NYT Strands letter grid.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Strands Solver",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Strands Solver",
+        "paragraphs": [
+          "Find every word hidden in the NYT Strands letter grid.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Find every word hidden in the NYT Strands letter grid."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Strands Solver",
+      "strands-solver"
+    ]
+  },
+  "random-sentence-generator": {
+    "name": "Random Sentence Generator",
+    "metaTitle": "Random Sentence Generator | AllWordTools",
+    "metaDescription": "Create random sentences to spark writing prompts and warm-ups.",
+    "eyebrow": "AllWordTools",
+    "heading": "Random Sentence Generator",
+    "subheading": "Create random sentences to spark writing prompts and warm-ups.",
+    "intro": [
+      "Random Sentence Generator — Create random sentences to spark writing prompts and warm-ups.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Random Sentence Generator",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Random Sentence Generator",
+        "paragraphs": [
+          "Create random sentences to spark writing prompts and warm-ups.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Create random sentences to spark writing prompts and warm-ups."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Random Sentence Generator",
+      "random-sentence-generator"
+    ]
+  },
+  "random-paragraph-generator": {
+    "name": "Random Paragraph Generator",
+    "metaTitle": "Random Paragraph Generator | AllWordTools",
+    "metaDescription": "Generate random paragraphs for placeholder text and practice.",
+    "eyebrow": "AllWordTools",
+    "heading": "Random Paragraph Generator",
+    "subheading": "Generate random paragraphs for placeholder text and practice.",
+    "intro": [
+      "Random Paragraph Generator — Generate random paragraphs for placeholder text and practice.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Random Paragraph Generator",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Random Paragraph Generator",
+        "paragraphs": [
+          "Generate random paragraphs for placeholder text and practice.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate random paragraphs for placeholder text and practice."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Random Paragraph Generator",
+      "random-paragraph-generator"
+    ]
+  },
+  "random-topic-generator": {
+    "name": "Random Topic Generator",
+    "metaTitle": "Random Topic Generator | AllWordTools",
+    "metaDescription": "Get random topics and prompts for essays, debates and stories.",
+    "eyebrow": "AllWordTools",
+    "heading": "Random Topic Generator",
+    "subheading": "Get random topics and prompts for essays, debates and stories.",
+    "intro": [
+      "Random Topic Generator — Get random topics and prompts for essays, debates and stories.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Random Topic Generator",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Random Topic Generator",
+        "paragraphs": [
+          "Get random topics and prompts for essays, debates and stories.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Get random topics and prompts for essays, debates and stories."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Random Topic Generator",
+      "random-topic-generator"
+    ]
+  },
+  "random-verb-generator": {
+    "name": "Random Verb Generator",
+    "metaTitle": "Random Verb Generator | AllWordTools",
+    "metaDescription": "Generate random verbs in any tense for writing and grammar practice.",
+    "eyebrow": "AllWordTools",
+    "heading": "Random Verb Generator",
+    "subheading": "Generate random verbs in any tense for writing and grammar practice.",
+    "intro": [
+      "Random Verb Generator — Generate random verbs in any tense for writing and grammar practice.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Random Verb Generator",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Random Verb Generator",
+        "paragraphs": [
+          "Generate random verbs in any tense for writing and grammar practice.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate random verbs in any tense for writing and grammar practice."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Random Verb Generator",
+      "random-verb-generator"
+    ]
+  },
+  "tongue-twister-generator": {
+    "name": "Tongue Twister Generator",
+    "metaTitle": "Tongue Twister Generator | AllWordTools",
+    "metaDescription": "Generate original tongue twisters for speech practice and fun.",
+    "eyebrow": "AllWordTools",
+    "heading": "Tongue Twister Generator",
+    "subheading": "Generate original tongue twisters for speech practice and fun.",
+    "intro": [
+      "Tongue Twister Generator — Generate original tongue twisters for speech practice and fun.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Tongue Twister Generator",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Tongue Twister Generator",
+        "paragraphs": [
+          "Generate original tongue twisters for speech practice and fun.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate original tongue twisters for speech practice and fun."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Tongue Twister Generator",
+      "tongue-twister-generator"
+    ]
+  },
+  "cvc-word-generator": {
+    "name": "CVC Word Generator",
+    "metaTitle": "CVC Word Generator | AllWordTools",
+    "metaDescription": "Generate consonant-vowel-consonant words for early phonics practice.",
+    "eyebrow": "AllWordTools",
+    "heading": "CVC Word Generator",
+    "subheading": "Generate consonant-vowel-consonant words for early phonics practice.",
+    "intro": [
+      "CVC Word Generator — Generate consonant-vowel-consonant words for early phonics practice.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar CVC Word Generator",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "CVC Word Generator",
+        "paragraphs": [
+          "Generate consonant-vowel-consonant words for early phonics practice.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate consonant-vowel-consonant words for early phonics practice."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "CVC Word Generator",
+      "cvc-word-generator"
+    ]
+  },
+  "sight-word-generator": {
+    "name": "Sight Word Generator",
+    "metaTitle": "Sight Word Generator | AllWordTools",
+    "metaDescription": "Generate high-frequency Dolch sight words by grade level.",
+    "eyebrow": "AllWordTools",
+    "heading": "Sight Word Generator",
+    "subheading": "Generate high-frequency Dolch sight words by grade level.",
+    "intro": [
+      "Sight Word Generator — Generate high-frequency Dolch sight words by grade level.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Sight Word Generator",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Sight Word Generator",
+        "paragraphs": [
+          "Generate high-frequency Dolch sight words by grade level.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate high-frequency Dolch sight words by grade level."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Sight Word Generator",
+      "sight-word-generator"
+    ]
+  },
+  "riddle-generator": {
+    "name": "Riddle Generator",
+    "metaTitle": "Riddle Generator | AllWordTools",
+    "metaDescription": "Generate fun brain-teasing riddles with hidden answers.",
+    "eyebrow": "AllWordTools",
+    "heading": "Riddle Generator",
+    "subheading": "Generate fun brain-teasing riddles with hidden answers.",
+    "intro": [
+      "Riddle Generator — Generate fun brain-teasing riddles with hidden answers.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Riddle Generator",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Riddle Generator",
+        "paragraphs": [
+          "Generate fun brain-teasing riddles with hidden answers.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate fun brain-teasing riddles with hidden answers."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Riddle Generator",
+      "riddle-generator"
+    ]
+  },
+  "dog-name-generator": {
+    "name": "Dog Names",
+    "metaTitle": "Dog Names | AllWordTools",
+    "metaDescription": "Generate cute, classic and quirky names for your new dog.",
+    "eyebrow": "AllWordTools",
+    "heading": "Dog Names",
+    "subheading": "Generate cute, classic and quirky names for your new dog.",
+    "intro": [
+      "Dog Names — Generate cute, classic and quirky names for your new dog.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Dog Names",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Dog Names",
+        "paragraphs": [
+          "Generate cute, classic and quirky names for your new dog.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate cute, classic and quirky names for your new dog."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Dog Names",
+      "dog-name-generator"
+    ]
+  },
+  "cat-name-generator": {
+    "name": "Cat Names",
+    "metaTitle": "Cat Names | AllWordTools",
+    "metaDescription": "Find the purr-fect name for your cat, from elegant to playful.",
+    "eyebrow": "AllWordTools",
+    "heading": "Cat Names",
+    "subheading": "Find the purr-fect name for your cat, from elegant to playful.",
+    "intro": [
+      "Cat Names — Find the purr-fect name for your cat, from elegant to playful.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Cat Names",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Cat Names",
+        "paragraphs": [
+          "Find the purr-fect name for your cat, from elegant to playful.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Find the purr-fect name for your cat, from elegant to playful."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Cat Names",
+      "cat-name-generator"
+    ]
+  },
+  "team-name-generator": {
+    "name": "Team Names",
+    "metaTitle": "Team Names | AllWordTools",
+    "metaDescription": "Bold, catchy names for sports teams, quiz nights and groups.",
+    "eyebrow": "AllWordTools",
+    "heading": "Team Names",
+    "subheading": "Bold, catchy names for sports teams, quiz nights and groups.",
+    "intro": [
+      "Team Names — Bold, catchy names for sports teams, quiz nights and groups.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Team Names",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Team Names",
+        "paragraphs": [
+          "Bold, catchy names for sports teams, quiz nights and groups.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Bold, catchy names for sports teams, quiz nights and groups."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Team Names",
+      "team-name-generator"
+    ]
+  },
+  "guild-name-generator": {
+    "name": "Guild Names",
+    "metaTitle": "Guild Names | AllWordTools",
+    "metaDescription": "Epic guild names for MMOs, RPGs and gaming communities.",
+    "eyebrow": "AllWordTools",
+    "heading": "Guild Names",
+    "subheading": "Epic guild names for MMOs, RPGs and gaming communities.",
+    "intro": [
+      "Guild Names — Epic guild names for MMOs, RPGs and gaming communities.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Guild Names",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Guild Names",
+        "paragraphs": [
+          "Epic guild names for MMOs, RPGs and gaming communities.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Epic guild names for MMOs, RPGs and gaming communities."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Guild Names",
+      "guild-name-generator"
+    ]
+  },
+  "clan-name-generator": {
+    "name": "Clan Names",
+    "metaTitle": "Clan Names | AllWordTools",
+    "metaDescription": "Fierce, memorable clan names for shooters and fantasy worlds.",
+    "eyebrow": "AllWordTools",
+    "heading": "Clan Names",
+    "subheading": "Fierce, memorable clan names for shooters and fantasy worlds.",
+    "intro": [
+      "Clan Names — Fierce, memorable clan names for shooters and fantasy worlds.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Clan Names",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Clan Names",
+        "paragraphs": [
+          "Fierce, memorable clan names for shooters and fantasy worlds.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Fierce, memorable clan names for shooters and fantasy worlds."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Clan Names",
+      "clan-name-generator"
+    ]
+  },
+  "character-name-generator": {
+    "name": "Character Names",
+    "metaTitle": "Character Names | AllWordTools",
+    "metaDescription": "Fantasy character names for novels, D&D and creative writing.",
+    "eyebrow": "AllWordTools",
+    "heading": "Character Names",
+    "subheading": "Fantasy character names for novels, D&D and creative writing.",
+    "intro": [
+      "Character Names — Fantasy character names for novels, D&D and creative writing.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Character Names",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Character Names",
+        "paragraphs": [
+          "Fantasy character names for novels, D&D and creative writing.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Fantasy character names for novels, D&D and creative writing."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Character Names",
+      "character-name-generator"
+    ]
+  },
+  "demon-name-generator": {
+    "name": "Demon Names",
+    "metaTitle": "Demon Names | AllWordTools",
+    "metaDescription": "Dark, menacing demon names for fantasy stories and games.",
+    "eyebrow": "AllWordTools",
+    "heading": "Demon Names",
+    "subheading": "Dark, menacing demon names for fantasy stories and games.",
+    "intro": [
+      "Demon Names — Dark, menacing demon names for fantasy stories and games.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Demon Names",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Demon Names",
+        "paragraphs": [
+          "Dark, menacing demon names for fantasy stories and games.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Dark, menacing demon names for fantasy stories and games."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Demon Names",
+      "demon-name-generator"
+    ]
+  },
+  "alien-name-generator": {
+    "name": "Alien Names",
+    "metaTitle": "Alien Names | AllWordTools",
+    "metaDescription": "Exotic, otherworldly alien names for sci-fi stories and games.",
+    "eyebrow": "AllWordTools",
+    "heading": "Alien Names",
+    "subheading": "Exotic, otherworldly alien names for sci-fi stories and games.",
+    "intro": [
+      "Alien Names — Exotic, otherworldly alien names for sci-fi stories and games.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Alien Names",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Alien Names",
+        "paragraphs": [
+          "Exotic, otherworldly alien names for sci-fi stories and games.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Exotic, otherworldly alien names for sci-fi stories and games."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Alien Names",
+      "alien-name-generator"
+    ]
+  },
+  "witch-name-generator": {
+    "name": "Witch Names",
+    "metaTitle": "Witch Names | AllWordTools",
+    "metaDescription": "Mystical witch names with surnames and epithets for stories and games.",
+    "eyebrow": "AllWordTools",
+    "heading": "Witch Names",
+    "subheading": "Mystical witch names with surnames and epithets for stories and games.",
+    "intro": [
+      "Witch Names — Mystical witch names with surnames and epithets for stories and games.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Witch Names",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Witch Names",
+        "paragraphs": [
+          "Mystical witch names with surnames and epithets for stories and games.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Mystical witch names with surnames and epithets for stories and games."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Witch Names",
+      "witch-name-generator"
+    ]
+  },
+  "knight-name-generator": {
+    "name": "Knight Names",
+    "metaTitle": "Knight Names | AllWordTools",
+    "metaDescription": "Noble medieval knight names with heroic titles for fantasy and D&D.",
+    "eyebrow": "AllWordTools",
+    "heading": "Knight Names",
+    "subheading": "Noble medieval knight names with heroic titles for fantasy and D&D.",
+    "intro": [
+      "Knight Names — Noble medieval knight names with heroic titles for fantasy and D&D.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Knight Names",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Knight Names",
+        "paragraphs": [
+          "Noble medieval knight names with heroic titles for fantasy and D&D.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Noble medieval knight names with heroic titles for fantasy and D&D."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Knight Names",
+      "knight-name-generator"
+    ]
+  },
+  "vampire-name-generator": {
+    "name": "Vampire Names",
+    "metaTitle": "Vampire Names | AllWordTools",
+    "metaDescription": "Elegant, gothic vampire names for stories, characters and games.",
+    "eyebrow": "AllWordTools",
+    "heading": "Vampire Names",
+    "subheading": "Elegant, gothic vampire names for stories, characters and games.",
+    "intro": [
+      "Vampire Names — Elegant, gothic vampire names for stories, characters and games.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Vampire Names",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Vampire Names",
+        "paragraphs": [
+          "Elegant, gothic vampire names for stories, characters and games.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Elegant, gothic vampire names for stories, characters and games."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Vampire Names",
+      "vampire-name-generator"
+    ]
+  },
+  "robot-name-generator": {
+    "name": "Robot Names",
+    "metaTitle": "Robot Names | AllWordTools",
+    "metaDescription": "Cool robot and android names with model designations for sci-fi.",
+    "eyebrow": "AllWordTools",
+    "heading": "Robot Names",
+    "subheading": "Cool robot and android names with model designations for sci-fi.",
+    "intro": [
+      "Robot Names — Cool robot and android names with model designations for sci-fi.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Robot Names",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Robot Names",
+        "paragraphs": [
+          "Cool robot and android names with model designations for sci-fi.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Cool robot and android names with model designations for sci-fi."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Robot Names",
+      "robot-name-generator"
+    ]
+  },
+  "daily-word": {
+    "name": "Daily Word",
+    "metaTitle": "Daily Word | AllWordTools",
+    "metaDescription": "A fresh word to learn every single day, with meaning and example.",
+    "eyebrow": "AllWordTools",
+    "heading": "Daily Word",
+    "subheading": "A fresh word to learn every single day, with meaning and example.",
+    "intro": [
+      "Daily Word — A fresh word to learn every single day, with meaning and example.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Daily Word",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Daily Word",
+        "paragraphs": [
+          "A fresh word to learn every single day, with meaning and example.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "A fresh word to learn every single day, with meaning and example."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Daily Word",
+      "daily-word"
+    ]
+  },
+  "word-of-the-day": {
+    "name": "Word of the Day",
+    "metaTitle": "Word of the Day | AllWordTools",
+    "metaDescription": "Discover a beautiful new word each day with IPA and usage.",
+    "eyebrow": "AllWordTools",
+    "heading": "Word of the Day",
+    "subheading": "Discover a beautiful new word each day with IPA and usage.",
+    "intro": [
+      "Word of the Day — Discover a beautiful new word each day with IPA and usage.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Word of the Day",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Word of the Day",
+        "paragraphs": [
+          "Discover a beautiful new word each day with IPA and usage.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Discover a beautiful new word each day with IPA and usage."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Word of the Day",
+      "word-of-the-day"
+    ]
+  },
+  "synonym-quiz": {
+    "name": "Synonym Quiz",
+    "metaTitle": "Synonym Quiz | AllWordTools",
+    "metaDescription": "Match each word to its correct synonym against the clock.",
+    "eyebrow": "AllWordTools",
+    "heading": "Synonym Quiz",
+    "subheading": "Match each word to its correct synonym against the clock.",
+    "intro": [
+      "Synonym Quiz — Match each word to its correct synonym against the clock.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Synonym Quiz",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Synonym Quiz",
+        "paragraphs": [
+          "Match each word to its correct synonym against the clock.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Match each word to its correct synonym against the clock."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Synonym Quiz",
+      "synonym-quiz"
+    ]
+  },
+  "antonym-quiz": {
+    "name": "Antonym Quiz",
+    "metaTitle": "Antonym Quiz | AllWordTools",
+    "metaDescription": "Pick the correct opposite for each word and test your range.",
+    "eyebrow": "AllWordTools",
+    "heading": "Antonym Quiz",
+    "subheading": "Pick the correct opposite for each word and test your range.",
+    "intro": [
+      "Antonym Quiz — Pick the correct opposite for each word and test your range.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Antonym Quiz",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Antonym Quiz",
+        "paragraphs": [
+          "Pick the correct opposite for each word and test your range.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Pick the correct opposite for each word and test your range."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Antonym Quiz",
+      "antonym-quiz"
+    ]
+  },
+  "prefix-quiz": {
+    "name": "Prefix Quiz",
+    "metaTitle": "Prefix Quiz | AllWordTools",
+    "metaDescription": "Learn what common prefixes mean with quick-fire questions.",
+    "eyebrow": "AllWordTools",
+    "heading": "Prefix Quiz",
+    "subheading": "Learn what common prefixes mean with quick-fire questions.",
+    "intro": [
+      "Prefix Quiz — Learn what common prefixes mean with quick-fire questions.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Prefix Quiz",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Prefix Quiz",
+        "paragraphs": [
+          "Learn what common prefixes mean with quick-fire questions.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Learn what common prefixes mean with quick-fire questions."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Prefix Quiz",
+      "prefix-quiz"
+    ]
+  },
+  "suffix-quiz": {
+    "name": "Suffix Quiz",
+    "metaTitle": "Suffix Quiz | AllWordTools",
+    "metaDescription": "Master common suffixes and how they change word meaning.",
+    "eyebrow": "AllWordTools",
+    "heading": "Suffix Quiz",
+    "subheading": "Master common suffixes and how they change word meaning.",
+    "intro": [
+      "Suffix Quiz — Master common suffixes and how they change word meaning.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar Suffix Quiz",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Suffix Quiz",
+        "paragraphs": [
+          "Master common suffixes and how they change word meaning.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Master common suffixes and how they change word meaning."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "Suffix Quiz",
+      "suffix-quiz"
+    ]
+  },
+  "ai-word-explainer": {
+    "name": "AI Word Explainer",
+    "metaTitle": "AI Word Explainer | AllWordTools",
+    "metaDescription": "Get a clear AI explanation of any word — meaning, usage and examples.",
+    "eyebrow": "AllWordTools",
+    "heading": "AI Word Explainer",
+    "subheading": "Get a clear AI explanation of any word — meaning, usage and examples.",
+    "intro": [
+      "AI Word Explainer — Get a clear AI explanation of any word — meaning, usage and examples.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar AI Word Explainer",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "AI Word Explainer",
+        "paragraphs": [
+          "Get a clear AI explanation of any word — meaning, usage and examples.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Get a clear AI explanation of any word — meaning, usage and examples."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "AI Word Explainer",
+      "ai-word-explainer"
+    ]
+  },
+  "ai-sentence-generator": {
+    "name": "AI Sentence Generator",
+    "metaTitle": "AI Sentence Generator | AllWordTools",
+    "metaDescription": "Generate natural example sentences for any word or topic with AI.",
+    "eyebrow": "AllWordTools",
+    "heading": "AI Sentence Generator",
+    "subheading": "Generate natural example sentences for any word or topic with AI.",
+    "intro": [
+      "AI Sentence Generator — Generate natural example sentences for any word or topic with AI.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar AI Sentence Generator",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "AI Sentence Generator",
+        "paragraphs": [
+          "Generate natural example sentences for any word or topic with AI.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate natural example sentences for any word or topic with AI."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "AI Sentence Generator",
+      "ai-sentence-generator"
+    ]
+  },
+  "ai-example-generator": {
+    "name": "AI Example Generator",
+    "metaTitle": "AI Example Generator | AllWordTools",
+    "metaDescription": "Produce clear examples for any concept, word or grammar point.",
+    "eyebrow": "AllWordTools",
+    "heading": "AI Example Generator",
+    "subheading": "Produce clear examples for any concept, word or grammar point.",
+    "intro": [
+      "AI Example Generator — Produce clear examples for any concept, word or grammar point.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar AI Example Generator",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "AI Example Generator",
+        "paragraphs": [
+          "Produce clear examples for any concept, word or grammar point.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Produce clear examples for any concept, word or grammar point."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "AI Example Generator",
+      "ai-example-generator"
+    ]
+  },
+  "ai-story-generator": {
+    "name": "AI Story Generator",
+    "metaTitle": "AI Story Generator | AllWordTools",
+    "metaDescription": "Turn a prompt into an engaging short story written by AI.",
+    "eyebrow": "AllWordTools",
+    "heading": "AI Story Generator",
+    "subheading": "Turn a prompt into an engaging short story written by AI.",
+    "intro": [
+      "AI Story Generator — Turn a prompt into an engaging short story written by AI.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar AI Story Generator",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "AI Story Generator",
+        "paragraphs": [
+          "Turn a prompt into an engaging short story written by AI.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Turn a prompt into an engaging short story written by AI."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "AI Story Generator",
+      "ai-story-generator"
+    ]
+  },
+  "ai-poem-generator": {
+    "name": "AI Poem Generator",
+    "metaTitle": "AI Poem Generator | AllWordTools",
+    "metaDescription": "Create original poems on any theme with the help of AI.",
+    "eyebrow": "AllWordTools",
+    "heading": "AI Poem Generator",
+    "subheading": "Create original poems on any theme with the help of AI.",
+    "intro": [
+      "AI Poem Generator — Create original poems on any theme with the help of AI.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar AI Poem Generator",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "AI Poem Generator",
+        "paragraphs": [
+          "Create original poems on any theme with the help of AI.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Create original poems on any theme with the help of AI."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "AI Poem Generator",
+      "ai-poem-generator"
+    ]
+  },
+  "ai-vocabulary-builder": {
+    "name": "AI Vocabulary Builder",
+    "metaTitle": "AI Vocabulary Builder | AllWordTools",
+    "metaDescription": "Build themed word lists with definitions and examples using AI.",
+    "eyebrow": "AllWordTools",
+    "heading": "AI Vocabulary Builder",
+    "subheading": "Build themed word lists with definitions and examples using AI.",
+    "intro": [
+      "AI Vocabulary Builder — Build themed word lists with definitions and examples using AI.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar AI Vocabulary Builder",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "AI Vocabulary Builder",
+        "paragraphs": [
+          "Build themed word lists with definitions and examples using AI.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Build themed word lists with definitions and examples using AI."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "AI Vocabulary Builder",
+      "ai-vocabulary-builder"
+    ]
+  },
+  "ai-quiz-generator": {
+    "name": "AI Quiz Generator",
+    "metaTitle": "AI Quiz Generator | AllWordTools",
+    "metaDescription": "Generate a custom multiple-choice quiz on any topic instantly.",
+    "eyebrow": "AllWordTools",
+    "heading": "AI Quiz Generator",
+    "subheading": "Generate a custom multiple-choice quiz on any topic instantly.",
+    "intro": [
+      "AI Quiz Generator — Generate a custom multiple-choice quiz on any topic instantly.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar AI Quiz Generator",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "AI Quiz Generator",
+        "paragraphs": [
+          "Generate a custom multiple-choice quiz on any topic instantly.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Generate a custom multiple-choice quiz on any topic instantly."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "AI Quiz Generator",
+      "ai-quiz-generator"
+    ]
+  },
+  "ai-flashcards": {
+    "name": "AI Flashcards",
+    "metaTitle": "AI Flashcards | AllWordTools",
+    "metaDescription": "Create study flashcards for any subject and revise at your pace.",
+    "eyebrow": "AllWordTools",
+    "heading": "AI Flashcards",
+    "subheading": "Create study flashcards for any subject and revise at your pace.",
+    "intro": [
+      "AI Flashcards — Create study flashcards for any subject and revise at your pace.",
+      "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+    ],
+    "howToTitle": "Cómo usar AI Flashcards",
+    "howToSteps": [
+      {
+        "title": "Ingresa tus datos",
+        "detail": "Escribe tus letras, palabras o texto en el campo de entrada."
+      },
+      {
+        "title": "Haz clic en buscar o convertir",
+        "detail": "Presiona el botón para procesar y obtener resultados al instante."
+      },
+      {
+        "title": "Copia los resultados",
+        "detail": "Revisa las respuestas encontradas y cópialas con un clic."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "AI Flashcards",
+        "paragraphs": [
+          "Create study flashcards for any subject and revise at your pace.",
+          "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "word",
+        "output": "result",
+        "note": "Create study flashcards for any subject and revise at your pace."
+      }
+    ],
+    "tips": [
+      "Escribe tus letras, palabras o texto en el campo de entrada.",
+      "Presiona el botón para procesar y obtener resultados al instante.",
+      "Revisa las respuestas encontradas y cópialas con un clic."
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta herramienta es gratuita?",
+        "answer": "Sí, esta herramienta en AllWordTools es 100% gratuita y sin límites."
+      },
+      {
+        "question": "¿Funciona en teléfonos móviles?",
+        "answer": "Sí, funciona de forma rápida y fluida en cualquier dispositivo móvil o de escritorio."
+      }
+    ],
+    "searchIntent": "informational",
+    "keywords": [
+      "AI Flashcards",
+      "ai-flashcards"
     ]
   }
 }

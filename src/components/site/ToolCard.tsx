@@ -4,11 +4,13 @@ import { toolIcons, type Tool } from "@/data/tools";
 import { Badge } from "@/components/ui/badge";
 import { useI18n } from "@/i18n/I18nProvider";
 import { DEFAULT_LOCALE } from "@/i18n/locales";
+import { getLocalizedToolInfo } from "@/i18n/tools-data";
 
 export function ToolCard({ tool }: { tool: Tool }) {
-  const { locale } = useI18n();
+  const { locale, t } = useI18n();
   const Icon = toolIcons[tool.slug];
   const isDefault = locale === DEFAULT_LOCALE;
+  const localized = getLocalizedToolInfo(tool, locale);
 
   return (
     <Link
@@ -22,21 +24,23 @@ export function ToolCard({ tool }: { tool: Tool }) {
         </span>
         <div className="flex gap-1.5">
           {tool.isNew && (
-            <Badge className="gradient-honey border-0 text-honey-foreground">New</Badge>
+            <Badge className="gradient-honey border-0 text-honey-foreground">
+              {t("common.new")}
+            </Badge>
           )}
           {tool.isTrending && (
             <Badge variant="secondary" className="border border-border/60">
-              Trending
+              {t("common.trending")}
             </Badge>
           )}
         </div>
       </div>
-      <h3 className="mt-4 font-display text-lg font-semibold tracking-tight">{tool.name}</h3>
+      <h3 className="mt-4 font-display text-lg font-semibold tracking-tight">{localized.name}</h3>
       <p className="mt-1.5 flex-1 text-sm leading-relaxed text-muted-foreground">
-        {tool.description}
+        {localized.description}
       </p>
       <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-honey">
-        Open tool
+        {t("popular.openTool")}
         <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
       </span>
     </Link>

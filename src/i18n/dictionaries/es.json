@@ -59,5 +59,36 @@
     "all": "Todos los idiomas",
     "empty": "No se encontraron idiomas",
     "current": "Actual"
+  },
+  "categories": {
+    "eyebrow": "Explorar por categoría",
+    "title": "Explora cada categoría",
+    "description": "Cientos de herramientas organizadas. Elige una categoría para ver todo el contenido.",
+    "toolsCount": "{count} herramientas",
+    "viewAll": "Ver las {count} {category} →"
+  },
+  "popular": {
+    "eyebrow": "Más queridas",
+    "title": "Herramientas populares ahora",
+    "description": "Las herramientas favoritas de los amantes de las palabras — populares, nuevas y con IA.",
+    "trending": "Herramientas en tendencia",
+    "new": "Nuevas herramientas",
+    "ai": "Herramientas de IA",
+    "browseAll": "Explorar todas las herramientas",
+    "visitHub": "Visitar el centro de aprendizaje",
+    "openTool": "Abrir herramienta"
+  },
+  "benefits": {
+    "eyebrow": "Por qué AllWordTools",
+    "title": "Creado para jugadores y amantes de las palabras",
+    "description": "Todo lo que necesitas para ganar más juegos y escribir con confianza en un solo lugar."
+  },
+  "common": {
+    "new": "Nuevo",
+    "trending": "Tendencia",
+    "openTool": "Abrir herramienta",
+    "search": "Buscar",
+    "clear": "Limpiar",
+    "admin": "Estudio de Admin"
   }
 }

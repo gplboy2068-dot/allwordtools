@@ -9,9 +9,11 @@ import { Button } from "@/components/ui/button";
 import { allTools, categories } from "@/data/tools";
 import { buildLocaleHead, BASE_URL } from "@/i18n/seo";
 import { DEFAULT_LOCALE } from "@/i18n/locales";
+import { useI18n } from "@/i18n/I18nProvider";
+import { getLocalizedCategory } from "@/i18n/categories";
 
 const SITE = "AllWordTools.com";
-export const TITLE = `All Word Tools — Browse Every Tool by Category — ${SITE}`;
+export const TITLE = `All Word Tools — Browse Every Tool by Category | ${SITE}`;
 export const DESCRIPTION =
   "Browse every AllWordTools tool in one place. Search and filter 300+ free word game solvers, letter tools, writing aids, AI tools and more, grouped by category.";
 
@@ -51,6 +53,8 @@ export const Route = createFileRoute("/tools")({
 });
 
 export function ToolsPage() {
+  const { locale } = useI18n();
+  const isDefault = locale === DEFAULT_LOCALE;
   const [query, setQuery] = useState("");
   const [active, setActive] = useState<string>("all");
 
@@ -82,7 +86,11 @@ export function ToolsPage() {
             <nav aria-label="Breadcrumb" className="mb-6">
               <ol className="flex items-center gap-1.5 text-sm text-muted-foreground">
                 <li>
-                  <Link to="/" className="inline-flex items-center gap-1 hover:text-foreground">
+                  <Link
+                    to={isDefault ? "/" : "/$locale/"}
+                    params={isDefault ? {} : { locale }}
+                    className="inline-flex items-center gap-1 hover:text-foreground"
+                  >
                     <Home className="h-3.5 w-3.5" /> Home
                   </Link>
                 </li>
@@ -132,14 +140,17 @@ export function ToolsPage() {
                 activeState={active === "all"}
                 onClick={() => setActive("all")}
               />
-              {categories.map((cat) => (
-                <FilterChip
-                  key={cat.slug}
-                  label={cat.title}
-                  activeState={active === cat.slug}
-                  onClick={() => setActive(cat.slug)}
-                />
-              ))}
+              {categories.map((cat) => {
+                const locCat = getLocalizedCategory(cat, locale);
+                return (
+                  <FilterChip
+                    key={cat.slug}
+                    label={locCat.title}
+                    activeState={active === cat.slug}
+                    onClick={() => setActive(cat.slug)}
+                  />
+                );
+              })}
             </div>
           </div>
         </div>
@@ -173,6 +184,7 @@ export function ToolsPage() {
             <div className="space-y-14">
               {visibleCategories.map((cat) => {
                 const Icon = cat.icon;
+                const locCat = getLocalizedCategory(cat, locale);
                 return (
                   <div key={cat.slug} id={cat.slug} className="scroll-mt-32">
                     <div className="flex flex-wrap items-center justify-between gap-3">
@@ -180,14 +192,14 @@ export function ToolsPage() {
                         <span className="flex h-10 w-10 items-center justify-center rounded-xl gradient-ink text-primary-foreground">
                           <Icon className="h-5 w-5" />
                         </span>
-                        {cat.title}
+                        {locCat.title}
                         <span className="text-sm font-normal text-muted-foreground">
                           ({cat.tools.length})
                         </span>
                       </h2>
                       <Link
-                        to="/category/$category"
-                        params={{ category: cat.slug }}
+                        to={isDefault ? "/category/$category" : "/$locale/category/$category"}
+                        params={isDefault ? { category: cat.slug } : { locale, category: cat.slug }}
                         className="text-sm font-semibold text-honey hover:underline"
                       >
                         View category →

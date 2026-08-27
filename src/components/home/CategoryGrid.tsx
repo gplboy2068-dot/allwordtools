@@ -3,8 +3,15 @@ import { ArrowRight } from "lucide-react";
 import { categories } from "@/data/tools";
 import { Button } from "@/components/ui/button";
 import { SectionHeading } from "./SectionHeading";
+import { useI18n } from "@/i18n/I18nProvider";
+import { DEFAULT_LOCALE } from "@/i18n/locales";
+import { getLocalizedCategory } from "@/i18n/categories";
+import { getLocalizedToolInfo } from "@/i18n/tools-data";
 
 export function CategoryGrid() {
+  const { locale, t } = useI18n();
+  const isDefault = locale === DEFAULT_LOCALE;
+
   return (
     <section
       className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8"
@@ -12,9 +19,9 @@ export function CategoryGrid() {
     >
       <SectionHeading
         id="browse-categories"
-        eyebrow="Browse by category"
-        title="Explore every category"
-        description="Hundreds of tools, neatly organised. Pick a category to see everything inside."
+        eyebrow={t("categories.eyebrow")}
+        title={t("categories.title")}
+        description={t("categories.description")}
         centered
       />
 
@@ -22,6 +29,8 @@ export function CategoryGrid() {
         {categories.map((cat) => {
           const Icon = cat.icon;
           const topTools = cat.tools.slice(0, 6);
+          const localizedCat = getLocalizedCategory(cat, locale);
+
           return (
             <div
               key={cat.slug}
@@ -32,36 +41,39 @@ export function CategoryGrid() {
                   <Icon className="h-6 w-6" />
                 </span>
                 <span className="rounded-full bg-accent px-3 py-1 text-xs font-semibold text-accent-foreground">
-                  {cat.tools.length} tools
+                  {t("categories.toolsCount", { count: cat.tools.length })}
                 </span>
               </div>
 
               <h3 className="mt-5 font-display text-xl font-semibold tracking-tight">
                 <Link
-                  to="/category/$category"
-                  params={{ category: cat.slug }}
+                  to={isDefault ? "/category/$category" : "/$locale/category/$category"}
+                  params={isDefault ? { category: cat.slug } : { locale, category: cat.slug }}
                   className="hover:text-honey"
                 >
-                  {cat.title}
+                  {localizedCat.title}
                 </Link>
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                {cat.description}
+                {localizedCat.description}
               </p>
 
               <ul className="mt-4 space-y-1.5">
-                {topTools.map((tool) => (
-                  <li key={tool.slug}>
-                    <Link
-                      to="/tool/$tool"
-                      params={{ tool: tool.slug }}
-                      className="inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-honey"
-                    >
-                      <ArrowRight className="h-3.5 w-3.5 shrink-0 text-honey/60" />
-                      {tool.name}
-                    </Link>
-                  </li>
-                ))}
+                {topTools.map((tool) => {
+                  const localizedTool = getLocalizedToolInfo(tool, locale);
+                  return (
+                    <li key={tool.slug}>
+                      <Link
+                        to={isDefault ? "/tool/$tool" : "/$locale/tool/$tool"}
+                        params={isDefault ? { tool: tool.slug } : { locale, tool: tool.slug }}
+                        className="inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-honey"
+                      >
+                        <ArrowRight className="h-3.5 w-3.5 shrink-0 text-honey/60" />
+                        {localizedTool.name}
+                      </Link>
+                    </li>
+                  );
+                })}
               </ul>
 
               <Button
@@ -70,11 +82,14 @@ export function CategoryGrid() {
                 className="mt-5 justify-start px-0 text-honey hover:bg-transparent"
               >
                 <Link
-                  to="/category/$category"
-                  params={{ category: cat.slug }}
+                  to={isDefault ? "/category/$category" : "/$locale/category/$category"}
+                  params={isDefault ? { category: cat.slug } : { locale, category: cat.slug }}
                   className="inline-flex items-center gap-1.5"
                 >
-                  View all {cat.tools.length} {cat.title.toLowerCase()}
+                  {t("categories.viewAll", {
+                    count: cat.tools.length,
+                    category: localizedCat.title,
+                  })}
                   <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Link>
               </Button>
