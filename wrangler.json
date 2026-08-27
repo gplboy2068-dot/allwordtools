@@ -6,12 +6,5 @@
   "compatibility_flags": ["nodejs_compat"],
   "assets": {
     "directory": ".output/public"
-  },
-  "d1_databases": [
-    {
-      "binding": "DB",
-      "database_name": "allwordtools-db",
-      "database_id": "local-allwordtools-db"
-    }
-  ]
+  }
 }
