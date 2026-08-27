@@ -15,8 +15,6 @@ export default defineConfig({
     tsConfigPaths({
       projects: ["./tsconfig.json"],
     }),
-    nitro({
-      preset: "cloudflare_pages",
-    }),
+    nitro(),
   ],
 });
