@@ -14,7 +14,7 @@ export function Faq() {
         id="faq"
         eyebrow="Questions & answers"
         title="Frequently asked questions"
-        description="Everything you might want to know about using WordForge."
+        description="Everything you might want to know about using AllWordTools."
         centered
       />
       <Accordion type="single" collapsible className="mt-8 w-full">
@@ -23,7 +23,7 @@ export function Faq() {
             <AccordionTrigger className="text-left font-display text-base font-semibold">
               {faq.question}
             </AccordionTrigger>
-            <AccordionContent className="text-sm leading-relaxed text-muted-foreground">
+            <AccordionContent forceMount className="text-sm leading-relaxed text-muted-foreground">
               {faq.answer}
             </AccordionContent>
           </AccordionItem>

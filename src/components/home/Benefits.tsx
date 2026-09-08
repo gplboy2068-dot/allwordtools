@@ -7,6 +7,7 @@ import {
   Infinity as InfinityIcon,
 } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
+import { useI18n } from "@/i18n/I18nProvider";
 
 const benefits = [
   {
@@ -42,13 +43,18 @@ const benefits = [
 ];
 
 export function Benefits() {
+  const { t } = useI18n();
+
   return (
     <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8" aria-labelledby="benefits">
       <SectionHeading
         id="benefits"
-        eyebrow="Why WordForge"
-        title="Built for players and word lovers"
-        description="Everything you need to win more games and write with confidence, in one place."
+        eyebrow={t("benefits.eyebrow") || "Why AllWordTools"}
+        title={t("benefits.title") || "Built for players and word lovers"}
+        description={
+          t("benefits.description") ||
+          "Everything you need to win more games and write with confidence, in one place."
+        }
         centered
       />
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
