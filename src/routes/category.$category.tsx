@@ -6,6 +6,7 @@ import { ToolCard } from "@/components/site/ToolCard";
 import { DiscoverMore } from "@/components/site/DiscoverMore";
 import { TrustedReferences } from "@/components/site/TrustedReferences";
 import { KeywordClusters, BottomCta } from "@/components/site/LinkSections";
+import { AdBanner } from "@/components/site/AdBanner";
 import {
   Accordion,
   AccordionContent,
@@ -384,6 +385,9 @@ export function CategoryPageView({ slug }: { slug: string }) {
             ))}
           </div>
         </section>
+
+        {/* Strategic Ad Banner */}
+        <AdBanner />
 
         {/* Long-form content */}
         {content && (

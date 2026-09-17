@@ -16,6 +16,7 @@ import { BottomCta } from "@/components/site/LinkSections";
 import { Benefits } from "@/components/home/Benefits";
 import { SeoContent } from "@/components/home/SeoContent";
 import { Faq } from "@/components/home/Faq";
+import { AdBanner } from "@/components/site/AdBanner";
 import { getDictionarySync } from "@/i18n/getDictionary";
 import { buildLocaleHead, inLanguage } from "@/i18n/seo";
 import { localePath } from "@/i18n/paths";
@@ -60,6 +61,7 @@ function LocalizedHome() {
         <Hero />
         <CategoryGrid />
         <PopularToolsShowcase />
+        <AdBanner />
         <Benefits />
         <SeoContent />
         <Faq />

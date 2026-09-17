@@ -8,6 +8,7 @@ import { BottomCta } from "@/components/site/LinkSections";
 import { Benefits } from "@/components/home/Benefits";
 import { SeoContent } from "@/components/home/SeoContent";
 import { Faq } from "@/components/home/Faq";
+import { AdBanner } from "@/components/site/AdBanner";
 import { faqs } from "@/data/faqs";
 import { categories } from "@/data/tools";
 import { buildLocaleHead } from "@/i18n/seo";
@@ -96,6 +97,7 @@ function Index() {
         <Hero />
         <CategoryGrid />
         <PopularToolsShowcase />
+        <AdBanner />
         <Benefits />
         <SeoContent />
         <Faq />

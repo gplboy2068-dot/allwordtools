@@ -20,6 +20,7 @@ import { TrustedReferences } from "@/components/site/TrustedReferences";
 import { getToolReferences } from "@/lib/external-links";
 import { DiscoverMore } from "@/components/site/DiscoverMore";
 import { KeywordClusters, BottomCta } from "@/components/site/LinkSections";
+import { AdBanner } from "@/components/site/AdBanner";
 import { WordUnscrambler } from "@/components/tools/WordUnscrambler";
 import { AnagramSolver } from "@/components/tools/AnagramSolver";
 import { WordFinder } from "@/components/tools/WordFinder";
@@ -875,6 +876,9 @@ export function ToolPageView({
             </div>
           </div>
         </section>
+
+        {/* Strategic Ad Banner */}
+        <AdBanner />
 
         {content && (
           <>
