@@ -268,7 +268,7 @@ export function DataLimitationsPage() {
           When users or maintainers identify potential lexical inaccuracies, we follow a transparent technical workflow:
         </p>
         <ol>
-          <li><strong>Report Submission:</strong> User submits a bug, missing word, or score discrepancy via our <Link to="/report-error">Error Reporting Form</Link>.</li>
+          <li><strong>Report Submission:</strong> User submits a bug, missing word, or score discrepancy via our <Link to="/report-error">Error Reporting Form</Link> or directly by emailing <a href="mailto:hello@allwordtools.com" className="font-semibold text-honey hover:underline">hello@allwordtools.com</a>.</li>
           <li><strong>Editorial Review:</strong> Maintainer <Link to="/about/firoz-khan">Firoz Khan</Link> reviews the submission and inspects the affected tool.</li>
           <li><strong>Source Verification:</strong> The reported word or rule is cross-referenced against authoritative sources (e.g. official NASPA / WESPA rulebooks or Wiktionary revisions).</li>
           <li><strong>Code/Dataset Adjustment:</strong> If an error is confirmed, the local word list, regex matrix, or algorithm is updated and tested.</li>

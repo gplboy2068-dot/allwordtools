@@ -250,9 +250,14 @@ export function ContactPage() {
             <p className="mt-2.5 text-xs text-muted-foreground leading-relaxed">
               Firoz builds and maintains AllWordTools.com independently. View his background, technical focus, and profile links:
             </p>
-            <div className="mt-3 flex flex-wrap gap-2 pt-2 border-t border-border/60 text-xs">
-              <Link to="/about/firoz-khan" className="font-semibold text-honey hover:underline">
-                Author Profile →
+            <div className="mt-3 flex flex-wrap items-center gap-2 pt-2 border-t border-border/60 text-xs">
+              <a href={`mailto:${EMAIL}`} className="font-semibold text-honey hover:underline flex items-center gap-1">
+                <Mail className="h-3 w-3" />
+                {EMAIL}
+              </a>
+              <span className="text-muted-foreground/40">·</span>
+              <Link to="/about/firoz-khan" className="font-medium text-foreground hover:underline">
+                Author Profile
               </Link>
               <span className="text-muted-foreground/40">·</span>
               <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground">

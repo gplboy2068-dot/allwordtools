@@ -383,7 +383,7 @@ export function DataSourcesPage() {
         </p>
         <ul>
           <li><strong>Report an Error:</strong> Use our structured <Link to="/report-error">Error Reporting form</Link> for rapid verification against authoritative lexicons.</li>
-          <li><strong>General Inquiries:</strong> Email <a href="mailto:contact@allwordtools.com">contact@allwordtools.com</a> or visit our <Link to="/contact">Contact Page</Link>.</li>
+          <li><strong>General Inquiries:</strong> Email <a href="mailto:hello@allwordtools.com">hello@allwordtools.com</a> or visit our <Link to="/contact">Contact Page</Link>.</li>
           <li><strong>Methodology Details:</strong> Review our comprehensive <Link to="/methodology">Methodology &amp; Algorithms</Link> and <Link to="/data-limitations">Data Limitations</Link> guides.</li>
         </ul>
       </Prose>

@@ -126,6 +126,13 @@ export function FirozKhanProfilePage() {
                 Instagram
                 <ExternalLink className="h-3 w-3 opacity-60 ml-auto" />
               </a>
+              <a
+                href="mailto:hello@allwordtools.com"
+                className="inline-flex items-center justify-center gap-2 rounded-xl border border-honey/40 bg-honey/10 px-4 py-2 text-xs font-semibold text-foreground hover:border-honey hover:text-honey transition-colors shadow-xs"
+              >
+                <Mail className="h-4 w-4 text-honey" />
+                hello@allwordtools.com
+              </a>
             </div>
           </div>
         </div>
@@ -184,7 +191,12 @@ export function FirozKhanProfilePage() {
             If you encounter a software bug, incorrect solver output, missing word, or have suggestions for new tools, Firoz Khan reviews user submissions directly.
           </p>
           <p>
-            Please visit the <Link to="/contact">Contact Page</Link> to report word or tool errors or send technical feedback.
+            You can reach out via email at{" "}
+            <a href="mailto:hello@allwordtools.com" className="font-semibold text-honey hover:underline">
+              hello@allwordtools.com
+            </a>
+            , submit structured feedback on the <Link to="/report-error">Report Error Page</Link>, or use the{" "}
+            <Link to="/contact">Contact Page</Link>.
           </p>
         </Prose>
       </div>

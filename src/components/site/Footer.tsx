@@ -71,6 +71,13 @@ export function Footer() {
             >
               Instagram
             </a>
+            <span>·</span>
+            <a
+              href="mailto:hello@allwordtools.com"
+              className="hover:text-foreground transition-colors font-medium text-honey"
+            >
+              hello@allwordtools.com
+            </a>
           </div>
         </div>
 

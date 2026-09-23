@@ -253,7 +253,8 @@ export function AboutPage() {
           For technical inquiries, bug reports, business discussions, or feedback, you can reach out via:
         </p>
         <ul>
-          <li><strong>Email &amp; Feedback Form:</strong> <Link to="/contact">Contact Page</Link></li>
+          <li><strong>Direct Email:</strong> <a href="mailto:hello@allwordtools.com" className="font-semibold text-honey hover:underline">hello@allwordtools.com</a></li>
+          <li><strong>Contact &amp; Error Form:</strong> <Link to="/contact">Contact Page</Link> or <Link to="/report-error">Report an Error</Link></li>
           <li><strong>GitHub Profile:</strong> <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer" className="hover:underline">{GITHUB_URL}</a></li>
           <li><strong>LinkedIn:</strong> <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer" className="hover:underline">{LINKEDIN_URL}</a></li>
           <li><strong>Instagram:</strong> <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" className="hover:underline">{INSTAGRAM_URL}</a></li>
