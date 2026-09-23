@@ -13,6 +13,7 @@ import { Route as ToolsRouteImport } from './routes/tools'
 import { Route as TermsRouteImport } from './routes/terms'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as PrivacyRouteImport } from './routes/privacy'
+import { Route as MethodologyRouteImport } from './routes/methodology'
 import { Route as LoginRouteImport } from './routes/login'
 import { Route as LearnRouteImport } from './routes/learn'
 import { Route as DmcaRouteImport } from './routes/dmca'
@@ -33,6 +34,7 @@ import { Route as AboutFirozKhanRouteImport } from './routes/about.firoz-khan'
 import { Route as LocaleToolsRouteImport } from './routes/$locale.tools'
 import { Route as LocaleTermsRouteImport } from './routes/$locale.terms'
 import { Route as LocalePrivacyRouteImport } from './routes/$locale.privacy'
+import { Route as LocaleMethodologyRouteImport } from './routes/$locale.methodology'
 import { Route as LocaleLearnRouteImport } from './routes/$locale.learn'
 import { Route as LocaleDmcaRouteImport } from './routes/$locale.dmca'
 import { Route as LocaleDisclaimerRouteImport } from './routes/$locale.disclaimer'
@@ -63,6 +65,11 @@ const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
 const PrivacyRoute = PrivacyRouteImport.update({
   id: '/privacy',
   path: '/privacy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MethodologyRoute = MethodologyRouteImport.update({
+  id: '/methodology',
+  path: '/methodology',
   getParentRoute: () => rootRouteImport,
 } as any)
 const LoginRoute = LoginRouteImport.update({
@@ -165,6 +172,11 @@ const LocalePrivacyRoute = LocalePrivacyRouteImport.update({
   path: '/privacy',
   getParentRoute: () => LocaleRoute,
 } as any)
+const LocaleMethodologyRoute = LocaleMethodologyRouteImport.update({
+  id: '/methodology',
+  path: '/methodology',
+  getParentRoute: () => LocaleRoute,
+} as any)
 const LocaleLearnRoute = LocaleLearnRouteImport.update({
   id: '/learn',
   path: '/learn',
@@ -232,6 +244,7 @@ export interface FileRoutesByFullPath {
   '/dmca': typeof DmcaRoute
   '/learn': typeof LearnRoute
   '/login': typeof LoginRoute
+  '/methodology': typeof MethodologyRoute
   '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
@@ -242,6 +255,7 @@ export interface FileRoutesByFullPath {
   '/$locale/disclaimer': typeof LocaleDisclaimerRoute
   '/$locale/dmca': typeof LocaleDmcaRoute
   '/$locale/learn': typeof LocaleLearnRoute
+  '/$locale/methodology': typeof LocaleMethodologyRoute
   '/$locale/privacy': typeof LocalePrivacyRoute
   '/$locale/terms': typeof LocaleTermsRoute
   '/$locale/tools': typeof LocaleToolsRoute
@@ -268,6 +282,7 @@ export interface FileRoutesByTo {
   '/dmca': typeof DmcaRoute
   '/learn': typeof LearnRoute
   '/login': typeof LoginRoute
+  '/methodology': typeof MethodologyRoute
   '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
@@ -278,6 +293,7 @@ export interface FileRoutesByTo {
   '/$locale/disclaimer': typeof LocaleDisclaimerRoute
   '/$locale/dmca': typeof LocaleDmcaRoute
   '/$locale/learn': typeof LocaleLearnRoute
+  '/$locale/methodology': typeof LocaleMethodologyRoute
   '/$locale/privacy': typeof LocalePrivacyRoute
   '/$locale/terms': typeof LocaleTermsRoute
   '/$locale/tools': typeof LocaleToolsRoute
@@ -306,6 +322,7 @@ export interface FileRoutesById {
   '/dmca': typeof DmcaRoute
   '/learn': typeof LearnRoute
   '/login': typeof LoginRoute
+  '/methodology': typeof MethodologyRoute
   '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
@@ -316,6 +333,7 @@ export interface FileRoutesById {
   '/$locale/disclaimer': typeof LocaleDisclaimerRoute
   '/$locale/dmca': typeof LocaleDmcaRoute
   '/$locale/learn': typeof LocaleLearnRoute
+  '/$locale/methodology': typeof LocaleMethodologyRoute
   '/$locale/privacy': typeof LocalePrivacyRoute
   '/$locale/terms': typeof LocaleTermsRoute
   '/$locale/tools': typeof LocaleToolsRoute
@@ -345,6 +363,7 @@ export interface FileRouteTypes {
     | '/dmca'
     | '/learn'
     | '/login'
+    | '/methodology'
     | '/privacy'
     | '/sitemap.xml'
     | '/terms'
@@ -355,6 +374,7 @@ export interface FileRouteTypes {
     | '/$locale/disclaimer'
     | '/$locale/dmca'
     | '/$locale/learn'
+    | '/$locale/methodology'
     | '/$locale/privacy'
     | '/$locale/terms'
     | '/$locale/tools'
@@ -381,6 +401,7 @@ export interface FileRouteTypes {
     | '/dmca'
     | '/learn'
     | '/login'
+    | '/methodology'
     | '/privacy'
     | '/sitemap.xml'
     | '/terms'
@@ -391,6 +412,7 @@ export interface FileRouteTypes {
     | '/$locale/disclaimer'
     | '/$locale/dmca'
     | '/$locale/learn'
+    | '/$locale/methodology'
     | '/$locale/privacy'
     | '/$locale/terms'
     | '/$locale/tools'
@@ -418,6 +440,7 @@ export interface FileRouteTypes {
     | '/dmca'
     | '/learn'
     | '/login'
+    | '/methodology'
     | '/privacy'
     | '/sitemap.xml'
     | '/terms'
@@ -428,6 +451,7 @@ export interface FileRouteTypes {
     | '/$locale/disclaimer'
     | '/$locale/dmca'
     | '/$locale/learn'
+    | '/$locale/methodology'
     | '/$locale/privacy'
     | '/$locale/terms'
     | '/$locale/tools'
@@ -456,6 +480,7 @@ export interface RootRouteChildren {
   DmcaRoute: typeof DmcaRoute
   LearnRoute: typeof LearnRoute
   LoginRoute: typeof LoginRoute
+  MethodologyRoute: typeof MethodologyRoute
   PrivacyRoute: typeof PrivacyRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   TermsRoute: typeof TermsRoute
@@ -495,6 +520,13 @@ declare module '@tanstack/react-router' {
       path: '/privacy'
       fullPath: '/privacy'
       preLoaderRoute: typeof PrivacyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/methodology': {
+      id: '/methodology'
+      path: '/methodology'
+      fullPath: '/methodology'
+      preLoaderRoute: typeof MethodologyRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/login': {
@@ -637,6 +669,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LocalePrivacyRouteImport
       parentRoute: typeof LocaleRoute
     }
+    '/$locale/methodology': {
+      id: '/$locale/methodology'
+      path: '/methodology'
+      fullPath: '/$locale/methodology'
+      preLoaderRoute: typeof LocaleMethodologyRouteImport
+      parentRoute: typeof LocaleRoute
+    }
     '/$locale/learn': {
       id: '/$locale/learn'
       path: '/learn'
@@ -736,6 +775,7 @@ interface LocaleRouteChildren {
   LocaleDisclaimerRoute: typeof LocaleDisclaimerRoute
   LocaleDmcaRoute: typeof LocaleDmcaRoute
   LocaleLearnRoute: typeof LocaleLearnRoute
+  LocaleMethodologyRoute: typeof LocaleMethodologyRoute
   LocalePrivacyRoute: typeof LocalePrivacyRoute
   LocaleTermsRoute: typeof LocaleTermsRoute
   LocaleToolsRoute: typeof LocaleToolsRoute
@@ -753,6 +793,7 @@ const LocaleRouteChildren: LocaleRouteChildren = {
   LocaleDisclaimerRoute: LocaleDisclaimerRoute,
   LocaleDmcaRoute: LocaleDmcaRoute,
   LocaleLearnRoute: LocaleLearnRoute,
+  LocaleMethodologyRoute: LocaleMethodologyRoute,
   LocalePrivacyRoute: LocalePrivacyRoute,
   LocaleTermsRoute: LocaleTermsRoute,
   LocaleToolsRoute: LocaleToolsRoute,
@@ -787,6 +828,7 @@ const rootRouteChildren: RootRouteChildren = {
   DmcaRoute: DmcaRoute,
   LearnRoute: LearnRoute,
   LoginRoute: LoginRoute,
+  MethodologyRoute: MethodologyRoute,
   PrivacyRoute: PrivacyRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   TermsRoute: TermsRoute,

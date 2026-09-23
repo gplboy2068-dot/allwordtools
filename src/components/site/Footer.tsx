@@ -100,6 +100,15 @@ export function Footer() {
               </li>
               <li>
                 <Link
+                  to={isDefault ? "/methodology" : "/$locale/methodology"}
+                  params={isDefault ? {} : { locale }}
+                  className={muted}
+                >
+                  Methodology &amp; Data
+                </Link>
+              </li>
+              <li>
+                <Link
                   to={isDefault ? "/blog" : "/$locale/blog"}
                   params={isDefault ? {} : { locale }}
                   className={muted}

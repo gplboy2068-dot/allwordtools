@@ -12,7 +12,7 @@ export const faqs: Faq[] = [
   {
     question: "Which word games do these tools support?",
     answer:
-      "Our helpers are optimised for the most popular word games in the world, including Scrabble, Words With Friends, Wordle, crosswords, Boggle, Hangman, Text Twist and countless anagram and jumble puzzles found in newspapers and apps. Each game uses its own dictionary and scoring rules, so we tailor the results — Scrabble uses the official tournament word list, while Wordle focuses on valid five-letter answers.",
+      "Our helpers are optimised for the most popular word games in the world, including Scrabble, Words With Friends, Wordle, crosswords, Boggle, Hangman, Text Twist and countless anagram and jumble puzzles found in newspapers and apps. Each game uses its own dictionary and scoring rules, so we tailor the results — Scrabble uses tournament-style word lists, while Wordle focuses on valid five-letter answers.",
   },
   {
     question: "Is using a word unscrambler considered cheating?",

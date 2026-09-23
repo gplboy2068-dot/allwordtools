@@ -159,6 +159,12 @@ export function AboutPage() {
           by Hasbro, Mattel, The New York Times, Zynga, or any board game publisher. Mentions of trademarks such as "Scrabble,"
           "Words With Friends," or "Wordle" are used solely for descriptive purposes to identify compatible gameplay rules.
         </p>
+        <p>
+          For an exhaustive technical breakdown of every dataset, calculation method, game scoring rule, and limitation across all 92 tools, visit our{" "}
+          <Link to="/methodology" className="font-semibold text-honey hover:underline">
+            Methodology &amp; Word Data Guide
+          </Link>.
+        </p>
 
         <h2>Accuracy &amp; Testing</h2>
         <p>

@@ -21,6 +21,7 @@ import { getToolReferences } from "@/lib/external-links";
 import { DiscoverMore } from "@/components/site/DiscoverMore";
 import { KeywordClusters, BottomCta } from "@/components/site/LinkSections";
 import { AdBanner } from "@/components/site/AdBanner";
+import { ToolMethodologyCard } from "@/components/site/ToolMethodologyCard";
 import { WordUnscrambler } from "@/components/tools/WordUnscrambler";
 import { AnagramSolver } from "@/components/tools/AnagramSolver";
 import { WordFinder } from "@/components/tools/WordFinder";
@@ -874,6 +875,11 @@ export function ToolPageView({
                 </div>
               )}
             </div>
+
+            {/* Methodology & Data Source Transparency */}
+            <div className="mt-8">
+              <ToolMethodologyCard slug={slug} />
+            </div>
           </div>
         </section>
 
@@ -1019,16 +1025,33 @@ export function ToolPageView({
               </Accordion>
             </section>
 
-            {/* Author */}
+            {/* Author & Methodology */}
             <section className="mx-auto max-w-3xl px-4 py-10 sm:px-6 lg:px-8">
-              <div className="flex items-center gap-4 rounded-2xl border border-border/70 bg-secondary/40 p-5">
+              <div className="flex flex-col gap-4 rounded-2xl border border-border/70 bg-secondary/40 p-5 sm:flex-row sm:items-center">
                 <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full gradient-ink text-primary-foreground">
                   <User className="h-6 w-6" />
                 </span>
-                <div>
-                  <p className="font-display text-sm font-semibold">{t("team")}</p>
-                  <p className="mt-0.5 text-xs leading-relaxed text-muted-foreground">
-                    {t("teamDesc")} {content.updated}.
+                <div className="space-y-1">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <p className="font-display text-sm font-semibold">{t("team")}</p>
+                    <span className="text-xs text-muted-foreground">·</span>
+                    <Link
+                      to={isDefault ? "/about/firoz-khan" : "/$locale/about/firoz-khan"}
+                      params={isDefault ? {} : { locale }}
+                      className="text-xs font-medium text-honey hover:underline"
+                    >
+                      Firoz Khan (Maintainer)
+                    </Link>
+                  </div>
+                  <p className="text-xs leading-relaxed text-muted-foreground">
+                    {t("teamDesc")} {content.updated}. Maintained by Full Stack Developer Firoz Khan under FK Digital Media.{" "}
+                    <Link
+                      to={isDefault ? "/methodology" : "/$locale/methodology"}
+                      params={isDefault ? {} : { locale }}
+                      className="underline hover:text-foreground"
+                    >
+                      Learn how our word lists and algorithms work
+                    </Link>.
                   </p>
                 </div>
               </div>

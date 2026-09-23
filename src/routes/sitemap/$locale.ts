@@ -20,6 +20,7 @@ function appPaths(): Entry[] {
     { path: "/blog", changefreq: "weekly", priority: "0.6" },
     { path: "/about", changefreq: "yearly", priority: "0.4" },
     { path: "/about/firoz-khan", changefreq: "monthly", priority: "0.5" },
+    { path: "/methodology", changefreq: "monthly", priority: "0.5" },
     { path: "/contact", changefreq: "yearly", priority: "0.4" },
     { path: "/privacy", changefreq: "yearly", priority: "0.3" },
     { path: "/terms", changefreq: "yearly", priority: "0.3" },

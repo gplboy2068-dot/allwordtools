@@ -42,7 +42,7 @@ export const categoryContent: Record<string, CategoryContent> = {
         heading: "What word solvers do",
         paragraphs: [
           "A word solver takes a set of letters, a pattern or a clue and finds every word that fits. The Word Unscrambler rearranges a bag of letters into all the valid words you can make, including shorter combinations that use only some of them. The Anagram Solver focuses on full rearrangements that use every letter to form a new word. The Word Finder lets you search by letters, length and wildcards at once, while the Crossword Solver fills missing squares from a clue length and the letters you already know. The Wordle Solver narrows the daily answer using your green, yellow and grey clues.",
-          "Because different games accept different words, choosing the right dictionary matters. Scrabble and Words With Friends each use their own official word lists and letter values, so a play that scores in one may not be valid in the other. Our solvers let you pick the correct dictionary, guaranteeing that the words you see are words you can actually play.",
+          "Because different games accept different words, choosing the right dictionary matters. Scrabble and Words With Friends each use their own distinctive word lists and letter values, so a play that scores in one may not be valid in the other. Our solvers let you select the appropriate game mode, helping ensure the words you see match standard gameplay rules and valid plays.",
         ],
       },
       {
@@ -76,7 +76,7 @@ export const categoryContent: Record<string, CategoryContent> = {
       {
         question: "Do word solvers work for Scrabble and Words With Friends?",
         answer:
-          "Yes. Our solvers let you choose the official dictionary and letter values for Scrabble or Words With Friends, so every play shown is valid and correctly scored for the game you are playing.",
+          "Yes. Our solvers let you choose the appropriate rules and letter values for Scrabble or Words With Friends, so every play shown is properly scored for the game you are playing.",
       },
       {
         question: "Can I unscramble words with a blank or wildcard tile?",

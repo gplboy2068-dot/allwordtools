@@ -281,7 +281,7 @@ export const categories: Category[] = [
       {
         slug: "scrabble-helper",
         name: "Scrabble Helper",
-        description: "Highest-scoring plays with the official Scrabble dictionary.",
+        description: "Highest-scoring plays using standard Scrabble letter values and word lists.",
         category: "game-helpers",
         isTrending: true,
       },

@@ -6414,7 +6414,7 @@ export const toolContent: Record<string, ToolContent> = {
       },
       {
         question: "What dictionary does the Wordscapes solver use?",
-        answer: "Our solver uses a verified, modern English gaming dictionary that mirrors the official Wordscapes accepted word list."
+        answer: "Our solver uses a verified, modern English gaming dictionary that mirrors standard Wordscapes accepted word combinations."
       }
     ],
     related: [
