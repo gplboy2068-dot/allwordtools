@@ -20,7 +20,7 @@ export const seoContent: ContentSection[] = [
     paragraphs: [
       "Word tools are online utilities designed to help you play word games, solve puzzles and improve your command of the English language. At their core, they take the letters, patterns or clues you already have and search enormous, carefully maintained dictionaries to reveal every possible word that fits. In a single click you can unscramble a jumble of letters, find every anagram, discover words that start or end with a specific string, or narrow down the answer to today's Wordle.",
       "What makes modern word tools so powerful is speed and breadth. Instead of flipping through a paper dictionary or guessing, you get a complete, ranked list of valid words in a fraction of a second. Results are usually organised by length and score, so the most useful plays float straight to the top. Whether you are a casual player, a competitive Scrabble enthusiast, a crossword devotee, a writer, a teacher or a language learner, there is a tool here built for exactly what you need.",
-      "Our platform brings hundreds of these tools together in one beautifully organised place. From word solvers and letter tools to writing aids and dedicated game helpers, every utility shares the same fast, friendly and accurate experience — no downloads, no sign-ups and no clutter.",
+      "Our platform brings 92 of these tools together across 13 beautifully organised categories. From word solvers and letter tools to writing aids and dedicated game helpers, every utility shares the same fast, friendly and accessible experience — no downloads, no sign-ups and no clutter.",
     ],
   },
   {
@@ -31,7 +31,7 @@ export const seoContent: ContentSection[] = [
     paragraphs: [
       "The most obvious benefit is winning more games. When you can instantly see the highest-scoring play from your Scrabble rack or the last few candidates in Wordle, you spend less time stuck and more time enjoying the game. But the advantages go far beyond a single match.",
       "Word tools are outstanding learning aids. Every time you unscramble letters or explore synonyms, you encounter new words, reinforce spelling and understand which letter combinations are valid in English. Students preparing for exams, writers searching for the perfect word, and learners building fluency all use these tools to grow their vocabulary in a way that feels effortless and even fun.",
-      "They are also great for settling friendly disputes. Is that really a word? Does it rhyme? How many syllables does it have? Instead of arguing, you get an instant, authoritative answer. And because everything is free and works on any device, help is always a tap away whether you are on the sofa, on the train or at your desk.",
+      "They are also great for settling friendly disputes. Is that really a word? Does it rhyme? How many syllables does it have? Instead of arguing, you get an instant, verifiable answer generated from curated word lists. And because everything is free and works on any device, help is always a tap away whether you are on the sofa, on the train or at your desk.",
     ],
   },
   {

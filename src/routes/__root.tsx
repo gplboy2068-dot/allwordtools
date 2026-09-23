@@ -82,7 +82,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Unscramble words, solve anagrams, beat Wordle, Scrabble & crosswords, and find rhymes and synonyms with 300+ fast, free word tools.",
+          "Unscramble words, solve anagrams, beat Wordle, Scrabble & crosswords, and find rhymes and synonyms with 92 fast, free word tools across 13 categories.",
       },
       { name: "author", content: "AllWordTools.com" },
       { property: "og:type", content: "website" },

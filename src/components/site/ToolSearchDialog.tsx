@@ -44,7 +44,7 @@ export function ToolSearchDialog({ open, onOpenChange }: Props) {
 
   return (
     <CommandDialog open={open} onOpenChange={onOpenChange}>
-      <CommandInput placeholder="Search 300+ word tools…" value={query} onValueChange={setQuery} />
+      <CommandInput placeholder="Search 92 word tools…" value={query} onValueChange={setQuery} />
       <CommandList>
         <CommandEmpty>No tools found. Try another search.</CommandEmpty>
         {groups.map((cat) => (

@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState, type FormEvent } from "react";
 import { toast } from "sonner";
 import { z } from "zod";
-import { Mail, Bug, Lightbulb, Briefcase, ShieldCheck } from "lucide-react";
+import { Mail, Bug, Lightbulb, Briefcase, ShieldCheck, AlertCircle, User, Github, Linkedin, Instagram, ExternalLink } from "lucide-react";
 import { PageLayout } from "@/components/site/PageLayout";
 import { legalHead } from "@/lib/legal-seo";
 import { Input } from "@/components/ui/input";
@@ -18,6 +18,9 @@ import {
 } from "@/components/ui/select";
 
 const EMAIL = "hello@allwordtools.com";
+const LINKEDIN_URL = "https://www.linkedin.com/in/firoz-khan-1153358a/";
+const GITHUB_URL = "https://github.com/fkdigitalmedia";
+const INSTAGRAM_URL = "https://www.instagram.com/";
 
 const contactSchema = z.object({
   name: z.string().trim().min(1, "Please enter your name").max(100, "Name is too long"),
@@ -35,9 +38,9 @@ type FieldErrors = Partial<Record<keyof z.infer<typeof contactSchema>, string>>;
 export const Route = createFileRoute("/contact")({
   head: () =>
     legalHead({
-      title: "Contact",
+      title: "Contact & Error Reporting",
       description:
-        "Get in touch with the AllWordTools team. Send feedback, report a bug, suggest a tool or make a privacy request.",
+        "Contact Firoz Khan and the AllWordTools project under FK Digital Media. Report incorrect words, solver bugs, suggest tools, or make general inquiries.",
       path: "/contact",
       crumb: "Contact",
     }),
@@ -73,8 +76,8 @@ export function ContactPage() {
     setErrors({});
     setSubmitting(true);
     const { name, email, topic: t, message } = result.data;
-    const subject = encodeURIComponent(`[${t}] Message from ${name}`);
-    const body = encodeURIComponent(`${message}\n\n— ${name} (${email})`);
+    const subject = encodeURIComponent(`[${t}] Message from ${name} via AllWordTools`);
+    const body = encodeURIComponent(`${message}\n\n— ${name} (${email})\nTopic: ${t}`);
     // Open the user's email client with a prefilled message.
     window.location.href = `mailto:${EMAIL}?subject=${subject}&body=${body}`;
     toast.success("Thanks! Your email draft is ready to send.");
@@ -86,8 +89,8 @@ export function ContactPage() {
   return (
     <PageLayout
       crumb="Contact"
-      title="Contact us"
-      intro="We'd love to hear from you — feedback, bug reports, suggestions and business enquiries are all welcome."
+      title="Contact & Error Reporting"
+      intro="AllWordTools is developed and maintained by Firoz Khan under FK Digital Media. Reach out for word corrections, bug reports, feature suggestions, or business inquiries."
     >
       <div className="grid gap-10 lg:grid-cols-[1.4fr_1fr]">
         {/* Form */}
@@ -140,11 +143,12 @@ export function ContactPage() {
                 <SelectValue placeholder="Choose a topic" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="General">General enquiry</SelectItem>
-                <SelectItem value="Business">Business enquiry</SelectItem>
-                <SelectItem value="Bug report">Bug report</SelectItem>
-                <SelectItem value="Suggestion">Suggestion</SelectItem>
-                <SelectItem value="Privacy request">Privacy request</SelectItem>
+                <SelectItem value="Word / Dictionary Error">Report a Word or Dictionary Error</SelectItem>
+                <SelectItem value="Tool Bug / Broken Feature">Report a Solver Bug or Broken Feature</SelectItem>
+                <SelectItem value="General Enquiry">General Enquiry</SelectItem>
+                <SelectItem value="Suggestion / New Tool">Suggestion for a New Tool or Improvement</SelectItem>
+                <SelectItem value="Business / Collaboration">Business or Collaboration</SelectItem>
+                <SelectItem value="Privacy Request">Privacy Request</SelectItem>
               </SelectContent>
             </Select>
             {errors.topic && (
@@ -163,7 +167,7 @@ export function ContactPage() {
               maxLength={2000}
               aria-invalid={!!errors.message}
               aria-describedby={errors.message ? "message-error" : undefined}
-              placeholder="How can we help?"
+              placeholder="Please provide details (for word errors, include the tool name, input entered, expected word, and any relevant game rules)."
             />
             {errors.message && (
               <p id="message-error" className="text-sm text-destructive">
@@ -177,7 +181,7 @@ export function ContactPage() {
             Send message
           </Button>
           <p className="text-sm text-muted-foreground">
-            Prefer email? Write to{" "}
+            Prefer direct email? Write to{" "}
             <a href={`mailto:${EMAIL}`} className="font-medium text-honey hover:underline">
               {EMAIL}
             </a>
@@ -185,29 +189,34 @@ export function ContactPage() {
           </p>
         </form>
 
-        {/* Contact options */}
+        {/* Contact options & Identity */}
         <aside className="space-y-4">
           <ContactCard
-            icon={<Briefcase className="h-5 w-5" />}
-            title="Business inquiries"
-            desc="Partnerships, advertising and collaborations."
+            icon={<AlertCircle className="h-5 w-5" />}
+            title="Report a Word or Tool Error"
+            desc="Found an incorrect word, missing entry, wrong definition, wrong syllable count, inaccurate score, or solver glitch? We appreciate your help in keeping our tools accurate."
           />
           <ContactCard
             icon={<Bug className="h-5 w-5" />}
             title="Bug reports"
-            desc="Something not working? Tell us what happened."
+            desc="Something not displaying properly or failing to load? Let us know which browser and device you are using."
           />
           <ContactCard
             icon={<Lightbulb className="h-5 w-5" />}
             title="Suggestions"
-            desc="Ideas for new tools or improvements."
+            desc="Ideas for new tools, additional language datasets, or workflow improvements."
+          />
+          <ContactCard
+            icon={<Briefcase className="h-5 w-5" />}
+            title="Business inquiries"
+            desc="Partnerships, technical inquiries, and collaborations."
           />
           <ContactCard
             icon={<ShieldCheck className="h-5 w-5" />}
             title="Privacy requests"
             desc={
               <>
-                Access or delete your data — see our{" "}
+                Access or data inquiries — read our{" "}
                 <Link to="/privacy" className="font-medium text-honey hover:underline">
                   Privacy Policy
                 </Link>
@@ -215,6 +224,37 @@ export function ContactPage() {
               </>
             }
           />
+
+          {/* Maintainer Identity Card */}
+          <div className="mt-6 rounded-2xl border border-border/70 bg-card p-5 shadow-soft">
+            <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-honey">
+              <User className="h-4 w-4" /> Project Maintainer
+            </div>
+            <h4 className="mt-2 font-display text-base font-bold text-foreground">Firoz Khan</h4>
+            <p className="text-xs text-muted-foreground mt-0.5">
+              Full Stack Developer · <span className="font-medium text-foreground">FK Digital Media</span>
+            </p>
+            <p className="mt-2.5 text-xs text-muted-foreground leading-relaxed">
+              Firoz builds and maintains AllWordTools.com independently. View his background, technical focus, and profile links:
+            </p>
+            <div className="mt-3 flex flex-wrap gap-2 pt-2 border-t border-border/60 text-xs">
+              <Link to="/about/firoz-khan" className="font-semibold text-honey hover:underline">
+                Author Profile →
+              </Link>
+              <span className="text-muted-foreground/40">·</span>
+              <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground">
+                GitHub
+              </a>
+              <span className="text-muted-foreground/40">·</span>
+              <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground">
+                LinkedIn
+              </a>
+              <span className="text-muted-foreground/40">·</span>
+              <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground">
+                Instagram
+              </a>
+            </div>
+          </div>
         </aside>
       </div>
     </PageLayout>
@@ -237,7 +277,7 @@ function ContactCard({
       </span>
       <div>
         <h3 className="text-sm font-semibold text-foreground">{title}</h3>
-        <p className="mt-1 text-sm text-muted-foreground">{desc}</p>
+        <p className="mt-1 text-sm text-muted-foreground leading-relaxed">{desc}</p>
       </div>
     </div>
   );

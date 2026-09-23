@@ -15,7 +15,7 @@ import { getLocalizedCategory } from "@/i18n/categories";
 const SITE = "AllWordTools.com";
 export const TITLE = `All Word Tools — Browse Every Tool by Category | ${SITE}`;
 export const DESCRIPTION =
-  "Browse every AllWordTools tool in one place. Search and filter 300+ free word game solvers, letter tools, writing aids, AI tools and more, grouped by category.";
+  "Browse every AllWordTools tool in one place. Search and filter 92 free word game solvers, letter tools, writing aids, AI tools and more, grouped by 13 categories.";
 
 const jsonLd = {
   "@context": "https://schema.org",

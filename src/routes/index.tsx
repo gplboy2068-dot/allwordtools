@@ -17,28 +17,59 @@ import { DEFAULT_LOCALE } from "@/i18n/locales";
 const SITE_NAME = "AllWordTools.com";
 const TITLE = "AllWordTools.com — Free Word Game Solvers & English Word Tools";
 const DESCRIPTION =
-  "Unscramble words, solve anagrams, beat Wordle, Scrabble & crosswords, and find rhymes, synonyms and more with 300+ fast, free word tools. No sign-up required.";
+  "Unscramble words, solve anagrams, beat Wordle, Scrabble & crosswords, and find rhymes, synonyms and more with 92 fast, free word tools across 13 categories. No sign-up required.";
 
 const jsonLd = [
   {
     "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Firoz Khan",
+    jobTitle: "Full Stack Developer",
+    url: "https://www.allwordtools.com/about/firoz-khan",
+    sameAs: [
+      "https://www.linkedin.com/in/firoz-khan-1153358a/",
+      "https://github.com/fkdigitalmedia",
+      "https://www.instagram.com/",
+    ],
+    worksFor: {
+      "@type": "Organization",
+      name: "FK Digital Media",
+    },
+  },
+  {
+    "@context": "https://schema.org",
     "@type": "Organization",
-    name: SITE_NAME,
-    url: "/",
-    description: DESCRIPTION,
-    logo: "/favicon.ico",
+    name: "FK Digital Media",
+    url: "https://www.allwordtools.com/about",
+    founder: {
+      "@type": "Person",
+      name: "Firoz Khan",
+    },
+    sameAs: [
+      "https://github.com/fkdigitalmedia",
+      "https://www.linkedin.com/in/firoz-khan-1153358a/",
+      "https://www.instagram.com/",
+    ],
   },
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: SITE_NAME,
-    url: "/",
+    url: "https://www.allwordtools.com",
     description: DESCRIPTION,
+    creator: {
+      "@type": "Person",
+      name: "Firoz Khan",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "FK Digital Media",
+    },
     potentialAction: {
       "@type": "SearchAction",
       target: {
         "@type": "EntryPoint",
-        urlTemplate: "/?q={search_term_string}",
+        urlTemplate: "https://www.allwordtools.com/?q={search_term_string}",
       },
       "query-input": "required name=search_term_string",
     },

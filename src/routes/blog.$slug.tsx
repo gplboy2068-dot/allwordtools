@@ -68,13 +68,20 @@ export function blogPostHead(slug: string, locale: string = DEFAULT_LOCALE) {
           datePublished: "2026-08-01T08:00:00+00:00",
           dateModified: "2026-08-22T08:00:00+00:00",
           author: {
-            "@type": "Organization",
-            name: "AllWordTools Editorial Team",
-            url: BASE_URL,
+            "@type": "Person",
+            name: "Firoz Khan",
+            jobTitle: "Full Stack Developer",
+            url: `${BASE_URL}/about/firoz-khan`,
+            sameAs: [
+              "https://www.linkedin.com/in/firoz-khan-1153358a/",
+              "https://github.com/fkdigitalmedia",
+              "https://www.instagram.com/",
+            ],
           },
           publisher: {
             "@type": "Organization",
-            name: "AllWordTools.com",
+            name: "FK Digital Media",
+            url: `${BASE_URL}/about`,
             logo: {
               "@type": "ImageObject",
               url: `${BASE_URL}/favicon.png`,
@@ -159,7 +166,15 @@ export function BlogPostView({ slug }: { slug: string }) {
 
             <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 text-xs text-muted-foreground">
               <span className="inline-flex items-center gap-1.5">
-                <User className="h-3.5 w-3.5" /> {post.author}
+                <User className="h-3.5 w-3.5" />
+                <Link
+                  to={isDefault ? "/about/firoz-khan" : ("/$locale/about/firoz-khan" as any)}
+                  params={isDefault ? {} : { locale }}
+                  className="font-medium text-foreground hover:underline"
+                >
+                  {post.author}
+                </Link>
+                <span className="text-muted-foreground/60">(Full Stack Developer)</span>
               </span>
               <span className="inline-flex items-center gap-1.5">
                 <CalendarDays className="h-3.5 w-3.5" /> {post.publishedDate}
@@ -244,6 +259,39 @@ export function BlogPostView({ slug }: { slug: string }) {
                 </li>
               ))}
             </ul>
+          </div>
+
+          {/* Author Attribution Card */}
+          <div className="mt-12 rounded-2xl border border-border/70 bg-card p-6 shadow-soft">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+              <div>
+                <span className="text-[11px] font-semibold uppercase tracking-wider text-honey">
+                  Written &amp; Maintained By
+                </span>
+                <h4 className="font-display text-lg font-bold text-foreground mt-0.5">
+                  <Link
+                    to={isDefault ? "/about/firoz-khan" : ("/$locale/about/firoz-khan" as any)}
+                    params={isDefault ? {} : { locale }}
+                    className="hover:underline"
+                  >
+                    Firoz Khan
+                  </Link>
+                </h4>
+                <p className="text-xs text-muted-foreground mt-1 leading-relaxed max-w-lg">
+                  Full Stack Developer and creator of AllWordTools.com under FK Digital Media. Builds fast, accessible online word solvers and web developer utilities.
+                </p>
+              </div>
+              <div className="flex items-center gap-2 shrink-0">
+                <Button asChild variant="outline" size="sm" className="rounded-full text-xs">
+                  <Link
+                    to={isDefault ? "/about/firoz-khan" : ("/$locale/about/firoz-khan" as any)}
+                    params={isDefault ? {} : { locale }}
+                  >
+                    View Profile
+                  </Link>
+                </Button>
+              </div>
+            </div>
           </div>
 
           {/* Bottom Tool CTA */}

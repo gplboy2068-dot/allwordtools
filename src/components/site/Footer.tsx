@@ -30,8 +30,48 @@ export function Footer() {
             </span>
           </Link>
           <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-            {t("footer.brandBlurb")}
+            AllWordTools is an independent collection of online word and language tools.
           </p>
+          <div className="mt-3 text-xs text-muted-foreground">
+            <span>Maintained by </span>
+            <Link
+              to={isDefault ? "/about/firoz-khan" : "/$locale/about/firoz-khan"}
+              params={isDefault ? {} : { locale }}
+              className="font-medium text-foreground hover:underline"
+            >
+              Firoz Khan
+            </Link>
+            <span> (Full Stack Developer) · </span>
+            <span className="font-medium text-foreground">FK Digital Media</span>
+          </div>
+          <div className="mt-3 flex items-center gap-3 text-xs text-muted-foreground">
+            <a
+              href="https://github.com/fkdigitalmedia"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-foreground transition-colors"
+            >
+              GitHub
+            </a>
+            <span>·</span>
+            <a
+              href="https://www.linkedin.com/in/firoz-khan-1153358a/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-foreground transition-colors"
+            >
+              LinkedIn
+            </a>
+            <span>·</span>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-foreground transition-colors"
+            >
+              Instagram
+            </a>
+          </div>
         </div>
 
         {/* Exactly five link columns */}
@@ -47,6 +87,15 @@ export function Footer() {
                   className={muted}
                 >
                   {t("footer.about")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to={isDefault ? "/about/firoz-khan" : "/$locale/about/firoz-khan"}
+                  params={isDefault ? {} : { locale }}
+                  className={muted}
+                >
+                  Author &amp; Maintainer
                 </Link>
               </li>
               <li>
@@ -74,6 +123,15 @@ export function Footer() {
                   className={muted}
                 >
                   {t("footer.contact")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to={isDefault ? "/contact" : "/$locale/contact"}
+                  params={isDefault ? {} : { locale }}
+                  className="text-xs text-honey hover:underline"
+                >
+                  Report an Error
                 </Link>
               </li>
             </ul>

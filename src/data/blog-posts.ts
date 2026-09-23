@@ -42,7 +42,7 @@ export const blogPosts: BlogPost[] = [
     category: "Word Games",
     publishedDate: "August 2026",
     readTime: "7 min read",
-    author: "Editorial Team",
+    author: "Firoz Khan",
     excerpt: "The best starting words, letter elimination strategies, and how to narrow down the secret word in 4 guesses or fewer.",
     leadParagraph: "Wordle has captured millions of daily players worldwide with its deceptively simple premise: guess a mystery five-letter word in six tries. While casual players rely purely on intuition, mathematically optimal play and linguistic probability can dramatically boost your win streak and lower your average guess count.",
     sections: [
@@ -107,7 +107,7 @@ export const blogPosts: BlogPost[] = [
     category: "Word Games",
     publishedDate: "August 2026",
     readTime: "8 min read",
-    author: "Editorial Team",
+    author: "Firoz Khan",
     excerpt: "Master high-scoring 2-letter words, premium square multiplication, rack management, and defensive board play.",
     leadParagraph: "Scrabble and Words With Friends aren't just about knowing long, obscure words—they are strategic board games governed by spatial geometry, rack management, and mathematical multipliers. Tournament masters consistently score 400+ points by maximizing bonus squares and playing high-value tiles on parallel lines.",
     sections: [
@@ -162,7 +162,7 @@ export const blogPosts: BlogPost[] = [
     category: "Writing",
     publishedDate: "August 2026",
     readTime: "6 min read",
-    author: "Editorial Team",
+    author: "Firoz Khan",
     excerpt: "Learn how to spot passive constructions, use the Zombie Test, and convert sentences into punchy, direct active voice.",
     leadParagraph: "Clear writing is active writing. In active voice, the subject of the sentence performs the action; in passive voice, the subject receives the action. While passive voice has legitimate uses in scientific research and diplomatic reports, overusing it makes business emails, essays, and articles sound timid and wordy.",
     sections: [
@@ -215,7 +215,7 @@ export const blogPosts: BlogPost[] = [
     category: "Learning",
     publishedDate: "August 2026",
     readTime: "8 min read",
-    author: "Editorial Team",
+    author: "Firoz Khan",
     excerpt: "Discover the linguistic secrets of root words, spaced repetition, and contextual learning to master sophisticated English vocabulary.",
     leadParagraph: "Having a rich vocabulary isn't about memorizing dictionary pages—it's about understanding how words are built, how they connect semantically, and using active recall to transfer them from passive recognition to your active speaking lexicon.",
     sections: [
@@ -263,7 +263,7 @@ export const blogPosts: BlogPost[] = [
     category: "Solvers",
     publishedDate: "August 2026",
     readTime: "6 min read",
-    author: "Editorial Team",
+    author: "Firoz Khan",
     excerpt: "An inside look into the algorithms, anagram hash maps, and Trie data structures that unscramble millions of words in milliseconds.",
     leadParagraph: "Ever wondered how online word solvers can search a 200,000-word dictionary and return every valid word from your scrambled letter tiles in less than 5 milliseconds? The answer lies in elegant computer science algorithms, anagram signatures, and Trie data structures.",
     sections: [
@@ -311,7 +311,7 @@ export const blogPosts: BlogPost[] = [
     category: "AI & Creativity",
     publishedDate: "August 2026",
     readTime: "7 min read",
-    author: "Editorial Team",
+    author: "Firoz Khan",
     excerpt: "How modern writers use AI as a collaborative brainstormer for plot outlines, sensory descriptions, and vivid character identities.",
     leadParagraph: "Artificial Intelligence isn't here to replace human imagination—it is the ultimate brainstorming assistant. Writers, screenwriters, poets, and game developers use AI to smash through writer's block, generate evocative character names, test rhyming schemes, and draft rich atmospheric settings.",
     sections: [

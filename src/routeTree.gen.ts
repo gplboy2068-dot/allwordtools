@@ -29,6 +29,7 @@ import { Route as ToolToolRouteImport } from './routes/tool.$tool'
 import { Route as SitemapLocaleRouteImport } from './routes/sitemap/$locale'
 import { Route as CategoryCategoryRouteImport } from './routes/category.$category'
 import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
+import { Route as AboutFirozKhanRouteImport } from './routes/about.firoz-khan'
 import { Route as LocaleToolsRouteImport } from './routes/$locale.tools'
 import { Route as LocaleTermsRouteImport } from './routes/$locale.terms'
 import { Route as LocalePrivacyRouteImport } from './routes/$locale.privacy'
@@ -42,6 +43,7 @@ import { Route as LocaleBlogIndexRouteImport } from './routes/$locale.blog.index
 import { Route as LocaleToolToolRouteImport } from './routes/$locale.tool.$tool'
 import { Route as LocaleCategoryCategoryRouteImport } from './routes/$locale.category.$category'
 import { Route as LocaleBlogSlugRouteImport } from './routes/$locale.blog.$slug'
+import { Route as LocaleAboutFirozKhanRouteImport } from './routes/$locale.about.firoz-khan'
 
 const ToolsRoute = ToolsRouteImport.update({
   id: '/tools',
@@ -143,6 +145,11 @@ const BlogSlugRoute = BlogSlugRouteImport.update({
   path: '/blog/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AboutFirozKhanRoute = AboutFirozKhanRouteImport.update({
+  id: '/firoz-khan',
+  path: '/firoz-khan',
+  getParentRoute: () => AboutRoute,
+} as any)
 const LocaleToolsRoute = LocaleToolsRouteImport.update({
   id: '/tools',
   path: '/tools',
@@ -208,11 +215,16 @@ const LocaleBlogSlugRoute = LocaleBlogSlugRouteImport.update({
   path: '/blog/$slug',
   getParentRoute: () => LocaleRoute,
 } as any)
+const LocaleAboutFirozKhanRoute = LocaleAboutFirozKhanRouteImport.update({
+  id: '/firoz-khan',
+  path: '/firoz-khan',
+  getParentRoute: () => LocaleAboutRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/$locale': typeof LocaleRouteWithChildren
-  '/about': typeof AboutRoute
+  '/about': typeof AboutRouteWithChildren
   '/admin': typeof AdminRoute
   '/contact': typeof ContactRoute
   '/cookie-policy': typeof CookiePolicyRoute
@@ -224,7 +236,7 @@ export interface FileRoutesByFullPath {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
   '/tools': typeof ToolsRoute
-  '/$locale/about': typeof LocaleAboutRoute
+  '/$locale/about': typeof LocaleAboutRouteWithChildren
   '/$locale/contact': typeof LocaleContactRoute
   '/$locale/cookie-policy': typeof LocaleCookiePolicyRoute
   '/$locale/disclaimer': typeof LocaleDisclaimerRoute
@@ -233,12 +245,14 @@ export interface FileRoutesByFullPath {
   '/$locale/privacy': typeof LocalePrivacyRoute
   '/$locale/terms': typeof LocaleTermsRoute
   '/$locale/tools': typeof LocaleToolsRoute
+  '/about/firoz-khan': typeof AboutFirozKhanRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/category/$category': typeof CategoryCategoryRoute
   '/sitemap/$locale': typeof SitemapLocaleRoute
   '/tool/$tool': typeof ToolToolRoute
   '/$locale/': typeof LocaleIndexRoute
   '/blog/': typeof BlogIndexRoute
+  '/$locale/about/firoz-khan': typeof LocaleAboutFirozKhanRoute
   '/$locale/blog/$slug': typeof LocaleBlogSlugRoute
   '/$locale/category/$category': typeof LocaleCategoryCategoryRoute
   '/$locale/tool/$tool': typeof LocaleToolToolRoute
@@ -246,7 +260,7 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
+  '/about': typeof AboutRouteWithChildren
   '/admin': typeof AdminRoute
   '/contact': typeof ContactRoute
   '/cookie-policy': typeof CookiePolicyRoute
@@ -258,7 +272,7 @@ export interface FileRoutesByTo {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
   '/tools': typeof ToolsRoute
-  '/$locale/about': typeof LocaleAboutRoute
+  '/$locale/about': typeof LocaleAboutRouteWithChildren
   '/$locale/contact': typeof LocaleContactRoute
   '/$locale/cookie-policy': typeof LocaleCookiePolicyRoute
   '/$locale/disclaimer': typeof LocaleDisclaimerRoute
@@ -267,12 +281,14 @@ export interface FileRoutesByTo {
   '/$locale/privacy': typeof LocalePrivacyRoute
   '/$locale/terms': typeof LocaleTermsRoute
   '/$locale/tools': typeof LocaleToolsRoute
+  '/about/firoz-khan': typeof AboutFirozKhanRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/category/$category': typeof CategoryCategoryRoute
   '/sitemap/$locale': typeof SitemapLocaleRoute
   '/tool/$tool': typeof ToolToolRoute
   '/$locale': typeof LocaleIndexRoute
   '/blog': typeof BlogIndexRoute
+  '/$locale/about/firoz-khan': typeof LocaleAboutFirozKhanRoute
   '/$locale/blog/$slug': typeof LocaleBlogSlugRoute
   '/$locale/category/$category': typeof LocaleCategoryCategoryRoute
   '/$locale/tool/$tool': typeof LocaleToolToolRoute
@@ -282,7 +298,7 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/$locale': typeof LocaleRouteWithChildren
-  '/about': typeof AboutRoute
+  '/about': typeof AboutRouteWithChildren
   '/admin': typeof AdminRoute
   '/contact': typeof ContactRoute
   '/cookie-policy': typeof CookiePolicyRoute
@@ -294,7 +310,7 @@ export interface FileRoutesById {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
   '/tools': typeof ToolsRoute
-  '/$locale/about': typeof LocaleAboutRoute
+  '/$locale/about': typeof LocaleAboutRouteWithChildren
   '/$locale/contact': typeof LocaleContactRoute
   '/$locale/cookie-policy': typeof LocaleCookiePolicyRoute
   '/$locale/disclaimer': typeof LocaleDisclaimerRoute
@@ -303,12 +319,14 @@ export interface FileRoutesById {
   '/$locale/privacy': typeof LocalePrivacyRoute
   '/$locale/terms': typeof LocaleTermsRoute
   '/$locale/tools': typeof LocaleToolsRoute
+  '/about/firoz-khan': typeof AboutFirozKhanRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/category/$category': typeof CategoryCategoryRoute
   '/sitemap/$locale': typeof SitemapLocaleRoute
   '/tool/$tool': typeof ToolToolRoute
   '/$locale/': typeof LocaleIndexRoute
   '/blog/': typeof BlogIndexRoute
+  '/$locale/about/firoz-khan': typeof LocaleAboutFirozKhanRoute
   '/$locale/blog/$slug': typeof LocaleBlogSlugRoute
   '/$locale/category/$category': typeof LocaleCategoryCategoryRoute
   '/$locale/tool/$tool': typeof LocaleToolToolRoute
@@ -340,12 +358,14 @@ export interface FileRouteTypes {
     | '/$locale/privacy'
     | '/$locale/terms'
     | '/$locale/tools'
+    | '/about/firoz-khan'
     | '/blog/$slug'
     | '/category/$category'
     | '/sitemap/$locale'
     | '/tool/$tool'
     | '/$locale/'
     | '/blog/'
+    | '/$locale/about/firoz-khan'
     | '/$locale/blog/$slug'
     | '/$locale/category/$category'
     | '/$locale/tool/$tool'
@@ -374,12 +394,14 @@ export interface FileRouteTypes {
     | '/$locale/privacy'
     | '/$locale/terms'
     | '/$locale/tools'
+    | '/about/firoz-khan'
     | '/blog/$slug'
     | '/category/$category'
     | '/sitemap/$locale'
     | '/tool/$tool'
     | '/$locale'
     | '/blog'
+    | '/$locale/about/firoz-khan'
     | '/$locale/blog/$slug'
     | '/$locale/category/$category'
     | '/$locale/tool/$tool'
@@ -409,12 +431,14 @@ export interface FileRouteTypes {
     | '/$locale/privacy'
     | '/$locale/terms'
     | '/$locale/tools'
+    | '/about/firoz-khan'
     | '/blog/$slug'
     | '/category/$category'
     | '/sitemap/$locale'
     | '/tool/$tool'
     | '/$locale/'
     | '/blog/'
+    | '/$locale/about/firoz-khan'
     | '/$locale/blog/$slug'
     | '/$locale/category/$category'
     | '/$locale/tool/$tool'
@@ -424,7 +448,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   LocaleRoute: typeof LocaleRouteWithChildren
-  AboutRoute: typeof AboutRoute
+  AboutRoute: typeof AboutRouteWithChildren
   AdminRoute: typeof AdminRoute
   ContactRoute: typeof ContactRoute
   CookiePolicyRoute: typeof CookiePolicyRoute
@@ -585,6 +609,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/about/firoz-khan': {
+      id: '/about/firoz-khan'
+      path: '/firoz-khan'
+      fullPath: '/about/firoz-khan'
+      preLoaderRoute: typeof AboutFirozKhanRouteImport
+      parentRoute: typeof AboutRoute
+    }
     '/$locale/tools': {
       id: '/$locale/tools'
       path: '/tools'
@@ -676,11 +707,30 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LocaleBlogSlugRouteImport
       parentRoute: typeof LocaleRoute
     }
+    '/$locale/about/firoz-khan': {
+      id: '/$locale/about/firoz-khan'
+      path: '/firoz-khan'
+      fullPath: '/$locale/about/firoz-khan'
+      preLoaderRoute: typeof LocaleAboutFirozKhanRouteImport
+      parentRoute: typeof LocaleAboutRoute
+    }
   }
 }
 
+interface LocaleAboutRouteChildren {
+  LocaleAboutFirozKhanRoute: typeof LocaleAboutFirozKhanRoute
+}
+
+const LocaleAboutRouteChildren: LocaleAboutRouteChildren = {
+  LocaleAboutFirozKhanRoute: LocaleAboutFirozKhanRoute,
+}
+
+const LocaleAboutRouteWithChildren = LocaleAboutRoute._addFileChildren(
+  LocaleAboutRouteChildren,
+)
+
 interface LocaleRouteChildren {
-  LocaleAboutRoute: typeof LocaleAboutRoute
+  LocaleAboutRoute: typeof LocaleAboutRouteWithChildren
   LocaleContactRoute: typeof LocaleContactRoute
   LocaleCookiePolicyRoute: typeof LocaleCookiePolicyRoute
   LocaleDisclaimerRoute: typeof LocaleDisclaimerRoute
@@ -697,7 +747,7 @@ interface LocaleRouteChildren {
 }
 
 const LocaleRouteChildren: LocaleRouteChildren = {
-  LocaleAboutRoute: LocaleAboutRoute,
+  LocaleAboutRoute: LocaleAboutRouteWithChildren,
   LocaleContactRoute: LocaleContactRoute,
   LocaleCookiePolicyRoute: LocaleCookiePolicyRoute,
   LocaleDisclaimerRoute: LocaleDisclaimerRoute,
@@ -716,10 +766,20 @@ const LocaleRouteChildren: LocaleRouteChildren = {
 const LocaleRouteWithChildren =
   LocaleRoute._addFileChildren(LocaleRouteChildren)
 
+interface AboutRouteChildren {
+  AboutFirozKhanRoute: typeof AboutFirozKhanRoute
+}
+
+const AboutRouteChildren: AboutRouteChildren = {
+  AboutFirozKhanRoute: AboutFirozKhanRoute,
+}
+
+const AboutRouteWithChildren = AboutRoute._addFileChildren(AboutRouteChildren)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   LocaleRoute: LocaleRouteWithChildren,
-  AboutRoute: AboutRoute,
+  AboutRoute: AboutRouteWithChildren,
   AdminRoute: AdminRoute,
   ContactRoute: ContactRoute,
   CookiePolicyRoute: CookiePolicyRoute,
