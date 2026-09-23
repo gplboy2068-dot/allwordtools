@@ -11,7 +11,7 @@ const BRAND_NAME = "FK Digital Media";
 
 const LINKEDIN_URL = "https://www.linkedin.com/in/firoz-khan-1153358a/";
 const GITHUB_URL = "https://github.com/fkdigitalmedia";
-const INSTAGRAM_URL = "https://www.instagram.com/";
+const INSTAGRAM_URL = "https://www.instagram.com/rtibyfiroz/";
 
 export const Route = createFileRoute("/about/firoz-khan")({
   head: () => {
@@ -47,6 +47,7 @@ export const Route = createFileRoute("/about/firoz-khan")({
             "@type": "Person",
             name: PROFILE_NAME,
             jobTitle: JOB_TITLE,
+            image: `${BASE_URL}/author/firoz-khan.png`,
             url,
             worksFor: {
               "@type": "Organization",
@@ -73,17 +74,24 @@ export function FirozKhanProfilePage() {
         {/* Profile Header Card */}
         <div className="rounded-3xl border border-border/70 bg-card p-6 sm:p-8 shadow-soft">
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
-            <div>
-              <div className="inline-flex items-center gap-2 rounded-full border border-border/70 bg-secondary/60 px-3.5 py-1 text-xs font-semibold text-honey mb-3">
-                <Code2 className="h-3.5 w-3.5" /> Full Stack Developer
+            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-5">
+              <img
+                src="/author/firoz-khan.png"
+                alt="Firoz Khan — Full Stack Developer"
+                className="h-24 w-24 sm:h-28 sm:w-28 rounded-2xl object-cover border-2 border-border/80 shadow-md shrink-0 bg-secondary"
+              />
+              <div>
+                <div className="inline-flex items-center gap-2 rounded-full border border-border/70 bg-secondary/60 px-3.5 py-1 text-xs font-semibold text-honey mb-3">
+                  <Code2 className="h-3.5 w-3.5" /> Full Stack Developer
+                </div>
+                <h2 className="font-display text-2xl sm:text-3xl font-bold tracking-tight text-foreground">
+                  {PROFILE_NAME}
+                </h2>
+                <p className="mt-2 text-sm sm:text-base text-muted-foreground max-w-2xl leading-relaxed">
+                  Full Stack Developer responsible for the technical development, architecture, algorithms,
+                  and ongoing maintenance of <Link to="/" className="font-medium text-foreground hover:underline">AllWordTools.com</Link> under the <span className="font-medium text-foreground">{BRAND_NAME}</span> digital development brand.
+                </p>
               </div>
-              <h2 className="font-display text-2xl sm:text-3xl font-bold tracking-tight text-foreground">
-                {PROFILE_NAME}
-              </h2>
-              <p className="mt-2 text-sm sm:text-base text-muted-foreground max-w-2xl leading-relaxed">
-                Full Stack Developer responsible for the technical development, architecture, algorithms,
-                and ongoing maintenance of <Link to="/" className="font-medium text-foreground hover:underline">AllWordTools.com</Link> under the <span className="font-medium text-foreground">{BRAND_NAME}</span> digital development brand.
-              </p>
             </div>
 
             {/* Verified External Profile Links */}

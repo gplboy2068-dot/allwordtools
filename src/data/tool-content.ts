@@ -998,7 +998,7 @@ export const toolContent: Record<string, ToolContent> = {
     intro: [
       "A letter counter gives you an instant, accurate breakdown of any piece of text. Paste an essay, a tweet, a product description or a poem into the AllWordTools.com Letter Counter, and it counts characters, letters, words, sentences, paragraphs, spaces and lines in real time as you type — no button to press.",
       "It goes further than a simple word counter by adding a full letter-frequency chart, showing exactly how often each letter appears. That is useful for writers checking readability, students meeting length requirements, developers validating input limits, and puzzle fans studying letter distributions.",
-      "Everything runs privately in your browser. Your text never leaves your device, the tool is completely free, and there are no limits on how much you can analyse.",
+      "This tool runs entirely in your browser. Your input text is processed locally, nothing is uploaded to our servers, and there are no limits on how much text you can analyze.",
     ],
     howToTitle: "How to use the Letter Counter",
     howToSteps: [
@@ -1069,7 +1069,7 @@ export const toolContent: Record<string, ToolContent> = {
       {
         question: "Is my text stored or sent anywhere?",
         answer:
-          "No. Everything runs entirely in your browser. Your text never leaves your device and nothing is saved or uploaded.",
+          "No. For the Letter Counter, all calculations execute locally in your browser. Your input text is not transmitted to our servers or stored.",
       },
       {
         question: "What is the difference between characters and letters?",
@@ -1620,7 +1620,7 @@ export const toolContent: Record<string, ToolContent> = {
       {
         question: "Is my text private?",
         answer:
-          "Completely. The counter runs entirely in your browser — your text is never uploaded or stored, and nothing leaves your device.",
+          "Yes. For the Syllable Counter, all calculations execute locally in your browser — your input text is not transmitted to our servers or stored.",
       },
       {
         question: "Can it count a whole poem or paragraph?",
@@ -7403,7 +7403,7 @@ export const toolContent: Record<string, ToolContent> = {
   "intro": [
     "Invented by Lewis Carroll in 1877, a Word Ladder (also known as Doublets or Word-Links) challenges players to turn a starting word into a target word by changing exactly one letter at each step, with every intermediate step forming a valid dictionary word.",
     "Our Word Ladder Solver uses graph search algorithms to compute the optimal, shortest solution path between any two words of equal length.",
-    "Free, instant, and guaranteed to find the minimum steps possible."
+    "Free, instant, and designed to compute the shortest transformation sequence possible using breadth-first search."
   ],
   "howToTitle": "How to use the Word Ladder Solver",
   "howToSteps": [

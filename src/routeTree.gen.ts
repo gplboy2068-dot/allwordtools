@@ -12,14 +12,17 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as ToolsRouteImport } from './routes/tools'
 import { Route as TermsRouteImport } from './routes/terms'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
+import { Route as ReportErrorRouteImport } from './routes/report-error'
 import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as MethodologyRouteImport } from './routes/methodology'
 import { Route as LoginRouteImport } from './routes/login'
 import { Route as LearnRouteImport } from './routes/learn'
 import { Route as DmcaRouteImport } from './routes/dmca'
 import { Route as DisclaimerRouteImport } from './routes/disclaimer'
+import { Route as DataLimitationsRouteImport } from './routes/data-limitations'
 import { Route as CookiePolicyRouteImport } from './routes/cookie-policy'
 import { Route as ContactRouteImport } from './routes/contact'
+import { Route as AiToolsRouteImport } from './routes/ai-tools'
 import { Route as AdminRouteImport } from './routes/admin'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as LocaleRouteImport } from './routes/$locale'
@@ -33,13 +36,16 @@ import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
 import { Route as AboutFirozKhanRouteImport } from './routes/about.firoz-khan'
 import { Route as LocaleToolsRouteImport } from './routes/$locale.tools'
 import { Route as LocaleTermsRouteImport } from './routes/$locale.terms'
+import { Route as LocaleReportErrorRouteImport } from './routes/$locale.report-error'
 import { Route as LocalePrivacyRouteImport } from './routes/$locale.privacy'
 import { Route as LocaleMethodologyRouteImport } from './routes/$locale.methodology'
 import { Route as LocaleLearnRouteImport } from './routes/$locale.learn'
 import { Route as LocaleDmcaRouteImport } from './routes/$locale.dmca'
 import { Route as LocaleDisclaimerRouteImport } from './routes/$locale.disclaimer'
+import { Route as LocaleDataLimitationsRouteImport } from './routes/$locale.data-limitations'
 import { Route as LocaleCookiePolicyRouteImport } from './routes/$locale.cookie-policy'
 import { Route as LocaleContactRouteImport } from './routes/$locale.contact'
+import { Route as LocaleAiToolsRouteImport } from './routes/$locale.ai-tools'
 import { Route as LocaleAboutRouteImport } from './routes/$locale.about'
 import { Route as LocaleBlogIndexRouteImport } from './routes/$locale.blog.index'
 import { Route as LocaleToolToolRouteImport } from './routes/$locale.tool.$tool'
@@ -60,6 +66,11 @@ const TermsRoute = TermsRouteImport.update({
 const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
   id: '/sitemap.xml',
   path: '/sitemap.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ReportErrorRoute = ReportErrorRouteImport.update({
+  id: '/report-error',
+  path: '/report-error',
   getParentRoute: () => rootRouteImport,
 } as any)
 const PrivacyRoute = PrivacyRouteImport.update({
@@ -92,6 +103,11 @@ const DisclaimerRoute = DisclaimerRouteImport.update({
   path: '/disclaimer',
   getParentRoute: () => rootRouteImport,
 } as any)
+const DataLimitationsRoute = DataLimitationsRouteImport.update({
+  id: '/data-limitations',
+  path: '/data-limitations',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const CookiePolicyRoute = CookiePolicyRouteImport.update({
   id: '/cookie-policy',
   path: '/cookie-policy',
@@ -100,6 +116,11 @@ const CookiePolicyRoute = CookiePolicyRouteImport.update({
 const ContactRoute = ContactRouteImport.update({
   id: '/contact',
   path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AiToolsRoute = AiToolsRouteImport.update({
+  id: '/ai-tools',
+  path: '/ai-tools',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AdminRoute = AdminRouteImport.update({
@@ -167,6 +188,11 @@ const LocaleTermsRoute = LocaleTermsRouteImport.update({
   path: '/terms',
   getParentRoute: () => LocaleRoute,
 } as any)
+const LocaleReportErrorRoute = LocaleReportErrorRouteImport.update({
+  id: '/report-error',
+  path: '/report-error',
+  getParentRoute: () => LocaleRoute,
+} as any)
 const LocalePrivacyRoute = LocalePrivacyRouteImport.update({
   id: '/privacy',
   path: '/privacy',
@@ -192,6 +218,11 @@ const LocaleDisclaimerRoute = LocaleDisclaimerRouteImport.update({
   path: '/disclaimer',
   getParentRoute: () => LocaleRoute,
 } as any)
+const LocaleDataLimitationsRoute = LocaleDataLimitationsRouteImport.update({
+  id: '/data-limitations',
+  path: '/data-limitations',
+  getParentRoute: () => LocaleRoute,
+} as any)
 const LocaleCookiePolicyRoute = LocaleCookiePolicyRouteImport.update({
   id: '/cookie-policy',
   path: '/cookie-policy',
@@ -200,6 +231,11 @@ const LocaleCookiePolicyRoute = LocaleCookiePolicyRouteImport.update({
 const LocaleContactRoute = LocaleContactRouteImport.update({
   id: '/contact',
   path: '/contact',
+  getParentRoute: () => LocaleRoute,
+} as any)
+const LocaleAiToolsRoute = LocaleAiToolsRouteImport.update({
+  id: '/ai-tools',
+  path: '/ai-tools',
   getParentRoute: () => LocaleRoute,
 } as any)
 const LocaleAboutRoute = LocaleAboutRouteImport.update({
@@ -238,25 +274,31 @@ export interface FileRoutesByFullPath {
   '/$locale': typeof LocaleRouteWithChildren
   '/about': typeof AboutRouteWithChildren
   '/admin': typeof AdminRoute
+  '/ai-tools': typeof AiToolsRoute
   '/contact': typeof ContactRoute
   '/cookie-policy': typeof CookiePolicyRoute
+  '/data-limitations': typeof DataLimitationsRoute
   '/disclaimer': typeof DisclaimerRoute
   '/dmca': typeof DmcaRoute
   '/learn': typeof LearnRoute
   '/login': typeof LoginRoute
   '/methodology': typeof MethodologyRoute
   '/privacy': typeof PrivacyRoute
+  '/report-error': typeof ReportErrorRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
   '/tools': typeof ToolsRoute
   '/$locale/about': typeof LocaleAboutRouteWithChildren
+  '/$locale/ai-tools': typeof LocaleAiToolsRoute
   '/$locale/contact': typeof LocaleContactRoute
   '/$locale/cookie-policy': typeof LocaleCookiePolicyRoute
+  '/$locale/data-limitations': typeof LocaleDataLimitationsRoute
   '/$locale/disclaimer': typeof LocaleDisclaimerRoute
   '/$locale/dmca': typeof LocaleDmcaRoute
   '/$locale/learn': typeof LocaleLearnRoute
   '/$locale/methodology': typeof LocaleMethodologyRoute
   '/$locale/privacy': typeof LocalePrivacyRoute
+  '/$locale/report-error': typeof LocaleReportErrorRoute
   '/$locale/terms': typeof LocaleTermsRoute
   '/$locale/tools': typeof LocaleToolsRoute
   '/about/firoz-khan': typeof AboutFirozKhanRoute
@@ -276,25 +318,31 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRouteWithChildren
   '/admin': typeof AdminRoute
+  '/ai-tools': typeof AiToolsRoute
   '/contact': typeof ContactRoute
   '/cookie-policy': typeof CookiePolicyRoute
+  '/data-limitations': typeof DataLimitationsRoute
   '/disclaimer': typeof DisclaimerRoute
   '/dmca': typeof DmcaRoute
   '/learn': typeof LearnRoute
   '/login': typeof LoginRoute
   '/methodology': typeof MethodologyRoute
   '/privacy': typeof PrivacyRoute
+  '/report-error': typeof ReportErrorRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
   '/tools': typeof ToolsRoute
   '/$locale/about': typeof LocaleAboutRouteWithChildren
+  '/$locale/ai-tools': typeof LocaleAiToolsRoute
   '/$locale/contact': typeof LocaleContactRoute
   '/$locale/cookie-policy': typeof LocaleCookiePolicyRoute
+  '/$locale/data-limitations': typeof LocaleDataLimitationsRoute
   '/$locale/disclaimer': typeof LocaleDisclaimerRoute
   '/$locale/dmca': typeof LocaleDmcaRoute
   '/$locale/learn': typeof LocaleLearnRoute
   '/$locale/methodology': typeof LocaleMethodologyRoute
   '/$locale/privacy': typeof LocalePrivacyRoute
+  '/$locale/report-error': typeof LocaleReportErrorRoute
   '/$locale/terms': typeof LocaleTermsRoute
   '/$locale/tools': typeof LocaleToolsRoute
   '/about/firoz-khan': typeof AboutFirozKhanRoute
@@ -316,25 +364,31 @@ export interface FileRoutesById {
   '/$locale': typeof LocaleRouteWithChildren
   '/about': typeof AboutRouteWithChildren
   '/admin': typeof AdminRoute
+  '/ai-tools': typeof AiToolsRoute
   '/contact': typeof ContactRoute
   '/cookie-policy': typeof CookiePolicyRoute
+  '/data-limitations': typeof DataLimitationsRoute
   '/disclaimer': typeof DisclaimerRoute
   '/dmca': typeof DmcaRoute
   '/learn': typeof LearnRoute
   '/login': typeof LoginRoute
   '/methodology': typeof MethodologyRoute
   '/privacy': typeof PrivacyRoute
+  '/report-error': typeof ReportErrorRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
   '/tools': typeof ToolsRoute
   '/$locale/about': typeof LocaleAboutRouteWithChildren
+  '/$locale/ai-tools': typeof LocaleAiToolsRoute
   '/$locale/contact': typeof LocaleContactRoute
   '/$locale/cookie-policy': typeof LocaleCookiePolicyRoute
+  '/$locale/data-limitations': typeof LocaleDataLimitationsRoute
   '/$locale/disclaimer': typeof LocaleDisclaimerRoute
   '/$locale/dmca': typeof LocaleDmcaRoute
   '/$locale/learn': typeof LocaleLearnRoute
   '/$locale/methodology': typeof LocaleMethodologyRoute
   '/$locale/privacy': typeof LocalePrivacyRoute
+  '/$locale/report-error': typeof LocaleReportErrorRoute
   '/$locale/terms': typeof LocaleTermsRoute
   '/$locale/tools': typeof LocaleToolsRoute
   '/about/firoz-khan': typeof AboutFirozKhanRoute
@@ -357,25 +411,31 @@ export interface FileRouteTypes {
     | '/$locale'
     | '/about'
     | '/admin'
+    | '/ai-tools'
     | '/contact'
     | '/cookie-policy'
+    | '/data-limitations'
     | '/disclaimer'
     | '/dmca'
     | '/learn'
     | '/login'
     | '/methodology'
     | '/privacy'
+    | '/report-error'
     | '/sitemap.xml'
     | '/terms'
     | '/tools'
     | '/$locale/about'
+    | '/$locale/ai-tools'
     | '/$locale/contact'
     | '/$locale/cookie-policy'
+    | '/$locale/data-limitations'
     | '/$locale/disclaimer'
     | '/$locale/dmca'
     | '/$locale/learn'
     | '/$locale/methodology'
     | '/$locale/privacy'
+    | '/$locale/report-error'
     | '/$locale/terms'
     | '/$locale/tools'
     | '/about/firoz-khan'
@@ -395,25 +455,31 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/admin'
+    | '/ai-tools'
     | '/contact'
     | '/cookie-policy'
+    | '/data-limitations'
     | '/disclaimer'
     | '/dmca'
     | '/learn'
     | '/login'
     | '/methodology'
     | '/privacy'
+    | '/report-error'
     | '/sitemap.xml'
     | '/terms'
     | '/tools'
     | '/$locale/about'
+    | '/$locale/ai-tools'
     | '/$locale/contact'
     | '/$locale/cookie-policy'
+    | '/$locale/data-limitations'
     | '/$locale/disclaimer'
     | '/$locale/dmca'
     | '/$locale/learn'
     | '/$locale/methodology'
     | '/$locale/privacy'
+    | '/$locale/report-error'
     | '/$locale/terms'
     | '/$locale/tools'
     | '/about/firoz-khan'
@@ -434,25 +500,31 @@ export interface FileRouteTypes {
     | '/$locale'
     | '/about'
     | '/admin'
+    | '/ai-tools'
     | '/contact'
     | '/cookie-policy'
+    | '/data-limitations'
     | '/disclaimer'
     | '/dmca'
     | '/learn'
     | '/login'
     | '/methodology'
     | '/privacy'
+    | '/report-error'
     | '/sitemap.xml'
     | '/terms'
     | '/tools'
     | '/$locale/about'
+    | '/$locale/ai-tools'
     | '/$locale/contact'
     | '/$locale/cookie-policy'
+    | '/$locale/data-limitations'
     | '/$locale/disclaimer'
     | '/$locale/dmca'
     | '/$locale/learn'
     | '/$locale/methodology'
     | '/$locale/privacy'
+    | '/$locale/report-error'
     | '/$locale/terms'
     | '/$locale/tools'
     | '/about/firoz-khan'
@@ -474,14 +546,17 @@ export interface RootRouteChildren {
   LocaleRoute: typeof LocaleRouteWithChildren
   AboutRoute: typeof AboutRouteWithChildren
   AdminRoute: typeof AdminRoute
+  AiToolsRoute: typeof AiToolsRoute
   ContactRoute: typeof ContactRoute
   CookiePolicyRoute: typeof CookiePolicyRoute
+  DataLimitationsRoute: typeof DataLimitationsRoute
   DisclaimerRoute: typeof DisclaimerRoute
   DmcaRoute: typeof DmcaRoute
   LearnRoute: typeof LearnRoute
   LoginRoute: typeof LoginRoute
   MethodologyRoute: typeof MethodologyRoute
   PrivacyRoute: typeof PrivacyRoute
+  ReportErrorRoute: typeof ReportErrorRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   TermsRoute: typeof TermsRoute
   ToolsRoute: typeof ToolsRoute
@@ -513,6 +588,13 @@ declare module '@tanstack/react-router' {
       path: '/sitemap.xml'
       fullPath: '/sitemap.xml'
       preLoaderRoute: typeof SitemapDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/report-error': {
+      id: '/report-error'
+      path: '/report-error'
+      fullPath: '/report-error'
+      preLoaderRoute: typeof ReportErrorRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/privacy': {
@@ -557,6 +639,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DisclaimerRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/data-limitations': {
+      id: '/data-limitations'
+      path: '/data-limitations'
+      fullPath: '/data-limitations'
+      preLoaderRoute: typeof DataLimitationsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/cookie-policy': {
       id: '/cookie-policy'
       path: '/cookie-policy'
@@ -569,6 +658,13 @@ declare module '@tanstack/react-router' {
       path: '/contact'
       fullPath: '/contact'
       preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/ai-tools': {
+      id: '/ai-tools'
+      path: '/ai-tools'
+      fullPath: '/ai-tools'
+      preLoaderRoute: typeof AiToolsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/admin': {
@@ -662,6 +758,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LocaleTermsRouteImport
       parentRoute: typeof LocaleRoute
     }
+    '/$locale/report-error': {
+      id: '/$locale/report-error'
+      path: '/report-error'
+      fullPath: '/$locale/report-error'
+      preLoaderRoute: typeof LocaleReportErrorRouteImport
+      parentRoute: typeof LocaleRoute
+    }
     '/$locale/privacy': {
       id: '/$locale/privacy'
       path: '/privacy'
@@ -697,6 +800,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LocaleDisclaimerRouteImport
       parentRoute: typeof LocaleRoute
     }
+    '/$locale/data-limitations': {
+      id: '/$locale/data-limitations'
+      path: '/data-limitations'
+      fullPath: '/$locale/data-limitations'
+      preLoaderRoute: typeof LocaleDataLimitationsRouteImport
+      parentRoute: typeof LocaleRoute
+    }
     '/$locale/cookie-policy': {
       id: '/$locale/cookie-policy'
       path: '/cookie-policy'
@@ -709,6 +819,13 @@ declare module '@tanstack/react-router' {
       path: '/contact'
       fullPath: '/$locale/contact'
       preLoaderRoute: typeof LocaleContactRouteImport
+      parentRoute: typeof LocaleRoute
+    }
+    '/$locale/ai-tools': {
+      id: '/$locale/ai-tools'
+      path: '/ai-tools'
+      fullPath: '/$locale/ai-tools'
+      preLoaderRoute: typeof LocaleAiToolsRouteImport
       parentRoute: typeof LocaleRoute
     }
     '/$locale/about': {
@@ -770,13 +887,16 @@ const LocaleAboutRouteWithChildren = LocaleAboutRoute._addFileChildren(
 
 interface LocaleRouteChildren {
   LocaleAboutRoute: typeof LocaleAboutRouteWithChildren
+  LocaleAiToolsRoute: typeof LocaleAiToolsRoute
   LocaleContactRoute: typeof LocaleContactRoute
   LocaleCookiePolicyRoute: typeof LocaleCookiePolicyRoute
+  LocaleDataLimitationsRoute: typeof LocaleDataLimitationsRoute
   LocaleDisclaimerRoute: typeof LocaleDisclaimerRoute
   LocaleDmcaRoute: typeof LocaleDmcaRoute
   LocaleLearnRoute: typeof LocaleLearnRoute
   LocaleMethodologyRoute: typeof LocaleMethodologyRoute
   LocalePrivacyRoute: typeof LocalePrivacyRoute
+  LocaleReportErrorRoute: typeof LocaleReportErrorRoute
   LocaleTermsRoute: typeof LocaleTermsRoute
   LocaleToolsRoute: typeof LocaleToolsRoute
   LocaleIndexRoute: typeof LocaleIndexRoute
@@ -788,13 +908,16 @@ interface LocaleRouteChildren {
 
 const LocaleRouteChildren: LocaleRouteChildren = {
   LocaleAboutRoute: LocaleAboutRouteWithChildren,
+  LocaleAiToolsRoute: LocaleAiToolsRoute,
   LocaleContactRoute: LocaleContactRoute,
   LocaleCookiePolicyRoute: LocaleCookiePolicyRoute,
+  LocaleDataLimitationsRoute: LocaleDataLimitationsRoute,
   LocaleDisclaimerRoute: LocaleDisclaimerRoute,
   LocaleDmcaRoute: LocaleDmcaRoute,
   LocaleLearnRoute: LocaleLearnRoute,
   LocaleMethodologyRoute: LocaleMethodologyRoute,
   LocalePrivacyRoute: LocalePrivacyRoute,
+  LocaleReportErrorRoute: LocaleReportErrorRoute,
   LocaleTermsRoute: LocaleTermsRoute,
   LocaleToolsRoute: LocaleToolsRoute,
   LocaleIndexRoute: LocaleIndexRoute,
@@ -822,14 +945,17 @@ const rootRouteChildren: RootRouteChildren = {
   LocaleRoute: LocaleRouteWithChildren,
   AboutRoute: AboutRouteWithChildren,
   AdminRoute: AdminRoute,
+  AiToolsRoute: AiToolsRoute,
   ContactRoute: ContactRoute,
   CookiePolicyRoute: CookiePolicyRoute,
+  DataLimitationsRoute: DataLimitationsRoute,
   DisclaimerRoute: DisclaimerRoute,
   DmcaRoute: DmcaRoute,
   LearnRoute: LearnRoute,
   LoginRoute: LoginRoute,
   MethodologyRoute: MethodologyRoute,
   PrivacyRoute: PrivacyRoute,
+  ReportErrorRoute: ReportErrorRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   TermsRoute: TermsRoute,
   ToolsRoute: ToolsRoute,

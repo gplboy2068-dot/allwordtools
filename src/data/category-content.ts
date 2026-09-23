@@ -497,7 +497,7 @@ export const categoryContent: Record<string, CategoryContent> = {
     tips: [
       "Start with the full Dictionary for a complete entry, then use a focused tool for a specific need.",
       "Use Pronunciation and the IPA Converter together to both hear and read how a word sounds.",
-      "Search one word at a time for the cleanest, most accurate results.",
+      "Search one word at a time for the cleanest, most relevant results.",
       "Let Word Origin's shared roots help you learn whole families of related words.",
       "All the tools are free and need no sign-up, so check any word you're unsure about.",
     ],

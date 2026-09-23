@@ -71,11 +71,12 @@ export function blogPostHead(slug: string, locale: string = DEFAULT_LOCALE) {
             "@type": "Person",
             name: "Firoz Khan",
             jobTitle: "Full Stack Developer",
+            image: `${BASE_URL}/author/firoz-khan.png`,
             url: `${BASE_URL}/about/firoz-khan`,
             sameAs: [
               "https://www.linkedin.com/in/firoz-khan-1153358a/",
               "https://github.com/fkdigitalmedia",
-              "https://www.instagram.com/",
+              "https://www.instagram.com/rtibyfiroz/",
             ],
           },
           publisher: {
@@ -263,23 +264,30 @@ export function BlogPostView({ slug }: { slug: string }) {
 
           {/* Author Attribution Card */}
           <div className="mt-12 rounded-2xl border border-border/70 bg-card p-6 shadow-soft">
-            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-              <div>
-                <span className="text-[11px] font-semibold uppercase tracking-wider text-honey">
-                  Written &amp; Maintained By
-                </span>
-                <h4 className="font-display text-lg font-bold text-foreground mt-0.5">
-                  <Link
-                    to={isDefault ? "/about/firoz-khan" : ("/$locale/about/firoz-khan" as any)}
-                    params={isDefault ? {} : { locale }}
-                    className="hover:underline"
-                  >
-                    Firoz Khan
-                  </Link>
-                </h4>
-                <p className="text-xs text-muted-foreground mt-1 leading-relaxed max-w-lg">
-                  Full Stack Developer and creator of AllWordTools.com under FK Digital Media. Builds fast, accessible online word solvers and web developer utilities.
-                </p>
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
+              <div className="flex items-center gap-4">
+                <img
+                  src="/author/firoz-khan.png"
+                  alt="Firoz Khan — Full Stack Developer"
+                  className="h-16 w-16 rounded-xl object-cover border border-border/80 shrink-0 bg-secondary"
+                />
+                <div>
+                  <span className="text-[11px] font-semibold uppercase tracking-wider text-honey">
+                    Written &amp; Maintained By
+                  </span>
+                  <h4 className="font-display text-lg font-bold text-foreground mt-0.5">
+                    <Link
+                      to={isDefault ? "/about/firoz-khan" : ("/$locale/about/firoz-khan" as any)}
+                      params={isDefault ? {} : { locale }}
+                      className="hover:underline"
+                    >
+                      Firoz Khan
+                    </Link>
+                  </h4>
+                  <p className="text-xs text-muted-foreground mt-1 leading-relaxed max-w-lg">
+                    Full Stack Developer and creator of AllWordTools.com under FK Digital Media.
+                  </p>
+                </div>
               </div>
               <div className="flex items-center gap-2 shrink-0">
                 <Button asChild variant="outline" size="sm" className="rounded-full text-xs">

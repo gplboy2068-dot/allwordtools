@@ -64,7 +64,7 @@ export function Footer() {
             </a>
             <span>·</span>
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/rtibyfiroz/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-foreground transition-colors"
@@ -109,6 +109,24 @@ export function Footer() {
               </li>
               <li>
                 <Link
+                  to={isDefault ? "/data-limitations" : "/$locale/data-limitations"}
+                  params={isDefault ? {} : { locale }}
+                  className={muted}
+                >
+                  Data Limitations
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to={isDefault ? "/ai-tools" : "/$locale/ai-tools"}
+                  params={isDefault ? {} : { locale }}
+                  className={muted}
+                >
+                  AI Transparency
+                </Link>
+              </li>
+              <li>
+                <Link
                   to={isDefault ? "/blog" : "/$locale/blog"}
                   params={isDefault ? {} : { locale }}
                   className={muted}
@@ -136,7 +154,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  to={isDefault ? "/contact" : "/$locale/contact"}
+                  to={isDefault ? "/report-error" : "/$locale/report-error"}
                   params={isDefault ? {} : { locale }}
                   className="text-xs text-honey hover:underline"
                 >

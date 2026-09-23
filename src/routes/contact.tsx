@@ -20,7 +20,7 @@ import {
 const EMAIL = "hello@allwordtools.com";
 const LINKEDIN_URL = "https://www.linkedin.com/in/firoz-khan-1153358a/";
 const GITHUB_URL = "https://github.com/fkdigitalmedia";
-const INSTAGRAM_URL = "https://www.instagram.com/";
+const INSTAGRAM_URL = "https://www.instagram.com/rtibyfiroz/";
 
 const contactSchema = z.object({
   name: z.string().trim().min(1, "Please enter your name").max(100, "Name is too long"),
@@ -92,6 +92,19 @@ export function ContactPage() {
       title="Contact & Error Reporting"
       intro="AllWordTools is developed and maintained by Firoz Khan under FK Digital Media. Reach out for word corrections, bug reports, feature suggestions, or business inquiries."
     >
+      {/* Dedicated error reporting banner */}
+      <div className="mb-6 rounded-2xl border border-amber-500/30 bg-amber-500/10 p-4 text-xs text-foreground">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+          <div>
+            <strong className="font-semibold block text-sm">Reporting a word error, missing dictionary term, or solver bug?</strong>
+            <span className="text-muted-foreground">Use our dedicated error reporting form with structured issue categories for faster review.</span>
+          </div>
+          <Button asChild size="sm" variant="outline" className="rounded-full shrink-0 border-amber-500/40 text-foreground hover:bg-amber-500/20">
+            <Link to="/report-error">Open Error Form &rarr;</Link>
+          </Button>
+        </div>
+      </div>
+
       <div className="grid gap-10 lg:grid-cols-[1.4fr_1fr]">
         {/* Form */}
         <form onSubmit={handleSubmit} noValidate className="space-y-5" aria-label="Contact form">

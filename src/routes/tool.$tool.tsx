@@ -22,6 +22,7 @@ import { DiscoverMore } from "@/components/site/DiscoverMore";
 import { KeywordClusters, BottomCta } from "@/components/site/LinkSections";
 import { AdBanner } from "@/components/site/AdBanner";
 import { ToolMethodologyCard } from "@/components/site/ToolMethodologyCard";
+import { DisclaimerBanner } from "@/components/site/DisclaimerBanner";
 import { WordUnscrambler } from "@/components/tools/WordUnscrambler";
 import { AnagramSolver } from "@/components/tools/AnagramSolver";
 import { WordFinder } from "@/components/tools/WordFinder";
@@ -670,6 +671,9 @@ export function ToolPageView({
               )}
               <ShareButton title={content?.metaTitle ?? tool.name} />
             </div>
+
+            {/* Contextual tool disclaimer notice */}
+            <DisclaimerBanner slug={slug} className="mt-5" />
 
             {/* Interactive tool */}
             <div className="mt-8">

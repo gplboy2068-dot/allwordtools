@@ -523,8 +523,14 @@ export function MethodologyPage() {
         <ul>
           <li><strong>Spelling Conventions:</strong> English word lists default to standard North American orthography with standard international loanwords. British/Commonwealth double-L variants (e.g. <em>cancelled</em> vs. <em>canceled</em>) or <em>-ise/-ize</em> variations are noted where relevant.</li>
           <li><strong>Slang &amp; Neologisms:</strong> Internet neologisms, memes, and emerging colloquialisms are incorporated only after gaining documented lexical acceptance.</li>
-          <li><strong>AI Hallucinations:</strong> Output from AI writing generators is generated probabilistically. Always proofread and verify AI-generated definitions, stories, and grammar feedback before formal publication.</li>
+          <li><strong>AI Hallucinations:</strong> Output from AI writing generators is generated probabilistically. Always proofread and verify AI-generated definitions, stories, and grammar feedback before formal publication. Learn more on our <Link to="/ai-tools">AI Tools Transparency Page</Link>.</li>
         </ul>
+        <p>
+          For a complete breakdown of data boundaries and result categories, visit our dedicated{" "}
+          <Link to="/data-limitations" className="font-semibold text-honey hover:underline">
+            Data Limitations Guide
+          </Link>.
+        </p>
 
         <h3>Report an Error or Missing Word</h3>
         <p>
@@ -533,8 +539,8 @@ export function MethodologyPage() {
         </p>
         <p>
           Please submit details via our dedicated{" "}
-          <Link to="/contact" className="font-semibold text-honey hover:underline">
-            Contact &amp; Error Reporting Form
+          <Link to="/report-error" className="font-semibold text-honey hover:underline">
+            Report a Word or Tool Error Page
           </Link>{" "}
           or inspect our maintainer background on the{" "}
           <Link to="/about/firoz-khan" className="font-semibold text-honey hover:underline">

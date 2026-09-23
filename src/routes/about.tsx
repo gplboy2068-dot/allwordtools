@@ -7,7 +7,7 @@ import { Github, Linkedin, Instagram, ExternalLink, Code2, AlertTriangle, Shield
 
 const LINKEDIN_URL = "https://www.linkedin.com/in/firoz-khan-1153358a/";
 const GITHUB_URL = "https://github.com/fkdigitalmedia";
-const INSTAGRAM_URL = "https://www.instagram.com/";
+const INSTAGRAM_URL = "https://www.instagram.com/rtibyfiroz/";
 
 export const Route = createFileRoute("/about")({
   head: () => {
@@ -53,6 +53,7 @@ export const Route = createFileRoute("/about")({
                 "@type": "Person",
                 name: "Firoz Khan",
                 jobTitle: "Full Stack Developer",
+                image: `${BASE_URL}/author/firoz-khan.png`,
                 url: `${BASE_URL}/about/firoz-khan`,
                 sameAs: [LINKEDIN_URL, GITHUB_URL, INSTAGRAM_URL],
               },
@@ -91,6 +92,22 @@ export function AboutPage() {
         </p>
 
         <h2>About Firoz Khan</h2>
+        <div className="not-prose my-6 flex flex-col sm:flex-row items-start sm:items-center gap-4 rounded-2xl border border-border/70 bg-card p-4 shadow-soft">
+          <img
+            src="/author/firoz-khan.png"
+            alt="Firoz Khan — Full Stack Developer"
+            className="h-20 w-20 rounded-xl object-cover border border-border shrink-0 bg-secondary"
+          />
+          <div>
+            <h3 className="font-display text-base font-semibold text-foreground">Firoz Khan</h3>
+            <p className="text-xs text-muted-foreground mt-0.5">Full Stack Developer &amp; Maintainer · FK Digital Media</p>
+            <div className="mt-2 flex items-center gap-3 text-xs">
+              <Link to="/about/firoz-khan" className="font-medium text-honey hover:underline">
+                View Full Author Profile &rarr;
+              </Link>
+            </div>
+          </div>
+        </div>
         <p>
           <strong>Firoz Khan</strong> is a Full Stack Developer who engineers web applications and interactive software utilities.
           His technical role in AllWordTools encompasses full-stack website architecture, frontend UI development, algorithmic
@@ -163,6 +180,10 @@ export function AboutPage() {
           For an exhaustive technical breakdown of every dataset, calculation method, game scoring rule, and limitation across all 92 tools, visit our{" "}
           <Link to="/methodology" className="font-semibold text-honey hover:underline">
             Methodology &amp; Word Data Guide
+          </Link>{" "}
+          and read our{" "}
+          <Link to="/data-limitations" className="font-semibold text-honey hover:underline">
+            Data Limitations Guide
           </Link>.
         </p>
 
@@ -174,7 +195,7 @@ export function AboutPage() {
         </p>
         <p>
           Users are advised to verify critical results independently for formal examinations, tournament rule disputes, or academic work.
-          Please read our full <Link to="/disclaimer">Disclaimer</Link> for additional details.
+          Please read our full <Link to="/data-limitations">Data Limitations</Link> and <Link to="/disclaimer">Disclaimer</Link> for additional details.
         </p>
 
         <h2>AI Tools Transparency</h2>
@@ -188,6 +209,12 @@ export function AboutPage() {
           <li><strong>Review Output:</strong> Always review and edit AI-generated text before relying on it for study or publication.</li>
           <li><strong>Confidentiality:</strong> Do not submit sensitive, confidential, or private personal information into AI tool input prompts. Submitted text is processed by external AI API providers.</li>
         </ul>
+        <p>
+          Learn more about our AI architecture on our dedicated{" "}
+          <Link to="/ai-tools" className="font-semibold text-honey hover:underline">
+            AI Tools Transparency Page
+          </Link>.
+        </p>
 
         <h2>Privacy &amp; Data Processing</h2>
         <p>
@@ -214,14 +241,14 @@ export function AboutPage() {
           <li>A broken feature or unexpected solver error</li>
         </ul>
         <p>
-          Please let us know so we can investigate and update the dataset or code. Visit our{" "}
-          <Link to="/contact" className="font-semibold text-honey hover:underline">
-            Contact &amp; Error Reporting Page
+          Please let us know so we can investigate and update the dataset or code. Visit our dedicated{" "}
+          <Link to="/report-error" className="font-semibold text-honey hover:underline">
+            Report a Word or Tool Error Page
           </Link>{" "}
           to submit details directly to Firoz Khan.
         </p>
 
-        <h2>Contact &amp; Official Links</h2>
+        <h2>Contact &amp; Verified Social Links</h2>
         <p>
           For technical inquiries, bug reports, business discussions, or feedback, you can reach out via:
         </p>

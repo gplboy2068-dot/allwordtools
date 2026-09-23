@@ -29,7 +29,7 @@ const jsonLd = [
     sameAs: [
       "https://www.linkedin.com/in/firoz-khan-1153358a/",
       "https://github.com/fkdigitalmedia",
-      "https://www.instagram.com/",
+      "https://www.instagram.com/rtibyfiroz/",
     ],
     worksFor: {
       "@type": "Organization",
@@ -48,7 +48,7 @@ const jsonLd = [
     sameAs: [
       "https://github.com/fkdigitalmedia",
       "https://www.linkedin.com/in/firoz-khan-1153358a/",
-      "https://www.instagram.com/",
+      "https://www.instagram.com/rtibyfiroz/",
     ],
   },
   {

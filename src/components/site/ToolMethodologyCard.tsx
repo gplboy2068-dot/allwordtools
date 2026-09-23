@@ -108,17 +108,35 @@ export function ToolMethodologyCard({ slug }: { slug: string }) {
               against the designated official rulebook.
             </p>
 
-            <div className="flex flex-wrap items-center justify-between gap-2 pt-1 border-t border-border/40">
+            <div className="flex flex-wrap items-center justify-between gap-3 pt-2 border-t border-border/40">
+              <div className="flex flex-wrap items-center gap-3">
+                <Link
+                  to={methodologyPath}
+                  params={routeParams}
+                  className="inline-flex items-center gap-1 font-semibold text-honey hover:underline"
+                >
+                  Full Methodology Guide
+                  <ExternalLink className="h-3 w-3" />
+                </Link>
+                <Link
+                  to={isDefault ? "/data-limitations" : "/$locale/data-limitations"}
+                  params={routeParams}
+                  className="inline-flex items-center gap-1 font-medium text-muted-foreground hover:text-foreground hover:underline"
+                >
+                  Data Limitations
+                </Link>
+                {m.source.includes("AI") && (
+                  <Link
+                    to={isDefault ? "/ai-tools" : "/$locale/ai-tools"}
+                    params={routeParams}
+                    className="inline-flex items-center gap-1 font-medium text-purple-600 dark:text-purple-400 hover:underline"
+                  >
+                    AI Transparency
+                  </Link>
+                )}
+              </div>
               <Link
-                to={methodologyPath}
-                params={routeParams}
-                className="inline-flex items-center gap-1 font-semibold text-honey hover:underline"
-              >
-                Read our full Data &amp; Methodology Guide
-                <ExternalLink className="h-3 w-3" />
-              </Link>
-              <Link
-                to={contactPath}
+                to={isDefault ? "/report-error" : "/$locale/report-error"}
                 params={routeParams}
                 className="text-xs text-muted-foreground hover:text-foreground underline decoration-dotted"
               >
