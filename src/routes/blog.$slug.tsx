@@ -71,7 +71,7 @@ export function blogPostHead(slug: string, locale: string = DEFAULT_LOCALE) {
             "@type": "Person",
             name: "Firoz Khan",
             jobTitle: "Full Stack Developer",
-            image: `${BASE_URL}/author/firoz-khan.png`,
+            image: `${BASE_URL}/author/firoz-khan.webp`,
             url: `${BASE_URL}/about/firoz-khan`,
             sameAs: [
               "https://www.linkedin.com/in/firoz-khan-1153358a/",
@@ -267,7 +267,7 @@ export function BlogPostView({ slug }: { slug: string }) {
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
               <div className="flex items-center gap-4">
                 <img
-                  src="/author/firoz-khan.png"
+                  src="/author/firoz-khan.webp"
                   alt="Firoz Khan — Full Stack Developer"
                   className="h-16 w-16 rounded-xl object-cover border border-border/80 shrink-0 bg-secondary"
                 />

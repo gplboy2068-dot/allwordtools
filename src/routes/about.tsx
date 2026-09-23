@@ -53,7 +53,7 @@ export const Route = createFileRoute("/about")({
                 "@type": "Person",
                 name: "Firoz Khan",
                 jobTitle: "Full Stack Developer",
-                image: `${BASE_URL}/author/firoz-khan.png`,
+                image: `${BASE_URL}/author/firoz-khan.webp`,
                 url: `${BASE_URL}/about/firoz-khan`,
                 sameAs: [LINKEDIN_URL, GITHUB_URL, INSTAGRAM_URL],
               },
@@ -94,7 +94,7 @@ export function AboutPage() {
         <h2>About Firoz Khan</h2>
         <div className="not-prose my-6 flex flex-col sm:flex-row items-start sm:items-center gap-4 rounded-2xl border border-border/70 bg-card p-4 shadow-soft">
           <img
-            src="/author/firoz-khan.png"
+            src="/author/firoz-khan.webp"
             alt="Firoz Khan — Full Stack Developer"
             className="h-20 w-20 rounded-xl object-cover border border-border shrink-0 bg-secondary"
           />

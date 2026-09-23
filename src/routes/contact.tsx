@@ -240,14 +240,23 @@ export function ContactPage() {
 
           {/* Maintainer Identity Card */}
           <div className="mt-6 rounded-2xl border border-border/70 bg-card p-5 shadow-soft">
-            <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-honey">
-              <User className="h-4 w-4" /> Project Maintainer
+            <div className="flex items-center gap-3">
+              <img
+                src="/author/firoz-khan.webp"
+                alt="Firoz Khan — Full Stack Developer"
+                className="h-14 w-14 rounded-xl object-cover border border-border shrink-0 bg-secondary"
+              />
+              <div>
+                <div className="flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wider text-honey">
+                  <User className="h-3.5 w-3.5" /> Project Maintainer
+                </div>
+                <h4 className="font-display text-base font-bold text-foreground">Firoz Khan</h4>
+                <p className="text-xs text-muted-foreground">
+                  Full Stack Developer · <span className="font-medium text-foreground">FK Digital Media</span>
+                </p>
+              </div>
             </div>
-            <h4 className="mt-2 font-display text-base font-bold text-foreground">Firoz Khan</h4>
-            <p className="text-xs text-muted-foreground mt-0.5">
-              Full Stack Developer · <span className="font-medium text-foreground">FK Digital Media</span>
-            </p>
-            <p className="mt-2.5 text-xs text-muted-foreground leading-relaxed">
+            <p className="mt-3 text-xs text-muted-foreground leading-relaxed">
               Firoz builds and maintains AllWordTools.com independently. View his background, technical focus, and profile links:
             </p>
             <div className="mt-3 flex flex-wrap items-center gap-2 pt-2 border-t border-border/60 text-xs">
