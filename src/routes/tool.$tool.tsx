@@ -290,6 +290,7 @@ export function toolHead(slug: string, locale: string, override?: LocalizedToolC
           "@context": "https://schema.org",
           "@type": "SoftwareApplication",
           name: tool.name,
+          url,
           applicationCategory: "UtilitiesApplication",
           operatingSystem: "Web",
           description,

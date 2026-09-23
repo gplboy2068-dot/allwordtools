@@ -18,7 +18,7 @@ import { SeoContent } from "@/components/home/SeoContent";
 import { Faq } from "@/components/home/Faq";
 import { AdBanner } from "@/components/site/AdBanner";
 import { getDictionarySync } from "@/i18n/getDictionary";
-import { buildLocaleHead, inLanguage } from "@/i18n/seo";
+import { buildLocaleHead, inLanguage, BASE_URL } from "@/i18n/seo";
 import { localePath } from "@/i18n/paths";
 
 const SITE_NAME = "AllWordTools.com";
@@ -42,7 +42,7 @@ export const Route = createFileRoute("/$locale/")({
             "@context": "https://schema.org",
             "@type": "WebSite",
             name: SITE_NAME,
-            url: localePath(locale, "/"),
+            url: `${BASE_URL}${localePath(locale, "/")}`,
             description,
             inLanguage: inLanguage(locale),
           }),

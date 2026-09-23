@@ -122,8 +122,8 @@ export function TermsPage() {
 
         <h2>Governing Law</h2>
         <p>
-          These terms are governed by the laws of the operator's jurisdiction, without regard to
-          conflict-of-law rules. [Company legal jurisdiction placeholder.]
+          These terms and your use of the Service are governed by and construed in accordance with
+          applicable laws, without regard to conflict-of-law principles.
         </p>
 
         <h2>Contact</h2>

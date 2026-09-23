@@ -11,7 +11,7 @@ import { Faq } from "@/components/home/Faq";
 import { AdBanner } from "@/components/site/AdBanner";
 import { faqs } from "@/data/faqs";
 import { categories } from "@/data/tools";
-import { buildLocaleHead } from "@/i18n/seo";
+import { buildLocaleHead, BASE_URL } from "@/i18n/seo";
 import { DEFAULT_LOCALE } from "@/i18n/locales";
 
 const SITE_NAME = "AllWordTools.com";
@@ -78,12 +78,12 @@ const jsonLd = [
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "/" },
+      { "@type": "ListItem", position: 1, name: "Home", item: `${BASE_URL}/` },
       ...categories.map((cat, i) => ({
         "@type": "ListItem",
         position: i + 2,
         name: cat.title,
-        item: `/category/${cat.slug}`,
+        item: `${BASE_URL}/category/${cat.slug}`,
       })),
     ],
   },

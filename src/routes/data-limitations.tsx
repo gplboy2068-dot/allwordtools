@@ -287,8 +287,12 @@ export function DataLimitationsPage() {
           For complete details on each individual tool's algorithms, explore our{" "}
           <Link to="/methodology" className="font-semibold text-honey hover:underline">
             Methodology &amp; Word Data Guide
-          </Link>{" "}
-          or inspect our <Link to="/ai-tools">AI Tools Transparency Page</Link>.
+          </Link>
+          , review our{" "}
+          <Link to="/data-sources" className="font-semibold text-honey hover:underline">
+            Data Sources &amp; Attribution Directory
+          </Link>
+          , or inspect our <Link to="/ai-tools">AI Tools Transparency Page</Link>.
         </p>
       </Prose>
     </PageLayout>

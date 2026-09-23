@@ -27,8 +27,7 @@ export function DmcaPage() {
         <p>
           AllWordTools.com respects the intellectual property of others. If you believe content on
           our Service infringes your copyright, you may submit a notice under the Digital Millennium
-          Copyright Act (DMCA) or applicable law. This page is a placeholder framework — replace the
-          contact and agent details with your business information.
+          Copyright Act (DMCA) or applicable intellectual property law.
         </p>
 
         <h2>Filing a Copyright Notice</h2>
@@ -64,8 +63,9 @@ export function DmcaPage() {
 
         <h2>Contact / Designated Agent</h2>
         <p>
-          Send notices to <a href={`mailto:${EMAIL}`}>{EMAIL}</a>. [Designated DMCA agent name and
-          mailing address placeholder.] For general enquiries, use our{" "}
+          Notices and counter-notices may be submitted to our designated contact at{" "}
+          <a href={`mailto:${EMAIL}`}>{EMAIL}</a> (Attention: DMCA / Copyright Agent, Firoz Khan,
+          FK Digital Media). For general questions or non-copyright inquiries, please use our{" "}
           <Link to="/contact">contact page</Link>.
         </p>
       </Prose>

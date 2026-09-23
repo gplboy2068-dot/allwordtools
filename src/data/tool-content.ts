@@ -150,7 +150,7 @@ export const toolContent: Record<string, ToolContent> = {
       {
         question: "Are the results valid in word games?",
         answer:
-          "The finder uses a comprehensive English dictionary based on standard tournament word lists, so results are valid in Scrabble and Words With Friends, aside from rare regional variations between official lists.",
+          "The finder uses a comprehensive English word list based on the public domain ENABLE lexicon. While widely compatible with casual games, sanctioned tournaments rely on specific official lexicons (such as NASPA NWL or Collins CSW) which may include minor additions or differences.",
       },
     ],
     related: ["word-unscrambler", "anagram-solver", "crossword-solver", "words-starting-with"],
@@ -637,7 +637,7 @@ export const toolContent: Record<string, ToolContent> = {
       {
         question: "Are the results valid in Scrabble and Words With Friends?",
         answer:
-          "Yes. The unscrambler uses a comprehensive English word list based on standard tournament dictionaries, so the words it returns are valid in both Scrabble and Words With Friends. Extremely obscure regional variants may occasionally differ between official word lists.",
+          "The unscrambler evaluates words against the public domain ENABLE lexicon (~168,000 words), which covers standard English gameplay. For sanctioned tournament play, always verify candidate words against the specific official lexicon designated for your competition.",
       },
       {
         question: "Is the Word Unscrambler free to use?",

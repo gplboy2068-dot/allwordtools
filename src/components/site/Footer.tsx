@@ -109,6 +109,15 @@ export function Footer() {
               </li>
               <li>
                 <Link
+                  to={isDefault ? "/data-sources" : "/$locale/data-sources"}
+                  params={isDefault ? {} : { locale }}
+                  className={muted}
+                >
+                  Data Sources &amp; Attribution
+                </Link>
+              </li>
+              <li>
+                <Link
                   to={isDefault ? "/data-limitations" : "/$locale/data-limitations"}
                   params={isDefault ? {} : { locale }}
                   className={muted}

@@ -69,12 +69,12 @@ export const seoContent: ContentSection[] = [
   },
   {
     id: "examples-and-tips",
-    heading: "Examples and expert tips",
+    heading: "Gameplay tips and practical strategies",
     imagePrompt:
       "Illustration of a friendly guide character pointing to tips and example words on a board, lightbulb and star icons, warm cream and honey palette, ink-navy line work, modern flat vector.",
     paragraphs: [
       "Here is how a typical search plays out. Say your Scrabble rack reads R, A, T, I, O, N and S. Drop those seven letters into the word unscrambler, choose the Scrabble dictionary, and you will instantly see high-value plays — including the seven-letter bingo that earns a fifty-point bonus. Stuck on a crossword clue that is five letters long with a T in the third square? Enter the pattern ??T?? and the solver returns every matching word.",
-      "A few expert tips go a long way. Learn the short two- and three-letter words first; they are the secret weapon of top Scrabble players for connecting plays and squeezing points out of tight boards. Keep an eye on high-value tiles like Q, Z, X and J, and remember the handful of Q-without-U words that can save a stuck rack. In Wordle, open with a guess rich in common vowels and consonants to eliminate as many possibilities as possible before you commit.",
+      "A few practical tips go a long way. Learn the short two- and three-letter words first; they are the secret weapon of top Scrabble players for connecting plays and squeezing points out of tight boards. Keep an eye on high-value tiles like Q, Z, X and J, and remember the handful of Q-without-U words that can save a stuck rack. In Wordle, open with a guess rich in common vowels and consonants to eliminate as many possibilities as possible before you commit.",
       "For writers, use the synonym and antonym tools to vary your language and avoid repetition, and lean on the rhyming and syllable tools to keep poetry and lyrics flowing. Small habits like these, repeated over time, turn casual play into real skill and make you a sharper, more confident user of English.",
     ],
   },

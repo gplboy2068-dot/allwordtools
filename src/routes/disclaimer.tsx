@@ -29,6 +29,25 @@ export function DisclaimerPage() {
           a substitute for professional judgement.
         </p>
 
+        <h2>Independent Operation &amp; Trademark Disclaimer</h2>
+        <p>
+          AllWordTools.com is strictly an independent utility engineered and maintained by{" "}
+          <Link to="/about/firoz-khan" className="font-semibold text-honey hover:underline">
+            Firoz Khan
+          </Link>{" "}
+          under <strong>FK Digital Media</strong>. We have no affiliation, sponsorship, endorsement,
+          authorization, or licensing partnership with <strong>Hasbro Inc.</strong> or <strong>Mattel Inc.</strong> (owners of Scrabble),{" "}
+          <strong>Zynga Inc. / Take-Two Interactive</strong> (owners of Words With Friends),{" "}
+          <strong>The New York Times Company</strong> (owners of Wordle and Strands),{" "}
+          <strong>Fanatee Inc.</strong> (CodyCross), <strong>PeopleFun</strong> (Wordscapes), or{" "}
+          <strong>Blue Ox Family Games</strong> (7 Little Words).
+        </p>
+        <p>
+          All trademarks, game titles, registered names, and board designs belong exclusively to their
+          respective owners and are referenced on this website solely for descriptive, comparative,
+          and educational purposes under the doctrine of nominative fair use.
+        </p>
+
         <h2>No Professional Advice</h2>
         <p>
           Nothing on the Service constitutes legal, academic, medical, financial or other

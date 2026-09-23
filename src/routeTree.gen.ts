@@ -19,6 +19,7 @@ import { Route as LoginRouteImport } from './routes/login'
 import { Route as LearnRouteImport } from './routes/learn'
 import { Route as DmcaRouteImport } from './routes/dmca'
 import { Route as DisclaimerRouteImport } from './routes/disclaimer'
+import { Route as DataSourcesRouteImport } from './routes/data-sources'
 import { Route as DataLimitationsRouteImport } from './routes/data-limitations'
 import { Route as CookiePolicyRouteImport } from './routes/cookie-policy'
 import { Route as ContactRouteImport } from './routes/contact'
@@ -42,6 +43,7 @@ import { Route as LocaleMethodologyRouteImport } from './routes/$locale.methodol
 import { Route as LocaleLearnRouteImport } from './routes/$locale.learn'
 import { Route as LocaleDmcaRouteImport } from './routes/$locale.dmca'
 import { Route as LocaleDisclaimerRouteImport } from './routes/$locale.disclaimer'
+import { Route as LocaleDataSourcesRouteImport } from './routes/$locale.data-sources'
 import { Route as LocaleDataLimitationsRouteImport } from './routes/$locale.data-limitations'
 import { Route as LocaleCookiePolicyRouteImport } from './routes/$locale.cookie-policy'
 import { Route as LocaleContactRouteImport } from './routes/$locale.contact'
@@ -101,6 +103,11 @@ const DmcaRoute = DmcaRouteImport.update({
 const DisclaimerRoute = DisclaimerRouteImport.update({
   id: '/disclaimer',
   path: '/disclaimer',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DataSourcesRoute = DataSourcesRouteImport.update({
+  id: '/data-sources',
+  path: '/data-sources',
   getParentRoute: () => rootRouteImport,
 } as any)
 const DataLimitationsRoute = DataLimitationsRouteImport.update({
@@ -218,6 +225,11 @@ const LocaleDisclaimerRoute = LocaleDisclaimerRouteImport.update({
   path: '/disclaimer',
   getParentRoute: () => LocaleRoute,
 } as any)
+const LocaleDataSourcesRoute = LocaleDataSourcesRouteImport.update({
+  id: '/data-sources',
+  path: '/data-sources',
+  getParentRoute: () => LocaleRoute,
+} as any)
 const LocaleDataLimitationsRoute = LocaleDataLimitationsRouteImport.update({
   id: '/data-limitations',
   path: '/data-limitations',
@@ -278,6 +290,7 @@ export interface FileRoutesByFullPath {
   '/contact': typeof ContactRoute
   '/cookie-policy': typeof CookiePolicyRoute
   '/data-limitations': typeof DataLimitationsRoute
+  '/data-sources': typeof DataSourcesRoute
   '/disclaimer': typeof DisclaimerRoute
   '/dmca': typeof DmcaRoute
   '/learn': typeof LearnRoute
@@ -293,6 +306,7 @@ export interface FileRoutesByFullPath {
   '/$locale/contact': typeof LocaleContactRoute
   '/$locale/cookie-policy': typeof LocaleCookiePolicyRoute
   '/$locale/data-limitations': typeof LocaleDataLimitationsRoute
+  '/$locale/data-sources': typeof LocaleDataSourcesRoute
   '/$locale/disclaimer': typeof LocaleDisclaimerRoute
   '/$locale/dmca': typeof LocaleDmcaRoute
   '/$locale/learn': typeof LocaleLearnRoute
@@ -322,6 +336,7 @@ export interface FileRoutesByTo {
   '/contact': typeof ContactRoute
   '/cookie-policy': typeof CookiePolicyRoute
   '/data-limitations': typeof DataLimitationsRoute
+  '/data-sources': typeof DataSourcesRoute
   '/disclaimer': typeof DisclaimerRoute
   '/dmca': typeof DmcaRoute
   '/learn': typeof LearnRoute
@@ -337,6 +352,7 @@ export interface FileRoutesByTo {
   '/$locale/contact': typeof LocaleContactRoute
   '/$locale/cookie-policy': typeof LocaleCookiePolicyRoute
   '/$locale/data-limitations': typeof LocaleDataLimitationsRoute
+  '/$locale/data-sources': typeof LocaleDataSourcesRoute
   '/$locale/disclaimer': typeof LocaleDisclaimerRoute
   '/$locale/dmca': typeof LocaleDmcaRoute
   '/$locale/learn': typeof LocaleLearnRoute
@@ -368,6 +384,7 @@ export interface FileRoutesById {
   '/contact': typeof ContactRoute
   '/cookie-policy': typeof CookiePolicyRoute
   '/data-limitations': typeof DataLimitationsRoute
+  '/data-sources': typeof DataSourcesRoute
   '/disclaimer': typeof DisclaimerRoute
   '/dmca': typeof DmcaRoute
   '/learn': typeof LearnRoute
@@ -383,6 +400,7 @@ export interface FileRoutesById {
   '/$locale/contact': typeof LocaleContactRoute
   '/$locale/cookie-policy': typeof LocaleCookiePolicyRoute
   '/$locale/data-limitations': typeof LocaleDataLimitationsRoute
+  '/$locale/data-sources': typeof LocaleDataSourcesRoute
   '/$locale/disclaimer': typeof LocaleDisclaimerRoute
   '/$locale/dmca': typeof LocaleDmcaRoute
   '/$locale/learn': typeof LocaleLearnRoute
@@ -415,6 +433,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/cookie-policy'
     | '/data-limitations'
+    | '/data-sources'
     | '/disclaimer'
     | '/dmca'
     | '/learn'
@@ -430,6 +449,7 @@ export interface FileRouteTypes {
     | '/$locale/contact'
     | '/$locale/cookie-policy'
     | '/$locale/data-limitations'
+    | '/$locale/data-sources'
     | '/$locale/disclaimer'
     | '/$locale/dmca'
     | '/$locale/learn'
@@ -459,6 +479,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/cookie-policy'
     | '/data-limitations'
+    | '/data-sources'
     | '/disclaimer'
     | '/dmca'
     | '/learn'
@@ -474,6 +495,7 @@ export interface FileRouteTypes {
     | '/$locale/contact'
     | '/$locale/cookie-policy'
     | '/$locale/data-limitations'
+    | '/$locale/data-sources'
     | '/$locale/disclaimer'
     | '/$locale/dmca'
     | '/$locale/learn'
@@ -504,6 +526,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/cookie-policy'
     | '/data-limitations'
+    | '/data-sources'
     | '/disclaimer'
     | '/dmca'
     | '/learn'
@@ -519,6 +542,7 @@ export interface FileRouteTypes {
     | '/$locale/contact'
     | '/$locale/cookie-policy'
     | '/$locale/data-limitations'
+    | '/$locale/data-sources'
     | '/$locale/disclaimer'
     | '/$locale/dmca'
     | '/$locale/learn'
@@ -550,6 +574,7 @@ export interface RootRouteChildren {
   ContactRoute: typeof ContactRoute
   CookiePolicyRoute: typeof CookiePolicyRoute
   DataLimitationsRoute: typeof DataLimitationsRoute
+  DataSourcesRoute: typeof DataSourcesRoute
   DisclaimerRoute: typeof DisclaimerRoute
   DmcaRoute: typeof DmcaRoute
   LearnRoute: typeof LearnRoute
@@ -637,6 +662,13 @@ declare module '@tanstack/react-router' {
       path: '/disclaimer'
       fullPath: '/disclaimer'
       preLoaderRoute: typeof DisclaimerRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/data-sources': {
+      id: '/data-sources'
+      path: '/data-sources'
+      fullPath: '/data-sources'
+      preLoaderRoute: typeof DataSourcesRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/data-limitations': {
@@ -800,6 +832,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LocaleDisclaimerRouteImport
       parentRoute: typeof LocaleRoute
     }
+    '/$locale/data-sources': {
+      id: '/$locale/data-sources'
+      path: '/data-sources'
+      fullPath: '/$locale/data-sources'
+      preLoaderRoute: typeof LocaleDataSourcesRouteImport
+      parentRoute: typeof LocaleRoute
+    }
     '/$locale/data-limitations': {
       id: '/$locale/data-limitations'
       path: '/data-limitations'
@@ -891,6 +930,7 @@ interface LocaleRouteChildren {
   LocaleContactRoute: typeof LocaleContactRoute
   LocaleCookiePolicyRoute: typeof LocaleCookiePolicyRoute
   LocaleDataLimitationsRoute: typeof LocaleDataLimitationsRoute
+  LocaleDataSourcesRoute: typeof LocaleDataSourcesRoute
   LocaleDisclaimerRoute: typeof LocaleDisclaimerRoute
   LocaleDmcaRoute: typeof LocaleDmcaRoute
   LocaleLearnRoute: typeof LocaleLearnRoute
@@ -912,6 +952,7 @@ const LocaleRouteChildren: LocaleRouteChildren = {
   LocaleContactRoute: LocaleContactRoute,
   LocaleCookiePolicyRoute: LocaleCookiePolicyRoute,
   LocaleDataLimitationsRoute: LocaleDataLimitationsRoute,
+  LocaleDataSourcesRoute: LocaleDataSourcesRoute,
   LocaleDisclaimerRoute: LocaleDisclaimerRoute,
   LocaleDmcaRoute: LocaleDmcaRoute,
   LocaleLearnRoute: LocaleLearnRoute,
@@ -949,6 +990,7 @@ const rootRouteChildren: RootRouteChildren = {
   ContactRoute: ContactRoute,
   CookiePolicyRoute: CookiePolicyRoute,
   DataLimitationsRoute: DataLimitationsRoute,
+  DataSourcesRoute: DataSourcesRoute,
   DisclaimerRoute: DisclaimerRoute,
   DmcaRoute: DmcaRoute,
   LearnRoute: LearnRoute,

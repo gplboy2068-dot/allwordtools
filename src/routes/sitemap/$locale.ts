@@ -21,6 +21,7 @@ function appPaths(): Entry[] {
     { path: "/about", changefreq: "yearly", priority: "0.4" },
     { path: "/about/firoz-khan", changefreq: "monthly", priority: "0.5" },
     { path: "/methodology", changefreq: "monthly", priority: "0.5" },
+    { path: "/data-sources", changefreq: "monthly", priority: "0.5" },
     { path: "/data-limitations", changefreq: "monthly", priority: "0.5" },
     { path: "/ai-tools", changefreq: "monthly", priority: "0.5" },
     { path: "/report-error", changefreq: "monthly", priority: "0.5" },

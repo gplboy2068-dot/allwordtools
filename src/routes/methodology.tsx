@@ -529,6 +529,10 @@ export function MethodologyPage() {
           For a complete breakdown of data boundaries and result categories, visit our dedicated{" "}
           <Link to="/data-limitations" className="font-semibold text-honey hover:underline">
             Data Limitations Guide
+          </Link>{" "}
+          and our complete{" "}
+          <Link to="/data-sources" className="font-semibold text-honey hover:underline">
+            Data Sources &amp; Attribution Directory
           </Link>.
         </p>
 
