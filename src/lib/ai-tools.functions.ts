@@ -1,5 +1,6 @@
 import { createServerFn } from "@tanstack/react-start";
 import { z } from "zod";
+import { getAiApiKey } from "./ai-config";
 
 /**
  * AI Tools powered by DeepSeek (deepseek-chat).
@@ -47,8 +48,12 @@ const TextInput = z.object({
 });
 
 async function callGateway(messages: { role: string; content: string }[], json = false) {
-  const apiKey = process.env.DEEPSEEK_API_KEY;
-  if (!apiKey) throw new Error("AI is not configured for this project.");
+  const apiKey = getAiApiKey();
+  if (!apiKey) {
+    throw new Error(
+      "AI is not configured for this project. Please set DEEPSEEK_API_KEY in your Cloudflare environment variables or local .env file."
+    );
+  }
 
   const res = await fetch(GATEWAY, {
     method: "POST",

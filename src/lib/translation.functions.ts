@@ -7,6 +7,7 @@ import { toolContent } from "@/data/tool-content";
 import { getLocale } from "@/i18n/locales";
 import type { LocalizedToolContent } from "@/i18n/content";
 import { saveToolToDb } from "@/lib/db";
+import { getAiApiKey } from "@/lib/ai-config";
 
 const MODEL = "deepseek-chat";
 const GATEWAY = "https://api.deepseek.com/chat/completions";
@@ -16,7 +17,7 @@ async function callAi(
   customApiKey?: string,
   json = true,
 ) {
-  const apiKey = customApiKey || process.env.DEEPSEEK_API_KEY || process.env.GEMINI_API_KEY;
+  const apiKey = customApiKey || getAiApiKey();
   if (!apiKey) {
     throw new Error(
       "AI API Key is missing. Please provide an API key in the admin panel or configure DEEPSEEK_API_KEY in environment variables.",

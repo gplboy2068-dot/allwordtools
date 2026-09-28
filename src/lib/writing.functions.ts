@@ -1,5 +1,6 @@
 import { createServerFn } from "@tanstack/react-start";
 import { z } from "zod";
+import { getAiApiKey } from "./ai-config";
 
 /**
  * AI-powered writing assistant used by the Grammar & Style tools:
@@ -73,8 +74,12 @@ function normalize(raw: unknown, fallbackText: string): WritingResult {
 export const analyzeWriting = createServerFn({ method: "POST" })
   .inputValidator((data: unknown) => InputSchema.parse(data))
   .handler(async ({ data }): Promise<WritingResult> => {
-    const apiKey = process.env.DEEPSEEK_API_KEY;
-    if (!apiKey) throw new Error("AI is not configured for this project.");
+    const apiKey = getAiApiKey();
+    if (!apiKey) {
+      throw new Error(
+        "AI is not configured for this project. Please set DEEPSEEK_API_KEY in your Cloudflare environment variables or local .env file."
+      );
+    }
 
     const system = `${TASK_PROMPTS[data.task]}
 
