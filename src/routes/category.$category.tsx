@@ -1,5 +1,19 @@
+import { useState, useMemo } from "react";
 import { createFileRoute, Link, notFound, useRouter } from "@tanstack/react-router";
-import { ArrowRight, ChevronRight, Home, Lightbulb, Sparkles } from "lucide-react";
+import {
+  ArrowRight,
+  ChevronRight,
+  Home,
+  Lightbulb,
+  Sparkles,
+  Search,
+  X,
+  Zap,
+  ShieldCheck,
+  BookOpen,
+  HelpCircle,
+  Wrench,
+} from "lucide-react";
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { ToolCard } from "@/components/site/ToolCard";
@@ -14,6 +28,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 import { categories, type Tool } from "@/data/tools";
 import { getCategoryReferences } from "@/lib/external-links";
 import { buildLocaleHead, inLanguage, BASE_URL } from "@/i18n/seo";
@@ -22,6 +37,7 @@ import { DEFAULT_LOCALE } from "@/i18n/locales";
 import { useI18n } from "@/i18n/I18nProvider";
 import { getLocalizedCategory } from "@/i18n/categories";
 import { getLocalizedCategoryFullContent } from "@/i18n/category-content";
+import { getLocalizedToolInfo } from "@/i18n/tools-data";
 
 const SITE = "AllWordTools.com";
 
@@ -144,6 +160,17 @@ const UI_LOCALIZATION: Record<
     errorDesc: string;
     tryAgain: string;
     home: string;
+    searchPlaceholder: string;
+    showingCount: string;
+    noToolsMatch: string;
+    clearSearch: string;
+    navTools: string;
+    navGuide: string;
+    navTips: string;
+    navFaq: string;
+    badgeFree: string;
+    badgeInstant: string;
+    badgeNoSignup: string;
   }
 > = {
   en: {
@@ -164,6 +191,17 @@ const UI_LOCALIZATION: Record<
     errorDesc: "Something went wrong. Please try again.",
     tryAgain: "Try again",
     home: "Home",
+    searchPlaceholder: "Filter tools in this category...",
+    showingCount: "Showing {visible} of {total} tools",
+    noToolsMatch: "No tools match your filter.",
+    clearSearch: "Reset filter",
+    navTools: "Tools",
+    navGuide: "Guide",
+    navTips: "Pro Tips",
+    navFaq: "FAQs",
+    badgeFree: "100% Free & Unlimited",
+    badgeInstant: "Instant in Browser",
+    badgeNoSignup: "No Sign-up Required",
   },
   es: {
     toolsCount: "{count} herramientas gratuitas en esta categoría",
@@ -183,6 +221,17 @@ const UI_LOCALIZATION: Record<
     errorDesc: "Algo salió mal. Por favor intenta de nuevo.",
     tryAgain: "Intentar de nuevo",
     home: "Inicio",
+    searchPlaceholder: "Filtrar herramientas en esta categoría...",
+    showingCount: "Mostrando {visible} de {total} herramientas",
+    noToolsMatch: "Ninguna herramienta coincide con tu búsqueda.",
+    clearSearch: "Restablecer filtro",
+    navTools: "Herramientas",
+    navGuide: "Guía",
+    navTips: "Consejos",
+    navFaq: "Preguntas",
+    badgeFree: "100% Gratis e Ilimitado",
+    badgeInstant: "Instantáneo en Navegador",
+    badgeNoSignup: "Sin Registro",
   },
   de: {
     toolsCount: "{count} kostenlose Tools in dieser Kategorie",
@@ -202,6 +251,17 @@ const UI_LOCALIZATION: Record<
     errorDesc: "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
     tryAgain: "Erneut versuchen",
     home: "Startseite",
+    searchPlaceholder: "Werkzeuge in dieser Kategorie filtern...",
+    showingCount: "{visible} von {total} Werkzeugen angezeigt",
+    noToolsMatch: "Keine Werkzeuge entsprechen deiner Suche.",
+    clearSearch: "Filter zurücksetzen",
+    navTools: "Werkzeuge",
+    navGuide: "Leitfaden",
+    navTips: "Tipps",
+    navFaq: "FAQ",
+    badgeFree: "100% Kostenlos & Unbegrenzt",
+    badgeInstant: "Sofort im Browser",
+    badgeNoSignup: "Keine Anmeldung nötig",
   },
   pt: {
     toolsCount: "{count} ferramentas gratuitas nesta categoria",
@@ -221,6 +281,17 @@ const UI_LOCALIZATION: Record<
     errorDesc: "Algo deu errado. Por favor, tente novamente.",
     tryAgain: "Tente novamente",
     home: "Início",
+    searchPlaceholder: "Filtrar ferramentas nesta categoria...",
+    showingCount: "Mostrando {visible} de {total} ferramentas",
+    noToolsMatch: "Nenhuma ferramenta encontrada com essa busca.",
+    clearSearch: "Limpar filtro",
+    navTools: "Ferramentas",
+    navGuide: "Guia",
+    navTips: "Dicas",
+    navFaq: "Perguntas",
+    badgeFree: "100% Grátis e Ilimitado",
+    badgeInstant: "Instantâneo no Navegador",
+    badgeNoSignup: "Sem Registro",
   },
   ru: {
     toolsCount: "{count} бесплатных инструментов в этой категории",
@@ -240,6 +311,17 @@ const UI_LOCALIZATION: Record<
     errorDesc: "Что-то пошло не так. Пожалуйста, попробуйте еще раз.",
     tryAgain: "Попробовать еще раз",
     home: "Главная",
+    searchPlaceholder: "Фильтр инструментов в этой категории...",
+    showingCount: "Показано {visible} из {total} инструментов",
+    noToolsMatch: "Инструменты по вашему запросу не найдены.",
+    clearSearch: "Сбросить фильтр",
+    navTools: "Инструменты",
+    navGuide: "Руководство",
+    navTips: "Советы",
+    navFaq: "Вопросы",
+    badgeFree: "100% Бесплатно и Безлимитно",
+    badgeInstant: "Мгновенно в браузере",
+    badgeNoSignup: "Без регистрации",
   },
   id: {
     toolsCount: "{count} alat gratis di kategori ini",
@@ -259,6 +341,17 @@ const UI_LOCALIZATION: Record<
     errorDesc: "Terjadi kesalahan. Silakan coba lagi.",
     tryAgain: "Coba lagi",
     home: "Beranda",
+    searchPlaceholder: "Filter alat di kategori ini...",
+    showingCount: "Menampilkan {visible} dari {total} alat",
+    noToolsMatch: "Tidak ada alat yang cocok dengan pencarian.",
+    clearSearch: "Reset filter",
+    navTools: "Alat",
+    navGuide: "Panduan",
+    navTips: "Tips",
+    navFaq: "FAQ",
+    badgeFree: "100% Gratis & Tanpa Batas",
+    badgeInstant: "Instan di Peramban",
+    badgeNoSignup: "Tanpa Perlu Daftar",
   },
   ar: {
     toolsCount: "{count} أدوات مجانية في هذه الفئة",
@@ -278,6 +371,17 @@ const UI_LOCALIZATION: Record<
     errorDesc: "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
     tryAgain: "إعادة المحاولة",
     home: "الرئيسية",
+    searchPlaceholder: "تصفية الأدوات في هذا القسم...",
+    showingCount: "عرض {visible} من {total} أدوات",
+    noToolsMatch: "لم يتم العثور على أدوات مطابقة لبحثك.",
+    clearSearch: "إعادة ضبط التصفية",
+    navTools: "الأدوات",
+    navGuide: "الدليل",
+    navTips: "نصائح",
+    navFaq: "الأسئلة الشائعة",
+    badgeFree: "مجاني 100% وغير محدود",
+    badgeInstant: "فوري في المتصفح",
+    badgeNoSignup: "لا يلزم التسجيل",
   },
   hi: {
     toolsCount: "इस श्रेणी में {count} मुफ़्त टूल्स",
@@ -297,10 +401,22 @@ const UI_LOCALIZATION: Record<
     errorDesc: "कुछ गलत हो गया। कृपया दोबारा प्रयास करें।",
     tryAgain: "पुनः प्रयास करें",
     home: "होम",
+    searchPlaceholder: "इस श्रेणी के टूल्स फ़िल्टर करें...",
+    showingCount: "{total} में से {visible} टूल्स दिख रहे हैं",
+    noToolsMatch: "आपकी खोज से मेल खाता कोई टूल नहीं मिला।",
+    clearSearch: "फ़िल्टर रीसेट करें",
+    navTools: "टूल्स",
+    navGuide: "गाइड",
+    navTips: "प्रो टिप्स",
+    navFaq: "सामान्य प्रश्न",
+    badgeFree: "100% मुफ़्त और असीमित",
+    badgeInstant: "ब्राउज़र में तुरंत परिणाम",
+    badgeNoSignup: "साइन-अप की आवश्यकता नहीं",
   },
 };
 
 export function CategoryPageView({ slug }: { slug: string }) {
+  const [searchQuery, setSearchQuery] = useState("");
   const { locale } = useI18n();
   const isDefault = locale === DEFAULT_LOCALE;
   const category = getCategory(slug)!;
@@ -314,6 +430,21 @@ export function CategoryPageView({ slug }: { slug: string }) {
     return UI_LOCALIZATION[locale]?.[key] ?? UI_LOCALIZATION.en[key];
   };
 
+  const filteredTools = useMemo(() => {
+    const query = searchQuery.trim().toLowerCase();
+    if (!query) return category.tools;
+    return category.tools.filter((tool) => {
+      const loc = getLocalizedToolInfo(tool, locale);
+      return (
+        tool.name.toLowerCase().includes(query) ||
+        tool.description.toLowerCase().includes(query) ||
+        tool.slug.toLowerCase().includes(query) ||
+        loc.name.toLowerCase().includes(query) ||
+        loc.description.toLowerCase().includes(query)
+      );
+    });
+  }, [category.tools, searchQuery, locale]);
+
   return (
     <div className="min-h-screen bg-background">
       <Header />
@@ -325,7 +456,7 @@ export function CategoryPageView({ slug }: { slug: string }) {
               <ol className="flex items-center gap-1.5 text-sm text-muted-foreground">
                 <li>
                   <Link
-                    to={isDefault ? "/" : "/$locale/"}
+                    to={isDefault ? "/" : "/$locale"}
                     params={isDefault ? {} : { locale }}
                     className="inline-flex items-center gap-1 hover:text-foreground"
                   >
@@ -349,6 +480,60 @@ export function CategoryPageView({ slug }: { slug: string }) {
                 <p className="mt-4 text-lg leading-relaxed text-muted-foreground text-balance">
                   {content.subheading}
                 </p>
+
+                {/* Trust & Performance Signals */}
+                <div className="mt-6 flex flex-wrap items-center gap-4 text-xs font-medium text-muted-foreground">
+                  <span className="inline-flex items-center gap-1.5">
+                    <Zap className="h-3.5 w-3.5 text-honey" />
+                    {t("badgeInstant")}
+                  </span>
+                  <span className="inline-flex items-center gap-1.5">
+                    <Sparkles className="h-3.5 w-3.5 text-honey" />
+                    {t("badgeFree")}
+                  </span>
+                  <span className="inline-flex items-center gap-1.5">
+                    <ShieldCheck className="h-3.5 w-3.5 text-honey" />
+                    {t("badgeNoSignup")}
+                  </span>
+                </div>
+
+                {/* Quick Jump Bar */}
+                <div className="mt-6 flex flex-wrap items-center gap-2">
+                  <a
+                    href="#tools"
+                    className="inline-flex items-center gap-1.5 rounded-full border border-border/70 bg-card/80 px-3.5 py-1.5 text-xs font-medium text-foreground shadow-sm transition-all hover:border-honey/60 hover:bg-card hover:text-honey"
+                  >
+                    <Wrench className="h-3.5 w-3.5 text-honey" />
+                    {t("navTools")} ({category.tools.length})
+                  </a>
+                  {content && (
+                    <a
+                      href="#about"
+                      className="inline-flex items-center gap-1.5 rounded-full border border-border/70 bg-card/80 px-3.5 py-1.5 text-xs font-medium text-foreground shadow-sm transition-all hover:border-honey/60 hover:bg-card hover:text-honey"
+                    >
+                      <BookOpen className="h-3.5 w-3.5 text-honey" />
+                      {t("navGuide")}
+                    </a>
+                  )}
+                  {content && content.tips && content.tips.length > 0 && (
+                    <a
+                      href="#tips"
+                      className="inline-flex items-center gap-1.5 rounded-full border border-border/70 bg-card/80 px-3.5 py-1.5 text-xs font-medium text-foreground shadow-sm transition-all hover:border-honey/60 hover:bg-card hover:text-honey"
+                    >
+                      <Lightbulb className="h-3.5 w-3.5 text-honey" />
+                      {t("navTips")}
+                    </a>
+                  )}
+                  {content && content.faqs && content.faqs.length > 0 && (
+                    <a
+                      href="#faq"
+                      className="inline-flex items-center gap-1.5 rounded-full border border-border/70 bg-card/80 px-3.5 py-1.5 text-xs font-medium text-foreground shadow-sm transition-all hover:border-honey/60 hover:bg-card hover:text-honey"
+                    >
+                      <HelpCircle className="h-3.5 w-3.5 text-honey" />
+                      {t("navFaq")} ({content.faqs.length})
+                    </a>
+                  )}
+                </div>
               </div>
               <span className="flex h-20 w-20 shrink-0 items-center justify-center rounded-3xl gradient-ink text-primary-foreground shadow-lift">
                 <Icon className="h-10 w-10" />
@@ -358,18 +543,84 @@ export function CategoryPageView({ slug }: { slug: string }) {
         </section>
 
         {/* Tools grid */}
-        <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8" aria-labelledby="tools">
-          <h2 id="tools" className="font-display text-2xl font-semibold tracking-tight sm:text-3xl">
-            {locCat.title} {t("toolsTitleSuffix")}
-          </h2>
-          <p className="mt-2 text-muted-foreground">
-            {t("pickToolSub")}
-          </p>
-          <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {category.tools.map((tool: Tool) => (
-              <ToolCard key={tool.slug} tool={tool} />
-            ))}
+        <section
+          id="tools"
+          className="mx-auto max-w-7xl scroll-mt-20 px-4 py-14 sm:px-6 lg:px-8"
+          aria-labelledby="tools-heading"
+        >
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <h2 id="tools-heading" className="font-display text-2xl font-semibold tracking-tight sm:text-3xl">
+                {locCat.title} {t("toolsTitleSuffix")}
+              </h2>
+              <p className="mt-1 text-muted-foreground">
+                {t("pickToolSub")}
+              </p>
+            </div>
+
+            {/* Instant Filter & Search */}
+            <div className="relative w-full sm:w-72">
+              <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+              <Input
+                type="search"
+                placeholder={t("searchPlaceholder")}
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="h-10 rounded-xl border-border/80 bg-card/60 pl-9 pr-8 backdrop-blur focus-visible:ring-honey"
+              />
+              {searchQuery && (
+                <button
+                  type="button"
+                  onClick={() => setSearchQuery("")}
+                  className="absolute right-2.5 top-1/2 -translate-y-1/2 rounded-full p-1 text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+                  aria-label={t("clearSearch")}
+                >
+                  <X className="h-3.5 w-3.5" />
+                </button>
+              )}
+            </div>
           </div>
+
+          {/* Search Results Count if filtering */}
+          {searchQuery.trim() && (
+            <div className="mt-4 flex items-center justify-between text-xs text-muted-foreground">
+              <span>
+                {t("showingCount")
+                  .replace("{visible}", filteredTools.length.toString())
+                  .replace("{total}", category.tools.length.toString())}
+              </span>
+              <button
+                type="button"
+                onClick={() => setSearchQuery("")}
+                className="font-medium text-honey transition-colors hover:underline"
+              >
+                {t("clearSearch")}
+              </button>
+            </div>
+          )}
+
+          {filteredTools.length > 0 ? (
+            <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+              {filteredTools.map((tool: Tool) => (
+                <ToolCard key={tool.slug} tool={tool} />
+              ))}
+            </div>
+          ) : (
+            <div className="mt-10 rounded-2xl border border-dashed border-border/80 bg-card/40 p-12 text-center">
+              <p className="text-base font-medium text-foreground">{t("noToolsMatch")}</p>
+              <p className="mt-1 text-sm text-muted-foreground">
+                &ldquo;{searchQuery}&rdquo;
+              </p>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => setSearchQuery("")}
+                className="mt-4 rounded-xl border-border/80"
+              >
+                {t("clearSearch")}
+              </Button>
+            </div>
+          )}
         </section>
 
         {/* Strategic Ad Banner */}
@@ -377,13 +628,13 @@ export function CategoryPageView({ slug }: { slug: string }) {
 
         {/* Long-form content */}
         {content && (
-          <section className="bg-secondary/40 py-14" aria-labelledby="about">
+          <section id="about" className="scroll-mt-20 bg-secondary/40 py-14" aria-labelledby="about-heading">
             <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
               <span className="text-sm font-semibold uppercase tracking-wider text-honey">
                 {content.eyebrow}
               </span>
               <h2
-                id="about"
+                id="about-heading"
                 className="mt-2 font-display text-3xl font-semibold tracking-tight sm:text-4xl"
               >
                 {t("aboutCategory").replace("{title}", locCat.title)}
@@ -415,7 +666,7 @@ export function CategoryPageView({ slug }: { slug: string }) {
 
               {/* Tips */}
               {content.tips && content.tips.length > 0 && (
-                <div className="mt-12 rounded-3xl border border-border/70 bg-card p-7 shadow-soft">
+                <div id="tips" className="mt-12 scroll-mt-24 rounded-3xl border border-border/70 bg-card p-7 shadow-soft">
                   <h3 className="flex items-center gap-2 font-display text-xl font-semibold">
                     <Lightbulb className="h-5 w-5 text-honey" /> {t("tips")}
                   </h3>
@@ -440,12 +691,12 @@ export function CategoryPageView({ slug }: { slug: string }) {
 
         {/* FAQ */}
         {content && content.faqs && content.faqs.length > 0 && (
-          <section className="mx-auto max-w-3xl px-4 py-14 sm:px-6 lg:px-8" aria-labelledby="faq">
+          <section id="faq" className="mx-auto max-w-3xl scroll-mt-20 px-4 py-14 sm:px-6 lg:px-8" aria-labelledby="faq-heading">
             <span className="text-sm font-semibold uppercase tracking-wider text-honey">
               {t("faqEyebrow")}
             </span>
             <h2
-              id="faq"
+              id="faq-heading"
               className="mt-2 font-display text-3xl font-semibold tracking-tight sm:text-4xl"
             >
               {locCat.title} {t("faqsTitleSuffix")}
@@ -536,7 +787,7 @@ export function CategoryNotFound() {
         <p className="mt-3 text-muted-foreground">{t("notFoundDesc")}</p>
         <Button asChild className="mt-6 rounded-full">
           <Link
-            to={isDefault ? "/" : "/$locale/"}
+            to={isDefault ? "/" : "/$locale"}
             params={isDefault ? {} : { locale }}
           >
             {t("backHome")}
