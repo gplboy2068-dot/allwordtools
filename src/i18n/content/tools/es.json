@@ -106,10 +106,12 @@
     "name": "Word Unscrambler"
   },
   "anagram-solver": {
-    "metaTitle": "Anagramador de Palabras Online | AllWordTools",
+    "metaTitle": "Anagramador de Palabras y Scrabble Online | AllWordTools",
     "metaDescription": "El mejor anagramador en español online gratis. Resuelve anagramas, desordena letras y encuentra palabras para Scrabble, Apalabrados y crucigramas.",
     "searchIntent": "Los usuarios buscan una herramienta que les ayude a encontrar palabras y soluciones a juegos de letras a partir de un conjunto desordenado de letras.",
     "keywords": [
+      "anagramador",
+      "anagramador scrabble",
       "anagramador español",
       "solucionador de anagramas",
       "descifrar anagramas letras",

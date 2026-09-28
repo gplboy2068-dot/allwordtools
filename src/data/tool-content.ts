@@ -2567,9 +2567,9 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "missing-letters-finder": {
     slug: "missing-letters-finder",
-    metaTitle: "Missing Letters Finder — Word Solver | AllWordTools",
+    metaTitle: "Missing Letters Finder — Fill in the Blanks & Find Words | AllWordTools",
     metaDescription:
-      "Free Missing Letters Finder to solve words with missing letters, blanks, and wildcards. Instantly find words with missing letters for puzzles & crosswords.",
+      "Fill in the blanks and find missing letters instantly. Solve incomplete words, crossword gaps, and spelling puzzles with highlighted letter completions.",
     eyebrow: "Advanced Solvers",
     heading: "Missing Letters Finder",
     subheading:
@@ -2640,6 +2640,11 @@ export const toolContent: Record<string, ToolContent> = {
           "It fills in the blanks in a partially spelled word and shows every real word that fits, highlighting the letters it added.",
       },
       {
+        question: "How do I solve fill in the blanks missing letters exercises?",
+        answer:
+          "Simply type the known letters in their proper order and use an underscore (_) or question mark (?) for each unknown blank letter. The finder searches a complete English dictionary and outputs all matching valid words instantly.",
+      },
+      {
         question: "How do I mark a missing letter?",
         answer:
           "Use an underscore or a question mark for each gap. Every symbol stands for exactly one missing letter, so the word length stays fixed.",
@@ -2668,7 +2673,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "letter-rearranger": {
     slug: "letter-rearranger",
-    metaTitle: "Letter Rearranger — Make Words from Letters | AllWordTools",
+    metaTitle: "Letter Rearranger — Word Rearranger & Letter Solver | AllWordTools",
     metaDescription:
       "Rearrange letters into all possible words instantly. Powerful letter solver, anagram unscrambler, and word maker with length and wildcard filters.",
     eyebrow: "Advanced Solvers",
@@ -2747,6 +2752,11 @@ export const toolContent: Record<string, ToolContent> = {
         question: "What does the Letter Rearranger do?",
         answer:
           "It reorders your letters into every valid English word — both full-length anagrams that use all the letters and every shorter word you can build from a subset.",
+      },
+      {
+        question: "How does this word rearranger help in games like Scrabble?",
+        answer:
+          "The word rearranger takes any set of rack tiles, including blank wildcards (? or *), and calculates every possible word you can form. It sorts results by Scrabble score and length so you can find the highest-scoring play in seconds.",
       },
       {
         question: "How is it different from the Anagram Solver?",
@@ -4610,9 +4620,9 @@ export const toolContent: Record<string, ToolContent> = {
 ,
   "ai-word-explainer": {
     slug: "ai-word-explainer",
-    metaTitle: "AI Word Explainer — Meanings & Usage | AllWordTools",
+    metaTitle: "AI Word Explainer — Free Online Word Meaning Explainer | AllWordTools",
     metaDescription:
-      "Free AI Word Explainer that breaks down any word with clear definitions, pronunciation, synonyms, antonyms, real-world examples, and etymology.",
+      "Free AI Word Explainer and word meaning solver that breaks down any word with clear definitions, pronunciation, synonyms, antonyms, real-world examples, and etymology.",
     eyebrow: "AI Tools",
     heading: "AI Word Explainer",
     subheading:
@@ -4620,7 +4630,7 @@ export const toolContent: Record<string, ToolContent> = {
     updated: "August 2026",
     readingMinutes: 8,
     intro: [
-      "Traditional dictionaries give you brief, rigid definitions, but they often leave you wondering how a word actually feels and functions in modern conversation or scholarly prose. The AI Word Explainer transforms word lookup into an intuitive, multi-dimensional learning experience. Powered by advanced Gemini AI, it analyses any word or phrase you enter and delivers a comprehensive breakdown that includes plain-English definitions, phonetic pronunciation guides, grammatical roles, subtle emotional connotations, and historical roots.",
+      "Traditional dictionaries give you brief, rigid definitions, but they often leave you wondering how a word actually feels and functions in modern conversation or scholarly prose. The AI Word Explainer transforms word lookup into an intuitive, multi-dimensional learning experience. Powered by advanced AI language models, it analyses any word or phrase you enter and delivers a comprehensive breakdown that includes plain-English definitions, phonetic pronunciation guides, grammatical roles, subtle emotional connotations, and historical roots.",
       "Whether you are deciphering archaic literature, mastering high-level academic vocabulary for the GRE, SAT, or IELTS, or encountering industry-specific jargon in business and technology, this tool unpacks every nuance. Instead of wading through dense dictionary abbreviations, you receive conversational explanations tailored to illuminate exactly when, why, and how a word should be used.",
       "The tool is completely free, instant, and runs seamlessly in your browser on desktop, tablet, and mobile devices without requiring any login or subscription. Pair it with our [Dictionary](dictionary) and [Word Meaning](word-meaning) tools to elevate your language mastery effortlessly."
     ],
@@ -4636,7 +4646,7 @@ export const toolContent: Record<string, ToolContent> = {
       },
       {
         title: "Generate AI explanation",
-        detail: "Click the Explain button to let Gemini AI analyze the word across multiple linguistic dimensions in real time."
+        detail: "Click the Explain button to let advanced AI analyze the word across multiple linguistic dimensions in real time."
       },
       {
         title: "Explore definitions, origins, and usage",
@@ -5987,9 +5997,9 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "assonance-finder": {
     slug: "assonance-finder",
-    metaTitle: "Assonance Finder — Vowel Rhymes & Poems | AllWordTools",
+    metaTitle: "Assonance Finder & Generator — Vowel Rhyme Patterns | AllWordTools",
     metaDescription:
-      "Free Assonance Finder that identifies repeated vowel sounds and vowel rhyme patterns in words, poetry, lyrics, and phrases.",
+      "Free Assonance Finder and Generator that identifies repeated vowel sounds and vowel rhyme patterns in words, poetry, lyrics, and creative writing.",
     eyebrow: "Literary & Rhyme Tools",
     heading: "Assonance Finder & Generator",
     subheading:
@@ -6437,9 +6447,9 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "pronunciation": {
     slug: "pronunciation",
-    metaTitle: "Pronunciation — Audio & Phonetic Guide | AllWordTools",
+    metaTitle: "Pronounce Words with Audio — Free Online Pronunciation Guide | AllWordTools",
     metaDescription:
-      "Hear natural audio pronunciations in American and British English. View clear IPA transcriptions and syllable stress guides for any English word.",
+      "Pronounce words with clear audio pronunciations in American and British English. View clear IPA transcriptions and syllable stress guides for any English word.",
     eyebrow: "Dictionary & Meanings",
     heading: "Word Pronunciation & Audio Guide",
     subheading:
