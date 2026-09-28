@@ -1,3 +1,0 @@
-# Cloudflare Pages 301 Canonical Redirects
-http://allwordtools.com/* https://www.allwordtools.com/:splat 301!
-https://allwordtools.com/* https://www.allwordtools.com/:splat 301!

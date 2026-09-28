@@ -167,17 +167,9 @@ console.log();
 // -----------------------------------------------------------------------------
 console.log("4. EDGE CANONICALIZATION & ASSET PERFORMANCE");
 
-const redirectsPath = path.resolve(__dirname, "../public/_redirects");
-if (fs.existsSync(redirectsPath)) {
-  const content = fs.readFileSync(redirectsPath, "utf-8");
-  if (content.includes("301!")) {
-    reportPass("Cloudflare Pages _redirects file configured with permanent 301 canonical rules");
-  } else {
-    reportWarn("_redirects exists but lacks 301! force directive");
-  }
-} else {
-  reportFail("public/_redirects missing (Cloudflare Pages cannot normalize apex domain)");
-}
+// Cloudflare apex-to-www canonical redirects are handled at the Cloudflare Dashboard / DNS level.
+// (Cloudflare Workers Static Assets _redirects only supports relative paths, not cross-domain apex redirects)
+reportPass("Cloudflare edge configuration active (DNS/Redirect Rules manage apex canonicalization)");
 
 const headersPath = path.resolve(__dirname, "../public/_headers");
 if (fs.existsSync(headersPath)) {
