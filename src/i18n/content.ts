@@ -28,6 +28,7 @@ export interface LocalizedToolContent {
   eyebrow?: string;
   heading?: string;
   subheading?: string;
+  quickAnswer?: string;
   intro?: string[];
   howToTitle?: string;
   howToSteps?: { title: string; detail: string }[];

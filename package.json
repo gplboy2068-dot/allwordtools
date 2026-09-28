@@ -15,6 +15,7 @@
     "deploy": "wrangler pages deploy .output/public",
     "indexnow": "node scripts/submit-indexnow.cjs",
     "seo:audit": "npx tsx scripts/seo-audit.ts",
+    "audit:geo": "npx tsx scripts/audit-geo-ai.ts",
     "lint": "eslint .",
     "format": "prettier --write ."
   },

@@ -127,6 +127,7 @@ import { toolContent } from "@/data/tool-content";
 import { buildLocaleHead, inLanguage, BASE_URL } from "@/i18n/seo";
 import { localePath } from "@/i18n/paths";
 import { mergeToolContent, type LocalizedToolContent } from "@/i18n/content";
+import { buildEnhancedSoftwareSchema, getDirectAnswer } from "@/lib/geo";
 
 function renderParagraphWithLinks(text: string, locale: string) {
   const regex = /\[([^\]]+)\]\(([^)]+)\)/g;
@@ -286,18 +287,15 @@ export function toolHead(slug: string, locale: string, override?: LocalizedToolC
       },
       {
         type: "application/ld+json",
-        children: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "SoftwareApplication",
-          name: tool.name,
-          url,
-          applicationCategory: "UtilitiesApplication",
-          operatingSystem: "Web",
-          description,
-          inLanguage: inLanguage(locale),
-          offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-          publisher: { "@type": "Organization", name: SITE },
-        }),
+        children: JSON.stringify(
+          buildEnhancedSoftwareSchema({
+            tool,
+            content,
+            locale,
+            url,
+            categoryTitle: category?.title,
+          })
+        ),
       },
       {
         type: "application/ld+json",
@@ -392,6 +390,7 @@ const UI_LOCALIZATION: Record<
     home: string;
     updated: string;
     readingTime: string;
+    quickAnswerTitle: string;
   }
 > = {
   en: {
@@ -417,6 +416,7 @@ const UI_LOCALIZATION: Record<
     home: "Home",
     updated: "Updated",
     readingTime: "min read",
+    quickAnswerTitle: "Quick Definition & Key Takeaway",
   },
   es: {
     about: "Acerca de",
@@ -441,6 +441,7 @@ const UI_LOCALIZATION: Record<
     home: "Inicio",
     updated: "Actualizado",
     readingTime: "min de lectura",
+    quickAnswerTitle: "Definición rápida y punto clave",
   },
   de: {
     about: "Über",
@@ -465,6 +466,7 @@ const UI_LOCALIZATION: Record<
     home: "Startseite",
     updated: "Aktualisiert",
     readingTime: "Min. Lesedauer",
+    quickAnswerTitle: "Kurzdefinition & Wichtigste Erkenntnis",
   },
   pt: {
     about: "Sobre",
@@ -489,6 +491,7 @@ const UI_LOCALIZATION: Record<
     home: "Início",
     updated: "Atualizado",
     readingTime: "min de leitura",
+    quickAnswerTitle: "Definição rápida e ponto principal",
   },
   ru: {
     about: "О программе",
@@ -513,6 +516,7 @@ const UI_LOCALIZATION: Record<
     home: "Главная",
     updated: "Обновлено",
     readingTime: "мин чтения",
+    quickAnswerTitle: "Краткое определение и ключевые выводы",
   },
   id: {
     about: "Tentang",
@@ -537,6 +541,7 @@ const UI_LOCALIZATION: Record<
     home: "Beranda",
     updated: "Diperbarui",
     readingTime: "menit baca",
+    quickAnswerTitle: "Definisi Cepat & Poin Kunci",
   },
   ar: {
     about: "حول",
@@ -561,6 +566,7 @@ const UI_LOCALIZATION: Record<
     home: "الرئيسية",
     updated: "تم التحديث",
     readingTime: "دقائق قراءة",
+    quickAnswerTitle: "التعريف السريع والنقاط الرئيسية",
   },
   hi: {
     about: "के बारे में",
@@ -585,6 +591,7 @@ const UI_LOCALIZATION: Record<
     home: "होम",
     updated: "अपडेट किया गया",
     readingTime: "मिनट पठन",
+    quickAnswerTitle: "त्वरित परिभाषा और मुख्य निष्कर्ष",
   },
 };
 
@@ -602,6 +609,7 @@ export function ToolPageView({
   const category = getCategory(tool.category);
   const Icon = toolIcons[slug] ?? Sparkles;
   const references = getToolReferences(slug);
+  const directAnswer = getDirectAnswer(slug, content, tool);
 
   const t = (key: keyof typeof UI_LOCALIZATION.en) => {
     return UI_LOCALIZATION[locale]?.[key] ?? UI_LOCALIZATION.en[key];
@@ -904,7 +912,25 @@ export function ToolPageView({
               >
                 {t("about")} {tool.name}
               </h2>
-              <div className="mt-5 space-y-4">
+
+              {/* Direct Answer & Key Takeaway Block for AI Search & GEO */}
+              {directAnswer && (
+                <div
+                  role="region"
+                  aria-label={`${t("quickAnswerTitle")}: ${tool.name}`}
+                  className="mt-6 rounded-2xl border border-honey/30 bg-honey/5 p-5 shadow-xs"
+                >
+                  <div className="flex items-center gap-2 font-display text-xs font-semibold tracking-wider text-honey uppercase">
+                    <Sparkles className="h-4 w-4" />
+                    <span>{t("quickAnswerTitle")}</span>
+                  </div>
+                  <p className="mt-2.5 text-base font-medium leading-relaxed text-foreground">
+                    {renderParagraphWithLinks(directAnswer, locale)}
+                  </p>
+                </div>
+              )}
+
+              <div className="mt-6 space-y-4">
                 {content.intro.map((p, i) => (
                   <p key={i} className="text-base leading-relaxed text-muted-foreground">
                     {renderParagraphWithLinks(p, locale)}

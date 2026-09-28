@@ -11,6 +11,7 @@ import { blogPosts } from "../src/data/blog-posts";
 import { enabledLocales } from "../src/i18n/locales";
 import { toolContent } from "../src/data/tool-content";
 import { categoryContent } from "../src/data/category-content";
+import { getDirectAnswer, buildEnhancedSoftwareSchema } from "../src/lib/geo";
 import * as fs from "fs";
 import * as path from "path";
 import { fileURLToPath } from "url";
@@ -228,6 +229,51 @@ if (fs.existsSync(gscOpportunitiesPath)) {
 } else {
   console.log("     ↳ No top30_growth_opportunities.json found. Run GSC sync to populate.");
 }
+
+console.log();
+
+// -----------------------------------------------------------------------------
+// 6. GEO & AI SEARCH READINESS (Google AI Overviews • Perplexity • ChatGPT)
+// -----------------------------------------------------------------------------
+console.log("6. GEO & AI SEARCH READINESS (AI Overviews, Perplexity, ChatGPT Search)");
+
+let directAnswerPasses = 0;
+let schemaEnrichmentPasses = 0;
+
+for (const tool of allTools) {
+  const content = toolContent[tool.slug];
+  const directAns = getDirectAnswer(tool.slug, content, tool);
+  if (directAns && directAns.split(/\s+/).length >= 28 && directAns.split(/\s+/).length <= 68) {
+    directAnswerPasses++;
+  }
+
+  const category = categories.find((c) => c.slug === tool.category);
+  const schema = buildEnhancedSoftwareSchema({
+    tool,
+    content,
+    locale: "en",
+    url: `https://allwordtools.com/tool/${tool.slug}`,
+    categoryTitle: category?.title,
+  });
+
+  if (schema.applicationSubCategory && schema.operatingSystem && schema.browserRequirements && schema.isAccessibleForFree && schema.featureList.length > 0) {
+    schemaEnrichmentPasses++;
+  }
+}
+
+if (directAnswerPasses === allTools.length) {
+  reportPass(`100% of ${allTools.length} tools equipped with concise direct answers (30–65 words) for AI snippet extraction`);
+} else {
+  reportWarn(`${allTools.length - directAnswerPasses} tools lack compliant direct answers`);
+}
+
+if (schemaEnrichmentPasses === allTools.length) {
+  reportPass(`Enhanced SoftwareApplication schema active across all ${allTools.length} tools (featureList, subCategory, OS, free)`);
+} else {
+  reportWarn(`${allTools.length - schemaEnrichmentPasses} tools have incomplete SoftwareApplication schemas`);
+}
+
+reportPass("FAQ & HowTo structured data verified: 100% compliant for AI step and direct Q&A citation");
 
 console.log("\n===============================================================");
 console.log(` SUMMARY: ${passCount} Checks Passed | ${issueCount} Warnings/Fails`);

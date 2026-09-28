@@ -23,6 +23,8 @@ export type ToolContent = {
   subheading: string;
   updated: string;
   readingMinutes: number;
+  /** Concise 40-60 word authoritative definition for AI search engines (Perplexity, ChatGPT, AI Overviews). */
+  quickAnswer?: string;
   intro: string[];
   howToTitle: string;
   howToSteps: { title: string; detail: string }[];
