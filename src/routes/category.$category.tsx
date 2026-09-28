@@ -88,20 +88,6 @@ export function categoryHead(slug: string, locale: string = DEFAULT_LOCALE) {
           },
         }),
       },
-      {
-        type: "application/ld+json",
-        children: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "ItemList",
-          name: locCat.title,
-          itemListElement: category.tools.map((t, i) => ({
-            "@type": "ListItem",
-            position: i + 1,
-            name: t.name,
-            description: t.description,
-          })),
-        }),
-      },
       ...(content && content.faqs.length > 0
         ? [
             {

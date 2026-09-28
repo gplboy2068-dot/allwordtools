@@ -10,6 +10,7 @@ import { allTools, categories } from "../src/data/tools";
 import { blogPosts } from "../src/data/blog-posts";
 import { enabledLocales } from "../src/i18n/locales";
 import { toolContent } from "../src/data/tool-content";
+import { categoryContent } from "../src/data/category-content";
 import * as fs from "fs";
 import * as path from "path";
 import { fileURLToPath } from "url";
@@ -110,6 +111,19 @@ if (shortDescCount === 0) {
   reportWarn(`${shortDescCount} tools have short meta descriptions (< 50 chars)`);
 }
 
+let missingCategoryContent = 0;
+for (const cat of categories) {
+  if (!categoryContent[cat.slug]) {
+    missingCategoryContent++;
+  }
+}
+
+if (missingCategoryContent === 0) {
+  reportPass(`All ${categories.length} category hubs have comprehensive long-form content`);
+} else {
+  reportWarn(`${missingCategoryContent} categories missing long-form content`);
+}
+
 console.log();
 
 // -----------------------------------------------------------------------------
@@ -180,6 +194,18 @@ if (fs.existsSync(faviconPath)) {
   } else {
     reportWarn(`Favicon is large: ${(stat.size / 1024).toFixed(1)} KB`);
   }
+}
+
+const robotsPath = path.resolve(__dirname, "../public/robots.txt");
+if (fs.existsSync(robotsPath)) {
+  const robotsContent = fs.readFileSync(robotsPath, "utf-8");
+  if (robotsContent.includes("Sitemap:") && robotsContent.includes("Disallow: /admin")) {
+    reportPass("robots.txt properly configured with sitemap declaration and crawl budget protection");
+  } else {
+    reportWarn("robots.txt missing sitemap declaration or sensitive route disallows");
+  }
+} else {
+  reportFail("public/robots.txt missing");
 }
 
 console.log();
