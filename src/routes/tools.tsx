@@ -36,6 +36,9 @@ const jsonLd = {
 };
 
 export const Route = createFileRoute("/tools")({
+  validateSearch: (search: Record<string, unknown>) => ({
+    q: typeof search.q === "string" ? search.q : "",
+  }),
   head: () => {
     const { meta, links } = buildLocaleHead({
       path: "/tools",
@@ -54,8 +57,9 @@ export const Route = createFileRoute("/tools")({
 
 export function ToolsPage() {
   const { locale } = useI18n();
+  const searchParams = Route.useSearch();
   const isDefault = locale === DEFAULT_LOCALE;
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState(searchParams?.q || "");
   const [active, setActive] = useState<string>("all");
 
   const q = query.trim().toLowerCase();

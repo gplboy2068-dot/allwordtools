@@ -4,6 +4,7 @@ import { PageLayout } from "@/components/site/PageLayout";
 import { categories, toolIcons, toolsFromSlugs } from "@/data/tools";
 import { buildLocaleHead } from "@/i18n/seo";
 import { DEFAULT_LOCALE } from "@/i18n/locales";
+import { useI18n } from "@/i18n/I18nProvider";
 
 const SITE = "AllWordTools.com";
 export const TITLE = `Learn — Word Games, Vocabulary & English Guides — ${SITE}`;
@@ -41,6 +42,9 @@ export const Route = createFileRoute("/learn")({
 });
 
 export function LearnPage() {
+  const { locale } = useI18n();
+  const isDefault = locale === DEFAULT_LOCALE;
+
   return (
     <PageLayout
       crumb="Learn"
@@ -56,8 +60,8 @@ export function LearnPage() {
               return (
                 <Link
                   key={tool.slug}
-                  to="/tool/$tool"
-                  params={{ tool: tool.slug }}
+                  to={isDefault ? "/tool/$tool" : ("/$locale/tool/$tool" as any)}
+                  params={isDefault ? { tool: tool.slug } : { locale, tool: tool.slug }}
                   className="group flex flex-col rounded-2xl border border-border/70 bg-card p-5 shadow-soft transition-all hover:-translate-y-1 hover:border-honey/50 hover:shadow-lift"
                 >
                   <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-accent text-accent-foreground group-hover:gradient-honey group-hover:text-honey-foreground">
@@ -89,8 +93,8 @@ export function LearnPage() {
               return (
                 <Link
                   key={cat.slug}
-                  to="/category/$category"
-                  params={{ category: cat.slug }}
+                  to={isDefault ? "/category/$category" : ("/$locale/category/$category" as any)}
+                  params={isDefault ? { category: cat.slug } : { locale, category: cat.slug }}
                   className="group flex items-start gap-4 rounded-2xl border border-border/70 bg-card p-5 shadow-soft transition-all hover:-translate-y-1 hover:shadow-lift"
                 >
                   <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl gradient-ink text-primary-foreground">

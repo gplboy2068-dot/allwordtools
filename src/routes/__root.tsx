@@ -4,6 +4,7 @@ import {
   Link,
   createRootRouteWithContext,
   useRouter,
+  useLocation,
   HeadContent,
   Scripts,
 } from "@tanstack/react-router";
@@ -14,7 +15,8 @@ import { Toaster } from "@/components/ui/sonner";
 import { CookieConsent } from "@/components/site/CookieConsent";
 import { I18nProvider } from "@/i18n/I18nProvider";
 import { enDictionary } from "@/i18n/getDictionary";
-import { DEFAULT_LOCALE } from "@/i18n/locales";
+import { DEFAULT_LOCALE, getDirection } from "@/i18n/locales";
+import { stripLocale } from "@/i18n/paths";
 
 function NotFoundComponent() {
   return (
@@ -122,14 +124,25 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 });
 
 function RootShell({ children }: { children: ReactNode }) {
+  let locale = DEFAULT_LOCALE;
+  let dir = "ltr";
+  try {
+    const location = useLocation();
+    const parsed = stripLocale(location.pathname);
+    locale = parsed.locale;
+    dir = getDirection(locale);
+  } catch {
+    // fallback to English default if location is outside router context
+  }
+
   return (
-    <html lang="en">
+    <html lang={locale} dir={dir}>
       <head>
         <HeadContent />
         {/* Google AdSense */}
         <meta name="google-adsense-account" content="ca-pub-2792598457581530" />
-        {/* Ad Network Script */}
-        <script src="https://pl31388456.profitableratecpmnetwork.com/47/94/46/4794466bf63d65e94d4ac252e5539565.js" />
+        {/* Ad Network Script — async attribute prevents render blocking */}
+        <script async src="https://pl31388456.profitableratecpmnetwork.com/47/94/46/4794466bf63d65e94d4ac252e5539565.js" />
         {/* Google tag (gtag.js) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-5LXB8XQ1Q5" />
         <script

@@ -69,23 +69,10 @@ const jsonLd = [
       "@type": "SearchAction",
       target: {
         "@type": "EntryPoint",
-        urlTemplate: "https://www.allwordtools.com/?q={search_term_string}",
+        urlTemplate: "https://www.allwordtools.com/tools?q={search_term_string}",
       },
       "query-input": "required name=search_term_string",
     },
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: `${BASE_URL}/` },
-      ...categories.map((cat, i) => ({
-        "@type": "ListItem",
-        position: i + 2,
-        name: cat.title,
-        item: `${BASE_URL}/category/${cat.slug}`,
-      })),
-    ],
   },
   {
     "@context": "https://schema.org",

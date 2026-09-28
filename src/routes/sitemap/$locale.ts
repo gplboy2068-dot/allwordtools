@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import type {} from "@tanstack/react-start";
 import { categories, allTools } from "@/data/tools";
+import { blogPosts } from "@/data/blog-posts";
 import { enabledLocales, getLocale } from "@/i18n/locales";
 import { localePath } from "@/i18n/paths";
 import { BASE_URL } from "@/i18n/seo";
@@ -18,6 +19,11 @@ function appPaths(): Entry[] {
     { path: "/tools", changefreq: "weekly", priority: "0.9" },
     { path: "/learn", changefreq: "weekly", priority: "0.7" },
     { path: "/blog", changefreq: "weekly", priority: "0.6" },
+    ...blogPosts.map((p) => ({
+      path: `/blog/${p.slug}`,
+      changefreq: "monthly" as const,
+      priority: "0.6",
+    })),
     { path: "/about", changefreq: "yearly", priority: "0.4" },
     { path: "/about/firoz-khan", changefreq: "monthly", priority: "0.5" },
     { path: "/methodology", changefreq: "monthly", priority: "0.5" },

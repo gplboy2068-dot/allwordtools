@@ -75,6 +75,8 @@ export function Hero() {
             alt="Illustration of letter tiles, a dictionary and a magnifying glass representing word tools"
             width={1600}
             height={1200}
+            loading="eager"
+            fetchPriority="high"
             className="animate-float rounded-[1.75rem] border border-border/60 shadow-lift"
           />
         </div>
