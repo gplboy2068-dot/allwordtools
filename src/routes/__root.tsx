@@ -127,11 +127,7 @@ function RootShell({ children }: { children: ReactNode }) {
       <head>
         <HeadContent />
         {/* Google AdSense */}
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1947021380591070"
-          crossOrigin="anonymous"
-        />
+        <meta name="google-adsense-account" content="ca-pub-2792598457581530" />
         {/* Ad Network Script */}
         <script src="https://pl31388456.profitableratecpmnetwork.com/47/94/46/4794466bf63d65e94d4ac252e5539565.js" />
         {/* Google tag (gtag.js) */}
