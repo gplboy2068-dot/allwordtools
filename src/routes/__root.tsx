@@ -141,8 +141,6 @@ function RootShell({ children }: { children: ReactNode }) {
         <HeadContent />
         {/* Google AdSense */}
         <meta name="google-adsense-account" content="ca-pub-2792598457581530" />
-        {/* Ad Network Script — async attribute prevents render blocking */}
-        <script async src="https://pl31388456.profitableratecpmnetwork.com/47/94/46/4794466bf63d65e94d4ac252e5539565.js" />
         {/* Google tag (gtag.js) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-5LXB8XQ1Q5" />
         <script
