@@ -54,8 +54,19 @@ function PostCard({
     <Link
       to={isDefault ? "/blog/$slug" : ("/$locale/blog/$slug" as any)}
       params={isDefault ? { slug: post.slug } : { locale, slug: post.slug }}
-      className="group flex flex-col justify-between rounded-3xl border border-border/70 bg-card p-6 shadow-soft transition-all duration-200 hover:-translate-y-1 hover:border-honey/60 hover:shadow-lift"
+      className="group flex flex-col justify-between rounded-3xl border border-border/70 bg-card overflow-hidden shadow-soft transition-all duration-200 hover:-translate-y-1 hover:border-honey/60 hover:shadow-lift"
     >
+      {post.image && (
+        <div className="overflow-hidden border-b border-border/50">
+          <img
+            src={post.image}
+            alt={post.title}
+            className="w-full aspect-[16/9] object-cover object-top transition-transform duration-300 group-hover:scale-[1.03]"
+            loading="lazy"
+          />
+        </div>
+      )}
+      <div className="p-6 flex flex-col justify-between flex-1">
       <div>
         <div className="flex items-center justify-between gap-2">
           <span className="inline-flex items-center gap-1.5 rounded-full bg-honey/15 px-3 py-1 text-xs font-semibold text-honey">
@@ -79,6 +90,7 @@ function PostCard({
         <span className="inline-flex items-center gap-1 text-sm font-semibold text-honey group-hover:underline">
           Read full guide <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
         </span>
+      </div>
       </div>
     </Link>
   );

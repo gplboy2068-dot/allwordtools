@@ -11,6 +11,7 @@ export const newBlogPosts: BlogPost[] = [
     readTime: "8 min read",
     author: "Firoz Khan",
     excerpt: "Master quick and cryptic clues, learn the secret language of crosswordese, and use letter patterns to finish puzzles in record time.",
+    image: "/blog/crossword-solver-strategies.jpg",
     leadParagraph: "Crossword puzzles reward pattern recognition far more than raw vocabulary. The fastest solvers are not walking dictionaries — they are strategists who read clues precisely, exploit crossing letters ruthlessly, and know exactly when a puzzle is testing their knowledge versus their logic. This guide breaks down the techniques that separate casual fillers from confident finishers.",
     sections: [
       {
@@ -134,6 +135,7 @@ export const newBlogPosts: BlogPost[] = [
     readTime: "8 min read",
     author: "Firoz Khan",
     excerpt: "Learn the professional techniques for unscrambling letters fast: chunk spotting, rare-letter anchoring, pattern libraries, and drills that build real speed.",
+    image: "/blog/anagram-solving-techniques.jpg",
     leadParagraph: "Watching an expert unscramble nine letters in seconds feels like magic, but it is method, not mystery. Professional anagram solvers do not shuffle letters randomly and hope — they strip familiar chunks, anchor on rare letters, and match patterns from a mental library built through deliberate practice. Here is the complete technique stack, from your first five-letter jumble to competitive-level speed.",
     sections: [
       {
@@ -261,6 +263,7 @@ export const newBlogPosts: BlogPost[] = [
     readTime: "8 min read",
     author: "Firoz Khan",
     excerpt: "From perfect rhymes to slant rhymes and meter matching — everything songwriters and poets need to find rhymes that actually land.",
+    image: "/blog/rhyming-words-for-songwriters.jpg",
     leadParagraph: "A great rhyme feels inevitable, as if the words were always meant to meet. A bad rhyme feels like a collision. The difference is rarely talent — it is technique: knowing the types of rhyme, matching syllables and stress, choosing schemes deliberately, and using a rhyming dictionary as a brainstorming partner rather than a crutch. This guide covers the full craft.",
     sections: [
       {
@@ -381,6 +384,7 @@ export const newBlogPosts: BlogPost[] = [
     readTime: "8 min read",
     author: "Firoz Khan",
     excerpt: "Proven tactics for grid and rack word games: path scanning, cluster hunting, word-family multiplication, and the Text Twist bonus-word-first method.",
+    image: "/blog/boggle-and-text-twist-tactics.jpg",
     leadParagraph: "Boggle and Text Twist look like vocabulary tests, but they are really vision and systems games. Winners do not know more words than you — they see the board differently, exploit letter clusters systematically, and multiply every find into a word family. These tactics will raise your scores in weeks, whether you play casually with friends or grind ranked ladders.",
     sections: [
       {
@@ -503,6 +507,7 @@ export const newBlogPosts: BlogPost[] = [
     readTime: "8 min read",
     author: "Firoz Khan",
     excerpt: "Practical spelling rules that actually work, mnemonics for the worst troublemakers, and a 15-minute daily routine that delivers real results.",
+    image: "/blog/how-to-improve-spelling.jpg",
     leadParagraph: "English spelling looks like chaos, but it is chaos with a system: about 85 percent of words follow predictable rules, and the rest are a finite list of troublemakers you can memorize. Whether you are a student, a professional writing emails, or a writer polishing prose, this guide gives you the rules worth learning, the tricks that make them stick, and a daily routine that turns weak spelling into a quiet strength.",
     sections: [
       {
@@ -631,6 +636,7 @@ export const newBlogPosts: BlogPost[] = [
     readTime: "8 min read",
     author: "Firoz Khan",
     excerpt: "Why 'salary' means salt money and 'muscle' means little mouse — a beginner-friendly tour of word origins that makes vocabulary unforgettable.",
+    image: "/blog/word-origins-etymology-guide.jpg",
     leadParagraph: "Every English word has a biography. 'Salary' descends from the Latin word for salt, 'clue' from a ball of thread, and 'muscle' from a little mouse. Etymology — the study of where words come from — turns vocabulary from dry memorization into a series of small discoveries, and it hands you a master key: learn a hundred roots and you can decode tens of thousands of words you have never seen before.",
     sections: [
       {

@@ -39,6 +39,7 @@ export function blogPostHead(slug: string, locale: string = DEFAULT_LOCALE) {
     title: post.metaTitle,
     description: post.metaDescription,
     type: "article",
+    image: post.image ? `${BASE_URL}${post.image}` : undefined,
   });
 
   return {
@@ -65,6 +66,7 @@ export function blogPostHead(slug: string, locale: string = DEFAULT_LOCALE) {
           headline: post.title,
           description: post.metaDescription,
           url,
+          ...(post.image ? { image: `${BASE_URL}${post.image}` } : {}),
           datePublished: "2026-08-01T08:00:00+00:00",
           dateModified: "2026-08-22T08:00:00+00:00",
           author: {
@@ -193,6 +195,18 @@ export function BlogPostView({ slug }: { slug: string }) {
           <p className="text-xl leading-relaxed text-foreground/90 font-medium pb-8 border-b border-border/60">
             {post.leadParagraph}
           </p>
+
+          {/* Cover image */}
+          {post.image && (
+            <figure className="my-10 overflow-hidden rounded-2xl border border-border/70 shadow-soft">
+              <img
+                src={post.image}
+                alt={post.title}
+                className="w-full aspect-[16/9] object-cover object-top"
+                loading="eager"
+              />
+            </figure>
+          )}
 
           {/* Interactive Tool CTA Card */}
           <div className="my-10 rounded-2xl border border-honey/40 bg-gradient-to-br from-honey/10 via-honey/5 to-transparent p-6 sm:p-8 shadow-sm">
