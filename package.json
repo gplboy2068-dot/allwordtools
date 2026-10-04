@@ -13,7 +13,7 @@
     "d1:remote-init": "wrangler d1 execute allwordtools-db --remote --file=./d1/schema.sql",
     "d1:remote-seed": "wrangler d1 execute allwordtools-db --remote --file=./d1/seed.sql",
     "deploy": "wrangler pages deploy .output/public",
-    "indexnow": "node scripts/submit-indexnow.cjs",
+    "indexnow": "npx tsx scripts/submit-indexnow.ts",
     "seo:audit": "npx tsx scripts/seo-audit.ts",
     "audit:geo": "npx tsx scripts/audit-geo-ai.ts",
     "lint": "eslint .",

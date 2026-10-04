@@ -275,7 +275,7 @@ export const categories: Category[] = [
     slug: "game-helpers",
     title: "Game Helpers",
     description:
-      "Dedicated cheat sheets for the games you love. Optimised dictionaries and scoring for every title.",
+      "Dedicated solvers for the games you love. Optimised dictionaries and scoring for every title.",
     icon: Gamepad2,
     tools: [
       {
@@ -997,7 +997,7 @@ export const trendingSearches = [
   "high scoring scrabble words",
   "rhymes with love",
   "anagram of listen",
-  "words with friends cheat",
+  "words with friends solver",
   "words starting with x",
   "7 letter words",
   "boggle word list",

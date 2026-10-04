@@ -1753,7 +1753,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "scrabble-helper": {
     slug: "scrabble-helper",
-    metaTitle: "Scrabble Helper — Word Finder & Cheat | AllWordTools",
+    metaTitle: "Scrabble Helper — Word Finder & Solver | AllWordTools",
     metaDescription:
       "Free Scrabble Helper that finds every playable word from your rack, ranked by official Scrabble points. Supports blank tiles, prefixes, suffixes and length filters.",
     eyebrow: "Game Helpers",
@@ -1877,7 +1877,7 @@ export const toolContent: Record<string, ToolContent> = {
   },
   "words-with-friends-helper": {
     slug: "words-with-friends-helper",
-    metaTitle: "Words With Friends Cheat — Word Finder | AllWordTools",
+    metaTitle: "Words With Friends Solver — Word Finder | AllWordTools",
     metaDescription:
       "Free Words With Friends helper that finds the highest-scoring moves from your tiles, ranked with WWF letter values. Supports blanks, prefixes, suffixes and length filters.",
     eyebrow: "Game Helpers",
@@ -5863,7 +5863,7 @@ export const toolContent: Record<string, ToolContent> = {
     intro: [
       "CodyCross is one of the most beloved mobile word puzzle games in the world, taking players on a cosmic voyage across planets, thematic groups, and intricate crossword grids. While exploring worlds from Earth to Undersea and Medieval times is exhilarating, difficult trivia questions and esoteric clues can stall your exploration. The CodyCross Solver eliminates frustrating bottlenecks by helping you discover exact solutions, cross-referenced answers, and letter patterns in seconds.",
       "Whether you are solving daily mission puzzles, seeking Indonesian solutions ('jawaban codycross'), Spanish puzzle answers, or English word clues, our solver searches a comprehensive dictionary of verified CodyCross answers. You can search by entering the exact clue, clue keywords, or known letter lengths.",
-      "Completely free, fast, and accessible directly in your web browser without downloading third-party cheat apps. Pair it with our [Crossword Solver](crossword-solver) and [Anagram Solver](anagram-solver) for unmatched puzzle-solving power."
+      "Completely free, fast, and accessible directly in your web browser without downloading third-party solver apps. Pair it with our [Crossword Solver](crossword-solver) and [Anagram Solver](anagram-solver) for unmatched puzzle-solving power."
     ],
     howToTitle: "How to solve CodyCross clues",
     howToSteps: [
@@ -6898,8 +6898,8 @@ export const toolContent: Record<string, ToolContent> = {
 
   "seven-little-words-solver": {
   "slug": "seven-little-words-solver",
-  "metaTitle": "7 Little Words Solver & Daily Answers — Instant Clue Cheat | AllWordTools.com",
-  "metaDescription": "Free 7 Little Words solver and daily puzzle answer cheat. Search by clue or tile count to find today's 7 Little Words solutions instantly.",
+  "metaTitle": "7 Little Words Solver & Daily Answers — Instant Clue Solver | AllWordTools.com",
+  "metaDescription": "Free 7 Little Words solver and daily puzzle answer helper. Search by clue or tile count to find today's 7 Little Words solutions instantly.",
   "eyebrow": "Puzzle Solvers",
   "heading": "7 Little Words Solver",
   "subheading": "Solve any 7 Little Words puzzle by clue, answer letter count, or letter tile chunks with instant answers.",
@@ -7776,7 +7776,7 @@ export const toolContent: Record<string, ToolContent> = {
     "intro": [
       "Wheel of Fortune has captivated television audiences for over five decades, standing as America's most iconic hangman-style word puzzle game show. Whether you are shouting answers at the TV screen from your living room sofa, competing on the official mobile app, or hosting a game night with friends, staring at a partially revealed board of blank white tiles can be tantalizingly frustrating.",
       "The AllWordTools Wheel of Fortune Solver instantly cracks any puzzle board by cross-referencing your revealed letters, unknown tile blanks, and word lengths against a comprehensive historical archive of over 50,000 televised show solutions and common English idioms. Simply enter the pattern using question marks for blanks, add any letters already called and ruled out, and select the category to reveal the winning solution.",
-      "Beyond providing quick cheats, our solver analyzes letter frequencies and strategic probabilities. Discover which consonants to call next, calculate when buying a vowel is mathematically justified, and beat the contestants to the buzzer every single round."
+      "Beyond providing quick answers, our solver analyzes letter frequencies and strategic probabilities. Discover which consonants to call next, calculate when buying a vowel is mathematically justified, and beat the contestants to the buzzer every single round."
     ],
     "howToTitle": "How to use the Wheel of Fortune Solver",
     "howToSteps": [
@@ -7874,7 +7874,7 @@ export const toolContent: Record<string, ToolContent> = {
 
   "word-cookies-solver": {
     "slug": "word-cookies-solver",
-    "metaTitle": "Word Cookies Solver & Cheat — Unscramble All Word Cookie Answers | AllWordTools.com",
+    "metaTitle": "Word Cookies Solver — Unscramble All Word Cookie Answers | AllWordTools.com",
     "metaDescription": "Free Word Cookies solver. Unscramble baking pan letters into all valid words and special words to beat every Word Cookies level instantly.",
     "eyebrow": "Puzzle Solvers",
     "heading": "Word Cookies Solver",
@@ -10034,7 +10034,7 @@ export const toolContent: Record<string, ToolContent> = {
 
   "strands-solver": {
     slug: "strands-solver",
-    metaTitle: "Strands Solver & Cheat — Solve NYT Strands Puzzle Today | AllWordTools.com",
+    metaTitle: "Strands Solver — Solve NYT Strands Puzzle Today | AllWordTools.com",
     metaDescription:
       "Free NYT Strands solver and hint helper. Enter letter grids and theme clues to find all themed words and the spangram instantly. Visual grid path walkthrough.",
     eyebrow: "Puzzle Solvers",

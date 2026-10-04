@@ -140,7 +140,7 @@ const TAG_RULES: Record<string, string[]> = {
     "dolch",
     "grade",
   ],
-  solver: ["solver", "solve", "finder", "find", "cheat", "helper"],
+  solver: ["solver", "solve", "finder", "find", "helper"],
   pattern: [
     "pattern",
     "wildcard",

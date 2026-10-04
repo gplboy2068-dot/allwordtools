@@ -1,0 +1,5 @@
+# ads.txt — placeholder for Google AdSense approval
+# After AdSense approves this site, replace the line below with the
+# publisher ID Google provides in the AdSense dashboard:
+#   google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+# See: https://support.google.com/adsense/answer/12171211

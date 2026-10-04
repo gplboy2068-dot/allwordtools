@@ -251,7 +251,7 @@ export const categoryContent: Record<string, CategoryContent> = {
     eyebrow: "Category",
     heading: "Game Helpers",
     subheading:
-      "Dedicated cheat sheets for the word games you love — with the right dictionary, the right scoring and the right rules for Scrabble, Words With Friends, Boggle, Hangman and Text Twist.",
+      "Dedicated solvers for the word games you love — with the right dictionary, the right scoring and the right rules for Scrabble, Words With Friends, Boggle, Hangman and Text Twist.",
     intro: [
       "Game Helpers are purpose-built solvers tuned for specific word games. Where a general unscrambler just lists words, these tools understand the rules and scoring of each game — so the plays you see are the plays you can actually make, ranked by the points you will really earn. Whether you are chasing a bingo in Scrabble, a comeback in Words With Friends, a long word in Boggle, a clever guess in Hangman or a bonus word in Text Twist, there is a helper here made for exactly that challenge.",
       "This category brings together five game-specific tools: the Scrabble Helper, Words With Friends Helper, Boggle Solver, Hangman Solver and Text Twist Solver. Each one uses the correct letter values, board rules or word-tracing logic for its game, and each returns fast, accurate, clearly ranked results. Use them to win a tight game, settle a friendly dispute, or study between matches to become a stronger player.",

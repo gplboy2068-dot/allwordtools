@@ -1,3 +1,5 @@
+import { newBlogPosts } from "./blog-posts-new";
+
 export type BlogPostSection = {
   heading: string;
   paragraphs: string[];
@@ -347,7 +349,8 @@ export const blogPosts: BlogPost[] = [
       ctaText: "Explore AI Story Generator"
     },
     relatedPosts: ["active-vs-passive-voice-explained", "build-your-english-vocabulary-smart-way"]
-  }
+  },
+  ...newBlogPosts,
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {

@@ -247,7 +247,7 @@ export const CATEGORY_TRANSLATIONS: Record<string, Record<string, LocalizedCateg
   "puzzle-solvers": {
     en: {
       title: "Puzzle Game Solvers",
-      description: "Cheats and solutions for popular mobile word games: Word Cookies, Wordscapes, CodyCross, 7 Little Words and Wheel of Fortune.",
+      description: "Solvers and solutions for popular mobile word games: Word Cookies, Wordscapes, CodyCross, 7 Little Words and Wheel of Fortune.",
     },
     hi: {
       title: "पहेली गेम सॉल्वर्स",
