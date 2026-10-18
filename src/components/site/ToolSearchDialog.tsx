@@ -16,6 +16,25 @@ type Props = {
 };
 
 /**
+ * Relevance-ranked filter for the tool search palette.
+ * Exact/prefix name matches always outrank description matches, so typing
+ * "scrabble" surfaces "Scrabble Helper" first — not tools that merely
+ * mention Scrabble in their description.
+ */
+function toolFilter(value: string, search: string, keywords?: string[]) {
+  const s = search.trim().toLowerCase();
+  if (!s) return 1;
+  const name = value.toLowerCase();
+  if (name === s) return 100;
+  if (name.startsWith(s)) return 60;
+  if (name.includes(s)) return 40;
+  const kw = (keywords ?? []).join(" ").toLowerCase();
+  if (kw.split(/[^a-z0-9]+/).some((w) => w.startsWith(s))) return 20;
+  if (kw.includes(s)) return 10;
+  return 0;
+}
+
+/**
  * Global tool search — a command palette that searches every tool by name and
  * description and jumps straight to the tool page. Also opens with ⌘K / Ctrl+K.
  */
@@ -43,7 +62,7 @@ export function ToolSearchDialog({ open, onOpenChange }: Props) {
   };
 
   return (
-    <CommandDialog open={open} onOpenChange={onOpenChange}>
+    <CommandDialog open={open} onOpenChange={onOpenChange} filter={toolFilter}>
       <CommandInput placeholder="Search 92 word tools…" value={query} onValueChange={setQuery} />
       <CommandList>
         <CommandEmpty>No tools found. Try another search.</CommandEmpty>
@@ -54,7 +73,8 @@ export function ToolSearchDialog({ open, onOpenChange }: Props) {
               return (
                 <CommandItem
                   key={tool.slug}
-                  value={`${tool.name} ${tool.description} ${cat.title}`}
+                  value={tool.name}
+                  keywords={[tool.description, cat.title]}
                   onSelect={() => go(tool.slug)}
                 >
                   {Icon ? <Icon className="mr-2 h-4 w-4 text-honey" /> : null}
