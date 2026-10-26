@@ -1,15 +1,35 @@
 import { useState } from "react";
+import { useNavigate } from "@tanstack/react-router";
 import { Search, Sparkles, TrendingUp } from "lucide-react";
 import heroImage from "@/assets/hero-word-tools.jpg";
 import { Button } from "@/components/ui/button";
 import { trendingSearches } from "@/data/tools";
 import { useI18n } from "@/i18n/I18nProvider";
+import { DEFAULT_LOCALE } from "@/i18n/locales";
 
 const quickChips = trendingSearches.slice(0, 5);
 
 export function Hero() {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
+  const navigate = useNavigate();
   const [query, setQuery] = useState("");
+  const isDefault = locale === DEFAULT_LOCALE;
+
+  // The /tools page already filters by ?q= (verified live: /tools?q=scrabble
+  // shows 1 tool). The hero form previously called only preventDefault(),
+  // so clicking Search did nothing at all — this actually navigates there.
+  const goSearch = (term: string) => {
+    const q = term.trim();
+    if (isDefault) {
+      navigate({ to: "/tools", search: q ? { q } : {} });
+    } else {
+      navigate({
+        to: "/$locale/tools",
+        params: { locale },
+        search: q ? { q } : {},
+      } as never);
+    }
+  };
 
   return (
     <section className="relative overflow-hidden gradient-hero">
@@ -30,7 +50,10 @@ export function Hero() {
           </p>
 
           <form
-            onSubmit={(e) => e.preventDefault()}
+            onSubmit={(e) => {
+              e.preventDefault();
+              goSearch(query);
+            }}
             className="mt-8 flex flex-col gap-3 sm:flex-row"
             role="search"
           >
@@ -59,7 +82,8 @@ export function Hero() {
             {quickChips.map((chip) => (
               <button
                 key={chip}
-                onClick={() => setQuery(chip)}
+                type="button"
+                onClick={() => goSearch(chip)}
                 className="rounded-full border border-border/60 bg-card/60 px-3 py-1 text-xs font-medium text-muted-foreground transition-colors hover:border-honey/50 hover:text-foreground"
               >
                 {chip}
