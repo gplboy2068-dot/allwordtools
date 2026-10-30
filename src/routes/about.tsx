@@ -1,8 +1,11 @@
+import type { ReactNode } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { PageLayout, Prose } from "@/components/site/PageLayout";
 import { BASE_URL, inLanguage, buildLocaleHead } from "@/i18n/seo";
 import { DEFAULT_LOCALE } from "@/i18n/locales";
 import { totalToolCount, categories } from "@/data/tools";
+import { useI18n } from "@/i18n/I18nProvider";
+import { getAboutContent, type AboutPart } from "@/i18n/about-content";
 import { Github, Linkedin, Instagram, ExternalLink, Code2, AlertTriangle, ShieldCheck, Mail, Sparkles } from "lucide-react";
 
 const LINKEDIN_URL = "https://www.linkedin.com/in/firoz-khan-1153358a/";
@@ -67,6 +70,9 @@ export const Route = createFileRoute("/about")({
 });
 
 export function AboutPage() {
+  const { locale } = useI18n();
+  const loc = locale === DEFAULT_LOCALE ? null : getAboutContent(locale);
+  if (loc) return <LocalizedAbout locale={locale} />;
   return (
     <PageLayout
       crumb="About"
@@ -259,6 +265,143 @@ export function AboutPage() {
           <li><strong>LinkedIn:</strong> <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer" className="hover:underline">{LINKEDIN_URL}</a></li>
           <li><strong>Instagram:</strong> <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" className="hover:underline">{INSTAGRAM_URL}</a></li>
         </ul>
+      </Prose>
+    </PageLayout>
+  );
+}
+
+/* ---------------- Localized About (non-English locales) ---------------- */
+
+function fill(text: string): string {
+  return text
+    .replaceAll("{count}", String(totalToolCount))
+    .replaceAll("{cats}", String(categories.length));
+}
+
+function LocLink({
+  to,
+  locale,
+  children,
+}: {
+  to: string;
+  locale: string;
+  children: ReactNode;
+}) {
+  const isDefault = locale === DEFAULT_LOCALE;
+  if (to.startsWith("/tool/")) {
+    const tool = to.slice("/tool/".length);
+    return (
+      <Link
+        to={isDefault ? "/tool/$tool" : "/$locale/tool/$tool"}
+        params={isDefault ? { tool } : { locale, tool }}
+        className="font-semibold text-honey hover:underline"
+      >
+        {children}
+      </Link>
+    );
+  }
+  return (
+    <Link
+      to={(isDefault ? to : `/$locale${to}`) as any}
+      params={(isDefault ? {} : { locale }) as any}
+      className="font-semibold text-honey hover:underline"
+    >
+      {children}
+    </Link>
+  );
+}
+
+function Parts({ parts, locale }: { parts: AboutPart[]; locale: string }) {
+  return (
+    <>
+      {parts.map((part, i) => {
+        if ("t" in part) return <span key={i}>{fill(part.t)}</span>;
+        if ("b" in part) return <strong key={i}>{fill(part.b)}</strong>;
+        if ("a" in part)
+          return (
+            <LocLink key={i} to={part.to} locale={locale}>
+              {fill(part.a)}
+            </LocLink>
+          );
+        if ("email" in part)
+          return (
+            <a
+              key={i}
+              href={`mailto:${part.email}`}
+              className="font-semibold text-honey hover:underline"
+            >
+              {part.email}
+            </a>
+          );
+        return (
+          <a
+            key={i}
+            href={part.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            {part.url}
+          </a>
+        );
+      })}
+    </>
+  );
+}
+
+function LocalizedAbout({ locale }: { locale: string }) {
+  const loc = getAboutContent(locale)!;
+  return (
+    <PageLayout crumb={loc.crumb} title={loc.pageTitle} intro={loc.pageIntro}>
+      <Prose>
+        {loc.sections.map((sec, si) => (
+          <div key={si}>
+            <h2>{sec.heading}</h2>
+            {sec.blocks.map((block, bi) => {
+              if ("card" in block) {
+                return (
+                  <div
+                    key={bi}
+                    className="not-prose my-6 flex flex-col sm:flex-row items-start sm:items-center gap-4 rounded-2xl border border-border/70 bg-card p-4 shadow-soft"
+                  >
+                    <img
+                      src="/author/firoz-khan.webp"
+                      alt="Firoz Khan — Full Stack Developer"
+                      className="h-20 w-20 rounded-xl object-cover border border-border shrink-0 bg-secondary"
+                    />
+                    <div>
+                      <h3 className="font-display text-base font-semibold text-foreground">
+                        Firoz Khan
+                      </h3>
+                      <p className="text-xs text-muted-foreground mt-0.5">{loc.authorRole}</p>
+                      <div className="mt-2 flex items-center gap-3 text-xs">
+                        <LocLink to="/about/firoz-khan" locale={locale}>
+                          {loc.viewProfile}
+                        </LocLink>
+                      </div>
+                    </div>
+                  </div>
+                );
+              }
+              if ("ul" in block) {
+                return (
+                  <ul key={bi}>
+                    {block.ul.map((item, ii) => (
+                      <li key={ii}>
+                        <Parts parts={item} locale={locale} />
+                      </li>
+                    ))}
+                  </ul>
+                );
+              }
+              return (
+                <p key={bi}>
+                  <Parts parts={block.p} locale={locale} />
+                </p>
+              );
+            })}
+          </div>
+        ))}
       </Prose>
     </PageLayout>
   );
