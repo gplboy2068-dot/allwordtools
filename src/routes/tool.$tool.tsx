@@ -622,17 +622,28 @@ export function ToolPageView({
   const Icon = toolIcons[slug] ?? Sparkles;
   const references = getToolReferences(slug);
   const localizedInfo = getLocalizedToolInfo(tool, locale);
-  const displayName = isDefault ? tool.name : (content?.heading ?? localizedInfo.name);
-  // English pages: registry/synthesized definition (never copied from intro).
-  // Locale pages: only a genuinely localized quick answer may be shown — a
-  // localized subheading of a really-translated tool, or an authored
-  // quickAnswer. English registry text is never shown on a locale page, and
-  // stub overrides (heading/intro still in English) hide the block entirely.
+  // A "stub" override is a locale entry whose heading/intro are still the
+  // English placeholder ("Name — description.") in the locale content file.
   const intro0 = contentOverride?.intro?.[0] ?? "";
   const isStubOverride = Boolean(
     contentOverride &&
       (intro0.startsWith(`${tool.name} —`) || intro0.startsWith(`${contentOverride.heading ?? ""} —`)),
   );
+  const displayName = isDefault
+    ? tool.name
+    : isStubOverride
+      ? localizedInfo.name
+      : (content?.heading ?? localizedInfo.name);
+  const heroSubheading = isDefault
+    ? (content?.subheading ?? tool.description)
+    : isStubOverride
+      ? localizedInfo.description
+      : (content?.subheading ?? tool.description);
+  // English pages: registry/synthesized definition (never copied from intro).
+  // Locale pages: only a genuinely localized quick answer may be shown — a
+  // localized subheading of a really-translated tool, or an authored
+  // quickAnswer. English registry text is never shown on a locale page, and
+  // stub overrides hide the block entirely instead of showing English.
   const directAnswer = isDefault
     ? getDirectAnswer(slug, content, tool)
     : (contentOverride?.quickAnswer ??
@@ -685,10 +696,10 @@ export function ToolPageView({
               </span>
               <div>
                 <h1 className="font-display text-3xl font-semibold leading-[1.08] tracking-tight text-balance sm:text-4xl">
-                  {content?.heading ?? tool.name}
+                  {displayName}
                 </h1>
                 <p className="mt-3 max-w-2xl text-base leading-relaxed text-muted-foreground text-balance sm:text-lg">
-                  {content?.subheading ?? tool.description}
+                  {heroSubheading}
                 </p>
               </div>
             </div>
