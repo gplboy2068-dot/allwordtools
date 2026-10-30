@@ -13,7 +13,14 @@ const GITHUB_URL = "https://github.com/fkdigitalmedia";
 const INSTAGRAM_URL = "https://www.instagram.com/rtibyfiroz/";
 
 export const Route = createFileRoute("/about")({
-  head: () => {
+  head: ({ matches }: any) => {
+    // /about/firoz-khan is a nested child of this route and brings its own
+    // complete head — contributing ours too would emit a duplicate
+    // canonical (/about) on the author page.
+    const leaf = matches?.[matches.length - 1];
+    if (leaf && String(leaf.routeId).includes("firoz-khan")) {
+      return { meta: [], links: [], scripts: [] };
+    }
     const title = "About AllWordTools";
     const description =
       "Learn about AllWordTools.com, an independent collection of 92 free word game solvers and language tools created and maintained by Full Stack Developer Firoz Khan under FK Digital Media.";

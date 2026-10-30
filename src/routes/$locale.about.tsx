@@ -4,7 +4,12 @@ import { AboutPage } from "./about";
 import { getAboutContent } from "@/i18n/about-content";
 
 export const Route = createFileRoute("/$locale/about")({
-  head: ({ params }) => {
+  head: ({ params, matches }: any) => {
+    // Nested /$locale/about/firoz-khan has its own head (see about.tsx).
+    const leaf = (matches as any[])?.[(matches as any[]).length - 1];
+    if (leaf && String(leaf.routeId).includes("firoz-khan")) {
+      return { meta: [], links: [], scripts: [] };
+    }
     const loc = getAboutContent(params.locale);
     return legalHead({
       title: loc?.metaTitle ?? "About",
