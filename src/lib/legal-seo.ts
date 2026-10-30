@@ -7,7 +7,7 @@
  * og:url and hreflang alternates are generated for that language. English (the
  * default) is served at the root with no prefix.
  */
-import { buildLocaleHead, inLanguage, BASE_URL } from "@/i18n/seo";
+import { buildLocaleHead, inLanguage, BASE_URL, isEnglishOnlyPath } from "@/i18n/seo";
 import { localePath } from "@/i18n/paths";
 import { DEFAULT_LOCALE } from "@/i18n/locales";
 
@@ -29,7 +29,11 @@ export function legalHead({
   const fullTitle = `${title} — ${SITE}`;
   const { meta, links } = buildLocaleHead({ path, locale, title: fullTitle, description });
   const home = `${BASE_URL}${localePath(locale, "/")}`;
-  const url = `${BASE_URL}${localePath(locale, path)}`;
+  // Untranslated pages canonicalize to English (see ENGLISH_ONLY_PATHS in
+  // i18n/seo.ts) — keep the schema URL consistent with that canonical.
+  const url = isEnglishOnlyPath(path)
+    ? `${BASE_URL}${path}`
+    : `${BASE_URL}${localePath(locale, path)}`;
 
   return {
     meta,

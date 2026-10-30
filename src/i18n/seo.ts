@@ -47,8 +47,43 @@ export interface HeadLink {
   hrefLang?: string;
 }
 
+/**
+ * Pages that exist ONLY in English for now (2026-10-30): their locale URLs
+ * serve the English body, so — exactly like the blog — they must not claim
+ * to be translations. buildLocaleHead gives their locale URLs an English
+ * canonical + "noindex, follow", and hreflang for these paths (on every
+ * locale, including English) lists only en + x-default. Remove a path from
+ * this set once its content is genuinely translated (as /about was).
+ */
+export const ENGLISH_ONLY_PATHS = new Set([
+  "/learn",
+  "/about/firoz-khan",
+  "/methodology",
+  "/data-sources",
+  "/data-limitations",
+  "/ai-tools",
+  "/report-error",
+  "/contact",
+  "/privacy",
+  "/terms",
+  "/cookie-policy",
+  "/disclaimer",
+  "/dmca",
+]);
+
+export function isEnglishOnlyPath(path: string): boolean {
+  return ENGLISH_ONLY_PATHS.has(path);
+}
+
 /** hreflang alternates for a path across all enabled locales (+ x-default). */
 export function hreflangLinks(path: string): HeadLink[] {
+  if (isEnglishOnlyPath(path)) {
+    const en = `${BASE_URL}${localePath(DEFAULT_LOCALE, path)}`;
+    return [
+      { rel: "alternate", hrefLang: "en", href: en },
+      { rel: "alternate", hrefLang: "x-default", href: en },
+    ];
+  }
   const links: HeadLink[] = enabledLocales().map((l) => ({
     rel: "alternate",
     hrefLang: l.code,
@@ -63,12 +98,20 @@ export function buildLocaleHead(input: LocaleHeadInput): {
   links: HeadLink[];
 } {
   const cfg = getLocale(input.locale) ?? getLocale(DEFAULT_LOCALE)!;
-  const url = `${BASE_URL}${localePath(cfg.code, input.path)}`;
+  const englishOnly = isEnglishOnlyPath(input.path);
+  const isLocaleCopy = englishOnly && cfg.code !== DEFAULT_LOCALE;
+  // Untranslated locale copies canonicalize to the English URL.
+  const url = isLocaleCopy
+    ? `${BASE_URL}${localePath(DEFAULT_LOCALE, input.path)}`
+    : `${BASE_URL}${localePath(cfg.code, input.path)}`;
 
   const meta: HeadMeta[] = [
     { title: input.title },
     { name: "description", content: input.description },
-    { name: "robots", content: input.robots ?? "index, follow" },
+    {
+      name: "robots",
+      content: isLocaleCopy ? "noindex, follow" : (input.robots ?? "index, follow"),
+    },
     { property: "og:title", content: input.title },
     { property: "og:description", content: input.description },
     { property: "og:type", content: input.type ?? "website" },

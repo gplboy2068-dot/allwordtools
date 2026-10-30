@@ -4,7 +4,7 @@ import { categories, allTools } from "@/data/tools";
 import { blogPosts } from "@/data/blog-posts";
 import { enabledLocales, getLocale } from "@/i18n/locales";
 import { localePath } from "@/i18n/paths";
-import { BASE_URL } from "@/i18n/seo";
+import { BASE_URL, isEnglishOnlyPath } from "@/i18n/seo";
 
 interface Entry {
   path: string;
@@ -71,10 +71,13 @@ export const Route = createFileRoute("/sitemap/$locale")({
         // Blog content is English-only: non-English sitemaps must not list
         // blog URLs at all, and English blog URLs hreflang only to en.
         const paths = appPaths().filter(
-          (e) => cfg.code === "en" || !(e.path === "/blog" || e.path.startsWith("/blog/")),
+          (e) =>
+            cfg.code === "en" ||
+            !(e.path === "/blog" || e.path.startsWith("/blog/") || isEnglishOnlyPath(e.path)),
         );
         const urls = paths.map((e) => {
-          const isBlog = e.path === "/blog" || e.path.startsWith("/blog/");
+          const isBlog =
+            e.path === "/blog" || e.path.startsWith("/blog/") || isEnglishOnlyPath(e.path);
           const alternates = isBlog
             ? [
                 `    <xhtml:link rel="alternate" hreflang="en" href="${BASE_URL}${localePath("en", e.path)}"/>`,
