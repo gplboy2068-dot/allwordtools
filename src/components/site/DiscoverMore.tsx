@@ -10,6 +10,9 @@ import {
 } from "@/lib/internal-links";
 import { useI18n } from "@/i18n/I18nProvider";
 import { DEFAULT_LOCALE } from "@/i18n/locales";
+import { uiText } from "@/i18n/ui-template";
+import { getLocalizedToolInfo } from "@/i18n/tools-data";
+import { getLocalizedCategory } from "@/i18n/categories";
 
 interface ColDef {
   title: string;
@@ -37,31 +40,31 @@ export function DiscoverMore({ excludeSlug }: { excludeSlug?: string }) {
   const colDef: ColDef[] = isCodyCrossAnswers
     ? [
         {
-          title: "Popular Game Helpers",
+          title: uiText(locale, "discover.popularGameHelpers", "Popular Game Helpers"),
           icon: <Star className="h-4 w-4 text-honey" />,
           type: "tools",
           items: popularHelpers,
         },
         {
-          title: "Trending Puzzle Tools",
+          title: uiText(locale, "discover.trendingPuzzleTools", "Trending Puzzle Tools"),
           icon: <Flame className="h-4 w-4 text-honey" />,
           type: "tools",
           items: trendingPuzzles,
         },
         {
-          title: "Recently Added",
+          title: uiText(locale, "discover.recentlyAdded", "Recently Added"),
           icon: <Clock className="h-4 w-4 text-honey" />,
           type: "tools",
           items: recentTools,
         },
         {
-          title: "AI Tools",
+          title: uiText(locale, "discover.aiTools", "AI Tools"),
           icon: <Sparkles className="h-4 w-4 text-honey" />,
           type: "tools",
           items: aiToolsList,
         },
         {
-          title: "Browse Categories",
+          title: uiText(locale, "discover.browseCategories", "Browse Categories"),
           icon: <LayoutGrid className="h-4 w-4 text-honey" />,
           type: "categories",
           items: categories.slice(0, 5),
@@ -69,31 +72,31 @@ export function DiscoverMore({ excludeSlug }: { excludeSlug?: string }) {
       ]
     : [
         {
-          title: "Popular Tools",
+          title: uiText(locale, "discover.popularTools", "Popular Tools"),
           icon: <Star className="h-4 w-4 text-honey" />,
           type: "tools",
           items: getPopularTools(6).filter((t) => t.slug !== excludeSlug).slice(0, 5),
         },
         {
-          title: "Recently Added",
+          title: uiText(locale, "discover.recentlyAdded", "Recently Added"),
           icon: <Clock className="h-4 w-4 text-honey" />,
           type: "tools",
           items: getRecentlyAddedTools(6).filter((t) => t.slug !== excludeSlug).slice(0, 5),
         },
         {
-          title: "Trending",
+          title: uiText(locale, "discover.trending", "Trending"),
           icon: <Flame className="h-4 w-4 text-honey" />,
           type: "tools",
           items: getTrendingTools(6).filter((t) => t.slug !== excludeSlug).slice(0, 5),
         },
         {
-          title: "Categories",
+          title: uiText(locale, "discover.categories", "Categories"),
           icon: <LayoutGrid className="h-4 w-4 text-honey" />,
           type: "categories",
           items: categories.slice(0, 5),
         },
         {
-          title: "Top Searches",
+          title: uiText(locale, "discover.topSearches", "Top Searches"),
           icon: <Search className="h-4 w-4 text-honey" />,
           type: "keywordLinks",
           items: topSearchLinks.slice(0, 6),
@@ -110,13 +113,13 @@ export function DiscoverMore({ excludeSlug }: { excludeSlug?: string }) {
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <span className="text-sm font-semibold uppercase tracking-wider text-honey">
-          Discover more
+          {uiText(locale, "discover.discoverMore", "Discover more")}
         </span>
         <h2
           id="discover-more"
           className="mt-2 font-display text-2xl font-semibold tracking-tight sm:text-3xl"
         >
-          Handy shortcuts across the site
+          {uiText(locale, "discover.handyShortcuts", "Handy shortcuts across the site")}
         </h2>
 
         <div className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-5">
@@ -134,7 +137,7 @@ export function DiscoverMore({ excludeSlug }: { excludeSlug?: string }) {
                         params={isDefault ? { tool: t.slug } : { locale, tool: t.slug }}
                         className={linkCls}
                       >
-                        {t.name}
+                        {getLocalizedToolInfo(t, locale).name}
                       </Link>
                     </li>
                   ))}
@@ -147,7 +150,7 @@ export function DiscoverMore({ excludeSlug }: { excludeSlug?: string }) {
                           params={isDefault ? { category: c.slug } : { locale, category: c.slug }}
                           className={linkCls}
                         >
-                          {c.title}
+                          {getLocalizedCategory(c, locale).title}
                         </Link>
                       </li>
                     ))}
@@ -157,7 +160,7 @@ export function DiscoverMore({ excludeSlug }: { excludeSlug?: string }) {
                         params={isDefault ? {} : { locale }}
                         className="text-sm font-semibold text-honey hover:underline"
                       >
-                        View all tools →
+                        {uiText(locale, "discover.viewAllTools", "View all tools →")}
                       </Link>
                     </li>
                   </>

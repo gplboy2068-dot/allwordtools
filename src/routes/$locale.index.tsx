@@ -18,6 +18,7 @@ import { SeoContent } from "@/components/home/SeoContent";
 import { Faq } from "@/components/home/Faq";
 import { AdBanner } from "@/components/site/AdBanner";
 import { getDictionarySync } from "@/i18n/getDictionary";
+import { getHomeContent } from "@/i18n/home-content";
 import { buildLocaleHead, inLanguage, BASE_URL } from "@/i18n/seo";
 import { localePath } from "@/i18n/paths";
 
@@ -32,6 +33,7 @@ export const Route = createFileRoute("/$locale/")({
 
     const { meta, links } = buildLocaleHead({ path: "/", locale, title, description });
 
+    const home = getHomeContent(locale);
     return {
       meta,
       links,
@@ -47,6 +49,24 @@ export const Route = createFileRoute("/$locale/")({
             inLanguage: inLanguage(locale),
           }),
         },
+        // Single FAQPage schema, matching the single visible Q:/A: block.
+        ...(home
+          ? [
+              {
+                type: "application/ld+json",
+                children: JSON.stringify({
+                  "@context": "https://schema.org",
+                  "@type": "FAQPage",
+                  inLanguage: inLanguage(locale),
+                  mainEntity: home.faqs.map((f) => ({
+                    "@type": "Question",
+                    name: f.question,
+                    acceptedAnswer: { "@type": "Answer", text: f.answer },
+                  })),
+                }),
+              },
+            ]
+          : []),
       ],
     };
   },

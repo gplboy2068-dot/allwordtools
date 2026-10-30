@@ -44,8 +44,38 @@ function isH3SwallowedErrorBody(body: string): boolean {
   }
 }
 
+// Near-duplicate tool pairs canonicalized with 301 redirects (2026-10-30):
+// these slugs duplicated a canonical tool's behaviour and content —
+// daily-word rendered the identical WordOfTheDay component (same word every
+// day), opposite-words used the identical antonym mode as antonym-finder,
+// and similar-words overlapped synonym-finder's thesaurus job.
+// CodyCross Solver vs CodyCross Answers are NOT redirected: they are distinct
+// tools (known-letter pattern solver vs clue/answer database search).
+const TOOL_REDIRECTS: Record<string, string> = {
+  "daily-word": "word-of-the-day",
+  "similar-words": "synonym-finder",
+  "opposite-words": "antonym-finder",
+};
+
+function toolRedirect(request: Request): Response | null {
+  if (request.method !== "GET" && request.method !== "HEAD") return null;
+  const url = new URL(request.url);
+  const match = url.pathname.match(/^(?:\/([a-z]{2}))?\/tool\/([a-z0-9-]+)\/?$/);
+  if (!match) return null;
+  const target = TOOL_REDIRECTS[match[2]];
+  if (!target) return null;
+  const prefix = match[1] ? `/${match[1]}` : "";
+  url.pathname = `${prefix}/tool/${target}`;
+  return new Response(null, {
+    status: 301,
+    headers: { Location: url.toString(), "Cache-Control": "public, max-age=3600" },
+  });
+}
+
 export default {
   async fetch(request: Request, env: unknown, ctx: unknown) {
+    const redirect = toolRedirect(request);
+    if (redirect) return redirect;
     try {
       const handler = await getServerEntry();
       const response = await handler.fetch(request, env, ctx);

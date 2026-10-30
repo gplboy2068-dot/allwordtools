@@ -8,6 +8,7 @@ import {
 } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
 import { useI18n } from "@/i18n/I18nProvider";
+import { getHomeContent } from "@/i18n/home-content";
 
 const benefits = [
   {
@@ -43,7 +44,13 @@ const benefits = [
 ];
 
 export function Benefits() {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
+  const localized = getHomeContent(locale);
+  const cards = benefits.map((b, i) => ({
+    icon: b.icon,
+    title: localized?.benefits[i]?.title ?? b.title,
+    description: localized?.benefits[i]?.description ?? b.description,
+  }));
 
   return (
     <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8" aria-labelledby="benefits">
@@ -58,7 +65,7 @@ export function Benefits() {
         centered
       />
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-        {benefits.map((b) => {
+        {cards.map((b) => {
           const Icon = b.icon;
           return (
             <div

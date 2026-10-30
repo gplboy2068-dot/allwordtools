@@ -3,6 +3,7 @@ import { ArrowRight } from "lucide-react";
 import { toolIcons, type Tool } from "@/data/tools";
 import { useI18n } from "@/i18n/I18nProvider";
 import { DEFAULT_LOCALE } from "@/i18n/locales";
+import { getLocalizedToolInfo } from "@/i18n/tools-data";
 
 /**
  * Compact, titled list of internal tool links with descriptive anchors.
@@ -41,7 +42,7 @@ export function ToolLinkList({
                 ) : (
                   <ArrowRight className="h-3.5 w-3.5 shrink-0 text-honey/60" />
                 )}
-                <span>{tool.name}</span>
+                <span>{getLocalizedToolInfo(tool, locale).name}</span>
               </Link>
             </li>
           );

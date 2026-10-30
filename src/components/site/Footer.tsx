@@ -4,6 +4,9 @@ import { categories, popularTools, toolsFromSlugs } from "@/data/tools";
 import { openCookieSettings } from "@/lib/cookie-consent";
 import { useI18n } from "@/i18n/I18nProvider";
 import { DEFAULT_LOCALE } from "@/i18n/locales";
+import { uiText } from "@/i18n/ui-template";
+import { getLocalizedToolInfo } from "@/i18n/tools-data";
+import { getLocalizedCategory } from "@/i18n/categories";
 
 const footerPopular = toolsFromSlugs(popularTools);
 const muted = "text-muted-foreground transition-colors hover:text-foreground";
@@ -30,10 +33,10 @@ export function Footer() {
             </span>
           </Link>
           <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-            AllWordTools is an independent collection of online word and language tools.
+            {uiText(locale, "footer.brandText", "AllWordTools is an independent collection of online word and language tools.")}
           </p>
           <div className="mt-3 text-xs text-muted-foreground">
-            <span>Maintained by </span>
+            <span>{uiText(locale, "footer.maintainedBy", "Maintained by")} </span>
             <Link
               to={isDefault ? "/about/firoz-khan" : "/$locale/about/firoz-khan"}
               params={isDefault ? {} : { locale }}
@@ -102,7 +105,7 @@ export function Footer() {
                   params={isDefault ? {} : { locale }}
                   className={muted}
                 >
-                  Author &amp; Maintainer
+                  {uiText(locale, "footer.authorMaintainer", "Author & Maintainer")}
                 </Link>
               </li>
               <li>
@@ -111,7 +114,7 @@ export function Footer() {
                   params={isDefault ? {} : { locale }}
                   className={muted}
                 >
-                  Methodology &amp; Data
+                  {uiText(locale, "footer.methodologyData", "Methodology & Data")}
                 </Link>
               </li>
               <li>
@@ -120,7 +123,7 @@ export function Footer() {
                   params={isDefault ? {} : { locale }}
                   className={muted}
                 >
-                  Data Sources &amp; Attribution
+                  {uiText(locale, "footer.dataSources", "Data Sources & Attribution")}
                 </Link>
               </li>
               <li>
@@ -129,7 +132,7 @@ export function Footer() {
                   params={isDefault ? {} : { locale }}
                   className={muted}
                 >
-                  Data Limitations
+                  {uiText(locale, "footer.dataLimitations", "Data Limitations")}
                 </Link>
               </li>
               <li>
@@ -138,7 +141,7 @@ export function Footer() {
                   params={isDefault ? {} : { locale }}
                   className={muted}
                 >
-                  AI Transparency
+                  {uiText(locale, "footer.aiTransparency", "AI Transparency")}
                 </Link>
               </li>
               <li>
@@ -174,7 +177,7 @@ export function Footer() {
                   params={isDefault ? {} : { locale }}
                   className="text-xs text-honey hover:underline"
                 >
-                  Report an Error
+                  {uiText(locale, "footer.reportError", "Report an Error")}
                 </Link>
               </li>
             </ul>
@@ -191,7 +194,7 @@ export function Footer() {
                     params={isDefault ? { tool: tool.slug } : { locale, tool: tool.slug }}
                     className={muted}
                   >
-                    {tool.name}
+                    {getLocalizedToolInfo(tool, locale).name}
                   </Link>
                 </li>
               ))}
@@ -218,7 +221,7 @@ export function Footer() {
                     params={isDefault ? { category: cat.slug } : { locale, category: cat.slug }}
                     className={muted}
                   >
-                    {cat.title}
+                    {getLocalizedCategory(cat, locale).title}
                   </Link>
                 </li>
               ))}

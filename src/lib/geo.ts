@@ -114,35 +114,11 @@ export function getDirectAnswer(
     return DIRECT_ANSWERS_REGISTRY[slug];
   }
 
-  // 3. Extract from intro[0]
-  const intro0 = content?.intro?.[0];
-  if (intro0 && intro0.trim().length > 0) {
-    const clean = intro0.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").trim();
-    const words = clean.split(/\s+/);
-    if (words.length >= 35 && words.length <= 65) {
-      return clean;
-    }
-
-    // Try extracting first 1 or 2 complete sentences
-    const safeText = clean.replace(/AllWordTools\.com/g, "AllWordTools");
-    const sentenceMatches = safeText.match(/[^.!?]+[.!?]+/g);
-    if (sentenceMatches && sentenceMatches.length > 0) {
-      let candidate = sentenceMatches[0].trim();
-      if (candidate.split(/\s+/).length < 35 && sentenceMatches.length > 1) {
-        candidate = `${sentenceMatches[0].trim()} ${sentenceMatches[1].trim()}`;
-      }
-      const candWords = candidate.split(/\s+/).length;
-      if (candWords >= 30 && candWords <= 65) {
-        return candidate;
-      }
-    }
-
-    // Truncate cleanly at 55 words if too long
-    if (words.length > 65) {
-      return words.slice(0, 52).join(" ") + "...";
-    }
-    return clean;
-  }
+  // 3. NEVER extract from intro[0]: the intro paragraphs are rendered directly
+  // below this block on the page, so reusing intro text here printed the same
+  // paragraph twice in a row (the duplicate-intro bug). Fall through to the
+  // synthesized definition from tool metadata instead, which is distinct
+  // from every intro paragraph.
 
   // 4. Default fallback from tool metadata
   if (fallbackTool) {

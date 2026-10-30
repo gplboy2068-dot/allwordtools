@@ -12,6 +12,9 @@ interface Entry {
   priority: string;
 }
 
+// Tool slugs canonicalized by 301 redirect (see src/server.ts) — never in sitemap.
+const REDIRECTED_TOOL_SLUGS = new Set(["daily-word", "similar-words", "opposite-words"]);
+
 // The locale-agnostic list of indexable app paths.
 function appPaths(): Entry[] {
   return [
@@ -42,11 +45,13 @@ function appPaths(): Entry[] {
       changefreq: "weekly" as const,
       priority: "0.8",
     })),
-    ...allTools.map((t) => ({
-      path: `/tool/${t.slug}`,
-      changefreq: "monthly" as const,
-      priority: "0.7",
-    })),
+    ...allTools
+      .filter((t) => !REDIRECTED_TOOL_SLUGS.has(t.slug))
+      .map((t) => ({
+        path: `/tool/${t.slug}`,
+        changefreq: "monthly" as const,
+        priority: "0.7",
+      })),
   ];
 }
 
@@ -63,14 +68,25 @@ export const Route = createFileRoute("/sitemap/$locale")({
         }
 
         const locales = enabledLocales();
-        const urls = appPaths().map((e) => {
-          const alternates = [
-            ...locales.map(
-              (l) =>
-                `    <xhtml:link rel="alternate" hreflang="${l.code}" href="${BASE_URL}${localePath(l.code, e.path)}"/>`,
-            ),
-            `    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}${localePath("en", e.path)}"/>`,
-          ].join("\n");
+        // Blog content is English-only: non-English sitemaps must not list
+        // blog URLs at all, and English blog URLs hreflang only to en.
+        const paths = appPaths().filter(
+          (e) => cfg.code === "en" || !(e.path === "/blog" || e.path.startsWith("/blog/")),
+        );
+        const urls = paths.map((e) => {
+          const isBlog = e.path === "/blog" || e.path.startsWith("/blog/");
+          const alternates = isBlog
+            ? [
+                `    <xhtml:link rel="alternate" hreflang="en" href="${BASE_URL}${localePath("en", e.path)}"/>`,
+                `    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}${localePath("en", e.path)}"/>`,
+              ].join("\n")
+            : [
+                ...locales.map(
+                  (l) =>
+                    `    <xhtml:link rel="alternate" hreflang="${l.code}" href="${BASE_URL}${localePath(l.code, e.path)}"/>`,
+                ),
+                `    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}${localePath("en", e.path)}"/>`,
+              ].join("\n");
 
           return [
             `  <url>`,

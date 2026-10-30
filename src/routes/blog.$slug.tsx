@@ -33,14 +33,30 @@ export function blogPostHead(slug: string, locale: string = DEFAULT_LOCALE) {
   const home = `${BASE_URL}${localePath(locale, "/")}`;
   const blogHome = `${BASE_URL}${localePath(locale, "/blog")}`;
 
-  const { meta, links } = buildLocaleHead({
+  // Blog posts exist ONLY in English (2026-10-30 i18n fix): locale URLs
+  // serve the English article, so they must never be indexed or advertised
+  // as translations. Locale post pages get noindex + an English canonical,
+  // and hreflang for every blog URL lists only en + x-default.
+  const isLocaleBlog = locale !== DEFAULT_LOCALE;
+  const built = buildLocaleHead({
     path,
     locale,
     title: post.metaTitle,
     description: post.metaDescription,
     type: "article",
     image: post.image ? `${BASE_URL}${post.image}` : undefined,
+    robots: isLocaleBlog ? "noindex, follow" : undefined,
   });
+  const meta = built.meta;
+  const links = isLocaleBlog
+    ? [
+        { rel: "canonical", href: `${BASE_URL}${path}` },
+        { rel: "alternate", hrefLang: "en", href: `${BASE_URL}${path}` },
+        { rel: "alternate", hrefLang: "x-default", href: `${BASE_URL}${path}` },
+      ]
+    : built.links.filter(
+        (l) => l.rel === "canonical" || l.hrefLang === "en" || l.hrefLang === "x-default",
+      );
 
   return {
     meta,

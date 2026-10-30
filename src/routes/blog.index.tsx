@@ -12,13 +12,22 @@ export const DESCRIPTION =
   "In-depth guides, strategy breakdowns, and practical tips for word games, vocabulary building, active writing, and AI tools from the AllWordTools team.";
 
 export const Route = createFileRoute("/blog/")({
-  head: () =>
-    buildLocaleHead({
+  // Blog is English-only — hreflang lists only en + x-default (built by
+  // buildLocaleHead for all locales, so filter the alternates down here).
+  head: () => {
+    const built = buildLocaleHead({
       path: "/blog",
       locale: DEFAULT_LOCALE,
       title: TITLE,
       description: DESCRIPTION,
-    }),
+    });
+    return {
+      meta: built.meta,
+      links: built.links.filter(
+        (l) => l.rel === "canonical" || l.hrefLang === "en" || l.hrefLang === "x-default",
+      ),
+    };
+  },
   component: BlogPage,
 });
 

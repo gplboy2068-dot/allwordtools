@@ -1,6 +1,9 @@
 import { createFileRoute, Link, notFound, useRouter } from "@tanstack/react-router";
 import { useI18n } from "@/i18n/I18nProvider";
-import { DEFAULT_LOCALE } from "@/i18n/locales";
+import { DEFAULT_LOCALE, getLocale } from "@/i18n/locales";
+import { uiText } from "@/i18n/ui-template";
+import { getLocalizedToolInfo } from "@/i18n/tools-data";
+import { getLocalizedCategory } from "@/i18n/categories";
 import {
   CalendarClock,
   CheckCircle2,
@@ -365,6 +368,15 @@ function RootToolPage() {
 }
 
 
+/** Format an English "July 10, 2026"-style content date in the active locale. */
+export function formatContentDate(updated: string, locale: string): string {
+  if (locale === DEFAULT_LOCALE) return updated;
+  const d = new Date(updated);
+  if (Number.isNaN(d.getTime())) return updated;
+  const intl = getLocale(locale)?.intl ?? "en-US";
+  return new Intl.DateTimeFormat(intl, { dateStyle: "long" }).format(d);
+}
+
 const UI_LOCALIZATION: Record<
   string,
   {
@@ -609,7 +621,22 @@ export function ToolPageView({
   const category = getCategory(tool.category);
   const Icon = toolIcons[slug] ?? Sparkles;
   const references = getToolReferences(slug);
-  const directAnswer = getDirectAnswer(slug, content, tool);
+  const localizedInfo = getLocalizedToolInfo(tool, locale);
+  const displayName = isDefault ? tool.name : (content?.heading ?? localizedInfo.name);
+  // English pages: registry/synthesized definition (never copied from intro).
+  // Locale pages: only a genuinely localized quick answer may be shown — a
+  // localized subheading of a really-translated tool, or an authored
+  // quickAnswer. English registry text is never shown on a locale page, and
+  // stub overrides (heading/intro still in English) hide the block entirely.
+  const intro0 = contentOverride?.intro?.[0] ?? "";
+  const isStubOverride = Boolean(
+    contentOverride &&
+      (intro0.startsWith(`${tool.name} —`) || intro0.startsWith(`${contentOverride.heading ?? ""} —`)),
+  );
+  const directAnswer = isDefault
+    ? getDirectAnswer(slug, content, tool)
+    : (contentOverride?.quickAnswer ??
+      (!isStubOverride && contentOverride?.subheading ? contentOverride.subheading : null));
 
   const t = (key: keyof typeof UI_LOCALIZATION.en) => {
     return UI_LOCALIZATION[locale]?.[key] ?? UI_LOCALIZATION.en[key];
@@ -642,13 +669,13 @@ export function ToolPageView({
                         params={isDefault ? { category: category.slug } : { locale, category: category.slug }}
                         className="hover:text-foreground"
                       >
-                        {category.title}
+                        {isDefault ? category.title : getLocalizedCategory(category, locale).title}
                       </Link>
                     </li>
                   </>
                 )}
                 <ChevronRight className="h-3.5 w-3.5" />
-                <li className="font-medium text-foreground">{tool.name}</li>
+                <li className="font-medium text-foreground">{displayName}</li>
               </ol>
             </nav>
 
@@ -671,7 +698,7 @@ export function ToolPageView({
               {content && (
                 <>
                   <span className="inline-flex items-center gap-1.5">
-                    <CalendarClock className="h-3.5 w-3.5" /> {t("updated")} {content.updated}
+                    <CalendarClock className="h-3.5 w-3.5" /> {t("updated")} {formatContentDate(content.updated, locale)}
                   </span>
                   <span className="inline-flex items-center gap-1.5">
                     <Clock className="h-3.5 w-3.5" /> {content.readingMinutes} {t("readingTime")}
@@ -910,7 +937,7 @@ export function ToolPageView({
                 id="about"
                 className="font-display text-2xl font-semibold tracking-tight sm:text-3xl"
               >
-                {t("about")} {tool.name}
+                {t("about")} {displayName}
               </h2>
 
               {/* Direct Answer & Key Takeaway Block for AI Search & GEO */}
@@ -1031,29 +1058,29 @@ export function ToolPageView({
               </div>
             </section>
 
-            {/* FAQ */}
+            {/* FAQ — the page's SINGLE FAQ block, in Q:/A: format.
+                The FAQPage JSON-LD in the head is emitted once and matches
+                exactly these questions and answers. (The old accordion
+                "Questions & answers / FAQs" section duplicated this block.) */}
             <section className="mx-auto max-w-3xl px-4 pb-4 sm:px-6 lg:px-8" aria-labelledby="faq">
-              <span className="text-sm font-semibold uppercase tracking-wider text-honey">
-                {t("faq")}
-              </span>
               <h2
                 id="faq"
-                className="mt-2 font-display text-2xl font-semibold tracking-tight sm:text-3xl"
+                className="font-display text-2xl font-semibold tracking-tight sm:text-3xl"
               >
-                {tool.name} {t("faqsTitle")}
+                {uiText(locale, "tool.frequentlyAskedQuestions", "Frequently Asked Questions")}
               </h2>
-              <Accordion type="single" collapsible className="mt-6 w-full">
+              <div className="mt-6 space-y-6">
                 {content.faqs.map((faq, i) => (
-                  <AccordionItem key={i} value={`faq-${i}`} className="border-border/70">
-                    <AccordionTrigger className="text-left font-display text-base font-semibold">
-                      {faq.question}
-                    </AccordionTrigger>
-                    <AccordionContent className="text-sm leading-relaxed text-muted-foreground">
-                      {renderParagraphWithLinks(faq.answer, locale)}
-                    </AccordionContent>
-                  </AccordionItem>
+                  <div key={i}>
+                    <p className="font-display text-base font-semibold">
+                      Q: {faq.question}
+                    </p>
+                    <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
+                      A: {renderParagraphWithLinks(faq.answer, locale)}
+                    </p>
+                  </div>
                 ))}
-              </Accordion>
+              </div>
             </section>
 
             {/* Author & Methodology */}
@@ -1075,13 +1102,13 @@ export function ToolPageView({
                     </Link>
                   </div>
                   <p className="text-xs leading-relaxed text-muted-foreground">
-                    {t("teamDesc")} {content.updated}. Maintained by Full Stack Developer Firoz Khan under FK Digital Media.{" "}
+                    {t("teamDesc")} {formatContentDate(content.updated, locale)}. {uiText(locale, "tool.maintainedBy", "Maintained by Full Stack Developer Firoz Khan under FK Digital Media")}.{" "}
                     <Link
                       to={isDefault ? "/methodology" : "/$locale/methodology"}
                       params={isDefault ? {} : { locale }}
                       className="underline hover:text-foreground"
                     >
-                      Learn how our word lists and algorithms work
+                      {uiText(locale, "tool.learnHow", "Learn how our word lists and algorithms work")}
                     </Link>.
                   </p>
                 </div>

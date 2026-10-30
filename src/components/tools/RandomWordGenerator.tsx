@@ -1,4 +1,6 @@
 import { useMemo, useState } from "react";
+import { useI18n } from "@/i18n/I18nProvider";
+import { uiText } from "@/i18n/ui-template";
 import { Copy, Dices, Loader2, X } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
@@ -22,6 +24,7 @@ function pickRandom<T>(pool: T[], count: number): T[] {
 }
 
 export function RandomWordGenerator() {
+  const { locale } = useI18n();
   const { words, loading, error } = useDictionary();
   const [count, setCount] = useState(5);
   const [minLen, setMinLen] = useState(0);
@@ -92,7 +95,7 @@ export function RandomWordGenerator() {
         </div>
         <div className="space-y-1.5">
           <Label htmlFor="rwg-start" className="text-xs font-semibold text-muted-foreground">
-            Starts with (optional)
+            {uiText(locale, "filters.startsWithOptional", "Starts with (optional)")}
           </Label>
           <Input
             id="rwg-start"
@@ -106,7 +109,7 @@ export function RandomWordGenerator() {
         </div>
         <div className="space-y-1.5">
           <Label htmlFor="rwg-min" className="text-xs font-semibold text-muted-foreground">
-            Min length
+            {uiText(locale, "filters.minLength", "Min length")}
           </Label>
           <select
             id="rwg-min"

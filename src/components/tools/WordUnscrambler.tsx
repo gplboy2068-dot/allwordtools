@@ -1,4 +1,6 @@
 import { useMemo, useState } from "react";
+import { useI18n } from "@/i18n/I18nProvider";
+import { uiText } from "@/i18n/ui-template";
 import { Copy, Loader2, Search, Shuffle, Sparkles, X } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
@@ -23,6 +25,7 @@ function groupByLength(results: UnscrambleResult[]): Grouped {
 }
 
 export function WordUnscrambler() {
+  const { locale } = useI18n();
   const { words, loading, error } = useDictionary();
   const [letters, setLetters] = useState("");
   const [startsWith, setStartsWith] = useState("");
@@ -97,7 +100,7 @@ export function WordUnscrambler() {
       <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <div className="space-y-1.5">
           <Label htmlFor="startsWith" className="text-xs font-semibold text-muted-foreground">
-            Starts with
+            {uiText(locale, "filters.startsWith", "Starts with")}
           </Label>
           <Input
             id="startsWith"
@@ -111,7 +114,7 @@ export function WordUnscrambler() {
         </div>
         <div className="space-y-1.5">
           <Label htmlFor="endsWith" className="text-xs font-semibold text-muted-foreground">
-            Ends with
+            {uiText(locale, "filters.endsWith", "Ends with")}
           </Label>
           <Input
             id="endsWith"
@@ -125,7 +128,7 @@ export function WordUnscrambler() {
         </div>
         <div className="space-y-1.5">
           <Label htmlFor="contains" className="text-xs font-semibold text-muted-foreground">
-            Contains
+            {uiText(locale, "filters.contains", "Contains")}
           </Label>
           <Input
             id="contains"
@@ -139,7 +142,7 @@ export function WordUnscrambler() {
         </div>
         <div className="space-y-1.5">
           <Label htmlFor="minLength" className="text-xs font-semibold text-muted-foreground">
-            Min length
+            {uiText(locale, "filters.minLength", "Min length")}
           </Label>
           <select
             id="minLength"

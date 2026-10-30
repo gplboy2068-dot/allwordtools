@@ -1,4 +1,6 @@
 import { useMemo, useState } from "react";
+import { useI18n } from "@/i18n/I18nProvider";
+import { uiText } from "@/i18n/ui-template";
 import { Copy, Loader2, Search, Sparkles, X } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
@@ -19,6 +21,7 @@ function groupByLength(results: WordMatch[]) {
 }
 
 export function WordFinder() {
+  const { locale } = useI18n();
   const { words, loading, error } = useDictionary();
   const [startsWith, setStartsWith] = useState("");
   const [endsWith, setEndsWith] = useState("");
@@ -61,7 +64,7 @@ export function WordFinder() {
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         <div className="space-y-1.5">
           <Label htmlFor="wf-starts" className="text-xs font-semibold text-muted-foreground">
-            Starts with
+            {uiText(locale, "filters.startsWith", "Starts with")}
           </Label>
           <Input
             id="wf-starts"
@@ -75,7 +78,7 @@ export function WordFinder() {
         </div>
         <div className="space-y-1.5">
           <Label htmlFor="wf-ends" className="text-xs font-semibold text-muted-foreground">
-            Ends with
+            {uiText(locale, "filters.endsWith", "Ends with")}
           </Label>
           <Input
             id="wf-ends"
@@ -89,7 +92,7 @@ export function WordFinder() {
         </div>
         <div className="space-y-1.5">
           <Label htmlFor="wf-contains" className="text-xs font-semibold text-muted-foreground">
-            Contains
+            {uiText(locale, "filters.contains", "Contains")}
           </Label>
           <Input
             id="wf-contains"

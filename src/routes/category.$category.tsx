@@ -38,6 +38,7 @@ import { useI18n } from "@/i18n/I18nProvider";
 import { getLocalizedCategory } from "@/i18n/categories";
 import { getLocalizedCategoryFullContent } from "@/i18n/category-content";
 import { getLocalizedToolInfo } from "@/i18n/tools-data";
+import { uiText } from "@/i18n/ui-template";
 
 const SITE = "AllWordTools.com";
 
@@ -689,30 +690,26 @@ export function CategoryPageView({ slug }: { slug: string }) {
           </section>
         )}
 
-        {/* FAQ */}
+        {/* FAQ — the page's SINGLE FAQ block, in Q:/A: format, matching the
+            single FAQPage JSON-LD emitted in the head. */}
         {content && content.faqs && content.faqs.length > 0 && (
           <section id="faq" className="mx-auto max-w-3xl scroll-mt-20 px-4 py-14 sm:px-6 lg:px-8" aria-labelledby="faq-heading">
-            <span className="text-sm font-semibold uppercase tracking-wider text-honey">
-              {t("faqEyebrow")}
-            </span>
             <h2
               id="faq-heading"
-              className="mt-2 font-display text-3xl font-semibold tracking-tight sm:text-4xl"
+              className="font-display text-3xl font-semibold tracking-tight sm:text-4xl"
             >
-              {locCat.title} {t("faqsTitleSuffix")}
+              {uiText(locale, "tool.frequentlyAskedQuestions", "Frequently Asked Questions")}
             </h2>
-            <Accordion type="single" collapsible className="mt-6 w-full">
+            <div className="mt-6 space-y-6">
               {content.faqs.map((faq, i) => (
-                <AccordionItem key={i} value={`faq-${i}`} className="border-border/70">
-                  <AccordionTrigger className="text-left font-display text-base font-semibold">
-                    {faq.question}
-                  </AccordionTrigger>
-                  <AccordionContent className="text-sm leading-relaxed text-muted-foreground">
-                    {faq.answer}
-                  </AccordionContent>
-                </AccordionItem>
+                <div key={i}>
+                  <p className="font-display text-base font-semibold">Q: {faq.question}</p>
+                  <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
+                    A: {faq.answer}
+                  </p>
+                </div>
               ))}
-            </Accordion>
+            </div>
           </section>
         )}
 

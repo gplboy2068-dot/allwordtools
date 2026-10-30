@@ -1,4 +1,6 @@
 import { useMemo, useState } from "react";
+import { useI18n } from "@/i18n/I18nProvider";
+import { uiText } from "@/i18n/ui-template";
 import { Copy, Loader2, Search, Sparkles, X } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
@@ -34,6 +36,7 @@ const COPY = {
 } as const;
 
 export function RackSolver({ game }: { game: RackGame }) {
+  const { locale } = useI18n();
   const { words, loading, error } = useDictionary();
   const [letters, setLetters] = useState("");
   const [startsWith, setStartsWith] = useState("");
@@ -109,7 +112,7 @@ export function RackSolver({ game }: { game: RackGame }) {
       <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <div className="space-y-1.5">
           <Label htmlFor="rs-start" className="text-xs font-semibold text-muted-foreground">
-            Starts with
+            {uiText(locale, "filters.startsWith", "Starts with")}
           </Label>
           <Input
             id="rs-start"
@@ -123,7 +126,7 @@ export function RackSolver({ game }: { game: RackGame }) {
         </div>
         <div className="space-y-1.5">
           <Label htmlFor="rs-end" className="text-xs font-semibold text-muted-foreground">
-            Ends with
+            {uiText(locale, "filters.endsWith", "Ends with")}
           </Label>
           <Input
             id="rs-end"
@@ -137,7 +140,7 @@ export function RackSolver({ game }: { game: RackGame }) {
         </div>
         <div className="space-y-1.5">
           <Label htmlFor="rs-contains" className="text-xs font-semibold text-muted-foreground">
-            Contains
+            {uiText(locale, "filters.contains", "Contains")}
           </Label>
           <Input
             id="rs-contains"
@@ -151,7 +154,7 @@ export function RackSolver({ game }: { game: RackGame }) {
         </div>
         <div className="space-y-1.5">
           <Label htmlFor="rs-min" className="text-xs font-semibold text-muted-foreground">
-            Min length
+            {uiText(locale, "filters.minLength", "Min length")}
           </Label>
           <select
             id="rs-min"

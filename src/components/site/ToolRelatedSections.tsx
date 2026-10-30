@@ -3,6 +3,11 @@ import { ArrowLeft, ArrowRight, Sparkles } from "lucide-react";
 import { ToolCard } from "@/components/site/ToolCard";
 import { ToolLinkList } from "@/components/site/ToolLinkList";
 import { toolIcons } from "@/data/tools";
+import { useI18n } from "@/i18n/I18nProvider";
+import { DEFAULT_LOCALE } from "@/i18n/locales";
+import { uiText } from "@/i18n/ui-template";
+import { getLocalizedToolInfo } from "@/i18n/tools-data";
+import { getLocalizedCategory } from "@/i18n/categories";
 import {
   getNextPrevTool,
   getRecommendedNext,
@@ -19,6 +24,8 @@ import {
  * — 15–30 relevant, descriptive internal links with zero manual wiring.
  */
 export function ToolRelatedSections({ slug }: { slug: string }) {
+  const { locale } = useI18n();
+  const isDefault = locale === DEFAULT_LOCALE;
   const category = getToolCategory(slug);
   const related = getRelatedTools(slug, 4);
   const usersAlsoUsed = getUsersAlsoUsed(slug, 6);
@@ -36,19 +43,19 @@ export function ToolRelatedSections({ slug }: { slug: string }) {
             <div className="flex items-end justify-between">
               <div>
                 <span className="text-sm font-semibold uppercase tracking-wider text-honey">
-                  Keep exploring
+                  {uiText(locale, "related.keepExploring", "Keep exploring")}
                 </span>
                 <h2 className="mt-2 font-display text-2xl font-semibold tracking-tight sm:text-3xl">
-                  Related tools
+                  {uiText(locale, "related.relatedTools", "Related tools")}
                 </h2>
               </div>
               {category && (
                 <Link
-                  to="/category/$category"
-                  params={{ category: category.slug }}
+                  to={isDefault ? "/category/$category" : "/$locale/category/$category"}
+                  params={isDefault ? { category: category.slug } : { locale, category: category.slug }}
                   className="hidden items-center gap-1.5 text-sm font-medium text-honey hover:underline sm:inline-flex"
                 >
-                  All {category.title}
+                  {uiText(locale, "related.allCategory", "All {title}").replace("{title}", getLocalizedCategory(category, locale).title)}
                   <ArrowRight className="h-4 w-4" />
                 </Link>
               )}
@@ -70,18 +77,18 @@ export function ToolRelatedSections({ slug }: { slug: string }) {
               </span>
               <div>
                 <span className="text-xs font-semibold uppercase tracking-wider text-honey">
-                  Recommended next
+                  {uiText(locale, "related.recommendedNext", "Recommended next")}
                 </span>
-                <p className="font-display text-lg font-semibold">{recommended.name}</p>
-                <p className="text-sm text-muted-foreground">{recommended.description}</p>
+                <p className="font-display text-lg font-semibold">{getLocalizedToolInfo(recommended, locale).name}</p>
+                <p className="text-sm text-muted-foreground">{getLocalizedToolInfo(recommended, locale).description}</p>
               </div>
             </div>
             <Link
-              to="/tool/$tool"
-              params={{ tool: recommended.slug }}
+              to={isDefault ? "/tool/$tool" : "/$locale/tool/$tool"}
+              params={isDefault ? { tool: recommended.slug } : { locale, tool: recommended.slug }}
               className="inline-flex shrink-0 items-center gap-1.5 rounded-full gradient-honey px-5 py-2.5 text-sm font-semibold text-honey-foreground shadow-soft transition-transform hover:-translate-y-0.5"
             >
-              Open {recommended.name}
+              {uiText(locale, "related.open", "Open {name}").replace("{name}", getLocalizedToolInfo(recommended, locale).name)}
               <ArrowRight className="h-4 w-4" />
             </Link>
           </div>
@@ -89,9 +96,9 @@ export function ToolRelatedSections({ slug }: { slug: string }) {
 
         {/* Link columns: users also used + more in category */}
         <div className="mt-12 grid gap-10 sm:grid-cols-2">
-          <ToolLinkList title="Users also used" tools={usersAlsoUsed} columns={1} />
+          <ToolLinkList title={uiText(locale, "related.usersAlsoUsed", "Users also used")} tools={usersAlsoUsed} columns={1} />
           <ToolLinkList
-            title={category ? `More ${category.title.toLowerCase()}` : "More tools"}
+            title={category ? `${uiText(locale, "related.more", "More")} ${getLocalizedCategory(category, locale).title}` : uiText(locale, "related.moreTools", "More tools")}
             tools={sameCategory}
             columns={1}
           />
@@ -102,16 +109,16 @@ export function ToolRelatedSections({ slug }: { slug: string }) {
           <div className="mt-12 grid gap-4 border-t border-border/60 pt-8 sm:grid-cols-2">
             {prev ? (
               <Link
-                to="/tool/$tool"
-                params={{ tool: prev.slug }}
+                to={isDefault ? "/tool/$tool" : "/$locale/tool/$tool"}
+                params={isDefault ? { tool: prev.slug } : { locale, tool: prev.slug }}
                 className="group flex items-center gap-3 rounded-2xl border border-border/70 bg-card p-5 shadow-soft transition-all hover:border-honey/50"
               >
                 <ArrowLeft className="h-4 w-4 text-honey transition-transform group-hover:-translate-x-1" />
                 <span>
                   <span className="block text-xs uppercase tracking-wider text-muted-foreground">
-                    Previous tool
+                    {uiText(locale, "related.previousTool", "Previous tool")}
                   </span>
-                  <span className="font-display text-sm font-semibold">{prev.name}</span>
+                  <span className="font-display text-sm font-semibold">{getLocalizedToolInfo(prev, locale).name}</span>
                 </span>
               </Link>
             ) : (
@@ -119,15 +126,15 @@ export function ToolRelatedSections({ slug }: { slug: string }) {
             )}
             {next && (
               <Link
-                to="/tool/$tool"
-                params={{ tool: next.slug }}
+                to={isDefault ? "/tool/$tool" : "/$locale/tool/$tool"}
+                params={isDefault ? { tool: next.slug } : { locale, tool: next.slug }}
                 className="group flex items-center justify-end gap-3 rounded-2xl border border-border/70 bg-card p-5 text-right shadow-soft transition-all hover:border-honey/50"
               >
                 <span>
                   <span className="block text-xs uppercase tracking-wider text-muted-foreground">
-                    Next tool
+                    {uiText(locale, "related.nextTool", "Next tool")}
                   </span>
-                  <span className="font-display text-sm font-semibold">{next.name}</span>
+                  <span className="font-display text-sm font-semibold">{getLocalizedToolInfo(next, locale).name}</span>
                 </span>
                 <ArrowRight className="h-4 w-4 text-honey transition-transform group-hover:translate-x-1" />
               </Link>
