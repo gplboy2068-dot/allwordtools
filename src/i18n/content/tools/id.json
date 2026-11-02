@@ -10048,5 +10048,720 @@
       "ai-flashcards",
       "AI Flashcards"
     ]
+  },
+  "username-generator": {
+    "name": "Pembuat Username",
+    "metaTitle": "Pembuat Username — Username Estetik & Gaming | AllWordTools",
+    "metaDescription": "Pembuat username gratis untuk Instagram, TikTok, Roblox, Discord, dan gaming. Masukkan kata kunci dan dapatkan ide username estetik, keren, dan gaming secara instan. Tanpa perlu daftar.",
+    "eyebrow": "Generator Nama",
+    "heading": "Pembuat Username",
+    "subheading": "Ketik nama atau kata kunci dan dapatkan puluhan ide username estetik, gaming, keren, dan profesional untuk Instagram, TikTok, Roblox, Discord, dan YouTube — secara instan, dengan pencarian username Instagram yang naik lebih dari 1.500% tahun ini.",
+    "intro": [
+      "Setiap akun dimulai dengan username, dan yang bagus selalu sudah dipakai. Pembuat username ini mengubah satu atau dua kata kunci — nama Anda, nama panggilan, kata favorit — menjadi puluhan kombinasi baru menggunakan gaya, pemisah, dekorasi, dan angka, sehingga Anda bisa menemukan nama pengguna yang terasa seperti diri Anda dan masih berpeluang tersedia.",
+      "Pilih suasana terlebih dahulu: username estetik lembut dan minimal untuk Instagram dan TikTok, username gaming menambahkan leet-speak dan kesan tajam untuk Roblox, Discord, dan Twitch, username keren tetap singkat dan percaya diri, dan username profesional menjaga tampilannya bersih untuk profil kerja dan bisnis. Ketuk ide apa pun untuk menyalinnya.",
+      "Generator ini berjalan sepenuhnya di browser Anda. Alat ini tidak memeriksa ketersediaan (hanya setiap platform yang bisa melakukannya), tetapi membuat banyak pilihan sekaligus membuat Anda cepat menyusun daftar pendek lima atau enam favorit dan mengujinya di tempat yang penting."
+    ],
+    "howToTitle": "Cara menggunakan Pembuat Username",
+    "howToSteps": [
+      {
+        "title": "Masukkan kata kunci",
+        "detail": "Mulai dengan nama Anda, nama panggilan, atau kata yang Anda sukai. Tambahkan kata kunci kedua untuk mencampur dan memadukan."
+      },
+      {
+        "title": "Pilih gaya",
+        "detail": "Estetik, gaming, keren, atau profesional — setiap gaya menggunakan dekorasi dan polanya sendiri."
+      },
+      {
+        "title": "Aktifkan angka",
+        "detail": "Angka membuat nama yang sudah dipakai bisa tersedia lagi; matikan untuk tampilan yang lebih bersih."
+      },
+      {
+        "title": "Salin dan periksa",
+        "detail": "Ketuk username untuk menyalinnya, lalu periksa ketersediaannya di platform Anda. Tekan Ide baru untuk batch baru."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Apa yang membuat username melekat di ingatan",
+        "paragraphs": [
+          "Username yang diingat orang itu singkat, mudah diucapkan, dan mudah diketik dari ingatan. Bidik sesuatu yang bisa dieja teman setelah mendengarnya sekali, hindari rangkaian angka yang panjang, dan pertahankan satu gaya pemisah — satu titik atau garis bawah terbaca jauh lebih baik daripada campuran simbol.",
+          "Konsistensi adalah hadiah tersembunyinya: nama pengguna yang sama di Instagram, TikTok, YouTube, dan Discord membuat Anda mudah ditemukan di mana saja dan terlihat profesional di profil atau kartu nama. Buat satu batch di sini, lalu periksa favorit Anda di semua platform sebelum memutuskan."
+        ]
+      },
+      {
+        "heading": "Estetik, gaming, atau profesional?",
+        "paragraphs": [
+          "Username estetik mengandalkan kata-kata lembut (moon, aura, bloom), pemisah halus, dan huruf kecil semua — tampilan yang mendominasi Instagram dan Pinterest saat ini. Username gaming bergerak ke arah sebaliknya: kata-kata lebih tajam, bingkai xX, substitusi leet (a→4, e→3, o→0), dan inti singkat yang tajam dan terbaca baik di kill feed.",
+          "Username profesional hampir menghilangkan dekorasi sepenuhnya: nama asli ditambah peran, studio, atau penanda 'official'. Jika Anda membangun personal brand, buatlah dalam gaya keren atau profesional dan pertahankan angkanya singkat atau hilangkan sama sekali."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "luna",
+        "output": "@soft.luna · @itsluna_ · @lunabloom",
+        "note": "Gaya estetik dari satu kata kunci."
+      },
+      {
+        "input": "pixel + gaming style",
+        "output": "@xXp1xelXx · @pixelstorm99 · @itzpixel",
+        "note": "Gaya gaming menambahkan leet-speak dan bingkai."
+      },
+      {
+        "input": "aarav + sharma (professional)",
+        "output": "@aaravsharma · @theaaravsharma · @aaravsharma.co",
+        "note": "Gaya profesional menjaga tampilannya bersih."
+      }
+    ],
+    "tips": [
+      "Buat dalam batch dan susun daftar pendek 5–6 nama sebelum memeriksa ketersediaan di mana pun.",
+      "Ucapkan username dengan lantang — jika sulit diucapkan, sulit juga dibagikan.",
+      "Satu gaya pemisah (semua titik atau semua garis bawah) terlihat lebih bersih daripada mencampur keduanya.",
+      "Hindari tanggal lahir dan detail pribadi dalam username publik.",
+      "Periksa nama yang sama di setiap platform yang Anda gunakan, bahkan yang mungkin baru Anda ikuti nanti."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah generator memeriksa apakah username tersedia?",
+        "answer": "Tidak — ketersediaan ada di dalam setiap platform, jadi periksa daftar pendek Anda di Instagram, TikTok, atau game itu sendiri. Membuat banyak pilihan terlebih dahulu membuat proses ini cepat."
+      },
+      {
+        "question": "Apa itu username estetik?",
+        "answer": "Nama pengguna yang lembut dan minimal yang dibangun dari kata-kata halus, huruf kecil, dan pemisah ringan, populer di Instagram dan TikTok — misalnya @soft.luna atau @peachyaura."
+      },
+      {
+        "question": "Bagaimana cara membuat username gaming?",
+        "answer": "Pilih gaya gaming: gaya ini menambahkan kosakata yang lebih tajam, leet-speak opsional (huruf diganti angka), dan bingkai bergaya xX yang digunakan di Roblox, Discord, dan Twitch."
+      },
+      {
+        "question": "Bisakah saya menggunakan dua kata kunci?",
+        "answer": "Ya. Masukkan kata kunci kedua dan generator akan menggabungkan keduanya dalam urutan dan pola yang berbeda."
+      },
+      {
+        "question": "Apakah Pembuat Username gratis?",
+        "answer": "Ya, sepenuhnya gratis tanpa perlu daftar, dan berjalan di browser Anda — kata kunci Anda tidak pernah meninggalkan perangkat Anda."
+      }
+    ],
+    "searchIntent": "Pengguna mencari ide username estetik, gaming, keren, atau profesional untuk Instagram, TikTok, Roblox, Discord, dan platform lain berdasarkan kata kunci.",
+    "keywords": [
+      "pembuat username",
+      "generator username instagram",
+      "username estetik",
+      "username gaming keren",
+      "ide nama pengguna",
+      "username unik"
+    ]
+  },
+  "fancy-text-generator": {
+    "name": "Pembuat Teks Keren",
+    "metaTitle": "Pembuat Teks Keren — Font Bergaya Salin & Tempel | AllWordTools",
+    "metaDescription": "Pembuat teks keren gratis: ubah kata-kata Anda menjadi font tebal, skrip, kursif, gelembung, kecil, kotak, dan vaporwave untuk disalin dan ditempel ke bio Instagram, Discord, WhatsApp, dan game.",
+    "eyebrow": "Analisis Teks",
+    "heading": "Pembuat Teks Keren",
+    "subheading": "Ketik sekali dan dapatkan teks Anda dalam 16 font Unicode bergaya — tebal, skrip, kursif, Gothic, gelembung, kecil, kotak, vaporwave, coret, dan terbalik — siap disalin dan ditempel di mana saja.",
+    "intro": [
+      "Teks keren adalah cara nama atau bio yang polos berubah menjadi pernyataan gaya. Generator ini mengubah apa pun yang Anda ketik menjadi 16 font Unicode berbeda sekaligus: skrip elegan untuk bio Instagram, fraktur Gothic untuk profil gaming, huruf gelembung untuk postingan yang ceria, superscript kecil untuk caption yang halus, atau vaporwave lebar penuh untuk energi retro murni.",
+      "Ini bukan gambar atau font khusus yang perlu Anda instal — ini adalah karakter Unicode asli, itulah sebabnya teks ini bisa langsung ditempel ke Instagram, TikTok, Discord, WhatsApp, komentar YouTube, dan profil game sambil mempertahankan gayanya. Ketuk gaya apa pun untuk menyalinnya.",
+      "Semua terjadi di browser Anda saat Anda mengetik, jadi Anda bisa bereksperimen dengan bebas. Coba nama Anda terlebih dahulu: teks singkat menampilkan gaya dekoratif dengan paling baik."
+    ],
+    "howToTitle": "Cara menggunakan Pembuat Teks Keren",
+    "howToSteps": [
+      {
+        "title": "Ketik teks Anda",
+        "detail": "Masukkan nama, baris bio, atau frasa singkat — semua 16 gaya diperbarui langsung saat Anda mengetik."
+      },
+      {
+        "title": "Bandingkan gaya",
+        "detail": "Gulir melalui tebal, skrip, gelembung, kecil, kotak, vaporwave, terbalik, dan lainnya."
+      },
+      {
+        "title": "Ketuk untuk menyalin",
+        "detail": "Klik gaya yang Anda suka dan gaya itu disalin ke clipboard Anda."
+      },
+      {
+        "title": "Tempel di mana saja",
+        "detail": "Letakkan di bio, username, postingan, atau status Anda — gaya ikut bersama karakternya."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Cara kerja teks keren sebenarnya",
+        "paragraphs": [
+          "Unicode berisi seluruh alfabet huruf bergaya — tebal matematis, skrip, fraktur, double-struck, melingkar, dan karakter lebar penuh — yang awalnya dibuat untuk matematika dan penerbitan. Aplikasi sosial menampilkannya sebagai teks biasa, jadi 'generator font' sebenarnya adalah pemeta karakter: alat ini menukar setiap huruf normal dengan kembaran Unicode bergayanya.",
+          "Trik itu memiliki dua konsekuensi yang perlu diketahui. Pertama, teks keren berfungsi hampir di mana saja, termasuk tempat yang melarang pemformatan. Kedua, pembaca layar dan mesin pencari mungkin membaca karakter tersebut sebagai simbol, bukan huruf, jadi pertahankan gaya keren untuk nama, bio, dan dekorasi — bukan untuk informasi penting seperti detail kontak."
+        ]
+      },
+      {
+        "heading": "Memilih gaya yang tepat",
+        "paragraphs": [
+          "Skrip dan skrip tebal terasa premium dan feminin — tampilan bio Instagram klasik. Fraktur (Gothic) dan double-struck cocok untuk tag gaming dan profil musik. Huruf gelembung dan kotak playful dan menonjol di komentar, sementara teks superscript kecil adalah gaya tenang yang digunakan dalam caption dan status Discord.",
+          "Gaya coret, garis bawah, dan miring dicoret juga fungsional sekaligus dekoratif: gunakan untuk menunjukkan editan, mencoret tujuan yang selesai dalam postingan, atau menambah penekanan dalam obrolan teks polos. Teks vaporwave lebar penuh murni estetik — padukan dengan frasa singkat untuk efek maksimal."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "dreamer",
+        "output": "𝒹𝓇ℯ𝒶𝓂ℯ𝓇 (Script)",
+        "note": "Skrip lembut untuk bio dan caption."
+      },
+      {
+        "input": "shadow",
+        "output": "𝔰𝔥𝔞𝔡𝔬𝔴 (Fraktur)",
+        "note": "Huruf Gothic untuk profil gaming."
+      },
+      {
+        "input": "good vibes",
+        "output": "ⓖⓞⓞⓓ ⓥⓘⓑⓔⓢ (Bubble)",
+        "note": "Huruf gelembung untuk postingan yang ceria."
+      }
+    ],
+    "tips": [
+      "Teks singkat menampilkan gaya keren dengan paling baik — nama atau beberapa kata, bukan seluruh paragraf.",
+      "Pratinjau di aplikasi sebenarnya: beberapa perangkat yang sangat lama mungkin menunjukkan kotak untuk gaya langka seperti huruf kotak.",
+      "Jangan gunakan teks keren untuk kata sandi atau apa pun yang harus diketik kembali dengan persis.",
+      "Pertahankan alamat email dan nomor telepon Anda dalam teks normal agar semua orang (dan setiap pembaca layar) dapat menggunakannya.",
+      "Gabungkan satu baris keren dengan baris normal dalam bio — kontras membuat baris keren menonjol."
+    ],
+    "faqs": [
+      {
+        "question": "Apakah teks keren adalah font yang perlu saya instal?",
+        "answer": "Tidak. Gayanya adalah karakter Unicode, bukan font, jadi bisa disalin dan ditempel ke aplikasi apa adanya tanpa perlu instal apa pun."
+      },
+      {
+        "question": "Di mana saya bisa menempel teks keren?",
+        "answer": "Instagram, TikTok, Discord, WhatsApp, Telegram, YouTube, X, dan sebagian besar profil game menerimanya, karena ini adalah teks biasa di tingkat karakter."
+      },
+      {
+        "question": "Mengapa beberapa gaya menunjukkan kotak di ponsel saya?",
+        "answer": "Beberapa perangkat tidak memiliki glyph untuk alfabet paling langka (seperti huruf kotak). Gaya tebal, skrip, dan gelembung memiliki dukungan terluas."
+      },
+      {
+        "question": "Bisakah saya menggunakan teks keren dalam username saya?",
+        "answer": "Seringkali ya untuk nama tampilan. Beberapa platform membatasi username login yang sebenarnya hanya untuk huruf polos — dalam hal ini gunakan versi keren untuk nama tampilan atau bio Anda sebagai gantinya."
+      },
+      {
+        "question": "Apakah Pembuat Teks Keren gratis?",
+        "answer": "Ya — gratis, tanpa batas, dan tanpa perlu daftar. Teks Anda tidak pernah meninggalkan browser Anda."
+      }
+    ],
+    "searchIntent": "Pengguna ingin mengubah teks biasa menjadi font Unicode bergaya untuk disalin dan ditempel ke bio, nama tampilan, status, dan profil game.",
+    "keywords": [
+      "pembuat teks keren",
+      "font bergaya salin tempel",
+      "teks fancy instagram",
+      "generator font keren",
+      "huruf bergaya online"
+    ]
+  },
+  "word-counter": {
+    "name": "Penghitung Kata",
+    "metaTitle": "Penghitung Kata — Hitung Kata, Karakter & Waktu Baca | AllWordTools",
+    "metaDescription": "Penghitung kata online gratis: hitung kata, karakter, kalimat, dan paragraf secara instan saat Anda mengetik, plus waktu baca, waktu bicara, kepadatan kata kunci, dan pelacak target menulis.",
+    "eyebrow": "Analisis Teks",
+    "heading": "Penghitung Kata",
+    "subheading": "Tempel atau ketik teks apa pun dan dapatkan jumlah kata instan beserta karakter, kalimat, paragraf, waktu baca dan bicara, kata yang paling sering Anda gunakan — dan bilah target menulis yang terisi saat Anda bekerja.",
+    "intro": [
+      "Baik itu esai 500 kata, artikel 1.500 kata, atau pidato dua menit, menulis sesuai target berarti terus-menerus menghitung. Penghitung kata ini menghitung saat Anda mengetik — tanpa tombol yang perlu ditekan — dan menunjukkan jauh lebih banyak daripada totalnya: karakter dengan dan tanpa spasi, kalimat, paragraf, rata-rata panjang kalimat, dan kata terpanjang Anda.",
+      "Alat ini juga memperkirakan berapa lama teks dibaca (dengan kecepatan tipikal 200 kata per menit) dan diucapkan dengan lantang (sekitar 130 kata per menit), yang merupakan cara tercepat untuk memeriksa pidato, skrip video, atau presentasi. Panel kata yang paling sering digunakan juga berfungsi sebagai pemeriksaan kepadatan kata kunci cepat untuk penulisan SEO.",
+      "Tetapkan target menulis dan bilah kemajuan terisi secara langsung — bilah yang sama dibagikan dengan alat Analisis Teks kami, jadi target Anda mengikuti Anda. Semua berjalan secara pribadi di browser Anda; teks Anda tidak pernah diunggah."
+    ],
+    "howToTitle": "Cara menggunakan Penghitung Kata",
+    "howToSteps": [
+      {
+        "title": "Tempel atau ketik",
+        "detail": "Masukkan esai, artikel, pidato, atau postingan — penghitungan dimulai secara instan."
+      },
+      {
+        "title": "Baca penghitungnya",
+        "detail": "Kata, karakter, kalimat, paragraf, dan rata-rata diperbarui pada setiap ketukan tombol."
+      },
+      {
+        "title": "Periksa waktunya",
+        "detail": "Perkiraan waktu baca dan bicara memberi tahu Anda bagaimana teks akan diterima audiens."
+      },
+      {
+        "title": "Tetapkan target",
+        "detail": "Masukkan target jumlah kata dan saksikan bilah kemajuan terisi saat Anda menulis."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Jumlah kata yang benar-benar penting",
+        "paragraphs": [
+          "Target yang berbeda menghitung dengan cara berbeda. Tugas sekolah dan universitas biasanya menghitung setiap kata termasuk judul; platform sosial menghitung karakter (dan membobotinya secara berbeda); penerbit menghitung kata dalam teks isi. Penghitung ini menunjukkan kata dan kedua total karakter berdampingan agar Anda bisa mencocokkan batas apa pun yang diberikan kepada Anda.",
+          "Rata-rata panjang kalimat adalah metrik tersembunyi: di atas kira-kira 20–25 kata per kalimat, pembaca mulai kesulitan, berapa pun total jumlahnya. Jika rata-rata Anda tinggi, memecah kalimat panjang akan lebih membantu keterbacaan daripada memotong kata."
+        ]
+      },
+      {
+        "heading": "Waktu baca dan waktu bicara",
+        "paragraphs": [
+          "Orang dewasa membaca dalam hati sekitar 200–250 kata per menit, jadi artikel 1.000 kata kira-kira dibaca lima menit — angka yang ditampilkan blog untuk menetapkan harapan. Berbicara lebih lambat: presenter rata-rata 120–150 kata per menit, yang berarti skrip 650 kata adalah ceramah lima menit.",
+          "Gunakan perkiraan ini saat menyusun draf, bukan setelahnya. Mengetahui pidato Anda berjalan sembilan menit padahal slotnya lima menit jauh lebih mudah diperbaiki pada tahap mengetik daripada di atas panggung."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "A 500-word school essay",
+        "output": "≈ 2.5 min to read · ≈ 4 min to present",
+        "note": "Membaca pada 200 kpm, berbicara pada 130 kpm."
+      },
+      {
+        "input": "\"The quick brown fox\" pasted in",
+        "output": "4 words · 19 characters · 1 sentence",
+        "note": "Hitungan diperbarui secara instan saat Anda mengetik."
+      },
+      {
+        "input": "A blog draft with goal 1,500",
+        "output": "Progress bar fills to 100% with a 🎉 at target",
+        "note": "Target diingat di antara kunjungan."
+      }
+    ],
+    "tips": [
+      "Tulis dulu, potong kemudian — lewati target Anda sebesar 10% dalam draf, lalu potong agar pas.",
+      "Periksa panel kata yang paling sering digunakan: jika satu kata mendominasi, variasikan kosakata Anda atau periksa pengulangan yang tidak disengaja.",
+      "Untuk Twitter/X dan teks iklan, perhatikan jumlah karakter (tanpa spasi adalah angka yang lebih ketat).",
+      "Latih pidato berdasarkan perkiraan waktu bicara, lalu ukur satu kali pembacaan nyata — tempo Anda mungkin berbeda.",
+      "Target dibagikan dengan alat Analisis Teks, jadi tetapkan sekali dan berlaku di keduanya."
+    ],
+    "faqs": [
+      {
+        "question": "Bagaimana penghitung kata menghitung kata?",
+        "answer": "Kata adalah blok teks yang dipisahkan oleh spasi. Kata berimbuhan tanda hubung dihitung sebagai satu, dan angka dihitung sebagai kata — konvensi yang sama seperti kebanyakan pengolah kata."
+      },
+      {
+        "question": "Apa perbedaan antara karakter dan karakter tanpa spasi?",
+        "answer": "Yang pertama menghitung setiap ketukan termasuk spasi; yang kedua mengecualikan semua spasi. Platform dengan batas ketat (seperti SMS atau meta description) biasanya maksudnya jumlah karakter penuh."
+      },
+      {
+        "question": "Seberapa akurat waktu baca dan bicara?",
+        "answer": "Itu adalah perkiraan berdasarkan kecepatan rata-rata orang dewasa (membaca 200 kpm, berbicara 130 kpm). Audiens dan tempo Anda akan bervariasi, tetapi perkiraan ini dapat diandalkan untuk perencanaan."
+      },
+      {
+        "question": "Apakah teks saya diunggah atau disimpan?",
+        "answer": "Tidak. Penghitungan terjadi sepenuhnya di browser Anda; tidak ada yang dikirim ke server atau disimpan. Hanya angka target Anda yang diingat, secara lokal."
+      },
+      {
+        "question": "Apakah Penghitung Kata gratis?",
+        "answer": "Ya, gratis dan tanpa batas, tanpa perlu daftar."
+      }
+    ],
+    "searchIntent": "Pengguna ingin menghitung kata, karakter, kalimat, waktu baca, dan waktu bicara dalam teks secara instan untuk esai, artikel, pidato, atau postingan.",
+    "keywords": [
+      "penghitung kata",
+      "hitung kata online",
+      "penghitung karakter",
+      "waktu baca teks",
+      "jumlah kata esai"
+    ]
+  },
+  "word-maker": {
+    "name": "Pembuat Kata",
+    "metaTitle": "Pembuat Kata — Buat Kata dari Huruf | AllWordTools",
+    "metaDescription": "Pembuat kata dan generator kata dari huruf gratis: masukkan huruf apa pun dan dapatkan setiap kata yang bisa Anda buat darinya, dikelompokkan berdasarkan panjang dengan skor Scrabble. Termasuk kata di dalam kata.",
+    "eyebrow": "Pemecah Kata",
+    "heading": "Pembuat Kata",
+    "subheading": "Masukkan huruf apa pun dan generator kata ini membangun setiap kata yang bisa Anda buat darinya — termasuk kata-kata kecil yang tersembunyi di dalam kata besar — dikelompokkan berdasarkan panjang dengan skor Scrabble.",
+    "intro": [
+      "Pencarian seperti 'word generator from letters' dan 'word maker' termasuk kueri alat kata yang tumbuh paling cepat di web — karena tumpukan huruf acak muncul di mana-mana: rak Scrabble dan Words With Friends, teka-teki anagram, permainan menyusun kata di kelas, dan tantangan klasik menemukan kata di dalam kata.",
+      "Ketik huruf Anda dan Pembuat Kata membangun setiap kata bahasa Inggris valid yang dikandungnya, dari pengisi dua huruf hingga kata sepanjang penuh yang menggunakan semuanya (ditandai dengan bintang). Setiap kata membawa skor Scrabble-nya, hasil dikelompokkan berdasarkan panjang, dan ubin kosong dapat dimasukkan sebagai ? ketika huruf tidak diketahui.",
+      "Hasil berasal dari daftar kata ENABLE yang sama dengan unscrambler kami, dihitung secara instan di browser Anda. Salin kata apa pun dengan ketukan, simpan favorit dengan bintang, atau bagikan tautan yang menciptakan hasil yang persis sama untuk teman."
+    ],
+    "howToTitle": "Cara menggunakan Pembuat Kata",
+    "howToSteps": [
+      {
+        "title": "Masukkan huruf Anda",
+        "detail": "Ketik huruf yang Anda miliki — dua atau lebih. Gunakan ? untuk huruf kosong atau tidak diketahui."
+      },
+      {
+        "title": "Ketuk Buat kata",
+        "detail": "Setiap kata yang bisa dibangun dari huruf-huruf itu muncul, dikelompokkan berdasarkan panjang."
+      },
+      {
+        "title": "Temukan grup berbintang",
+        "detail": "Grup terpanjang menggunakan semua huruf Anda — biasanya langkah bernilai tertinggi."
+      },
+      {
+        "title": "Salin, simpan, atau bagikan",
+        "detail": "Ketuk kata untuk menyalinnya, bintangi untuk menyimpannya, atau bagikan tautan hasilnya."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Kata di dalam kata",
+        "paragraphs": [
+          "Output paling berguna dari pembuat kata seringkali yang terpendek: di dalam 'creation' tersembunyi 'create', 'action', 'ration', 'crate', 'react', dan puluhan lainnya. Game menghargai ini secara langsung — dalam Scrabble dan Words With Friends kata-kata kecil mencetak skor dengan stabil dan membuka papan, dan dalam permainan kelas anak yang menemukan kata terbanyak di dalam sebuah kata yang menang.",
+          "Hasil di sini dikelompokkan terpanjang terlebih dahulu karena alasan itu: pindai grup berbintang untuk langkah besar, lalu telusuri panjangnya ke bawah untuk langkah paralel dan pengait. Grup dua dan tiga huruf layak dihafal untuk permainan kata yang serius."
+        ]
+      },
+      {
+        "heading": "Pembuat Kata vs Pengacak Kata",
+        "paragraphs": [
+          "Kedua alat berbagi kamus tetapi menjawab pertanyaan berbeda. Unscrambler dimulai dari kata yang acak dan menemukan apa hasil uraiannya; Pembuat Kata dimulai dari segenggam huruf apa pun — rak game, teka-teki, kata panjang — dan menghasilkan semua yang bisa dibangun oleh huruf-huruf itu, termasuk kata parsial.",
+          "Jika Anda tahu semua huruf milik satu kata, unscrambler lebih cepat. Jika Anda menjelajahi apa yang bisa dilakukan sekumpulan huruf, Anda sedang membuat kata — dan ini alat yang tepat."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "triangle",
+        "output": "integral, relating, alerting… plus 100+ shorter words",
+        "note": "Kata sepanjang penuh diberi bintang."
+      },
+      {
+        "input": "master",
+        "output": "stream, tamers, maters… + all 2–5 letter words",
+        "note": "Rak anagram klasik, dijelajahi sepenuhnya."
+      },
+      {
+        "input": "qu?z",
+        "output": "quiz (blank becomes the missing letter)",
+        "note": "? berfungsi sebagai huruf apa pun."
+      }
+    ],
+    "tips": [
+      "Tambahkan blank ? ketika satu huruf tidak diketahui — hasil melebar secara dramatis.",
+      "Pelajari grup kata 2 huruf untuk rak Anda terlebih dahulu; mereka adalah perekat Scrabble tingkat tinggi.",
+      "Grup berbintang (semua huruf terpakai) mendapatkan bonus bingo 50 poin di Scrabble jika semua 7 ubin dimainkan.",
+      "Bagikan tautan hasil saat meminta bantuan teman untuk rak — mereka akan melihat kata yang persis sama.",
+      "Bintangi kata yang ingin Anda ingat; kata-kata itu terkumpul di Daftar Kata Saya pada alat kamus."
+    ],
+    "faqs": [
+      {
+        "question": "Apa itu pembuat kata?",
+        "answer": "Pembuat kata (atau generator kata dari huruf) mengambil sekumpulan huruf apa pun dan mencantumkan setiap kata bahasa Inggris yang bisa dibangun darinya, termasuk kata lebih pendek yang hanya menggunakan sebagian huruf."
+      },
+      {
+        "question": "Daftar kata apa yang digunakannya?",
+        "answer": "Daftar ENABLE (~168.000 kata), daftar yang sama di balik unscrambler dan pemecah anagram kami. Daftar turnamen resmi (NWL, CSW) sedikit berbeda."
+      },
+      {
+        "question": "Bisakah saya menggunakan ubin kosong?",
+        "answer": "Ya — ketik ? sebagai pengganti huruf yang tidak diketahui dan itu akan mewakili setiap kemungkinan."
+      },
+      {
+        "question": "Apa bedanya dengan Pengacak Kata?",
+        "answer": "Unscrambler menargetkan satu kata acak; Pembuat Kata menjelajahi semua yang bisa dibangun oleh sekumpulan huruf, termasuk kata yang hanya menggunakan sebagian huruf."
+      },
+      {
+        "question": "Apakah Pembuat Kata gratis?",
+        "answer": "Ya — gratis, instan, dan tanpa perlu daftar, berjalan sepenuhnya di browser Anda."
+      }
+    ],
+    "searchIntent": "Pengguna ingin membuat semua kata yang mungkin dari sekumpulan huruf untuk Scrabble, Words With Friends, anagram, dan permainan menyusun kata.",
+    "keywords": [
+      "pembuat kata dari huruf",
+      "generator kata dari huruf",
+      "buat kata dari huruf",
+      "kata dari huruf acak",
+      "pembuat kata scrabble"
+    ]
+  },
+  "case-converter": {
+    "name": "Pengubah Huruf",
+    "metaTitle": "Pengubah Huruf — HURUF BESAR, huruf kecil, Huruf Judul | AllWordTools",
+    "metaDescription": "Pengubah huruf gratis: ubah teks menjadi HURUF BESAR, huruf kecil, Huruf Judul, Huruf Kalimat, Huruf Besar Setiap Kata, aLtErNaTiNg, atau iNVERSE secara instan. Salin atau unduh hasilnya.",
+    "eyebrow": "Analisis Teks",
+    "heading": "Pengubah Huruf",
+    "subheading": "Tempel teks apa pun dan ubah di antara HURUF BESAR, huruf kecil, Huruf Judul, Huruf Kalimat, dan lainnya — secara instan, dengan salin dan unduh bawaan.",
+    "intro": [
+      "Kecelakaan Caps Lock, judul yang membutuhkan huruf judul, paragraf yang BERTERIAK DALAM HURUF BESAR yang perlu ditenangkan — mengetik ulang adalah perbaikan yang lambat. Pengubah huruf ini mengubah gaya seluruh teks Anda dalam satu klik: tujuh gaya huruf, diterapkan ke seluruh teks secara instan saat Anda beralih di antaranya.",
+      "Huruf Judul di sini mengikuti aturan judul asli, menjaga kata-kata kecil seperti 'the', 'and', dan 'of' tetap huruf kecil di tengah judul, sementara Huruf Besar Setiap Kata menaikkan setiap kata jika itu gaya yang Anda butuhkan. Huruf kalimat memperbaiki paragraf dengan benar, mengapitalisasi setelah titik serta di awal.",
+      "Gaya playful juga memiliki kegunaannya: huruf aLtErNaTiNg adalah font mengejek/sarkastik internet, dan iNVERSE menukar huruf besar-kecil setiap huruf, menyelamatkan teks yang diketik dengan Caps Lock tertahan. Salin hasilnya atau unduh sebagai file — tanpa daftar, tidak ada yang diunggah."
+    ],
+    "howToTitle": "Cara menggunakan Pengubah Huruf",
+    "howToSteps": [
+      {
+        "title": "Tempel teks Anda",
+        "detail": "Ketik atau tempel apa saja — judul, paragraf, seluruh dokumen."
+      },
+      {
+        "title": "Pilih huruf",
+        "detail": "Ketuk HURUF BESAR, huruf kecil, Huruf Judul, Huruf Kalimat, aLtErNaTiNg, atau iNVERSE."
+      },
+      {
+        "title": "Periksa pratinjau",
+        "detail": "Teks yang diubah muncul secara instan di bawah; beralih gaya untuk membandingkan."
+      },
+      {
+        "title": "Salin atau unduh",
+        "detail": "Salin hasil ke clipboard Anda atau simpan sebagai file .txt."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Huruf Judul vs Huruf Besar Setiap Kata",
+        "paragraphs": [
+          "Keduanya terlihat mirip tetapi mengikuti aturan berbeda. Huruf Judul (gaya AP/judul) menjaga konjungsi pendek, artikel, dan preposisi tetap huruf kecil kecuali mereka memulai judul: 'The Lord of the Rings'. Huruf Besar Setiap Kata menaikkan semuanya: 'The Lord Of The Rings' — umum di menu, tombol, dan beberapa gaya rumah.",
+          "Huruf kalimat adalah default modern untuk sebagian besar publikasi dan antarmuka: hanya kata pertama dan kata benda proper yang dikapitalisasi, persis seperti kalimat ini. Jika ragu untuk teks isi, huruf kalimat adalah pilihan paling aman dan paling mudah dibaca."
+        ]
+      },
+      {
+        "heading": "Kapan setiap gaya huruf pantas digunakan",
+        "paragraphs": [
+          "HURUF BESAR untuk label, peringatan, dan judul yang sangat singkat — seluruh paragraf dalam huruf besar terukur lebih sulit dibaca dan terbaca sebagai berteriak online. Huruf kecil semua telah menjadi gaya santai yang disengaja dalam pesan dan postingan sosial.",
+          "Huruf bergantian menandakan ironi atau ejekan dalam slang internet, dan huruf inverse adalah alat penyelamat: tempel teks yang diketik dengan Caps Lock menyala dan alat ini membalik setiap huruf kembali ke kewarasan tanpa mengetik ulang sepatah kata pun."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "the quick brown fox jumps",
+        "output": "The Quick Brown Fox Jumps (Title Case)",
+        "note": "Kata-kata kecil tetap huruf kecil di tengah judul."
+      },
+      {
+        "input": "HELLO. THIS IS FINE.",
+        "output": "Hello. This is fine. (Sentence case)",
+        "note": "Kecelakaan Caps Lock, diperbaiki."
+      },
+      {
+        "input": "sure, great idea",
+        "output": "sUrE, gReAt IdEa (aLtErNaTiNg)",
+        "note": "Font sarkasme internet."
+      }
+    ],
+    "tips": [
+      "Ubah sebelum Anda memformat: perubahan huruf menyakitkan untuk diulang setelah pemformatan tebal dan tata letak.",
+      "Perhatikan kata benda proper setelah konversi huruf kecil — nama akan membutuhkan huruf besarnya kembali.",
+      "Untuk judul, putuskan gaya rumah Anda (Judul vs Kalimat) sekali dan gunakan di mana saja.",
+      "Unduh .txt saat mengubah dokumen panjang agar Anda menyimpan salinan yang bersih.",
+      "aLtErNaTiNg memulai kembali polanya pada huruf pertama — tempel frasa persis yang akan Anda posting."
+    ],
+    "faqs": [
+      {
+        "question": "Huruf apa saja yang bisa saya ubah?",
+        "answer": "HURUF BESAR, huruf kecil, Huruf Judul, Huruf Kalimat, Huruf Besar Setiap Kata, aLtErNaTiNg (bergantian), dan iNVERSE (tertukar)."
+      },
+      {
+        "question": "Apakah Huruf Judul mengikuti aturan judul?",
+        "answer": "Ya — artikel, konjungsi pendek, dan preposisi (the, and, of, in…) tetap huruf kecil di tengah judul, sesuai gaya editorial standar."
+      },
+      {
+        "question": "Apakah ada batas panjang teks?",
+        "answer": "Konverter menangani hingga 20.000 karakter sekaligus — jauh lebih banyak dari yang dibutuhkan sebagian besar dokumen. Bagi buku yang sangat panjang menjadi bab."
+      },
+      {
+        "question": "Apakah teks saya diunggah ke mana saja?",
+        "answer": "Tidak. Konversi terjadi sepenuhnya di browser Anda."
+      },
+      {
+        "question": "Apakah Pengubah Huruf gratis?",
+        "answer": "Ya, gratis dan tanpa batas tanpa perlu daftar."
+      }
+    ],
+    "searchIntent": "Pengguna ingin mengubah teks menjadi huruf besar, huruf kecil, huruf judul, huruf kalimat, atau gaya huruf lain secara instan tanpa mengetik ulang.",
+    "keywords": [
+      "pengubah huruf",
+      "konverter huruf besar kecil",
+      "ubah teks jadi huruf besar",
+      "title case online",
+      "pengubah kapital"
+    ]
+  },
+  "phonetic-alphabet-converter": {
+    "name": "Konverter Alfabet Fonetik",
+    "metaTitle": "Konverter Alfabet Fonetik — Alfabet Eja NATO | AllWordTools",
+    "metaDescription": "Konverter alfabet fonetik gratis: eja nama, kata, atau kode apa pun dengan alfabet fonetik NATO (Alfa, Bravo, Charlie) dan dekode kata NATO kembali. Dengan pemutaran audio.",
+    "eyebrow": "Alat Huruf",
+    "heading": "Konverter Alfabet Fonetik",
+    "subheading": "Eja nama, tanda panggilan, atau kode apa pun seperti yang dilakukan pilot dan pusat panggilan — Alfa, Bravo, Charlie — dengan alfabet fonetik NATO resmi, plus dekoder yang mengubah kata NATO kembali menjadi huruf.",
+    "intro": [
+      "Pencarian seperti 'phonetic spelling converter' mendarat di sini karena satu alasan: mengeja nama melalui saluran telepon yang berderak adalah tempat 'B' dan 'D' menyebabkan masalah. Alfabet fonetik NATO memperbaikinya dengan memberi setiap huruf kata yang berbeda dan tidak salah lagi — Alfa untuk A, Bravo untuk B, Charlie untuk C — digunakan oleh pilot, militer, layanan darurat, dan meja dukungan di seluruh dunia.",
+      "Ketik kata, nama, atau kode apa pun dan konverter ini mengejanya secara instan, huruf demi huruf, dengan salin satu ketukan dan tombol 'Dengarkan' yang membacakan ejaannya dengan lantang. Balik ke mode Dekode untuk mengubah rangkaian kata NATO kembali menjadi huruf asli.",
+      "Bagan alfabet lengkap berada di bawah alat untuk referensi cepat — layak dihafal jika pekerjaan Anda melibatkan mengeja nama dalam panggilan."
+    ],
+    "howToTitle": "Cara menggunakan Konverter Alfabet Fonetik",
+    "howToSteps": [
+      {
+        "title": "Masukkan kata atau kode",
+        "detail": "Nama, kode pos, referensi pemesanan — apa pun yang perlu Anda eja dengan jelas."
+      },
+      {
+        "title": "Baca ejaannya",
+        "detail": "Setiap huruf menjadi kata NATO-nya: S-M-I-T-H menjadi Sierra Mike India Tango Hotel."
+      },
+      {
+        "title": "Salin atau dengarkan",
+        "detail": "Salin ejaan untuk ditempel ke catatan, atau ketuk Dengarkan untuk mendengarkan sebelum panggilan Anda."
+      },
+      {
+        "title": "Atau dekode",
+        "detail": "Ganti mode dan tempel kata NATO untuk memulihkan huruf aslinya."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Mengapa kata NATO mengalahkan 'B for Banana'",
+        "paragraphs": [
+          "Ejaan improvisasi gagal karena kata bantunya sama membingungkannya dengan hurufnya — 'M for Mandy' dan 'N for Nancy' terdengar hampir identik di saluran yang buruk. Set NATO direkayasa dan diuji agar tidak ada dua kata yang terdengar mirip, dalam beberapa bahasa, bahkan melalui statis dan aksen.",
+          "Itulah juga mengapa ejaannya disengaja: itu 'Alfa' (bukan Alpha) dan 'Juliett' dengan T ganda, dipilih agar penutur asli bahasa Prancis dan Spanyol mengucapkannya dengan benar. Menggunakan bentuk resmi menandai Anda sebagai seseorang yang mengeja untuk mencari nafkah."
+        ]
+      },
+      {
+        "heading": "Kapan mengeja secara fonetik",
+        "paragraphs": [
+          "Gunakan alfabet fonetik kapan pun akurasi mengalahkan kecepatan: nama dan alamat email dalam panggilan dukungan, referensi pemesanan dan kode pos, registrasi kendaraan, nomor seri produk, dan komunikasi radio apa pun.",
+          "Baca kata kode dalam ritme yang stabil, satu kata per huruf, dan jeda di antara grup (konverter menjaga spasi asli). Jika pihak lain membacakannya kembali, dengarkan kata-kata mereka — bukan hurufnya — untuk menangkap kesalahan."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "Smith",
+        "output": "Sierra Mike India Tango Hotel",
+        "note": "Nama keluarga dieja untuk panggilan telepon."
+      },
+      {
+        "input": "BA249",
+        "output": "Bravo Alfa Two Four Nine",
+        "note": "Angka juga mendapatkan kata bergaya NATO."
+      },
+      {
+        "input": "Decode: Hotel Echo Lima Lima Oscar",
+        "output": "HELLO",
+        "note": "Dekoder mengubah kata kode kembali menjadi huruf."
+      }
+    ],
+    "tips": [
+      "Eja hanya bagian yang rumit — biasanya nama keluarga atau kodenya — bukan seluruh kalimat.",
+      "Ucapkan nama Anda sendiri secara fonetik saat memesan melalui telepon; itu mencegah sebagian besar kesalahan eja.",
+      "Ketuk Dengarkan sekali sebelum panggilan penting untuk mendapatkan ritme yang benar.",
+      "Simpan bagan ini: A–Z hanya 26 kata dan sebagian besar orang mempelajarinya dalam seminggu panggilan.",
+      "Dalam mode Dekode, pisahkan kata dengan spasi; kata yang tidak diketahui tampil sebagai '?' agar Anda bisa menemukan kesalahan ketik."
+    ],
+    "faqs": [
+      {
+        "question": "Apa itu alfabet fonetik NATO?",
+        "answer": "Alfabet eja radiotelepon internasional: 26 kata kode (Alfa hingga Zulu) yang ditetapkan untuk huruf, distandarisasi oleh NATO dan ICAO dan digunakan dalam penerbangan, militer, dan komunikasi darurat."
+      },
+      {
+        "question": "Mengapa ejaannya 'Alfa' dan 'Juliett' seperti itu?",
+        "answer": "Ejaan dipilih agar penutur banyak bahasa mengucapkan kata-katanya dengan jelas — 'Alfa' menghindari masalah 'ph' dan 'Juliett' menjaga T terakhir terdengar dalam bahasa Prancis."
+      },
+      {
+        "question": "Apakah konverter menangani angka?",
+        "answer": "Ya — angka dieja sebagai kata bahasa Inggrisnya (One, Two, Three…), persis seperti yang digunakan di radio dan panggilan."
+      },
+      {
+        "question": "Bisakah saya mendekode kata NATO kembali menjadi huruf?",
+        "answer": "Ya. Ganti ke mode Dekode dan tempel kata kode yang dipisahkan spasi untuk mendapatkan teks asli kembali."
+      },
+      {
+        "question": "Apakah Konverter Alfabet Fonetik gratis?",
+        "answer": "Ya — gratis, instan, tanpa perlu daftar, dan berjalan di browser Anda."
+      }
+    ],
+    "searchIntent": "Pengguna ingin mengeja nama, kata, atau kode dengan alfabet fonetik NATO dan mendekode kata NATO kembali menjadi huruf.",
+    "keywords": [
+      "konverter alfabet fonetik",
+      "alfabet fonetik nato",
+      "eja fonetik online",
+      "alfa bravo charlie",
+      "konverter ejaan fonetik"
+    ]
+  },
+  "spelling-bee-solver": {
+    "name": "Pemecah Spelling Bee",
+    "metaTitle": "Pemecah Spelling Bee — Pangram & Skor Maksimum | AllWordTools",
+    "metaDescription": "Pemecah NYT Spelling Bee gratis: masukkan 7 huruf hari ini (huruf tengah terlebih dahulu) untuk menemukan setiap kata valid, semua pangram, dan skor maksimum yang mungkin. Genius, terbuka.",
+    "eyebrow": "Pemecah Game Teka-Teki",
+    "heading": "Pemecah Spelling Bee",
+    "subheading": "Masukkan tujuh huruf hari ini — huruf tengah terlebih dahulu — dan dapatkan setiap kata Spelling Bee yang valid, pangram, poin per kata, dan skor maksimum untuk sarang hari ini.",
+    "intro": [
+      "New York Times Spelling Bee memberi Anda tujuh huruf dalam sarang dan satu aturan yang membentuk segalanya: setiap kata harus menyertakan huruf tengah. Minat pada jawaban dan petunjuk Spelling Bee naik dengan cepat (naik sekitar 300% dalam data tren terbaru), dan pemecah ini melakukan pekerjaan berat — masukkan hurufnya, tengah terlebih dahulu, dan lihat setiap kata yang bisa dibuat sarang itu.",
+      "Kata harus setidaknya empat huruf dan dapat menggunakan kembali huruf dengan bebas, itulah sebabnya pemecah ini mencari di seluruh kamus daripada anagram sederhana. Pangram — kata yang menggunakan ketujuh huruf — disorot dengan bonusnya, dan setiap kata menunjukkan skor gamenya: 1 poin untuk empat huruf, panjang kata untuk kata yang lebih panjang, plus 7 untuk pangram.",
+      "Gunakan untuk membuka jalan buntu menuju Genius, untuk memverifikasi kata yang ditolak game, atau untuk mengintip pangram sebelum Anda mulai. Huruf hari ini tetap ada dalam riwayat Anda, jadi sarang kemarin hanya sejauh satu ketukan."
+    ],
+    "howToTitle": "Cara menggunakan Pemecah Spelling Bee",
+    "howToSteps": [
+      {
+        "title": "Ketik huruf tengah terlebih dahulu",
+        "detail": "Kotak berwarna madu adalah huruf tengah — setiap jawaban harus mengandungnya."
+      },
+      {
+        "title": "Tambahkan enam huruf luar",
+        "detail": "Isi kotak yang tersisa dengan sisa sarang hari ini, dalam urutan apa pun."
+      },
+      {
+        "title": "Ketuk Pecahkan Bee",
+        "detail": "Setiap kata valid muncul dengan poinnya, pencetak tertinggi terlebih dahulu."
+      },
+      {
+        "title": "Periksa banner pangram",
+        "detail": "Pangram berada di atas — masing-masing bernilai panjangnya plus 7 poin bonus."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Cara kerja penilaian Spelling Bee",
+        "paragraphs": [
+          "Kata empat huruf mencetak tepat 1 poin; kata lima huruf atau lebih mencetak panjangnya. Pangram — kata yang menggunakan ketujuh huruf setidaknya sekali — menambahkan bonus 7 poin di atasnya, itulah sebabnya menemukannya adalah lompatan tunggal terbesar menuju Genius dan Queen Bee.",
+          "Peringkat berjalan dari Beginner melalui Good, Moving Up, Nice, Solid, Great, dan Amazing hingga Genius (70% dari maksimum) dan Queen Bee (setiap kata). Pemecah ini menunjukkan skor maksimum sebenarnya untuk sarang hari ini, jadi Anda selalu tahu persis seberapa jauh Genius sebenarnya."
+        ]
+      },
+      {
+        "heading": "Catatan tentang daftar kata",
+        "paragraphs": [
+          "Pemecah ini mencari kamus ENABLE; New York Times mengkurasi daftar jawabannya sendiri dan menolak beberapa kata yang benar-benar nyata (cenderung umum dan tidak menyinggung, dan terkenal pilih-pilih tentang jamak dan istilah yang jarang).",
+          "Perlakukan daftar ini sebagai superset: hampir setiap jawaban Bee ada di sini, tetapi kata langka yang ditemukan pemecah mungkin tidak diterima oleh game. Jika jawaban resmi sarang terasa singkat hari ini, kurasi itu — bukan ejaan Anda — biasanya penyebabnya."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "Centre R + letters A, C, E, I, N, T",
+        "output": "Pangram: 'certain' — 7 letters + 7 bonus = 14 points",
+        "note": "Pangram menggunakan setiap huruf setidaknya sekali."
+      },
+      {
+        "input": "Any 7-letter hive",
+        "output": "Words grouped by score, max total shown",
+        "note": "Genius adalah 70% dari skor maksimum."
+      },
+      {
+        "input": "Centre letter + repeated-letter words",
+        "output": "'banana'-style words count: letters may repeat",
+        "note": "Tidak seperti pemecah anagram, penggunaan ulang diperbolehkan."
+      }
+    ],
+    "tips": [
+      "Burulah pangram terlebih dahulu — bonusnya membentuk kembali seluruh skor hari itu.",
+      "Awalan dan akhiran melipatgandakan kata: periksa bentuk -ing, -ed, dan un- dari semua yang Anda temukan.",
+      "Kata dapat menggunakan kembali huruf, jadi pengganda huruf seperti pola 'tattletale' adalah sah.",
+      "Jika Anda kurang satu kata dari Queen Bee, urutkan berdasarkan urutan skor daftar ini dan bandingkan panjang kata dengan grid game.",
+      "Sarang kemarin tetap ada di chip Terbaru — berguna jika Anda bermain sehari di belakang."
+    ],
+    "faqs": [
+      {
+        "question": "Bagaimana cara memasukkan hurufnya?",
+        "answer": "Letakkan huruf tengah (kuning) di kotak pertama berwarna madu, lalu enam huruf lainnya dalam urutan apa pun, dan ketuk Pecahkan Bee."
+      },
+      {
+        "question": "Apa itu pangram dalam Spelling Bee?",
+        "answer": "Kata yang menggunakan ketujuh huruf setidaknya sekali. Itu mencetak panjangnya plus bonus 7 poin, dan setiap sarang memiliki setidaknya satu."
+      },
+      {
+        "question": "Mengapa game menolak kata yang ditemukan pemecah?",
+        "answer": "NYT menggunakan daftar jawaban yang dikurasi dan mengecualikan beberapa kata kamus yang valid. Daftar ENABLE pemecah lebih luas, jadi perlakukan hasilnya sebagai superset dari jawaban resmi."
+      },
+      {
+        "question": "Bisakah huruf digunakan lebih dari sekali?",
+        "answer": "Ya — tidak seperti game anagram, kata Spelling Bee dapat menggunakan kembali huruf sesering yang dibutuhkan, selama setiap huruf yang digunakan adalah salah satu dari tujuh dan huruf tengah muncul."
+      },
+      {
+        "question": "Apakah Pemecah Spelling Bee gratis?",
+        "answer": "Ya — gratis, instan, dan tanpa perlu daftar."
+      }
+    ],
+    "searchIntent": "Pengguna ingin menemukan semua kata valid, pangram, dan skor maksimum untuk teka-teki Spelling Bee hari ini dari tujuh hurufnya.",
+    "keywords": [
+      "pemecah spelling bee",
+      "jawaban spelling bee hari ini",
+      "pencari pangram spelling bee",
+      "petunjuk spelling bee",
+      "spelling bee solver indonesia"
+    ]
   }
 }

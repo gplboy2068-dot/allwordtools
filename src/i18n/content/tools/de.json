@@ -9975,5 +9975,726 @@
       "ai-flashcards",
       "AI Flashcards"
     ]
+  },
+  "username-generator": {
+    "name": "Benutzername-Generator",
+    "metaTitle": "Benutzername-Generator — Ästhetische & Gaming-Benutzernamen | AllWordTools",
+    "metaDescription": "Kostenloser Benutzername-Generator für Instagram, TikTok, Roblox, Discord und Gaming. Gib ein Schlüsselwort ein und erhalte sofort ästhetische, coole und Gaming-Benutzernamen-Ideen. Keine Anmeldung.",
+    "eyebrow": "Namensgeneratoren",
+    "heading": "Benutzername-Generator",
+    "subheading": "Gib einen Namen oder ein Schlüsselwort ein und erhalte Dutzende ästhetischer, Gaming-, cooler und professioneller Benutzernamen-Ideen für Instagram, TikTok, Roblox, Discord und YouTube — sofort, denn die Suchanfragen nach Instagram-Benutzernamen sind dieses Jahr um über 1.500 % gestiegen.",
+    "intro": [
+      "Jedes Konto beginnt mit einem Benutzernamen — und die guten sind immer schon vergeben. Dieser Benutzername-Generator verwandelt ein oder zwei Schlüsselwörter — deinen Namen, einen Spitznamen, ein Lieblingswort — in Dutzende frischer Kombinationen aus Stilen, Trennzeichen, Dekorationen und Zahlen, damit du einen Handle findest, der nach dir klingt und trotzdem eine Chance hat, noch verfügbar zu sein.",
+      "Wähle zuerst eine Stimmung: Ästhetische Benutzernamen sind weich und minimalistisch für Instagram und TikTok, Gaming-Benutzernamen fügen Leet-Speak und Kante für Roblox, Discord und Twitch hinzu, coole Benutzernamen bleiben kurz und selbstbewusst, und professionelle Benutzernamen halten es sauber für Arbeits- und Business-Profile. Tippe auf eine Idee, um sie zu kopieren.",
+      "Der Generator läuft vollständig in deinem Browser. Er prüft keine Verfügbarkeit (das kann nur die jeweilige Plattform), aber das Generieren in Stapeln macht es schnell, fünf oder sechs Favoriten in die engere Wahl zu nehmen und sie dort zu testen, wo es zählt."
+    ],
+    "howToTitle": "So verwendest du den Benutzername-Generator",
+    "howToSteps": [
+      {
+        "title": "Schlüsselwort eingeben",
+        "detail": "Beginne mit deinem Namen, einem Spitznamen oder einem Wort, das du liebst. Füge ein zweites Schlüsselwort hinzu, um zu mischen und zu kombinieren."
+      },
+      {
+        "title": "Stil auswählen",
+        "detail": "Ästhetisch, Gaming, cool oder professionell — jeder Stil nutzt seine eigenen Dekorationen und Muster."
+      },
+      {
+        "title": "Zahlen umschalten",
+        "detail": "Zahlen machen einen vergebenen Namen wieder verfügbar; schalte sie für einen saubereren Look aus."
+      },
+      {
+        "title": "Kopieren und prüfen",
+        "detail": "Tippe auf einen Benutzernamen, um ihn zu kopieren, und prüfe dann die Verfügbarkeit auf deiner Plattform. Klicke auf „Frische Ideen“ für einen neuen Stapel."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Was einen Benutzernamen unvergesslich macht",
+        "paragraphs": [
+          "Die Benutzernamen, an die man sich erinnert, sind kurz, aussprechbar und leicht aus dem Gedächtnis zu tippen. Ziele auf etwas ab, das ein Freund nach einmaligem Hören buchstabieren könnte, vermeide lange Zahlenfolgen und halte dich an einen Trennzeichen-Stil — ein einzelner Punkt oder Unterstrich liest sich weit besser als ein Symbol-Mix.",
+          "Konsistenz ist der versteckte Preis: Derselbe Handle auf Instagram, TikTok, YouTube und Discord macht dich überall auffindbar und wirkt professionell auf einem Profil oder einer Visitenkarte. Generiere hier einen Stapel und prüfe dann deinen Favoriten auf allen deinen Plattformen, bevor du dich festlegst."
+        ]
+      },
+      {
+        "heading": "Ästhetisch, Gaming oder professionell?",
+        "paragraphs": [
+          "Ästhetische Benutzernamen setzen auf weiche Wörter (moon, aura, bloom), sanfte Trennzeichen und konsequente Kleinschreibung — der Look, der gerade Instagram und Pinterest dominiert. Gaming-Benutzernamen gehen den umgekehrten Weg: schärfere Wörter, xX-Rahmen, Leet-Ersetzungen (a→4, e→3, o→0) und kurze, knackige Kerne, die sich auf einer Kill-Feed gut lesen.",
+          "Professionelle Benutzernamen verzichten fast vollständig auf Dekoration: der echte Name plus eine Rolle, ein Studio oder ein 'official'-Marker. Wenn du eine persönliche Marke aufbaust, generiere im coolen oder professionellen Stil und halte die Zahl kurz oder lasse sie ganz weg."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "luna",
+        "output": "@soft.luna · @itsluna_ · @lunabloom",
+        "note": "Ästhetischer Stil aus einem einzigen Schlüsselwort."
+      },
+      {
+        "input": "pixel + gaming style",
+        "output": "@xXp1xelXx · @pixelstorm99 · @itzpixel",
+        "note": "Gaming-Stil fügt Leet-Speak und Rahmen hinzu."
+      },
+      {
+        "input": "aarav + sharma (professional)",
+        "output": "@aaravsharma · @theaaravsharma · @aaravsharma.co",
+        "note": "Professioneller Stil hält es sauber."
+      }
+    ],
+    "tips": [
+      "Generiere in Stapeln und nimm 5–6 Namen in die engere Wahl, bevor du irgendwo die Verfügbarkeit prüfst.",
+      "Sprich den Benutzernamen laut aus — wenn er schwer auszusprechen ist, ist er schwer zu teilen.",
+      "Ein Trennzeichen-Stil (nur Punkte oder nur Unterstriche) wirkt sauberer, als beides zu mischen.",
+      "Vermeide Geburtsdaten und persönliche Details in öffentlichen Benutzernamen.",
+      "Prüfe denselben Handle auf jeder Plattform, die du nutzt — auch auf solchen, denen du vielleicht später beitrittst."
+    ],
+    "faqs": [
+      {
+        "question": "Prüft der Generator, ob ein Benutzername verfügbar ist?",
+        "answer": "Nein — die Verfügbarkeit liegt bei jeder Plattform selbst, also prüfe deine Auswahl auf Instagram, TikTok oder im Spiel selbst. Viele Optionen vorab zu generieren macht das schnell."
+      },
+      {
+        "question": "Was ist ein ästhetischer Benutzername?",
+        "answer": "Ein weicher, minimalistischer Handle aus sanften Wörtern, Kleinbuchstaben und leichten Trennzeichen, beliebt auf Instagram und TikTok — zum Beispiel @soft.luna oder @peachyaura."
+      },
+      {
+        "question": "Wie erstelle ich einen Gaming-Benutzernamen?",
+        "answer": "Wähle den Gaming-Stil: Er fügt schärferes Vokabular, optionalen Leet-Speak (Buchstaben gegen Zahlen getauscht) und xX-Rahmen hinzu, wie sie auf Roblox, Discord und Twitch verwendet werden."
+      },
+      {
+        "question": "Kann ich zwei Schlüsselwörter verwenden?",
+        "answer": "Ja. Gib ein zweites Schlüsselwort ein, und der Generator kombiniert beide in unterschiedlichen Reihenfolgen und Mustern."
+      },
+      {
+        "question": "Ist der Benutzername-Generator kostenlos?",
+        "answer": "Ja, völlig kostenlos und ohne Anmeldung, und er läuft in deinem Browser — deine Schlüsselwörter verlassen dein Gerät nie."
+      }
+    ],
+    "searchIntent": "Nutzer suchen einen Generator, der aus einem Schlüsselwort ästhetische, coole oder Gaming-Benutzernamen-Ideen für soziale Netzwerke und Spiele erstellt.",
+    "keywords": [
+      "Benutzername Generator",
+      "Instagram Benutzername Ideen",
+      "ästhetische Benutzernamen",
+      "Gaming Benutzername erstellen",
+      "coole Benutzernamen",
+      "Benutzernamen Generator"
+    ]
+  },
+  "fancy-text-generator": {
+    "name": "Stilvoller Text-Generator",
+    "metaTitle": "Stilvoller Text-Generator — Stylische Schriften zum Kopieren & Einfügen | AllWordTools",
+    "metaDescription": "Kostenloser Generator für stilvollen Text: Verwandle deine Wörter in fette, Skript-, Kursiv-, Blasen-, Mini-, Quadrat- und Vaporwave-Schriften zum Kopieren und Einfügen in Instagram-Bios, Discord, WhatsApp und Spiele.",
+    "eyebrow": "Textanalyse",
+    "heading": "Stilvoller Text-Generator",
+    "subheading": "Tippe einmal und erhalte deinen Text in 16 stilvollen Unicode-Schriften — fett, Skript, Kursiv, Gotik, Blasen, winzig, quadratisch, Vaporwave, durchgestrichen und auf dem Kopf — bereit zum Kopieren und Einfügen überall.",
+    "intro": [
+      "Stilvoller Text macht aus einem schlichten Namen oder einer Bio ein Style-Statement. Dieser Generator gestaltet alles, was du tippst, gleichzeitig in 16 verschiedene Unicode-Schriften um: elegantes Skript für eine Instagram-Bio, gotische Fraktur für ein Gaming-Profil, Blasenbuchstaben für einen lustigen Post, winzige Hochstellung für eine dezente Bildunterschrift oder Full-Width-Vaporwave für pure Retro-Energie.",
+      "Das sind keine Bilder und keine Schriften, die du installieren musst — es sind echte Unicode-Zeichen, weshalb sie direkt in Instagram, TikTok, Discord, WhatsApp, YouTube-Kommentare und Spieleprofile eingefügt werden können und ihren Stil behalten. Tippe auf einen Stil, um ihn zu kopieren.",
+      "Alles passiert in deinem Browser, während du tippst, sodass du frei experimentieren kannst. Probiere zuerst deinen Namen aus: Kurzer Text bringt die dekorativen Stile am besten zur Geltung."
+    ],
+    "howToTitle": "So verwendest du den Stilvollen Text-Generator",
+    "howToSteps": [
+      {
+        "title": "Text eingeben",
+        "detail": "Gib einen Namen, eine Bio-Zeile oder eine kurze Phrase ein — alle 16 Stile aktualisieren sich live, während du tippst."
+      },
+      {
+        "title": "Stile vergleichen",
+        "detail": "Scrolle durch Fett, Skript, Blasen, winzig, quadratisch, Vaporwave, auf dem Kopf und mehr."
+      },
+      {
+        "title": "Zum Kopieren tippen",
+        "detail": "Klicke auf den Stil, der dir gefällt, und er wird in deine Zwischenablage kopiert."
+      },
+      {
+        "title": "Überall einfügen",
+        "detail": "Füge ihn in deine Bio, deinen Benutzernamen, Post oder Status ein — der Stil reist mit den Zeichen mit."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Wie stilvoller Text tatsächlich funktioniert",
+        "paragraphs": [
+          "Unicode enthält ganze Alphabete gestylter Buchstaben — mathematisch fett, Skript, Fraktur, doppelt gestrichen, eingekreist und Full-Width-Zeichen — ursprünglich für Mathematik und Verlagswesen geschaffen. Social Apps stellen sie als gewöhnlichen Text dar, sodass ein 'Schriftgenerator' in Wirklichkeit ein Zeichen-Mapper ist: Er tauscht jeden normalen Buchstaben gegen seinen gestylten Unicode-Zwilling.",
+          "Dieser Trick hat zwei wissenswerte Konsequenzen. Erstens funktioniert stilvoller Text fast überall, auch dort, wo Formatierung verboten ist. Zweitens lesen Screenreader und Suchmaschinen die Zeichen möglicherweise als Symbole statt als Buchstaben — behalte das Styling also für Namen, Bios und Dekoration, nicht für wichtige Informationen wie Kontaktdaten."
+        ]
+      },
+      {
+        "heading": "Den richtigen Stil wählen",
+        "paragraphs": [
+          "Skript und fettes Skript wirken hochwertig und feminin — der klassische Instagram-Bio-Look. Fraktur (Gotik) und Double-Struck passen zu Gaming-Tags und Musikprofilen. Blasen- und Quadratbuchstaben sind verspielt und fallen in Kommentaren auf, während winziger hochgestellter Text der stille Flex in Bildunterschriften und Discord-Status ist.",
+          "Durchgestrichene, unterstrichene und schräg gestrichene Stile sind ebenso funktional wie dekorativ: Nutze sie, um Änderungen zu zeigen, erledigte Ziele in einem Post durchzustreichen oder in einem reinen Text-Chat Betonung zu setzen. Vaporwave-Full-Width-Text ist pure Ästhetik — kombiniere ihn mit kurzen Phrasen für maximale Wirkung."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "dreamer",
+        "output": "𝒹𝓇ℯ𝒶𝓂ℯ𝓇 (Script)",
+        "note": "Weiches Skript für Bios und Bildunterschriften."
+      },
+      {
+        "input": "shadow",
+        "output": "𝔰𝔥𝔞𝔡𝔬𝔴 (Fraktur)",
+        "note": "Gotische Buchstaben für Gaming-Profile."
+      },
+      {
+        "input": "good vibes",
+        "output": "ⓖⓞⓞⓓ ⓥⓘⓑⓔⓢ (Bubble)",
+        "note": "Blasenbuchstaben für lustige Posts."
+      }
+    ],
+    "tips": [
+      "Kurzer Text zeigt fancy Stile am besten — ein Name oder ein paar Wörter, keine ganzen Absätze.",
+      "Schaue dir die Vorschau in der echten App an: Einige sehr alte Geräte zeigen bei seltenen Stilen wie Quadratbuchstaben eventuell Kästchen.",
+      "Nutze stilvollen Text nicht für Passwörter oder irgendetwas, das exakt zurückgetippt werden muss.",
+      "Halte deine E-Mail-Adresse und Telefonnummer in normalem Text, damit jeder (und jeder Screenreader) sie nutzen kann.",
+      "Kombiniere eine gestylte Zeile mit normalen Zeilen in einer Bio — der Kontrast lässt die gestylte Zeile hervorspringen."
+    ],
+    "faqs": [
+      {
+        "question": "Ist stilvoller Text eine Schrift, die ich installieren muss?",
+        "answer": "Nein. Die Stile sind Unicode-Zeichen, keine Schriften, also lassen sie sich unverändert in Apps kopieren und einfügen, ohne etwas zu installieren."
+      },
+      {
+        "question": "Wo kann ich stilvollen Text einfügen?",
+        "answer": "Instagram, TikTok, Discord, WhatsApp, Telegram, YouTube, X und die meisten Spieleprofile akzeptieren ihn, weil er auf Zeichenebene gewöhnlicher Text ist."
+      },
+      {
+        "question": "Warum zeigen manche Stile auf meinem Handy Kästchen?",
+        "answer": "Einigen Geräten fehlen die Glyphen für die seltensten Alphabete (wie Quadratbuchstaben). Fett-, Skript- und Blasenstile haben die breiteste Unterstützung."
+      },
+      {
+        "question": "Kann ich stilvollen Text in meinem Benutzernamen verwenden?",
+        "answer": "Oft ja bei Anzeigenamen. Manche Plattformen beschränken echte Login-Benutzernamen auf schlichte Buchstaben — nutze in dem Fall die gestylte Version für deinen Anzeigenamen oder deine Bio."
+      },
+      {
+        "question": "Ist der Stilvolle Text-Generator kostenlos?",
+        "answer": "Ja — kostenlos, unbegrenzt und ohne Anmeldung. Dein Text verlässt deinen Browser nie."
+      }
+    ],
+    "searchIntent": "Nutzer suchen eine Möglichkeit, Text in stilvolle Unicode-Schriften umzuwandeln und in Bios, Benutzernamen und Posts zu kopieren.",
+    "keywords": [
+      "Text Generator stilvoll",
+      "fancy Text kopieren",
+      "Schriften für Instagram Bio",
+      "coole Schriften kopieren einfügen",
+      "Text in Blasenschrift",
+      "Stylische Buchstaben Generator"
+    ]
+  },
+  "word-counter": {
+    "name": "Wortzähler",
+    "metaTitle": "Wortzähler — Wörter, Zeichen & Lesezeit zählen | AllWordTools",
+    "metaDescription": "Kostenloser Online-Wortzähler: Zähle Wörter, Zeichen, Sätze und Absätze sofort beim Tippen, plus Lesezeit, Sprechzeit, Keyword-Dichte und ein Schreibziel-Tracker.",
+    "eyebrow": "Textanalyse",
+    "heading": "Wortzähler",
+    "subheading": "Füge einen beliebigen Text ein oder tippe ihn und erhalte sofort eine Wortzählung mit Zeichen, Sätzen, Absätzen, Lese- und Sprechzeit, deinen meistgenutzten Wörtern — und einem Schreibziel-Balken, der sich füllt, während du arbeitest.",
+    "intro": [
+      "Ob ein Aufsatz mit 500 Wörtern, ein Artikel mit 1.500 Wörtern oder eine zweiminütige Rede — Schreiben auf ein Ziel hin bedeutet ständiges Zählen. Dieser Wortzähler zählt, während du tippst — kein Button nötig — und zeigt weit mehr als die Gesamtzahl: Zeichen mit und ohne Leerzeichen, Sätze, Absätze, durchschnittliche Satzlänge und dein längstes Wort.",
+      "Er schätzt auch, wie lange das Lesen des Textes dauert (bei typischen 200 Wörtern pro Minute) und wie lange das laute Aussprechen (etwa 130 Wörter pro Minute) — der schnellste Weg, eine Rede, ein Videoskript oder eine Präsentation zu überprüfen. Das Panel der meistgenutzten Wörter dient zugleich als schnelle Keyword-Dichte-Prüfung für SEO-Texte.",
+      "Setze ein Schreibziel, und der Fortschrittsbalken füllt sich live — derselbe Balken wird mit unserem Textanalyse-Tool geteilt, sodass dein Ziel dir folgt. Alles läuft privat in deinem Browser; dein Text wird nie hochgeladen."
+    ],
+    "howToTitle": "So verwendest du den Wortzähler",
+    "howToSteps": [
+      {
+        "title": "Einfügen oder tippen",
+        "detail": "Füge einen Aufsatz, Artikel, eine Rede oder einen Post ein — das Zählen beginnt sofort."
+      },
+      {
+        "title": "Zähler ablesen",
+        "detail": "Wörter, Zeichen, Sätze, Absätze und Durchschnittswerte aktualisieren sich bei jedem Tastenschlag."
+      },
+      {
+        "title": "Zeiten prüfen",
+        "detail": "Lese- und Sprechschätzungen sagen dir, wie der Text bei einem Publikum ankommen wird."
+      },
+      {
+        "title": "Ziel setzen",
+        "detail": "Gib eine Ziel-Wortzahl ein und beobachte, wie sich der Fortschrittsbalken füllt, während du schreibst."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Wortzahlen, die wirklich zählen",
+        "paragraphs": [
+          "Unterschiedliche Vorgaben zählen unterschiedlich. Schul- und Uni-Aufgaben zählen meist jedes Wort inklusive Überschriften; soziale Plattformen zählen Zeichen (und gewichten sie unterschiedlich); Verlage zählen die Wörter im Fließtext. Dieser Zähler zeigt Wörter und beide Zeichen-Gesamtzahlen nebeneinander, damit du jeder Vorgabe gerecht wirst.",
+          "Die durchschnittliche Satzlänge ist die unterschätzte Kennzahl: Oberhalb von etwa 20–25 Wörtern pro Satz beginnen Leser zu kämpfen, egal wie hoch die Gesamtzahl ist. Ist dein Durchschnitt hoch, hilft das Aufteilen langer Sätze der Lesbarkeit mehr als das Kürzen von Wörtern."
+        ]
+      },
+      {
+        "heading": "Lesezeit und Sprechzeit",
+        "paragraphs": [
+          "Erwachsene lesen still mit etwa 200–250 Wörtern pro Minute, sodass ein Artikel mit 1.000 Wörtern ungefähr eine fünfminütige Lektüre ist — die Zahl, die Blogs anzeigen, um Erwartungen zu setzen. Sprechen ist langsamer: Vortragende schaffen im Schnitt 120–150 Wörter pro Minute, was bedeutet, dass ein Skript mit 650 Wörtern ein fünfminütiger Vortrag ist.",
+          "Nutze diese Schätzungen beim Entwerfen, nicht danach. Zu wissen, dass deine Rede bei neun Minuten läuft, wo der Slot fünf beträgt, lässt sich in der Tipp-Phase weit leichter beheben als auf der Bühne."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "Ein Schulaufsatz mit 500 Wörtern",
+        "output": "≈ 2,5 Min. Lesezeit · ≈ 4 Min. zum Vortragen",
+        "note": "Lesen mit 200 Wörtern/Min., Sprechen mit 130 Wörtern/Min."
+      },
+      {
+        "input": "„The quick brown fox“ eingefügt",
+        "output": "4 Wörter · 19 Zeichen · 1 Satz",
+        "note": "Die Zähler aktualisieren sich sofort beim Tippen."
+      },
+      {
+        "input": "Ein Blog-Entwurf mit Ziel 1.500",
+        "output": "Fortschrittsbalken füllt sich bis 100 % mit einem 🎉 am Ziel",
+        "note": "Das Ziel wird zwischen Besuchen gespeichert."
+      }
+    ],
+    "tips": [
+      "Schreibe zuerst, kürze danach — überschieße dein Ziel im Entwurf um 10 % und schneide dann passend zu.",
+      "Prüfe das Panel der meistgenutzten Wörter: Dominiert ein Wort, variiere deinen Wortschatz oder prüfe auf versehentliche Wiederholungen.",
+      "Für Twitter/X und Werbetexte behalte die Zeichenzahl im Auge (ohne Leerzeichen ist die strengere Zahl).",
+      "Übe Reden gegen die Sprechzeit-Schätzung und stoppe dann einen echten Durchlauf — dein Tempo kann abweichen.",
+      "Das Ziel wird mit dem Textanalyse-Tool geteilt, setze es also einmal, und es gilt in beiden."
+    ],
+    "faqs": [
+      {
+        "question": "Wie zählt der Wortzähler Wörter?",
+        "answer": "Wörter sind Textblöcke, die durch Leerzeichen getrennt sind. Wörter mit Bindestrich zählen als eins, und Zahlen zählen als Wörter — dieselbe Konvention wie in den meisten Textverarbeitungen."
+      },
+      {
+        "question": "Was ist der Unterschied zwischen Zeichen und Zeichen ohne Leerzeichen?",
+        "answer": "Die erste Zahl zählt jeden Tastenschlag inklusive Leerzeichen; die zweite schließt allen Leerraum aus. Plattformen mit strengen Limits (wie SMS oder Meta-Beschreibungen) meinen meist die volle Zeichenzahl."
+      },
+      {
+        "question": "Wie genau sind die Lese- und Sprechzeiten?",
+        "answer": "Es sind Schätzungen auf Basis durchschnittlicher Erwachsenen-Geschwindigkeiten (200 Wör./Min. Lesen, 130 Wör./Min. Sprechen). Publikum und Tempo variieren, aber für die Planung sind sie verlässlich."
+      },
+      {
+        "question": "Wird mein Text hochgeladen oder gespeichert?",
+        "answer": "Nein. Das Zählen geschieht vollständig in deinem Browser; nichts wird an einen Server gesendet oder gespeichert. Nur deine Zielzahl wird lokal gespeichert."
+      },
+      {
+        "question": "Ist der Wortzähler kostenlos?",
+        "answer": "Ja, kostenlos und unbegrenzt, ohne Anmeldung."
+      }
+    ],
+    "searchIntent": "Nutzer suchen einen Online-Wortzähler, der Wörter, Zeichen und Lesezeit eines Textes sofort anzeigt.",
+    "keywords": [
+      "Wortzähler online",
+      "Wörter zählen",
+      "Zeichenzähler",
+      "Wortanzahl zählen",
+      "Lesezeit berechnen",
+      "Wörter zählen Aufsatz"
+    ]
+  },
+  "word-maker": {
+    "name": "Wörter-Macher",
+    "metaTitle": "Wörter-Macher — Wörter aus Buchstaben bilden | AllWordTools",
+    "metaDescription": "Kostenloser Wörter-Macher und Wortgenerator aus Buchstaben: Gib beliebige Buchstaben ein und erhalte jedes Wort, das du daraus bilden kannst, gruppiert nach Länge mit Scrabble-Punkten. Inklusive Wörtern in Wörtern.",
+    "eyebrow": "Wortlöser",
+    "heading": "Wörter-Macher",
+    "subheading": "Gib beliebige Buchstaben ein, und dieser Wortgenerator baut jedes Wort, das du daraus bilden kannst — inklusive der kleinen Wörter, die sich in großen verstecken — gruppiert nach Länge mit Scrabble-Punkten.",
+    "intro": [
+      "Suchanfragen wie „Wortgenerator aus Buchstaben“ und „Wörter-Macher“ gehören zu den am schnellsten wachsenden Wort-Tool-Suchen im Web — weil Stapel zufälliger Buchstaben überall auftauchen: auf Scrabble- und Words With Friends-Ablagen, in Anagramm-Rätseln, bei Wortbildungs-Spielen im Klassenzimmer und bei der klassischen Herausforderung, Wörter in einem Wort zu finden.",
+      "Tippe deine Buchstaben ein, und der Wörter-Macher baut jedes gültige englische Wort, das sie enthalten, von Zwei-Buchstaben-Füllern bis zum Wort voller Länge, das sie alle nutzt (mit einem Stern markiert). Jedes Wort trägt seine Scrabble-Punktzahl, die Ergebnisse sind nach Länge gruppiert, und ein Blanko-Stein kann als ? eingegeben werden, wenn ein Buchstabe unbekannt ist.",
+      "Die Ergebnisse stammen aus derselben ENABLE-Wortliste wie unser Entwirrer, sofort in deinem Browser berechnet. Kopiere ein Wort mit einem Tipp, speichere Favoriten mit dem Stern oder teile einen Link, der exakt dasselbe Ergebnis für einen Freund nachstellt."
+    ],
+    "howToTitle": "So verwendest du den Wörter-Macher",
+    "howToSteps": [
+      {
+        "title": "Buchstaben eingeben",
+        "detail": "Tippe die Buchstaben ein, die du hast — zwei oder mehr. Nutze ? für einen Blanko oder unbekannten Buchstaben."
+      },
+      {
+        "title": "Auf „Wörter bilden“ tippen",
+        "detail": "Jedes Wort, das aus diesen Buchstaben gebaut werden kann, erscheint, gruppiert nach Länge."
+      },
+      {
+        "title": "Die Sterngruppe entdecken",
+        "detail": "Die längste Gruppe nutzt alle deine Buchstaben — meist der wertvollste Zug."
+      },
+      {
+        "title": "Kopieren, speichern oder teilen",
+        "detail": "Tippe auf ein Wort, um es zu kopieren, markiere es mit dem Stern zum Speichern oder teile den Ergebnis-Link."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Wörter in Wörtern",
+        "paragraphs": [
+          "Der nützlichste Output eines Wörter-Machers ist oft der kürzeste: In 'creation' verstecken sich 'create', 'action', 'ration', 'crate', 'react' und Dutzende mehr. Spiele belohnen das direkt — in Scrabble und Words With Friends punkten die kleinen Wörter zuverlässig und öffnen das Brett, und bei Klassenzimmer-Spielen gewinnt das Kind, das die meisten Wörter in einem Wort findet.",
+          "Die Ergebnisse sind hier deshalb längste-zuerst gruppiert: Scanne die Sterngruppe für den großen Zug und arbeite dich dann die Längen hinunter für parallele Züge und Haken. Die Gruppen mit zwei und drei Buchstaben lohnen sich für ernsthaftes Wortspiel auswendig zu lernen."
+        ]
+      },
+      {
+        "heading": "Wörter-Macher vs. Buchstaben-Entwirrer",
+        "paragraphs": [
+          "Die beiden Tools teilen sich ein Wörterbuch, beantworten aber unterschiedliche Fragen. Der Entwirrer geht von einem durcheinandergeworfenen Wort aus und findet, was es entwirrt ergibt; der Wörter-Macher geht von irgendeiner Handvoll Buchstaben aus — einer Spielablage, einem Rätsel, einem langen Wort — und generiert alles, was diese Buchstaben bauen können, Teilwörter inklusive.",
+          "Wenn du weißt, dass alle Buchstaben zu einem Wort gehören, ist der Entwirrer schneller. Wenn du erkundest, was ein Satz Buchstaben kann, machst du Wörter — und dies ist das richtige Tool."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "triangle",
+        "output": "integral, relating, alerting … plus 100+ kürzere Wörter",
+        "note": "Wörter voller Länge sind mit einem Stern markiert."
+      },
+      {
+        "input": "master",
+        "output": "stream, tamers, maters … + alle Wörter mit 2–5 Buchstaben",
+        "note": "Klassische Anagramm-Ablage, vollständig erkundet."
+      },
+      {
+        "input": "qu?z",
+        "output": "quiz (der Blanko wird zum fehlenden Buchstaben)",
+        "note": "? funktioniert als jeder Buchstabe."
+      }
+    ],
+    "tips": [
+      "Füge einen ?-Blanko hinzu, wenn ein Buchstabe unbekannt ist — die Ergebnisse erweitern sich dramatisch.",
+      "Lerne zuerst die Zwei-Buchstaben-Wortgruppe für deine Ablage; sie sind der Klebstoff von Scrabble auf hohem Niveau.",
+      "Die Sterngruppe (alle Buchstaben genutzt) bringt in Scrabble den 50-Punkte-Bingo-Bonus, wenn alle 7 Steine gespielt werden.",
+      "Teile den Ergebnis-Link, wenn du einen Freund um Hilfe bei einer Ablage bittest — er sieht exakt dieselben Wörter.",
+      "Markiere Wörter mit dem Stern, die du dir merken willst; sie sammeln sich in deiner „Meine Wortliste“ bei den Wörterbuch-Tools."
+    ],
+    "faqs": [
+      {
+        "question": "Was ist ein Wörter-Macher?",
+        "answer": "Ein Wörter-Macher (oder Wortgenerator aus Buchstaben) nimmt eine beliebige Menge von Buchstaben und listet jedes englische Wort auf, das daraus gebaut werden kann, inklusive kürzerer Wörter, die nur einige der Buchstaben nutzen."
+      },
+      {
+        "question": "Welche Wortliste nutzt er?",
+        "answer": "Die ENABLE-Liste (~168.000 Wörter), dieselbe Liste wie hinter unserem Entwirrer und Anagramm-Löser. Offizielle Turnierlisten (NWL, CSW) weichen leicht ab."
+      },
+      {
+        "question": "Kann ich einen Blanko-Stein nutzen?",
+        "answer": "Ja — tippe ? an Stelle eines beliebigen unbekannten Buchstabens, und er steht für jede Möglichkeit."
+      },
+      {
+        "question": "Wie unterscheidet sich das vom Buchstaben-Entwirrer?",
+        "answer": "Der Entwirrer zielt auf ein durcheinandergeworfenes Wort; der Wörter-Macher erkundet alles, was ein Satz Buchstaben bauen kann, inklusive Wörtern, die nur einige Buchstaben nutzen."
+      },
+      {
+        "question": "Ist der Wörter-Macher kostenlos?",
+        "answer": "Ja — kostenlos, sofort und ohne Anmeldung, vollständig in deinem Browser laufend."
+      }
+    ],
+    "searchIntent": "Nutzer suchen ein Tool, das aus einer Menge Buchstaben alle möglichen Wörter bildet, etwa für Scrabble oder Anagramm-Rätsel.",
+    "keywords": [
+      "Wörter aus Buchstaben bilden",
+      "Wortgenerator aus Buchstaben",
+      "Wörter Macher",
+      "Wörter mit Buchstaben erstellen",
+      "Scrabble Wörter finden",
+      "Wörter in Wörtern finden"
+    ]
+  },
+  "case-converter": {
+    "name": "Schreibweisen-Konverter",
+    "metaTitle": "Schreibweisen-Konverter — GROSSBUCHSTABEN, Kleinbuchstaben, Titelschreibweise | AllWordTools",
+    "metaDescription": "Kostenloser Schreibweisen-Konverter: Ändere Text sofort in GROSSBUCHSTABEN, Kleinbuchstaben, Titelschreibweise, Satzschreibweise, Jedes Wort Groß, aLtErNaTiNg oder iNVERSE. Ergebnis kopieren oder herunterladen.",
+    "eyebrow": "Textanalyse",
+    "heading": "Schreibweisen-Konverter",
+    "subheading": "Füge einen beliebigen Text ein und wandle ihn zwischen GROSSBUCHSTABEN, Kleinbuchstaben, Titelschreibweise, Satzschreibweise und mehr um — sofort, mit Kopieren und Herunterladen inklusive.",
+    "intro": [
+      "Feststelltasten-Unfälle, Überschriften, die Titelschreibweise brauchen, ein Absatz, der IN GROSSBUCHSTABEN SCHREIT und beruhigt werden muss — Neutippen ist die langsame Lösung. Dieser Schreibweisen-Konverter gestaltet deinen gesamten Text mit einem Klick um: sieben Schreibweisen, sofort auf den vollen Text angewendet, während du zwischen ihnen wechselst.",
+      "Die Titelschreibweise folgt hier echten Überschriften-Regeln und hält kleine Wörter wie 'the', 'and' und 'of' in der Mitte einer Überschrift klein, während „Jedes Wort Groß“ jedes Wort anhebt, wenn das der Stil ist, den du brauchst. Die Satzschreibweise repariert Absätze ordentlich und schreibt nach Punkten ebenso groß wie am Anfang.",
+      "Auch die verspielten Stile haben ihren Nutzen: aLtErNaTiNg ist die Spott-/Sarkasmus-Schrift des Internets, und iNVERSE tauscht die Schreibweise jedes Buchstabens und rettet Text, der mit gedrückter Feststelltaste getippt wurde. Kopiere das Ergebnis oder lade es als Datei herunter — keine Anmeldung, nichts wird hochgeladen."
+    ],
+    "howToTitle": "So verwendest du den Schreibweisen-Konverter",
+    "howToSteps": [
+      {
+        "title": "Text einfügen",
+        "detail": "Tippe oder füge irgendetwas ein — eine Überschrift, einen Absatz, ein ganzes Dokument."
+      },
+      {
+        "title": "Schreibweise wählen",
+        "detail": "Tippe auf GROSSBUCHSTABEN, Kleinbuchstaben, Titelschreibweise, Satzschreibweise, aLtErNaTiNg oder iNVERSE."
+      },
+      {
+        "title": "Vorschau prüfen",
+        "detail": "Der umgewandelte Text erscheint sofort darunter; wechsle die Schreibweisen zum Vergleichen."
+      },
+      {
+        "title": "Kopieren oder herunterladen",
+        "detail": "Kopiere das Ergebnis in deine Zwischenablage oder speichere es als .txt-Datei."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Titelschreibweise vs. Jedes Wort Groß",
+        "paragraphs": [
+          "Sie sehen ähnlich aus, folgen aber unterschiedlichen Regeln. Die Titelschreibweise (AP-/Überschriftenstil) hält kurze Konjunktionen, Artikel und Präpositionen klein, sofern sie die Überschrift nicht beginnen: 'The Lord of the Rings'. „Jedes Wort Groß“ hebt alles an: 'The Lord Of The Rings' — üblich in Menüs, Buttons und manchen Hausstilen.",
+          "Die Satzschreibweise ist der moderne Standard für die meisten Publikationen und Oberflächen: Nur das erste Wort und Eigennamen werden großgeschrieben, genau wie in diesem Satz. Im Zweifel ist die Satzschreibweise für Fließtext die sicherste und lesbarste Wahl."
+        ]
+      },
+      {
+        "heading": "Wann jede Schreibweise ihren Platz verdient",
+        "paragraphs": [
+          "GROSSBUCHSTABEN sind für Labels, Warnungen und sehr kurze Überschriften — ganze Absätze in Großbuchstaben sind nachweislich schwerer zu lesen und wirken online wie Schreien. Alles kleingeschrieben ist zu einem bewussten lässigen Stil in Nachrichten und Social Posts geworden.",
+          "Abwechselnde Schreibweise signalisiert im Internet-Slang Ironie oder Spott, und die umgekehrte Schreibweise ist das Rettungswerkzeug: Füge Text ein, der mit aktiver Feststelltaste getippt wurde, und sie dreht jeden Buchstaben zurück zur Vernunft, ohne ein Wort neu zu tippen."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "the quick brown fox jumps",
+        "output": "The Quick Brown Fox Jumps (Titelschreibweise)",
+        "note": "Kleine Wörter bleiben in der Überschriftenmitte klein."
+      },
+      {
+        "input": "HELLO. THIS IS FINE.",
+        "output": "Hello. This is fine. (Satzschreibweise)",
+        "note": "Feststelltasten-Unfall, repariert."
+      },
+      {
+        "input": "sure, great idea",
+        "output": "sUrE, gReAt IdEa (aLtErNaTiNg)",
+        "note": "Die Sarkasmus-Schrift des Internets."
+      }
+    ],
+    "tips": [
+      "Wandle um, bevor du formatierst: Schreibweisen-Änderungen sind schmerzhaft zu wiederholen, wenn Fettung und Layout schon stehen.",
+      "Achte nach der Umwandlung in Kleinbuchstaben auf Eigennamen — Namen brauchen ihre Großbuchstaben zurück.",
+      "Lege für Überschriften deinen Hausstil (Titel oder Satz) einmal fest und nutze ihn überall.",
+      "Lade die .txt herunter, wenn du lange Dokumente umwandelst, damit du eine saubere Kopie behältst.",
+      "aLtErNaTiNg beginnt sein Muster beim ersten Buchstaben — füge die exakte Phrase ein, die du posten wirst."
+    ],
+    "faqs": [
+      {
+        "question": "Zwischen welchen Schreibweisen kann ich umwandeln?",
+        "answer": "GROSSBUCHSTABEN, Kleinbuchstaben, Titelschreibweise, Satzschreibweise, Jedes Wort Groß, aLtErNaTiNg (abwechselnd) und iNVERSE (vertauscht)."
+      },
+      {
+        "question": "Folgt die Titelschreibweise Überschriften-Regeln?",
+        "answer": "Ja — Artikel, kurze Konjunktionen und Präpositionen (the, and, of, in …) bleiben in der Überschriftenmitte klein, passend zum üblichen Redaktionsstil."
+      },
+      {
+        "question": "Gibt es ein Limit für die Textlänge?",
+        "answer": "Der Konverter verarbeitet bis zu 20.000 Zeichen auf einmal — weit mehr, als die meisten Dokumente brauchen. Teile sehr lange Bücher in Kapitel."
+      },
+      {
+        "question": "Wird mein Text irgendwo hochgeladen?",
+        "answer": "Nein. Die Umwandlung geschieht vollständig in deinem Browser."
+      },
+      {
+        "question": "Ist der Schreibweisen-Konverter kostenlos?",
+        "answer": "Ja, kostenlos und unbegrenzt, ohne Anmeldung."
+      }
+    ],
+    "searchIntent": "Nutzer suchen ein Tool, das Text mit einem Klick in Groß- oder Kleinschreibung, Titelschreibweise oder andere Schreibweisen umwandelt.",
+    "keywords": [
+      "Schreibweisen umwandeln",
+      "Text in Großbuchstaben",
+      "Kleinbuchstaben umwandeln",
+      "Titelschreibweise Generator",
+      "Groß Kleinschreibung Konverter",
+      "Text umwandeln online"
+    ]
+  },
+  "phonetic-alphabet-converter": {
+    "name": "Phonetisches Alphabet Konverter",
+    "metaTitle": "Phonetisches Alphabet Konverter — NATO-Buchstabieralphabet | AllWordTools",
+    "metaDescription": "Kostenloser Konverter für das phonetische Alphabet: Buchstabiere jeden Namen, jedes Wort oder jeden Code mit dem NATO-Alphabet (Alfa, Bravo, Charlie) und dekodiere NATO-Wörter zurück. Mit Audiowiedergabe.",
+    "eyebrow": "Buchstaben-Werkzeuge",
+    "heading": "Phonetisches Alphabet Konverter",
+    "subheading": "Buchstabiere jeden Namen, jedes Rufzeichen oder jeden Code so, wie es Piloten und Callcenter tun — Alfa, Bravo, Charlie — mit dem offiziellen NATO-Buchstabieralphabet, plus einem Decoder, der NATO-Wörter zurück in Buchstaben verwandelt.",
+    "intro": [
+      "Suchanfragen wie „phonetischer Buchstabier-Konverter“ landen aus einem Grund hier: Einen Namen über eine knisternde Telefonleitung zu buchstabieren, ist der Ort, an dem 'B' und 'D' Ärger machen. Das NATO-Buchstabieralphabet löst das, indem es jedem Buchstaben ein eigenes, unverwechselbares Wort gibt — Alfa für A, Bravo für B, Charlie für C — genutzt von Piloten, dem Militär, Rettungsdiensten und Support-Schreibtischen weltweit.",
+      "Tippe ein beliebiges Wort, einen Namen oder Code ein, und dieser Konverter buchstabiert ihn sofort, Buchstabe für Buchstabe, mit Kopieren per Tipp und einem „Anhören“-Button, der die Buchstabierung vorliest. Wechsle in den Dekodier-Modus, um eine Folge von NATO-Wörtern zurück in die ursprünglichen Buchstaben zu verwandeln.",
+      "Die vollständige Alphabet-Tafel steht unter dem Tool zur schnellen Referenz — es lohnt sich, sie auswendig zu lernen, wenn dein Job das Buchstabieren von Namen am Telefon beinhaltet."
+    ],
+    "howToTitle": "So verwendest du den Phonetischen Alphabet Konverter",
+    "howToSteps": [
+      {
+        "title": "Wort oder Code eingeben",
+        "detail": "Ein Name, eine Postleitzahl, eine Buchungsreferenz — alles, was du klar buchstabieren musst."
+      },
+      {
+        "title": "Buchstabierung lesen",
+        "detail": "Jeder Buchstabe wird zu seinem NATO-Wort: S-M-I-T-H wird zu Sierra Mike India Tango Hotel."
+      },
+      {
+        "title": "Kopieren oder anhören",
+        "detail": "Kopiere die Buchstabierung, um sie in Notizen einzufügen, oder tippe auf „Anhören“, um sie vor deinem Anruf zu hören."
+      },
+      {
+        "title": "Oder dekodieren",
+        "detail": "Wechsle den Modus und füge NATO-Wörter ein, um die ursprünglichen Buchstaben zurückzubekommen."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Warum NATO-Wörter 'B wie Banane' schlagen",
+        "paragraphs": [
+          "Improvisierte Buchstabierungen scheitern, weil die Hilfswörter genauso verwechselbar sind wie die Buchstaben — 'M wie Mandy' und 'N wie Nancy' klingen über eine schlechte Leitung nahezu identisch. Das NATO-Set wurde so konstruiert und getestet, dass keine zwei Wörter gleich klingen, in mehreren Sprachen, selbst durch Rauschen und Akzente hindurch.",
+          "Darum sind auch die Schreibweisen Absicht: Es heißt 'Alfa' (nicht Alpha) und 'Juliett' mit doppeltem T, gewählt, damit Muttersprachler des Französischen und Spanischen sie korrekt aussprechen. Die offiziellen Formen zu nutzen markiert dich als jemanden, der beruflich buchstabiert."
+        ]
+      },
+      {
+        "heading": "Wann phonetisch buchstabieren",
+        "paragraphs": [
+          "Greife zum phonetischen Alphabet, wann immer Genauigkeit wichtiger ist als Tempo: Namen und E-Mail-Adressen in Support-Anrufen, Buchungsreferenzen und Postleitzahlen, Fahrzeugkennzeichen, Produktseriennummern und Funkverkehr jeder Art.",
+          "Lies die Codewörter in stetigem Rhythmus vor, ein Wort pro Buchstabe, und pausiere zwischen Gruppen (der Konverter behält die ursprüngliche Leerzeichen-Struktur bei). Wenn die andere Seite es zurückliest, höre auf ihre Wörter — nicht auf die Buchstaben —, um Fehler zu erwischen."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "Smith",
+        "output": "Sierra Mike India Tango Hotel",
+        "note": "Ein Nachname, für einen Anruf buchstabiert."
+      },
+      {
+        "input": "BA249",
+        "output": "Bravo Alfa Two Four Nine",
+        "note": "Ziffern bekommen ebenfalls NATO-artige Wörter."
+      },
+      {
+        "input": "Dekodieren: Hotel Echo Lima Lima Oscar",
+        "output": "HELLO",
+        "note": "Der Decoder verwandelt Codewörter zurück in Buchstaben."
+      }
+    ],
+    "tips": [
+      "Buchstabiere nur den kniffligen Teil — meist den Nachnamen oder den Code — nicht den ganzen Satz.",
+      "Sage deinen eigenen Namen phonetisch, wenn du telefonisch buchst; es verhindert die meisten Schreibfehler.",
+      "Tippe vor einem wichtigen Anruf einmal auf „Anhören“, um den Rhythmus richtig hinzubekommen.",
+      "Halte die Tafel griffbereit: A–Z sind nur 26 Wörter, und die meisten lernen sie in einer Woche voller Anrufe.",
+      "Trenne Wörter im Dekodier-Modus mit Leerzeichen; unbekannte Wörter erscheinen als '?', damit du Tippfehler erkennst."
+    ],
+    "faqs": [
+      {
+        "question": "Was ist das NATO-Buchstabieralphabet?",
+        "answer": "Das internationale Buchstabieralphabet des Funkverkehrs: 26 Codewörter (Alfa bis Zulu), die den Buchstaben zugeordnet sind, standardisiert von der NATO und der ICAO und genutzt in Luftfahrt, Militär und Notfallkommunikation."
+      },
+      {
+        "question": "Warum werden 'Alfa' und 'Juliett' so geschrieben?",
+        "answer": "Die Schreibweisen wurden gewählt, damit Sprecher vieler Sprachen die Wörter klar aussprechen — 'Alfa' vermeidet das 'ph'-Problem und 'Juliett' hält das finale T im Französischen hörbar."
+      },
+      {
+        "question": "Verarbeitet der Konverter Zahlen?",
+        "answer": "Ja — Ziffern werden als ihre englischen Wörter buchstabiert (One, Two, Three …), genau wie im Funk und in Anrufen üblich."
+      },
+      {
+        "question": "Kann ich NATO-Wörter zurück in Buchstaben dekodieren?",
+        "answer": "Ja. Wechsle in den Dekodier-Modus und füge durch Leerzeichen getrennte Codewörter ein, um den ursprünglichen Text zurückzubekommen."
+      },
+      {
+        "question": "Ist der Phonetische Alphabet Konverter kostenlos?",
+        "answer": "Ja — kostenlos, sofort, ohne Anmeldung, und er läuft in deinem Browser."
+      }
+    ],
+    "searchIntent": "Nutzer suchen ein Tool, das Wörter und Codes mit dem NATO-Buchstabieralphabet buchstabiert und NATO-Wörter zurück dekodiert.",
+    "keywords": [
+      "Phonetisches Alphabet Konverter",
+      "NATO Alphabet buchstabieren",
+      "Buchstabieralphabet NATO",
+      "Alfa Bravo Charlie",
+      "NATO Alphabet Tabelle",
+      "Wort buchstabieren Telefon"
+    ]
+  },
+  "spelling-bee-solver": {
+    "name": "Spelling Bee Löser",
+    "metaTitle": "Spelling Bee Löser — Pangramme & Höchstpunktzahl | AllWordTools",
+    "metaDescription": "Kostenloser NYT Spelling Bee Löser: Gib die heutigen 7 Buchstaben ein (Mittelbuchstabe zuerst), um jedes gültige Wort, alle Pangramme und die maximal mögliche Punktzahl zu finden. Genius, freigeschaltet.",
+    "eyebrow": "Rätselspiel-Löser",
+    "heading": "Spelling Bee Löser",
+    "subheading": "Gib die heutigen sieben Buchstaben ein — Mittelbuchstabe zuerst — und erhalte jedes gültige Spelling Bee-Wort, die Pangramme, Punkte pro Wort und die Höchstpunktzahl für die heutige Wabe.",
+    "intro": [
+      "Die Spelling Bee der New York Times gibt dir sieben Buchstaben in einer Wabe und eine Regel, die alles formt: Jedes Wort muss den Mittelbuchstaben enthalten. Das Interesse an Spelling Bee-Antworten und -Tipps steigt rasant (um rund 300 % in aktuellen Trenddaten), und dieser Löser übernimmt die Schwerstarbeit — gib die Buchstaben ein, Mittelbuchstabe zuerst, und sieh jedes Wort, das die Wabe bilden kann.",
+      "Wörter müssen mindestens vier Buchstaben haben und dürfen Buchstaben frei wiederverwenden, weshalb der Löser das vollständige Wörterbuch durchsucht statt einfacher Anagramme. Pangramme — Wörter, die alle sieben Buchstaben nutzen — werden mit ihrem Bonus hervorgehoben, und jedes Wort zeigt seine Spielpunktzahl: 1 Punkt für vier Buchstaben, die Wortlänge für längere Wörter, plus 7 für ein Pangramm.",
+      "Nutze ihn, um einen Genius-Lauf zu entklemmen, ein Wort zu überprüfen, das das Spiel abgelehnt hat, oder vor dem Start einen Blick auf das Pangramm zu werfen. Die heutigen Buchstaben bleiben in deinem Verlauf, sodass die gestrige Wabe einen Tipp entfernt ist."
+    ],
+    "howToTitle": "So verwendest du den Spelling Bee Löser",
+    "howToSteps": [
+      {
+        "title": "Mittelbuchstaben zuerst tippen",
+        "detail": "Das honigfarbene Feld ist der Mittelbuchstabe — jede Antwort muss ihn enthalten."
+      },
+      {
+        "title": "Die sechs äußeren Buchstaben hinzufügen",
+        "detail": "Fülle die restlichen Felder mit dem Rest der heutigen Wabe, in beliebiger Reihenfolge."
+      },
+      {
+        "title": "Auf „Bee lösen“ tippen",
+        "detail": "Jedes gültige Wort erscheint mit seinen Punkten, höchste Punktzahlen zuerst."
+      },
+      {
+        "title": "Das Pangramm-Banner prüfen",
+        "detail": "Pangramme stehen ganz oben — jedes ist seine Länge plus 7 Bonuspunkte wert."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Wie die Spelling Bee-Punktzählung funktioniert",
+        "paragraphs": [
+          "Ein Wort mit vier Buchstaben bringt genau 1 Punkt; ein Wort mit fünf oder mehr Buchstaben bringt seine Länge. Ein Pangramm — ein Wort, das alle sieben Buchstaben mindestens einmal nutzt — fügt oben drauf einen 7-Punkte-Bonus hinzu, weshalb es zu finden der größte Einzelsprung Richtung Genius und Queen Bee ist.",
+          "Die Ränge laufen von Beginner über Good, Moving Up, Nice, Solid, Great und Amazing bis Genius (70 % des Maximums) und Queen Bee (jedes Wort). Der Löser zeigt die echte Höchstpunktzahl für die heutige Wabe, sodass du immer genau weißt, wie weit Genius wirklich ist."
+        ]
+      },
+      {
+        "heading": "Ein Hinweis zur Wortliste",
+        "paragraphs": [
+          "Dieser Löser durchsucht das ENABLE-Wörterbuch; die New York Times kuratiert ihre eigene Antwortliste und lehnt manche völlig echten Wörter ab (sie tendiert zu gebräuchlichen und harmlosen Wörtern und ist berühmt heikel bei Pluralen und obskuren Begriffen).",
+          "Behandle die Liste als Obermenge: Fast jede Bee-Antwort ist hier, aber ein seltenes Wort, das der Löser findet, wird vom Spiel möglicherweise nicht akzeptiert. Wenn sich die offiziellen Antworten der Wabe heute kurz anfühlen, ist diese Kuratierung — nicht deine Rechtschreibung — meist der Grund."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "Mittelbuchstabe R + Buchstaben A, C, E, I, N, T",
+        "output": "Pangramm: 'certain' — 7 Buchstaben + 7 Bonus = 14 Punkte",
+        "note": "Ein Pangramm nutzt jeden Buchstaben mindestens einmal."
+      },
+      {
+        "input": "Beliebige Wabe mit 7 Buchstaben",
+        "output": "Wörter nach Punkten gruppiert, Gesamthöchstwert angezeigt",
+        "note": "Genius liegt bei 70 % der Höchstpunktzahl."
+      },
+      {
+        "input": "Mittelbuchstabe + Wörter mit wiederholten Buchstaben",
+        "output": "'banana'-artige Wörter zählen: Buchstaben dürfen sich wiederholen",
+        "note": "Im Gegensatz zu Anagramm-Lösern ist Wiederverwendung erlaubt."
+      }
+    ],
+    "tips": [
+      "Jage zuerst das Pangramm — sein Bonus formt die gesamte Tagespunktzahl um.",
+      "Präfixe und Suffixe vervielfachen Wörter: Prüfe -ing-, -ed- und un-Formen von allem, was du findest.",
+      "Wörter dürfen Buchstaben wiederverwenden, sodass Buchstabendoppler wie 'tattletale'-Muster fair sind.",
+      "Wenn dir ein Wort zu Queen Bee fehlt, sortiere nach der Punktreihenfolge dieser Liste und vergleiche die Wortlängen mit dem Raster des Spiels.",
+      "Die gestrige Wabe bleibt in den Verlauf-Chips — praktisch, wenn du einen Tag zurück spielst."
+    ],
+    "faqs": [
+      {
+        "question": "Wie gebe ich die Buchstaben ein?",
+        "answer": "Setze den (gelben) Mittelbuchstaben in das erste, honigfarbene Feld, dann die anderen sechs Buchstaben in beliebiger Reihenfolge, und tippe auf „Bee lösen“."
+      },
+      {
+        "question": "Was ist ein Pangramm in Spelling Bee?",
+        "answer": "Ein Wort, das alle sieben Buchstaben mindestens einmal nutzt. Es bringt seine Länge plus einen 7-Punkte-Bonus, und jede Wabe hat mindestens eins."
+      },
+      {
+        "question": "Warum hat das Spiel ein Wort abgelehnt, das der Löser gefunden hat?",
+        "answer": "Die NYT nutzt eine kuratierte Antwortliste und schließt manche gültigen Wörterbuchwörter aus. Die ENABLE-Liste des Lösers ist breiter, also behandle seine Ergebnisse als Obermenge der offiziellen Antworten."
+      },
+      {
+        "question": "Können Buchstaben mehr als einmal verwendet werden?",
+        "answer": "Ja — im Gegensatz zu Anagramm-Spielen dürfen Spelling Bee-Wörter Buchstaben so oft wiederverwenden wie nötig, solange jeder genutzte Buchstabe einer der sieben ist und der Mittelbuchstabe vorkommt."
+      },
+      {
+        "question": "Ist der Spelling Bee Löser kostenlos?",
+        "answer": "Ja — kostenlos, sofort und ohne Anmeldung."
+      }
+    ],
+    "searchIntent": "Nutzer suchen einen Löser, der aus den heutigen 7 Spelling-Bee-Buchstaben alle Wörter, Pangramme und die Höchstpunktzahl findet.",
+    "keywords": [
+      "Spelling Bee Löser",
+      "Spelling Bee Antworten heute",
+      "Spelling Bee Pangramm",
+      "NYT Spelling Bee Hilfe",
+      "Spelling Bee Wörter finden",
+      "Spelling Bee Tipps"
+    ]
   }
 }

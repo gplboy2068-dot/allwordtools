@@ -10032,5 +10032,726 @@
       "ai-flashcards",
       "AI Flashcards"
     ]
+  },
+  "username-generator": {
+    "name": "Gerador de Nomes de Usuário",
+    "metaTitle": "Gerador de Nomes de Usuário — Nomes Estéticos e Gamer | AllWordTools",
+    "metaDescription": "Gerador de nomes de usuário gratuito para Instagram, TikTok, Roblox, Discord e jogos. Digite uma palavra-chave e receba ideias de nomes estéticos, legais e gamer na hora. Sem cadastro.",
+    "eyebrow": "Geradores de Nomes",
+    "heading": "Gerador de Nomes de Usuário",
+    "subheading": "Digite um nome ou palavra-chave e receba dezenas de ideias de nomes de usuário estéticos, gamer, legais e profissionais para Instagram, TikTok, Roblox, Discord e YouTube — na hora, com as buscas por nomes de usuário do Instagram em alta de mais de 1.500% este ano.",
+    "intro": [
+      "Toda conta começa com um nome de usuário, e os bons estão sempre ocupados. Este gerador transforma uma ou duas palavras-chave — seu nome, um apelido, uma palavra favorita — em dezenas de combinações novas usando estilos, separadores, decorações e números, para você encontrar um @ que soa como você e ainda tem chance de estar disponível.",
+      "Escolha primeiro uma vibe: nomes estéticos são suaves e minimalistas para Instagram e TikTok, nomes gamer adicionam leet speak e atitude para Roblox, Discord e Twitch, nomes legais são curtos e confiantes, e nomes profissionais mantêm tudo limpo para perfis de trabalho e negócios. Toque em qualquer ideia para copiá-la.",
+      "O gerador roda inteiramente no seu navegador. Ele não verifica disponibilidade (só cada plataforma pode fazer isso), mas gerar em lotes torna rápido selecionar cinco ou seis favoritos e testá-los onde importa."
+    ],
+    "howToTitle": "Como usar o Gerador de Nomes de Usuário",
+    "howToSteps": [
+      {
+        "title": "Digite uma palavra-chave",
+        "detail": "Comece com seu nome, um apelido ou uma palavra que você ama. Adicione uma segunda palavra-chave para misturar e combinar."
+      },
+      {
+        "title": "Escolha um estilo",
+        "detail": "Estético, gamer, legal ou profissional — cada estilo usa suas próprias decorações e padrões."
+      },
+      {
+        "title": "Ative os números",
+        "detail": "Números tornam um nome ocupado disponível de novo; desligue-os para um visual mais limpo."
+      },
+      {
+        "title": "Copie e verifique",
+        "detail": "Toque em um nome de usuário para copiá-lo e depois verifique a disponibilidade na sua plataforma. Toque em Ideias novas para outro lote."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "O que faz um nome de usuário grudar",
+        "paragraphs": [
+          "Os nomes de usuário de que as pessoas se lembram são curtos, pronunciáveis e fáceis de digitar de memória. Mire em algo que um amigo consiga soletrar depois de ouvir uma vez, evite longas sequências de números e mantenha os separadores em um único estilo — um único ponto ou underline lê muito melhor do que uma mistura de símbolos.",
+          "A consistência é o prêmio escondido: o mesmo @ no Instagram, TikTok, YouTube e Discord torna você encontrável em todo lugar e parece profissional num perfil ou cartão de visita. Gere um lote aqui e depois verifique seu favorito em todas as suas plataformas antes de se comprometer."
+        ]
+      },
+      {
+        "heading": "Estético, gamer ou profissional?",
+        "paragraphs": [
+          "Nomes estéticos apostam em palavras suaves (moon, aura, bloom), separadores gentis e tudo em minúsculas — o visual que domina o Instagram e o Pinterest agora. Nomes gamer vão pelo caminho oposto: palavras mais afiadas, molduras xX, substituições leet (a→4, e→3, o→0) e núcleos curtos e intensos que leem bem num feed de eliminações.",
+          "Nomes profissionais abandonam quase toda a decoração: o nome real mais uma função, estúdio ou marcador 'official'. Se você está construindo uma marca pessoal, gere no estilo legal ou profissional e mantenha o número curto ou elimine-o por completo."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "luna",
+        "output": "@soft.luna · @itsluna_ · @lunabloom",
+        "note": "Estilo estético a partir de uma única palavra-chave."
+      },
+      {
+        "input": "pixel + gaming style",
+        "output": "@xXp1xelXx · @pixelstorm99 · @itzpixel",
+        "note": "O estilo gamer adiciona leet speak e molduras."
+      },
+      {
+        "input": "aarav + sharma (professional)",
+        "output": "@aaravsharma · @theaaravsharma · @aaravsharma.co",
+        "note": "O estilo profissional mantém tudo limpo."
+      }
+    ],
+    "tips": [
+      "Gere em lotes e selecione 5–6 nomes antes de verificar a disponibilidade em qualquer lugar.",
+      "Diga o nome de usuário em voz alta — se é difícil de dizer, é difícil de compartilhar.",
+      "Um único estilo de separador (só pontos ou só underlines) parece mais limpo do que misturar os dois.",
+      "Evite datas de nascimento e dados pessoais em nomes de usuário públicos.",
+      "Verifique o mesmo @ em todas as plataformas que você usa, até nas que talvez entre depois."
+    ],
+    "faqs": [
+      {
+        "question": "O gerador verifica se um nome de usuário está disponível?",
+        "answer": "Não — a disponibilidade fica dentro de cada plataforma, então verifique sua seleção no Instagram, TikTok ou no próprio jogo. Gerar muitas opções antes torna isso rápido."
+      },
+      {
+        "question": "O que é um nome de usuário estético?",
+        "answer": "Um @ suave e minimalista construído com palavras gentis, letras minúsculas e separadores leves, popular no Instagram e TikTok — por exemplo @soft.luna ou @peachyaura."
+      },
+      {
+        "question": "Como faço um nome de usuário gamer?",
+        "answer": "Escolha o estilo gamer: ele adiciona vocabulário mais afiado, leet speak opcional (letras trocadas por números) e molduras no estilo xX usadas no Roblox, Discord e Twitch."
+      },
+      {
+        "question": "Posso usar duas palavras-chave?",
+        "answer": "Sim. Digite uma segunda palavra-chave e o gerador combinará as duas em ordens e padrões diferentes."
+      },
+      {
+        "question": "O Gerador de Nomes de Usuário é gratuito?",
+        "answer": "Sim, totalmente gratuito e sem cadastro, e roda no seu navegador — suas palavras-chave nunca saem do seu dispositivo."
+      }
+    ],
+    "searchIntent": "Usuários procuram um gerador que crie ideias de nomes de usuário estéticos, legais ou gamer a partir de uma palavra-chave para redes sociais e jogos.",
+    "keywords": [
+      "gerador de nomes de usuário",
+      "ideias de nome para Instagram",
+      "nomes de usuário estéticos",
+      "gerador de nome gamer",
+      "nomes de usuário legais",
+      "gerador de username"
+    ]
+  },
+  "fancy-text-generator": {
+    "name": "Gerador de Texto Elegante",
+    "metaTitle": "Gerador de Texto Elegante — Fontes Estilosas para Copiar e Colar | AllWordTools",
+    "metaDescription": "Gerador de texto elegante gratuito: transforme suas palavras em fontes negrito, cursiva, bolha, minúscula, quadrada e vaporwave para copiar e colar em bios do Instagram, Discord, WhatsApp e jogos.",
+    "eyebrow": "Análise de Texto",
+    "heading": "Gerador de Texto Elegante",
+    "subheading": "Digite uma vez e receba seu texto em 16 fontes Unicode estilosas — negrito, cursiva, gótica, bolha, minúscula, quadrada, vaporwave, tachado e de cabeça para baixo — prontas para copiar e colar em qualquer lugar.",
+    "intro": [
+      "Texto elegante é como um nome ou bio simples vira uma declaração de estilo. Este gerador reestiliza tudo o que você digita em 16 fontes Unicode diferentes ao mesmo tempo: cursiva elegante para uma bio do Instagram, fraktur gótica para um perfil gamer, letras de bolha para um post divertido, sobrescrito minúsculo para uma legenda sutil, ou vaporwave de largura total para pura energia retrô.",
+      "Não são imagens nem fontes especiais para instalar — são caracteres Unicode reais, e é por isso que colam direto no Instagram, TikTok, Discord, WhatsApp, comentários do YouTube e perfis de jogos mantendo o estilo. Toque em qualquer estilo para copiá-lo.",
+      "Tudo acontece no seu navegador enquanto você digita, então você pode experimentar livremente. Comece pelo seu nome: textos curtos exibem melhor os estilos decorativos."
+    ],
+    "howToTitle": "Como usar o Gerador de Texto Elegante",
+    "howToSteps": [
+      {
+        "title": "Digite seu texto",
+        "detail": "Digite um nome, uma linha de bio ou uma frase curta — todos os 16 estilos se atualizam ao vivo enquanto você digita."
+      },
+      {
+        "title": "Compare os estilos",
+        "detail": "Role por negrito, cursiva, bolha, minúscula, quadrada, vaporwave, de cabeça para baixo e mais."
+      },
+      {
+        "title": "Toque para copiar",
+        "detail": "Clique no estilo de que você gostou e ele será copiado para a área de transferência."
+      },
+      {
+        "title": "Cole em qualquer lugar",
+        "detail": "Solte na sua bio, nome de usuário, post ou status — o estilo viaja com os caracteres."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Como o texto elegante realmente funciona",
+        "paragraphs": [
+          "O Unicode contém alfabetos inteiros de letras estilizadas — negrito matemático, cursiva, fraktur, traço duplo, circuladas e caracteres de largura total — criados originalmente para matemática e editoração. Os apps sociais os renderizam como texto comum, então um 'gerador de fontes' é na verdade um mapeador de caracteres: ele troca cada letra normal pela sua gêmea Unicode estilizada.",
+          "Esse truque tem duas consequências que vale conhecer. Primeiro, o texto elegante funciona em quase todo lugar, inclusive onde a formatação é proibida. Segundo, leitores de tela e mecanismos de busca podem ler os caracteres como símbolos em vez de letras, então reserve o estilo elegante para nomes, bios e decoração — não para informações importantes como dados de contato."
+        ]
+      },
+      {
+        "heading": "Escolhendo o estilo certo",
+        "paragraphs": [
+          "Cursiva e cursiva em negrito leem como premium e femininas — o visual clássico de bio do Instagram. Fraktur (gótica) e traço duplo combinam com tags gamer e perfis de música. Letras de bolha e quadradas são divertidas e se destacam em comentários, enquanto o texto sobrescrito minúsculo é o charme discreto usado em legendas e status do Discord.",
+          "Estilos tachado, sublinhado e cortado são funcionais além de decorativos: use-os para mostrar edições, riscar metas concluídas num post ou adicionar ênfase num chat de texto simples. O texto vaporwave de largura total é pura estética — combine-o com frases curtas para o máximo efeito."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "dreamer",
+        "output": "𝒹𝓇ℯ𝒶𝓂ℯ𝓇 (Script)",
+        "note": "Cursiva suave para bios e legendas."
+      },
+      {
+        "input": "shadow",
+        "output": "𝔰𝔥𝔞𝔡𝔬𝔴 (Fraktur)",
+        "note": "Letras góticas para perfis gamer."
+      },
+      {
+        "input": "good vibes",
+        "output": "ⓖⓞⓞⓓ ⓥⓘⓑⓔⓢ (Bubble)",
+        "note": "Letras de bolha para posts divertidos."
+      }
+    ],
+    "tips": [
+      "Textos curtos exibem melhor os estilos elegantes — um nome ou algumas palavras, não parágrafos inteiros.",
+      "Veja a prévia no app real: alguns aparelhos muito antigos podem mostrar caixinhas nos estilos mais raros, como letras quadradas.",
+      "Não use texto elegante em senhas ou em qualquer coisa que precise ser digitada de volta exatamente.",
+      "Mantenha seu e-mail e telefone em texto normal para que todos (e todos os leitores de tela) possam usá-los.",
+      "Combine uma linha elegante com linhas normais numa bio — o contraste faz a linha elegante se destacar."
+    ],
+    "faqs": [
+      {
+        "question": "Texto elegante é uma fonte que preciso instalar?",
+        "answer": "Não. Os estilos são caracteres Unicode, não fontes, então copiam e colam nos apps como estão, sem nada para instalar."
+      },
+      {
+        "question": "Onde posso colar texto elegante?",
+        "answer": "Instagram, TikTok, Discord, WhatsApp, Telegram, YouTube, X e a maioria dos perfis de jogos aceitam, porque no nível do caractere é texto comum."
+      },
+      {
+        "question": "Por que alguns estilos mostram caixinhas no meu celular?",
+        "answer": "Alguns aparelhos não têm glifos para os alfabetos mais raros (como letras quadradas). Os estilos negrito, cursiva e bolha têm o suporte mais amplo."
+      },
+      {
+        "question": "Posso usar texto elegante no meu nome de usuário?",
+        "answer": "Muitas vezes sim, em nomes de exibição. Algumas plataformas restringem os nomes de login reais a letras simples — nesse caso, use a versão elegante no nome de exibição ou na bio."
+      },
+      {
+        "question": "O Gerador de Texto Elegante é gratuito?",
+        "answer": "Sim — gratuito, ilimitado e sem cadastro. Seu texto nunca sai do seu navegador."
+      }
+    ],
+    "searchIntent": "Usuários procuram uma forma de transformar texto em fontes Unicode estilosas para copiar e colar em bios, nomes de usuário e posts.",
+    "keywords": [
+      "gerador de texto elegante",
+      "fontes para copiar e colar",
+      "letras estilosas para Instagram",
+      "texto em negrito e cursiva",
+      "fontes de bolha",
+      "gerador de letras diferentes"
+    ]
+  },
+  "word-counter": {
+    "name": "Contador de Palavras",
+    "metaTitle": "Contador de Palavras — Contar Palavras, Caracteres e Tempo de Leitura | AllWordTools",
+    "metaDescription": "Contador de palavras online gratuito: conte palavras, caracteres, frases e parágrafos instantaneamente enquanto digita, além de tempo de leitura, tempo de fala, densidade de palavras-chave e um acompanhamento de meta de escrita.",
+    "eyebrow": "Análise de Texto",
+    "heading": "Contador de Palavras",
+    "subheading": "Cole ou digite qualquer texto e receba uma contagem instantânea de palavras com caracteres, frases, parágrafos, tempo de leitura e de fala, suas palavras mais usadas — e uma barra de meta de escrita que se enche enquanto você trabalha.",
+    "intro": [
+      "Seja uma redação de 500 palavras, um artigo de 1.500 palavras ou um discurso de dois minutos, escrever mirando uma meta significa contar sem parar. Este contador de palavras conta enquanto você digita — sem botão para apertar — e mostra muito mais que o total: caracteres com e sem espaços, frases, parágrafos, tamanho médio das frases e sua palavra mais longa.",
+      "Ele também estima quanto tempo o texto leva para ser lido (a típicos 200 palavras por minuto) e dito em voz alta (cerca de 130 palavras por minuto), que é a forma mais rápida de conferir um discurso, um roteiro de vídeo ou uma apresentação. O painel de palavras mais usadas serve também como uma verificação rápida de densidade de palavras-chave para escrita de SEO.",
+      "Defina uma meta de escrita e a barra de progresso se enche ao vivo — a mesma barra é compartilhada com nossa ferramenta de Análise de Texto, então sua meta acompanha você. Tudo roda de forma privada no seu navegador; seu texto nunca é enviado."
+    ],
+    "howToTitle": "Como usar o Contador de Palavras",
+    "howToSteps": [
+      {
+        "title": "Cole ou digite",
+        "detail": "Solte uma redação, artigo, discurso ou post — a contagem começa instantaneamente."
+      },
+      {
+        "title": "Leia os contadores",
+        "detail": "Palavras, caracteres, frases, parágrafos e médias se atualizam a cada tecla."
+      },
+      {
+        "title": "Confira os tempos",
+        "detail": "As estimativas de leitura e fala dizem como o texto soará para o público."
+      },
+      {
+        "title": "Defina uma meta",
+        "detail": "Digite uma contagem-alvo de palavras e veja a barra de progresso se encher enquanto você escreve."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Contagens de palavras que realmente importam",
+        "paragraphs": [
+          "Metas diferentes contam de formas diferentes. Trabalhos escolares e universitários geralmente contam cada palavra, inclusive títulos; plataformas sociais contam caracteres (e os ponderam de formas diferentes); editoras contam as palavras do corpo do texto. Este contador mostra palavras e os dois totais de caracteres lado a lado para você atender a qualquer limite recebido.",
+          "O tamanho médio das frases é a métrica subestimada: acima de aproximadamente 20–25 palavras por frase, os leitores começam a ter dificuldade, seja qual for a contagem total. Se sua média está alta, dividir frases longas fará mais pela legibilidade do que cortar palavras."
+        ]
+      },
+      {
+        "heading": "Tempo de leitura e tempo de fala",
+        "paragraphs": [
+          "Adultos leem silenciosamente a cerca de 200–250 palavras por minuto, então um artigo de 1.000 palavras é uma leitura de aproximadamente cinco minutos — o número que os blogs exibem para definir expectativas. Falar é mais lento: apresentadores têm média de 120–150 palavras por minuto, o que significa que um roteiro de 650 palavras é uma fala de cinco minutos.",
+          "Use essas estimativas durante a redação, não depois. Saber que seu discurso está em nove minutos quando o espaço é de cinco é muito mais fácil de corrigir na fase de digitação do que no palco."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "Uma redação escolar de 500 palavras",
+        "output": "≈ 2,5 min de leitura · ≈ 4 min de apresentação",
+        "note": "Leitura a 200 ppm, fala a 130 ppm."
+      },
+      {
+        "input": "„The quick brown fox“ colado",
+        "output": "4 palavras · 19 caracteres · 1 frase",
+        "note": "As contagens se atualizam instantaneamente enquanto você digita."
+      },
+      {
+        "input": "Um rascunho de blog com meta de 1.500",
+        "output": "A barra de progresso chega a 100% com um 🎉 ao atingir a meta",
+        "note": "A meta é lembrada entre visitas."
+      }
+    ],
+    "tips": [
+      "Escreva primeiro, corte depois — ultrapasse sua meta em 10% no rascunho e depois corte para caber.",
+      "Verifique o painel de palavras mais usadas: se uma palavra domina, varie seu vocabulário ou verifique repetições acidentais.",
+      "Para Twitter/X e textos de anúncios, observe a contagem de caracteres (sem espaços é o número mais rigoroso).",
+      "Ensaie discursos contra a estimativa de tempo de fala e depois cronometre uma leitura real — seu ritmo pode ser diferente.",
+      "A meta é compartilhada com a ferramenta de Análise de Texto, então defina-a uma vez e ela vale nas duas."
+    ],
+    "faqs": [
+      {
+        "question": "Como o contador de palavras conta as palavras?",
+        "answer": "Palavras são blocos de texto separados por espaços. Palavras com hífen contam como uma, e números contam como palavras — a mesma convenção da maioria dos editores de texto."
+      },
+      {
+        "question": "Qual é a diferença entre caracteres e caracteres sem espaços?",
+        "answer": "O primeiro conta cada tecla, incluindo espaços; o segundo exclui todos os espaços em branco. Plataformas com limites rígidos (como SMS ou meta descriptions) geralmente se referem à contagem completa de caracteres."
+      },
+      {
+        "question": "Quão precisos são os tempos de leitura e de fala?",
+        "answer": "São estimativas baseadas em velocidades médias de adultos (200 ppm de leitura, 130 ppm de fala). Seu público e ritmo variam, mas elas são confiáveis para planejamento."
+      },
+      {
+        "question": "Meu texto é enviado ou salvo?",
+        "answer": "Não. A contagem acontece inteiramente no seu navegador; nada é enviado a um servidor ou armazenado. Só o número da sua meta é lembrado, localmente."
+      },
+      {
+        "question": "O Contador de Palavras é gratuito?",
+        "answer": "Sim, gratuito e ilimitado, sem cadastro."
+      }
+    ],
+    "searchIntent": "Usuários procuram um contador de palavras online que mostre palavras, caracteres e tempo de leitura de um texto instantaneamente.",
+    "keywords": [
+      "contador de palavras online",
+      "contar palavras",
+      "contador de caracteres",
+      "contar palavras de redação",
+      "tempo de leitura",
+      "contador de palavras e letras"
+    ]
+  },
+  "word-maker": {
+    "name": "Criador de Palavras",
+    "metaTitle": "Criador de Palavras — Forme Palavras com Letras | AllWordTools",
+    "metaDescription": "Criador de palavras e gerador de palavras a partir de letras gratuito: digite quaisquer letras e receba todas as palavras que você pode formar com elas, agrupadas por tamanho com pontuações de Scrabble. Palavras dentro de palavras incluídas.",
+    "eyebrow": "Resolvedores de Palavras",
+    "heading": "Criador de Palavras",
+    "subheading": "Digite quaisquer letras e este gerador de palavras constrói todas as palavras que você pode formar com elas — incluindo as palavrinhas escondidas dentro das grandes — agrupadas por tamanho com pontuações de Scrabble.",
+    "intro": [
+      "Buscas como 'gerador de palavras a partir de letras' e 'criador de palavras' estão entre as consultas de ferramentas de palavras que mais crescem na web — porque montes de letras aleatórias aparecem em todo lugar: suportes de Scrabble e Words With Friends, quebra-cabeças de anagramas, jogos de formação de palavras em sala de aula e o clássico desafio de encontrar palavras dentro de uma palavra.",
+      "Digite suas letras e o Criador de Palavras constrói todas as palavras válidas em inglês que elas contêm, dos complementos de duas letras à palavra de tamanho completo que usa todas elas (marcada com uma estrela). Cada palavra traz sua pontuação de Scrabble, os resultados são agrupados por tamanho, e uma peça em branco pode ser digitada como ? quando uma letra é desconhecida.",
+      "Os resultados vêm da mesma lista de palavras ENABLE do nosso desembaralhador, calculados instantaneamente no seu navegador. Copie qualquer palavra com um toque, salve favoritos com a estrela ou compartilhe um link que recria exatamente o mesmo resultado para um amigo."
+    ],
+    "howToTitle": "Como usar o Criador de Palavras",
+    "howToSteps": [
+      {
+        "title": "Digite suas letras",
+        "detail": "Digite as letras que você tem — duas ou mais. Use ? para uma letra em branco ou desconhecida."
+      },
+      {
+        "title": "Toque em Formar palavras",
+        "detail": "Todas as palavras que podem ser construídas a partir dessas letras aparecem, agrupadas por tamanho."
+      },
+      {
+        "title": "Encontre o grupo da estrela",
+        "detail": "O grupo mais longo usa todas as suas letras — geralmente a jogada mais valiosa."
+      },
+      {
+        "title": "Copie, salve ou compartilhe",
+        "detail": "Toque em uma palavra para copiá-la, marque-a com a estrela para salvá-la ou compartilhe o link do resultado."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Palavras dentro de palavras",
+        "paragraphs": [
+          "O resultado mais útil de um criador de palavras costuma ser o mais curto: dentro de 'creation' se escondem 'create', 'action', 'ration', 'crate', 'react' e dezenas de outras. Os jogos recompensam isso diretamente — em Scrabble e Words With Friends as palavrinhas pontuam de forma constante e abrem o tabuleiro, e em jogos de sala de aula a criança que encontra mais palavras dentro de uma palavra vence.",
+          "Os resultados aqui são agrupados do mais longo para o mais curto por esse motivo: passe pelo grupo da estrela para a grande jogada e depois desça pelos tamanhos para jogadas paralelas e ganchos. Os grupos de duas e três letras valem a memorização para quem joga palavras a sério."
+        ]
+      },
+      {
+        "heading": "Criador de Palavras x Desembaralhador de Palavras",
+        "paragraphs": [
+          "As duas ferramentas compartilham um dicionário, mas respondem a perguntas diferentes. O Desembaralhador parte de uma palavra embaralhada e encontra o que ela desembaralha; o Criador de Palavras parte de qualquer punhado de letras — um suporte de jogo, um quebra-cabeça, uma palavra longa — e gera tudo o que essas letras podem construir, palavras parciais incluídas.",
+          "Se você sabe que todas as letras pertencem a uma palavra, o desembaralhador é mais rápido. Se está explorando o que um conjunto de letras pode fazer, você está criando palavras — e esta é a ferramenta certa."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "triangle",
+        "output": "integral, relating, alerting… mais 100+ palavras mais curtas",
+        "note": "Palavras de tamanho completo são marcadas com estrela."
+      },
+      {
+        "input": "master",
+        "output": "stream, tamers, maters… + todas as palavras de 2–5 letras",
+        "note": "Suporte clássico de anagrama, totalmente explorado."
+      },
+      {
+        "input": "qu?z",
+        "output": "quiz (o curinga vira a letra que falta)",
+        "note": "? funciona como qualquer letra."
+      }
+    ],
+    "tips": [
+      "Adicione um curinga ? quando uma letra é desconhecida — os resultados se ampliam dramaticamente.",
+      "Aprenda primeiro o grupo de palavras de 2 letras do seu suporte; elas são a cola do Scrabble de alto nível.",
+      "O grupo da estrela (todas as letras usadas) rende o bônus de bingo de 50 pontos no Scrabble se todas as 7 peças forem jogadas.",
+      "Compartilhe o link do resultado ao pedir ajuda a um amigo com um suporte — ele verá exatamente as mesmas palavras.",
+      "Marque com a estrela as palavras que quer lembrar; elas se acumulam na sua Minha Lista de Palavras nas ferramentas de dicionário."
+    ],
+    "faqs": [
+      {
+        "question": "O que é um criador de palavras?",
+        "answer": "Um criador de palavras (ou gerador de palavras a partir de letras) pega qualquer conjunto de letras e lista todas as palavras em inglês que podem ser construídas com elas, incluindo palavras mais curtas que usam só algumas das letras."
+      },
+      {
+        "question": "Qual lista de palavras ele usa?",
+        "answer": "A lista ENABLE (~168.000 palavras), a mesma lista por trás do nosso desembaralhador e resolvedor de anagramas. As listas oficiais de torneios (NWL, CSW) diferem ligeiramente."
+      },
+      {
+        "question": "Posso usar uma peça em branco?",
+        "answer": "Sim — digite ? no lugar de qualquer letra desconhecida e ele valerá por todas as possibilidades."
+      },
+      {
+        "question": "Como isso difere do Desembaralhador de Palavras?",
+        "answer": "O desembaralhador mira uma palavra embaralhada; o Criador de Palavras explora tudo o que um conjunto de letras pode construir, incluindo palavras que usam só algumas letras."
+      },
+      {
+        "question": "O Criador de Palavras é gratuito?",
+        "answer": "Sim — gratuito, instantâneo e sem cadastro, rodando inteiramente no seu navegador."
+      }
+    ],
+    "searchIntent": "Usuários procuram uma ferramenta que forme todas as palavras possíveis a partir de um conjunto de letras, para Scrabble ou anagramas.",
+    "keywords": [
+      "criador de palavras com letras",
+      "gerador de palavras com letras",
+      "formar palavras com letras",
+      "palavras com letras embaralhadas",
+      "ajuda Scrabble",
+      "palavras dentro de palavras"
+    ]
+  },
+  "case-converter": {
+    "name": "Conversor de Maiúsculas e Minúsculas",
+    "metaTitle": "Conversor de Maiúsculas e Minúsculas — MAIÚSCULAS, minúsculas, Título | AllWordTools",
+    "metaDescription": "Conversor de maiúsculas e minúsculas gratuito: mude o texto para MAIÚSCULAS, minúsculas, Título, Sentença, Cada Palavra em Maiúscula, aLtErNaDo ou iNvErTiDo instantaneamente. Copie ou baixe o resultado.",
+    "eyebrow": "Análise de Texto",
+    "heading": "Conversor de Maiúsculas e Minúsculas",
+    "subheading": "Cole qualquer texto e converta entre MAIÚSCULAS, minúsculas, Título, Sentença e mais — instantaneamente, com copiar e baixar incluídos.",
+    "intro": [
+      "Acidentes de Caps Lock, títulos que precisam de formato de título, um parágrafo GRITANDO EM MAIÚSCULAS que precisa se acalmar — redigitar é a correção lenta. Este conversor reestiliza todo o seu texto com um clique: sete estilos de caixa, aplicados ao texto completo instantaneamente enquanto você alterna entre eles.",
+      "O formato Título aqui segue regras reais de manchetes, mantendo palavras pequenas como 'the', 'and' e 'of' em minúsculas no meio de um título, enquanto Cada Palavra em Maiúscula eleva todas as palavras, se é esse o estilo de que você precisa. O formato Sentença corrige parágrafos direito, capitalizando depois de pontos finais também, além do início.",
+      "Os estilos divertidos também têm seus usos: aLtErNaDo é a fonte de deboche/sarcasmo da internet, e iNvErTiDo troca a caixa de cada letra, resgatando texto digitado com o Caps Lock ligado. Copie o resultado ou baixe-o como arquivo — sem cadastro, nada é enviado."
+    ],
+    "howToTitle": "Como usar o Conversor de Maiúsculas e Minúsculas",
+    "howToSteps": [
+      {
+        "title": "Cole seu texto",
+        "detail": "Digite ou cole qualquer coisa — um título, um parágrafo, um documento inteiro."
+      },
+      {
+        "title": "Escolha uma caixa",
+        "detail": "Toque em MAIÚSCULAS, minúsculas, Título, Sentença, aLtErNaDo ou iNvErTiDo."
+      },
+      {
+        "title": "Confira a prévia",
+        "detail": "O texto convertido aparece instantaneamente abaixo; alterne as caixas para comparar."
+      },
+      {
+        "title": "Copie ou baixe",
+        "detail": "Copie o resultado para a área de transferência ou salve-o como arquivo .txt."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Título x Cada Palavra em Maiúscula",
+        "paragraphs": [
+          "Eles parecem parecidos, mas seguem regras diferentes. O formato Título (estilo AP/manchete) mantém conjunções curtas, artigos e preposições em minúsculas, a menos que comecem o título: 'The Lord of the Rings'. Cada Palavra em Maiúscula eleva tudo: 'The Lord Of The Rings' — comum em menus, botões e alguns estilos de casa.",
+          "O formato Sentença é o padrão moderno da maioria das publicações e interfaces: só a primeira palavra e os nomes próprios são capitalizados, exatamente como nesta frase. Na dúvida para textos corridos, o formato Sentença é a escolha mais segura e legível."
+        ]
+      },
+      {
+        "heading": "Quando cada caixa merece seu lugar",
+        "paragraphs": [
+          "MAIÚSCULAS servem para rótulos, avisos e títulos muito curtos — parágrafos inteiros em maiúsculas são mensuravelmente mais difíceis de ler e soam como grito online. Tudo em minúsculas virou um estilo casual deliberado em mensagens e posts sociais.",
+          "A caixa alternada sinaliza ironia ou deboche no jargão da internet, e a caixa invertida é a ferramenta de resgate: cole um texto digitado com o Caps Lock ligado e ela vira cada letra de volta à sanidade sem redigitar uma palavra."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "the quick brown fox jumps",
+        "output": "The Quick Brown Fox Jumps (Título)",
+        "note": "Palavras pequenas ficam em minúsculas no meio do título."
+      },
+      {
+        "input": "HELLO. THIS IS FINE.",
+        "output": "Hello. This is fine. (Sentença)",
+        "note": "Acidente de Caps Lock, reparado."
+      },
+      {
+        "input": "sure, great idea",
+        "output": "sUrE, gReAt IdEa (aLtErNaTiNg)",
+        "note": "A fonte de sarcasmo da internet."
+      }
+    ],
+    "tips": [
+      "Converta antes de formatar: mudanças de caixa são dolorosas de refazer depois do negrito e do layout.",
+      "Observe os nomes próprios depois da conversão para minúsculas — nomes precisarão das maiúsculas de volta.",
+      "Para títulos, decida seu estilo de casa (Título ou Sentença) uma vez e use-o em todo lugar.",
+      "Baixe o .txt ao converter documentos longos para manter uma cópia limpa.",
+      "aLtErNaTiNg reinicia seu padrão na primeira letra — cole a frase exata que você vai postar."
+    ],
+    "faqs": [
+      {
+        "question": "Entre quais caixas posso converter?",
+        "answer": "MAIÚSCULAS, minúsculas, Título, Sentença, Cada Palavra em Maiúscula, aLtErNaTiNg (alternada) e iNVERSE (invertida)."
+      },
+      {
+        "question": "O formato Título segue regras de manchete?",
+        "answer": "Sim — artigos, conjunções curtas e preposições (the, and, of, in…) ficam em minúsculas no meio de um título, combinando com o estilo editorial padrão."
+      },
+      {
+        "question": "Existe um limite de tamanho de texto?",
+        "answer": "O conversor lida com até 20.000 caracteres de uma vez — muito mais do que a maioria dos documentos precisa. Divida livros muito longos em capítulos."
+      },
+      {
+        "question": "Meu texto é enviado para algum lugar?",
+        "answer": "Não. A conversão acontece inteiramente no seu navegador."
+      },
+      {
+        "question": "O Conversor de Maiúsculas e Minúsculas é gratuito?",
+        "answer": "Sim, gratuito e ilimitado, sem cadastro."
+      }
+    ],
+    "searchIntent": "Usuários procuram uma ferramenta que converta texto entre maiúsculas, minúsculas e outros formatos com um clique.",
+    "keywords": [
+      "conversor de maiúsculas e minúsculas",
+      "texto em maiúsculas",
+      "converter para minúsculas",
+      "conversor de letras",
+      "título maiúsculas",
+      "transformar texto online"
+    ]
+  },
+  "phonetic-alphabet-converter": {
+    "name": "Conversor de Alfabeto Fonético",
+    "metaTitle": "Conversor de Alfabeto Fonético — Alfabeto Fonético da OTAN | AllWordTools",
+    "metaDescription": "Conversor de alfabeto fonético gratuito: soletre qualquer nome, palavra ou código com o alfabeto fonético da OTAN (Alfa, Bravo, Charlie) e decodifique palavras da OTAN de volta. Com reprodução de áudio.",
+    "eyebrow": "Ferramentas de Letras",
+    "heading": "Conversor de Alfabeto Fonético",
+    "subheading": "Soletre qualquer nome, indicativo ou código do jeito que pilotos e centrais de atendimento fazem — Alfa, Bravo, Charlie — com o alfabeto fonético oficial da OTAN, além de um decodificador que transforma palavras da OTAN de volta em letras.",
+    "intro": [
+      "Buscas como 'conversor de soletração fonética' chegam aqui por um motivo: soletrar um nome por uma linha telefônica com ruído é onde 'B' e 'D' causam problemas. O alfabeto fonético da OTAN resolve isso dando a cada letra uma palavra distinta e inconfundível — Alfa para A, Bravo para B, Charlie para C — usado por pilotos, militares, serviços de emergência e centrais de suporte no mundo todo.",
+      "Digite qualquer palavra, nome ou código e este conversor o soletra instantaneamente, letra por letra, com cópia em um toque e um botão 'Ouvir' que lê a soletração em voz alta. Alterne para o modo Decodificar para transformar uma sequência de palavras da OTAN de volta nas letras originais.",
+      "A tabela completa do alfabeto fica abaixo da ferramenta para referência rápida — vale aprender de cor se seu trabalho envolve soletrar nomes em chamadas."
+    ],
+    "howToTitle": "Como usar o Conversor de Alfabeto Fonético",
+    "howToSteps": [
+      {
+        "title": "Digite a palavra ou código",
+        "detail": "Um nome, um CEP, uma referência de reserva — qualquer coisa que você precise soletrar com clareza."
+      },
+      {
+        "title": "Leia a soletração",
+        "detail": "Cada letra vira sua palavra da OTAN: S-M-I-T-H vira Sierra Mike India Tango Hotel."
+      },
+      {
+        "title": "Copie ou ouça",
+        "detail": "Copie a soletração para colar em anotações ou toque em Ouvir para escutá-la antes da sua chamada."
+      },
+      {
+        "title": "Ou decodifique",
+        "detail": "Troque de modo e cole palavras da OTAN para recuperar as letras originais."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Por que as palavras da OTAN vencem o 'B de Banana'",
+        "paragraphs": [
+          "Soletrações improvisadas falham porque as palavras de apoio são tão confundíveis quanto as letras — 'M de Mandy' e 'N de Nancy' soam quase idênticas numa linha ruim. O conjunto da OTAN foi projetado e testado para que nenhuma palavra soe parecida com outra, em vários idiomas, mesmo com estática e sotaques.",
+          "É também por isso que as grafias são deliberadas: é 'Alfa' (não Alpha) e 'Juliett' com dois T, escolhidos para que falantes nativos de francês e espanhol as pronunciem corretamente. Usar as formas oficiais marca você como alguém que soletra profissionalmente."
+        ]
+      },
+      {
+        "heading": "Quando soletrar foneticamente",
+        "paragraphs": [
+          "Recorra ao alfabeto fonético sempre que a precisão vence a velocidade: nomes e endereços de e-mail em chamadas de suporte, referências de reserva e CEPs, placas de veículos, números de série de produtos e comunicação por rádio de qualquer tipo.",
+          "Leia as palavras-código num ritmo constante, uma palavra por letra, e pause entre grupos (o conversor mantém o espaçamento original). Se o outro lado ler de volta, ouça as palavras dele — não as letras — para pegar erros."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "Smith",
+        "output": "Sierra Mike India Tango Hotel",
+        "note": "Um sobrenome soletrado para uma ligação."
+      },
+      {
+        "input": "BA249",
+        "output": "Bravo Alfa Two Four Nine",
+        "note": "Dígitos também recebem palavras no estilo OTAN."
+      },
+      {
+        "input": "Decodificar: Hotel Echo Lima Lima Oscar",
+        "output": "HELLO",
+        "note": "O decodificador transforma palavras-código de volta em letras."
+      }
+    ],
+    "tips": [
+      "Soletre só a parte complicada — geralmente o sobrenome ou o código — não a frase inteira.",
+      "Diga seu próprio nome foneticamente ao reservar por telefone; isso evita a maioria dos erros de grafia.",
+      "Toque em Ouvir uma vez antes de uma chamada importante para acertar o ritmo.",
+      "Mantenha a tabela à mão: A–Z são só 26 palavras e a maioria das pessoas aprende em uma semana de chamadas.",
+      "No modo Decodificar, separe as palavras com espaços; palavras desconhecidas aparecem como '?' para você identificar erros de digitação."
+    ],
+    "faqs": [
+      {
+        "question": "O que é o alfabeto fonético da OTAN?",
+        "answer": "O alfabeto de soletração internacional de radiotelefonia: 26 palavras-código (de Alfa a Zulu) atribuídas às letras, padronizado pela OTAN e pela ICAO e usado em aviação, forças militares e comunicação de emergência."
+      },
+      {
+        "question": "Por que 'Alfa' e 'Juliett' se escrevem assim?",
+        "answer": "As grafias foram escolhidas para que falantes de muitos idiomas pronunciem as palavras com clareza — 'Alfa' evita o problema do 'ph' e 'Juliett' mantém o T final audível em francês."
+      },
+      {
+        "question": "O conversor lida com números?",
+        "answer": "Sim — os dígitos são soletrados como suas palavras em inglês (One, Two, Three…), exatamente como usado em rádio e chamadas."
+      },
+      {
+        "question": "Posso decodificar palavras da OTAN de volta em letras?",
+        "answer": "Sim. Alterne para o modo Decodificar e cole palavras-código separadas por espaços para obter o texto original de volta."
+      },
+      {
+        "question": "O Conversor de Alfabeto Fonético é gratuito?",
+        "answer": "Sim — gratuito, instantâneo, sem cadastro, e roda no seu navegador."
+      }
+    ],
+    "searchIntent": "Usuários procuram uma ferramenta que soletre palavras e códigos com o alfabeto fonético da OTAN e decodifique palavras da OTAN.",
+    "keywords": [
+      "conversor de alfabeto fonético",
+      "alfabeto fonético OTAN",
+      "soletrar com Alfa Bravo Charlie",
+      "tabela alfabeto fonético",
+      "alfabeto militar",
+      "soletrar nome por telefone"
+    ]
+  },
+  "spelling-bee-solver": {
+    "name": "Resolvedor de Spelling Bee",
+    "metaTitle": "Resolvedor de Spelling Bee — Pangramas & Pontuação Máxima | AllWordTools",
+    "metaDescription": "Resolvedor gratuito do Spelling Bee do NYT: digite as 7 letras de hoje (letra central primeiro) para encontrar todas as palavras válidas, todos os pangramas e a pontuação máxima possível. Genius, desbloqueado.",
+    "eyebrow": "Resolvedores de Jogos de Quebra-Cabeça",
+    "heading": "Resolvedor de Spelling Bee",
+    "subheading": "Digite as sete letras de hoje — a letra central primeiro — e receba todas as palavras válidas do Spelling Bee, os pangramas, os pontos por palavra e a pontuação máxima da colmeia de hoje.",
+    "intro": [
+      "O Spelling Bee do New York Times dá a você sete letras numa colmeia e uma regra que molda tudo: cada palavra deve incluir a letra central. O interesse por respostas e dicas do Spelling Bee está subindo rápido (cerca de 300% nos dados de tendência recentes), e este resolvedor faz o trabalho pesado — digite as letras, a central primeiro, e veja todas as palavras que a colmeia pode formar.",
+      "As palavras devem ter pelo menos quatro letras e podem reutilizar letras livremente, e é por isso que o resolvedor pesquisa o dicionário completo em vez de anagramas simples. Os pangramas — palavras que usam as sete letras — são destacados com seu bônus, e cada palavra mostra sua pontuação no jogo: 1 ponto para quatro letras, o tamanho da palavra para palavras mais longas, mais 7 para um pangrama.",
+      "Use-o para destravar uma corrida ao Genius, verificar uma palavra que o jogo rejeitou ou espiar o pangrama antes de começar. As letras de hoje ficam no seu histórico, então a colmeia de ontem está a um toque de distância."
+    ],
+    "howToTitle": "Como usar o Resolvedor de Spelling Bee",
+    "howToSteps": [
+      {
+        "title": "Digite a letra central primeiro",
+        "detail": "A caixa cor de mel é a letra central — toda resposta deve contê-la."
+      },
+      {
+        "title": "Adicione as seis letras externas",
+        "detail": "Preencha as caixas restantes com o resto da colmeia de hoje, em qualquer ordem."
+      },
+      {
+        "title": "Toque em Resolver a Bee",
+        "detail": "Todas as palavras válidas aparecem com seus pontos, as maiores pontuações primeiro."
+      },
+      {
+        "title": "Confira o banner do pangrama",
+        "detail": "Os pangramas ficam no topo — cada um vale seu tamanho mais 7 pontos de bônus."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Como funciona a pontuação do Spelling Bee",
+        "paragraphs": [
+          "Uma palavra de quatro letras vale exatamente 1 ponto; uma palavra de cinco ou mais letras vale seu tamanho. Um pangrama — uma palavra que usa as sete letras pelo menos uma vez — adiciona um bônus de 7 pontos por cima, e é por isso que encontrá-lo é o maior salto individual rumo a Genius e Queen Bee.",
+          "As classificações vão de Beginner passando por Good, Moving Up, Nice, Solid, Great e Amazing até Genius (70% do máximo) e Queen Bee (todas as palavras). O resolvedor mostra a pontuação máxima real da colmeia de hoje, então você sempre sabe exatamente a que distância o Genius realmente está."
+        ]
+      },
+      {
+        "heading": "Uma nota sobre a lista de palavras",
+        "paragraphs": [
+          "Este resolvedor pesquisa o dicionário ENABLE; o New York Times cura sua própria lista de respostas e rejeita algumas palavras perfeitamente reais (ela tende ao comum e ao inofensivo, e é famosamente exigente com plurais e termos obscuros).",
+          "Trate a lista como um superconjunto: quase todas as respostas da Bee estão aqui, mas uma palavra rara que o resolvedor encontra pode não ser aceita pelo jogo. Se as respostas oficiais da colmeia parecem poucas hoje, essa curadoria — não a sua ortografia — geralmente é o motivo."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "Letra central R + letras A, C, E, I, N, T",
+        "output": "Pangrama: 'certain' — 7 letras + 7 de bônus = 14 pontos",
+        "note": "Um pangrama usa cada letra pelo menos uma vez."
+      },
+      {
+        "input": "Qualquer colmeia de 7 letras",
+        "output": "Palavras agrupadas por pontuação, total máximo exibido",
+        "note": "Genius é 70% da pontuação máxima."
+      },
+      {
+        "input": "Letra central + palavras com letras repetidas",
+        "output": "Palavras no estilo 'banana' contam: as letras podem se repetir",
+        "note": "Diferente dos resolvedores de anagramas, a reutilização é permitida."
+      }
+    ],
+    "tips": [
+      "Cace o pangrama primeiro — seu bônus remodela toda a pontuação do dia.",
+      "Prefixos e sufixos multiplicam palavras: verifique as formas -ing, -ed e un- de tudo o que encontrar.",
+      "As palavras podem reutilizar letras, então duplicadoras de letras como padrões 'tattletale' são jogo limpo.",
+      "Se falta uma palavra para Queen Bee, ordene pela ordem de pontuação desta lista e compare os tamanhos das palavras com a grade do jogo.",
+      "A colmeia de ontem fica nos chips Recentes — útil se você joga com um dia de atraso."
+    ],
+    "faqs": [
+      {
+        "question": "Como digito as letras?",
+        "answer": "Coloque a letra central (amarela) na primeira caixa, cor de mel, depois as outras seis letras em qualquer ordem, e toque em Resolver a Bee."
+      },
+      {
+        "question": "O que é um pangrama no Spelling Bee?",
+        "answer": "Uma palavra que usa as sete letras pelo menos uma vez. Ela vale seu tamanho mais um bônus de 7 pontos, e toda colmeia tem pelo menos um."
+      },
+      {
+        "question": "Por que o jogo rejeitou uma palavra que o resolvedor encontrou?",
+        "answer": "O NYT usa uma lista de respostas curada e exclui algumas palavras válidas de dicionário. A lista ENABLE do resolvedor é mais ampla, então trate seus resultados como um superconjunto das respostas oficiais."
+      },
+      {
+        "question": "As letras podem ser usadas mais de uma vez?",
+        "answer": "Sim — diferente dos jogos de anagramas, as palavras do Spelling Bee podem reutilizar letras quantas vezes for preciso, desde que cada letra usada seja uma das sete e a letra central apareça."
+      },
+      {
+        "question": "O Resolvedor de Spelling Bee é gratuito?",
+        "answer": "Sim — gratuito, instantâneo e sem cadastro."
+      }
+    ],
+    "searchIntent": "Usuários procuram um resolvedor que encontre todas as palavras, pangramas e a pontuação máxima a partir das 7 letras do Spelling Bee de hoje.",
+    "keywords": [
+      "resolvedor Spelling Bee",
+      "respostas Spelling Bee hoje",
+      "pangrama Spelling Bee",
+      "dicas Spelling Bee NYT",
+      "palavras Spelling Bee",
+      "ajuda Spelling Bee"
+    ]
   }
 }
