@@ -1,11 +1,13 @@
 import { useState } from "react";
 import { useServerFn } from "@tanstack/react-start";
-import { AlertCircle, FileQuestion, Loader2, RotateCcw, Sparkles } from "lucide-react";
+import { AlertCircle, Download, FileQuestion, Loader2, RotateCcw, Sparkles } from "lucide-react";
 import { generateQuiz, type AiQuizQuestion } from "@/lib/ai-tools.functions";
 import { QuizRunner } from "./quiz/QuizRunner";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { HistoryChips, useSolverHistory } from "@/components/tools/SolverExtras";
+import { downloadText } from "@/lib/engagement";
 
 export function AiQuizGenerator() {
   const run = useServerFn(generateQuiz);
@@ -14,6 +16,7 @@ export function AiQuizGenerator() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [questions, setQuestions] = useState<AiQuizQuestion[] | null>(null);
+  const history = useSolverHistory("ai-quiz-topics");
 
   const canRun = topic.trim().length > 0 && !loading;
 
@@ -25,6 +28,7 @@ export function AiQuizGenerator() {
     try {
       const res = await run({ data: { topic: topic.trim(), count } });
       setQuestions(res.questions);
+      history.add(topic.trim());
     } catch (e) {
       setError(e instanceof Error ? e.message : "Something went wrong. Please try again.");
     } finally {
@@ -33,19 +37,34 @@ export function AiQuizGenerator() {
   }
 
   if (questions) {
+    const quizText = questions
+      .map(
+        (q, i) =>
+          `Q${i + 1}. ${q.prompt}\n${q.options.map((o) => `   - ${o}`).join("\n")}\nAnswer: ${q.answer}${q.explanation ? `\n${q.explanation}` : ""}`,
+      )
+      .join("\n\n");
     return (
       <div className="space-y-4">
         <QuizRunner build={() => questions} icon={FileQuestion} subject={topic.trim()} />
-        <Button
-          variant="ghost"
-          onClick={() => {
-            setQuestions(null);
-            setError(null);
-          }}
-          className="rounded-full"
-        >
-          <RotateCcw className="mr-1.5 h-4 w-4" /> New topic
-        </Button>
+        <div className="flex flex-wrap gap-2">
+          <Button
+            variant="outline"
+            onClick={() => downloadText("ai-quiz.txt", `Quiz: ${topic.trim()}\n\n${quizText}`)}
+            className="rounded-full"
+          >
+            <Download className="mr-1.5 h-4 w-4" /> Download quiz (.txt)
+          </Button>
+          <Button
+            variant="ghost"
+            onClick={() => {
+              setQuestions(null);
+              setError(null);
+            }}
+            className="rounded-full"
+          >
+            <RotateCcw className="mr-1.5 h-4 w-4" /> New topic
+          </Button>
+        </div>
       </div>
     );
   }
@@ -68,6 +87,12 @@ export function AiQuizGenerator() {
           }}
         />
       </div>
+
+      <HistoryChips
+        items={history.items}
+        onPick={(t) => setTopic(t)}
+        onClear={history.clear}
+      />
 
       <div className="mt-4 space-y-1.5">
         <Label htmlFor="quiz-count" className="text-xs font-semibold text-muted-foreground">

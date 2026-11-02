@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useServerFn } from "@tanstack/react-start";
 import {
   AlertCircle,
+  Check,
   ChevronLeft,
   ChevronRight,
   Layers3,
@@ -10,6 +11,7 @@ import {
   Sparkles,
 } from "lucide-react";
 import { generateFlashcards, type AiFlashcard } from "@/lib/ai-tools.functions";
+import { loadJSON, saveJSON } from "@/lib/engagement";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -23,6 +25,10 @@ export function AiFlashcards() {
   const [cards, setCards] = useState<AiFlashcard[] | null>(null);
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
+  const [marks, setMarks] = useState<Record<number, boolean>>({});
+  const [savedDeck, setSavedDeck] = useState<{ topic: string; cards: AiFlashcard[] } | null>(() =>
+    loadJSON<{ topic: string; cards: AiFlashcard[] } | null>("awt-ai-flashcards-last-v1", null),
+  );
 
   const canRun = topic.trim().length > 0 && !loading;
 
@@ -36,6 +42,10 @@ export function AiFlashcards() {
       setCards(res.cards);
       setIndex(0);
       setFlipped(false);
+      setMarks({});
+      const deck = { topic: topic.trim(), cards: res.cards };
+      saveJSON("awt-ai-flashcards-last-v1", deck);
+      setSavedDeck(deck);
     } catch (e) {
       setError(e instanceof Error ? e.message : "Something went wrong. Please try again.");
     } finally {
@@ -47,6 +57,28 @@ export function AiFlashcards() {
     if (!cards) return;
     setFlipped(false);
     setIndex((i) => (i + dir + cards.length) % cards.length);
+  }
+
+  const markedCount = Object.keys(marks).length;
+  const knownCount = Object.values(marks).filter(Boolean).length;
+  const allMarked = cards !== null && markedCount === cards.length;
+
+  function mark(knownIt: boolean) {
+    setMarks((prev) => ({ ...prev, [index]: knownIt }));
+    if (cards && index < cards.length - 1) {
+      setFlipped(false);
+      setIndex(index + 1);
+    }
+  }
+
+  function reviewUnknown() {
+    if (!cards) return;
+    const unknownIdx = cards.map((c, i) => (marks[i] ? -1 : i)).filter((i) => i >= 0);
+    if (unknownIdx.length === 0) return;
+    setCards(unknownIdx.map((i) => cards[i]));
+    setMarks({});
+    setIndex(0);
+    setFlipped(false);
   }
 
   if (cards) {
@@ -73,6 +105,42 @@ export function AiFlashcards() {
           </span>
           <span className="mt-4 text-xs text-muted-foreground">Tap to flip</span>
         </button>
+
+        <div className="mt-4">
+          <div className="flex items-center justify-between text-xs font-semibold text-muted-foreground">
+            <span>
+              Study progress: {markedCount}/{cards.length} marked · {knownCount} known
+            </span>
+            <span>{cards.length ? Math.round((markedCount / cards.length) * 100) : 0}%</span>
+          </div>
+          <div className="mt-1.5 h-2 overflow-hidden rounded-full bg-secondary">
+            <div
+              className="h-full rounded-full bg-emerald-500 transition-all"
+              style={{ width: `${(markedCount / cards.length) * 100}%` }}
+            />
+          </div>
+          {!allMarked ? (
+            <div className="mt-3 flex justify-center gap-2">
+              <Button size="sm" onClick={() => mark(true)} className="rounded-full bg-emerald-600 hover:bg-emerald-600">
+                <Check className="mr-1.5 h-4 w-4" /> I know this
+              </Button>
+              <Button size="sm" variant="outline" onClick={() => mark(false)} className="rounded-full">
+                Still learning
+              </Button>
+            </div>
+          ) : (
+            <div className="mt-3 rounded-2xl bg-emerald-500/10 px-4 py-3 text-center">
+              <p className="text-sm font-semibold text-emerald-700 dark:text-emerald-300">
+                🎉 Deck complete — you knew {knownCount} of {cards.length} cards.
+              </p>
+              {knownCount < cards.length && (
+                <Button size="sm" onClick={reviewUnknown} className="mt-2 rounded-full">
+                  Review the {cards.length - knownCount} you're still learning
+                </Button>
+              )}
+            </div>
+          )}
+        </div>
 
         <div className="mt-5 flex items-center justify-between gap-3">
           <Button variant="outline" onClick={() => go(-1)} className="rounded-full">
@@ -141,6 +209,22 @@ export function AiFlashcards() {
           </>
         )}
       </Button>
+
+      {savedDeck && savedDeck.cards.length > 0 && (
+        <Button
+          variant="outline"
+          onClick={() => {
+            setTopic(savedDeck.topic);
+            setCards(savedDeck.cards);
+            setIndex(0);
+            setFlipped(false);
+            setMarks({});
+          }}
+          className="mt-4 rounded-full"
+        >
+          <RotateCcw className="mr-1.5 h-4 w-4" /> Resume last deck: {savedDeck.topic} ({savedDeck.cards.length} cards)
+        </Button>
+      )}
 
       {error && (
         <div className="mt-5 flex items-start gap-2 rounded-xl border border-destructive/40 bg-destructive/10 p-4 text-sm text-destructive">

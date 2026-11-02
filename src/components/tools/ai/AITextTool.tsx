@@ -1,12 +1,15 @@
 import { useState, type ReactNode } from "react";
 import { useServerFn } from "@tanstack/react-start";
-import { AlertCircle, Copy, Loader2, Sparkles, X } from "lucide-react";
+import { AlertCircle, Copy, Download, History, Loader2, RefreshCw, Sparkles, Trash2, X } from "lucide-react";
 import { toast } from "sonner";
 import { runAiTool, type AiTextTask } from "@/lib/ai-tools.functions";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Input } from "@/components/ui/input";
+import { downloadText, loadJSONArray, saveJSON } from "@/lib/engagement";
+
+type HistoryEntry = { input: string; output: string; ts: number };
 
 type Config = {
   label: string;
@@ -146,6 +149,8 @@ export function AITextTool({ task }: { task: AiTextTask }) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [output, setOutput] = useState<string | null>(null);
+  const historyKey = `awt-ai-history-${task}-v1`;
+  const [history, setHistory] = useState<HistoryEntry[]>(() => loadJSONArray<HistoryEntry>(historyKey));
 
   const canRun = text.trim().length > 0 && !loading;
 
@@ -157,6 +162,14 @@ export function AITextTool({ task }: { task: AiTextTask }) {
     try {
       const res = await run({ data: { text: text.trim(), task } });
       setOutput(res.output);
+      setHistory((prev) => {
+        const next = [
+          { input: text.trim(), output: res.output, ts: Date.now() },
+          ...prev.filter((h) => h.input !== text.trim()),
+        ].slice(0, 5);
+        saveJSON(historyKey, next);
+        return next;
+      });
     } catch (e) {
       setError(e instanceof Error ? e.message : "Something went wrong. Please try again.");
     } finally {
@@ -235,21 +248,73 @@ export function AITextTool({ task }: { task: AiTextTask }) {
             <h2 className="flex items-center gap-2 font-display text-lg font-semibold">
               <Sparkles className="h-5 w-5 text-honey" /> AI result
             </h2>
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={() => {
-                navigator.clipboard?.writeText(output);
-                toast.success("Copied to clipboard");
-              }}
-              className="rounded-full"
-            >
-              <Copy className="mr-1.5 h-4 w-4" /> Copy
-            </Button>
+            <div className="flex flex-wrap gap-2">
+              <Button variant="outline" size="sm" onClick={handleRun} disabled={!canRun} className="rounded-full">
+                <RefreshCw className="mr-1.5 h-4 w-4" /> Another version
+              </Button>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => downloadText(`${task}-output.txt`, output)}
+                className="rounded-full"
+              >
+                <Download className="mr-1.5 h-4 w-4" /> .txt
+              </Button>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => {
+                  navigator.clipboard?.writeText(output);
+                  toast.success("Copied to clipboard");
+                }}
+                className="rounded-full"
+              >
+                <Copy className="mr-1.5 h-4 w-4" /> Copy
+              </Button>
+            </div>
           </div>
           <div className="mt-4 rounded-2xl bg-secondary/40 p-5">
             <Markdown text={output} />
           </div>
+        </div>
+      )}
+
+      {history.length > 0 && (
+        <div className="mt-6 border-t border-border/60 pt-5">
+          <div className="flex items-center justify-between">
+            <h3 className="inline-flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-muted-foreground">
+              <History className="h-4 w-4" /> Recent generations
+            </h3>
+            <button
+              onClick={() => {
+                setHistory([]);
+                saveJSON(historyKey, []);
+              }}
+              className="inline-flex items-center gap-1 text-xs font-semibold text-muted-foreground hover:text-destructive"
+            >
+              <Trash2 className="h-3.5 w-3.5" /> Clear history
+            </button>
+          </div>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {history.map((h) => (
+              <button
+                key={h.ts}
+                onClick={() => {
+                  setText(h.input);
+                  setOutput(h.output);
+                  setError(null);
+                }}
+                title={new Date(h.ts).toLocaleString()}
+                className="max-w-56 truncate rounded-full border border-border/70 bg-secondary/40 px-3.5 py-1.5 text-xs font-semibold transition-colors hover:border-honey/60 hover:bg-accent"
+              >
+                {h.input}
+              </button>
+            ))}
+          </div>
+          <p className="mt-2 text-xs text-muted-foreground">
+            Saved only in your browser. “Another version” regenerates fresh AI output for the same
+            input (uses one AI generation).
+          </p>
         </div>
       )}
     </div>
