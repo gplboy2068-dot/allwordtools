@@ -1,9 +1,11 @@
 import { useMemo, useState } from "react";
-import { Copy, Type, X } from "lucide-react";
+import { Copy, Target, Type, X } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
+import { Input } from "@/components/ui/input";
+import { loadJSON, saveJSON } from "@/lib/engagement";
 
 type Stats = {
   characters: number;
@@ -56,6 +58,7 @@ const STAT_LABELS: { key: keyof Stats; label: string }[] = [
 
 export function LetterCounter() {
   const [text, setText] = useState("");
+  const [goal, setGoal] = useState<number>(() => loadJSON<number>("awt-writing-goal-v1", 500));
   const { stats, frequency } = useMemo(() => analyse(text), [text]);
   const maxFreq = frequency.length ? frequency[0][1] : 0;
 
@@ -97,6 +100,44 @@ export function LetterCounter() {
         >
           <X className="mr-1.5 h-4 w-4" /> Clear
         </Button>
+      </div>
+
+      <div className="mt-6 rounded-2xl border border-border/70 bg-secondary/30 p-4">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <p className="inline-flex items-center gap-2 text-sm font-semibold">
+            <Target className="h-4 w-4 text-honey" /> Writing goal
+          </p>
+          <label className="inline-flex items-center gap-2 text-xs font-semibold text-muted-foreground">
+            Target words
+            <Input
+              type="number"
+              min={1}
+              max={100000}
+              value={goal || ""}
+              onChange={(e) => {
+                const v = Math.max(0, Number(e.target.value) || 0);
+                setGoal(v);
+                saveJSON("awt-writing-goal-v1", v);
+              }}
+              className="h-8 w-24 rounded-lg text-sm"
+            />
+          </label>
+        </div>
+        <div className="mt-3 h-3 overflow-hidden rounded-full bg-secondary">
+          <div
+            className={`h-full rounded-full transition-all ${goal > 0 && stats.words >= goal ? "bg-emerald-500" : "bg-honey"}`}
+            style={{ width: `${goal > 0 ? Math.min(100, (stats.words / goal) * 100) : 0}%` }}
+          />
+        </div>
+        <p className="mt-2 text-xs font-medium text-muted-foreground">
+          {goal > 0
+            ? stats.words >= goal
+              ? `🎉 Goal reached — ${stats.words.toLocaleString()} of ${goal.toLocaleString()} words!`
+              : `${stats.words.toLocaleString()} of ${goal.toLocaleString()} words (${Math.round((stats.words / goal) * 100)}%) — ${(goal - stats.words).toLocaleString()} to go`
+            : "Set a target to track your progress as you write."}{" "}
+          · Reading time ≈ {Math.max(1, Math.round(stats.words / 200))} min · Speaking time ≈{" "}
+          {Math.max(1, Math.round(stats.words / 130))} min
+        </p>
       </div>
 
       <div className="mt-7 grid grid-cols-2 gap-3 sm:grid-cols-4">

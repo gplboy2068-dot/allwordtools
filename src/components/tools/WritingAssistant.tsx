@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useServerFn } from "@tanstack/react-start";
-import { AlertCircle, ArrowRight, CheckCircle2, Copy, Loader2, Sparkles, X } from "lucide-react";
+import { AlertCircle, ArrowRight, Check, CheckCircle2, Columns2, Copy, Loader2, Sparkles, Wand2, X } from "lucide-react";
 import { toast } from "sonner";
 import { analyzeWriting, type WritingResult, type WritingTask } from "@/lib/writing.functions";
 import { Button } from "@/components/ui/button";
@@ -65,6 +65,9 @@ export function WritingAssistant({ task }: { task: WritingTask }) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [result, setResult] = useState<WritingResult | null>(null);
+  const [submittedText, setSubmittedText] = useState("");
+  const [compare, setCompare] = useState(false);
+  const [applied, setApplied] = useState<Set<number>>(new Set());
 
   const canRun = text.trim().length > 0 && !loading;
 
@@ -76,6 +79,9 @@ export function WritingAssistant({ task }: { task: WritingTask }) {
     try {
       const res = await run({ data: { text: text.trim(), task } });
       setResult(res);
+      setSubmittedText(text.trim());
+      setApplied(new Set());
+      setCompare(false);
     } catch (e) {
       setError(e instanceof Error ? e.message : "Something went wrong. Please try again.");
     } finally {
@@ -87,6 +93,27 @@ export function WritingAssistant({ task }: { task: WritingTask }) {
     setText("");
     setResult(null);
     setError(null);
+    setSubmittedText("");
+    setApplied(new Set());
+  }
+
+  function useCorrected() {
+    if (!result) return;
+    setText(result.corrected);
+    setResult(null);
+    setSubmittedText("");
+    setApplied(new Set());
+    toast.success("Corrected text loaded into the editor — check again any time");
+  }
+
+  function applyFix(index: number, original: string, suggestion: string) {
+    if (!text.includes(original)) {
+      toast.error("That exact text is no longer in the editor (already edited?)");
+      return;
+    }
+    setText(text.replace(original, suggestion));
+    setApplied((prev) => new Set(prev).add(index));
+    toast.success("Fix applied to your text above");
   }
 
   const hasIssues = result && result.issues.length > 0;
@@ -144,26 +171,51 @@ export function WritingAssistant({ task }: { task: WritingTask }) {
                 <CheckCircle2 className="h-5 w-5 text-honey" />
                 {cfg.cleanLabel}
               </h2>
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={() => {
-                  navigator.clipboard?.writeText(result.corrected);
-                  toast.success("Copied to clipboard");
-                }}
-                className="rounded-full"
-              >
-                <Copy className="mr-1.5 h-4 w-4" /> Copy
-              </Button>
+              <div className="flex flex-wrap gap-2">
+                <Button variant="outline" size="sm" onClick={() => setCompare(!compare)} className="rounded-full">
+                  <Columns2 className="mr-1.5 h-4 w-4" /> {compare ? "Hide compare" : "Before / after"}
+                </Button>
+                <Button size="sm" onClick={useCorrected} className="rounded-full">
+                  <Wand2 className="mr-1.5 h-4 w-4" /> Use corrected text
+                </Button>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={() => {
+                    navigator.clipboard?.writeText(result.corrected);
+                    toast.success("Copied to clipboard");
+                  }}
+                  className="rounded-full"
+                >
+                  <Copy className="mr-1.5 h-4 w-4" /> Copy
+                </Button>
+              </div>
             </div>
             {result.summary && (
               <p className="mt-2 text-sm text-muted-foreground">{result.summary}</p>
             )}
-            <Textarea
-              readOnly
-              value={result.corrected}
-              className="mt-3 min-h-32 rounded-xl bg-secondary/40 text-base"
-            />
+            {compare ? (
+              <div className="mt-3 grid gap-3 md:grid-cols-2">
+                <div>
+                  <p className="mb-1.5 text-xs font-bold uppercase tracking-wide text-muted-foreground">
+                    Before (your text)
+                  </p>
+                  <Textarea readOnly value={submittedText} className="min-h-32 rounded-xl bg-destructive/5 text-base" />
+                </div>
+                <div>
+                  <p className="mb-1.5 text-xs font-bold uppercase tracking-wide text-muted-foreground">
+                    After (corrected)
+                  </p>
+                  <Textarea readOnly value={result.corrected} className="min-h-32 rounded-xl bg-emerald-500/5 text-base" />
+                </div>
+              </div>
+            ) : (
+              <Textarea
+                readOnly
+                value={result.corrected}
+                className="mt-3 min-h-32 rounded-xl bg-secondary/40 text-base"
+              />
+            )}
           </div>
 
           {/* Issues list */}
@@ -192,6 +244,22 @@ export function WritingAssistant({ task }: { task: WritingTask }) {
                         {issue.explanation}
                       </p>
                     )}
+                    <div className="mt-3">
+                      {applied.has(i) ? (
+                        <span className="inline-flex items-center gap-1 rounded-full bg-emerald-500/10 px-3 py-1 text-xs font-bold text-emerald-600 dark:text-emerald-400">
+                          <Check className="h-3.5 w-3.5" /> Applied — re-run the check to refresh
+                        </span>
+                      ) : (
+                        <Button
+                          size="sm"
+                          variant="outline"
+                          onClick={() => applyFix(i, issue.original, issue.suggestion)}
+                          className="rounded-full"
+                        >
+                          <Wand2 className="mr-1.5 h-3.5 w-3.5" /> Apply this fix
+                        </Button>
+                      )}
+                    </div>
                   </li>
                 ))}
               </ul>
