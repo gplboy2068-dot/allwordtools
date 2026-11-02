@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { Hero } from "@/components/home/Hero";
+import { MyToolsStrip } from "@/components/site/ToolEngagement";
 import { CategoryGrid } from "@/components/home/CategoryGrid";
 import { PopularToolsShowcase } from "@/components/home/PopularToolsShowcase";
 import { BottomCta } from "@/components/site/LinkSections";
@@ -113,6 +114,7 @@ function Index() {
       <Header />
       <main>
         <Hero />
+        <MyToolsStrip />
         <CategoryGrid />
         <PopularToolsShowcase />
         <AdBanner />

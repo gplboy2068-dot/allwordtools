@@ -24,6 +24,9 @@ import { getToolReferences } from "@/lib/external-links";
 import { DiscoverMore } from "@/components/site/DiscoverMore";
 import { KeywordClusters, BottomCta } from "@/components/site/LinkSections";
 import { AdBanner } from "@/components/site/AdBanner";
+import { FavoriteButton } from "@/components/site/ToolEngagement";
+import { recordRecent } from "@/lib/engagement";
+import { useEffect } from "react";
 import { ToolMethodologyCard } from "@/components/site/ToolMethodologyCard";
 import { DisclaimerBanner } from "@/components/site/DisclaimerBanner";
 import { WordUnscrambler } from "@/components/tools/WordUnscrambler";
@@ -615,6 +618,9 @@ export function ToolPageView({
   contentOverride?: LocalizedToolContent | null;
 }) {
   const { locale } = useI18n();
+  useEffect(() => {
+    recordRecent(slug);
+  }, [slug]);
   const isDefault = locale === DEFAULT_LOCALE;
   const tool = getTool(slug)!;
   const content = mergeToolContent(toolContent[slug], contentOverride);
@@ -717,6 +723,7 @@ export function ToolPageView({
                 </>
               )}
               <ShareButton title={content?.metaTitle ?? tool.name} />
+              <FavoriteButton slug={slug} />
             </div>
 
             {/* Contextual tool disclaimer notice */}

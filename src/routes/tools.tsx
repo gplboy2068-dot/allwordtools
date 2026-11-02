@@ -3,6 +3,7 @@ import { createFileRoute, Link, useLocation } from "@tanstack/react-router";
 import { uiText } from "@/i18n/ui-template";
 import { ChevronRight, Home, Search, X } from "lucide-react";
 import { Header } from "@/components/site/Header";
+import { MyToolsStrip } from "@/components/site/ToolEngagement";
 import { Footer } from "@/components/site/Footer";
 import { ToolCard } from "@/components/site/ToolCard";
 import { KeywordClusters, BottomCta } from "@/components/site/LinkSections";
@@ -99,6 +100,7 @@ export function ToolsPage() {
     <div className="min-h-screen bg-background">
       <Header />
       <main>
+        <MyToolsStrip />
         {/* Hero */}
         <section className="gradient-hero border-b border-border/60">
           <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
