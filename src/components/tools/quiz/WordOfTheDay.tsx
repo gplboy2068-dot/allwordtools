@@ -3,6 +3,7 @@ import { Copy, RefreshCw, Volume2, type LucideIcon } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import { formatLongDate, WORD_BANK, wordForDate, type DailyEntry } from "@/lib/quiz-content";
+import { GuessTheWord } from "@/components/tools/quiz/GuessTheWord";
 
 type WordOfTheDayProps = {
   icon: LucideIcon;
@@ -42,6 +43,7 @@ export function WordOfTheDay({ icon: Icon, allowRandom = true }: WordOfTheDayPro
   };
 
   return (
+    <>
     <div className="rounded-3xl border border-border/70 bg-card p-6 shadow-lift sm:p-8">
       <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-honey">
         <Icon className="h-4 w-4" />
@@ -82,5 +84,7 @@ export function WordOfTheDay({ icon: Icon, allowRandom = true }: WordOfTheDayPro
         )}
       </div>
     </div>
+    <GuessTheWord entry={today} />
+    </>
   );
 }

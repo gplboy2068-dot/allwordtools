@@ -1,7 +1,15 @@
 import { ListChecks } from "lucide-react";
-import { QuizRunner } from "@/components/tools/quiz/QuizRunner";
-import { buildSuffixQuestions } from "@/lib/quiz-content";
+import { GameRunner } from "@/components/tools/quiz/GameRunner";
+import { buildSuffixGameQuestions } from "@/lib/quiz-content";
 
 export function SuffixQuiz() {
-  return <QuizRunner build={() => buildSuffixQuestions(8)} icon={ListChecks} subject="suffix" />;
+  return (
+    <GameRunner
+      subjectKey="suffix"
+      title="Suffix Quiz"
+      icon={ListChecks}
+      build={buildSuffixGameQuestions}
+      toolPath="/tool/suffix-quiz"
+    />
+  );
 }
