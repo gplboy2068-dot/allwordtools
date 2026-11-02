@@ -16,6 +16,8 @@ import {
   type LucideIcon,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { useI18n } from "@/i18n/I18nProvider";
+import { uiText } from "@/i18n/ui-template";
 import { Button } from "@/components/ui/button";
 import {
   mulberry32,
@@ -83,6 +85,13 @@ const MODE_META: Record<Mode, { title: string; blurb: string; icon: LucideIcon }
   },
 };
 
+const MODE_KEY: Record<Mode, string> = {
+  classic: "classic",
+  reverse: "reverse",
+  daily: "daily",
+  endless: "endless",
+};
+
 export function GameRunner({
   subjectKey,
   title,
@@ -98,6 +107,8 @@ export function GameRunner({
   /** e.g. "/tool/vocabulary-quiz" for share links */
   toolPath: string;
 }) {
+  const { locale } = useI18n();
+  const t = (key: string, fallback: string) => uiText(locale, key, fallback);
   const statsKey = `awt-quiz-${subjectKey}-v1`;
   const [screen, setScreen] = useState<Screen>("menu");
   const [mode, setMode] = useState<Mode>("classic");
@@ -268,7 +279,7 @@ export function GameRunner({
             <Icon className="h-6 w-6" />
           </div>
           <div>
-            <h2 className="font-display text-xl font-semibold sm:text-2xl">Choose your challenge</h2>
+            <h2 className="font-display text-xl font-semibold sm:text-2xl">{t("game.choose", "Choose your challenge")}</h2>
             <p className="text-sm text-muted-foreground">
               Timer on · streaks earn bonus points · your best scores are saved
             </p>
@@ -279,17 +290,17 @@ export function GameRunner({
           <div className="mt-5 flex flex-wrap gap-2 text-xs font-semibold">
             {stats.dailyStreak > 0 && (
               <span className="inline-flex items-center gap-1 rounded-full bg-orange-500/10 px-3 py-1.5 text-orange-600 dark:text-orange-400">
-                <Flame className="h-3.5 w-3.5" /> {stats.dailyStreak}-day streak
+                <Flame className="h-3.5 w-3.5" /> {stats.dailyStreak}-{t("game.dayStreak", "day streak")}
               </span>
             )}
             {stats.bestStreak > 0 && (
               <span className="inline-flex items-center gap-1 rounded-full bg-secondary px-3 py-1.5 text-muted-foreground">
-                <Trophy className="h-3.5 w-3.5" /> Best streak: {stats.bestStreak}
+                <Trophy className="h-3.5 w-3.5" /> {t("game.bestStreak", "Best streak")}: {stats.bestStreak}
               </span>
             )}
             {stats.games > 0 && (
               <span className="inline-flex items-center gap-1 rounded-full bg-secondary px-3 py-1.5 text-muted-foreground">
-                <ListChecks className="h-3.5 w-3.5" /> {stats.games} games played
+                <ListChecks className="h-3.5 w-3.5" /> {stats.games} {t("game.gamesPlayed", "games played")}
               </span>
             )}
           </div>
@@ -297,7 +308,7 @@ export function GameRunner({
 
         <div className="mt-4">
           <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-            Difficulty (Classic & Reverse modes)
+            {t("game.difficulty", "Difficulty (Classic & Reverse modes)")}
           </p>
           <div className="mt-2 flex gap-2">
             {(["easy", "medium", "hard"] as QuizLevel[]).map((lv) => (
@@ -311,7 +322,7 @@ export function GameRunner({
                     : "border-border/70 bg-secondary/40 text-muted-foreground hover:border-honey/50",
                 )}
               >
-                {lv}
+                {t(`game.${lv}`, lv)}
               </button>
             ))}
           </div>
@@ -332,21 +343,21 @@ export function GameRunner({
                   {m === "daily" ? (
                     dailyDoneToday ? (
                       <span className="inline-flex items-center gap-1 rounded-full bg-emerald-500/10 px-2.5 py-1 text-[11px] font-bold text-emerald-600 dark:text-emerald-400">
-                        <Check className="h-3 w-3" /> Done today
+                        <Check className="h-3 w-3" /> {t("game.doneToday", "Done today")}
                       </span>
                     ) : (
                       <span className="rounded-full bg-honey/15 px-2.5 py-1 text-[11px] font-bold text-honey">
-                        New today
+                        {t("game.newToday", "New today")}
                       </span>
                     )
                   ) : stats.best[m] !== undefined ? (
                     <span className="text-[11px] font-bold text-muted-foreground">
-                      Best: {stats.best[m]} pts
+                      {t("game.best", "Best")}: {stats.best[m]} {t("game.pts", "pts")}
                     </span>
                   ) : null}
                 </div>
-                <p className="mt-2.5 font-display text-base font-semibold">{meta.title}</p>
-                <p className="mt-0.5 text-sm text-muted-foreground">{meta.blurb}</p>
+                <p className="mt-2.5 font-display text-base font-semibold">{t(`game.${MODE_KEY[m]}`, meta.title)}</p>
+                <p className="mt-0.5 text-sm text-muted-foreground">{t(`game.${MODE_KEY[m]}Blurb`, meta.blurb)}</p>
                 <p className="mt-2 inline-flex items-center gap-1 text-xs font-semibold text-muted-foreground">
                   <Timer className="h-3.5 w-3.5" /> {TIME_PER_Q}s per question
                   {m === "endless" && (
@@ -376,41 +387,41 @@ export function GameRunner({
           </div>
           <h2 className="mt-4 font-display text-2xl font-semibold">{badge}</h2>
           <p className="mt-1 text-sm text-muted-foreground">
-            {MODE_META[mode].title} · {title}
+            {t(`game.${MODE_KEY[mode]}`, MODE_META[mode].title)} · {title}
             {mode === "daily" && stats.dailyStreak > 0 ? ` · 🔥 ${stats.dailyStreak}-day streak` : ""}
           </p>
           <p className="mt-5 font-display text-5xl font-bold text-honey">{points}</p>
-          <p className="text-sm text-muted-foreground">points</p>
+          <p className="text-sm text-muted-foreground">{t("game.points", "points")}</p>
           <div className="mx-auto mt-5 grid max-w-md grid-cols-3 gap-3 text-center">
             <div className="rounded-2xl bg-secondary/50 p-3">
               <p className="font-display text-lg font-bold">
                 {correctCount}/{totalAnswered}
               </p>
-              <p className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">Correct</p>
+              <p className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">{t("game.correct", "Correct")}</p>
             </div>
             <div className="rounded-2xl bg-secondary/50 p-3">
               <p className="font-display text-lg font-bold">{accuracy}%</p>
-              <p className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">Accuracy</p>
+              <p className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">{t("game.accuracy", "Accuracy")}</p>
             </div>
             <div className="rounded-2xl bg-secondary/50 p-3">
               <p className="font-display inline-flex items-center gap-1 text-lg font-bold">
                 <Flame className="h-4 w-4 text-orange-500" /> {runBestStreak}
               </p>
-              <p className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">Best streak</p>
+              <p className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">{t("game.bestStreak", "Best streak")}</p>
             </div>
           </div>
         </div>
 
         {mistakes.length > 0 && (
           <div className="mt-7 border-t border-border/60 pt-5">
-            <h3 className="font-display text-base font-semibold">Review your mistakes ({mistakes.length})</h3>
+            <h3 className="font-display text-base font-semibold">{t("game.reviewMistakes", "Review your mistakes")} ({mistakes.length})</h3>
             <ul className="mt-3 divide-y divide-border/50">
               {mistakes.map((m, i) => (
                 <li key={i} className="py-2.5 text-sm">
                   <p className="font-medium">{m.q.prompt}</p>
-                  <p className="text-xs text-destructive">You answered: {m.given}</p>
+                  <p className="text-xs text-destructive">{t("game.youAnswered", "You answered")}: {m.given}</p>
                   <p className="text-xs text-emerald-600 dark:text-emerald-400">
-                    Correct: {m.q.answer}
+                    {t("game.correctAnswer", "Correct")}: {m.q.answer}
                     {m.q.explanation ? ` — ${m.q.explanation}` : ""}
                   </p>
                 </li>
@@ -422,7 +433,7 @@ export function GameRunner({
                 className="mt-3 rounded-2xl"
                 onClick={() => startGame("classic", level, mistakes.map((m) => m.q))}
               >
-                <RotateCcw className="mr-2 h-4 w-4" /> Practise your mistakes ({mistakes.length} questions)
+                <RotateCcw className="mr-2 h-4 w-4" /> {t("game.practiseMistakes", "Practise your mistakes")} ({mistakes.length})
               </Button>
             )}
           </div>
@@ -430,19 +441,19 @@ export function GameRunner({
 
         <div className="mt-7 flex flex-wrap justify-center gap-3">
           <Button onClick={() => startGame(mode, level)} className="h-12 rounded-2xl px-6 font-semibold">
-            <RotateCcw className="mr-2 h-5 w-5" /> Play again
+            <RotateCcw className="mr-2 h-5 w-5" /> {t("game.playAgain", "Play again")}
           </Button>
           <Button variant="outline" onClick={() => setScreen("menu")} className="h-12 rounded-2xl px-6 font-semibold">
-            Change mode
+            {t("game.changeMode", "Change mode")}
           </Button>
           <Button variant="outline" onClick={doShare} className="h-12 rounded-2xl px-6 font-semibold">
             {shared ? (
               <>
-                <Check className="mr-2 h-5 w-5" /> Copied!
+                <Check className="mr-2 h-5 w-5" /> {t("game.copied", "Copied!")}
               </>
             ) : (
               <>
-                <Share2 className="mr-2 h-5 w-5" /> Share result
+                <Share2 className="mr-2 h-5 w-5" /> {t("game.shareResult", "Share result")}
               </>
             )}
           </Button>
@@ -459,9 +470,9 @@ export function GameRunner({
     <div className="rounded-3xl border border-border/70 bg-card p-5 shadow-lift sm:p-7">
       <div className="flex flex-wrap items-center justify-between gap-2 text-xs font-semibold text-muted-foreground">
         <span>
-          {MODE_META[mode].title}
-          {mode !== "endless" && ` · Question ${index + 1} of ${questions.length}`}
-          {mode === "endless" && ` · Question ${index + 1}`}
+          {t(`game.${MODE_KEY[mode]}`, MODE_META[mode].title)}
+          {mode !== "endless" && ` · ${t("game.question", "Question")} ${index + 1} ${t("game.of", "of")} ${questions.length}`}
+          {mode === "endless" && ` · ${t("game.question", "Question")} ${index + 1}`}
         </span>
         <span className="inline-flex items-center gap-3">
           {streak >= 2 && (
@@ -532,7 +543,13 @@ export function GameRunner({
         <div className="mt-5 border-t border-border/60 pt-5">
           {current.explanation && <p className="text-sm text-muted-foreground">{current.explanation}</p>}
           <Button onClick={next} className="mt-4 h-11 rounded-2xl px-7 font-semibold">
-            {mode === "endless" ? (lives <= 0 ? "See results" : "Next question") : isLastFixed ? "See results" : "Next question"}
+            {mode === "endless"
+              ? lives <= 0
+                ? t("game.seeResults", "See results")
+                : t("game.next", "Next question")
+              : isLastFixed
+                ? t("game.seeResults", "See results")
+                : t("game.next", "Next question")}
           </Button>
         </div>
       )}

@@ -17,6 +17,8 @@ import {
   X,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { useI18n } from "@/i18n/I18nProvider";
+import { uiText } from "@/i18n/ui-template";
 import { Button } from "@/components/ui/button";
 import {
   mulberry32,
@@ -158,6 +160,8 @@ const ALL_LEVELS: SpellLevel[] = ["easy", "medium", "hard"];
 /* ------------------------------------------------------------------ */
 
 export function SpellingQuiz() {
+  const { locale } = useI18n();
+  const t = (key: string, fallback: string) => uiText(locale, key, fallback);
   const [screen, setScreen] = useState<Screen>("menu");
   const [mode, setMode] = useState<Mode>("classic");
   const [level, setLevel] = useState<SpellLevel>("medium");
@@ -511,22 +515,26 @@ export function SpellingQuiz() {
                   {m === "daily" &&
                     (stats.dailyDoneToday ? (
                       <span className="inline-flex items-center gap-1 rounded-full bg-emerald-500/10 px-2.5 py-1 text-[11px] font-bold text-emerald-600 dark:text-emerald-400">
-                        <Check className="h-3 w-3" /> Done today
+                        <Check className="h-3 w-3" /> {t("game.doneToday", "Done today")}
                       </span>
                     ) : (
                       <span className="rounded-full bg-honey/15 px-2.5 py-1 text-[11px] font-bold text-honey">
-                        New today
+                        {t("game.newToday", "New today")}
                       </span>
                     ))}
                   {m !== "daily" && stats.best[m] !== undefined && (
                     <span className="text-[11px] font-bold text-muted-foreground">
-                      Best: {stats.best[m]} pts
+                      {t("game.best", "Best")}: {stats.best[m]} {t("game.pts", "pts")}
                     </span>
                   )}
                 </div>
-                <p className="mt-2.5 font-display text-base font-semibold">{meta.title}</p>
+                <p className="mt-2.5 font-display text-base font-semibold">
+                  {t(m === "listen" ? "game.listen" : `game.${m}`, meta.title)}
+                </p>
                 <p className="mt-0.5 text-sm text-muted-foreground">
-                  {disabled ? "Your browser does not support audio playback for this mode." : meta.blurb}
+                  {disabled
+                    ? "Your browser does not support audio playback for this mode."
+                    : t(m === "listen" ? "game.listenBlurb" : `game.${m}Blurb`, meta.blurb)}
                 </p>
                 <p className="mt-2 inline-flex items-center gap-1 text-xs font-semibold text-muted-foreground">
                   <Timer className="h-3.5 w-3.5" /> {TIME_LIMIT[m]}s per word

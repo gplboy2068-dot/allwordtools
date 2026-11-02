@@ -25,6 +25,7 @@ import { DiscoverMore } from "@/components/site/DiscoverMore";
 import { KeywordClusters, BottomCta } from "@/components/site/LinkSections";
 import { AdBanner } from "@/components/site/AdBanner";
 import { FavoriteButton } from "@/components/site/ToolEngagement";
+import { DailyChallengeBand } from "@/components/site/DailyChallenges";
 import { recordRecent } from "@/lib/engagement";
 import { useEffect } from "react";
 import { ToolMethodologyCard } from "@/components/site/ToolMethodologyCard";
@@ -730,6 +731,7 @@ export function ToolPageView({
             <DisclaimerBanner slug={slug} className="mt-5" />
 
             {/* Interactive tool */}
+            <DailyChallengeBand />
             <div className="mt-8">
               {slug === "word-unscrambler" ? (
                 <WordUnscrambler />
