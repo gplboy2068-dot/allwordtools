@@ -232,89 +232,158 @@ export const buildSuffixQuestions = (count = 8) => buildAffixQuestions(SUFFIXES,
 /* Spelling                                                           */
 /* ------------------------------------------------------------------ */
 
-export type SpellItem = { correct: string; wrong: string[]; hint: string };
+export type SpellLevel = "easy" | "medium" | "hard";
+export type SpellItem = { correct: string; wrong: string[]; hint: string; level: SpellLevel };
 
 export const SPELLING: SpellItem[] = [
   {
-    correct: "accommodate",
+    correct: "accommodate", level: "medium",
     wrong: ["accomodate", "acommodate", "accommadate"],
     hint: "to provide room or adapt to",
   },
-  { correct: "definitely", wrong: ["definately", "definitly", "definetly"], hint: "without doubt" },
-  { correct: "separate", wrong: ["seperate", "separete", "seperete"], hint: "to set apart" },
+  { correct: "definitely", level: "medium", wrong: ["definately", "definitly", "definetly"], hint: "without doubt" },
+  { correct: "separate", level: "medium", wrong: ["seperate", "separete", "seperete"], hint: "to set apart" },
   {
-    correct: "necessary",
+    correct: "necessary", level: "medium",
     wrong: ["neccessary", "necesary", "neccesary"],
     hint: "required or essential",
   },
   {
-    correct: "embarrass",
+    correct: "embarrass", level: "medium",
     wrong: ["embarass", "embarass", "embarras"],
     hint: "to cause to feel awkward",
   },
   {
-    correct: "occurrence",
+    correct: "occurrence", level: "hard",
     wrong: ["occurence", "ocurrence", "occurrance"],
     hint: "an event or incident",
   },
-  { correct: "rhythm", wrong: ["rythm", "rhythem", "rhytm"], hint: "a regular pattern of beats" },
+  { correct: "rhythm", level: "hard", wrong: ["rythm", "rhythem", "rhytm"], hint: "a regular pattern of beats" },
   {
-    correct: "conscience",
+    correct: "conscience", level: "hard",
     wrong: ["concience", "conscence", "consciense"],
     hint: "sense of right and wrong",
   },
   {
-    correct: "privilege",
+    correct: "privilege", level: "medium",
     wrong: ["priviledge", "privelege", "privilage"],
     hint: "a special advantage",
   },
   {
-    correct: "maintenance",
+    correct: "maintenance", level: "medium",
     wrong: ["maintainance", "maintenence", "maintanance"],
     hint: "the act of keeping in good order",
   },
   {
-    correct: "recommend",
+    correct: "recommend", level: "medium",
     wrong: ["reccommend", "recomend", "reccomend"],
     hint: "to advise or suggest",
   },
   {
-    correct: "beginning",
+    correct: "beginning", level: "easy",
     wrong: ["begining", "beginnning", "begginning"],
     hint: "the start of something",
   },
-  { correct: "believe", wrong: ["beleive", "belive", "beleeve"], hint: "to accept as true" },
+  { correct: "believe", level: "easy", wrong: ["beleive", "belive", "beleeve"], hint: "to accept as true" },
   {
-    correct: "calendar",
+    correct: "calendar", level: "medium",
     wrong: ["calender", "calandar", "calenndar"],
     hint: "a chart of days and months",
   },
   {
-    correct: "government",
+    correct: "government", level: "medium",
     wrong: ["goverment", "governement", "govenment"],
     hint: "the ruling body of a state",
   },
   {
-    correct: "pronunciation",
+    correct: "pronunciation", level: "hard",
     wrong: ["pronounciation", "pronunciaton", "prononciation"],
     hint: "the way a word is spoken",
   },
   {
-    correct: "existence",
+    correct: "existence", level: "medium",
     wrong: ["existance", "existense", "exsistence"],
     hint: "the state of being",
   },
-  { correct: "grateful", wrong: ["greatful", "gratefull", "gratful"], hint: "feeling thankful" },
+  { correct: "grateful", level: "easy", wrong: ["greatful", "gratefull", "gratful"], hint: "feeling thankful" },
   {
-    correct: "mischievous",
+    correct: "mischievous", level: "hard",
     wrong: ["mischievious", "mischevous", "mischevious"],
     hint: "playfully causing trouble",
   },
   {
-    correct: "possession",
+    correct: "possession", level: "medium",
     wrong: ["posession", "possesion", "possetion"],
     hint: "something owned",
   },
+
+  /* --- Easy additions --- */
+  { correct: "because", level: "easy", wrong: ["becouse", "becuse", "becuase"], hint: "for the reason that" },
+  { correct: "friend", level: "easy", wrong: ["freind", "frind", "friedn"], hint: "a person you like and trust" },
+  { correct: "beautiful", level: "easy", wrong: ["beautifull", "beautyful", "beautifel"], hint: "pleasing to look at" },
+  { correct: "different", level: "easy", wrong: ["differant", "diffrent", "diferrent"], hint: "not the same" },
+  { correct: "family", level: "easy", wrong: ["famly", "familey", "famely"], hint: "parents and children together" },
+  { correct: "school", level: "easy", wrong: ["scool", "schol", "shcool"], hint: "a place where children learn" },
+  { correct: "people", level: "easy", wrong: ["peopel", "poeple", "peple"], hint: "human beings in general" },
+  { correct: "really", level: "easy", wrong: ["realy", "relly", "reely"], hint: "in fact; very" },
+  { correct: "tomorrow", level: "easy", wrong: ["tommorow", "tomorow", "tommorrow"], hint: "the day after today" },
+  { correct: "important", level: "easy", wrong: ["importent", "inportant", "importtant"], hint: "of great value or meaning" },
+  { correct: "question", level: "easy", wrong: ["quesion", "quetion", "questoin"], hint: "something you ask" },
+  { correct: "enough", level: "easy", wrong: ["enuf", "enogh", "enought"], hint: "as much as needed" },
+  { correct: "animal", level: "easy", wrong: ["animel", "animmal", "animall"], hint: "a living creature that can move" },
+  { correct: "again", level: "easy", wrong: ["agein", "agian", "againe"], hint: "one more time" },
+  { correct: "always", level: "easy", wrong: ["allways", "alway", "allway"], hint: "at all times" },
+  { correct: "before", level: "easy", wrong: ["befor", "bifore", "befour"], hint: "earlier than" },
+  /* --- Medium additions --- */
+  { correct: "achieve", level: "medium", wrong: ["acheive", "achiev", "acheeve"], hint: "to succeed in reaching a goal" },
+  { correct: "address", level: "medium", wrong: ["adress", "addres", "adres"], hint: "the place where someone lives" },
+  { correct: "business", level: "medium", wrong: ["buisness", "busines", "bussiness"], hint: "trade or a company" },
+  { correct: "environment", level: "medium", wrong: ["enviroment", "environement", "enviornment"], hint: "the natural world around us" },
+  { correct: "foreign", level: "medium", wrong: ["foriegn", "forein", "forigen"], hint: "from another country" },
+  { correct: "guarantee", level: "medium", wrong: ["garantee", "gaurantee", "guarrantee"], hint: "a firm promise or assurance" },
+  { correct: "immediate", level: "medium", wrong: ["imediate", "immediat", "immidiate"], hint: "happening right away" },
+  { correct: "knowledge", level: "medium", wrong: ["knowlege", "knwoledge", "knowledg"], hint: "what a person knows" },
+  { correct: "library", level: "medium", wrong: ["libary", "librery", "libarry"], hint: "a place full of books" },
+  { correct: "persuade", level: "medium", wrong: ["persaude", "pursuade", "persuede"], hint: "to convince someone" },
+  { correct: "receipt", level: "medium", wrong: ["reciept", "receit", "reseipt"], hint: "proof that you paid for something" },
+  { correct: "secretary", level: "medium", wrong: ["secratary", "secretery", "secertary"], hint: "a person who handles office work" },
+  { correct: "sincerely", level: "medium", wrong: ["sincerly", "sincerley", "sinscerely"], hint: "in a truthful, honest way" },
+  { correct: "vegetable", level: "medium", wrong: ["vegtable", "vegetible", "vegatable"], hint: "a plant eaten as food" },
+  { correct: "weather", level: "medium", wrong: ["weatherr", "wheather", "wethere"], hint: "rain, sun, wind and temperature outside" },
+  { correct: "Wednesday", level: "medium", wrong: ["Wendsday", "Wednsday", "Wenesday"], hint: "the fourth day of the week (capitalised)" },
+  { correct: "publicly", level: "medium", wrong: ["publically", "publicaly", "publlicly"], hint: "in front of everyone; openly" },
+  { correct: "argument", level: "medium", wrong: ["arguement", "argumant", "arguemant"], hint: "a disagreement or a reason given" },
+  { correct: "discipline", level: "medium", wrong: ["disipline", "dicipline", "disciplene"], hint: "training to follow rules" },
+  { correct: "familiar", level: "medium", wrong: ["familar", "familliar", "familier"], hint: "well known to you" },
+  { correct: "forty", level: "medium", wrong: ["fourty", "fortty", "fortey"], hint: "the number 40" },
+  { correct: "particular", level: "medium", wrong: ["particuler", "particullar", "particalar"], hint: "one specific one" },
+  { correct: "promise", level: "medium", wrong: ["promiss", "promice", "promisse"], hint: "to say you will definitely do something" },
+  { correct: "success", level: "medium", wrong: ["sucess", "succes", "sucsess"], hint: "achieving what you aimed for" },
+  { correct: "truly", level: "medium", wrong: ["truely", "trully", "trueley"], hint: "really and honestly" },
+  { correct: "until", level: "medium", wrong: ["untill", "untile", "unttil"], hint: "up to a certain time" },
+  { correct: "tongue", level: "medium", wrong: ["tounge", "tonguee", "tonggue"], hint: "the organ in your mouth; a language" },
+  { correct: "amateur", level: "medium", wrong: ["amature", "amatuer", "ameuter"], hint: "someone who does something for love, not pay" },
+  /* --- Hard additions --- */
+  { correct: "vacuum", level: "hard", wrong: ["vaccum", "vacum", "vaccuum"], hint: "a space with no air; also a cleaner" },
+  { correct: "questionnaire", level: "hard", wrong: ["questionaire", "questionnair", "quesionnaire"], hint: "a set of written questions for a survey" },
+  { correct: "liaison", level: "hard", wrong: ["liason", "liaision", "liaeson"], hint: "close cooperation between people or groups" },
+  { correct: "millennium", level: "hard", wrong: ["millenium", "milennium", "milleniam"], hint: "a period of one thousand years" },
+  { correct: "threshold", level: "hard", wrong: ["threshhold", "treshold", "thresshold"], hint: "the level at which something begins" },
+  { correct: "bureaucracy", level: "hard", wrong: ["beaurocracy", "burocracy", "bureacracy"], hint: "administration through many departments and rules" },
+  { correct: "conscientious", level: "hard", wrong: ["conciencious", "conscientous", "consientious"], hint: "careful and thorough about your work" },
+  { correct: "entrepreneur", level: "hard", wrong: ["entreprenuer", "entreprenur", "enterpreneur"], hint: "a person who starts a business" },
+  { correct: "idiosyncrasy", level: "hard", wrong: ["idiosyncracy", "ideosyncrasy", "idosyncrasy"], hint: "a peculiar habit or characteristic" },
+  { correct: "onomatopoeia", level: "hard", wrong: ["onomatopeia", "onomatopia", "onomatopea"], hint: "a word that imitates a sound, like 'buzz'" },
+  { correct: "pharmaceutical", level: "hard", wrong: ["pharmaseutical", "pharmaceuticle", "pharmecuetical"], hint: "relating to medicinal drugs" },
+  { correct: "pneumonia", level: "hard", wrong: ["neumonia", "pneumona", "pneomonia"], hint: "a serious lung infection" },
+  { correct: "pseudonym", level: "hard", wrong: ["psuedonym", "pseudonim", "psudonym"], hint: "a false name used by an author" },
+  { correct: "rendezvous", level: "hard", wrong: ["rendevous", "rendezvu", "rendezvou"], hint: "a meeting at an agreed time and place" },
+  { correct: "silhouette", level: "hard", wrong: ["silouette", "sillhouette", "silohuette"], hint: "a dark outline against a light background" },
+  { correct: "supersede", level: "hard", wrong: ["supercede", "superseed", "supersed"], hint: "to take the place of something older" },
+  { correct: "diarrhea", level: "hard", wrong: ["diarhea", "diarrea", "diarrheaa"], hint: "an illness causing frequent loose stools" },
+  { correct: "chandelier", level: "hard", wrong: ["chandalier", "chandilier", "chandeleer"], hint: "a large decorative hanging light" },
+  { correct: "kaleidoscope", level: "hard", wrong: ["kaliedoscope", "kaleidescope", "kaledoscope"], hint: "a tube of mirrors making changing patterns" },
+  { correct: "paraphernalia", level: "hard", wrong: ["paraphenalia", "parafernalia", "paraphernala"], hint: "the equipment needed for an activity" },
 ];
 
 export function buildSpellingQuestions(count = 8): QuizQuestion[] {
@@ -529,4 +598,48 @@ export function formatLongDate(date = new Date()): string {
     month: "long",
     day: "numeric",
   });
+}
+
+/* ------------------------------------------------------------------ */
+/* Spelling game helpers (levels, seeded daily set, endless pool)     */
+/* ------------------------------------------------------------------ */
+
+export type Rng = () => number;
+
+export function mulberry32(seed: number): Rng {
+  let a = seed >>> 0;
+  return () => {
+    a |= 0;
+    a = (a + 0x6d2b79f5) | 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+export function seedFromString(str: string): number {
+  let h = 2166136261;
+  for (let i = 0; i < str.length; i++) {
+    h ^= str.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return h >>> 0;
+}
+
+export function shuffleWith<T>(arr: T[], rng: Rng): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+export function spellingPool(levels: SpellLevel[]): SpellItem[] {
+  return SPELLING.filter((w) => levels.includes(w.level));
+}
+
+/** Pick `count` unique spelling items from the given levels. */
+export function pickSpellingItems(count: number, levels: SpellLevel[], rng: Rng = Math.random): SpellItem[] {
+  return shuffleWith(spellingPool(levels), rng).slice(0, count);
 }
