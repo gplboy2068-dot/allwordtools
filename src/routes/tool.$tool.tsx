@@ -32,6 +32,13 @@ import { ToolMethodologyCard } from "@/components/site/ToolMethodologyCard";
 import { DisclaimerBanner } from "@/components/site/DisclaimerBanner";
 import { WordUnscrambler } from "@/components/tools/WordUnscrambler";
 import { AnagramSolver } from "@/components/tools/AnagramSolver";
+import { WordMaker } from "@/components/tools/WordMaker";
+import { SpellingBeeSolver } from "@/components/tools/SpellingBeeSolver";
+import { UsernameGenerator } from "@/components/tools/UsernameGenerator";
+import { WordCounterTool } from "@/components/tools/WordCounterTool";
+import { CaseConverter } from "@/components/tools/CaseConverter";
+import { FancyTextGenerator } from "@/components/tools/FancyTextGenerator";
+import { PhoneticAlphabet } from "@/components/tools/PhoneticAlphabet";
 import { WordFinder } from "@/components/tools/WordFinder";
 import { WordleSolver } from "@/components/tools/WordleSolver";
 import { CrosswordSolver } from "@/components/tools/CrosswordSolver";
@@ -737,6 +744,20 @@ export function ToolPageView({
                 <WordUnscrambler />
               ) : slug === "anagram-solver" ? (
                 <AnagramSolver />
+              ) : slug === "word-maker" ? (
+                <WordMaker />
+              ) : slug === "spelling-bee-solver" ? (
+                <SpellingBeeSolver />
+              ) : slug === "username-generator" ? (
+                <UsernameGenerator />
+              ) : slug === "word-counter" ? (
+                <WordCounterTool />
+              ) : slug === "case-converter" ? (
+                <CaseConverter />
+              ) : slug === "fancy-text-generator" ? (
+                <FancyTextGenerator />
+              ) : slug === "phonetic-alphabet-converter" ? (
+                <PhoneticAlphabet />
               ) : slug === "word-finder" ? (
                 <WordFinder />
               ) : slug === "wordle-solver" ? (

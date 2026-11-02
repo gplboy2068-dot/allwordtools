@@ -38,6 +38,678 @@ export type ToolContent = {
 };
 
 export const toolContent: Record<string, ToolContent> = {
+  "username-generator": {
+    slug: "username-generator",
+    metaTitle: "Username Generator — Aesthetic & Gaming Usernames | AllWordTools",
+    metaDescription: "Free username generator for Instagram, TikTok, Roblox, Discord and gaming. Enter a keyword and get aesthetic, cool and gaming username ideas instantly. No sign-up.",
+    eyebrow: "Name Generators",
+    heading: "Username Generator",
+    subheading: "Type a name or keyword and get dozens of aesthetic, gaming, cool and professional username ideas for Instagram, TikTok, Roblox, Discord and YouTube — instantly, with searches for Instagram usernames up over 1,500% this year.",
+    updated: "November 2, 2026",
+    readingMinutes: 4,
+    intro: [
+      "Every account starts with a username, and the good ones are always taken. This username generator turns one or two keywords — your name, a nickname, a favourite word — into dozens of fresh combinations using styles, separators, decorations and numbers, so you can find a handle that sounds like you and still stands a chance of being available.",
+      "Choose a vibe first: aesthetic usernames are soft and minimal for Instagram and TikTok, gaming usernames add leet-speak and edge for Roblox, Discord and Twitch, cool usernames stay short and confident, and professional usernames keep things clean for work and business profiles. Tap any idea to copy it.",
+      "The generator runs entirely in your browser. It does not check availability (only each platform can do that), but generating in batches makes it fast to shortlist five or six favourites and test them where it matters.",
+    ],
+    howToTitle: "How to use the Username Generator",
+    howToSteps: [
+      {
+        title: "Enter a keyword",
+        detail: "Start with your name, a nickname or a word you love. Add a second keyword to mix and match.",
+      },
+      {
+        title: "Pick a style",
+        detail: "Aesthetic, gaming, cool or professional — each style uses its own decorations and patterns.",
+      },
+      {
+        title: "Toggle numbers",
+        detail: "Numbers make a taken name available again; switch them off for a cleaner look.",
+      },
+      {
+        title: "Copy and check",
+        detail: "Tap a username to copy it, then check availability on your platform. Hit Fresh ideas for a new batch.",
+      },
+    ],
+    sections: [
+      {
+        heading: "What makes a username stick",
+        paragraphs: [
+          "The usernames people remember are short, pronounceable and easy to type from memory. Aim for something a friend could spell after hearing it once, avoid long strings of numbers, and keep separators to one style — a single dot or underscore reads far better than a mix of symbols.",
+          "Consistency is the hidden prize: the same handle on Instagram, TikTok, YouTube and Discord makes you findable everywhere and looks professional on a profile or a business card. Generate a batch here, then check your favourite across all your platforms before you commit.",
+        ],
+      },
+      {
+        heading: "Aesthetic, gaming or professional?",
+        paragraphs: [
+          "Aesthetic usernames lean on soft words (moon, aura, bloom), gentle separators and lowercase everything — the look that dominates Instagram and Pinterest right now. Gaming usernames go the other way: sharper words, xX frames, leet substitutions (a→4, e→3, o→0) and short punchy cores that read well on a kill feed.",
+          "Professional usernames drop the decoration almost entirely: the real name plus a role, studio or 'official' marker. If you are building a personal brand, generate in the cool or professional style and keep the number short or drop it completely.",
+        ],
+      },
+    ],
+    examples: [
+      {
+        input: "luna",
+        output: "@soft.luna · @itsluna_ · @lunabloom",
+        note: "Aesthetic style from a single keyword.",
+      },
+      {
+        input: "pixel + gaming style",
+        output: "@xXp1xelXx · @pixelstorm99 · @itzpixel",
+        note: "Gaming style adds leet-speak and frames.",
+      },
+      {
+        input: "aarav + sharma (professional)",
+        output: "@aaravsharma · @theaaravsharma · @aaravsharma.co",
+        note: "Professional style keeps it clean.",
+      },
+    ],
+    tips: [
+      "Generate in batches and shortlist 5–6 names before checking availability anywhere.",
+      "Say the username out loud — if it is hard to say, it is hard to share.",
+      "One separator style (all dots or all underscores) looks cleaner than mixing both.",
+      "Avoid dates of birth and personal details in public usernames.",
+      "Check the same handle on every platform you use, even ones you might join later.",
+    ],
+    faqs: [
+      {
+        question: "Does the generator check if a username is available?",
+        answer: "No — availability lives inside each platform, so check your shortlist on Instagram, TikTok or the game itself. Generating many options first makes this quick.",
+      },
+      {
+        question: "What is an aesthetic username?",
+        answer: "A soft, minimal handle built from gentle words, lowercase letters and light separators, popular on Instagram and TikTok — for example @soft.luna or @peachyaura.",
+      },
+      {
+        question: "How do I make a gaming username?",
+        answer: "Pick the gaming style: it adds sharper vocabulary, optional leet-speak (letters swapped for numbers) and xX-style frames used on Roblox, Discord and Twitch.",
+      },
+      {
+        question: "Can I use two keywords?",
+        answer: "Yes. Enter a second keyword and the generator will combine both in different orders and patterns.",
+      },
+      {
+        question: "Is the Username Generator free?",
+        answer: "Yes, completely free with no sign-up, and it runs in your browser — your keywords never leave your device.",
+      },
+    ],
+  },
+  "fancy-text-generator": {
+    slug: "fancy-text-generator",
+    metaTitle: "Fancy Text Generator — Stylish Fonts Copy & Paste | AllWordTools",
+    metaDescription: "Free fancy text generator: turn your words into bold, script, cursive, bubble, tiny, squared and vaporwave fonts to copy and paste into Instagram bios, Discord, WhatsApp and games.",
+    eyebrow: "Text Analysis",
+    heading: "Fancy Text Generator",
+    subheading: "Type once and get your text in 16 stylish Unicode fonts — bold, script, cursive, Gothic, bubble, tiny, squared, vaporwave, strikethrough and upside down — ready to copy and paste anywhere.",
+    updated: "November 2, 2026",
+    readingMinutes: 4,
+    intro: [
+      "Fancy text is how a plain name or bio turns into a style statement. This generator restyles anything you type into 16 different Unicode fonts at once: elegant script for an Instagram bio, Gothic fraktur for a gaming profile, bubble letters for a fun post, tiny superscript for a subtle caption, or full-width vaporwave for pure retro energy.",
+      "These are not images or special fonts you install — they are real Unicode characters, which is why they paste straight into Instagram, TikTok, Discord, WhatsApp, YouTube comments and game profiles and keep their style. Tap any style to copy it.",
+      "Everything happens in your browser as you type, so you can experiment freely. Try your name first: short text shows off the decorative styles best.",
+    ],
+    howToTitle: "How to use the Fancy Text Generator",
+    howToSteps: [
+      {
+        title: "Type your text",
+        detail: "Enter a name, bio line or short phrase — all 16 styles update live as you type.",
+      },
+      {
+        title: "Compare the styles",
+        detail: "Scroll through bold, script, bubble, tiny, squared, vaporwave, upside-down and more.",
+      },
+      {
+        title: "Tap to copy",
+        detail: "Click the style you like and it is copied to your clipboard.",
+      },
+      {
+        title: "Paste it anywhere",
+        detail: "Drop it into your bio, username, post or status — the style travels with the characters.",
+      },
+    ],
+    sections: [
+      {
+        heading: "How fancy text actually works",
+        paragraphs: [
+          "Unicode contains whole alphabets of styled letters — mathematical bold, script, fraktur, double-struck, circled and full-width characters — originally created for maths and publishing. Social apps render them as ordinary text, so a 'font generator' is really a character mapper: it swaps each normal letter for its styled Unicode twin.",
+          "That trick has two consequences worth knowing. First, fancy text works almost everywhere, including places that forbid formatting. Second, screen readers and search engines may read the characters as symbols rather than letters, so keep fancy styling for names, bios and decoration — not for important information like contact details.",
+        ],
+      },
+      {
+        heading: "Choosing the right style",
+        paragraphs: [
+          "Script and bold script read as premium and feminine — the classic Instagram-bio look. Fraktur (Gothic) and double-struck suit gaming tags and music profiles. Bubble and squared letters are playful and stand out in comments, while tiny superscript text is the quiet flex used in captions and Discord statuses.",
+          "Strikethrough, underline and slashed styles are functional as well as decorative: use them to show edits, cross out completed goals in a post, or add emphasis in a plain-text chat. Vaporwave full-width text is pure aesthetic — pair it with short phrases for maximum effect.",
+        ],
+      },
+    ],
+    examples: [
+      {
+        input: "dreamer",
+        output: "𝒹𝓇ℯ𝒶𝓂ℯ𝓇 (Script)",
+        note: "Soft script for bios and captions.",
+      },
+      {
+        input: "shadow",
+        output: "𝔰𝔥𝔞𝔡𝔬𝔴 (Fraktur)",
+        note: "Gothic letters for gaming profiles.",
+      },
+      {
+        input: "good vibes",
+        output: "ⓖⓞⓞⓓ ⓥⓘⓑⓔⓢ (Bubble)",
+        note: "Bubble letters for fun posts.",
+      },
+    ],
+    tips: [
+      "Short text shows fancy styles best — a name or a few words, not whole paragraphs.",
+      "Preview on the actual app: a few very old devices may show boxes for rare styles like squared letters.",
+      "Do not use fancy text for passwords or anything that must be typed back exactly.",
+      "Keep your email address and phone number in normal text so everyone (and every screen reader) can use them.",
+      "Combine one fancy line with normal lines in a bio — contrast makes the fancy line pop.",
+    ],
+    faqs: [
+      {
+        question: "Is fancy text a font I need to install?",
+        answer: "No. The styles are Unicode characters, not fonts, so they copy and paste into apps as-is with nothing to install.",
+      },
+      {
+        question: "Where can I paste fancy text?",
+        answer: "Instagram, TikTok, Discord, WhatsApp, Telegram, YouTube, X and most game profiles all accept it, because it is ordinary text at the character level.",
+      },
+      {
+        question: "Why do some styles show boxes on my phone?",
+        answer: "A few devices lack glyphs for the rarest alphabets (like squared letters). Bold, script and bubble styles have the widest support.",
+      },
+      {
+        question: "Can I use fancy text in my username?",
+        answer: "Often yes on display names. Some platforms restrict actual login usernames to plain letters — in that case use the fancy version for your display name or bio instead.",
+      },
+      {
+        question: "Is the Fancy Text Generator free?",
+        answer: "Yes — free, unlimited and no sign-up. Your text never leaves your browser.",
+      },
+    ],
+  },
+  "word-counter": {
+    slug: "word-counter",
+    metaTitle: "Word Counter — Count Words, Characters & Reading Time | AllWordTools",
+    metaDescription: "Free online word counter: count words, characters, sentences and paragraphs instantly as you type, plus reading time, speaking time, keyword density and a writing goal tracker.",
+    eyebrow: "Text Analysis",
+    heading: "Word Counter",
+    subheading: "Paste or type any text and get an instant word count with characters, sentences, paragraphs, reading and speaking time, your most-used words — and a writing goal bar that fills as you work.",
+    updated: "November 2, 2026",
+    readingMinutes: 4,
+    intro: [
+      "Whether it is a 500-word essay, a 1,500-word article or a two-minute speech, writing to a target means counting constantly. This word counter counts as you type — no button to press — and shows far more than the total: characters with and without spaces, sentences, paragraphs, average sentence length and your longest word.",
+      "It also estimates how long the text takes to read (at a typical 200 words per minute) and to say out loud (around 130 words per minute), which is the fastest way to sanity-check a speech, a video script or a presentation. The most-used words panel doubles as a quick keyword-density check for SEO writing.",
+      "Set a writing goal and the progress bar fills live — the same bar is shared with our Text Analysis tool, so your target follows you. Everything runs privately in your browser; your text is never uploaded.",
+    ],
+    howToTitle: "How to use the Word Counter",
+    howToSteps: [
+      {
+        title: "Paste or type",
+        detail: "Drop in an essay, article, speech or post — counting starts instantly.",
+      },
+      {
+        title: "Read the counters",
+        detail: "Words, characters, sentences, paragraphs and averages update on every keystroke.",
+      },
+      {
+        title: "Check the times",
+        detail: "Reading and speaking estimates tell you how the text will land with an audience.",
+      },
+      {
+        title: "Set a goal",
+        detail: "Enter a target word count and watch the progress bar fill as you write.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Word counts that actually matter",
+        paragraphs: [
+          "Different targets count differently. School and university assignments usually count every word including headings; social platforms count characters (and weight them differently); publishers count the words in the body text. This counter shows words and both character totals side by side so you can match whatever limit you were given.",
+          "Average sentence length is the sleeper metric: above roughly 20–25 words per sentence, readers start to struggle, whatever the total count. If your average is high, splitting long sentences will do more for readability than cutting words.",
+        ],
+      },
+      {
+        heading: "Reading time and speaking time",
+        paragraphs: [
+          "Adults read silently at about 200–250 words per minute, so a 1,000-word article is roughly a five-minute read — the number blogs display to set expectations. Speaking is slower: presenters average 120–150 words per minute, which means a 650-word script is a five-minute talk.",
+          "Use these estimates while drafting, not after. Knowing your speech is running at nine minutes when the slot is five is far easier to fix at the typing stage than on stage.",
+        ],
+      },
+    ],
+    examples: [
+      {
+        input: "A 500-word school essay",
+        output: "≈ 2.5 min to read · ≈ 4 min to present",
+        note: "Reading at 200 wpm, speaking at 130 wpm.",
+      },
+      {
+        input: "\"The quick brown fox\" pasted in",
+        output: "4 words · 19 characters · 1 sentence",
+        note: "Counts update instantly as you type.",
+      },
+      {
+        input: "A blog draft with goal 1,500",
+        output: "Progress bar fills to 100% with a 🎉 at target",
+        note: "The goal is remembered between visits.",
+      },
+    ],
+    tips: [
+      "Write first, trim second — overshoot your target by 10% in the draft, then cut to fit.",
+      "Check the most-used words panel: if one word dominates, vary your vocabulary or check for accidental repetition.",
+      "For Twitter/X and ad copy, watch the character count (no-spaces is the stricter number).",
+      "Rehearse speeches against the speaking-time estimate, then time one real read-through — your pace may differ.",
+      "The goal is shared with the Text Analysis tool, so set it once and it applies in both.",
+    ],
+    faqs: [
+      {
+        question: "How does the word counter count words?",
+        answer: "Words are blocks of text separated by spaces. Hyphenated words count as one, and numbers count as words — the same convention as most word processors.",
+      },
+      {
+        question: "What is the difference between characters and characters without spaces?",
+        answer: "The first counts every keystroke including spaces; the second excludes all whitespace. Platforms with strict limits (like SMS or meta descriptions) usually mean the full character count.",
+      },
+      {
+        question: "How accurate are the reading and speaking times?",
+        answer: "They are estimates based on average adult speeds (200 wpm reading, 130 wpm speaking). Your audience and pace will vary, but they are reliable for planning.",
+      },
+      {
+        question: "Does my text get uploaded or saved?",
+        answer: "No. Counting happens entirely in your browser; nothing is sent to a server or stored. Only your goal number is remembered, locally.",
+      },
+      {
+        question: "Is the Word Counter free?",
+        answer: "Yes, free and unlimited, with no sign-up.",
+      },
+    ],
+  },
+  "word-maker": {
+    slug: "word-maker",
+    metaTitle: "Word Maker — Make Words From Letters | AllWordTools",
+    metaDescription: "Free word maker and word generator from letters: enter any letters and get every word you can make from them, grouped by length with Scrabble scores. Words within words included.",
+    eyebrow: "Word Solvers",
+    heading: "Word Maker",
+    subheading: "Enter any letters and this word generator builds every word you can make from them — including the small words hiding inside big ones — grouped by length with Scrabble scores.",
+    updated: "November 2, 2026",
+    readingMinutes: 4,
+    intro: [
+      "Searches like 'word generator from letters' and 'word maker' are among the fastest-growing word-tool queries on the web — because racks of random letters show up everywhere: Scrabble and Words With Friends racks, anagram puzzles, classroom word-building games, and the classic challenge of finding words within a word.",
+      "Type your letters and the Word Maker builds every valid English word they contain, from two-letter fillers to the full-length word that uses them all (marked with a star). Each word carries its Scrabble score, results are grouped by length, and a blank tile can be entered as ? when a letter is unknown.",
+      "Results come from the same ENABLE word list as our unscrambler, computed instantly in your browser. Copy any word with a tap, save favourites with the star, or share a link that recreates the exact same result for a friend.",
+    ],
+    howToTitle: "How to use the Word Maker",
+    howToSteps: [
+      {
+        title: "Enter your letters",
+        detail: "Type the letters you have — two or more. Use ? for a blank or unknown letter.",
+      },
+      {
+        title: "Tap Make words",
+        detail: "Every word that can be built from those letters appears, grouped by length.",
+      },
+      {
+        title: "Spot the star group",
+        detail: "The longest group uses all your letters — usually the highest-value play.",
+      },
+      {
+        title: "Copy, save or share",
+        detail: "Tap a word to copy it, star it to save it, or share the result link.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Words within words",
+        paragraphs: [
+          "The most useful output of a word maker is often the shortest: inside 'creation' hide 'create', 'action', 'ration', 'crate', 'react' and dozens more. Games reward this directly — in Scrabble and Words With Friends the small words score steadily and open the board, and in classroom games the child who finds the most words inside a word wins.",
+          "Results here are grouped longest-first for that reason: scan the star group for the big play, then work down the lengths for parallel plays and hooks. The two- and three-letter groups are worth memorising for serious word-game play.",
+        ],
+      },
+      {
+        heading: "Word Maker vs Word Unscrambler",
+        paragraphs: [
+          "The two tools share a dictionary but answer different questions. The Unscrambler starts from a jumbled word and finds what it unscrambles to; the Word Maker starts from any handful of letters — a game rack, a puzzle, a long word — and generates everything those letters can build, partial words included.",
+          "If you know all the letters belong to one word, the unscrambler is faster. If you are exploring what a set of letters can do, you are making words — and this is the right tool.",
+        ],
+      },
+    ],
+    examples: [
+      {
+        input: "triangle",
+        output: "integral, relating, alerting… plus 100+ shorter words",
+        note: "Full-length words are starred.",
+      },
+      {
+        input: "master",
+        output: "stream, tamers, maters… + all 2–5 letter words",
+        note: "Classic anagram rack, fully explored.",
+      },
+      {
+        input: "qu?z",
+        output: "quiz (blank becomes the missing letter)",
+        note: "? works as any letter.",
+      },
+    ],
+    tips: [
+      "Add a ? blank when one letter is unknown — results widen dramatically.",
+      "Learn the 2-letter word group for your rack first; they are the glue of high-level Scrabble.",
+      "The star group (all letters used) earns the 50-point bingo bonus in Scrabble if all 7 tiles are played.",
+      "Share the result link when asking a friend for help with a rack — they will see the exact same words.",
+      "Star words you want to remember; they collect in your My Word List on the dictionary tools.",
+    ],
+    faqs: [
+      {
+        question: "What is a word maker?",
+        answer: "A word maker (or word generator from letters) takes any set of letters and lists every English word that can be built from them, including shorter words that use only some of the letters.",
+      },
+      {
+        question: "Which word list does it use?",
+        answer: "The ENABLE list (~168,000 words), the same list behind our unscrambler and anagram solver. Official tournament lists (NWL, CSW) differ slightly.",
+      },
+      {
+        question: "Can I use a blank tile?",
+        answer: "Yes — type ? in place of any unknown letter and it will stand for every possibility.",
+      },
+      {
+        question: "How is this different from the Word Unscrambler?",
+        answer: "The unscrambler targets one jumbled word; the Word Maker explores everything a set of letters can build, including words that use only some letters.",
+      },
+      {
+        question: "Is the Word Maker free?",
+        answer: "Yes — free, instant and no sign-up, running entirely in your browser.",
+      },
+    ],
+  },
+  "case-converter": {
+    slug: "case-converter",
+    metaTitle: "Case Converter — UPPERCASE, lowercase, Title Case | AllWordTools",
+    metaDescription: "Free case converter: change text to UPPERCASE, lowercase, Title Case, Sentence case, Capitalize Each Word, aLtErNaTiNg or iNVERSE case instantly. Copy or download the result.",
+    eyebrow: "Text Analysis",
+    heading: "Case Converter",
+    subheading: "Paste any text and convert it between UPPERCASE, lowercase, Title Case, Sentence case and more — instantly, with copy and download built in.",
+    updated: "November 2, 2026",
+    readingMinutes: 4,
+    intro: [
+      "Caps Lock accidents, headlines that need title case, a paragraph SHOUTING IN CAPITALS that needs calming down — retyping is the slow fix. This case converter restyles your whole text in one click: seven case styles, applied to the full text instantly as you switch between them.",
+      "Title Case here follows real headline rules, keeping small words like 'the', 'and' and 'of' lowercase in the middle of a headline, while Capitalize Each Word raises every word if that is the style you need. Sentence case fixes paragraphs properly, capitalising after full stops as well as at the start.",
+      "The playful styles have their uses too: aLtErNaTiNg case is the internet's mocking/sarcastic font, and iNVERSE swaps every letter's case, rescuing text typed with Caps Lock held down. Copy the result or download it as a file — no sign-up, nothing uploaded.",
+    ],
+    howToTitle: "How to use the Case Converter",
+    howToSteps: [
+      {
+        title: "Paste your text",
+        detail: "Type or paste anything — a headline, a paragraph, a whole document.",
+      },
+      {
+        title: "Pick a case",
+        detail: "Tap UPPERCASE, lowercase, Title Case, Sentence case, aLtErNaTiNg or iNVERSE.",
+      },
+      {
+        title: "Check the preview",
+        detail: "The converted text appears instantly below; switch cases to compare.",
+      },
+      {
+        title: "Copy or download",
+        detail: "Copy the result to your clipboard or save it as a .txt file.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Title Case vs Capitalize Each Word",
+        paragraphs: [
+          "They look similar but follow different rules. Title Case (AP/headline style) keeps short conjunctions, articles and prepositions lowercase unless they start the headline: 'The Lord of the Rings'. Capitalize Each Word raises everything: 'The Lord Of The Rings' — common in menus, buttons and some house styles.",
+          "Sentence case is the modern default for most publications and interfaces: only the first word and proper nouns are capitalised, exactly like this sentence. When in doubt for body text, sentence case is the safest, most readable choice.",
+        ],
+      },
+      {
+        heading: "When each case earns its place",
+        paragraphs: [
+          "UPPERCASE is for labels, warnings and very short headings — whole paragraphs in capitals are measurably harder to read and read as shouting online. Lowercase-everything has become a deliberate casual style in messaging and social posts.",
+          "Alternating case signals irony or mockery in internet slang, and inverse case is the rescue tool: paste text typed with Caps Lock on and it flips every letter back to sanity without retyping a word.",
+        ],
+      },
+    ],
+    examples: [
+      {
+        input: "the quick brown fox jumps",
+        output: "The Quick Brown Fox Jumps (Title Case)",
+        note: "Small words stay lowercase mid-headline.",
+      },
+      {
+        input: "HELLO. THIS IS FINE.",
+        output: "Hello. This is fine. (Sentence case)",
+        note: "Caps Lock accident, repaired.",
+      },
+      {
+        input: "sure, great idea",
+        output: "sUrE, gReAt IdEa (aLtErNaTiNg)",
+        note: "The internet's sarcasm font.",
+      },
+    ],
+    tips: [
+      "Convert before you format: case changes are painful to redo after bolding and layout.",
+      "Watch proper nouns after lowercase conversion — names will need their capitals back.",
+      "For headlines, decide your house style (Title vs Sentence) once and use it everywhere.",
+      "Download the .txt when converting long documents so you keep a clean copy.",
+      "aLtErNaTiNg restarts its pattern at the first letter — paste the exact phrase you will post.",
+    ],
+    faqs: [
+      {
+        question: "What cases can I convert between?",
+        answer: "UPPERCASE, lowercase, Title Case, Sentence case, Capitalize Each Word, aLtErNaTiNg (alternating) and iNVERSE (swapped) case.",
+      },
+      {
+        question: "Does Title Case follow headline rules?",
+        answer: "Yes — articles, short conjunctions and prepositions (the, and, of, in…) stay lowercase in the middle of a headline, matching standard editorial style.",
+      },
+      {
+        question: "Is there a limit on text length?",
+        answer: "The converter handles up to 20,000 characters at once — far more than most documents need. Split very long books into chapters.",
+      },
+      {
+        question: "Is my text uploaded anywhere?",
+        answer: "No. Conversion happens entirely in your browser.",
+      },
+      {
+        question: "Is the Case Converter free?",
+        answer: "Yes, free and unlimited with no sign-up.",
+      },
+    ],
+  },
+  "phonetic-alphabet-converter": {
+    slug: "phonetic-alphabet-converter",
+    metaTitle: "Phonetic Alphabet Converter — NATO Spelling Alphabet | AllWordTools",
+    metaDescription: "Free phonetic alphabet converter: spell any name, word or code with the NATO phonetic alphabet (Alfa, Bravo, Charlie) and decode NATO words back. With audio playback.",
+    eyebrow: "Letter Tools",
+    heading: "Phonetic Alphabet Converter",
+    subheading: "Spell any name, callsign or code the way pilots and call centres do — Alfa, Bravo, Charlie — with the official NATO phonetic alphabet, plus a decoder that turns NATO words back into letters.",
+    updated: "November 2, 2026",
+    readingMinutes: 4,
+    intro: [
+      "Searches like 'phonetic spelling converter' land here for one reason: spelling a name over a crackly phone line is where 'B' and 'D' go to cause trouble. The NATO phonetic alphabet fixes it by giving every letter a distinct, unmistakable word — Alfa for A, Bravo for B, Charlie for C — used by pilots, the military, emergency services and support desks worldwide.",
+      "Type any word, name or code and this converter spells it instantly, letter by letter, with a one-tap copy and a 'Hear it' button that reads the spelling aloud. Flip to Decode mode to turn a string of NATO words back into the original letters.",
+      "The full alphabet chart sits below the tool for quick reference — worth learning by heart if your job involves spelling names on calls.",
+    ],
+    howToTitle: "How to use the Phonetic Alphabet Converter",
+    howToSteps: [
+      {
+        title: "Enter the word or code",
+        detail: "A name, a postcode, a booking reference — anything you need to spell out clearly.",
+      },
+      {
+        title: "Read the spelling",
+        detail: "Each letter becomes its NATO word: S-M-I-T-H becomes Sierra Mike India Tango Hotel.",
+      },
+      {
+        title: "Copy or listen",
+        detail: "Copy the spelling to paste into notes, or tap Hear it to listen before your call.",
+      },
+      {
+        title: "Or decode",
+        detail: "Switch mode and paste NATO words to recover the original letters.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Why NATO words beat 'B for Banana'",
+        paragraphs: [
+          "Improvised spellings fail because the helper words are as confusable as the letters — 'M for Mandy' and 'N for Nancy' sound nearly identical on a bad line. The NATO set was engineered and tested so that no two words sound alike, in several languages, even through static and accents.",
+          "That is also why the spellings are deliberate: it is 'Alfa' (not Alpha) and 'Juliett' with a double T, chosen so native speakers of French and Spanish pronounce them correctly. Using the official forms marks you out as someone who spells things for a living.",
+        ],
+      },
+      {
+        heading: "When to spell phonetically",
+        paragraphs: [
+          "Reach for the phonetic alphabet whenever accuracy beats speed: names and email addresses on support calls, booking references and postcodes, vehicle registrations, product serial numbers, and radio communication of any kind.",
+          "Read the codewords in a steady rhythm, one word per letter, and pause between groups (the converter keeps the original spacing). If the other side reads it back, listen for their words — not the letters — to catch mistakes.",
+        ],
+      },
+    ],
+    examples: [
+      {
+        input: "Smith",
+        output: "Sierra Mike India Tango Hotel",
+        note: "A surname spelled for a phone call.",
+      },
+      {
+        input: "BA249",
+        output: "Bravo Alfa Two Four Nine",
+        note: "Digits get NATO-style words too.",
+      },
+      {
+        input: "Decode: Hotel Echo Lima Lima Oscar",
+        output: "HELLO",
+        note: "Decoder turns codewords back into letters.",
+      },
+    ],
+    tips: [
+      "Spell only the tricky part — usually the surname or the code — not the whole sentence.",
+      "Say your own name phonetically when booking by phone; it prevents most misspellings.",
+      "Tap Hear it once before an important call to get the rhythm right.",
+      "Keep the chart handy: A–Z is only 26 words and most people learn it in a week of calls.",
+      "In Decode mode, separate words with spaces; unknown words show as '?' so you can spot typos.",
+    ],
+    faqs: [
+      {
+        question: "What is the NATO phonetic alphabet?",
+        answer: "The international radiotelephony spelling alphabet: 26 codewords (Alfa to Zulu) assigned to the letters, standardised by NATO and the ICAO and used in aviation, military and emergency communication.",
+      },
+      {
+        question: "Why is it 'Alfa' and 'Juliett' spelled that way?",
+        answer: "The spellings were chosen so speakers of many languages pronounce the words clearly — 'Alfa' avoids the 'ph' problem and 'Juliett' keeps the final T audible in French.",
+      },
+      {
+        question: "Does the converter handle numbers?",
+        answer: "Yes — digits are spelled as their English words (One, Two, Three…), exactly as used on radio and calls.",
+      },
+      {
+        question: "Can I decode NATO words back to letters?",
+        answer: "Yes. Switch to Decode mode and paste space-separated codewords to get the original text back.",
+      },
+      {
+        question: "Is the Phonetic Alphabet Converter free?",
+        answer: "Yes — free, instant, no sign-up, and it runs in your browser.",
+      },
+    ],
+  },
+  "spelling-bee-solver": {
+    slug: "spelling-bee-solver",
+    metaTitle: "Spelling Bee Solver — Pangrams & Max Score | AllWordTools",
+    metaDescription: "Free NYT Spelling Bee solver: enter today's 7 letters (centre letter first) to find every valid word, all pangrams and the maximum possible score. Genius, unlocked.",
+    eyebrow: "Puzzle Game Solvers",
+    heading: "Spelling Bee Solver",
+    subheading: "Enter today's seven letters — centre letter first — and get every valid Spelling Bee word, the pangrams, per-word points and the maximum score for today's hive.",
+    updated: "November 2, 2026",
+    readingMinutes: 4,
+    intro: [
+      "The New York Times Spelling Bee gives you seven letters in a hive and one rule that shapes everything: every word must include the centre letter. Interest in Spelling Bee answers and hints is rising fast (up around 300% in recent trend data), and this solver does the heavy lifting — enter the letters, centre first, and see every word the hive can make.",
+      "Words must be at least four letters and may reuse letters freely, which is why the solver searches the full dictionary rather than simple anagrams. Pangrams — words using all seven letters — are highlighted with their bonus, and every word shows its game score: 1 point for four letters, the word's length for longer words, plus 7 for a pangram.",
+      "Use it to unstick a Genius run, to verify a word the game rejected, or to peek at the pangram before you start. Today's letters stay in your history, so yesterday's hive is one tap away.",
+    ],
+    howToTitle: "How to use the Spelling Bee Solver",
+    howToSteps: [
+      {
+        title: "Type the centre letter first",
+        detail: "The honey-coloured box is the centre letter — every answer must contain it.",
+      },
+      {
+        title: "Add the six outer letters",
+        detail: "Fill the remaining boxes with the rest of today's hive, in any order.",
+      },
+      {
+        title: "Tap Solve the Bee",
+        detail: "Every valid word appears with its points, highest scorers first.",
+      },
+      {
+        title: "Check the pangram banner",
+        detail: "Pangrams sit at the top — each one is worth its length plus 7 bonus points.",
+      },
+    ],
+    sections: [
+      {
+        heading: "How Spelling Bee scoring works",
+        paragraphs: [
+          "A four-letter word scores exactly 1 point; a word of five or more letters scores its length. A pangram — a word using all seven letters at least once — adds a 7-point bonus on top, which is why finding it is the single biggest leap toward Genius and Queen Bee.",
+          "Ranks run from Beginner through Good, Moving Up, Nice, Solid, Great and Amazing to Genius (70% of the maximum) and Queen Bee (every word). The solver shows the true maximum score for today's hive, so you always know exactly how far Genius really is.",
+        ],
+      },
+      {
+        heading: "A note on the word list",
+        paragraphs: [
+          "This solver searches the ENABLE dictionary; the New York Times curates its own answer list and rejects some perfectly real words (it skews common and inoffensive, and famously picky about plurals and obscure terms).",
+          "Treat the list as a superset: nearly every Bee answer is here, but a rare word the solver finds may not be accepted by the game. If the hive's official answers feel short today, that curation — not your spelling — is usually why.",
+        ],
+      },
+    ],
+    examples: [
+      {
+        input: "Centre R + letters A, C, E, I, N, T",
+        output: "Pangram: 'certain' — 7 letters + 7 bonus = 14 points",
+        note: "A pangram uses every letter at least once.",
+      },
+      {
+        input: "Any 7-letter hive",
+        output: "Words grouped by score, max total shown",
+        note: "Genius is 70% of the maximum score.",
+      },
+      {
+        input: "Centre letter + repeated-letter words",
+        output: "'banana'-style words count: letters may repeat",
+        note: "Unlike anagram solvers, reuse is allowed.",
+      },
+    ],
+    tips: [
+      "Hunt the pangram first — its bonus reshapes the whole day's score.",
+      "Prefixes and suffixes multiply words: check -ing, -ed and un- forms of everything you find.",
+      "Words can reuse letters, so letter-doublers like 'tattletale' patterns are fair game.",
+      "If you are one word from Queen Bee, sort by this list's score order and compare word lengths with the game's grid.",
+      "Yesterday's hive stays in the Recent chips — handy if you play a day behind.",
+    ],
+    faqs: [
+      {
+        question: "How do I enter the letters?",
+        answer: "Put the centre (yellow) letter in the first, honey-coloured box, then the other six letters in any order, and tap Solve the Bee.",
+      },
+      {
+        question: "What is a pangram in Spelling Bee?",
+        answer: "A word that uses all seven letters at least once. It scores its length plus a 7-point bonus, and every hive has at least one.",
+      },
+      {
+        question: "Why did the game reject a word the solver found?",
+        answer: "The NYT uses a curated answer list and excludes some valid dictionary words. The solver's ENABLE list is broader, so treat its results as a superset of the official answers.",
+      },
+      {
+        question: "Can letters be used more than once?",
+        answer: "Yes — unlike anagram games, Spelling Bee words may reuse letters as often as needed, as long as every letter used is one of the seven and the centre letter appears.",
+      },
+      {
+        question: "Is the Spelling Bee Solver free?",
+        answer: "Yes — free, instant and no sign-up.",
+      },
+    ],
+  },
   "word-finder": {
     slug: "word-finder",
     metaTitle: "Word Finder — Find Words by Letters & Length | AllWordTools",
