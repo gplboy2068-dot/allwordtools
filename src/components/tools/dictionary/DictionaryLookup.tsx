@@ -5,6 +5,9 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { lookupWord, firstAudio, WordNotFoundError, type DictionaryEntry } from "@/lib/dictionary";
+import { HistoryChips, SaveWordButton, useSolverHistory } from "@/components/tools/SolverExtras";
+import { speakWord } from "@/lib/engagement";
+import { MyWordList } from "@/components/tools/dictionary/MyWordList";
 
 type Props = {
   /** Field label shown above the input. */
@@ -34,14 +37,15 @@ export function DictionaryLookup({
   children,
   showAudio = true,
 }: Props) {
+  const history = useSolverHistory("dictionary");
   const [query, setQuery] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [entries, setEntries] = useState<DictionaryEntry[] | null>(null);
   const [term, setTerm] = useState("");
 
-  const run = async () => {
-    const word = query.trim();
+  const run = async (override?: string) => {
+    const word = (override ?? query).trim();
     if (!word) {
       toast.error("Enter a word to look up.");
       return;
@@ -56,6 +60,7 @@ export function DictionaryLookup({
       const data = await lookupWord(word);
       setEntries(data);
       setTerm(word);
+      history.add(word.toLowerCase());
     } catch (e) {
       if (e instanceof WordNotFoundError) {
         setError(`No dictionary entry found for "${word}". Check the spelling and try again.`);
@@ -80,16 +85,17 @@ export function DictionaryLookup({
   const playAudio = () => {
     if (!entries) return;
     const url = firstAudio(entries);
-    if (!url) {
-      toast.error("No audio available for this word.");
-      return;
+    if (url) {
+      new Audio(url).play().catch(() => speakWord(term));
+    } else {
+      // No recorded audio for this word — fall back to speech synthesis so
+      // "Hear it" always works.
+      speakWord(term);
     }
-    new Audio(url).play().catch(() => toast.error("Couldn't play the audio."));
   };
 
-  const audioAvailable = entries ? Boolean(firstAudio(entries)) : false;
-
   return (
+    <div>
     <div className="rounded-3xl border border-border/70 bg-card p-5 shadow-lift sm:p-7">
       <div className="space-y-1.5">
         <Label htmlFor="dict-query" className="text-xs font-semibold text-muted-foreground">
@@ -124,6 +130,15 @@ export function DictionaryLookup({
 
       <p className="mt-3 text-xs text-muted-foreground">{hint}</p>
 
+      <HistoryChips
+        items={history.items}
+        onPick={(w) => {
+          setQuery(w);
+          void run(w);
+        }}
+        onClear={history.clear}
+      />
+
       {error && (
         <p className="mt-4 rounded-xl bg-destructive/10 px-4 py-3 text-sm text-destructive">
           {error}
@@ -135,11 +150,12 @@ export function DictionaryLookup({
           <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
             <h2 className="font-display text-2xl font-semibold capitalize">{term}</h2>
             <div className="flex items-center gap-2">
-              {showAudio && audioAvailable && (
+              {showAudio && (
                 <Button variant="secondary" size="sm" onClick={playAudio} className="rounded-full">
                   <Volume2 className="mr-1.5 h-4 w-4" /> Hear it
                 </Button>
               )}
+              <SaveWordButton word={term} className="h-8 w-8 border border-border/60" />
               <Button variant="ghost" size="sm" onClick={reset} className="rounded-full">
                 <X className="mr-1.5 h-4 w-4" /> Clear
               </Button>
@@ -148,6 +164,13 @@ export function DictionaryLookup({
           {children(entries, term)}
         </div>
       )}
+    </div>
+    <MyWordList
+      onPick={(w) => {
+        setQuery(w);
+        void run(w);
+      }}
+    />
     </div>
   );
 }

@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import { useDictionary } from "@/hooks/use-dictionary";
 import { unscramble, type UnscrambleResult } from "@/lib/unscramble";
-import { HistoryChips, ResultActions, useSolverHistory } from "@/components/tools/SolverExtras";
+import { HistoryChips, ResultActions, SaveWordButton, useSolverHistory } from "@/components/tools/SolverExtras";
 
 export type CircleLetterSolverProps = {
   historyKey?: string;
@@ -169,11 +169,11 @@ export function CircleLetterSolver({
                     </h3>
                     <div className="flex flex-wrap gap-2">
                       {ws.map((r) => (
-                        <button
+                        <div
                           key={r.word}
                           onClick={() => copyWord(r.word)}
                           title={`${r.score} points — click to copy`}
-                          className={`group inline-flex items-center gap-2 rounded-xl border px-3 py-1.5 text-sm font-medium capitalize transition-colors hover:border-honey/60 hover:bg-accent ${
+                          className={`group inline-flex cursor-pointer items-center gap-2 rounded-xl border px-3 py-1.5 text-sm font-medium capitalize transition-colors hover:border-honey/60 hover:bg-accent ${
                             isBonus
                               ? "border-honey/60 bg-honey/10"
                               : "border-border/70 bg-secondary/40"
@@ -187,7 +187,8 @@ export function CircleLetterSolver({
                             {r.score}
                           </Badge>
                           <Copy className="h-3.5 w-3.5 text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100" />
-                        </button>
+                          <SaveWordButton word={r.word} />
+                        </div>
                       ))}
                     </div>
                   </div>

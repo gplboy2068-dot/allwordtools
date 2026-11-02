@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { DailyUnscramble, HistoryChips, ResultActions, useSolverHistory } from "@/components/tools/SolverExtras";
+import { DailyUnscramble, HistoryChips, ResultActions, SaveWordButton, useSolverHistory } from "@/components/tools/SolverExtras";
 import { useI18n } from "@/i18n/I18nProvider";
 import { uiText } from "@/i18n/ui-template";
 import { Copy, Loader2, Search, Shuffle, Sparkles, X } from "lucide-react";
@@ -228,11 +228,11 @@ export function WordUnscrambler() {
                   </h3>
                   <div className="flex flex-wrap gap-2">
                     {group.words.map((r) => (
-                      <button
+                      <div
                         key={r.word}
                         onClick={() => copyWord(r.word)}
                         title={`${r.score} points — click to copy`}
-                        className="group inline-flex items-center gap-2 rounded-xl border border-border/70 bg-secondary/40 px-3 py-1.5 text-sm font-medium transition-colors hover:border-honey/60 hover:bg-accent"
+                        className="group inline-flex cursor-pointer items-center gap-2 rounded-xl border border-border/70 bg-secondary/40 px-3 py-1.5 text-sm font-medium transition-colors hover:border-honey/60 hover:bg-accent"
                       >
                         <span className="capitalize">{r.word}</span>
                         <Badge
@@ -242,7 +242,8 @@ export function WordUnscrambler() {
                           {r.score}
                         </Badge>
                         <Copy className="h-3.5 w-3.5 text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100" />
-                      </button>
+                        <SaveWordButton word={r.word} />
+                      </div>
                     ))}
                   </div>
                 </div>

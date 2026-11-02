@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { HistoryChips, ResultActions, useSolverHistory } from "@/components/tools/SolverExtras";
+import { HistoryChips, ResultActions, SaveWordButton, useSolverHistory } from "@/components/tools/SolverExtras";
 import { useI18n } from "@/i18n/I18nProvider";
 import { uiText } from "@/i18n/ui-template";
 import { Copy, Loader2, Search, Sparkles, X } from "lucide-react";
@@ -239,11 +239,11 @@ export function RackSolver({ game }: { game: RackGame }) {
                   </h3>
                   <div className="flex flex-wrap gap-2">
                     {ws.map((r) => (
-                      <button
+                      <div
                         key={r.word}
                         onClick={() => copyWord(r.word)}
                         title={`${r.score} points — click to copy`}
-                        className="group inline-flex items-center gap-2 rounded-xl border border-border/70 bg-secondary/40 px-3 py-1.5 text-sm font-medium capitalize transition-colors hover:border-honey/60 hover:bg-accent"
+                        className="group inline-flex cursor-pointer items-center gap-2 rounded-xl border border-border/70 bg-secondary/40 px-3 py-1.5 text-sm font-medium capitalize transition-colors hover:border-honey/60 hover:bg-accent"
                       >
                         {r.word}
                         <Badge
@@ -253,7 +253,8 @@ export function RackSolver({ game }: { game: RackGame }) {
                           {r.score}
                         </Badge>
                         <Copy className="h-3.5 w-3.5 text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100" />
-                      </button>
+                        <SaveWordButton word={r.word} />
+                      </div>
                     ))}
                   </div>
                 </div>
