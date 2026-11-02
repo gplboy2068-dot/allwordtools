@@ -7,8 +7,10 @@ import { Label } from "@/components/ui/label";
 import { Badge } from "@/components/ui/badge";
 import { useDictionary } from "@/hooks/use-dictionary";
 import { solveCrossword, type WordMatch } from "@/lib/wordsearch";
+import { HistoryChips, ResultActions, useSolverHistory } from "@/components/tools/SolverExtras";
 
 export type KnownLettersSolverProps = {
+  historyKey?: string;
   label?: string;
   placeholder?: string;
   buttonLabel?: string;
@@ -21,14 +23,24 @@ export type KnownLettersSolverProps = {
  * 7 Little Words and Wheel of Fortune solvers.
  */
 export function KnownLettersSolver({
+  historyKey = "known-letters",
   label = "Known letters (use a letter for what you know, ? _ or . for each blank)",
   placeholder = "e.g. c?t, ??a??, s?lve?",
   buttonLabel = "Find answers",
   helpText = "Each blank stands for exactly one letter, so the number of squares equals the word length.",
 }: KnownLettersSolverProps) {
   const { words, loading, error } = useDictionary();
-  const [pattern, setPattern] = useState("");
-  const [submitted, setSubmitted] = useState<string | null>(null);
+  const history = useSolverHistory(historyKey);
+  const [pattern, setPattern] = useState(() =>
+    typeof window !== "undefined"
+      ? (new URLSearchParams(window.location.search).get("pattern") ?? "")
+      : "",
+  );
+  const [submitted, setSubmitted] = useState<string | null>(() =>
+    typeof window !== "undefined"
+      ? new URLSearchParams(window.location.search).get("pattern") || null
+      : null,
+  );
 
   const results = useMemo(() => {
     if (!words || submitted === null) return null;
@@ -43,6 +55,7 @@ export function KnownLettersSolver({
       return;
     }
     setSubmitted(pattern);
+    history.add(pattern);
   };
 
   const copy = (w: string) => {
@@ -86,6 +99,14 @@ export function KnownLettersSolver({
           </Button>
         </div>
       </div>
+      <HistoryChips
+        items={history.items}
+        onPick={(v) => {
+          setPattern(v);
+          setSubmitted(v);
+        }}
+        onClear={history.clear}
+      />
 
       <p className="mt-3 text-xs text-muted-foreground">
         {helpText} Use <code className="font-mono">?</code>, <code className="font-mono">_</code> or{" "}
@@ -107,9 +128,18 @@ export function KnownLettersSolver({
                 ? `${results.length}${results.length >= 600 ? "+" : ""} match${results.length === 1 ? "" : "es"}${patternLength ? ` (${patternLength} letters)` : ""}`
                 : "No matches found"}
             </h2>
-            <Button variant="ghost" size="sm" onClick={reset} className="rounded-full">
-              <X className="mr-1.5 h-4 w-4" /> Clear
-            </Button>
+            <div className="flex flex-wrap items-center gap-2">
+              {results.length > 0 && (
+                <ResultActions
+                  words={results.map((r) => r.word)}
+                  fileName="pattern-matches.txt"
+                  shareParams={submitted ? { pattern: submitted } : undefined}
+                />
+              )}
+              <Button variant="ghost" size="sm" onClick={reset} className="rounded-full">
+                <X className="mr-1.5 h-4 w-4" /> Clear
+              </Button>
+            </div>
           </div>
 
           {results.length === 0 ? (

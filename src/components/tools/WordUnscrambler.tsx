@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { DailyUnscramble, HistoryChips, ResultActions, useSolverHistory } from "@/components/tools/SolverExtras";
 import { useI18n } from "@/i18n/I18nProvider";
 import { uiText } from "@/i18n/ui-template";
 import { Copy, Loader2, Search, Shuffle, Sparkles, X } from "lucide-react";
@@ -27,12 +28,21 @@ function groupByLength(results: UnscrambleResult[]): Grouped {
 export function WordUnscrambler() {
   const { locale } = useI18n();
   const { words, loading, error } = useDictionary();
-  const [letters, setLetters] = useState("");
+  const history = useSolverHistory("unscrambler");
+  const [letters, setLetters] = useState(() =>
+    typeof window !== "undefined"
+      ? (new URLSearchParams(window.location.search).get("letters") ?? "").slice(0, 15)
+      : "",
+  );
   const [startsWith, setStartsWith] = useState("");
   const [endsWith, setEndsWith] = useState("");
   const [contains, setContains] = useState("");
   const [minLength, setMinLength] = useState(2);
-  const [submitted, setSubmitted] = useState<string | null>(null);
+  const [submitted, setSubmitted] = useState<string | null>(() =>
+    typeof window !== "undefined"
+      ? new URLSearchParams(window.location.search).get("letters")?.toLowerCase().replace(/[^a-z?*]/g, "") || null
+      : null,
+  );
 
   const results = useMemo(() => {
     if (!words || submitted === null) return null;
@@ -48,6 +58,7 @@ export function WordUnscrambler() {
       return;
     }
     setSubmitted(cleaned);
+    history.add(cleaned);
   };
 
   const copyWord = (word: string) => {
@@ -65,6 +76,8 @@ export function WordUnscrambler() {
   };
 
   return (
+    <div>
+      <DailyUnscramble />
     <div className="rounded-3xl border border-border/70 bg-card p-5 shadow-lift sm:p-7">
       {/* Primary input */}
       <div className="flex flex-col gap-3 sm:flex-row">
@@ -95,6 +108,15 @@ export function WordUnscrambler() {
           Unscramble
         </Button>
       </div>
+
+      <HistoryChips
+        items={history.items}
+        onPick={(v) => {
+          setLetters(v);
+          setSubmitted(v);
+        }}
+        onClear={history.clear}
+      />
 
       {/* Filters */}
       <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -175,9 +197,18 @@ export function WordUnscrambler() {
                 ? `${results.length} word${results.length === 1 ? "" : "s"} found`
                 : "No words found"}
             </h2>
-            <Button variant="ghost" size="sm" onClick={reset} className="rounded-full">
-              <X className="mr-1.5 h-4 w-4" /> Clear
-            </Button>
+            <div className="flex flex-wrap items-center gap-2">
+              {results.length > 0 && (
+                <ResultActions
+                  words={results.map((r) => r.word)}
+                  fileName="unscrambled-words.txt"
+                  shareParams={submitted ? { letters: submitted } : undefined}
+                />
+              )}
+              <Button variant="ghost" size="sm" onClick={reset} className="rounded-full">
+                <X className="mr-1.5 h-4 w-4" /> Clear
+              </Button>
+            </div>
           </div>
 
           {results.length === 0 ? (
@@ -220,6 +251,7 @@ export function WordUnscrambler() {
           )}
         </div>
       )}
+    </div>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { DailyUnscramble, HistoryChips, ResultActions, useSolverHistory } from "@/components/tools/SolverExtras";
 import { Copy, Loader2, Repeat, Search, Sparkles, X } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
@@ -16,9 +17,18 @@ import {
 
 export function AnagramSolver() {
   const { words, loading, error } = useDictionary();
-  const [letters, setLetters] = useState("");
+  const history = useSolverHistory("anagram");
+  const [letters, setLetters] = useState(() =>
+    typeof window !== "undefined"
+      ? (new URLSearchParams(window.location.search).get("letters") ?? "").slice(0, 15)
+      : "",
+  );
   const [multiWord, setMultiWord] = useState(false);
-  const [submitted, setSubmitted] = useState<string | null>(null);
+  const [submitted, setSubmitted] = useState<string | null>(() =>
+    typeof window !== "undefined"
+      ? new URLSearchParams(window.location.search).get("letters")?.toLowerCase().replace(/[^a-z?*]/g, "") || null
+      : null,
+  );
   const [submittedMulti, setSubmittedMulti] = useState(false);
 
   const single = useMemo<AnagramResult[] | null>(() => {
@@ -39,6 +49,7 @@ export function AnagramSolver() {
     }
     setSubmitted(cleaned);
     setSubmittedMulti(multiWord);
+    history.add(cleaned);
   };
 
   const copy = (text: string) => {
@@ -53,6 +64,8 @@ export function AnagramSolver() {
   };
 
   return (
+    <div>
+      <DailyUnscramble />
     <div className="rounded-3xl border border-border/70 bg-card p-5 shadow-lift sm:p-7">
       <div className="flex flex-col gap-3 sm:flex-row">
         <div className="relative flex-1">
@@ -83,6 +96,16 @@ export function AnagramSolver() {
         </Button>
       </div>
 
+      <HistoryChips
+        items={history.items}
+        onPick={(v) => {
+          setLetters(v);
+          setSubmitted(v);
+          setSubmittedMulti(multiWord);
+        }}
+        onClear={history.clear}
+      />
+
       <div className="mt-4 flex items-center gap-3">
         <Switch id="multiWord" checked={multiWord} onCheckedChange={setMultiWord} />
         <Label htmlFor="multiWord" className="cursor-pointer text-sm text-muted-foreground">
@@ -105,9 +128,18 @@ export function AnagramSolver() {
                 ? `${single.length} anagram${single.length === 1 ? "" : "s"} found`
                 : "No anagrams found"}
             </h2>
-            <Button variant="ghost" size="sm" onClick={reset} className="rounded-full">
-              <X className="mr-1.5 h-4 w-4" /> Clear
-            </Button>
+            <div className="flex flex-wrap items-center gap-2">
+              {single.length > 0 && (
+                <ResultActions
+                  words={single.map((r) => r.word)}
+                  fileName="anagrams.txt"
+                  shareParams={submitted ? { letters: submitted } : undefined}
+                />
+              )}
+              <Button variant="ghost" size="sm" onClick={reset} className="rounded-full">
+                <X className="mr-1.5 h-4 w-4" /> Clear
+              </Button>
+            </div>
           </div>
 
           {single.length === 0 ? (
@@ -164,6 +196,7 @@ export function AnagramSolver() {
           )}
         </div>
       )}
+    </div>
     </div>
   );
 }

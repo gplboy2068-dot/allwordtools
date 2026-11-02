@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { HistoryChips, ResultActions, useSolverHistory } from "@/components/tools/SolverExtras";
 import { useI18n } from "@/i18n/I18nProvider";
 import { uiText } from "@/i18n/ui-template";
 import { Copy, Loader2, Search, Sparkles, X } from "lucide-react";
@@ -38,14 +39,24 @@ const COPY = {
 export function RackSolver({ game }: { game: RackGame }) {
   const { locale } = useI18n();
   const { words, loading, error } = useDictionary();
-  const [letters, setLetters] = useState("");
+  const history = useSolverHistory(`rack-${game}`);
+  const [letters, setLetters] = useState(() =>
+    typeof window !== "undefined"
+      ? (new URLSearchParams(window.location.search).get("letters") ?? "").slice(0, 15)
+      : "",
+  );
   const [startsWith, setStartsWith] = useState("");
   const [endsWith, setEndsWith] = useState("");
   const [contains, setContains] = useState("");
   const [minLength, setMinLength] = useState(2);
-  const [submitted, setSubmitted] = useState<{ letters: string; filters: RackFilters } | null>(
-    null,
-  );
+  const [submitted, setSubmitted] = useState<{ letters: string; filters: RackFilters } | null>(() => {
+    if (typeof window === "undefined") return null;
+    const l = new URLSearchParams(window.location.search)
+      .get("letters")
+      ?.toLowerCase()
+      .replace(/[^a-z?*]/g, "");
+    return l ? { letters: l, filters: { startsWith: "", endsWith: "", contains: "", minLength: 2 } } : null;
+  });
   const copy = COPY[game];
 
   const results = useMemo(() => {
@@ -62,6 +73,7 @@ export function RackSolver({ game }: { game: RackGame }) {
       return;
     }
     setSubmitted({ letters: cleaned, filters: { startsWith, endsWith, contains, minLength } });
+    history.add(cleaned);
   };
 
   const copyWord = (w: string) => {
@@ -108,6 +120,15 @@ export function RackSolver({ game }: { game: RackGame }) {
           {copy.cta}
         </Button>
       </div>
+
+      <HistoryChips
+        items={history.items}
+        onPick={(v) => {
+          setLetters(v);
+          setSubmitted({ letters: v, filters: { startsWith, endsWith, contains, minLength } });
+        }}
+        onClear={history.clear}
+      />
 
       <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <div className="space-y-1.5">
@@ -188,6 +209,13 @@ export function RackSolver({ game }: { game: RackGame }) {
             </h2>
             <div className="flex items-center gap-3">
               <span className="hidden text-xs text-muted-foreground sm:inline">{copy.note}</span>
+              {results.length > 0 && (
+                <ResultActions
+                  words={results.map((r) => r.word)}
+                  fileName={`${game}-words.txt`}
+                  shareParams={submitted ? { letters: submitted.letters } : undefined}
+                />
+              )}
               <Button variant="ghost" size="sm" onClick={reset} className="rounded-full">
                 <X className="mr-1.5 h-4 w-4" /> Clear
               </Button>

@@ -3,6 +3,7 @@ import { CircleLetterSolver } from "./solvers/CircleLetterSolver";
 export function WordCookiesSolver() {
   return (
     <CircleLetterSolver
+      historyKey="word-cookies"
       placeholder="Enter your Word Cookies letters"
       buttonLabel="Solve cookies"
       minLength={3}

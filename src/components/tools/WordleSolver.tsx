@@ -6,13 +6,40 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useDictionary } from "@/hooks/use-dictionary";
 import { solveWordle, type WordleClues, type WordMatch } from "@/lib/wordsearch";
+import { ResultActions } from "@/components/tools/SolverExtras";
 
 export function WordleSolver() {
   const { words, loading, error } = useDictionary();
-  const [greens, setGreens] = useState(["", "", "", "", ""]);
-  const [present, setPresent] = useState("");
-  const [absent, setAbsent] = useState("");
-  const [submitted, setSubmitted] = useState<WordleClues | null>(null);
+  const [greens, setGreens] = useState<string[]>(() => {
+    if (typeof window === "undefined") return ["", "", "", "", ""];
+    const g = (new URLSearchParams(window.location.search).get("g") ?? "").toLowerCase();
+    return [0, 1, 2, 3, 4].map((i) => g[i] ?? "");
+  });
+  const [present, setPresent] = useState(() =>
+    typeof window !== "undefined"
+      ? (new URLSearchParams(window.location.search).get("y") ?? "")
+      : "",
+  );
+  const [absent, setAbsent] = useState(() =>
+    typeof window !== "undefined"
+      ? (new URLSearchParams(window.location.search).get("x") ?? "")
+      : "",
+  );
+  const [submitted, setSubmitted] = useState<WordleClues | null>(() => {
+    if (typeof window === "undefined") return null;
+    const q = new URLSearchParams(window.location.search);
+    if (!q.get("g") && !q.get("y") && !q.get("x")) return null;
+    const g = (q.get("g") ?? "").toLowerCase();
+    return {
+      greens: [0, 1, 2, 3, 4].map((i) => g[i] ?? ""),
+      yellows: (q.get("y") ?? "")
+        .toLowerCase()
+        .replace(/[^a-z]/g, "")
+        .split("")
+        .map((letter) => ({ letter, notAt: [] })),
+      absent: (q.get("x") ?? "").toLowerCase().replace(/[^a-z]/g, "").split(""),
+    };
+  });
   const boxes = useRef<(HTMLInputElement | null)[]>([]);
 
   const results = useMemo<WordMatch[] | null>(() => {
@@ -157,9 +184,22 @@ export function WordleSolver() {
                 ? `${results.length} possible answer${results.length === 1 ? "" : "s"}`
                 : "No answers match"}
             </h2>
-            <Button variant="ghost" size="sm" onClick={reset} className="rounded-full">
-              <X className="mr-1.5 h-4 w-4" /> Clear
-            </Button>
+            <div className="flex flex-wrap items-center gap-2">
+              {results.length > 0 && submitted && (
+                <ResultActions
+                  words={results.map((r) => r.word)}
+                  fileName="wordle-answers.txt"
+                  shareParams={{
+                    g: submitted.greens.join(""),
+                    y: submitted.yellows.map((y) => y.letter).join(""),
+                    x: submitted.absent.join(""),
+                  }}
+                />
+              )}
+              <Button variant="ghost" size="sm" onClick={reset} className="rounded-full">
+                <X className="mr-1.5 h-4 w-4" /> Clear
+              </Button>
+            </div>
           </div>
 
           {results.length === 0 ? (

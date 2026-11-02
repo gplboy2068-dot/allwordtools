@@ -173,3 +173,38 @@ export function completeDaily(): DailyState & { doneToday: boolean } {
   saveJSON(DAILY_KEY, next);
   return { ...next, doneToday: true };
 }
+
+/* ---------------- saved words (My Word List) ---------------- */
+
+const WORDS_KEY = "awt-word-list-v1";
+const WORDS_EVENT = "awt-words-changed";
+
+export function getSavedWords(): string[] {
+  return loadJSONArray<string>(WORDS_KEY);
+}
+
+export function isWordSaved(word: string): boolean {
+  return getSavedWords().includes(word.toLowerCase());
+}
+
+export function toggleSavedWord(word: string): boolean {
+  const w = word.toLowerCase();
+  const list = getSavedWords();
+  const next = list.includes(w) ? list.filter((x) => x !== w) : [w, ...list];
+  saveJSON(WORDS_KEY, next);
+  try {
+    window.dispatchEvent(new CustomEvent(WORDS_EVENT));
+  } catch {
+    /* noop */
+  }
+  return next.includes(w);
+}
+
+export function onSavedWordsChanged(cb: () => void): () => void {
+  window.addEventListener(WORDS_EVENT, cb);
+  window.addEventListener("storage", cb);
+  return () => {
+    window.removeEventListener(WORDS_EVENT, cb);
+    window.removeEventListener("storage", cb);
+  };
+}

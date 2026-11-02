@@ -6,8 +6,10 @@ import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import { useDictionary } from "@/hooks/use-dictionary";
 import { unscramble, type UnscrambleResult } from "@/lib/unscramble";
+import { HistoryChips, ResultActions, useSolverHistory } from "@/components/tools/SolverExtras";
 
 export type CircleLetterSolverProps = {
+  historyKey?: string;
   placeholder?: string;
   buttonLabel?: string;
   minLength?: number;
@@ -30,6 +32,7 @@ function groupByLength(results: UnscrambleResult[]) {
  * word, grouped by length. Powers the Word Cookies and Wordscapes solvers.
  */
 export function CircleLetterSolver({
+  historyKey = "circle-solver",
   placeholder = "Enter the letters in your puzzle",
   buttonLabel = "Solve puzzle",
   minLength = 2,
@@ -37,8 +40,17 @@ export function CircleLetterSolver({
   helpText = "Type every letter shown in the puzzle. Use ? for any unknown or blank tile.",
 }: CircleLetterSolverProps) {
   const { words, loading, error } = useDictionary();
-  const [letters, setLetters] = useState("");
-  const [submitted, setSubmitted] = useState<string | null>(null);
+  const history = useSolverHistory(historyKey);
+  const [letters, setLetters] = useState(() =>
+    typeof window !== "undefined"
+      ? (new URLSearchParams(window.location.search).get("letters") ?? "").slice(0, maxLetters)
+      : "",
+  );
+  const [submitted, setSubmitted] = useState<string | null>(() =>
+    typeof window !== "undefined"
+      ? new URLSearchParams(window.location.search).get("letters")?.toLowerCase().replace(/[^a-z?*]/g, "") || null
+      : null,
+  );
 
   const results = useMemo(() => {
     if (!words || submitted === null) return null;
@@ -55,6 +67,7 @@ export function CircleLetterSolver({
       return;
     }
     setSubmitted(cleaned);
+    history.add(cleaned);
   };
 
   const copyWord = (w: string) => {
@@ -97,6 +110,14 @@ export function CircleLetterSolver({
           {buttonLabel}
         </Button>
       </div>
+      <HistoryChips
+        items={history.items}
+        onPick={(v) => {
+          setLetters(v);
+          setSubmitted(v);
+        }}
+        onClear={history.clear}
+      />
 
       <p className="mt-3 text-xs text-muted-foreground">{helpText}</p>
 
@@ -115,9 +136,18 @@ export function CircleLetterSolver({
                 ? `${results.length} word${results.length === 1 ? "" : "s"} found`
                 : "No words found"}
             </h2>
-            <Button variant="ghost" size="sm" onClick={reset} className="rounded-full">
-              <X className="mr-1.5 h-4 w-4" /> Clear
-            </Button>
+            <div className="flex flex-wrap items-center gap-2">
+              {results.length > 0 && (
+                <ResultActions
+                  words={results.map((r) => r.word)}
+                  fileName="solver-words.txt"
+                  shareParams={submitted ? { letters: submitted } : undefined}
+                />
+              )}
+              <Button variant="ghost" size="sm" onClick={reset} className="rounded-full">
+                <X className="mr-1.5 h-4 w-4" /> Clear
+              </Button>
+            </div>
           </div>
 
           {results.length === 0 ? (
