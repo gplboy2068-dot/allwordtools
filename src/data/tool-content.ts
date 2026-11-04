@@ -38,6 +38,102 @@ export type ToolContent = {
 };
 
 export const toolContent: Record<string, ToolContent> = {
+  "text-repeater": {
+    slug: "text-repeater",
+    metaTitle: "Text Repeater — Repeat Text up to 10,000 Times | AllWordTools",
+    metaDescription: "Free text repeater: repeat any word, sentence or emoji up to 10,000 times with spaces, new lines or your own separator. Perfect for WhatsApp messages. Copy or download instantly.",
+    eyebrow: "Text Analysis",
+    heading: "Text Repeater",
+    subheading: "Repeat any word, sentence or emoji up to 10,000 times — with spaces, new lines or a separator of your choice. Built for WhatsApp messages, emphasis and testing, with instant copy and download.",
+    updated: "November 2, 2026",
+    readingMinutes: 4,
+    intro: [
+      "Searches for a text repeater have exploded this year — 'text repeater for WhatsApp' and 'text repeater 10000' are breakout queries, up thousands of percent. The reason is simple: sometimes one 'Happy Birthday 🎂' is not enough, and nobody is going to type it a thousand times by hand.",
+      "Type your text once, choose how many times to repeat it (10, 100, 1,000, all the way to 10,000), pick a separator — a space, a new line, a comma, nothing at all, or your own, like a ❤ between repeats — and the repeated text is ready instantly. Add numbering if you want a tidy 1-to-N list.",
+      "Copy it straight into WhatsApp, Telegram, Discord or anywhere else, or download it as a .txt file. Everything runs in your browser; your text is never uploaded. One honest request: repeaters are for fun messages, emphasis and testing — please don't use one to spam or annoy anyone.",
+    ],
+    howToTitle: "How to use the Text Repeater",
+    howToSteps: [
+      {
+        title: "Type your text",
+        detail: "A word, a sentence, a name or an emoji — whatever you want repeated.",
+      },
+      {
+        title: "Choose the count",
+        detail: "Tap a preset (100×, 1,000×, 10,000×) or type any number up to 10,000.",
+      },
+      {
+        title: "Pick a separator",
+        detail: "Space, new line, comma, nothing — or a custom separator like ❤ or |. Optionally add numbering.",
+      },
+      {
+        title: "Copy or download",
+        detail: "Copy the result to paste into WhatsApp or any app, or save it as a .txt file.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Why people repeat text (the friendly reasons)",
+        paragraphs: [
+          "The biggest use is celebration and emphasis: a birthday wish repeated 100 times fills a chat with confetti energy, a repeated name makes a playful pattern, and repeating 'sorry' or 'thank you' a hundred times is its own joke between friends. Emoji repeats build banners and dividers for group chats and channel posts.",
+          "There are practical uses too: developers and testers generate repeated strings to fill forms, test layouts and check character limits; teachers make practice lines; designers use repeated words as filler texture. The numbering option turns the repeater into a quick numbered-list maker.",
+        ],
+      },
+      {
+        heading: "Repeat responsibly",
+        paragraphs: [
+          "A wall of repeated text in someone else's chat is only fun when they are in on the joke. Flooding a person or a group that didn't ask for it is spam, can get your account reported or banned on WhatsApp, and in bulk-messaging form can break platform rules and even local laws.",
+          "This tool deliberately caps output at 10,000 repeats and 1 million characters, and it runs entirely on your device — there is no sending feature at all. Use it for friends who will laugh, your own channels, and your own testing, and everyone stays happy.",
+        ],
+      },
+    ],
+    examples: [
+      {
+        input: "'Happy Birthday 🎂' × 100, new line",
+        output: "100 birthday wishes, one per line",
+        note: "The classic WhatsApp birthday flood — for friends who love it.",
+      },
+      {
+        input: "'Sorry!' × 50, separator ' ❤ '",
+        output: "Sorry! ❤ Sorry! ❤ Sorry! …",
+        note: "Custom separators make patterns and dividers.",
+      },
+      {
+        input: "'Practice line' × 10, numbered",
+        output: "1. Practice line  2. Practice line …",
+        note: "Numbering turns repeats into lists for study or tests.",
+      },
+    ],
+    tips: [
+      "New lines read best in chat apps: one repeat per line looks like many messages' worth of celebration.",
+      "Use a custom emoji separator (❤ ✨ 🔥) to turn a simple repeat into a pattern banner.",
+      "For very long outputs, download the .txt instead of pasting into apps with message limits.",
+      "WhatsApp may split or block pasting extremely long messages — 1,000 repeats is a sweet spot.",
+      "Combine with the Fancy Text Generator: style your text first, then repeat the styled version.",
+    ],
+    faqs: [
+      {
+        question: "How many times can I repeat text?",
+        answer: "Up to 10,000 times, with a total output cap of 1,000,000 characters to keep your browser happy. Presets for 10, 100, 500, 1,000, 5,000 and 10,000 are one tap away.",
+      },
+      {
+        question: "Can I repeat text for WhatsApp?",
+        answer: "Yes — that is the most popular use. Choose 'New line' as the separator, copy the result and paste it into your chat. Keep it to friends and groups who enjoy it.",
+      },
+      {
+        question: "Can I use my own separator between repeats?",
+        answer: "Yes. Pick 'Custom' and type anything — an emoji, a word, a symbol like | or • — and it will be placed between every repeat.",
+      },
+      {
+        question: "Does the Text Repeater send messages for me?",
+        answer: "No. It only prepares the repeated text on your device; you copy and paste it yourself. There is deliberately no sending or auto-posting feature.",
+      },
+      {
+        question: "Is the Text Repeater free?",
+        answer: "Yes — free and unlimited, no sign-up, and everything runs in your browser.",
+      },
+    ],
+  },
   "username-generator": {
     slug: "username-generator",
     metaTitle: "Username Generator — Aesthetic & Gaming Usernames | AllWordTools",

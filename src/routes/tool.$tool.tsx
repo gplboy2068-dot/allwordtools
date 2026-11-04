@@ -38,6 +38,7 @@ import { UsernameGenerator } from "@/components/tools/UsernameGenerator";
 import { WordCounterTool } from "@/components/tools/WordCounterTool";
 import { CaseConverter } from "@/components/tools/CaseConverter";
 import { FancyTextGenerator } from "@/components/tools/FancyTextGenerator";
+import { TextRepeater } from "@/components/tools/TextRepeater";
 import { PhoneticAlphabet } from "@/components/tools/PhoneticAlphabet";
 import { WordFinder } from "@/components/tools/WordFinder";
 import { WordleSolver } from "@/components/tools/WordleSolver";
@@ -756,6 +757,8 @@ export function ToolPageView({
                 <CaseConverter />
               ) : slug === "fancy-text-generator" ? (
                 <FancyTextGenerator />
+              ) : slug === "text-repeater" ? (
+                <TextRepeater />
               ) : slug === "phonetic-alphabet-converter" ? (
                 <PhoneticAlphabet />
               ) : slug === "word-finder" ? (

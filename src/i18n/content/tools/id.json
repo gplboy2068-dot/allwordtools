@@ -10763,5 +10763,108 @@
       "petunjuk spelling bee",
       "spelling bee solver indonesia"
     ]
+  },
+  "text-repeater": {
+    "name": "Pengulang Teks",
+    "metaTitle": "Pengulang Teks — Ulangi Teks hingga 10.000 Kali | AllWordTools",
+    "metaDescription": "Pengulang teks gratis: ulangi kata, kalimat, atau emoji apa pun hingga 10.000 kali dengan spasi, baris baru, atau pemisah pilihanmu sendiri. Sempurna untuk pesan WhatsApp. Salin atau unduh seketika.",
+    "eyebrow": "Analisis Teks",
+    "heading": "Pengulang Teks",
+    "subheading": "Ulangi kata, kalimat, atau emoji apa pun hingga 10.000 kali — dengan spasi, baris baru, atau pemisah pilihanmu. Dibuat untuk pesan WhatsApp, penekanan, dan pengujian, dengan salin dan unduh instan.",
+    "intro": [
+      "Pencarian pengulang teks meledak tahun ini — 'text repeater for WhatsApp' dan 'text repeater 10000' adalah kueri yang meroket, naik ribuan persen. Alasannya sederhana: kadang satu 'Happy Birthday 🎂' saja tidak cukup, dan tidak ada orang yang mau mengetiknya seribu kali dengan tangan.",
+      "Ketik teksmu sekali, pilih berapa kali mengulanginya (10, 100, 1.000, sampai 10.000), pilih pemisah — spasi, baris baru, koma, tanpa apa pun, atau pemisahmu sendiri, misalnya ❤ di antara setiap pengulangan — dan teks yang terulang langsung siap. Tambahkan penomoran jika kamu ingin daftar rapi dari 1 sampai N.",
+      "Salin langsung ke WhatsApp, Telegram, Discord, atau di mana pun, atau unduh sebagai file .txt. Semuanya berjalan di browsermu; teksmu tidak pernah diunggah. Satu permintaan jujur: pengulang teks adalah untuk pesan seru-seruan, penekanan, dan pengujian — mohon jangan gunakan untuk spam atau mengganggu siapa pun."
+    ],
+    "howToTitle": "Cara menggunakan Pengulang Teks",
+    "howToSteps": [
+      {
+        "title": "Ketik teksmu",
+        "detail": "Kata, kalimat, nama, atau emoji — apa pun yang ingin kamu ulangi."
+      },
+      {
+        "title": "Pilih jumlahnya",
+        "detail": "Ketuk preset (100×, 1.000×, 10.000×) atau ketik angka berapa pun hingga 10.000."
+      },
+      {
+        "title": "Pilih pemisah",
+        "detail": "Spasi, baris baru, koma, tanpa apa pun — atau pemisah khusus seperti ❤ atau |. Tambahkan penomoran jika mau."
+      },
+      {
+        "title": "Salin atau unduh",
+        "detail": "Salin hasilnya untuk ditempel ke WhatsApp atau aplikasi apa pun, atau simpan sebagai file .txt."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Mengapa orang mengulang teks (alasan yang bersahabat)",
+        "paragraphs": [
+          "Kegunaan terbesarnya adalah perayaan dan penekanan: ucapan ulang tahun yang diulang 100 kali memenuhi obrolan dengan energi konfeti, nama yang diulang membentuk pola yang lucu, dan mengulang 'maaf' atau 'terima kasih' seratus kali menjadi lelucon tersendiri di antara teman. Pengulangan emoji membuat spanduk dan pembatas untuk obrolan grup dan postingan kanal.",
+          "Ada juga kegunaan praktis: pengembang dan penguji menghasilkan rangkaian teks berulang untuk mengisi formulir, menguji tata letak, dan memeriksa batas karakter; guru membuat baris latihan; desainer menggunakan kata-kata berulang sebagai tekstur pengisi. Opsi penomoran mengubah pengulang ini menjadi pembuat daftar bernomor yang cepat."
+        ]
+      },
+      {
+        "heading": "Mengulang dengan bertanggung jawab",
+        "paragraphs": [
+          "Dinding teks berulang di obrolan orang lain hanya menyenangkan jika mereka ikut dalam leluconnya. Membanjiri seseorang atau grup yang tidak memintanya adalah spam, bisa membuat akunmu dilaporkan atau diblokir di WhatsApp, dan dalam bentuk pengiriman pesan massal bisa melanggar aturan platform bahkan hukum setempat.",
+          "Alat ini sengaja membatasi keluaran hingga 10.000 pengulangan dan 1 juta karakter, dan berjalan sepenuhnya di perangkatmu — sama sekali tidak ada fitur pengiriman. Gunakan untuk teman yang akan tertawa, kanalmu sendiri, dan pengujianmu sendiri, maka semua orang tetap senang."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "'Happy Birthday 🎂' × 100, baris baru",
+        "output": "100 ucapan ulang tahun, satu per baris",
+        "note": "Banjir ucapan ulang tahun klasik di WhatsApp — untuk teman yang menyukainya."
+      },
+      {
+        "input": "'Sorry!' × 50, pemisah ' ❤ '",
+        "output": "Sorry! ❤ Sorry! ❤ Sorry! …",
+        "note": "Pemisah khusus membuat pola dan pembatas."
+      },
+      {
+        "input": "'Practice line' × 10, bernomor",
+        "output": "1. Practice line  2. Practice line …",
+        "note": "Penomoran mengubah pengulangan menjadi daftar untuk belajar atau ujian."
+      }
+    ],
+    "tips": [
+      "Baris baru paling enak dibaca di aplikasi obrolan: satu pengulangan per baris terlihat seperti perayaan senilai banyak pesan.",
+      "Gunakan pemisah emoji khusus (❤ ✨ 🔥) untuk mengubah pengulangan sederhana menjadi spanduk berpola.",
+      "Untuk keluaran yang sangat panjang, unduh file .txt daripada menempelkannya ke aplikasi yang memiliki batas pesan.",
+      "WhatsApp mungkin memisah atau memblokir tempelan pesan yang sangat panjang — 1.000 pengulangan adalah titik yang pas.",
+      "Padukan dengan Penghasil Teks Bergaya: beri gaya pada teksmu terlebih dahulu, lalu ulangi versi bergayanya."
+    ],
+    "faqs": [
+      {
+        "question": "Berapa kali saya bisa mengulang teks?",
+        "answer": "Hingga 10.000 kali, dengan batas total keluaran 1.000.000 karakter agar browsermu tetap lancar. Preset untuk 10, 100, 500, 1.000, 5.000, dan 10.000 tinggal ketuk."
+      },
+      {
+        "question": "Bisakah saya mengulang teks untuk WhatsApp?",
+        "answer": "Ya — itu kegunaan yang paling populer. Pilih 'Baris baru' sebagai pemisah, salin hasilnya, dan tempelkan ke obrolanmu. Batasi hanya untuk teman dan grup yang menikmatinya."
+      },
+      {
+        "question": "Bisakah saya menggunakan pemisah saya sendiri di antara pengulangan?",
+        "answer": "Ya. Pilih 'Khusus' dan ketik apa pun — emoji, kata, simbol seperti | atau • — dan itu akan ditempatkan di antara setiap pengulangan."
+      },
+      {
+        "question": "Apakah Pengulang Teks mengirim pesan untuk saya?",
+        "answer": "Tidak. Alat ini hanya menyiapkan teks yang terulang di perangkatmu; kamu menyalin dan menempelkannya sendiri. Sengaja tidak ada fitur pengiriman atau posting otomatis."
+      },
+      {
+        "question": "Apakah Pengulang Teks gratis?",
+        "answer": "Ya — gratis dan tanpa batas, tanpa perlu mendaftar, dan semuanya berjalan di browsermu."
+      }
+    ],
+    "searchIntent": "Pengguna mencari alat online gratis untuk mengulang kata, kalimat, atau emoji ratusan hingga ribuan kali untuk pesan WhatsApp dan keperluan serupa, dengan pemisah dan penomoran yang bisa diatur.",
+    "keywords": [
+      "pengulang teks",
+      "pengulang teks untuk whatsapp",
+      "ulangi teks 1000 kali",
+      "pengulang teks 10000",
+      "mengulang teks online",
+      "pengulang kata"
+    ]
   }
 }

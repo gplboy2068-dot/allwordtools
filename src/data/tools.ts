@@ -449,6 +449,14 @@ export const categories: Category[] = [
         isNew: true,
         isTrending: true,
       },
+      {
+        slug: "text-repeater",
+        name: "Text Repeater",
+        description: "Repeat any text, word or emoji up to 10,000 times — for WhatsApp messages, emphasis and testing. Copy or download instantly.",
+        category: "text-analysis",
+        isNew: true,
+        isTrending: true,
+      },
     ],
   },
   {
@@ -967,6 +975,7 @@ export const toolIcons: Record<string, LucideIcon> = {
   "word-counter": WholeWord,
   "case-converter": CaseSensitive,
   "fancy-text-generator": WandSparkles,
+  "text-repeater": Repeat,
   dictionary: BookText,
   "word-meaning": Book,
   pronunciation: Speech,

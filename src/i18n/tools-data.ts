@@ -7,6 +7,15 @@ export interface LocalizedToolInfo {
 }
 
 export const TOOL_NAMES_TRANSLATIONS: Record<string, Record<string, LocalizedToolInfo>> = {
+  "text-repeater": {
+    hi: { name: "टेक्स्ट रिपीटर", description: "किसी भी टेक्स्ट, शब्द या इमोजी को 10,000 बार तक दोहराएं — WhatsApp संदेशों, जोर देने और टेस्टिंग के लिए।" },
+    es: { name: "Repetidor de Texto", description: "Repite cualquier texto, palabra o emoji hasta 10.000 veces — para mensajes de WhatsApp, énfasis y pruebas." },
+    de: { name: "Text-Wiederholer", description: "Wiederhole jeden Text, jedes Wort oder Emoji bis zu 10.000-mal — für WhatsApp-Nachrichten, Betonung und Tests." },
+    ar: { name: "مكرّر النصوص", description: "كرّر أي نص أو كلمة أو رمز تعبيري حتى 10,000 مرة — لرسائل واتساب والتأكيد والاختبار." },
+    pt: { name: "Repetidor de Texto", description: "Repita qualquer texto, palavra ou emoji até 10.000 vezes — para mensagens de WhatsApp, ênfase e testes." },
+    id: { name: "Pengulang Teks", description: "Ulangi teks, kata, atau emoji apa pun hingga 10.000 kali — untuk pesan WhatsApp, penekanan, dan pengujian." },
+    ru: { name: "Повторитель Текста", description: "Повторяйте любой текст, слово или эмодзи до 10 000 раз — для сообщений WhatsApp, акцента и тестирования." },
+  },
   "username-generator": {
     hi: { name: "यूज़रनेम जनरेटर", description: "Instagram, Roblox, Discord आदि के लिए आकर्षक, गेमिंग और कूल यूज़रनेम बनाएं।" },
     es: { name: "Generador de Nombres de Usuario", description: "Crea nombres de usuario estéticos, gaming y geniales para Instagram, Roblox, Discord y más." },

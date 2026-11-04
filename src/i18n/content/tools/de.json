@@ -10696,5 +10696,108 @@
       "Spelling Bee Wörter finden",
       "Spelling Bee Tipps"
     ]
+  },
+  "text-repeater": {
+    "name": "Text-Wiederholer",
+    "metaTitle": "Text-Wiederholer — Text bis zu 10.000-mal wiederholen | AllWordTools",
+    "metaDescription": "Kostenloser Text-Wiederholer: Wiederhole jedes Wort, jeden Satz oder jedes Emoji bis zu 10.000-mal — mit Leerzeichen, Zeilenumbrüchen oder deinem eigenen Trennzeichen. Perfekt für WhatsApp-Nachrichten. Sofort kopieren oder herunterladen.",
+    "eyebrow": "Textanalyse",
+    "heading": "Text-Wiederholer",
+    "subheading": "Wiederhole jedes Wort, jeden Satz oder jedes Emoji bis zu 10.000-mal — mit Leerzeichen, Zeilenumbrüchen oder einem Trennzeichen deiner Wahl. Gebaut für WhatsApp-Nachrichten, Betonung und Tests, mit sofortigem Kopieren und Herunterladen.",
+    "intro": [
+      "Suchanfragen wie 'text repeater for WhatsApp' und 'text repeater 10000' sind dieses Jahr regelrecht explodiert — Breakout-Queries mit Zuwächsen von mehreren tausend Prozent. Der Grund ist einfach: Manchmal reicht ein einziges 'Happy Birthday 🎂' nicht aus, und niemand tippt es tausendmal von Hand.",
+      "Tippe deinen Text einmal ein, wähle, wie oft er wiederholt werden soll (10, 100, 1.000, bis hin zu 10.000), entscheide dich für ein Trennzeichen — ein Leerzeichen, einen Zeilenumbruch, ein Komma, gar keins oder ein eigenes, zum Beispiel ein ❤ zwischen den Wiederholungen — und der wiederholte Text ist sofort fertig. Füge auf Wunsch eine Nummerierung hinzu, wenn du eine ordentliche Liste von 1 bis N möchtest.",
+      "Kopiere ihn direkt in WhatsApp, Telegram, Discord oder wohin du willst, oder lade ihn als .txt-Datei herunter. Alles läuft in deinem Browser; dein Text wird niemals hochgeladen. Eine ehrliche Bitte: Wiederholer sind für Spaßnachrichten, Betonung und Tests da — bitte nutze sie nicht, um jemanden zuzuspammen oder zu nerven."
+    ],
+    "howToTitle": "So nutzt du den Text-Wiederholer",
+    "howToSteps": [
+      {
+        "title": "Tippe deinen Text ein",
+        "detail": "Ein Wort, ein Satz, ein Name oder ein Emoji — was immer du wiederholen möchtest."
+      },
+      {
+        "title": "Wähle die Anzahl",
+        "detail": "Tippe auf eine Vorgabe (100×, 1.000×, 10.000×) oder gib eine beliebige Zahl bis 10.000 ein."
+      },
+      {
+        "title": "Wähle ein Trennzeichen",
+        "detail": "Leerzeichen, Zeilenumbruch, Komma, nichts — oder ein eigenes Trennzeichen wie ❤ oder |. Optional mit Nummerierung."
+      },
+      {
+        "title": "Kopieren oder herunterladen",
+        "detail": "Kopiere das Ergebnis, um es in WhatsApp oder eine andere App einzufügen, oder speichere es als .txt-Datei."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Warum Menschen Text wiederholen (die freundlichen Gründe)",
+        "paragraphs": [
+          "Die größte Verwendung ist Feiern und Betonen: Ein 100-mal wiederholter Geburtstagswunsch füllt einen Chat mit Konfetti-Energie, ein wiederholter Name ergibt ein spielerisches Muster, und ein hundertmal wiederholtes 'Sorry' oder 'Danke' ist unter Freunden ein Witz für sich. Emoji-Wiederholungen werden zu Bannern und Trennern für Gruppenchats und Kanalbeiträge.",
+          "Es gibt auch praktische Zwecke: Entwickler und Tester erzeugen wiederholte Zeichenketten, um Formulare zu füllen, Layouts zu testen und Zeichenlimits zu prüfen; Lehrer erstellen Übungszeilen; Designer nutzen wiederholte Wörter als Fülltextur. Die Nummerierungsoption macht den Wiederholer zum schnellen Ersteller nummerierter Listen."
+        ]
+      },
+      {
+        "heading": "Verantwortungsvoll wiederholen",
+        "paragraphs": [
+          "Eine Wand aus wiederholtem Text im Chat eines anderen ist nur lustig, wenn derjenige beim Witz dabei ist. Eine Person oder eine Gruppe zu fluten, die nicht darum gebeten hat, ist Spam, kann dazu führen, dass dein Konto auf WhatsApp gemeldet oder gesperrt wird, und kann in Form von Massenversand Plattformregeln und sogar lokale Gesetze verletzen.",
+          "Dieses Tool begrenzt die Ausgabe bewusst auf 10.000 Wiederholungen und 1.000.000 Zeichen und läuft vollständig auf deinem Gerät — es gibt überhaupt keine Sende-Funktion. Nutze es für Freunde, die darüber lachen, für deine eigenen Kanäle und deine eigenen Tests, dann bleiben alle glücklich."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "'Happy Birthday 🎂' × 100, Zeilenumbruch",
+        "output": "100 Geburtstagswünsche, einer pro Zeile",
+        "note": "Die klassische WhatsApp-Geburtstagsflut — für Freunde, die sie lieben."
+      },
+      {
+        "input": "'Sorry!' × 50, Trennzeichen ' ❤ '",
+        "output": "Sorry! ❤ Sorry! ❤ Sorry! …",
+        "note": "Eigene Trennzeichen erzeugen Muster und Trenner."
+      },
+      {
+        "input": "'Practice line' × 10, nummeriert",
+        "output": "1. Practice line  2. Practice line …",
+        "note": "Nummerierung verwandelt Wiederholungen in Listen zum Lernen oder Testen."
+      }
+    ],
+    "tips": [
+      "Zeilenumbrüche lesen sich in Chat-Apps am besten: Eine Wiederholung pro Zeile wirkt wie die Feier vieler Nachrichten.",
+      "Nutze ein eigenes Emoji-Trennzeichen (❤ ✨ 🔥), um aus einer einfachen Wiederholung ein Musterbanner zu machen.",
+      "Lade bei sehr langen Ausgaben die .txt-Datei herunter, statt sie in Apps mit Nachrichtenlimits einzufügen.",
+      "WhatsApp kann das Einfügen extrem langer Nachrichten aufteilen oder blockieren — 1.000 Wiederholungen sind ein guter Mittelwert.",
+      "Kombiniere ihn mit dem Fancy Text Generator: Style deinen Text zuerst und wiederhole dann die gestylte Version."
+    ],
+    "faqs": [
+      {
+        "question": "Wie oft kann ich Text wiederholen?",
+        "answer": "Bis zu 10.000-mal, mit einer Gesamtausgabe von höchstens 1.000.000 Zeichen, damit dein Browser glücklich bleibt. Vorgaben für 10, 100, 500, 1.000, 5.000 und 10.000 sind nur einen Tipp entfernt."
+      },
+      {
+        "question": "Kann ich Text für WhatsApp wiederholen?",
+        "answer": "Ja — das ist die beliebteste Verwendung. Wähle 'Zeilenumbruch' als Trennzeichen, kopiere das Ergebnis und füge es in deinen Chat ein. Behalte es bei Freunden und Gruppen, die Freude daran haben."
+      },
+      {
+        "question": "Kann ich mein eigenes Trennzeichen zwischen den Wiederholungen verwenden?",
+        "answer": "Ja. Wähle 'Benutzerdefiniert' und tippe irgendetwas ein — ein Emoji, ein Wort, ein Symbol wie | oder • — und es wird zwischen jede Wiederholung gesetzt."
+      },
+      {
+        "question": "Sendet der Text-Wiederholer Nachrichten für mich?",
+        "answer": "Nein. Er bereitet den wiederholten Text nur auf deinem Gerät vor; du kopierst und fügst ihn selbst ein. Es gibt bewusst keine Sende- oder Auto-Posting-Funktion."
+      },
+      {
+        "question": "Ist der Text-Wiederholer kostenlos?",
+        "answer": "Ja — kostenlos und unbegrenzt, ohne Anmeldung, und alles läuft in deinem Browser."
+      }
+    ],
+    "searchIntent": "Nutzer suchen ein kostenloses Tool, um einen Text, ein Wort oder ein Emoji viele Male zu wiederholen — zum Beispiel für WhatsApp-Nachrichten, Geburtstagswünsche, Betonung oder Tests.",
+    "keywords": [
+      "Text wiederholen",
+      "Text-Wiederholer",
+      "Text 1000 mal wiederholen",
+      "Text für WhatsApp wiederholen",
+      "Wort wiederholen online",
+      "Text mehrmals kopieren"
+    ]
   }
 }

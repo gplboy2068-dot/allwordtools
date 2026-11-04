@@ -10753,5 +10753,108 @@
       "palavras Spelling Bee",
       "ajuda Spelling Bee"
     ]
+  },
+  "text-repeater": {
+    "name": "Repetidor de Texto",
+    "metaTitle": "Repetidor de Texto — Repita texto até 10.000 vezes | AllWordTools",
+    "metaDescription": "Repetidor de texto gratuito: repita qualquer palavra, frase ou emoji até 10.000 vezes com espaços, quebras de linha ou o seu próprio separador. Perfeito para mensagens do WhatsApp. Copie ou baixe instantaneamente.",
+    "eyebrow": "Análise de Texto",
+    "heading": "Repetidor de Texto",
+    "subheading": "Repita qualquer palavra, frase ou emoji até 10.000 vezes — com espaços, quebras de linha ou um separador à sua escolha. Feito para mensagens do WhatsApp, ênfase e testes, com cópia e download instantâneos.",
+    "intro": [
+      "As buscas por um repetidor de texto explodiram este ano — 'text repeater for WhatsApp' e 'text repeater 10000' são consultas em breakout, com alta de milhares por cento. O motivo é simples: às vezes um único 'Happy Birthday 🎂' não basta, e ninguém vai digitar isso mil vezes à mão.",
+      "Digite seu texto uma vez, escolha quantas vezes repeti-lo (10, 100, 1.000, até 10.000), escolha um separador — um espaço, uma quebra de linha, uma vírgula, nada ou um personalizado, como um ❤ entre as repetições — e o texto repetido fica pronto instantaneamente. Adicione numeração, se quiser uma lista organizada de 1 a N.",
+      "Copie direto para o WhatsApp, Telegram, Discord ou qualquer outro lugar, ou baixe como um arquivo .txt. Tudo roda no seu navegador; seu texto nunca é enviado. Um pedido honesto: repetidores servem para mensagens divertidas, ênfase e testes — por favor, não use um para enviar spam ou irritar ninguém."
+    ],
+    "howToTitle": "Como usar o Repetidor de Texto",
+    "howToSteps": [
+      {
+        "title": "Digite seu texto",
+        "detail": "Uma palavra, uma frase, um nome ou um emoji — o que você quiser repetir."
+      },
+      {
+        "title": "Escolha a quantidade",
+        "detail": "Toque em um valor predefinido (100×, 1.000×, 10.000×) ou digite qualquer número até 10.000."
+      },
+      {
+        "title": "Escolha um separador",
+        "detail": "Espaço, quebra de linha, vírgula, nada — ou um separador personalizado como ❤ ou |. Opcionalmente, adicione numeração."
+      },
+      {
+        "title": "Copie ou baixe",
+        "detail": "Copie o resultado para colar no WhatsApp ou em qualquer aplicativo, ou salve como um arquivo .txt."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Por que as pessoas repetem texto (os motivos amigáveis)",
+        "paragraphs": [
+          "O maior uso é celebração e ênfase: um desejo de aniversário repetido 100 vezes enche a conversa com energia de confete, um nome repetido cria um padrão divertido, e repetir 'desculpa' ou 'obrigado' cem vezes é, por si só, uma piada entre amigos. Repetições de emojis viram banners e divisórias para grupos e posts de canais.",
+          "Também há usos práticos: desenvolvedores e testadores geram sequências repetidas para preencher formulários, testar layouts e verificar limites de caracteres; professores criam linhas de prática; designers usam palavras repetidas como textura de preenchimento. A opção de numeração transforma o repetidor em um criador rápido de listas numeradas."
+        ]
+      },
+      {
+        "heading": "Repita com responsabilidade",
+        "paragraphs": [
+          "Uma parede de texto repetido na conversa de outra pessoa só é divertida quando ela está na brincadeira. Inundar uma pessoa ou um grupo que não pediu por isso é spam, pode fazer sua conta ser denunciada ou banida no WhatsApp e, na forma de mensagens em massa, pode violar as regras da plataforma e até leis locais.",
+          "Esta ferramenta limita deliberadamente a saída a 10.000 repetições e 1.000.000 de caracteres, e roda inteiramente no seu dispositivo — não há nenhum recurso de envio. Use-a para amigos que vão rir, seus próprios canais e seus próprios testes, e todo mundo fica feliz."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "'Happy Birthday 🎂' × 100, quebra de linha",
+        "output": "100 desejos de aniversário, um por linha",
+        "note": "A clássica enxurrada de aniversário no WhatsApp — para amigos que adoram."
+      },
+      {
+        "input": "'Sorry!' × 50, separador ' ❤ '",
+        "output": "Sorry! ❤ Sorry! ❤ Sorry! …",
+        "note": "Separadores personalizados criam padrões e divisórias."
+      },
+      {
+        "input": "'Practice line' × 10, numerado",
+        "output": "1. Practice line  2. Practice line …",
+        "note": "A numeração transforma repetições em listas para estudo ou testes."
+      }
+    ],
+    "tips": [
+      "Quebras de linha leem melhor em aplicativos de conversa: uma repetição por linha parece a celebração de muitas mensagens.",
+      "Use um separador de emoji personalizado (❤ ✨ 🔥) para transformar uma repetição simples em um banner com padrão.",
+      "Para saídas muito longas, baixe o arquivo .txt em vez de colar em aplicativos com limites de mensagem.",
+      "O WhatsApp pode dividir ou bloquear a colagem de mensagens extremamente longas — 1.000 repetições é um ponto ideal.",
+      "Combine com o Fancy Text Generator: estilize seu texto primeiro e depois repita a versão estilizada."
+    ],
+    "faqs": [
+      {
+        "question": "Quantas vezes posso repetir um texto?",
+        "answer": "Até 10.000 vezes, com um limite total de saída de 1.000.000 de caracteres para manter seu navegador feliz. Valores predefinidos de 10, 100, 500, 1.000, 5.000 e 10.000 estão a um toque de distância."
+      },
+      {
+        "question": "Posso repetir texto para o WhatsApp?",
+        "answer": "Sim — esse é o uso mais popular. Escolha 'Quebra de linha' como separador, copie o resultado e cole na sua conversa. Reserve para amigos e grupos que curtem isso."
+      },
+      {
+        "question": "Posso usar meu próprio separador entre as repetições?",
+        "answer": "Sim. Escolha 'Personalizado' e digite qualquer coisa — um emoji, uma palavra, um símbolo como | ou • — e ele será colocado entre cada repetição."
+      },
+      {
+        "question": "O Repetidor de Texto envia mensagens por mim?",
+        "answer": "Não. Ele apenas prepara o texto repetido no seu dispositivo; você copia e cola por conta própria. Não há, deliberadamente, nenhum recurso de envio ou postagem automática."
+      },
+      {
+        "question": "O Repetidor de Texto é gratuito?",
+        "answer": "Sim — gratuito e ilimitado, sem cadastro, e tudo roda no seu navegador."
+      }
+    ],
+    "searchIntent": "Os usuários procuram uma ferramenta gratuita para repetir um texto, uma palavra ou um emoji muitas vezes — por exemplo, para mensagens de WhatsApp, felicitações de aniversário, ênfase ou testes.",
+    "keywords": [
+      "repetidor de texto",
+      "repetir texto",
+      "repetir texto 1000 vezes",
+      "repetir texto para WhatsApp",
+      "repetir palavra online",
+      "texto repetido copiar e colar"
+    ]
   }
 }
