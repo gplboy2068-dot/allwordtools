@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "@tanstack/react-router";
-import { ChevronDown, LogIn, Menu, Search, Sparkles, SpellCheck2, X } from "lucide-react";
+import { ChevronDown, Menu, Search, Sparkles, SpellCheck2, X } from "lucide-react";
 import { ThemeToggle } from "./ThemeToggle";
 import { ToolSearchDialog } from "./ToolSearchDialog";
 import { LanguageSwitcher } from "./LanguageSwitcher";
@@ -204,16 +204,6 @@ export function Header() {
           <LanguageSwitcher />
           <ThemeToggle />
           <Button
-            asChild
-            variant="outline"
-            size="sm"
-            className="hidden rounded-full lg:inline-flex"
-          >
-            <Link to="/login">
-              <LogIn className="mr-1.5 h-4 w-4" /> {t("nav.login")}
-            </Link>
-          </Button>
-          <Button
             variant="ghost"
             size="icon"
             className="rounded-full lg:hidden"
@@ -304,13 +294,6 @@ export function Header() {
             className="block rounded-lg px-3 py-2.5 text-sm font-medium text-muted-foreground hover:bg-secondary hover:text-foreground"
           >
             {t("nav.blog")}
-          </Link>
-          <Link
-            to="/login"
-            onClick={() => setOpen(false)}
-            className="mt-2 flex items-center gap-2 rounded-lg bg-secondary px-3 py-2.5 text-sm font-semibold hover:bg-accent"
-          >
-            <LogIn className="h-4 w-4" /> {t("nav.login")}
           </Link>
         </nav>
       )}
