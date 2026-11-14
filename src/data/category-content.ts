@@ -24,6 +24,63 @@ export type CategoryContent = {
 };
 
 export const categoryContent: Record<string, CategoryContent> = {
+  "iphone-tools": {
+    slug: "iphone-tools",
+    metaTitle: "iPhone Tools — Symbols, Emoji, Kaomoji & Stylish Text for iPhone | AllWordTools",
+    metaDescription:
+      "Free tools made for iPhone users: copy-paste symbols, emoji, kaomoji, invisible characters, Zalgo and weird text, plus an iPhone text replacement shortcut builder. No sign-up, no app to install.",
+    eyebrow: "Category",
+    heading: "iPhone Tools",
+    subheading:
+      "Everything your iPhone keyboard is missing — symbols, emoji, kaomoji and stylish text to copy and paste into any app, plus iPhone-only helpers.",
+    intro: [
+      "The iPhone keyboard is brilliant at letters and emoji, and silent about everything else. The symbols, dividers, invisible characters and stylish text styles that make bios, chats and names look great are simply not on the keyboard — so iPhone users copy them from the web. This category gathers sixteen tools built exactly for that: copy-paste libraries and text stylers designed to be opened in Safari, tapped once, and pasted anywhere.",
+      "The collection covers the full range: the iPhone Symbols and Aesthetic Symbols libraries, the iPhone Emoji picker and Emoji Meanings lookup, Emoji Combinations and the Emoji Translator, the Invisible Character tool, Kaomoji and the Lenny Face Generator, Zalgo, Weird, Small, Vaporwave, Strikethrough and Mirror text generators, and a builder for iPhone Text Replacement shortcuts. Every tool is free, needs no sign-up, and runs entirely in your browser.",
+    ],
+    sections: [
+      {
+        heading: "Why iPhone users need these tools",
+        paragraphs: [
+          "iOS exposes only a fraction of Unicode through its keyboard. Emoji get a whole keyboard; symbols get a handful of punctuation marks; invisible characters, kaomoji, combining-mark styles and decorative dividers get nothing at all. The gap is filled by copying — and copying works best when the thing you need is searchable, organised and one tap from your clipboard.",
+          "These tools are built for that flow: big tap targets, instant copy feedback, compose boxes for building strings, and recent-picks rows for the symbols and faces you actually reuse. Open in Safari, tap, paste into iMessage, Instagram, Notes, TikTok or WhatsApp — the result is plain Unicode text that looks right everywhere.",
+        ],
+      },
+      {
+        heading: "The strongest tools in this category",
+        paragraphs: [
+          "Kaomoji is the breakout star: searches for kaomoji have climbed steadily through 2026 in the US and Canada, and the library here is the most complete way to browse them by mood. The Invisible Character tool answers the most iPhone-specific question of all — how to type invisible text on iPhone — with the characters themselves plus a detector. And the Symbols and Emoji libraries serve the two biggest evergreen needs: symbols copy and paste, and emoji copy and paste, both with the highest sustained demand in the US, Canada and Australia.",
+          "Around those anchors, the text stylers — Zalgo, Weird, Small, Vaporwave, Strikethrough and Mirror — cover every way to make words look different, while the Text Replacement builder helps with the one iPhone feature that genuinely saves keystrokes every day.",
+        ],
+      },
+    ],
+    tips: [
+      "Add this category to your iPhone Home Screen: open it in Safari, tap Share, then Add to Home Screen — your symbol and emoji libraries become one tap away.",
+      "Most tools keep your recent picks at the top, so the symbols and faces you reuse cost one tap.",
+      "Symbols and emoji are plain Unicode text — they paste into every app and sync with your text across iCloud.",
+      "For bios, pair a symbols library with a text styler: symbols for structure, styled text for the name.",
+      "If a character shows as a box on an old device, updating iOS fixes it — the character itself is standard Unicode.",
+    ],
+    faqs: [
+      {
+        question: "Do these tools work on iPhone?",
+        answer: "Yes — they are built for it. Open any tool in Safari, tap to copy, and paste into iMessage, Instagram, Notes, TikTok, WhatsApp or any other app. No app to install and no sign-up.",
+      },
+      {
+        question: "Do I need to install a keyboard or app?",
+        answer: "No. Everything here is a website. The tools prepare text and symbols for your clipboard; iOS handles the pasting.",
+      },
+      {
+        question: "Will symbols and emoji look the same on Android?",
+        answer: "The characters are identical Unicode, but each platform draws its own emoji artwork, so colours and details vary slightly. Symbols look the same almost everywhere.",
+      },
+      {
+        question: "Are the iPhone Tools free?",
+        answer: "Yes — all sixteen tools are free and unlimited, with no sign-up, and everything runs in your browser.",
+      },
+    ],
+    imagePrompt:
+      "A bright, friendly illustration of an iPhone showing a grid of colourful symbols, emoji and kaomoji faces, with sparkles and stars around it, flat modern style, on a soft gradient background.",
+  },
   "word-solvers": {
     slug: "word-solvers",
     metaTitle: "Word Solvers — Unscramble & Puzzle Tools | AllWordTools",

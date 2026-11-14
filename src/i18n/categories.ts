@@ -6,6 +6,40 @@ export interface LocalizedCategoryInfo {
 }
 
 export const CATEGORY_TRANSLATIONS: Record<string, Record<string, LocalizedCategoryInfo>> = {
+  "iphone-tools": {
+    en: {
+      title: "iPhone Tools",
+      description: "Made for iPhone users. Copy-paste symbols, emoji, kaomoji and stylish text your iOS keyboard doesn't have — plus iPhone-only helpers like text replacement shortcuts.",
+    },
+    hi: {
+      title: "iPhone टूल्स",
+      description: "iPhone उपयोगकर्ताओं के लिए बने टूल्स। अपने iOS कीबोर्ड पर न मिलने वाले सिंबल, इमोजी, काओमोजी और स्टाइलिश टेक्स्ट कॉपी-पेस्ट करें — साथ ही टेक्स्ट रिप्लेसमेंट जैसे iPhone-खास सहायक।",
+    },
+    es: {
+      title: "Herramientas para iPhone",
+      description: "Hechas para usuarios de iPhone. Copia y pega símbolos, emojis, kaomojis y texto con estilo que tu teclado iOS no tiene, además de ayudantes exclusivos como los atajos de sustitución de texto.",
+    },
+    de: {
+      title: "iPhone-Tools",
+      description: "Gemacht für iPhone-Nutzer. Symbole, Emojis, Kaomoji und stylischen Text kopieren und einfügen, die deine iOS-Tastatur nicht hat – plus iPhone-exklusive Helfer wie Textersetzungs-Kürzel.",
+    },
+    ar: {
+      title: "أدوات آيفون",
+      description: "مصممة لمستخدمي آيفون. انسخ والصق الرموز والإيموجي والكاوموجي والنصوص الأنيقة التي لا توفرها لوحة مفاتيح iOS — بالإضافة إلى مساعدين حصريين لآيفون مثل اختصارات استبدال النص.",
+    },
+    pt: {
+      title: "Ferramentas para iPhone",
+      description: "Feitas para usuários de iPhone. Copie e cole símbolos, emojis, kaomojis e textos estilizados que o teclado iOS não tem — além de ajudantes exclusivos do iPhone, como atalhos de substituição de texto.",
+    },
+    id: {
+      title: "Alat iPhone",
+      description: "Dibuat untuk pengguna iPhone. Salin-tempel simbol, emoji, kaomoji, dan teks bergaya yang tidak dimiliki keyboard iOS — plus pembantu khusus iPhone seperti pintasan penggantian teks.",
+    },
+    ru: {
+      title: "Инструменты для iPhone",
+      description: "Создано для пользователей iPhone. Копируйте и вставляйте символы, эмодзи, каомодзи и стильный текст, которых нет на клавиатуре iOS, — а также эксклюзивные помощники, например сокращения для замены текста.",
+    },
+  },
   "word-solvers": {
     en: {
       title: "Word Solvers",

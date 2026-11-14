@@ -39,6 +39,22 @@ import { WordCounterTool } from "@/components/tools/WordCounterTool";
 import { CaseConverter } from "@/components/tools/CaseConverter";
 import { FancyTextGenerator } from "@/components/tools/FancyTextGenerator";
 import { TextRepeater } from "@/components/tools/TextRepeater";
+import { IphoneSymbols } from "@/components/tools/IphoneSymbols";
+import { IphoneEmoji } from "@/components/tools/IphoneEmoji";
+import { EmojiMeanings } from "@/components/tools/EmojiMeanings";
+import { EmojiCombinations } from "@/components/tools/EmojiCombinations";
+import { EmojiTranslator } from "@/components/tools/EmojiTranslator";
+import { InvisibleCharacter } from "@/components/tools/InvisibleCharacter";
+import { Kaomoji } from "@/components/tools/Kaomoji";
+import { LennyFaceGenerator } from "@/components/tools/LennyFaceGenerator";
+import { ZalgoTextGenerator } from "@/components/tools/ZalgoTextGenerator";
+import { WeirdTextGenerator } from "@/components/tools/WeirdTextGenerator";
+import { SmallTextGenerator } from "@/components/tools/SmallTextGenerator";
+import { VaporwaveTextGenerator } from "@/components/tools/VaporwaveTextGenerator";
+import { StrikethroughTextGenerator } from "@/components/tools/StrikethroughTextGenerator";
+import { MirrorTextGenerator } from "@/components/tools/MirrorTextGenerator";
+import { AestheticSymbols } from "@/components/tools/AestheticSymbols";
+import { IphoneTextReplacement } from "@/components/tools/IphoneTextReplacement";
 import { PhoneticAlphabet } from "@/components/tools/PhoneticAlphabet";
 import { WordFinder } from "@/components/tools/WordFinder";
 import { WordleSolver } from "@/components/tools/WordleSolver";
@@ -759,6 +775,38 @@ export function ToolPageView({
                 <FancyTextGenerator />
               ) : slug === "text-repeater" ? (
                 <TextRepeater />
+              ) : slug === "iphone-symbols" ? (
+                <IphoneSymbols />
+              ) : slug === "iphone-emoji" ? (
+                <IphoneEmoji />
+              ) : slug === "emoji-meanings" ? (
+                <EmojiMeanings />
+              ) : slug === "emoji-combinations" ? (
+                <EmojiCombinations />
+              ) : slug === "emoji-translator" ? (
+                <EmojiTranslator />
+              ) : slug === "invisible-character" ? (
+                <InvisibleCharacter />
+              ) : slug === "kaomoji" ? (
+                <Kaomoji />
+              ) : slug === "lenny-face-generator" ? (
+                <LennyFaceGenerator />
+              ) : slug === "zalgo-text-generator" ? (
+                <ZalgoTextGenerator />
+              ) : slug === "weird-text-generator" ? (
+                <WeirdTextGenerator />
+              ) : slug === "small-text-generator" ? (
+                <SmallTextGenerator />
+              ) : slug === "vaporwave-text-generator" ? (
+                <VaporwaveTextGenerator />
+              ) : slug === "strikethrough-text-generator" ? (
+                <StrikethroughTextGenerator />
+              ) : slug === "mirror-text-generator" ? (
+                <MirrorTextGenerator />
+              ) : slug === "aesthetic-symbols" ? (
+                <AestheticSymbols />
+              ) : slug === "iphone-text-replacement" ? (
+                <IphoneTextReplacement />
               ) : slug === "phonetic-alphabet-converter" ? (
                 <PhoneticAlphabet />
               ) : slug === "word-finder" ? (
