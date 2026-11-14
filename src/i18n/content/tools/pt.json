@@ -10856,5 +10856,1653 @@
       "repetir palavra online",
       "texto repetido copiar e colar"
     ]
+  },
+  "iphone-symbols": {
+    "name": "Símbolos para iPhone",
+    "metaTitle": "Símbolos para iPhone — Copiar e Colar Símbolos | AllWordTools",
+    "metaDescription": "Copie e cole símbolos que o teclado do iPhone não tem: corações, estrelas, setas, matemática, zodíaco, música e muito mais. Um toque para copiar, grátis, sem cadastro.",
+    "eyebrow": "Ferramentas para iPhone",
+    "heading": "Símbolos para iPhone",
+    "subheading": "Todos os símbolos que faltam no teclado do iPhone — corações, estrelas, setas, matemática, zodíaco e muito mais — prontos para copiar e colar em qualquer app com um toque.",
+    "intro": [
+      "O teclado do iPhone é ótimo para letras e emojis, mas esconde quase todos os outros símbolos. O coração que você quer para um nome de contato, a estrela para o título de uma playlist, a seta para uma anotação, o signo do zodíaco para uma bio — nenhum deles está no teclado, e procurar no Visualizador de Caracteres do Mac ou adivinhar códigos Unicode não é divertido para ninguém.",
+      "Esta biblioteca reúne mais de 200 símbolos em um só lugar, organizados por categoria: corações, estrelas, setas, matemática, moeda, música, formas, marcas de seleção, zodíaco, letras gregas e marcas decorativas. Toque em qualquer símbolo para copiá-lo ou monte uma sequência na caixa de composição e copie tudo de uma vez. Os símbolos copiados recentemente ficam no topo, então seus favoritos estão sempre a um toque de distância.",
+      "Tudo é texto Unicode simples, então cola perfeitamente no iMessage, Instagram, Notas, WhatsApp, TikTok e em qualquer outro lugar — e fica igual no iPhone, no Android e no computador. Sem instalar app, sem cadastro e sem enviar nada: tudo funciona no seu navegador."
+    ],
+    "howToTitle": "Como usar a biblioteca de Símbolos para iPhone",
+    "howToSteps": [
+      {
+        "title": "Navegue ou pesquise",
+        "detail": "Escolha uma categoria — Corações, Estrelas, Setas, Matemática e mais — ou digite na caixa de pesquisa para filtrar os símbolos."
+      },
+      {
+        "title": "Toque para copiar",
+        "detail": "Toque em qualquer símbolo e ele é copiado para a área de transferência na hora, pronto para colar."
+      },
+      {
+        "title": "Ou monte uma sequência",
+        "detail": "Toque em vários símbolos para reuni-los na caixa de composição, organize sua sequência e copie tudo de uma vez."
+      },
+      {
+        "title": "Cole em qualquer lugar",
+        "detail": "Pressione e segure no iMessage, Instagram, Notas ou qualquer app e escolha Colar. O símbolo aparece exatamente como mostrado."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Por que usuários de iPhone precisam de uma biblioteca de símbolos",
+        "paragraphs": [
+          "O iOS oferece um teclado de emojis e alguns sinais de pontuação, mas o conjunto completo de símbolos Unicode — milhares de caracteres — simplesmente não pode ser acessado pelo teclado. As pessoas contornam isso copiando símbolos de sites, mensagens e anotações, o que é lento e pouco confiável quando você precisa de um símbolo específico.",
+          "Uma biblioteca dedicada resolve isso: cada símbolo fica visível, pesquisável e a um toque da sua área de transferência. Como os símbolos são Unicode padrão, eles aparecem corretamente na fonte San Francisco da Apple e em todos os apps, e sincronizam com seu texto pelo iCloud sem nenhuma configuração especial."
+        ]
+      },
+      {
+        "heading": "Onde os símbolos brilham no iPhone",
+        "paragraphs": [
+          "Nomes de contatos ganham personalidade com um prefixo ★ ou ♥, nomes de playlists e pastas se destacam com setas e estrelas, e bios do Instagram e do TikTok ficam elegantes com divisórias e marcas decorativas. Notas e Lembretes ficam mais fáceis de ler com marcadores ✓, → e ●, e nomes de grupos ficam instantaneamente reconhecíveis com um símbolo característico.",
+          "Um aviso: alguns símbolos bem novos ou pouco comuns podem aparecer como uma caixa em versões mais antigas do iOS. Todos os símbolos aqui têm amplo suporte nos iPhones atuais e, se algum aparecer como caixa, atualizar o iOS resolve."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "Coração para um nome de contato",
+        "output": "♥ Mãe ♥",
+        "note": "Copie um coração e cole-o ao redor de um nome de contato no app Telefone."
+      },
+      {
+        "input": "Estrelas para uma playlist",
+        "output": "★ Vibes Tranquilas ★",
+        "note": "Estrelas fazem nomes de playlists e pastas serem fáceis de encontrar."
+      },
+      {
+        "input": "Setas como marcadores em Notas",
+        "output": "→ Comprar leite  → Ligar para o banco",
+        "note": "Setas transformam anotações comuns em listas fáceis de ler."
+      }
+    ],
+    "tips": [
+      "Use a caixa de pesquisa para achados rápidos — experimente 'estrela', 'coração' ou 'seta' em vez de rolar a página.",
+      "Seus símbolos copiados recentemente ficam no topo, então favoritos repetidos custam um toque.",
+      "Combine os símbolos com a ferramenta Símbolos Estéticos para bios com divisórias e molduras.",
+      "Símbolos são texto simples, então funcionam em nomes de usuário, nomes de Wi-Fi e em qualquer lugar onde emojis funcionam.",
+      "Se um símbolo aparecer como uma caixa □ em um aparelho antigo, ele precisa de uma versão mais recente do iOS — o símbolo em si está correto."
+    ],
+    "faqs": [
+      {
+        "question": "Estes símbolos funcionam no meu iPhone?",
+        "answer": "Sim. São caracteres Unicode padrão, com suporte do iOS e de todos os apps do iPhone. Copie nesta página e cole em qualquer lugar."
+      },
+      {
+        "question": "Preciso instalar um app ou teclado?",
+        "answer": "Não. Isto é um site — abra no Safari, toque em um símbolo e cole. Nada para instalar e sem cadastro."
+      },
+      {
+        "question": "Por que não consigo digitar estes símbolos no teclado do iPhone?",
+        "answer": "O teclado do iOS só oferece um pequeno conjunto de pontuação. O restante do Unicode só pode ser acessado copiando, que é exatamente para o que serve esta biblioteca."
+      },
+      {
+        "question": "Posso usar símbolos na bio e no nome de usuário do Instagram?",
+        "answer": "Sim — os símbolos podem ser colados em bios, legendas, nomes e comentários. Note que nomes de usuário do Instagram só permitem letras, números, pontos e sublinhados, então os símbolos pertencem ao nome de exibição e à bio, não ao @."
+      },
+      {
+        "question": "A biblioteca de Símbolos para iPhone é gratuita?",
+        "answer": "Sim — gratuita e ilimitada, sem cadastro, e tudo funciona no seu navegador."
+      }
+    ],
+    "searchIntent": "Usuários que procuram esta ferramenta querem copiar símbolos que o teclado do iPhone não oferece — como corações, estrelas e setas — para colar em bios, nomes de contatos e mensagens.",
+    "keywords": [
+      "símbolos para iphone",
+      "símbolos para copiar e colar",
+      "símbolos iphone copiar",
+      "corações e estrelas para copiar",
+      "símbolos para bio do instagram",
+      "símbolos unicode iphone"
+    ]
+  },
+  "iphone-emoji": {
+    "name": "Emojis do iPhone",
+    "metaTitle": "Emojis para Copiar e Colar — Biblioteca de Emojis do iPhone | AllWordTools",
+    "metaDescription": "Copie e cole qualquer emoji: navegue por toda a biblioteca de emojis do iPhone por categoria ou pesquise pelo nome. Carinhas, animais, comidas, bandeiras e muito mais — um toque para copiar.",
+    "eyebrow": "Ferramentas para iPhone",
+    "heading": "Emojis do iPhone",
+    "subheading": "Todo o teclado de emojis, no seu navegador — navegue por categoria, pesquise pelo nome e copie qualquer emoji com um toque para colar em qualquer app.",
+    "intro": [
+      "Às vezes, você precisa de um emoji que é mais rápido de encontrar em uma página da web do que deslizando pelas páginas do teclado — especialmente quando você está no computador, escrevendo uma mensagem longa ou procurando um emoji específico que consegue imaginar, mas não sabe o nome. Esta biblioteca coloca todo o conjunto de emojis na sua frente, pesquisável pelo nome e organizado do jeito que seu cérebro pensa: carinhas, pessoas, animais, comidas, atividades, viagens, objetos e símbolos.",
+      "Toque em qualquer emoji para copiá-lo. Reúna vários na caixa de composição para montar uma sequência — uma reação, uma legenda, um nome decorado — e copie tudo de uma vez. Seus emojis copiados recentemente ficam no topo, então aqueles que você realmente usa estão sempre ao alcance.",
+      "Emojis são caracteres Unicode, então podem ser colados no iMessage, WhatsApp, Instagram, Notas, e-mail e documentos — e, no iPhone, aparecem automaticamente no estilo de emoji da Apple. Nada é enviado e nada é instalado: é apenas um teclado de emojis rápido e pesquisável para o seu navegador."
+    ],
+    "howToTitle": "Como usar a biblioteca de Emojis do iPhone",
+    "howToSteps": [
+      {
+        "title": "Navegue ou pesquise",
+        "detail": "Escolha uma categoria ou digite um nome — 'gato', 'pizza', 'fogo' — para filtrar na hora."
+      },
+      {
+        "title": "Toque para copiar",
+        "detail": "Toque em qualquer emoji e ele vai para a área de transferência, pronto para colar."
+      },
+      {
+        "title": "Monte uma sequência",
+        "detail": "Toque em vários emojis para reuni-los na caixa de composição e copie a sequência inteira."
+      },
+      {
+        "title": "Cole em qualquer lugar",
+        "detail": "Cole em qualquer app. No iPhone, os emojis aparecem automaticamente no estilo da Apple."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Por que uma biblioteca de emojis no navegador supera o teclado",
+        "paragraphs": [
+          "O teclado de emojis do iOS é rápido para favoritos, mas lento para descobrir: centenas de emojis ficam escondidos atrás de páginas de categorias e variantes de pressão longa. Pesquisar pelo nome — 'abacate', 'mãos juntas', 'brilhos' — encontra o emoji exato em um segundo, e uma grade de página inteira permite comparar emojis parecidos lado a lado.",
+          "Ela também funciona em todos os lugares onde o teclado não funciona: no Mac ou PC enquanto você escreve, em apps da web e em documentos. O emoji que você copia é o mesmo caractere Unicode que seu teclado digitaria, então ele se comporta de forma idêntica em todos os lugares."
+        ]
+      },
+      {
+        "heading": "Emojis que ficam lindos no iPhone",
+        "paragraphs": [
+          "A arte de emojis da Apple é famosamente detalhada, e todos os emojis aqui aparecem nesse estilo no iPhone e no iPad. Variantes de tom de pele e gênero, bandeiras e as novidades mais recentes aparecem corretamente no iOS atual; em versões bem antigas, um emoji novinho pode aparecer como uma caixa até você atualizar.",
+          "Combine esta biblioteca com a ferramenta Significados de Emojis quando não tiver certeza do que um emoji realmente sinaliza — alguns dos emojis mais populares significam algo bem diferente do que parecem."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "Uma sequência de reação",
+        "output": "😂🔥💯",
+        "note": "Toque em três emojis, copie a sequência e cole-a como reação."
+      },
+      {
+        "input": "Uma legenda decorada",
+        "output": "🌸✨ só boas vibrações ✨🌸",
+        "note": "Coloque emojis nas pontas de uma legenda para um visual estético instantâneo."
+      },
+      {
+        "input": "Encontrando um emoji",
+        "output": "Pesquise 'tartaruga' → 🐢",
+        "note": "Pesquisar é melhor do que deslizar pelas páginas do teclado."
+      }
+    ],
+    "tips": [
+      "Pesquise pela palavra que você diria — 'feliz', 'cachorro', 'praia' — os nomes correspondem ao jeito que as pessoas pensam.",
+      "Emojis copiados recentemente ficam no topo para repetições com um toque.",
+      "Use a caixa de composição para montar sequências com vários emojis antes de copiar uma vez.",
+      "Confira Significados de Emojis antes de usar um emoji desconhecido em uma mensagem importante.",
+      "Emojis novos precisam do iOS atual — se um aparecer como caixa, atualize seu iPhone."
+    ],
+    "faqs": [
+      {
+        "question": "Posso copiar emojis daqui para o meu iPhone?",
+        "answer": "Sim. Toque em um emoji para copiá-lo e cole-o no iMessage, Instagram, Notas ou qualquer app. No iPhone, ele aparece no estilo de emoji da Apple."
+      },
+      {
+        "question": "É o mesmo conjunto de emojis do teclado do meu iPhone?",
+        "answer": "Sim — os mesmos emojis Unicode. A biblioteca é uma visualização pesquisável dos mesmos caracteres que seu teclado digita."
+      },
+      {
+        "question": "Por que eu usaria isto em vez do meu teclado?",
+        "answer": "Para pesquisa rápida pelo nome, para navegar no computador e para montar sequências com vários emojis. Ela complementa o teclado em vez de substituí-lo."
+      },
+      {
+        "question": "Emojis funcionam em bios e nomes de usuário do Instagram?",
+        "answer": "Emojis funcionam em nomes de exibição, bios e legendas. Os @ do Instagram só permitem letras, números, pontos e sublinhados."
+      },
+      {
+        "question": "A biblioteca de emojis é gratuita?",
+        "answer": "Sim — gratuita e ilimitada, sem cadastro, e tudo funciona no seu navegador."
+      }
+    ],
+    "searchIntent": "Quem pesquisa esta ferramenta quer encontrar e copiar rapidamente um emoji específico — por nome ou categoria — para colar em mensagens, bios e legendas sem procurar nas páginas do teclado.",
+    "keywords": [
+      "emojis do iphone",
+      "emoji copiar e colar",
+      "todos os emojis",
+      "biblioteca de emojis",
+      "emojis para copiar",
+      "pesquisar emoji pelo nome"
+    ]
+  },
+  "emoji-meanings": {
+    "name": "Significados de Emojis",
+    "metaTitle": "Significados de Emojis — O Que Aquele Emoji Significa? | AllWordTools",
+    "metaDescription": "Descubra o que qualquer emoji realmente significa. Pesquise mais de 120 emojis comuns para ver o significado verdadeiro, os significados ocultos e exemplos reais de uso — para nunca enviar o emoji errado.",
+    "eyebrow": "Ferramentas para iPhone",
+    "heading": "Significados de Emojis",
+    "subheading": "Nunca mais envie o emoji errado — descubra o que qualquer emoji realmente significa, incluindo os significados ocultos que todos os outros parecem conhecer.",
+    "intro": [
+      "Emojis parecem simples, mas muitos carregam significados bem distantes de sua imagem. O emoji de mãos juntas é um high-five para alguns e uma oração para outros, a berinjela raramente tem a ver com legumes, e o rosto sorridente de olhos sorridentes pode soar como calor genuíno ou sarcasmo discreto, dependendo do contexto. Enviar o emoji errado no chat errado é um ritual que ninguém gosta de viver.",
+      "Esta consulta abrange mais de 120 dos emojis mais comuns — e mais incompreendidos —, cada um com seu significado simples e um exemplo real de como as pessoas realmente o usam. Pesquise pelo nome ou pelo significado, filtre por categoria e toque em qualquer emoji para copiá-lo quando souber o que ele diz.",
+      "Os significados aqui refletem como os emojis são geralmente usados em chats e redes sociais em inglês nos EUA, Canadá e Austrália. A gíria muda rápido, então trate as notas como um guia de uso comum, não como um manual de regras — e, na dúvida, pergunte à pessoa com quem você está conversando."
+    ],
+    "howToTitle": "Como consultar o significado de um emoji",
+    "howToSteps": [
+      {
+        "title": "Pesquise o emoji",
+        "detail": "Digite um nome ('fogo'), uma palavra ('feliz') ou parte de um significado na caixa de pesquisa."
+      },
+      {
+        "title": "Ou filtre por categoria",
+        "detail": "Navegue por Carinhas, Gestos, Corações, Animais, Comidas, Objetos e Símbolos."
+      },
+      {
+        "title": "Leia o significado",
+        "detail": "Cada cartão mostra o emoji, seu nome, seu significado e um exemplo real de uso."
+      },
+      {
+        "title": "Copie-o",
+        "detail": "Toque no emoji para copiá-lo quando tiver certeza de que ele diz o que você quer dizer."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Por que os significados dos emojis mudam",
+        "paragraphs": [
+          "Os significados dos emojis são definidos pela cultura, não pelo Unicode Consortium. O nome oficial de um emoji costuma ser sem graça — 'rosto sorridente com auréola' — enquanto seu significado vivido vem de memes, chats em grupo e uso por celebridades. É por isso que o mesmo emoji pode ser inocente em uma comunidade e carregado de sentido em outra.",
+          "A arte de cada plataforma aumenta essa variação: a arte detalhada da Apple pode fazer um emoji parecer mais amigável ou mais estranho do que o mesmo caractere no Android ou no navegador. As notas de significado aqui descrevem o caractere, não a arte de uma plataforma."
+        ]
+      },
+      {
+        "heading": "Os emojis mais comumente mal interpretados",
+        "paragraphs": [
+          "Os gestos lideram a lista de confusões: mãos juntas, mão de OK, dedos pinçando e mão com esmalte significam coisas diferentes para gerações diferentes. Emojis de comida carregam mais gíria — pêssego, berinjela, cerejas e taco raramente têm a ver com jantar — e rostos como o sorriso de cabeça para baixo e o rosto levemente sorridente são marcadores de sarcasmo com a mesma frequência com que são sorrisos.",
+          "Se o tom de uma mensagem depende de um emoji, vale os dez segundos para conferir. Esta consulta existe exatamente para esse momento."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "Mãos juntas 🙏",
+        "output": "High-five, obrigado, oração ou súplica — o contexto decide.",
+        "note": "O emoji mais debatido do conjunto."
+      },
+      {
+        "input": "Rosto de cabeça para baixo 🙃",
+        "output": "Sarcasmo, constrangimento ou energia de 'está tudo bem'.",
+        "note": "Raramente uma cabeça literalmente de cabeça para baixo."
+      },
+      {
+        "input": "Fogo 🔥",
+        "output": "Excelente, atraente, literalmente quente ou 'demais'.",
+        "note": "Um dos emojis positivos mais seguros."
+      }
+    ],
+    "tips": [
+      "Pesquise pelo significado que você quer, não só pela imagem — 'desculpa', 'amor' e 'sarcasmo' funcionam.",
+      "Quando o tom de uma mensagem depende de um emoji, confira aqui primeiro.",
+      "Os significados são culturais e mudam — verifique novamente os emojis de gíria de tempos em tempos.",
+      "Combine com a biblioteca de Emojis do iPhone para encontrar e copiar o emoji quando souber qual é.",
+      "Na dúvida com alguém novo, prefira o emoji mais simples — 😊 ❤️ 👍 raramente dão errado."
+    ],
+    "faqs": [
+      {
+        "question": "O que 🙏 significa?",
+        "answer": "Na maioria das vezes, obrigado, súplica ou oração — e, para muitas pessoas, um high-five. O contexto decide; o cartão de consulta explica cada uso."
+      },
+      {
+        "question": "Emojis significam coisas diferentes em países diferentes?",
+        "answer": "Sim. Os significados são culturais. Estas notas refletem o uso comum nos EUA, Canadá e Austrália; alguns emojis são lidos de forma diferente em outros lugares."
+      },
+      {
+        "question": "Por que o mesmo emoji parece diferente no meu iPhone e no Android do meu amigo?",
+        "answer": "Cada plataforma desenha sua própria arte de emoji para o mesmo caractere Unicode. O caractere — e seu significado usual — é o mesmo."
+      },
+      {
+        "question": "Novos significados de emojis são adicionados?",
+        "answer": "A consulta abrange os emojis mais comuns e mais incompreendidos. Os significados são revisados conforme a gíria muda."
+      },
+      {
+        "question": "A consulta de Significados de Emojis é gratuita?",
+        "answer": "Sim — gratuita e ilimitada, sem cadastro, e tudo funciona no seu navegador."
+      }
+    ],
+    "searchIntent": "Quem pesquisa esta ferramenta quer saber o que um emoji realmente significa — incluindo significados ocultos e de gíria — antes de enviá-lo e correr o risco de um mal-entendido.",
+    "keywords": [
+      "significado dos emojis",
+      "o que significa esse emoji",
+      "significado de emoji",
+      "emoji mãos juntas significado",
+      "significados ocultos dos emojis",
+      "dicionário de emojis"
+    ]
+  },
+  "emoji-combinations": {
+    "name": "Combinações de Emojis",
+    "metaTitle": "Combinações de Emojis — Combos de Emojis para Copiar e Colar | AllWordTools",
+    "metaDescription": "Combinações de emojis prontas para copiar e colar em bios, legendas e chats: combos estéticos, de amor, aniversário, natureza, festa, tristes, de verão, inverno e animais.",
+    "eyebrow": "Ferramentas para iPhone",
+    "heading": "Combinações de Emojis",
+    "subheading": "Combos de emojis prontos para bios, legendas e chats — temas estéticos, de amor, aniversário, natureza e festa, com um toque para copiar.",
+    "intro": [
+      "Um único emoji diz pouco; uma combinação diz muito. '🌸✨🦋' é um clima inteiro, '🎂🥳🎈' é uma festa em três caracteres, e a combinação certa transforma uma linha comum de bio em algo que as pessoas lembram. Mas montar boas combinações exige tentativas — por isso esta biblioteca reúne 60 combinações prontas, agrupadas por tema.",
+      "Escolha um tema — Estético, Amor, Aniversário, Natureza, Comida, Festa, Triste, Verão, Inverno ou Animais — ou pesquise uma palavra, depois toque em qualquer combinação para copiar a sequência inteira. Cole-a em uma bio, legenda, nome de chat ou mensagem e pronto, funciona.",
+      "Toda combinação é texto Unicode simples, então aparece no estilo de emoji da Apple no iPhone e funciona em todos os apps. Misture e combine: copie duas combinações e junte-as, ou use uma combinação como ponto de partida e troque um emoji pelo seu favorito."
+    ],
+    "howToTitle": "Como usar combinações de emojis",
+    "howToSteps": [
+      {
+        "title": "Escolha um tema",
+        "detail": "Navegue por Estético, Amor, Aniversário, Natureza, Festa e mais, ou pesquise uma palavra."
+      },
+      {
+        "title": "Toque em uma combinação",
+        "detail": "Um toque copia toda a sequência de emojis para a área de transferência."
+      },
+      {
+        "title": "Cole-a",
+        "detail": "Coloque-a em uma bio, legenda, nome de chat ou mensagem."
+      },
+      {
+        "title": "Misture e combine",
+        "detail": "Junte duas combinações ou troque um emoji para deixá-la com a sua cara."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Por que combinações superam emojis únicos",
+        "paragraphs": [
+          "Combinações criam cenas e climas que um emoji sozinho não consegue: estações, celebrações, estéticas e piadas. São o equivalente visual de uma frase em vez de uma palavra, e é por isso que dominam bios e legendas — uma combinação comunica uma vibe antes que uma única palavra seja lida.",
+          "Elas também evitam o problema de 'qual emoji?'. Em vez de procurar em páginas do teclado três emojis que combinem, você pega uma combinação testada que já parece equilibrada."
+        ]
+      },
+      {
+        "heading": "Onde as combinações funcionam melhor",
+        "paragraphs": [
+          "Bios do Instagram e do TikTok são o lar clássico: uma combinação no início ou no fim de uma linha da bio a emoldura lindamente. Elas também brilham em nomes de chats em grupo, status do Discord, legendas, títulos de playlists e mensagens de aniversário — em qualquer lugar onde uma explosão curta de personalidade visual ajude.",
+          "Mantenha as combinações curtas em contextos profissionais. De dois a cinco emojis soam divertidos; uma parede de vinte soa como barulho."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "Bio estética",
+        "output": "🌸✨🦋",
+        "note": "O trio clássico da estética suave."
+      },
+      {
+        "input": "Mensagem de aniversário",
+        "output": "🎂🥳🎈🎉",
+        "note": "Uma festa em quatro caracteres."
+      },
+      {
+        "input": "Inverno aconchegante",
+        "output": "❄️☕🧣🕯️",
+        "note": "Uma estação inteira em uma combinação."
+      }
+    ],
+    "tips": [
+      "Pesquise uma palavra de tema — 'praia', 'amor', 'festa' — para ir direto às combinações correspondentes.",
+      "Copie duas combinações e junte-as para uma sequência mais longa e personalizada.",
+      "Use combinações no início ou no fim das linhas da bio, não no meio das frases.",
+      "Combine com a biblioteca de Emojis do iPhone para incluir seu emoji favorito.",
+      "Em chats em grupo, uma combinação por mensagem já basta — mais do que isso parece spam."
+    ],
+    "faqs": [
+      {
+        "question": "Posso usar combinações de emojis na minha bio do Instagram?",
+        "answer": "Sim — as combinações podem ser coladas em bios, legendas, nomes de exibição e comentários. São texto Unicode simples."
+      },
+      {
+        "question": "As combinações ficam iguais no iPhone e no Android?",
+        "answer": "Os emojis são os mesmos caracteres, mas cada plataforma desenha sua própria arte, então cores e detalhes variam um pouco."
+      },
+      {
+        "question": "Posso editar uma combinação depois de copiá-la?",
+        "answer": "Claro — cole-a e depois adicione, remova ou troque emojis para deixá-la com a sua cara."
+      },
+      {
+        "question": "Combinações de emojis são gratuitas para usar?",
+        "answer": "Sim — emojis são caracteres Unicode; usá-los no seu próprio texto é gratuito em todos os lugares."
+      },
+      {
+        "question": "Esta ferramenta é gratuita?",
+        "answer": "Sim — gratuita e ilimitada, sem cadastro, e tudo funciona no seu navegador."
+      }
+    ],
+    "searchIntent": "Quem pesquisa esta ferramenta quer combinações de emojis prontas para copiar e colar em bios, legendas e chats, sem precisar montar a sequência emoji por emoji.",
+    "keywords": [
+      "combinações de emojis",
+      "combos de emojis para bio",
+      "emojis para bio do instagram",
+      "combinação de emojis estética",
+      "combos de emojis prontos",
+      "emojis para legenda"
+    ]
+  },
+  "emoji-translator": {
+    "name": "Tradutor de Emojis",
+    "metaTitle": "Tradutor de Emojis — Transforme Palavras em Emojis | AllWordTools",
+    "metaDescription": "Traduza texto para emojis na hora: digite uma frase e as palavras viram emojis. Dois modos — substituir palavras ou adicionar emojis depois delas. Grátis, sem cadastro.",
+    "eyebrow": "Ferramentas para iPhone",
+    "heading": "Tradutor de Emojis",
+    "subheading": "Digite uma frase e ganhe emojis — traduza palavras para emojis na hora ou mantenha as palavras e adicione emojis depois delas.",
+    "intro": [
+      "Tradutores de emojis transformam frases comuns em frases visuais: 'I love pizza on Friday night' vira 'I ❤️ 🍕 on Friday 🌙'. É um truque de festa, um criador de legendas e uma forma genuinamente divertida de escrever mensagens que se destacam — especialmente em chats em grupo, onde texto comum é apenas passado por cima.",
+      "Este tradutor conhece mais de 150 palavras comuns em inglês, de sentimentos, animais, comidas, atividades, objetos, natureza e transporte. Digite ou cole uma frase em inglês e ela é traduzida ao vivo, combinando palavras inteiras e mantendo sua pontuação e capitalização intactas. Palavras desconhecidas ficam como palavras, então o resultado sempre continua legível.",
+      "Dois modos cobrem ambos os usos: Substituir transforma palavras em emojis para o máximo impacto visual, enquanto Adicionar mantém cada palavra e coloca o emoji depois dela — perfeito quando você quer que a mensagem continue cristalina, mas ainda divertida."
+    ],
+    "howToTitle": "Como usar o Tradutor de Emojis",
+    "howToSteps": [
+      {
+        "title": "Digite uma frase",
+        "detail": "Escreva ou cole qualquer frase em inglês na caixa de entrada."
+      },
+      {
+        "title": "Escolha um modo",
+        "detail": "Substituir troca palavras por emojis; Adicionar mantém as palavras e adiciona emojis depois delas."
+      },
+      {
+        "title": "Veja a tradução",
+        "detail": "O resultado é atualizado ao vivo enquanto você digita."
+      },
+      {
+        "title": "Copie ou baixe",
+        "detail": "Copie o resultado para colar em qualquer lugar ou salve-o como arquivo .txt."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Como a tradução funciona",
+        "paragraphs": [
+          "O tradutor combina palavras inteiras com um dicionário de palavras comuns e seus emojis, ignorando maiúsculas e minúsculas e deixando a pontuação intacta. 'DOG!' vira '🐶!' e 'I love dogs' vira 'I ❤️ 🐶s' — bem, quase: formas de plural e verbais são combinadas onde o dicionário as cobre, e qualquer coisa desconhecida fica como texto simples, para que nada se perca.",
+          "É deliberadamente um tradutor de palavras, não uma IA: é instantâneo, previsível, privado (nada sai do seu navegador) e nunca inventa significados. O que você vê é exatamente o que o dicionário diz."
+        ]
+      },
+      {
+        "heading": "Onde a tradução para emojis brilha",
+        "paragraphs": [
+          "Chats em grupo e legendas são o lar natural — mensagens traduzidas são lidas, as comuns são passadas por cima. Também é ótimo para convites de festa, mensagens para crianças, posts em redes sociais e e-mails divertidos. Para qualquer coisa formal, use o modo Adicionar para que as palavras fiquem.",
+          "Um pouco já é suficiente: traduzir cada palavra pode ficar difícil de ler. Frases curtas e expressões marcantes são traduzidas melhor."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "'I love pizza'",
+        "output": "'I ❤️ 🍕'",
+        "note": "A clássica tradução de três palavras."
+      },
+      {
+        "input": "'Happy birthday, have a great day!'",
+        "output": "'🎂 🥳, have a 🎉 day!'",
+        "note": "Modo aniversário, automaticamente."
+      },
+      {
+        "input": "'The dog chased the cat'",
+        "output": "'The 🐶 chased the 🐱'",
+        "note": "Animais são traduzidos lindamente."
+      }
+    ],
+    "tips": [
+      "Frases curtas e simples são traduzidas melhor — gírias e expressões idiomáticas podem ficar como palavras.",
+      "Use o modo Adicionar para mensagens que precisam ficar perfeitamente claras.",
+      "Palavras desconhecidas ficam intactas de propósito, para que nada se perca.",
+      "Combine com a ferramenta Significados de Emojis se um emoji traduzido surpreender você.",
+      "Para legendas, traduza apenas a frase de abertura e deixe o resto como texto."
+    ],
+    "faqs": [
+      {
+        "question": "Como o Tradutor de Emojis funciona?",
+        "answer": "Ele combina palavras inteiras com um dicionário de mais de 150 palavras e emojis, mantém a pontuação e as palavras desconhecidas intactas e funciona inteiramente no seu navegador."
+      },
+      {
+        "question": "Ele traduz gírias ou nomes?",
+        "answer": "Gírias comuns que estão no dicionário são traduzidas; nomes, palavras raras e gírias novas ficam como texto simples."
+      },
+      {
+        "question": "Qual é a diferença entre os modos Substituir e Adicionar?",
+        "answer": "Substituir troca palavras por emojis; Adicionar mantém as palavras e coloca o emoji depois delas, para que a mensagem continue totalmente legível."
+      },
+      {
+        "question": "Ele envia meu texto para algum lugar?",
+        "answer": "Não. Tudo funciona no seu aparelho; seu texto nunca é enviado."
+      },
+      {
+        "question": "O Tradutor de Emojis é gratuito?",
+        "answer": "Sim — gratuito e ilimitado, sem cadastro, e tudo funciona no seu navegador."
+      }
+    ],
+    "searchIntent": "Quem pesquisa esta ferramenta quer transformar frases em inglês em emojis para mensagens e legendas mais divertidas, seja substituindo palavras ou adicionando emojis depois delas.",
+    "keywords": [
+      "tradutor de emojis",
+      "texto para emoji",
+      "traduzir palavras para emoji",
+      "frase em emoji",
+      "conversor de texto para emoji",
+      "palavras viram emoji"
+    ]
+  },
+  "invisible-character": {
+    "name": "Caractere Invisível",
+    "metaTitle": "Caractere Invisível — Copie Texto em Branco e Invisível | AllWordTools",
+    "metaDescription": "Copie caracteres invisíveis e texto em branco: espaços de largura zero, espaços em braille, preenchimento hangul e mais. Inclui um detector que conta caracteres invisíveis no seu texto.",
+    "eyebrow": "Ferramentas para iPhone",
+    "heading": "Caractere Invisível",
+    "subheading": "Copie caracteres invisíveis e em branco — espaços de largura zero, espaços em braille e preenchimento hangul — além de um detector que conta os caracteres invisíveis escondidos em qualquer texto.",
+    "intro": [
+      "Alguns caracteres não ocupam nenhum espaço visível. Um espaço de largura zero, um espaço em braille ou um preenchimento hangul parece nada — mas é um caractere real, e pode ocupar um lugar onde um caractere visível não pode: um nome em branco, uma mensagem vazia, um espaço que só espaços não conseguem criar, ou um separador que sobrevive onde espaços normais são removidos.",
+      "Esta ferramenta reúne os oito caracteres invisíveis que as pessoas realmente usam, cada um com seu nome e código Unicode, e um botão de cópia com um toque. O botão grande Copiar Texto em Branco pega o caractere em branco mais confiável na hora. A caixa do detector conta quantos caracteres invisíveis estão escondidos em qualquer texto que você colar — útil para verificar uma mensagem, um nome de usuário ou um arquivo antes de enviá-lo.",
+      "Uma palavra de honestidade: caracteres invisíveis são para diversão, formatação e testes — nomes de exibição em branco, truques de espaçamento, verificar como um app lida com entradas incomuns. Eles não devem ser usados para burlar filtros, se passar por outras pessoas ou enviar spam. A ferramenta deliberadamente não tem função de envio; você copia e cola por conta própria e é responsável por como usa."
+    ],
+    "howToTitle": "Como usar a ferramenta Caractere Invisível",
+    "howToSteps": [
+      {
+        "title": "Copie um espaço em branco",
+        "detail": "Toque no botão grande Copiar Texto em Branco para obter o caractere invisível mais confiável."
+      },
+      {
+        "title": "Ou escolha um específico",
+        "detail": "Cada cartão mostra o nome e o código de um caractere — toque no botão Copiar dele."
+      },
+      {
+        "title": "Cole-o",
+        "detail": "Cole em um campo de nome, mensagem ou documento onde um espaço em branco é necessário."
+      },
+      {
+        "title": "Detecte caracteres ocultos",
+        "detail": "Cole qualquer texto no verificador para contar os caracteres invisíveis dentro dele."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Os caracteres invisíveis, explicados",
+        "paragraphs": [
+          "Espaço de largura zero (U+200B) é o clássico: invisível, mas permite uma quebra de linha. Junção de largura zero e não-junção (U+200D, U+200C) controlam como caracteres vizinhos se conectam. Espaço em braille (U+2800) e preenchimento hangul (U+3164) parecem vazios, mas ocupam largura, e é por isso que mantêm um campo de nome aberto. Espaço sem quebra (U+00A0) parece um espaço, mas se recusa a quebrar uma linha, e a junção de palavras (U+2060) é a cola invisível que mantém palavras juntas.",
+          "Qual deles funciona depende do app: alguns removem caracteres de largura zero, outros aceitam espaços em braille e alguns rejeitam todos eles. Se um não funcionar no seu app, experimente outro da lista."
+        ]
+      },
+      {
+        "heading": "Por que o detector importa",
+        "paragraphs": [
+          "Caracteres invisíveis também são uma fonte clássica de bugs misteriosos: um nome colado que parece vazio, mas não está, uma pesquisa que não encontra nada, um arquivo que se comporta de forma estranha. O detector conta cada caractere do conjunto invisível conhecido no texto colado, para que você veja o que seus olhos não conseguem.",
+          "Ele é igualmente útil ao contrário — verificando se um espaço em branco que você copiou está realmente lá antes de colá-lo em um lugar importante."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "Nome de exibição em branco",
+        "output": "Copie U+2800 e cole como nome",
+        "note": "O espaço em braille mantém campos de nome abertos em muitos apps."
+      },
+      {
+        "input": "Um espaço que espaços não criam",
+        "output": "Palavra[U+200B]Palavra",
+        "note": "O espaço de largura zero permite uma quebra sem um espaço visível."
+      },
+      {
+        "input": "Detectando caracteres ocultos",
+        "output": "Cole o texto → '3 caracteres invisíveis encontrados'",
+        "note": "O verificador revela o que seus olhos não veem."
+      }
+    ],
+    "tips": [
+      "Comece com o botão grande Copiar Texto em Branco — U+2800 funciona na maioria dos apps.",
+      "Se um caractere for removido por um app, experimente outro da lista.",
+      "Use o detector para verificar se um espaço em branco foi copiado corretamente antes de colá-lo em um lugar importante.",
+      "Não use caracteres invisíveis para burlar filtros ou se passar por alguém — apps e moderadores percebem.",
+      "Combine com o Repetidor de Texto para criar sequências em branco mais longas para testar layouts."
+    ],
+    "faqs": [
+      {
+        "question": "O que é um caractere invisível?",
+        "answer": "Um caractere Unicode que aparece como nada — sem largura ou com largura em branco. É texto real que seus olhos não veem, útil para nomes em branco, espaçamento e testes."
+      },
+      {
+        "question": "Como envio uma mensagem em branco no iPhone?",
+        "answer": "Copie um caractere em branco aqui, cole-o no campo de mensagem e envie. Se um app aceita ou não depende do app — alguns removem caracteres invisíveis, então experimente primeiro o espaço em braille."
+      },
+      {
+        "question": "Qual é a diferença entre um espaço de largura zero e um espaço em braille?",
+        "answer": "Um espaço de largura zero (U+200B) não ocupa largura e permite quebras de linha; um espaço em braille (U+2800) ocupa largura total, mas parece vazio, então mantém campos abertos melhor."
+      },
+      {
+        "question": "Caracteres invisíveis podem ser detectados?",
+        "answer": "Sim — cole texto no verificador desta página e ele conta cada caractere do conjunto invisível conhecido."
+      },
+      {
+        "question": "A ferramenta Caractere Invisível é gratuita?",
+        "answer": "Sim — gratuita e ilimitada, sem cadastro, e tudo funciona no seu navegador."
+      }
+    ],
+    "searchIntent": "Quem pesquisa esta ferramenta quer copiar um caractere invisível ou texto em branco para nomes vazios, mensagens em branco e truques de espaçamento, ou verificar caracteres ocultos em um texto.",
+    "keywords": [
+      "caractere invisível",
+      "texto invisível copiar",
+      "caractere em branco",
+      "espaço invisível copiar",
+      "texto em branco copiar e colar",
+      "caractere vazio copiar"
+    ]
+  },
+  "kaomoji": {
+    "name": "Kaomoji",
+    "metaTitle": "Kaomoji — Copiar e Colar Emoticons Japoneses Fofos | AllWordTools",
+    "metaDescription": "Kaomoji para copiar e colar: mais de 120 carinhas de texto japonesas fofas — felizes, de amor, tristes, de dar de ombros, animais, com sono e mais. Um toque para copiar, grátis, sem cadastro.",
+    "eyebrow": "Ferramentas para iPhone",
+    "heading": "Kaomoji",
+    "subheading": "Carinhas de texto japonesas fofas — felizes, de amor, tristes, de dar de ombros, animais e mais — prontas para copiar e colar com um toque.",
+    "intro": [
+      "Kaomoji são os emoticons de texto do Japão, e são lidos de forma diferente dos sorrisos ocidentais: em vez de inclinar a cabeça, você os lê de frente — (◕‿◕), (╯°□°)╯, (´･ω･`). Braços, orelhas, marcas de blush e animais inteiros cabem em poucos caracteres, e é por isso que kaomoji expressam coisas que emojis não conseguem: um dar de ombros com sentimento, um facepalm com drama, um gato feito de pontuação.",
+      "Esta biblioteca reúne mais de 120 kaomoji em dez humores — Feliz, Amor, Triste, Bravo, Dar de Ombros e Ações, Animais, Com Sono, Surpreso, Envergonhado e Comemoração. Pesquise por humor ou palavra, toque em qualquer rosto para copiá-lo ou reúna vários na caixa de composição. Suas escolhas recentes ficam no topo.",
+      "Kaomoji são texto Unicode simples, então podem ser colados no iMessage, Discord, Instagram, TikTok e em qualquer outro lugar, e ficam iguais em todos os aparelhos. As pesquisas por kaomoji vêm crescendo ao longo de 2026 nos EUA e no Canadá — a internet está redescobrindo que uma boa carinha de texto diz mais do que um botão de reação."
+    ],
+    "howToTitle": "Como usar a biblioteca de Kaomoji",
+    "howToSteps": [
+      {
+        "title": "Escolha um humor",
+        "detail": "Navegue por Feliz, Amor, Triste, Dar de Ombros, Animais e mais, ou pesquise uma palavra."
+      },
+      {
+        "title": "Toque em um rosto",
+        "detail": "Um toque copia o kaomoji para a área de transferência."
+      },
+      {
+        "title": "Ou componha",
+        "detail": "Toque em vários rostos para reuni-los e copie a sequência inteira."
+      },
+      {
+        "title": "Cole em qualquer lugar",
+        "detail": "Cole em qualquer chat ou legenda — kaomoji são texto simples e funcionam em todos os lugares."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "O que torna kaomoji especiais",
+        "paragraphs": [
+          "Kaomoji usam toda a paleta Unicode — kana japonês, letras gregas, símbolos matemáticos e caracteres de desenho de caixas — então um rosto pode ter braços (╯), orelhas (／), blush (///) e adereços. Essa riqueza é o motivo pelo qual um kaomoji pode encenar uma cena: virar uma mesa, abraçar, fazer facepalm, comemorar.",
+          "Eles também carregam um tom mais suave e expressivo do que emojis. Um (´-ω-`) soa gentil e autoconsciente de um jeito que nenhum emoji consegue igualar, e é por isso que kaomoji prosperam em chats amigáveis, espaços de fãs e comentários."
+        ]
+      },
+      {
+        "heading": "Kaomoji vs emoji vs lenny faces",
+        "paragraphs": [
+          "Emojis são imagens; kaomoji são tipografia. Kaomoji funcionam em lugares de texto simples que emojis não alcançam — comentários de código, chats de terminal, nomes de usuário sem suporte a emojis — e se combinam com palavras no meio de uma frase sem quebrar a linha.",
+          "Lenny faces são as primas caóticas dos kaomoji: feitas com caracteres combinados para um visual deliberadamente perturbador. Para elas, experimente o Gerador de Lenny Face; para tudo que é caloroso, fofo e expressivo, esta biblioteca é o lar."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "Uma saudação feliz",
+        "output": "(◕‿◕) olá!",
+        "note": "A clássica carinha amigável."
+      },
+      {
+        "input": "Um dar de ombros",
+        "output": "¯\\_(ツ)_/¯",
+        "note": "O dar de ombros universal da internet."
+      },
+      {
+        "input": "Virada de mesa",
+        "output": "(╯°□°)╯︵ ┻━┻",
+        "note": "Drama, em forma de texto."
+      }
+    ],
+    "tips": [
+      "Pesquise uma palavra de humor — 'feliz', 'ombros', 'gato' — para ir direto aos rostos correspondentes.",
+      "Kaomoji copiados recentemente ficam no topo para repetições com um toque.",
+      "Kaomoji podem ser colados em nomes de usuário e bios onde emojis às vezes não podem.",
+      "Combine um kaomoji com uma mensagem curta — eles são lidos melhor com palavras ao redor.",
+      "Para rostos assustadores ou de memes, mude para o Gerador de Lenny Face."
+    ],
+    "faqs": [
+      {
+        "question": "O que é kaomoji?",
+        "answer": "Emoticons de texto japoneses lidos de frente, feitos com caracteres Unicode — como (◕‿◕) e ¯\\_(ツ)_/¯. 'Kaomoji' significa 'caracteres de rosto'."
+      },
+      {
+        "question": "Kaomoji funcionam no meu iPhone?",
+        "answer": "Sim — kaomoji são texto Unicode simples e aparecem corretamente em todos os apps do iPhone, incluindo iMessage, Instagram e Discord."
+      },
+      {
+        "question": "Qual é a diferença entre kaomoji e emoji?",
+        "answer": "Emojis são imagens desenhadas por cada plataforma; kaomoji são caracteres de texto que ficam iguais em todos os lugares e funcionam em lugares de texto simples."
+      },
+      {
+        "question": "Posso usar kaomoji na minha bio do Instagram?",
+        "answer": "Sim — eles podem ser colados em bios, legendas, nomes e comentários como texto comum."
+      },
+      {
+        "question": "A biblioteca de Kaomoji é gratuita?",
+        "answer": "Sim — gratuita e ilimitada, sem cadastro, e tudo funciona no seu navegador."
+      }
+    ],
+    "searchIntent": "Quem pesquisa esta ferramenta quer copiar kaomoji — carinhas de texto japonesas — por humor ou tema, para usar em chats, bios e legendas.",
+    "keywords": [
+      "kaomoji",
+      "kaomoji copiar e colar",
+      "carinhas japonesas texto",
+      "kaomoji feliz",
+      "kaomoji dar de ombros",
+      "emoticons japoneses"
+    ]
+  },
+  "lenny-face-generator": {
+    "name": "Gerador de Lenny Face",
+    "metaTitle": "Gerador de Lenny Face — Crie Rostos ( ͡° ͜ʖ ͡°) | AllWordTools",
+    "metaDescription": "Crie seu próprio lenny face: escolha olhos, boca e braços, embaralhe para rostos aleatórios ou pegue modelos clássicos — dar de ombros, virada de mesa, urso e mais.",
+    "eyebrow": "Ferramentas para iPhone",
+    "heading": "Gerador de Lenny Face",
+    "subheading": "Crie seu próprio lenny face — escolha os olhos, a boca e os braços, embaralhe para o caos ou pegue um modelo clássico.",
+    "intro": [
+      "O lenny face — ( ͡° ͜ʖ ͡°) — é a lendinha presunçosa da internet: um rosto feito com caracteres combinados Unicode que fica levemente errado de propósito, e esse erro é toda a piada. Ele sobreviveu a uma década de memes porque diz 'eu sei algo que você não sabe' melhor do que qualquer emoji.",
+      "Este gerador permite criar o seu: escolha olhos esquerdo e direito, uma boca e braços a partir de partes Unicode reais, veja o rosto se montar ao vivo e embaralhe quando quiser que o caos decida. Doze modelos cobrem os clássicos — o dar de ombros, a virada de mesa, o urso, o olhar de desaprovação — e sua última criação é lembrada para a próxima vez.",
+      "Lenny faces são texto simples, então podem ser colados no Discord, Reddit, iMessage e em qualquer outro lugar para onde texto vai. Um aviso justo: caracteres combinados podem aparecer de forma levemente diferente entre fontes, então um rosto que parece perfeito aqui pode ficar um pixel fora em outro app — isso faz parte do charme e parte do lenny."
+    ],
+    "howToTitle": "Como criar um lenny face",
+    "howToSteps": [
+      {
+        "title": "Escolha as partes",
+        "detail": "Escolha olhos, uma boca e braços nos seletores — o rosto é montado ao vivo."
+      },
+      {
+        "title": "Ou embaralhe",
+        "detail": "Toque em Embaralhar e deixe a aleatoriedade montar um rosto para você."
+      },
+      {
+        "title": "Ou pegue um modelo",
+        "detail": "Toque em um clássico — dar de ombros, virada de mesa, urso, desaprovação — para carregá-lo na hora."
+      },
+      {
+        "title": "Copie-o",
+        "detail": "Copie o rosto e cole-o em qualquer lugar para onde texto vai."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Como lenny faces funcionam",
+        "paragraphs": [
+          "Um lenny face é montado com caracteres combinados — marcas Unicode projetadas para se empilhar sobre o caractere anterior. Os 'olhos' são marcas combinadas que flutuam acima da base, a boca fica entre eles e os braços envolvem tudo. É por isso que lenny faces parecem estar flutuando: tipograficamente, eles estão.",
+          "Como são feitos de Unicode padrão, eles são copiados e colados como texto — mas a exibição depende da fonte, então o mesmo rosto pode parecer sutilmente diferente no Safari, Discord ou Mensagens. Teste uma nova criação no seu app de destino antes de usá-la em um chat importante."
+        ]
+      },
+      {
+        "heading": "Uma breve história do lenny",
+        "paragraphs": [
+          "O rosto surgiu no 4chan em 2012 e se espalhou por Reddit, Twitch e Discord até virar abreviação de presunção, insinuação e leve ameaça. Seu poder de permanência vem da versatilidade: mude os olhos e ele vai de presunçoso a bravo a inexpressivo, mude os braços e ele dá de ombros, vira mesas ou levanta o telhado.",
+          "Este gerador trata o lenny como um kit de construção em vez de um único rosto — os modelos são os maiores sucessos, e o construtor é onde novos rostos nascem."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "O clássico",
+        "output": "( ͡° ͜ʖ ͡°)",
+        "note": "O rosto presunçoso original."
+      },
+      {
+        "input": "O dar de ombros",
+        "output": "¯\\_( ͡° ͜ʖ ͡°)_/¯",
+        "note": "Lenny, mas como dar de ombros."
+      },
+      {
+        "input": "Virada de mesa",
+        "output": "(╯ ͡° ͜ʖ ͡°)╯︵ ┻━┻",
+        "note": "Lenny perde a paciência."
+      }
+    ],
+    "tips": [
+      "Embaralhe algumas vezes — os melhores rostos costumam ser acidentes.",
+      "Sua última criação é salva, então você pode refinar um rosto com o tempo.",
+      "Teste um rosto novo no seu app de destino — fontes exibem marcas combinadas de forma levemente diferente.",
+      "Modelos são um ponto de partida: carregue um e ajuste uma única parte para deixá-lo com a sua cara.",
+      "Para rostos calorosos e fofos, experimente a biblioteca de Kaomoji."
+    ],
+    "faqs": [
+      {
+        "question": "O que é um lenny face?",
+        "answer": "Um rosto de texto feito com caracteres combinados Unicode — ( ͡° ͜ʖ ͡°) — usado para expressar presunção, insinuação ou leve ameaça. Data da cultura da internet de 2012."
+      },
+      {
+        "question": "Lenny faces funcionam no meu iPhone?",
+        "answer": "Sim — são texto simples. A exibição de caracteres combinados pode variar um pouco por fonte e app, então teste um rosto no seu app de destino primeiro."
+      },
+      {
+        "question": "Por que meu lenny face parece quebrado em alguns apps?",
+        "answer": "Caracteres combinados se empilham sobre o caractere anterior, e fontes lidam com esse empilhamento de forma diferente. A maioria dos apps modernos os exibe bem; fontes mais antigas podem espaçá-los de forma estranha."
+      },
+      {
+        "question": "Posso salvar um rosto que criei?",
+        "answer": "Sua última criação é lembrada automaticamente no seu navegador. Copie favoritos para uma anotação para guardá-los permanentemente."
+      },
+      {
+        "question": "O Gerador de Lenny Face é gratuito?",
+        "answer": "Sim — gratuito e ilimitado, sem cadastro, e tudo funciona no seu navegador."
+      }
+    ],
+    "searchIntent": "Quem pesquisa esta ferramenta quer montar um lenny face personalizado — escolhendo olhos, boca e braços — ou copiar um modelo clássico como o dar de ombros e a virada de mesa.",
+    "keywords": [
+      "lenny face",
+      "gerador de lenny face",
+      "lenny face copiar",
+      "criar lenny face",
+      "lenny face dar de ombros",
+      "lenny face copiar e colar"
+    ]
+  },
+  "zalgo-text-generator": {
+    "name": "Gerador de Texto Zalgo",
+    "metaTitle": "Gerador de Texto Zalgo — Texto Assustador Corrompido | AllWordTools",
+    "metaDescription": "Transforme texto em texto Zalgo assustador: escolha a intensidade Mini, Média, Completa ou Insana, alterne marcas acima, no meio e abaixo, embaralhe o caos e copie para qualquer lugar.",
+    "eyebrow": "Ferramentas para iPhone",
+    "heading": "Gerador de Texto Zalgo",
+    "subheading": "Corrompa seu texto com Zalgo — escolha a intensidade, embaralhe o caos e copie texto assustador com glitch para qualquer lugar.",
+    "intro": [
+      "Texto Zalgo é texto normal possuído: letras criam marcas combinadas acima, abaixo e através delas até as palavras parecerem estar com glitch saindo da tela. Vem da cultura creepypasta — Zalgo, o horror eldritch que corrompe o próprio texto — e continua sendo a forma favorita da internet de fazer uma mensagem parecer assombrada.",
+      "Este gerador dá controle sobre o caos: quatro intensidades, de uma leve pitada Mini até a corrupção total Insana, interruptores para marcas acima, através e abaixo das letras, e um botão Embaralhar que rola novamente a aleatoriedade. O resultado fica estável até você embaralhar, para que possa ajustar um resultado de que goste.",
+      "Texto Zalgo é Unicode simples, então pode ser colado no Discord, Instagram, TikTok, iMessage e em qualquer outro lugar — embora corrupção bem pesada possa estourar caixas de texto e irritar leitores de tela, então use as intensidades mais leves em espaços compartilhados e guarde Insana para amigos que pediram."
+    ],
+    "howToTitle": "Como criar texto Zalgo",
+    "howToSteps": [
+      {
+        "title": "Digite seu texto",
+        "detail": "Digite qualquer palavra, nome ou frase na caixa de entrada."
+      },
+      {
+        "title": "Escolha uma intensidade",
+        "detail": "Mini, Média, Completa ou Insana — mais marcas por letra conforme você sobe."
+      },
+      {
+        "title": "Ajuste as marcas",
+        "detail": "Ative ou desative marcas acima, através e abaixo das letras para moldar a corrupção."
+      },
+      {
+        "title": "Embaralhe, copie e cole",
+        "detail": "Embaralhar rola novamente o caos; copie o resultado e cole-o em qualquer lugar."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Como o texto Zalgo funciona",
+        "paragraphs": [
+          "Zalgo usa marcas diacríticas combinadas — caracteres Unicode projetados para se empilhar sobre a letra anterior. Acentos, tis, linhas e caixas se acumulam: poucas marcas parecem assustadoras, vinte fazem o texto parecer estar se desmanchando. O gerador atribui uma seleção aleatória dessas marcas a cada letra, controlada pela intensidade que você escolhe.",
+          "Como as marcas são Unicode real, o resultado é texto copiável, não uma imagem. Qualquer app que exiba Unicode mostrará a corrupção — que é quase todos eles."
+        ]
+      },
+      {
+        "heading": "Use Zalgo com responsabilidade",
+        "paragraphs": [
+          "Texto Zalgo pesado pode quebrar layouts: marcas transbordam suas linhas, sobrepõem texto vizinho e confundem leitores de tela que leem cada marca em voz alta. Em servidores compartilhados e posts públicos, Mini ou Média mantém a piada sem os danos colaterais.",
+          "Também pode acionar filtros de spam e ferramentas de acessibilidade, então evite Zalgo em nomes de usuário, mensagens profissionais e qualquer coisa que precise ser legível por máquina. Em chats com amigos que adoram, vá de Insana."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "Intensidade Mini",
+        "output": "H̶e̶l̶l̶o̶",
+        "note": "Uma pitada leve — assustador, mas legível."
+      },
+      {
+        "input": "Intensidade Completa",
+        "output": "H̷͊̋e̷͊̋l̷͊̋l̷͊̋o̷͊̋",
+        "note": "Corrompido de verdade."
+      },
+      {
+        "input": "Um nome assombrado",
+        "output": "Z̴a̴l̴g̴o̴",
+        "note": "Nomes ficam ótimos levemente corrompidos."
+      }
+    ],
+    "tips": [
+      "Comece em Mini — você sempre pode ir mais pesado, e o mais leve é melhor de ler na maioria dos apps.",
+      "Embaralhe algumas vezes para encontrar um padrão de corrupção de que goste.",
+      "Desative as marcas 'abaixo' se o texto sobrepuser a linha de baixo.",
+      "Evite Zalgo pesado em nomes de usuário e bios — pode quebrar layouts e leitores de tela.",
+      "Para estilos estranhos legíveis, experimente o Gerador de Texto Estranho."
+    ],
+    "faqs": [
+      {
+        "question": "O que é texto Zalgo?",
+        "answer": "Texto corrompido com marcas combinadas Unicode empilhadas, para que as letras pareçam com glitch e assombradas. Vem da cultura creepypasta e é texto Unicode puro, não uma imagem."
+      },
+      {
+        "question": "Texto Zalgo funciona no meu iPhone?",
+        "answer": "Sim — pode ser colado no iMessage, Instagram, TikTok e Discord. Corrupção bem pesada pode estourar caixas de texto pequenas."
+      },
+      {
+        "question": "Por que texto Zalgo parece diferente em apps diferentes?",
+        "answer": "Fontes exibem marcas combinadas de forma diferente, então a mesma sequência Zalgo pode empilhar mais alto ou mais baixo dependendo do app e da fonte."
+      },
+      {
+        "question": "Texto Zalgo é ruim para acessibilidade?",
+        "answer": "Zalgo pesado é difícil para leitores de tela, que podem ler cada marca. Use intensidades leves em espaços públicos ou compartilhados."
+      },
+      {
+        "question": "O Gerador de Texto Zalgo é gratuito?",
+        "answer": "Sim — gratuito e ilimitado, sem cadastro, e tudo funciona no seu navegador."
+      }
+    ],
+    "searchIntent": "Quem pesquisa esta ferramenta quer transformar texto comum em texto Zalgo corrompido e assustador, controlando a intensidade e copiando o resultado para chats e redes sociais.",
+    "keywords": [
+      "texto zalgo",
+      "gerador de texto zalgo",
+      "zalgo copiar e colar",
+      "texto corrompido",
+      "texto assustador com glitch",
+      "zalgo text generator"
+    ]
+  },
+  "weird-text-generator": {
+    "name": "Gerador de Texto Estranho",
+    "metaTitle": "Gerador de Texto Estranho — 6 Estilos de Texto Estranhos | AllWordTools",
+    "metaDescription": "Crie texto estranho em 6 estilos: caixa alternada, espaçado, texto de palmas, gótico, double-struck e monospace. Pré-visualização ao vivo, um toque para copiar cada estilo.",
+    "eyebrow": "Ferramentas para iPhone",
+    "heading": "Gerador de Texto Estranho",
+    "subheading": "Seis maneiras de deixar seu texto estranho — caixa alternada, espaçado, texto de palmas, gótico, double-struck e monospace — tudo ao vivo, tudo copiável.",
+    "intro": [
+      "Texto normal é esquecível. Texto estranho é lido: o sarcasmo de caixa alternada de sPoNgEbOb, a lentidão arrastada de letras e s p a ç a d a s, o impacto rítmico do texto de palmas, o drama medieval do blackletter, o charme matemático do double-struck, a vibe de terminal do monospace. Cada estilo é uma piada diferente, e cada um é colado como texto Unicode simples.",
+      "Digite uma vez e todos os seis estilos são gerados ao vivo, cada um em seu próprio cartão com seu próprio botão de copiar. Sem escolher um estilo primeiro, sem gerar de novo — compare-os lado a lado e pegue aquele que faz a piada funcionar.",
+      "Cada estilo aqui é feito com alfabetos Unicode reais (ou transformações simples de caixa e espaçamento), então os resultados funcionam em bios do Instagram, Discord, TikTok, iMessage e nomes de usuário que aceitam Unicode. São diferentes dos estilos de fonte do Gerador de Texto Elegante — este é especificamente a prateleira estranha."
+    ],
+    "howToTitle": "Como criar texto estranho",
+    "howToSteps": [
+      {
+        "title": "Digite seu texto",
+        "detail": "Digite uma palavra, nome ou frase na caixa de entrada."
+      },
+      {
+        "title": "Compare os estilos",
+        "detail": "Todos os seis estilos são gerados ao vivo: alternado, espaçado, palmas, gótico, double-struck, monospace."
+      },
+      {
+        "title": "Copie um estilo",
+        "detail": "Toque no botão Copiar do cartão de que você gostar."
+      },
+      {
+        "title": "Cole em qualquer lugar",
+        "detail": "Cole em bios, chats, legendas ou nomes de usuário que aceitem Unicode."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Os seis estilos, decodificados",
+        "paragraphs": [
+          "Caixa Alternada (sPoNgEbOb) é a fonte de sarcasmo da internet — zombando pela capitalização errada. Espaçado desacelera a leitura até virar um arrastar e faz palavras curtas parecerem enormes. Texto de Palmas coloca 👏 entre palavras para ênfase rítmica, o equivalente textual de falar devagar para dar efeito.",
+          "Blackletter gótico (𝔘𝔫𝔦𝔠𝔬𝔡𝔢) traz drama medieval, double-struck (𝕕𝕠𝕦𝕓𝕝𝕖) pega emprestado da matemática para um visual legal e contornado, e monospace (𝚖𝚘𝚗𝚘) imita código e máquinas de escrever. Cada um usa um alfabeto Unicode real, então o texto continua selecionável e pesquisável."
+        ]
+      },
+      {
+        "heading": "Onde texto estranho funciona — e onde não funciona",
+        "paragraphs": [
+          "Bios, legendas, nomes de exibição, chats em grupo e comentários são o lar natural. Texto estranho é feito para ser notado, então funciona melhor em explosões curtas: um nome, uma frase de abertura, uma piada final.",
+          "Evite-o em mensagens profissionais, assuntos de e-mail e qualquer coisa que leitores de tela precisem ler com clareza — alfabetos Unicode podem confundir tecnologia assistiva. E algumas plataformas restringem caracteres especiais em @, então teste antes de confirmar um nome de usuário."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "Sarcasmo",
+        "output": "Caixa sPoNgEbOb: 'i LoVe MoNdAyS'",
+        "note": "O clássico zombeteiro."
+      },
+      {
+        "input": "Ênfase",
+        "output": "Palmas: 'best👏day👏ever'",
+        "note": "Ritmo que dá para ouvir."
+      },
+      {
+        "input": "Drama",
+        "output": "Gótico: '𝔇𝔞𝔯𝔨 𝔐𝔬𝔬𝔡'",
+        "note": "Energia medieval para um nome de exibição."
+      }
+    ],
+    "tips": [
+      "Texto curto funciona melhor — de uma a cinco palavras por estilo mantém a legibilidade.",
+      "Compare os seis antes de copiar; o estilo certo depende da piada.",
+      "Gótico e double-struck precisam de suporte a Unicode — teste no seu app de destino primeiro.",
+      "Combine com os geradores de Texto Pequeno ou Vaporwave para estranheza em camadas.",
+      "Mantenha texto estranho fora de mensagens profissionais e conteúdo crítico para leitores de tela."
+    ],
+    "faqs": [
+      {
+        "question": "Quais estilos o Gerador de Texto Estranho tem?",
+        "answer": "Seis: Caixa Alternada, Espaçado, Texto de Palmas, Gótico (blackletter), Double-Struck e Monospace — todos gerados ao vivo a partir de uma entrada."
+      },
+      {
+        "question": "Texto estranho funciona no meu iPhone?",
+        "answer": "Sim — os estilos são texto Unicode e podem ser colados no iMessage, Instagram, TikTok e Discord. Alguns @ restringem caracteres especiais."
+      },
+      {
+        "question": "Como isto é diferente do Gerador de Texto Elegante?",
+        "answer": "O Texto Elegante foca em estilos de fonte como negrito, script e bolha. O Texto Estranho é a prateleira estranha: caixa de sarcasmo, texto de palmas, gótico e monospace."
+      },
+      {
+        "question": "Posso usar texto estranho no meu nome de usuário?",
+        "answer": "Nomes de exibição, sim. Os @ da maioria das plataformas só permitem letras, números, pontos e sublinhados — teste primeiro."
+      },
+      {
+        "question": "O Gerador de Texto Estranho é gratuito?",
+        "answer": "Sim — gratuito e ilimitado, sem cadastro, e tudo funciona no seu navegador."
+      }
+    ],
+    "searchIntent": "Quem pesquisa esta ferramenta quer deixar texto estranho e chamativo — com caixa alternada, palmas, gótico ou monospace — para bios, legendas e chats.",
+    "keywords": [
+      "texto estranho",
+      "gerador de texto estranho",
+      "texto sarcasmo spongebob",
+      "texto com palmas",
+      "texto gótico copiar",
+      "letras estranhas copiar e colar"
+    ]
+  },
+  "small-text-generator": {
+    "name": "Gerador de Texto Pequeno",
+    "metaTitle": "Gerador de Texto Pequeno — Texto Minúsculo Sobrescrito | AllWordTools",
+    "metaDescription": "Converta texto para texto pequeno minúsculo: letras sobrescritas para bios, legendas e nomes de usuário. Pré-visualização ao vivo, um toque para copiar, grátis.",
+    "eyebrow": "Ferramentas para iPhone",
+    "heading": "Gerador de Texto Pequeno",
+    "subheading": "Deixe seu texto minúsculo — letras pequenas em estilo sobrescrito para bios, legendas e nomes de usuário que sussurram em vez de gritar.",
+    "intro": [
+      "Texto pequeno é a exibição discreta da internet: ᵗᶦⁿʸ ˡᵉᵗᵗᵉʳˢ que ficam altas e pequenas, perfeitas para a segunda linha de uma bio, um aparte sussurrado em uma legenda ou um nome de usuário deliberadamente discreto. Funciona porque contrasta — texto pequeno ao lado de texto normal chama o olhar justamente por ser menor.",
+      "Digite uma vez e seu texto é convertido ao vivo para o alfabeto de texto pequeno: glifos Unicode sobrescritos e versaletes para cada letra. Copie-o com um toque e cole-o no Instagram, TikTok, Discord ou iMessage. Dígitos e pontuação passam inalterados onde não existe forma pequena.",
+      "Uma nota de honestidade: o Unicode não tem forma sobrescrita verdadeira para cada letra, então alguns caracteres usam o glifo versalete ou modificador mais próximo — o resultado ainda é lido como texto pequeno, e é a mesma abordagem que toda ferramenta de texto pequeno usa. O resultado é texto simples, não uma imagem, então continua selecionável e pesquisável."
+    ],
+    "howToTitle": "Como criar texto pequeno",
+    "howToSteps": [
+      {
+        "title": "Digite seu texto",
+        "detail": "Digite uma palavra, nome ou frase curta na caixa de entrada."
+      },
+      {
+        "title": "Veja-o encolher",
+        "detail": "A versão em texto pequeno aparece ao vivo abaixo."
+      },
+      {
+        "title": "Copie-o",
+        "detail": "Toque em Copiar para colocar o texto minúsculo na área de transferência."
+      },
+      {
+        "title": "Cole em qualquer lugar",
+        "detail": "Cole em bios, legendas, nomes ou chats."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Como o texto pequeno funciona",
+        "paragraphs": [
+          "O conversor mapeia cada letra para sua forma Unicode sobrescrita ou versalete: a vira ᵃ, b vira ᵇ, e assim por diante. São caracteres reais do padrão Unicode — originalmente projetados para fonética e matemática — e é por isso que aparecem como texto em todos os apps em vez de imagens encolhidas.",
+          "Algumas letras não têm forma sobrescrita no Unicode. Para elas, o conversor usa o glifo pequeno mais próximo disponível, mantendo o visual geral consistente. Essa é a prática padrão e o motivo pelo qual o texto pequeno parece uniforme apesar das lacunas no padrão."
+        ]
+      },
+      {
+        "heading": "Onde o texto pequeno brilha",
+        "paragraphs": [
+          "A segunda linha de uma bio é o lugar clássico: um nome em tamanho normal, depois um subtítulo em texto pequeno. Também funciona lindamente para apartes sussurrados em legendas ('ᵗᶦⁿʸ ᵛᵒᶦᶜᵉ'), nomes de usuário discretos e notas de rodapé em mensagens do Discord.",
+          "Mantenha-o curto. Uma frase de texto pequeno é charmosa; um parágrafo é cansativo de ler. E lembre-se de que leitores de tela podem ler glifos pequenos de forma estranha, então evite texto pequeno onde a acessibilidade importa mais."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "Um subtítulo de bio",
+        "output": "ᵃᵉˢᵗʰᵉᵗᶦᶜ ᵛᶦᵇᵉˢ",
+        "note": "Texto pequeno sob um nome em tamanho normal."
+      },
+      {
+        "input": "Um aparte sussurrado",
+        "output": "ᵖˢˢᵗ... ᵒᵛᵉʳ ʰᵉʳᵉ",
+        "note": "O clássico sussurro minúsculo."
+      },
+      {
+        "input": "Um nome discreto",
+        "output": "ˡᵘⁿᵃ",
+        "note": "Nomes discretos se destacam."
+      }
+    ],
+    "tips": [
+      "Mantenha o texto pequeno curto — uma linha ou duas é melhor de ler.",
+      "Combine um nome em tamanho normal com um subtítulo em texto pequeno para o visual clássico de bio.",
+      "Algumas letras usam glifos de correspondência mais próxima; o visual geral continua consistente.",
+      "Teste no seu app de destino — a maioria exibe texto pequeno perfeitamente, algumas fontes não.",
+      "Para a energia oposta, experimente os geradores Vaporwave ou de Texto Estranho."
+    ],
+    "faqs": [
+      {
+        "question": "O que é texto pequeno?",
+        "answer": "Texto convertido em glifos Unicode sobrescritos e versaletes para aparecer minúsculo — como ᵗᶦⁿʸ ᵗᵉˣᵗ. É texto real, não uma imagem."
+      },
+      {
+        "question": "Texto pequeno funciona no meu iPhone?",
+        "answer": "Sim — pode ser colado no iMessage, Instagram, TikTok e Discord como texto Unicode comum."
+      },
+      {
+        "question": "Por que algumas letras parecem levemente diferentes?",
+        "answer": "O Unicode não tem forma sobrescrita para cada letra, então algumas usam o glifo pequeno mais próximo. Isso é padrão em todas as ferramentas de texto pequeno."
+      },
+      {
+        "question": "Posso usar texto pequeno no meu nome de usuário?",
+        "answer": "Nomes de exibição, sim. Os @ da maioria das plataformas só permitem letras, números, pontos e sublinhados padrão."
+      },
+      {
+        "question": "O Gerador de Texto Pequeno é gratuito?",
+        "answer": "Sim — gratuito e ilimitado, sem cadastro, e tudo funciona no seu navegador."
+      }
+    ],
+    "searchIntent": "Quem pesquisa esta ferramenta quer converter texto em letras minúsculas sobrescritas para subtítulos de bio, sussurros em legendas e nomes de usuário discretos.",
+    "keywords": [
+      "texto pequeno",
+      "gerador de texto pequeno",
+      "letras pequenas copiar",
+      "texto minúsculo",
+      "letrinhas pequenas para bio",
+      "texto pequeno copiar e colar"
+    ]
+  },
+  "vaporwave-text-generator": {
+    "name": "Gerador de Texto Vaporwave",
+    "metaTitle": "Gerador de Texto Vaporwave — Texto Ａｅｓｔｈｅｔｉｃ | AllWordTools",
+    "metaDescription": "Crie texto estético vaporwave: letras fullwidth, espaçamento amplo A E S T H E T I C e decorações retrô. Pré-visualização ao vivo, um toque para copiar.",
+    "eyebrow": "Ferramentas para iPhone",
+    "heading": "Gerador de Texto Vaporwave",
+    "subheading": "Transforme texto em ｖａｐｏｒｗａｖｅ — letras fullwidth, espaçamento estético amplo e decorações retrô para bios e legendas.",
+    "intro": [
+      "Texto vaporwave parece uma memória da internet antiga: letras fullwidth largas, espaçamento generoso, um toque de city pop japonês e Windows 95. Vem do movimento musical e artístico vaporwave e virou uma abreviação visual de nostalgia, madrugadas e climas lo-fi — e é por isso que domina bios estéticas, legendas e nomes de playlists.",
+      "Digite uma vez e seu texto é convertido ao vivo para Unicode fullwidth — cada letra fica larga, cada espaço vira um espaço ideográfico. Ative o espaçamento estético para o visual clássico A E S T H E T I C com espaços entre as letras, e adicione decorações retrô para o tratamento completo ｡･:*:･ﾟ★.",
+      "O resultado é texto Unicode simples, então pode ser colado no Instagram, TikTok, Discord e iMessage e aparece igual em todos os lugares. É melhor de ler em explosões curtas: um nome, um clima, um título de playlist — um parágrafo inteiro de texto fullwidth é uma vibe, mas cansativa."
+    ],
+    "howToTitle": "Como criar texto vaporwave",
+    "howToSteps": [
+      {
+        "title": "Digite seu texto",
+        "detail": "Digite uma palavra, nome ou frase curta."
+      },
+      {
+        "title": "Veja-o alargar",
+        "detail": "A conversão para fullwidth acontece ao vivo."
+      },
+      {
+        "title": "Ative o espaçamento",
+        "detail": "Adicione espaçamento de letras A E S T H E T I C e decorações retrô se quiser."
+      },
+      {
+        "title": "Copie e cole",
+        "detail": "Copie o resultado e cole-o em qualquer app."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "O que torna um texto vaporwave",
+        "paragraphs": [
+          "Dois ingredientes: formas fullwidth e ar. Letras fullwidth (Ａ, ａ) são variantes Unicode projetadas para se alinhar a grades de caracteres do leste asiático — cada uma ocupa largura dupla, o que dá ao texto vaporwave sua sensação lenta, ampla e de computador retrô. O espaço ideográfico entre palavras é mais largo que um espaço normal, aumentando a deriva.",
+          "Espaçamento estético — um espaço entre cada letra — estica a palavra ainda mais, e decorações emprestadas da cultura kaomoji (｡･ﾟ★) a emolduram como uma capa de álbum. Juntas, elas são lidas como nostalgia de propósito."
+        ]
+      },
+      {
+        "heading": "Onde texto vaporwave pertence",
+        "paragraphs": [
+          "Bios, nomes de exibição, títulos de playlists, legendas e status do Discord são o lar natural. Combina lindamente com gradientes de pôr do sol, imagens retrô e playlists lo-fi — todo o ecossistema estético de onde veio.",
+          "Mantenha-o curto e use com moderação: uma linha vaporwave é uma declaração, uma página é cansativa. E, como todos os estilos Unicode, pode confundir leitores de tela, então mantenha informações importantes em texto simples."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "Um clima",
+        "output": "ｌａｔｅ ｎｉｇｈｔ",
+        "note": "A clássica linha vaporwave."
+      },
+      {
+        "input": "Espaçamento estético",
+        "output": "Ａ Ｅ Ｓ Ｔ Ｈ Ｅ Ｔ Ｉ Ｃ",
+        "note": "Amplo e lento, de propósito."
+      },
+      {
+        "input": "Um título de playlist",
+        "output": "｡･:*:･ﾟ★ ｃｈｉｌｌ ｗａｖｅｓ ★｡･:*:･ﾟ",
+        "note": "Tratamento retrô completo."
+      }
+    ],
+    "tips": [
+      "Frases curtas funcionam melhor — nomes, climas e títulos, não parágrafos.",
+      "O espaçamento estético dobra a largura — confira se cabe na sua bio antes de confirmar.",
+      "Decorações ficam melhores em sua própria linha, emoldurando o texto.",
+      "Combine com a ferramenta Símbolos Estéticos para divisórias e molduras combinando.",
+      "Mantenha informações importantes em texto simples — estilos Unicode podem confundir leitores de tela."
+    ],
+    "faqs": [
+      {
+        "question": "O que é texto vaporwave?",
+        "answer": "Texto convertido em letras Unicode fullwidth com espaçamento amplo, estilizado a partir do movimento artístico e musical vaporwave — como ｖａｐｏｒｗａｖｅ."
+      },
+      {
+        "question": "Texto vaporwave funciona no meu iPhone?",
+        "answer": "Sim — é texto Unicode simples e pode ser colado no iMessage, Instagram, TikTok e Discord."
+      },
+      {
+        "question": "Por que texto vaporwave é tão largo?",
+        "answer": "Letras fullwidth ocupam largura dupla, e o espaço ideográfico é mais largo que o normal — essa largura é a estética."
+      },
+      {
+        "question": "Posso usar texto vaporwave no meu nome de usuário?",
+        "answer": "Nomes de exibição, sim. Os @ da maioria das plataformas só permitem caracteres padrão."
+      },
+      {
+        "question": "O Gerador de Texto Vaporwave é gratuito?",
+        "answer": "Sim — gratuito e ilimitado, sem cadastro, e tudo funciona no seu navegador."
+      }
+    ],
+    "searchIntent": "Quem pesquisa esta ferramenta quer criar texto estético vaporwave com letras largas fullwidth e espaçamento amplo para bios, nomes de exibição e títulos de playlists.",
+    "keywords": [
+      "texto vaporwave",
+      "gerador de texto vaporwave",
+      "texto aesthetic",
+      "letras fullwidth",
+      "texto vaporwave copiar e colar",
+      "fonte vaporwave"
+    ]
+  },
+  "strikethrough-text-generator": {
+    "name": "Gerador de Texto Tachado",
+    "metaTitle": "Gerador de Texto Tachado — Texto Riscado, Sublinhado e Cortado | AllWordTools",
+    "metaDescription": "Adicione efeitos de tachado, sublinhado, sublinhado duplo e corte a qualquer texto. 4 estilos, pré-visualização ao vivo, um toque para copiar cada um.",
+    "eyebrow": "Ferramentas para iPhone",
+    "heading": "Gerador de Texto Tachado",
+    "subheading": "Risque, sublinhe ou corte seu texto — quatro efeitos de linha para bios, chats e legendas, cada um a um toque da sua área de transferência.",
+    "intro": [
+      "Às vezes, a linha através da palavra é a piada: um 'erro' que fica visível, um preço riscado, um pensamento corrigido no meio da frase. O teclado do iPhone não tem botão de tachado para texto simples, e a maioria dos apps de chat também não — mas o Unicode tem, com marcas combinadas que desenham uma linha através, abaixo ou sobre cada letra.",
+      "Digite uma vez e quatro estilos são gerados ao vivo: Tachado (uma linha através de cada letra), Sublinhado (uma linha abaixo), Sublinhado Duplo (duas linhas abaixo) e Corte (um corte diagonal). Cada um tem seu próprio botão de copiar, então você pega exatamente o efeito que quer.",
+      "Os efeitos são marcas combinadas Unicode ligadas às suas letras, então o resultado é texto simples que pode ser colado no iMessage, Instagram, Discord, Notas e em qualquer outro lugar. Continua editável e selecionável — diferente de uma captura de tela de texto riscado."
+    ],
+    "howToTitle": "Como criar texto tachado",
+    "howToSteps": [
+      {
+        "title": "Digite seu texto",
+        "detail": "Digite uma palavra, frase ou sentença."
+      },
+      {
+        "title": "Compare os estilos",
+        "detail": "Tachado, Sublinhado, Sublinhado Duplo e Corte são gerados ao vivo."
+      },
+      {
+        "title": "Copie um estilo",
+        "detail": "Toque no botão Copiar do efeito que você quer."
+      },
+      {
+        "title": "Cole em qualquer lugar",
+        "detail": "Cole em qualquer app — as linhas viajam com o texto."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Como os efeitos de linha funcionam",
+        "paragraphs": [
+          "Cada efeito é uma marca combinada Unicode: U+0336 desenha um traço curto através do caractere anterior, U+0332 o sublinha, U+0333 o sublinha duas vezes e U+0337 o corta diagonalmente. O gerador liga a marca a cada letra, para que a linha corra continuamente por toda a palavra.",
+          "Como as marcas fazem parte do texto, o efeito sobrevive a copiar, colar, pesquisar e sincronizar — não é formatação, são caracteres. É também por isso que funciona em apps sem nenhuma ferramenta de formatação."
+        ]
+      },
+      {
+        "heading": "Onde efeitos de linha brilham",
+        "paragraphs": [
+          "O tachado é a estrela: correções que ficam visíveis ('I love Mondays' com 'love' riscado), preços riscados em posts de promoção e a clássica piada autoconsciente. O sublinhado adiciona ênfase em lugares de texto simples, e o corte dá ao texto uma sensação de documento confidencial censurado.",
+          "Use-os em explosões curtas. Um parágrafo inteiro de tachado é difícil de ler — o que às vezes é a piada, mas raramente é o objetivo."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "Uma correção visível",
+        "output": "I s̶t̶r̶i̶k̶e̶ love Mondays",
+        "note": "O erro continua parte da piada."
+      },
+      {
+        "input": "Um preço em promoção",
+        "output": "̶$̶5̶0̶ $25",
+        "note": "Preços riscados em texto simples."
+      },
+      {
+        "input": "Ênfase",
+        "output": "U̲n̲d̲e̲r̲l̲i̲n̲e̲d̲",
+        "note": "Sublinhado onde não existe formatação."
+      }
+    ],
+    "tips": [
+      "Tachado funciona melhor em frases curtas — a piada chega mais rápido.",
+      "Sublinhado é o efeito mais legível para textos mais longos.",
+      "As linhas são caracteres, então sobrevivem a copiar, colar e pesquisar.",
+      "Teste no seu app de destino — algumas fontes exibem linhas combinadas levemente deslocadas.",
+      "Para efeitos de linha caóticos, experimente o Gerador de Texto Zalgo."
+    ],
+    "faqs": [
+      {
+        "question": "Como faço texto tachado no iPhone?",
+        "answer": "O teclado do iPhone não tem botão de tachado para texto simples. Esta ferramenta adiciona marcas combinadas Unicode que desenham a linha — copie o resultado e cole-o em qualquer lugar."
+      },
+      {
+        "question": "Texto tachado funciona no Instagram e no WhatsApp?",
+        "answer": "Sim — o efeito faz parte do próprio texto, então aparece em todos os apps com suporte a Unicode."
+      },
+      {
+        "question": "Qual é a diferença entre os quatro estilos?",
+        "answer": "Tachado desenha através das letras, Sublinhado abaixo delas, Sublinhado Duplo duas linhas abaixo, e Corte corta diagonalmente. Cada um usa uma marca combinada diferente."
+      },
+      {
+        "question": "Posso tachar apenas uma palavra em uma frase?",
+        "answer": "Sim — gere o efeito apenas para aquela palavra e cole-a na sua frase entre palavras normais."
+      },
+      {
+        "question": "O Gerador de Texto Tachado é gratuito?",
+        "answer": "Sim — gratuito e ilimitado, sem cadastro, e tudo funciona no seu navegador."
+      }
+    ],
+    "searchIntent": "Quem pesquisa esta ferramenta quer riscar, sublinhar ou cortar palavras em texto simples — para correções visíveis, preços riscados e piadas — em apps sem botão de formatação.",
+    "keywords": [
+      "texto tachado",
+      "gerador de texto tachado",
+      "riscar texto copiar",
+      "texto riscado whatsapp",
+      "sublinhado unicode",
+      "como tachar texto no iphone"
+    ]
+  },
+  "mirror-text-generator": {
+    "name": "Gerador de Texto Espelhado",
+    "metaTitle": "Gerador de Texto Espelhado — Inverta e Espelhe Seu Texto | AllWordTools",
+    "metaDescription": "Inverta e espelhe seu texto: palavras ao contrário e letras espelhadas para bios, legendas e mensagens divertidas. Pré-visualização ao vivo, um toque para copiar.",
+    "eyebrow": "Ferramentas para iPhone",
+    "heading": "Gerador de Texto Espelhado",
+    "subheading": "Vire seu texto ao contrário — palavras invertidas e letras espelhadas para bios, legendas e mensagens que fazem as pessoas olharem duas vezes.",
+    "intro": [
+      "Texto espelhado é um pequeno truque de mágica: palavras que são lidas ao contrário, letras viradas como se vistas em um espelho. Transforma um nome de exibição em um quebra-cabeça, uma legenda em uma segunda olhada e uma mensagem em um jogo — o leitor precisa se esforçar, e esse esforço é a diversão.",
+      "Este gerador oferece dois resultados a partir de uma entrada. Texto Invertido vira a ordem dos caracteres — 'hello' vira 'olleh'. Texto Espelhado vai além, invertendo a ordem e trocando letras por suas formas espelhadas Unicode onde existem (b vira d, p vira q), para que o resultado pareça refletido em vidro.",
+      "Uma nota honesta: glifos espelhados verdadeiros não existem para cada letra no Unicode, então o resultado espelhado usa as formas mais próximas disponíveis e deixa o resto invertido. O resultado é lido como texto espelhado em espírito e aparência — que é exatamente como toda ferramenta de texto espelhado funciona."
+    ],
+    "howToTitle": "Como espelhar seu texto",
+    "howToSteps": [
+      {
+        "title": "Digite seu texto",
+        "detail": "Digite uma palavra, nome ou frase curta."
+      },
+      {
+        "title": "Compare os resultados",
+        "detail": "Texto Invertido vira a ordem; Texto Espelhado vira a ordem e as formas das letras."
+      },
+      {
+        "title": "Copie um",
+        "detail": "Toque no botão Copiar da versão de que você gostar."
+      },
+      {
+        "title": "Cole em qualquer lugar",
+        "detail": "Cole em bios, legendas, nomes ou chats."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Invertido vs espelhado",
+        "paragraphs": [
+          "Texto invertido é simples: a sequência é escrita ao contrário. É fácil de decodificar e funciona perfeitamente em todos os lugares. Texto espelhado adiciona trocas de formas de letras sobre a inversão, então letras individuais também ficam viradas para o outro lado — mais perto de uma imagem de espelho verdadeira e mais difícil de ler à primeira vista.",
+          "Qual usar depende do efeito que você quer. Invertido é o quebra-cabeça legível; espelhado é o truque visual. Para nomes de exibição, espelhado parece mais marcante; para mensagens, invertido é mais amigável para o leitor."
+        ]
+      },
+      {
+        "heading": "Onde texto espelhado funciona",
+        "paragraphs": [
+          "Nomes de exibição, bios, legendas, convites de festa e mensagens divertidas são o lar natural. Texto espelhado é uma novidade — encantador em doses pequenas, cansativo em doses grandes — então mantenha-o em nomes, aberturas e piadas finais.",
+          "Evite texto espelhado em qualquer lugar onde clareza importa: direções, instruções, mensagens profissionais e qualquer coisa que leitores de tela precisem ler. A piada é que é difícil de ler, então use-o onde esse é o objetivo."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "Invertido",
+        "output": "'hello' → 'olleh'",
+        "note": "A simples virada ao contrário."
+      },
+      {
+        "input": "Espelhado",
+        "output": "'hello' → 'ollɘh'",
+        "note": "Invertido, com formas de letras viradas."
+      },
+      {
+        "input": "Um nome de exibição",
+        "output": "'alex' → 'xɘlɒ'",
+        "note": "Nomes ficam ótimos espelhados."
+      }
+    ],
+    "tips": [
+      "Palavras curtas espelham melhor — frases longas ficam difíceis de decodificar.",
+      "Espelhado é o truque visual; invertido é o quebra-cabeça legível — escolha pelo público.",
+      "Algumas letras não têm forma espelhada e ficam invertidas — isso é normal.",
+      "Teste no seu app de destino — algumas fontes exibem glifos espelhados de forma estranha.",
+      "Para mais brincadeiras com letras, experimente o Gerador de Texto Estranho."
+    ],
+    "faqs": [
+      {
+        "question": "Qual é a diferença entre texto invertido e espelhado?",
+        "answer": "Invertido vira a ordem dos caracteres. Espelhado vira a ordem E troca letras por formas espelhadas onde o Unicode as tem, para parecer refletido."
+      },
+      {
+        "question": "Por que nem todas as letras viram no modo espelhado?",
+        "answer": "O Unicode tem formas espelhadas apenas para algumas letras. O resto é invertido na ordem, mas mantém a forma normal — é assim que todas as ferramentas de texto espelhado funcionam."
+      },
+      {
+        "question": "Texto espelhado funciona no meu iPhone?",
+        "answer": "Sim — é texto Unicode simples e pode ser colado no iMessage, Instagram, TikTok e Discord."
+      },
+      {
+        "question": "Posso usar texto espelhado no meu nome de usuário?",
+        "answer": "Nomes de exibição, sim. Os @ da maioria das plataformas só permitem caracteres padrão."
+      },
+      {
+        "question": "O Gerador de Texto Espelhado é gratuito?",
+        "answer": "Sim — gratuito e ilimitado, sem cadastro, e tudo funciona no seu navegador."
+      }
+    ],
+    "searchIntent": "Quem pesquisa esta ferramenta quer inverter ou espelhar texto para nomes de exibição, bios e mensagens divertidas que exigem uma segunda olhada.",
+    "keywords": [
+      "texto espelhado",
+      "gerador de texto espelhado",
+      "texto invertido",
+      "texto ao contrário",
+      "espelhar texto copiar",
+      "letras espelhadas"
+    ]
+  },
+  "aesthetic-symbols": {
+    "name": "Símbolos Estéticos",
+    "metaTitle": "Símbolos Estéticos — Copiar e Colar para Bios e Legendas | AllWordTools",
+    "metaDescription": "Símbolos estéticos, divisórias e molduras decorativas para bios e legendas do iPhone: estrelas, corações, laços, brilhos, luas e sequências de divisórias completas.",
+    "eyebrow": "Ferramentas para iPhone",
+    "heading": "Símbolos Estéticos",
+    "subheading": "Símbolos estéticos, divisórias e molduras decorativas — estrelas, corações, laços, brilhos e luas — para bios e legendas com visual cuidadoso.",
+    "intro": [
+      "Bios estéticas são construídas com símbolos: a estrela que emoldura um nome, a divisória que separa linhas da bio, o laço que suaviza uma legenda, a lua que define um clima. O teclado do iPhone quase não tem nenhum deles, então o visual cuidadoso que todos querem exige uma biblioteca — esta.",
+      "Navegue por estrelas e brilhos, corações, laços e flores, luas e natureza, setas e linhas, colchetes e molduras, e sequências de divisórias completas prontas para colar como estão. Toque em qualquer símbolo para copiá-lo ou monte uma sequência decorada na caixa de composição. Sequências de divisórias são mostradas em largura total para que você veja exatamente como ficarão na sua bio.",
+      "Tudo é Unicode simples, então pode ser colado no Instagram, TikTok, Pinterest e iMessage e aparece no estilo limpo da Apple no iPhone. A diferença entre esta biblioteca e a biblioteca de Símbolos para iPhone é o foco: esta é a prateleira estética selecionada — divisórias, molduras e decorações — enquanto Símbolos para iPhone é o conjunto completo de símbolos."
+    ],
+    "howToTitle": "Como usar símbolos estéticos",
+    "howToSteps": [
+      {
+        "title": "Navegue pelas categorias",
+        "detail": "Estrelas, Corações, Laços, Luas, Divisórias, Molduras e mais."
+      },
+      {
+        "title": "Toque para copiar",
+        "detail": "Um toque copia qualquer símbolo ou sequência de divisória completa."
+      },
+      {
+        "title": "Ou componha",
+        "detail": "Monte uma sequência decorada na caixa de composição e copie tudo de uma vez."
+      },
+      {
+        "title": "Cole na sua bio",
+        "detail": "Coloque símbolos e divisórias no Instagram, TikTok ou qualquer bio."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Montando uma bio estética",
+        "paragraphs": [
+          "A fórmula é simples: um nome emoldurado, linhas divisórias entre as linhas da bio e um ou dois símbolos de destaque por linha. Comece com uma moldura de colchetes ao redor do seu nome, separe seções com uma sequência de divisória e finalize linhas com uma estrelinha ou brilho. Moderação é a estética — três símbolos por linha é cuidadoso, dez é bagunça.",
+          "Divisórias fazem o trabalho estrutural: transformam um bloco de texto da bio em linhas limpas sem nenhuma ferramenta de formatação. Escolha um estilo de divisória e use-o com consistência — consistência é o que faz uma bio parecer projetada em vez de apenas decorada."
+        ]
+      },
+      {
+        "heading": "Símbolos vs emojis em bios",
+        "paragraphs": [
+          "Símbolos e emojis desempenham papéis diferentes. Emojis são coloridos e chamativos; símbolos são monocromáticos e discretos. Uma bio construída com símbolos parece minimalista e editorial, enquanto bios cheias de emojis parecem divertidas e ocupadas. As bios mais elegantes misturam ambos: símbolos para estrutura, um ou dois emojis para personalidade.",
+          "Símbolos também sobrevivem onde emojis não sobrevivem: alguns campos e apps mais antigos removem emojis, mas mantêm símbolos Unicode. Na dúvida, símbolos são a decoração mais segura."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "Um nome emoldurado",
+        "output": "꒰୨୧꒱ luna ꒰୨୧꒱",
+        "note": "Molduras de colchetes fazem nomes parecerem projetados."
+      },
+      {
+        "input": "Uma divisória de bio",
+        "output": "━━━✦❤✦━━━",
+        "note": "Uma divisória, linhas limpas."
+      },
+      {
+        "input": "Uma legenda suave",
+        "output": "✧･ﾟ: *✧･ﾟ:* boas vibrações *:･ﾟ✧*:･ﾟ✧",
+        "note": "Molduras de brilhos para legendas."
+      }
+    ],
+    "tips": [
+      "Escolha um estilo de divisória e use-o com consistência em toda a sua bio.",
+      "Três símbolos por linha é cuidadoso; dez é bagunça.",
+      "Use símbolos para estrutura e um emoji para personalidade.",
+      "Pré-visualize a divisória em largura total aqui — ela fica do mesmo jeito na sua bio.",
+      "Para o conjunto completo de símbolos, mude para a biblioteca de Símbolos para iPhone."
+    ],
+    "faqs": [
+      {
+        "question": "Qual é a diferença entre Símbolos Estéticos e Símbolos para iPhone?",
+        "answer": "Símbolos Estéticos é a prateleira selecionada: divisórias, molduras e marcas decorativas para bios. Símbolos para iPhone é a biblioteca completa com mais de 200 símbolos em todas as categorias."
+      },
+      {
+        "question": "Símbolos estéticos funcionam na minha bio do Instagram?",
+        "answer": "Sim — são texto Unicode simples e podem ser colados em bios, legendas, nomes de exibição e comentários."
+      },
+      {
+        "question": "Por que alguns símbolos aparecem como caixas?",
+        "answer": "Símbolos bem novos ou pouco comuns precisam de uma versão atual do iOS. Tudo aqui tem amplo suporte; atualizar o iOS corrige a exibição como caixa."
+      },
+      {
+        "question": "Posso usar divisórias em bios do TikTok também?",
+        "answer": "Sim — divisórias são texto simples e funcionam no TikTok, Pinterest, Discord e em qualquer outro lugar."
+      },
+      {
+        "question": "A biblioteca de Símbolos Estéticos é gratuita?",
+        "answer": "Sim — gratuita e ilimitada, sem cadastro, e tudo funciona no seu navegador."
+      }
+    ],
+    "searchIntent": "Quem pesquisa esta ferramenta quer símbolos estéticos, divisórias e molduras prontos para copiar e colar em bios e legendas do Instagram e TikTok com visual cuidadoso.",
+    "keywords": [
+      "símbolos estéticos",
+      "símbolos para bio",
+      "divisórias para bio instagram",
+      "símbolos aesthetic copiar",
+      "molduras para nome",
+      "símbolos bonitos para bio"
+    ]
+  },
+  "iphone-text-replacement": {
+    "name": "Substituição de Texto do iPhone",
+    "metaTitle": "Substituição de Texto do iPhone — Monte Sua Lista de Atalhos | AllWordTools",
+    "metaDescription": "Monte sua lista de atalhos de substituição de texto do iPhone: adicione pares de frase + atalho, salve-os, copie a lista e configure-os nos ajustes de Teclado do iOS com nosso guia passo a passo.",
+    "eyebrow": "Ferramentas para iPhone",
+    "heading": "Substituição de Texto do iPhone",
+    "subheading": "Monte sua lista de substituição de texto do iPhone — pares de frase e atalho, salvos no seu navegador, prontos para copiar para os ajustes de Teclado do iOS.",
+    "intro": [
+      "Substituição de Texto é o superpoder mais subutilizado do iPhone: digite 'omw' e seu iPhone expande para 'On my way!', digite 'eml' e seu endereço de e-mail aparece, digite 'addr' e seu endereço completo se digita sozinho. Fica em Ajustes → Geral → Teclado → Substituição de Texto e, uma vez configurado, economiza centenas de toques por semana.",
+      "Esta ferramenta é sua bancada para montar essa lista. Adicione pares de frase e atalho, veja todos em um só lugar e copie a lista inteira em um formato limpo quando estiver pronto para digitá-los no seu iPhone. Seis pares iniciais estão pré-carregados — os clássicos de que todos precisam — e sua lista é salva automaticamente no seu navegador, para que você possa montá-la ao longo de dias.",
+      "Uma limitação honesta, dita claramente: o iOS não permite importar listas de atalhos da web, então cada par deve ser digitado uma vez em Ajustes manualmente. Esta ferramenta torna isso indolor — sua lista, preparada e formatada, com um guia de configuração passo a passo — mas a entrada final é um trabalho manual de um minuto no seu iPhone."
+    ],
+    "howToTitle": "Como montar sua lista de atalhos",
+    "howToSteps": [
+      {
+        "title": "Adicione pares",
+        "detail": "Digite uma frase ('On my way!') e um atalho ('omw') e adicione-o à sua lista."
+      },
+      {
+        "title": "Comece pelos clássicos",
+        "detail": "Seis pares iniciais estão pré-carregados — edite ou exclua qualquer um que não queira."
+      },
+      {
+        "title": "Copie a lista",
+        "detail": "Copie todos os pares como linhas limpas de 'atalho → frase' ou baixe-os como .txt."
+      },
+      {
+        "title": "Configure no iPhone",
+        "detail": "Siga o guia passo a passo: Ajustes → Geral → Teclado → Substituição de Texto → + para cada par."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Atalhos que valem a pena criar",
+        "paragraphs": [
+          "Os clássicos se pagam imediatamente: seu endereço de e-mail, número de telefone, endereço residencial, 'On my way!', 'Chegando 5 minutos atrasado', seu nome completo e as frases que você digita diariamente no trabalho. Atalhos funcionam melhor quando são curtos, memoráveis e impossíveis de digitar por acidente — abreviações minúsculas que você nunca digitaria como palavras reais.",
+          "Usuários avançados adicionam trechos de código, respostas prontas, hashtags, sequências de emojis e até assinaturas de várias linhas. Se você digita algo mais de duas vezes por semana, merece um atalho."
+        ]
+      },
+      {
+        "heading": "Atalhos que causam problemas",
+        "paragraphs": [
+          "Evite atalhos que são palavras reais ou erros de digitação comuns — um atalho 'the' expandirá toda vez que você digitar 'the'. Mantenha atalhos distintos: dois a quatro caracteres, minúsculos, com uma combinação de letras que você nunca digita naturalmente.",
+          "Também evite atalhos que entram em conflito com a correção automática: se o iOS continua expandindo algo que você não queria, exclua ou renomeie esse par. Uma lista limpa de vinte bons atalhos supera uma lista bagunçada de duzentos."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "input": "Atalho de e-mail",
+        "output": "'eml' → 'you@example.com'",
+        "note": "Seu e-mail em três toques."
+      },
+      {
+        "input": "Chegando atrasado",
+        "output": "'omw' → 'On my way!'",
+        "note": "O atalho mais famoso de todos."
+      },
+      {
+        "input": "Endereço",
+        "output": "'addr' → '123 Main Street, Springfield'",
+        "note": "Seu endereço, na hora."
+      }
+    ],
+    "tips": [
+      "Use abreviações minúsculas que você nunca digitaria como palavras reais.",
+      "Comece com os seis pares iniciais e adicione suas próprias frases diárias.",
+      "Sua lista é salva automaticamente no navegador — monte-a ao longo de dias.",
+      "Mantenha a lista organizada: vinte bons atalhos superam duzentos bagunçados.",
+      "Atalhos sincronizam entre seus aparelhos Apple pelo iCloud depois de configurados."
+    ],
+    "faqs": [
+      {
+        "question": "O que é Substituição de Texto do iPhone?",
+        "answer": "Um recurso do iOS que expande uma abreviação curta que você digita em uma frase completa — 'omw' vira 'On my way!'. Fica em Ajustes → Geral → Teclado → Substituição de Texto."
+      },
+      {
+        "question": "Esta ferramenta pode adicionar atalhos ao meu iPhone automaticamente?",
+        "answer": "Não — o iOS não permite importação de atalhos pela web. Esta ferramenta prepara sua lista e as etapas de configuração; você digita cada par uma vez em Ajustes, o que leva cerca de um minuto no total."
+      },
+      {
+        "question": "Atalhos de substituição de texto sincronizam com meu iPad e Mac?",
+        "answer": "Sim — depois de configurados, os atalhos sincronizam entre seus aparelhos Apple pelo iCloud."
+      },
+      {
+        "question": "Por que um atalho expande quando eu não quero?",
+        "answer": "Seu atalho provavelmente é uma palavra real ou uma sequência comum. Renomeie-o para algo que você nunca digitaria naturalmente."
+      },
+      {
+        "question": "O construtor de Substituição de Texto do iPhone é gratuito?",
+        "answer": "Sim — gratuito e ilimitado, sem cadastro, e tudo funciona no seu navegador."
+      }
+    ],
+    "searchIntent": "Quem pesquisa esta ferramenta quer montar uma lista de atalhos de substituição de texto para o iPhone — frases e abreviações — pronta para configurar nos ajustes de Teclado do iOS.",
+    "keywords": [
+      "substituição de texto iphone",
+      "atalhos de texto iphone",
+      "text replacement iphone",
+      "criar atalhos teclado iphone",
+      "omw iphone atalho",
+      "frases automáticas iphone"
+    ]
   }
 }
